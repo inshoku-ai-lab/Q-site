@@ -1,0 +1,101 @@
+---
+id: 5346
+title: "ゴアに目覚める話２４（放浪記１４１）"
+slug: "a-story-of-awakening-to-gore-24-autobiography-141"
+date: "2022-04-18 07:30:00"
+status: "publish"
+original_url: "https://qryptraveller.com/a-story-of-awakening-to-gore-24-autobiography-141/"
+featured_image_id: "5314"
+categories:
+  - "放浪記"
+tags:
+images:
+flags: "no-images"
+---
+
+[show\_for\_guests\_and\_members]
+
+--- この記事の後半はプライベートな情報があるために完全版でのみ公開しています---
+
+[プレミアムアカウントにアップグレードして完全版を読む](https://qryptraveller.com/index1/travel-blog/membership-join/)
+
+.upgrade-button {
+display: inline-block;
+padding: 10px 20px;
+background-color: #6d8e5d;
+color: white;
+text-decoration: none;
+border-radius: 8px;
+font-weight: bold;
+transition: background-color 0.3s;
+}
+.upgrade-button:hover {
+background-color: #587746;
+}
+[前の記事](https://qryptraveller.com/a-story-of-awakening-to-gore-23-autobiography-140/)　｜　[次の記事](https://qryptraveller.com/a-story-of-awakening-to-gore-25-autobiography-142/)
+[/show\_for\_guests\_and\_members]
+[um\_show\_content roles='um\_custom\_role\_1']
+
+（以下内容転載禁止、法的対処有。）
+
+## 木のフロア
+
+僕は迷う事なくまっすぐにダンスフロアへ向かい、スピーカー前に陣取り、上がりきったテンションを全身で表現する。
+
+水平線に沈む夕日が美しい。
+
+沈む夕日を見ながら気持ちよく踊り続ける。
+
+木のフロアは今までに踊っていたビーチや土やコンクリートなどのフロアよりも断然に踊りやすい。
+
+ビーチのように足が埋まることもなく、土のように凸凹したり、砂埃が上がることもなく、コンクリートのように足にダメージが跳ね返ることも無かった。
+
+そのフロアの踊りやすさは、パーティーにも反映されていて、誰もが大きく体を揺らしている。
+
+## 冬眠
+
+音楽とLSDとダンスの組み合わせでトランス状態へと入って行った僕はただひたすらに踊り続ける。
+
+LSDが効いてくるにつれて、体の速度も意識の速度も上がり続ける。
+
+数時間ほど踊り続けたところで限界がきた。
+
+体力の限界ではなく、意識の速度に体がついていける限界という意味だ。
+
+意識の速度が処理できる範囲を超えてオーバーロードしていく。
+
+体はもうそのスピードに追いつくことが出来ず、緩慢にしか動かすことが出来ない。
+
+もちろん、こういう状態になることは分かっていて半分の量のLSDを摂取した。
+
+意識のさらに奥の限界を見てみたいと思う旅人の好奇心が、リスクを恐れる心よりもはるかに上回っていた。
+
+幻覚でフラフラになりながら、チャイ屋へと戻る。
+
+そのままチャイ屋のゴザの上に横になり、意識の超特急が過ぎ去るのを待つ。
+
+寝転んでいる間にもLSDの効きはどんどんと強まっていき、幻覚、幻聴が押し寄せてきて感覚とインスピレーションの海に放り込まれる。
+
+意識が朦朧として現実が意識に合わせて踊りだす。
+
+## 火事
+
+半目を開けて離れたところにあるチャイ屋をぼうっと見ていると、チャイママと呼ばれるチャイ屋のおばさんが石油ストーブに火をつけようとしている。
+
+着けた火は大きく燃え上がり、周囲を大きく照らした。
+
+突然燃え上がった炎に驚いたチャイママは驚いて仰け反りながら火と格闘している。
+
+その炎は大きく、チャイママは制御しきれずに火事になるかと思われた。
+
+意識がフラフラになりながらも大丈夫なのかと思い、起き上がって見直すと、どうにも様子が違う。
+
+良く目を凝らすが、現実と幻覚の境目がはっきりしない。
+
+だがはっきりしたのは、周りにいる誰も動じていずにチャイを飲みながら座っていることだ。
+
+炎が大きく上がったのは事実だが、実は通常の範囲で、僕の脳の中の思いこみが、火事になりそうでアタフタしているチャイママとして脳内に映し出していただけだった。
+
+超スピードの意識でそれを理解した僕は、いかに人間の脳が思い込みを作り出し、勘違いによるドラマを作り出しているのかを理解した。
+
+[前の記事](https://qryptraveller.com/a-story-of-awakening-to-gore-23-autobiography-140/)　｜　[次の記事](https://qryptraveller.com/a-story-of-awakening-to-gore-25-autobiography-142/)[/um\_show\_content]

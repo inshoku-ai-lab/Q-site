@@ -1,0 +1,95 @@
+---
+id: 5362
+title: "ゴアに目覚める話２８（放浪記１４５）"
+slug: "a-story-of-awakening-to-gore-28-autobiography-145"
+date: "2022-04-22 07:50:00"
+status: "publish"
+original_url: "https://qryptraveller.com/a-story-of-awakening-to-gore-28-autobiography-145/"
+featured_image_id: "5318"
+categories:
+  - "放浪記"
+tags:
+images:
+flags: "no-images"
+---
+
+[show\_for\_guests\_and\_members]
+
+--- この記事の後半はプライベートな情報があるために完全版でのみ公開しています---
+
+[プレミアムアカウントにアップグレードして完全版を読む](https://qryptraveller.com/index1/travel-blog/membership-join/)
+
+.upgrade-button {
+display: inline-block;
+padding: 10px 20px;
+background-color: #6d8e5d;
+color: white;
+text-decoration: none;
+border-radius: 8px;
+font-weight: bold;
+transition: background-color 0.3s;
+}
+.upgrade-button:hover {
+background-color: #587746;
+}
+[前の記事](https://qryptraveller.com/a-story-of-awakening-to-gore-27-autobiography-144/)　｜　[次の記事](https://qryptraveller.com/a-story-of-awakening-to-gore-29-autobiography-146/)
+[/show\_for\_guests\_and\_members]
+[um\_show\_content roles='um\_custom\_role\_1']
+
+（以下内容転載禁止、法的対処有。）
+
+## 休憩
+
+クリスマスのゴアギルのパーティーが終わった日は食事をとって眠りについた。
+
+限界まで酷使しきった脳と身体は一晩の睡眠では回復しきれず、軽い食事を挟んで２４時間ほど眠り続けることで回復した。
+
+回復した日は行きつけのレストランへ向かい、友人達とゴアギル体験を共有し合う。
+
+僕たちの意見は完全に一致していて、ゴアギルはとんでも無く凄いの一言だった。
+
+その神がかった体験は、僕たちをたった一度のパーティーでゴアトランス信者へと改宗させた。
+
+別になんの宗教を持っていたわけでもないが、ゴアトランスには何らかのものすごいパワーがあり、この世界をもっと深くに進んでみたいと思った。
+
+皆がなんらかの神秘体験的な感覚をゴアギルのパーティーで経験していたが、僕たちはその感動を表現する言葉を持っていなかった。
+
+そう言った感情を表現するのが恥ずかしいと感じていたのだ。
+
+だがその感覚は僕たちを捕らえて離さず、圧倒的な魅力を放って心の奥深くに輝いていた。
+
+## 年季の入った旅人
+
+この頃に印象的だった出会いがいくつかある。
+
+一つは、ビーチでのパーティーが終わったあとに、ゴアに何年も来ている貫禄のある西洋人のおじさん達とお茶をした事だ。
+
+Yさんがつたない英語で、ゴアにはよく来るのかと聞いた。
+
+一人目は、今回が８年目だと言う。次の人は、俺は１２年目だという。そして３人目は、２０年目だという。
+
+みんな揃って、始めてきた時から毎年休まずに来ているという。
+
+彼らは年季の入った旅人たちで、世界中を放浪したあとにゴアに辿り着き、ゴアトランスに出会い目覚めたと言う。
+
+以降はゴアが人生の中心に位置するようになり、毎年戻ってくるようになったらしい。
+
+僕たちはゴアへ初めて来て、その凄さに驚いていると言うと、ゴアへようこそ、と仲間に入れてくれた。
+
+彼らは僕たちからすると旅、人生、ゴアの諸先輩がたであり、そんな年季の入った旅人達に受け入れてもらえることが嬉しかった。
+
+## ゴアトランスとい言う道
+
+もう一人は近所へ引っ越してきた日本人の友人。
+
+彼はゴアへ来るのは初めてだが、日本ではゴアへ何度も行っている友人達とトランスのパーティーで遊んでいた。
+
+彼はその文化にどっぷりとはまっており、彼にとってのトランスパーティーは、人生をかける価値のあるものだと言う。
+
+そんな彼に僕の年齢を伝えると、その若さに驚いたと同時に、若くして人生の目的が見つかって良かったねと言われた。
+
+そう言われた時は何を言っているのか分からなかったが、クリスマスのゴアギルのパーティーを体験したあとには、彼の言っていたことの意味がなんとなく理解できる。
+
+僕は、既に体験してしまっていて、後戻りのできない道に一歩を踏み出してしまっていた。
+
+[前の記事](https://qryptraveller.com/a-story-of-awakening-to-gore-27-autobiography-144/)　｜　[次の記事](https://qryptraveller.com/a-story-of-awakening-to-gore-29-autobiography-146/)[/um\_show\_content]

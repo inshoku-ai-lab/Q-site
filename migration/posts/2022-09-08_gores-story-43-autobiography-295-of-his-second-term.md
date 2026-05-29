@@ -1,0 +1,82 @@
+---
+id: 6362
+title: "２期目のゴアの話４３（放浪記２９５）"
+slug: "gores-story-43-autobiography-295-of-his-second-term"
+date: "2022-09-08 09:59:00"
+status: "publish"
+original_url: "https://qryptraveller.com/gores-story-43-autobiography-295-of-his-second-term/"
+featured_image_id: "6330"
+categories:
+  - "放浪記"
+tags:
+images:
+flags: "no-images"
+---
+
+[show\_for\_guests\_and\_members]
+
+--- この記事の後半はプライベートな情報があるために完全版でのみ公開しています---
+
+[プレミアムアカウントにアップグレードして完全版を読む](https://qryptraveller.com/index1/travel-blog/membership-join/)
+
+.upgrade-button {
+display: inline-block;
+padding: 10px 20px;
+background-color: #6d8e5d;
+color: white;
+text-decoration: none;
+border-radius: 8px;
+font-weight: bold;
+transition: background-color 0.3s;
+}
+.upgrade-button:hover {
+background-color: #587746;
+}
+[前の記事](https://qryptraveller.com/gores-story-of-his-second-term-42-autobiography-294/)　｜　[次の記事](https://qryptraveller.com/gores-story-of-his-second-term-44-autobiography-296/)[/show\_for\_guests\_and\_members]
+[um\_show\_content roles='um\_custom\_role\_1']
+
+（以下内容転載禁止、法的対処有。）
+
+## 休暇
+
+大量のLSDによる、予期せぬ１週間の生まれ変わりの儀式が終わった後は、出来る限り静かに過ごすようにした。
+
+時期は４月の終わり、雨季の直前で気温は４０度近く、蒸すような暑さが漂っている。
+
+殆どの日本人の友人たちは次の土地へと移動して、ゴアに残っているのは非常に近しい友人たちだけとなった。
+
+ゴアの街全体には旅人の姿は殆どなく、滞在しているのは旅人というよりも、生活の拠点をゴアへと移したオールドヒッピー達ばかりとなっていた。
+
+## ナイン・バー
+
+野外のパーティーはもう無い。
+
+仮にあったとしても集まってくる人がいないので、あまり意味がない。
+
+それでも、ゴアトランスに脳髄をやられてしまった音キチガイたちはゴアへと居続けていた。
+
+そんな彼らが集まって来るのは、ナイン・バーと呼ばれるバーで、実質的にはお酒を飲むバーというよりも、踊るためのクラブといった感じだった。
+
+乾季だけ開いているので、屋根などは無く、半野外といったさまだ。
+
+ナイン・バーは海を見下ろす高台にあり、バーの端っこは崖っぷちになっていて、２０メートルほど真っ逆さまに下ったところには、岸壁に打ち寄せるアラビア海の荒波が見える。
+
+そこから見える水平線の真正面にデカデカとした夕日が沈んで行く。
+
+## 暗黙の了解
+
+その絶景の夕日が沈む２時間ほど前からナイン・バーでは音楽が鳴り始める。
+
+僕は先日のLSD体験で時間を超越したような体験をしたが、似たような体験をした人たちが作り上げてきたゴアは、時間の感覚は有って無いようなものだ。
+
+旅人達にとっての時間は、時計に合わせたものではなく、太陽に合わせたものだ。
+
+夕暮れ時が近づくと、ナイン・バーへと集まり、水平線に沈む夕日を眺めながら皆でチロムを回し吸いし、爆音で踊りながらトランス状態へと至る。
+
+ゴアのこういった場所はだいたいが警察のトップと癒着していて、売り上げの一部を献上する代わりにバー内で行われることに対して警察は介入しないことになっている。
+
+それは、旅人とバーの運営者と警察と地元住民の暗黙の了解なのだ。
+
+良くも悪くもそれぞれの利害関係が見事に一致し合い、絶妙な砂上の楼閣の上に幻の楽園を作り上げていた。
+
+[前の記事](https://qryptraveller.com/gores-story-of-his-second-term-42-autobiography-294/)　｜　[次の記事](https://qryptraveller.com/gores-story-of-his-second-term-44-autobiography-296/)[/um\_show\_content]

@@ -1,0 +1,76 @@
+---
+id: 5958
+title: "ヒマラヤの秋の話１６（放浪記２２１）"
+slug: "autumn-in-the-himalayas-16-autobiography-221"
+date: "2022-07-06 07:23:00"
+status: "publish"
+original_url: "https://qryptraveller.com/autumn-in-the-himalayas-16-autobiography-221/"
+featured_image_id: "5932"
+categories:
+  - "放浪記"
+tags:
+images:
+flags: "no-images"
+---
+
+[show\_for\_guests\_and\_members]
+
+--- この記事の後半はプライベートな情報があるために完全版でのみ公開しています---
+
+[プレミアムアカウントにアップグレードして完全版を読む](https://qryptraveller.com/index1/travel-blog/membership-join/)
+
+.upgrade-button {
+display: inline-block;
+padding: 10px 20px;
+background-color: #6d8e5d;
+color: white;
+text-decoration: none;
+border-radius: 8px;
+font-weight: bold;
+transition: background-color 0.3s;
+}
+.upgrade-button:hover {
+background-color: #587746;
+}
+[前の記事](https://qryptraveller.com/autumn-in-the-himalayas-15-autobiography-220/)　｜　[次の記事](https://qryptraveller.com/autumn-in-the-himalayas-17-autobiography-222/)[/show\_for\_guests\_and\_members]
+[um\_show\_content roles='um\_custom\_role\_1']
+
+（以下内容転載禁止、法的対処有。）
+
+## パールバティ・バレー
+
+僕の滞在していたマナリは大麻の名産地だが、インド最大の名産地はパールバティ・バレーに譲らなければならない。
+
+そこは、マナリの街からバスで南へ数時間下ったところにある谷で、数多くの村々が点在している。
+
+この谷の名前のパールバティはシヴァ神の奥さんの名前で、シヴァ派のサドゥーたちの聖地にもなっている。
+
+一般的に山はシヴァ神の男性性を表し、谷は女性性を表す。
+
+地形の陰陽を考えると納得いく話だと思う。
+
+この地は最上級大麻樹脂の産地で、世界中から好き者が集まってくる。
+
+その大麻のクオリティの秘密は東西に伸びる谷の形状が最適な形で大麻に日を当てるので良い大麻ができると言う話や、先祖代々何百年と大麻を育てて来た家系の歴史が関係しているとか、湿気やらシヴァのエネルギーやらなんだかんだと理由があるが、よくは分からない。
+
+だが、その質の高さは世界中に名を響かせていて、アムステルダムのコーヒーショップ（大麻喫煙所）などでは非常な高額で取引されている。
+
+## シヴァ派
+
+シヴァ派のサドゥーたちにとっては、チロムで大麻樹脂を吸うことは仕事のようなものであり、とにかく朝から晩まで吸いまくって酩酊し続けることで、意識を肉体世界から切り離し、覚醒することが出来ると考えている。
+
+そう言ったサドゥーたちの伝統があるので、この谷では実質的に大麻自由化が実施されており、谷の中で吸う分には問題になることはまず無い。
+
+大体のレストランで大麻を吸うことが出来るし、道沿いや広場や河沿いではサドゥーたちがチロムを蒸している。
+
+そして、そこには当然の如くシヴァ派に傾倒する旅人たちも混ざっている。
+
+旅人たちは道端でチロムを吸い、通りかかる警官に手を振って、一緒にチャイを飲んでは、また吸い始める。
+
+パールバティ・バレーはサドゥーの聖地でもあり、シヴァ派の旅人やヒッピーたちの聖地でもあった。
+
+ここでは旅人は地元の人に敬意を払っている限りは自由に振舞うことができ、ややこしいルールや規制は関係なかった。
+
+ヒマラヤにあるヒッピーの聖地と言うことはマナリと同じだが、パールバティにはインド人観光客が来ないので、より一層濃い旅人専門の独特な雰囲気を出していた。
+
+[前の記事](https://qryptraveller.com/autumn-in-the-himalayas-15-autobiography-220/)　｜　[次の記事](https://qryptraveller.com/autumn-in-the-himalayas-17-autobiography-222/)[/um\_show\_content]

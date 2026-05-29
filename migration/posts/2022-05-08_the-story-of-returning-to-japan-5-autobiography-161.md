@@ -1,0 +1,100 @@
+---
+id: 5639
+title: "日本へ帰国する話５（放浪記１６１）"
+slug: "the-story-of-returning-to-japan-5-autobiography-161"
+date: "2022-05-08 07:38:00"
+status: "publish"
+original_url: "https://qryptraveller.com/the-story-of-returning-to-japan-5-autobiography-161/"
+featured_image_id: "5603"
+categories:
+  - "放浪記"
+tags:
+images:
+flags: "no-images"
+---
+
+[show\_for\_guests\_and\_members]
+
+--- この記事の後半はプライベートな情報があるために完全版でのみ公開しています---
+
+[プレミアムアカウントにアップグレードして完全版を読む](https://qryptraveller.com/index1/travel-blog/membership-join/)
+
+.upgrade-button {
+display: inline-block;
+padding: 10px 20px;
+background-color: #6d8e5d;
+color: white;
+text-decoration: none;
+border-radius: 8px;
+font-weight: bold;
+transition: background-color 0.3s;
+}
+.upgrade-button:hover {
+background-color: #587746;
+}
+[前の記事](https://qryptraveller.com/the-story-of-returning-to-japan-4-autobiography-160/)　｜　[次の記事](https://qryptraveller.com/story-of-returning-to-japan-6-autobiography-162/)[/show\_for\_guests\_and\_members]
+[um\_show\_content roles='um\_custom\_role\_1']
+
+（以下内容転載禁止、法的対処有。）
+
+## 日本のパーティー
+
+日本に帰国してすぐに、ゴアの友人から連絡が来て、岐阜の山奥でゴアトランスのパーティーがあるから遊びに来いと言う誘いを受けた。
+
+まさかこんなに直ぐに日本のパーティーに出会えるとは思っていなかったので、嬉しい驚きだ。
+
+何人かのゴアの友人も集まってくると言う。
+
+日本では中学生の時に行った修学旅行以外では関西圏から出たことがない。
+
+日本を旅するのも楽しそうだ。
+
+パーティーのウェブサイトを通して、乗り合いの車を見つける。
+
+キャンプ道具などは何も持っていないが、一晩くらいは何とかなるだろう。
+
+## 岐阜へ
+
+車の運転手と連絡を取り合い、高速道路の近くで待ち合わせをして、車に乗り込んだ。
+
+車に同乗して話しながら岐阜へと向かう。
+
+出発してから１時間位した辺りで運転手の性格に疑問を持ち始めた。
+
+妙に自己中心的で、周りが見えていないような感じがするのだ。
+
+インドのゴアでの旅人との出会いは素晴らしいものばかりだったので、ゴアトランスのパーティーに行く人は、皆がLSDで覚醒して人格的にも成長しているのかと勝手に思っていたが、僕の期待は早速崩れ去った。
+
+僕がゴアのパーティーで感じた神聖さや意味深さみたいな物は彼から感じる事はなく、彼の発する言葉からは陳腐化された単なるドラッグパーティーのようなものが感じられた。
+
+## 日本の山
+
+パーティーは山の中のキャンプ場で開催されていた。
+
+新緑が生い茂る日本の山は美しい。
+
+乾燥した赤土のゴアの大地とは違って、湿気により少し冷える緑の山はまた違った輝きを持っていた。
+
+駐車場にはかなりの量の派手に着飾ったパーティー・ピープルがいて、日本にもこんなシーンがあったんだと感動した。
+
+ゴアの旅人のような土臭さは無く、小綺麗で蛍光色が多めなのが日本ぽいなぁと思った。
+
+一緒にパーティーに来た運転手の彼と爆音の鳴るパーティー会場を歩いていると、ゴアで一緒に遊んでいた友人カップルに出くわした。
+
+彼らはもう何年も世界中を旅していて、革細工を作って生活費を稼いでいる筋金入りのヒッピーノマドだ。
+
+彼らは後に革細工のブランドを立ち上げて、ゴアトランスの世界でトップブランドになり大金持ちになるが、この時点では器用な革細工師の旅人。
+
+彼らのテントで寛ぎながら旅の話を交わす。
+
+彼らが言うには日本でもゴアトランスのパーティーはいくつかあって、皆それなりに面白いけど、ゴアの感覚を持って来てはダメだと言う。
+
+ゴアのパーティーは異次元級に面白いので、ゴア目線で日本のパーティーを見ると、スピーカーの音質の良さや有名アーティストのDJなどはともかく、来てる人の濃さや面白さや全体のエネルギーや勢いなどが全く別物なので、期待しすぎないほうが良いよとのお言葉。
+
+それでも、それなりに面白いよと一言添えていたが。
+
+僕は彼らの言葉を頭の片隅に置きながらパーティー内を散策することにした。
+
+[前の記事](https://qryptraveller.com/the-story-of-returning-to-japan-4-autobiography-160/)　｜　[次の記事](https://qryptraveller.com/story-of-returning-to-japan-6-autobiography-162/)
+
+[/um\_show\_content]

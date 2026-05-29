@@ -1,0 +1,97 @@
+---
+id: 5380
+title: "ゴアに目覚める話３１（放浪記１４８）"
+slug: "a-story-of-awakening-to-gore-31-autobiography-148"
+date: "2022-04-25 08:08:00"
+status: "publish"
+original_url: "https://qryptraveller.com/a-story-of-awakening-to-gore-31-autobiography-148/"
+featured_image_id: "5370"
+categories:
+  - "放浪記"
+tags:
+images:
+flags: "no-images"
+---
+
+[show\_for\_guests\_and\_members]
+
+--- この記事の後半はプライベートな情報があるために完全版でのみ公開しています---
+
+[プレミアムアカウントにアップグレードして完全版を読む](https://qryptraveller.com/index1/travel-blog/membership-join/)
+
+.upgrade-button {
+display: inline-block;
+padding: 10px 20px;
+background-color: #6d8e5d;
+color: white;
+text-decoration: none;
+border-radius: 8px;
+font-weight: bold;
+transition: background-color 0.3s;
+}
+.upgrade-button:hover {
+background-color: #587746;
+}
+[前の記事](https://qryptraveller.com/a-story-of-awakening-to-gore-30-autobiography-147/)　｜　[次の記事](https://qryptraveller.com/a-story-of-awakening-to-gore-32-autobiography-149/)
+[/show\_for\_guests\_and\_members]
+[um\_show\_content roles='um\_custom\_role\_1']
+
+（以下内容転載禁止、法的対処有。）
+
+## 疑念
+
+ゴアのニュー・イヤー・パーティーは、クリスマスと同じくゴアの目玉の一つだ。
+
+だが、目玉といっても知る人ぞ知る旅人たちの間だけの話だ。
+
+地球の歩き方などのガイドブックには、ゴアに人気があったのは昔の話のようなことが書いてある。
+
+実際にガイドブックに紹介されているのは、昔に人気があったビーチで、今は金持ち年寄り観光客ばかりのところ。
+
+ガイドブックを参考にして旅をしていた僕は、ガイドブックがお勧めする南のカラングート・ビーチに最初に辿りついたのだが、今では旅人たちはさらに北へと移動している。
+
+これは政府による一種の情報操作で、政府としては日本人にゴアの本当のところを体験して欲しくなかったのだと思う。
+
+この頃から徐々に政府や社会システムに対して疑念を抱いていく。
+
+大阪で一人暮らししていた時も反社会的な姿勢は持っていたが、それは反抗する子供のような態度だった。
+
+だが、インドという経験や大麻やLSDを体験することにより、社会の在り方そのものに対して疑念を抱くようになっていった。
+
+## 非合法
+
+僕にとっての一番のきっかけは大麻だった。
+
+実際に吸ってみれば分かるのだが、全然大げさなものではない。
+
+リラックスして楽しくなって食欲が湧いて音楽が気持ちよく聞こえる。
+
+大した副作用もない。
+
+だが、なぜか非合法。
+
+実際に大麻を体験することで、法律と現実の差を体感し、社会の不自然さを目の当たりにした。
+
+LSDも同様で、意識が覚醒して感覚が冴えて、体に対する副作用が無いのになぜ非合法なんだと疑念を抱いた。
+
+当時から何年も経った今では、僕はLSDは法律で規制すべきだと考えているが、当時は純粋に疑念を抱いていた。
+
+## 年越しそば
+
+僕たちは大晦日から新年を祝うために集まり、日本食パーティーを開いた。
+
+日本食と言っても、当時のゴアには醤油くらいしか手に入る日本食材は無かったが、それでも僕たちは大喜びだ。
+
+年越しそばの代わりに小麦粉ですいとんを作り、かつおだしの代わりに現地の魚の干物を使い、新鮮な魚介類を使って天ぷらを揚げた。
+
+年越しそば風の天ぷらすいとんで過ぎゆく年を見送り、来る新年に備える。
+
+来年は１９９９年、世紀末だ。
+
+実際には本当に世紀末だと考えていなくても、無意識のうちに世紀末と言う概念が頭に入って来る。
+
+西暦最後の１０００年代の年をゴアで迎える事に大きな意味があるように感じていた。
+
+世紀末を楽しみぬくには最適な場所だろう。
+
+[前の記事](https://qryptraveller.com/a-story-of-awakening-to-gore-30-autobiography-147/)　｜　[次の記事](https://qryptraveller.com/a-story-of-awakening-to-gore-32-autobiography-149/)[/um\_show\_content]

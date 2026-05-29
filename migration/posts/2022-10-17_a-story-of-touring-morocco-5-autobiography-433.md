@@ -1,0 +1,104 @@
+---
+id: 7173
+title: "モロッコを周遊する話５（放浪記４３３）"
+slug: "a-story-of-touring-morocco-5-autobiography-433"
+date: "2022-10-17 05:04:00"
+status: "publish"
+original_url: "https://qryptraveller.com/a-story-of-touring-morocco-5-autobiography-433/"
+featured_image_id: "7013"
+categories:
+  - "放浪記"
+tags:
+images:
+flags: "no-images"
+---
+
+[show\_for\_guests\_and\_members]
+
+--- この記事の後半はプライベートな情報があるために完全版でのみ公開しています---
+
+[プレミアムアカウントにアップグレードして完全版を読む](https://qryptraveller.com/index1/travel-blog/membership-join/)
+
+.upgrade-button {
+display: inline-block;
+padding: 10px 20px;
+background-color: #6d8e5d;
+color: white;
+text-decoration: none;
+border-radius: 8px;
+font-weight: bold;
+transition: background-color 0.3s;
+}
+.upgrade-button:hover {
+background-color: #587746;
+}
+[前の記事](https://qryptraveller.com/a-story-of-touring-morocco4an-autobiography432/)　｜　[次の記事](https://qryptraveller.com/the-story-of-going-to-england-1-autobiography-434/)[/show\_for\_guests\_and\_members]
+[um\_show\_content roles='um\_custom\_role\_1']
+
+（以下内容転載禁止、法的対処有。）
+
+## Cさんの秘密
+
+空港内という状況で、Cさんはとっておきの秘密を暴露してくれた。
+
+Cさんが履いているサンダルの中には、２キロものハシシ（大麻樹脂）が隠されているというのだ。
+
+片方のサンダルに１キロずつ。
+
+分厚いゴムのサンダルの内側を掘って、密封加工したハシシを仕込んでいた。
+
+これはガンドルフさんの入れ知恵だ。
+
+## ガンドルフさんの裏家業
+
+ガンドルフさんはハシシの運び屋を何年も続けて、その稼いだお金で環境保護活動を行なっていた。
+
+そのことをタンジェで聞いた時に、僕はショックを受けた。
+
+ガンドルフさんのように、地球のための活動をしている人には、合法的にやって欲しいという勝手な思いがあったからだ。
+
+だが、ガンドルフさんは地球のためにはリスクを冒してでも、効率的に活動したいと考えているようだ。
+
+## ハプニング
+
+この話は、この時から３年後の後日談だ。
+
+ガンドルフさんの自身の活動に対する思いは真剣なもので、その後も何年にもわたってハシシを運んでお金を稼いで、環境保護活動に費やしていた。
+
+だが、ある時ふとしたことから彼の密輸犯罪が見つかり、警察に捕まってしまう。
+
+スペインは大麻に対して理解がある。
+
+スペイン人は誰でも大麻を吸っているし、ガンドルフさんを捕まえた警察官も、彼を裁く裁判官も検察官も大麻を吸っている、あるいは吸ったことがある可能性は高い。
+
+ピーター・トッシュというボブ・マーリーの相方は、”リーガライズ・イット”（合法化しろ）という曲の中で、”医者も警察も裁判官もみんな吸っている、さっさと合法化しろ”といった歌詞があるが、スペインはまさしくそのような状況だ。
+
+だが理解があるからといって、罪に問われないわけではない。
+
+量が多いだけに、裁判の結果次第では、何年もの懲役刑になるだろう。
+
+## ガンドルフさんの主張
+
+だが、世間の法律によって不本意に裁かれることは、ガンドルフさんの納得するところではない。
+
+彼は、裁判を通して自己の権利を争うことに決めた。
+
+地球の環境を保護するために、身体にも社会にも何の悪影響もない大麻を運んで活動資金を作っている。
+
+法律は犯しているが、悪事は働いていない。
+
+何も恥じることはないし、問題があるのは自分ではなくて法律の方だ、という主張だ。
+
+ガンドルフさんからすれば、全くの正論である。
+
+その裁判はその後数ヶ月間続くことになった。
+
+紆余曲折があったようだが、最終的にはガンドルフさんは無罪を勝ち取った。
+
+ガンドルフさんの信念が勝利したのである。
+
+僕はこの話を聞いて、自分自身を信じて貫き通すことの大事さをまざまざと見せつけられた。
+
+やはり、ガンドルフさんは魔法使いだったのだ！
+
+[前の記事](https://qryptraveller.com/a-story-of-touring-morocco4an-autobiography432/)　｜　[次の記事](https://qryptraveller.com/the-story-of-going-to-england-1-autobiography-434/)[/um\_show\_content]

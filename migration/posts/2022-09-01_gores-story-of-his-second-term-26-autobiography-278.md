@@ -1,0 +1,86 @@
+---
+id: 6277
+title: "２期目のゴアの話２６（放浪記２７８）"
+slug: "gores-story-of-his-second-term-26-autobiography-278"
+date: "2022-09-01 06:17:00"
+status: "publish"
+original_url: "https://qryptraveller.com/gores-story-of-his-second-term-26-autobiography-278/"
+featured_image_id: "6244"
+categories:
+  - "放浪記"
+tags:
+images:
+flags: "no-images"
+---
+
+[show\_for\_guests\_and\_members]
+
+--- この記事の後半はプライベートな情報があるために完全版でのみ公開しています---
+
+[プレミアムアカウントにアップグレードして完全版を読む](https://qryptraveller.com/index1/travel-blog/membership-join/)
+
+.upgrade-button {
+display: inline-block;
+padding: 10px 20px;
+background-color: #6d8e5d;
+color: white;
+text-decoration: none;
+border-radius: 8px;
+font-weight: bold;
+transition: background-color 0.3s;
+}
+.upgrade-button:hover {
+background-color: #587746;
+}
+[前の記事](https://qryptraveller.com/gores-story-of-his-second-term-25-autobiography-277/)　｜　[次の記事](https://qryptraveller.com/gores-story-of-his-second-term-26-autobiography-279/)[/show\_for\_guests\_and\_members]
+[um\_show\_content roles='um\_custom\_role\_1']
+
+（以下内容転載禁止、法的対処有。）
+
+## ２２時
+
+このシーズンのゴアは、警察の締め付けが厳しくなり、夜の２２時以降は大音量で音楽をかける事が規制されるようになっていた。
+
+野外でのパーティーも厳しく規制され、滅多なことではパーティーが開かれなくなっていた。
+
+後で知った話だが、ゴアのパーティーシーンには波があり、警察の規制が緩くなったり厳しくなったりを数年ごとに繰り返しているらしい。
+
+それは、地元の商売人と地元の一般市民とマフィアと警察との兼ね合いによるもので、それぞれの言い分を埋め合うために規制に対して変化をつけているようだ。
+
+だが、そういった事を知らなかった僕たちは、伝説のゴアの終焉が近づいているのだと考えるようになっていた。
+
+去年の１９９９年の爆発が最後で、２０００年以降は警察に規制されて縮んでいくのだろうと。
+
+今までのような無法地帯が許されるはずもなく、今までが奇跡で幸運の賜物だったのだろうと考えていた。
+
+## 打開策
+
+だが、旅人たちは２２時で閉まるクラブに遊びに来ているのではなく、一晩中どころか数日ぶっ続けで行われるような野外でのワイルドなパーティーを求めていた。
+
+旅人たちはこの状況をなんとかしようと、色々な方法を考え出していた。
+
+あるパーティーはゴア州の外で行われたり、沖合いの島で行われたり、船の上で行われたりした。
+
+Yさんなどは、ゴアの中心地で行われるパーティー以外はパーティーなんかじゃないと言って、頑なにゴアから離れる事を拒否していたが、僕とIちゃんは面白そうだからと船で行われるパーティーに参加した。
+
+## 船上パーティー
+
+そのパーティーはゴアの州都のパナジ市から出発するフェリーボートの上で行われた。
+
+覆面警察が潜んでいて、一網打尽にされて捕まるのではないかと言う話もあったが、実際に来てみると何とも自由な雰囲気で、船の観覧台ではチロムがボンボンと回っている。
+
+閉ざされた空間が逆に親近感を募らせて、お互いに仲間意識をもたらしていた。
+
+船上での狭い領域でのパーティーなど、LSDでバッドトリップした時に逃げ場がなくなっておかしな事になるのではないかとの懸念もあったので、僕たちはエクスタシーを中心に摂取する事で、楽しみに集中する事にした。
+
+LSDでの精神探求はまたの機会にして、今回は楽しむ事に集中しようと言うわけだ。
+
+街から河を通って沖合に出るまでの間は、船は揺れることもなく静かなものだったが、沖に出ると左右に大きく揺れ始めた。
+
+揺れる地面に対しては誰も逆らうことは出来ず、揺れに合わせて一体となって踊り続けた。
+
+船が右に傾けば誰もが、おっとっとと言うように右側にケンケン足で飛び跳ねて、左へと傾けばそれに合わせて踊るといった具合だ。
+
+ゴアトランスのパーティーに求めるような安定した全力の踊りはできなかったが、みんなが一体になって翻弄される様は不快ながらも楽しくもあった。
+
+[前の記事](https://qryptraveller.com/gores-story-of-his-second-term-25-autobiography-277/)　｜　[次の記事](https://qryptraveller.com/gores-story-of-his-second-term-26-autobiography-279/)[/um\_show\_content]

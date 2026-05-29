@@ -1,0 +1,6 @@
+migration/source/*.xml
+migration/images/
+__pycache__/
+*.pyc
+.env
+node_modules/

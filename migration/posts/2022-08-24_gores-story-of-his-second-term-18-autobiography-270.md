@@ -1,0 +1,80 @@
+---
+id: 6228
+title: "２期目のゴアの話１８（放浪記２７０）"
+slug: "gores-story-of-his-second-term-18-autobiography-270"
+date: "2022-08-24 05:13:00"
+status: "publish"
+original_url: "https://qryptraveller.com/gores-story-of-his-second-term-18-autobiography-270/"
+featured_image_id: "6180"
+categories:
+  - "放浪記"
+tags:
+images:
+flags: "no-images"
+---
+
+## ゴアの生活
+
+ゴアでの生活は南国のパラダイスで、美味しい食材が山ほどあり、値段も驚くほど安い。
+
+市場に行けば、とれたての新鮮な魚介類が溢れ、街に行けばインドでは相当珍しい牛肉や豚肉まで手に入る。
+
+僕たちはここぞとばかりに美食の日々を楽しんだ。
+
+街では牛肉が１キロ百円ほどで手に入る。
+
+身が締まっていて硬いので食べづらいのだが、棒切れでガンガンと叩きまくることで、柔らかくなるのでステーキ三昧の日々を過ごした。
+
+魚介類も新鮮で、イカ飯やら牡蠣のカレーやら庭で焼き魚のバーベーキューをして楽しんだ。
+
+買い物ついでに、バイクで町中を走り回り、ジャングルの中に迷い込み、古い廃墟を探索して過ごした。
+
+そしてもちろん、ビーチ沿いの村なので、海で泳いだりもしたし、ジャングルの中にある湖で泳いだりもした。
+
+二日に一度ほどは友人の家に遊びに行き、一緒に料理をしたりレストランに食べに行ったり、あるいはバイクで遠出して田舎のビーチに泳ぎに行ったりと、南国の楽園の日々。
+
+楽しく豊かな日々だが、ある意味ありきたりな話なのでで、特に旅行記に書くほどの事でもない。
+
+[show\_for\_guests\_and\_members]
+
+--- この記事の後半はプライベートな情報があるために完全版でのみ公開しています---
+
+[プレミアムアカウントにアップグレードして完全版を読む](https://qryptraveller.com/index1/travel-blog/membership-join/)
+
+.upgrade-button {
+display: inline-block;
+padding: 10px 20px;
+background-color: #6d8e5d;
+color: white;
+text-decoration: none;
+border-radius: 8px;
+font-weight: bold;
+transition: background-color 0.3s;
+}
+.upgrade-button:hover {
+background-color: #587746;
+}
+[前の記事](https://qryptraveller.com/gores-story-of-his-second-term-17-autobiography-269/)　｜　[次の記事](https://qryptraveller.com/gores-story-of-his-second-term-19-autobiography-271/)[/show\_for\_guests\_and\_members]
+[um\_show\_content roles='um\_custom\_role\_1']
+
+（以下内容転載禁止、法的対処有。）
+
+## ゴアの旅人文化
+
+やはり、旅行記に書くからには非日常的な旅人の世界を書いていきたいと思う。
+
+ゴアの旅人文化は本当に特殊で面白く、他に類を見ない。
+
+例える物がないので、それを実際に経験していない人に伝えることはなかなか難しいのだが、それを伝えるためにこの旅行記は存在しているので、精一杯表現して行きたいと思う。
+
+ここで言うゴアの旅人文化とは、数あるインドの州の中でも最も小さい部類に入るゴア州のさらに極々一部の、長さにして１４キロほどのビーチに集まる２万人程度（２０００年当時）の旅人の文化の話である。
+
+ゴアは古くから旅人が最後にたどり着く楽園と言われていて、１９６０年代にアメリカからやってきた旅人たちと、ヨーロッパからユーラシア大陸を横断してきた旅人たちが集まり、独自の楽園を築き上げてきた。
+
+彼らはゴアを離れて他の土地を旅した後にも、最終的にはゴアに戻ってくる。
+
+旅人にとって、インドは何回も帰ってくるホームのようなものであり、中でもゴアは社会からはみ出しまくった旅人たちが自分自身でいることの出来る数少ないホームの一つだからだ。
+
+一度ゴアを深く経験した旅人はゴアの自由度に合わせて自身の意識を拡大するために、ゴア以外の場所にいると、刑務所の中にいるかのような窮屈さを感じることになる。
+
+[前の記事](https://qryptraveller.com/gores-story-of-his-second-term-17-autobiography-269/)　｜　[次の記事](https://qryptraveller.com/gores-story-of-his-second-term-19-autobiography-271/)[/um\_show\_content]

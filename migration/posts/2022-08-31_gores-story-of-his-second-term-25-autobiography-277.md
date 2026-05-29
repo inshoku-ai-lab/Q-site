@@ -1,0 +1,80 @@
+---
+id: 6272
+title: "２期目のゴアの話２５（放浪記２７７）"
+slug: "gores-story-of-his-second-term-25-autobiography-277"
+date: "2022-08-31 06:13:00"
+status: "publish"
+original_url: "https://qryptraveller.com/gores-story-of-his-second-term-25-autobiography-277/"
+featured_image_id: "6243"
+categories:
+  - "放浪記"
+tags:
+images:
+flags: "no-images"
+---
+
+[show\_for\_guests\_and\_members]
+
+--- この記事の後半はプライベートな情報があるために完全版でのみ公開しています---
+
+[プレミアムアカウントにアップグレードして完全版を読む](https://qryptraveller.com/index1/travel-blog/membership-join/)
+
+.upgrade-button {
+display: inline-block;
+padding: 10px 20px;
+background-color: #6d8e5d;
+color: white;
+text-decoration: none;
+border-radius: 8px;
+font-weight: bold;
+transition: background-color 0.3s;
+}
+.upgrade-button:hover {
+background-color: #587746;
+}
+[前の記事](https://qryptraveller.com/gores-story-of-his-second-term-24-autobiography-276/)　｜　[次の記事](https://qryptraveller.com/gores-story-of-his-second-term-26-autobiography-278/)[/show\_for\_guests\_and\_members]
+[um\_show\_content roles='um\_custom\_role\_1']
+
+（以下内容転載禁止、法的対処有。）
+
+## スピードボール
+
+そういった突き詰めの結果は、ドラッグでの遊びにも現れていて、通常の旅人たちは、大麻の他には「サイケデリック」と呼ばれるLSDやMDMAなどの幻覚剤にしか手を出さないのだが、軍団は「粉物」と呼ばれるコカインやヘロインにも手を出していた。
+
+そして勢いが余って、スピードボールと呼ばれる魔物にまで手を出していた。
+
+それは、コカインとヘロインを混ぜたものを同時に摂取することにより、究極の興奮と究極の弛緩を同時に経験して、未知の領域のハイを得られると言うものだ。
+
+僕は経験したことがないので、なんとも言えないが、話によるとこれ以上ないほどの快楽らしい。
+
+そしてその快楽と引き換えに、健康のみならず命の危険を差し出すことになる。
+
+## 断線
+
+ある日のこと、スピードボールでやんちゃに遊んでいた〇〇軍団の一人のVくんが一線を超えてしまう。
+
+ハイになったまま気絶してしまったのだ。
+
+他の人たちが慌てて救急車を呼び、救助に来てもらったことで、かろうじて一命をとりとめる事が出来た。
+
+その後、病院から帰って来て、一見すると治療は成功して何事も無かったかのように見えるのだが、そのとき以降からVくんは奇妙な言動をし始める。
+
+どうも頭の線が一本切れてしまったらしい。
+
+元々から常識の枠組みから外れた人たちだったが、Vくんはその外れている枠組みからも大きく外れるような価値観へと変わっていった。
+
+物事の歯止めが効かなくなり、極端な思想へと突き進み始める。
+
+あるときは周りの人たちの抑止も聞かずに大量のLSDを摂取して、「俺は神になった」と吹聴して回り、周りから白い目で見られていた。
+
+今の僕には理解できるが、彼はそのときワンネス体験をしていたのだと思う。
+
+だが、周りの人たちは誰も理解する事がなく、変人扱いされていた。
+
+実際に頭の線が一本切れていたので、そう思われても仕方がないのだが。
+
+その後も極端で奇妙な言動を繰り返し続けたVくんは、最後には友人が彼の家族へと連絡して、ゴアまで彼を引き取りに来てもらうことになった。
+
+ゴアはその自由さゆえに、人々に最高の経験と成長をもたらす一方で、半歩踏み外すだけで奈落の底へと落ちてしまう諸刃の剣の側面を持っていた。
+
+[前の記事](https://qryptraveller.com/gores-story-of-his-second-term-24-autobiography-276/)　｜　[次の記事](https://qryptraveller.com/gores-story-of-his-second-term-26-autobiography-278/)[/um\_show\_content]
