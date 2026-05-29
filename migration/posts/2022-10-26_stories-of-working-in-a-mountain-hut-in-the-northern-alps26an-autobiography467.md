@@ -1,6 +1,6 @@
 ---
 id: 7339
-title: "７）]]>"
+title: "北アルプスの山小屋で働く話２６（放浪記４６７）"
 slug: "stories-of-working-in-a-mountain-hut-in-the-northern-alps26an-autobiography467"
 date: "2022-10-26 08:39:00"
 status: "publish"
