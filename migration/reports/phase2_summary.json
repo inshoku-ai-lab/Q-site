@@ -1,0 +1,28 @@
+{
+  "total_posts": 781,
+  "new_category_distribution": {
+    "放浪記": 523,
+    "時事・情報戦": 57,
+    "エッセイ・その他": 46,
+    "思想・理論": 155
+  },
+  "series_distribution": {
+    "放浪記": 521,
+    "ツイッターファイル": 42,
+    "(none)": 51,
+    "真のビットコイン (BSV)": 9,
+    "デボリューション理論": 142,
+    "翻訳記事": 6,
+    "ティール・スワン": 10
+  },
+  "review_status_distribution": {
+    "Published": 766,
+    "Draft": 3,
+    "Review": 4,
+    "Discard": 8
+  },
+  "tags_before": 512,
+  "tags_after": 19,
+  "tag_reduction_pct": 96.3,
+  "duplicate_titles_flagged": 1
+}
