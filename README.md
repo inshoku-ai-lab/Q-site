@@ -1,4 +1,4 @@
-# Q-site (Cryptraveler's Notes)
+# Q-site (Qryptraveller's Notes)
 
 地球放浪20年以上の旅人クリプトラベラーによるブログサイト。
 旧 WordPress (qryptraveller.com) から Notion + Astro へ移行したもの。
@@ -169,5 +169,5 @@ cp -r ~/Desktop/qryp-images/images/wp/* public/images/wp/
 
 ## ライセンス
 
-記事コンテンツ: © Cryptraveler (All rights reserved)
+記事コンテンツ: © Qryptraveller (All rights reserved)
 コード: MIT

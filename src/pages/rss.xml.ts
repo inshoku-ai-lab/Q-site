@@ -5,7 +5,7 @@ import { getPublishedPosts } from "../lib/posts";
 export async function GET(context: APIContext) {
   const posts = getPublishedPosts().slice(0, 30);
   return rss({
-    title: "Cryptraveler's Notes",
+    title: "Qryptraveller's Notes",
     description: "地球放浪20年以上の旅人による、旅と思索のアーカイブ。",
     site: context.site ?? "https://qryptraveller.com",
     items: posts.map((p) => ({
