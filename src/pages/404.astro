@@ -1,0 +1,21 @@
+---
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout title="404 - ページが見つかりません" noIndex>
+  <div class="max-w-prose mx-auto px-4 py-32 text-center">
+    <div class="font-mono text-9xl text-paper-300 mb-4">404</div>
+    <h1 class="font-serif text-3xl text-moss-dark mb-4">道に迷いましたか?</h1>
+    <p class="text-ink-muted mb-8">
+      お探しのページは存在しないか、移動した可能性があります。
+    </p>
+    <div class="flex flex-wrap gap-3 justify-center">
+      <a href="/" class="px-5 py-3 bg-moss-dark text-paper-100 rounded-md text-sm no-underline hover:bg-moss">
+        ホームへ戻る
+      </a>
+      <a href="/archive/" class="px-5 py-3 border border-moss-dark text-moss-dark rounded-md text-sm no-underline hover:bg-moss-dark hover:text-paper-100">
+        アーカイブを見る
+      </a>
+    </div>
+  </div>
+</Layout>

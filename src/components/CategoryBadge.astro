@@ -1,0 +1,18 @@
+---
+import { categoryAccent } from "../lib/posts";
+
+interface Props {
+  category: string;
+  size?: "sm" | "md";
+}
+const { category, size = "md" } = Astro.props;
+const accent = categoryAccent(category);
+const sizeClass = size === "sm" ? "text-[10px] px-2 py-0.5" : "text-xs px-2.5 py-1";
+---
+
+<a
+  href={`/category/${encodeURIComponent(category)}/`}
+  class={`inline-block ${sizeClass} rounded-full bg-${accent}/10 text-${accent} uppercase tracking-widest font-medium no-underline hover:bg-${accent}/20`}
+>
+  {category}
+</a>

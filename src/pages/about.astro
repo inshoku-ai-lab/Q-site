@@ -1,0 +1,99 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { getPublishedPosts, getSeriesIndex } from "../lib/posts";
+
+const total = getPublishedPosts().length;
+const series = getSeriesIndex();
+const yearStart = 2021;
+const yearNow = new Date().getFullYear();
+---
+
+<Layout title="About" description="このサイトについて - クリプトラベラーの自己紹介。">
+  <article class="max-w-prose mx-auto px-4 md:px-0 py-16">
+    <header class="mb-12">
+      <div class="text-xs uppercase tracking-[0.3em] text-earth mb-3">About</div>
+      <h1 class="font-serif text-4xl md:text-5xl font-semibold text-moss-dark leading-tight">
+        クリプトラベラーと<br />このサイトについて
+      </h1>
+    </header>
+
+    <div class="prose-article">
+      <p>
+        こんにちは、<strong>クリプトラベラー</strong>と申します。
+      </p>
+      <p>
+        スナフキンを心の師として生きている、ノマド20年以上の吟遊詩人です。
+        17歳の時に、エホバの証人として育てられた窮屈な家庭環境と日本社会の閉塞感に嫌気が差し、
+        宗教・高校・国境のすべてを飛び越えてペルーへ旅立ちました。
+        以来、ノンストップで世界中を放浪しています。
+      </p>
+
+      <h2>このサイトについて</h2>
+      <p>
+        ここは、20年以上に及ぶ旅と思索の記録を集めたアーカイブです。
+        現在 <strong>{total.toLocaleString()}本</strong> の記事を公開しています
+        ({yearStart}年〜{yearNow}年)。
+      </p>
+      <p>
+        コンテンツは大きく4つのカテゴリに分かれています:
+      </p>
+      <ul>
+        <li><strong>放浪記</strong> — 旅の自伝。エホバの証人として育った幼少期から、世界各地を渡り歩く現在までの記録。</li>
+        <li><strong>思想・理論</strong> — デボリューション理論やティール・スワンの言葉など、深く考察したテーマ。</li>
+        <li><strong>時事・情報戦</strong> — ツイッターファイル、不正選挙、ビットコインの真実など、主要メディアが語らない話。</li>
+        <li><strong>エッセイ・その他</strong> — 単発の随筆、観察、雑記。</li>
+      </ul>
+
+      <h2>これまでに体験したこと</h2>
+      <p>
+        箇条書きにすると荒唐無稽に見えますが、すべて本当の話です。
+      </p>
+      <ul>
+        <li>ストイックなエホバの証人の貧しい母子家庭に育つ</li>
+        <li>17歳ですべてを捨て、ペルーへ</li>
+        <li>20歳でインドのゴアでヒッピーノマドに目覚める</li>
+        <li>日本の最果ての無人島で裸で暮らす</li>
+        <li>25歳で全所有物を処分し、旅に身を捧げる</li>
+        <li>結核で死にかけてイスラエルで4ヶ月の隔離入院</li>
+        <li>エルサレムで宇宙との合一体験</li>
+        <li>2011年からビットコインを受け入れる</li>
+        <li>世界中を自転車で2年半旅する</li>
+        <li>ヒッピー26人で自転車キャラバンを組み、サーカスをしながら中米を旅する</li>
+        <li>コスタリカのジャングルに仲間とコミュニティを創設して裸で暮らす</li>
+        <li>ハンドパンの路上ミュージシャンとして世界を回る</li>
+        <li>Twitterで世界の闇を暴くアカウントを運営し、フォロワー2万人到達後アカウント停止</li>
+        <li>銀購入代行の仕事を始め、執筆活動の資金とする</li>
+      </ul>
+
+      <h2>サイトの読み方</h2>
+      <p>
+        <strong>放浪記から読み始める</strong>のがおすすめです。
+        放浪記000「世界中を20年以上放浪し続けている話」から順に読むと、
+        私という人間の輪郭が見えてきます。
+      </p>
+      <p>
+        時事や思想の記事から入ると、私の世界観・前提が共有されないまま読むことになるので、
+        少し違和感があるかもしれません。
+      </p>
+
+      <h2>このサイトの裏側</h2>
+      <p>
+        旧サイト(<a href="https://qryptraveller.com" rel="noopener" target="_blank">qryptraveller.com</a>)
+        の WordPress 投稿を移行して、Astro + Notion で再構築したものです。
+      </p>
+      <p>
+        執筆は Notion で行い、ビルド時にこのサイトへ自動で同期されます。
+        画像とすべてのコンテンツはこのサイト自身でホストしており、外部依存はありません。
+      </p>
+
+      <h2>連絡先</h2>
+      <p>
+        <ul>
+          <li>Website: <a href="https://qryptraveller.com" rel="noopener" target="_blank">qryptraveller.com</a></li>
+          <li>X: <a href="https://x.com/qryptraveller" rel="noopener" target="_blank">@qryptraveller</a></li>
+          <li>Note: <a href="https://note.com/qryp" rel="noopener" target="_blank">note.com/qryp</a></li>
+        </ul>
+      </p>
+    </div>
+  </article>
+</Layout>

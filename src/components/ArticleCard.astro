@@ -1,0 +1,93 @@
+---
+import type { Post } from "../lib/posts";
+import { formatDateShort, categoryAccent } from "../lib/posts";
+
+interface Props {
+  post: Post;
+  variant?: "default" | "compact" | "wide";
+  showCategory?: boolean;
+}
+
+const { post, variant = "default", showCategory = true } = Astro.props;
+const accent = categoryAccent(post.category);
+const href = `/posts/${post.slug}/`;
+---
+
+{variant === "compact" ? (
+  <a href={href} class="block py-4 border-b border-paper-200 last:border-0 no-underline group">
+    <div class="flex items-baseline gap-3 mb-1.5">
+      <time class="text-xs text-ink-muted font-mono">{formatDateShort(post.date)}</time>
+      {showCategory && post.category && (
+        <span class={`text-[10px] uppercase tracking-widest text-${accent}`}>
+          {post.category}
+        </span>
+      )}
+      {post.series && post.episode != null && (
+        <span class="text-[10px] tracking-wider text-ink-muted">
+          {post.series} #{post.episode}
+        </span>
+      )}
+    </div>
+    <h3 class="font-serif text-base md:text-lg text-ink leading-snug group-hover:text-moss-dark transition-colors">
+      {post.title}
+    </h3>
+  </a>
+) : variant === "wide" ? (
+  <a href={href} class="block group no-underline card-hover bg-paper-50 rounded-lg overflow-hidden border border-paper-200">
+    {post.cover && (
+      <div class="aspect-[16/9] overflow-hidden bg-paper-200">
+        <img
+          src={post.cover}
+          alt=""
+          loading="lazy"
+          class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+        />
+      </div>
+    )}
+    <div class="p-5 md:p-6">
+      <div class="flex items-baseline gap-3 mb-3">
+        <time class="text-xs text-ink-muted font-mono">{formatDateShort(post.date)}</time>
+        {showCategory && post.category && (
+          <span class={`text-[10px] uppercase tracking-widest text-${accent} font-medium`}>
+            {post.category}
+          </span>
+        )}
+      </div>
+      <h3 class="font-serif text-xl md:text-2xl font-semibold text-moss-dark leading-tight mb-3 group-hover:text-ink">
+        {post.title}
+      </h3>
+      {post.excerpt && (
+        <p class="text-sm text-ink-muted leading-relaxed line-clamp-3">
+          {post.excerpt}
+        </p>
+      )}
+      <div class="mt-4 text-xs text-ink-muted flex items-center gap-3">
+        <span>読了 約{post.reading_time}分</span>
+        {post.series && <span>· {post.series}{post.episode != null ? ` #${post.episode}` : ""}</span>}
+      </div>
+    </div>
+  </a>
+) : (
+  <a href={href} class="block group no-underline card-hover bg-paper-50 rounded-lg p-5 border border-paper-200 h-full flex flex-col">
+    <div class="flex items-baseline gap-3 mb-2">
+      <time class="text-xs text-ink-muted font-mono">{formatDateShort(post.date)}</time>
+      {showCategory && post.category && (
+        <span class={`text-[10px] uppercase tracking-widest text-${accent}`}>
+          {post.category}
+        </span>
+      )}
+    </div>
+    <h3 class="font-serif text-lg font-semibold text-moss-dark leading-snug mb-2 group-hover:text-ink">
+      {post.title}
+    </h3>
+    {post.excerpt && (
+      <p class="text-sm text-ink-muted leading-relaxed line-clamp-3 flex-1">
+        {post.excerpt}
+      </p>
+    )}
+    <div class="mt-3 text-xs text-ink-muted">
+      読了 約{post.reading_time}分
+      {post.series && post.episode != null && <> · {post.series} #{post.episode}</>}
+    </div>
+  </a>
+)}

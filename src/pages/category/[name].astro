@@ -1,0 +1,30 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import ArticleCard from "../../components/ArticleCard.astro";
+import { getCategoryIndex, getPostsByCategory, categoryAccent } from "../../lib/posts";
+
+export async function getStaticPaths() {
+  return getCategoryIndex().map((c) => ({
+    params: { name: c.name },
+    props: { name: c.name, count: c.count },
+  }));
+}
+
+const { name, count } = Astro.props;
+const posts = getPostsByCategory(name).sort((a, b) => (b.date ?? "").localeCompare(a.date ?? ""));
+const accent = categoryAccent(name);
+---
+
+<Layout title={`${name} - カテゴリ`} description={`「${name}」カテゴリの全${count}記事。`}>
+  <div class="max-w-page mx-auto px-4 md:px-8 py-16">
+    <header class="mb-12 max-w-prose">
+      <div class={`text-xs uppercase tracking-[0.3em] text-${accent} mb-3`}>Category</div>
+      <h1 class="font-serif text-3xl md:text-5xl font-semibold text-moss-dark leading-tight">{name}</h1>
+      <p class="mt-4 text-ink-muted">{count}本の記事 (新しい順)</p>
+    </header>
+
+    <div class="grid md:grid-cols-2 gap-5">
+      {posts.map((post) => <ArticleCard post={post} variant="default" showCategory={false} />)}
+    </div>
+  </div>
+</Layout>

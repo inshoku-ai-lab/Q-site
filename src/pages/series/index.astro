@@ -1,0 +1,49 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import SeriesCard from "../../components/SeriesCard.astro";
+import { getSeriesIndex } from "../../lib/posts";
+
+const series = getSeriesIndex().sort((a, b) => b.count - a.count);
+
+const seriesDescriptions: Record<string, string> = {
+  "放浪記": "宗教家庭から脱出した17歳の少年が、世界中を放浪し続ける物語。500話以上の連載。",
+  "デボリューション理論": "トランプ政権末期に発動された軍事的権限委譲作戦の全貌。徹底解説。",
+  "ツイッターファイル": "イーロン・マスクが暴露したTwitter社内の検閲構造。全シリーズ要約。",
+  "ティール・スワン": "悪魔崇拝サバイバーがトラウマセラピストへ。意識の断片化と統合の話。",
+  "真のビットコイン (BSV)": "BTCではなくBSV。サトシ・ナカモトの正体とビットコインの本質。",
+  "翻訳記事": "海外の重要な情報源から、日本人が知っておくべき記事を翻訳。",
+};
+
+const seriesAccent: Record<string, string> = {
+  "放浪記": "wandering",
+  "デボリューション理論": "thought",
+  "ティール・スワン": "thought",
+  "ツイッターファイル": "current",
+  "真のビットコイン (BSV)": "current",
+  "翻訳記事": "current",
+};
+---
+
+<Layout title="シリーズ一覧" description="クリプトラベラーの連載シリーズ一覧。">
+  <div class="max-w-page mx-auto px-4 md:px-8 py-16">
+    <header class="mb-12">
+      <div class="text-xs uppercase tracking-[0.3em] text-earth mb-3">All Series</div>
+      <h1 class="font-serif text-3xl md:text-4xl font-semibold text-moss-dark">シリーズ一覧</h1>
+      <p class="mt-3 text-ink-muted max-w-prose">
+        テーマ別の連載集です。番号順、または時系列で読めます。
+      </p>
+    </header>
+
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      {series.map((s) => (
+        <SeriesCard
+          name={s.name}
+          count={s.count}
+          description={seriesDescriptions[s.name] ?? `${s.count}本の記事`}
+          cover={s.representative?.cover ?? null}
+          accent={seriesAccent[s.name] ?? "moss"}
+        />
+      ))}
+    </div>
+  </div>
+</Layout>
