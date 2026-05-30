@@ -1,0 +1,94 @@
+---
+id: 5886
+title: "ヒマラヤの秋の話２（放浪記２０７）"
+slug: "autumn-in-the-himalayas-2-autobiography-207"
+date: "2022-06-22 05:25:00"
+status: "publish"
+original_url: "https://qryptraveller.com/autumn-in-the-himalayas-2-autobiography-207/"
+featured_image_id: "5858"
+categories:
+  - "放浪記"
+tags:
+images:
+flags: "no-images"
+---
+
+[show\_for\_guests\_and\_members]
+
+--- この記事の後半はプライベートな情報があるために完全版でのみ公開しています---
+
+[プレミアムアカウントにアップグレードして完全版を読む](https://qryptraveller.com/index1/travel-blog/membership-join/)
+
+.upgrade-button {
+display: inline-block;
+padding: 10px 20px;
+background-color: #6d8e5d;
+color: white;
+text-decoration: none;
+border-radius: 8px;
+font-weight: bold;
+transition: background-color 0.3s;
+}
+.upgrade-button:hover {
+background-color: #587746;
+}
+[前の記事](https://qryptraveller.com/autumn-in-the-himalayas-1-autobiography-206/)　｜　[次の記事](https://qryptraveller.com/autumn-in-the-himalayas-3-autobiography-208/)[/show\_for\_guests\_and\_members]
+[um\_show\_content roles='um\_custom\_role\_1']
+
+（以下内容転載禁止、法的対処有。）
+
+## 大麻文化
+
+マナリでは毎日、大麻樹脂を吸っていた。
+
+大体はジョイントを巻いて吸っていたが、チロムを持っている人がいる時はチロムで吸う。
+
+僕とK君の部屋がゲストハウスの部屋では一番大きく、自然と友人たちの溜まり場になっていた。
+
+一日中、音楽をかけて、一日中、大麻を吸っている。
+
+お昼前くらいにみんなが集まりだして、大麻を一服した後に隣の建物にあるチベタン・レストランへと行きお昼ご飯を食べる。
+
+## チベタン・レストラン
+
+このチベタン・レストランでも大麻はほぼ解禁状態なので、レストラン内でも吸い続ける。
+
+店主も店主の息子も一緒に輪に参加し、チロムを回し吸いする。
+
+チロムの文化は本来はヒンドゥー教の行者の文化なのだが、６０年代からヒッピーの集まるこの村で育った店主とその息子には、日常的な行為の一つだった。
+
+店主はすでに５０歳くらいなのだが、若い時から西欧人ヒッピーや日本人ヒッピーたちと連んで育って来ているので、見た目は普通のチベット人でありながらも、旅人と似たような感覚を共有していた。
+
+彼曰く、今までに何十キロの大麻樹脂を吸って来たか分からないと言うほどに吸い続けている。
+
+だが別に、中毒という訳ではなく、普通に日常生活を続けているレストラン店主なのだが。
+
+このレストランに限った話ではないが、旅人のたむろするレストランは得てして料理が出てくるまでの時間が異常に遅い。
+
+２時間待ち、３時間待ちなどは日常茶飯事だ。
+
+たむろしていると言うよりも、待ち時間が長すぎてみんなが待っているので、必然的にたむろしていると言う感じだ。
+
+待ち時間がかかると言う難点の代わりに、店内は最高に心地よくできており、木で出来た伝統的なマナリの家の大部屋にカーペットやマットレスを敷き詰めて、床に直接座るようなアジア式の作りになっている。
+
+横になって休むこともできるし、そのまま寝落ちするのも普通だ。
+
+要するに、レストランなんだけど、友達の家みたいな感じでもある。
+
+この辺りのゆるい感じが旅人に好まれている理由でもある。
+
+## チロム文化
+
+このバシシトでは旅行者のほぼ全員がヒッピー風の長期旅行者で、ほぼ全員が大麻を吸う。
+
+しかも、かなり激しく吸う。
+
+そうしたヒッピー同士のある種のマナーで、チロムを吸うときはその場にいる全員を招き入れると言うものがある。
+
+シヴァ神のエネルギーを皆で受け取って繋がって行こうといった感じの文化だ。
+
+そんな感じで、見ず知らずの人たちと一緒にチロムを吸い、一緒に宇宙的な酩酊をすることで、心の壁が外れ仲良くなっていく。
+
+この村では、こういった感じで旅人同士の繋がりは強化されて行き、独特の文化を作っていくと言う訳だ。
+
+[前の記事](https://qryptraveller.com/autumn-in-the-himalayas-1-autobiography-206/)　｜　[次の記事](https://qryptraveller.com/autumn-in-the-himalayas-3-autobiography-208/)[/um\_show\_content]

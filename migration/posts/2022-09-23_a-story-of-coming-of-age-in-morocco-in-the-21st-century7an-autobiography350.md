@@ -1,0 +1,84 @@
+---
+id: 6647
+title: "モロッコで２１世紀を迎える話７（放浪記３５０）"
+slug: "a-story-of-coming-of-age-in-morocco-in-the-21st-century7an-autobiography350"
+date: "2022-09-23 04:42:00"
+status: "publish"
+original_url: "https://qryptraveller.com/a-story-of-coming-of-age-in-morocco-in-the-21st-century7an-autobiography350/"
+featured_image_id: "6627"
+categories:
+  - "放浪記"
+tags:
+images:
+flags: "no-images"
+---
+
+[show\_for\_guests\_and\_members]
+
+--- この記事の後半はプライベートな情報があるために完全版でのみ公開しています---
+
+[プレミアムアカウントにアップグレードして完全版を読む](https://qryptraveller.com/index1/travel-blog/membership-join/)
+
+.upgrade-button {
+display: inline-block;
+padding: 10px 20px;
+background-color: #6d8e5d;
+color: white;
+text-decoration: none;
+border-radius: 8px;
+font-weight: bold;
+transition: background-color 0.3s;
+}
+.upgrade-button:hover {
+background-color: #587746;
+}
+[前の記事](https://qryptraveller.com/a-story-of-coming-of-age-in-morocco-in-the-21st-century-6-autobiography-349/)　｜　[次の記事](https://qryptraveller.com/a-story-of-coming-of-age-in-morocco-in-the-21st-century-8-autobiography-351/)[/show\_for\_guests\_and\_members]
+[um\_show\_content roles='um\_custom\_role\_1']
+
+（以下内容転載禁止、法的対処有。）
+
+## 次の日
+
+翌日、街に行って３００００円分ほどの現金をATMから引き下ろし、ホテル内に隠した上で、手ぶらでウエイターに会いに行った。
+
+万が一のことを考えて、襲われても何も取られないようにするためである。
+
+レストランには別の若者が来ており、彼について行けという。
+
+若者について、シャウエンの村の中を１０分ほど歩いて行く。
+
+向かった先にはごく普通の民家があり、他の家同様に青い壁が美しい。
+
+## おじさん
+
+中には５０代くらいの日に焼けた小柄なおじさんが鎮座しており、英語でウェルカムと言って迎えてくれた。
+
+カタコトの英語しか話せないとはいえ、全く話せないフランス語やモロッコ語に比べると、安心感が半端ない。
+
+当時の僕はカタコトの英語しか話せなかったので、パートナーのIちゃんがカタコトプラスの英語で交渉してくれることになった。
+
+おじさんは優しい雰囲気で、騙したりするようには見えないが一応気を引き締める。
+
+## 取引
+
+おじさんは早速自慢の大麻樹脂を裏の棚から出してきた。
+
+一般的にはよその国で手に入るハシシは、輸出入のコストを削減するために、機械でカチンカチンに圧縮されている。
+
+だが見せてくれたのは、大麻の花粉を人力で押し付けて固めただけのもので、手で触るとボロボロと崩れ落ちた。
+
+おじさんは、嬉しそうに匂ってみろと身振りで示しているので、鼻に近づけるとなんとも言えない芳しい大麻の香りが強烈に鼻に突き刺さる。
+
+その匂いを嗅いで、僕の顔は一瞬で綻んだ。
+
+これは間違いなく上級品だ。
+
+おじさんと顔を見合わせ、微笑み合う。
+
+どうやら大麻好き同士で心が通ったようだ。
+
+実際に吸ってみると、新鮮な大麻草の花粉の匂いが素晴らしく、高みに昇りつつも深みを感じさせる絶妙なトビだった。
+
+これなら間違いない
+
+[前の記事](https://qryptraveller.com/a-story-of-coming-of-age-in-morocco-in-the-21st-century-6-autobiography-349/)　｜　[次の記事](https://qryptraveller.com/a-story-of-coming-of-age-in-morocco-in-the-21st-century-8-autobiography-351/)[/um\_show\_content]

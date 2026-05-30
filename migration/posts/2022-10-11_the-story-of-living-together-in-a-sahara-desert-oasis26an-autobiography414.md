@@ -1,0 +1,54 @@
+---
+id: 6952
+title: "サハラ砂漠のオアシスで共同生活する話２６（放浪記４１４）"
+slug: "the-story-of-living-together-in-a-sahara-desert-oasis26an-autobiography414"
+date: "2022-10-11 08:55:00"
+status: "publish"
+original_url: "https://qryptraveller.com/the-story-of-living-together-in-a-sahara-desert-oasis26an-autobiography414/"
+featured_image_id: "6750"
+categories:
+  - "放浪記"
+tags:
+images:
+flags: "no-images"
+---
+
+## 強風
+
+日本に育った人間は台風の凄さをよく知っている。
+
+特に沖縄ではその脅威は人を殺すほどであり、舐めてかかるものなど誰もいない。
+
+僕は大阪の団地に育ったので、沖縄人ほど台風を経験しているわけではないが、それでも強風の恐ろしさはよく知っているつもりだ。
+
+だがそんな強風に対する常識を覆すようなとんでもない強風が僕たちの住む砂漠に襲いかかった。
+
+映画で見るような砂嵐みたいなものだ。
+
+## 風速
+
+気象庁の台風の基準では、「強い台風」が秒速３３メートル、「非常に強い台風」が秒速４４メートル、「猛烈な台風」では風速５４メートルと言う３つの基準がある。
+
+僕たちを襲ってきた砂漠の砂嵐は、秒速８０メートルだった。
+
+日本の台風と比較すると、その強烈さがよくわかる。
+
+秒速８０メートルの風を実験したビデオを見つけたので、興味のある人は見てほしい。
+
+## 風速注意報
+
+その日の昼間はなんの変哲もない、いつもの暑すぎる砂漠の日常だった。
+
+もちろん雲ひとつない快晴だ。
+
+唯一の違いは、ラジオを聞いていたガンドルフさんが、今日は強烈な暴風が来るから気をつけたほうがいいと注意していたことだ。
+
+だが、僕もIちゃんもその暴風が実際にどのようなものか理解していなくて、舐めてかかっていた。
+
+いつものように小屋を出て、テントで眠りにつく。
+
+いつものように無風で全くなんの問題もない。
+
+存在しないものを心配していても仕方がないので、全く気にせずに眠りについた。
+
+[前の記事](https://qryptraveller.com/25-autobiography-413-a-story-of-communal-living-in-a-saharan-oasis/)　｜　[次の記事](https://qryptraveller.com/27-autobiography-415-a-story-of-communal-living-in-a-saharan-oasis/)

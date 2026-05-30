@@ -1,0 +1,78 @@
+---
+id: 5778
+title: "ヒマラヤ山脈の温泉村の話９（放浪記１８６）"
+slug: "9an-autobiography-of-a-hot-springs-village-in-the-himalayas-186"
+date: "2022-06-01 03:18:00"
+status: "publish"
+original_url: "https://qryptraveller.com/9an-autobiography-of-a-hot-springs-village-in-the-himalayas-186/"
+featured_image_id: "5725"
+categories:
+  - "放浪記"
+tags:
+images:
+flags: "no-images"
+---
+
+[show\_for\_guests\_and\_members]
+
+--- この記事の後半はプライベートな情報があるために完全版でのみ公開しています---
+
+[プレミアムアカウントにアップグレードして完全版を読む](https://qryptraveller.com/index1/travel-blog/membership-join/)
+
+.upgrade-button {
+display: inline-block;
+padding: 10px 20px;
+background-color: #6d8e5d;
+color: white;
+text-decoration: none;
+border-radius: 8px;
+font-weight: bold;
+transition: background-color 0.3s;
+}
+.upgrade-button:hover {
+background-color: #587746;
+}
+[前の記事](https://qryptraveller.com/8an-autobiography-of-a-hot-springs-village-in-the-himalayas-185/)　｜　[次の記事](https://qryptraveller.com/10-autobiography-of-a-hot-springs-village-in-the-himalayas-187/)[/show\_for\_guests\_and\_members]
+[um\_show\_content roles='um\_custom\_role\_1']
+
+（以下内容転載禁止、法的対処有。）
+
+## バシシトの名産物
+
+旅人たちは温泉を求めてバシシトへやって来るが、求めているのはそれだけでは無い。
+
+マナリ周辺のヒマラヤ山地には美味しい大麻樹脂がある事が有名で、大麻目的の旅人も多くやって来る。
+
+大麻だけが目的の人の多くはマナリの街を上流に上ったオールド・マナリへ滞在し、温泉も目的にしている人はバシシトへとやって来る。
+
+もちろんの事、日本人は全員バシシトへやって来るので日本人旅行者が集まる土地としても旅人同士の噂で有名だった。
+
+多いと言っても最盛期でも２０人に満たない程なので、どちらかと言うと知る人ぞ知る旅人の名所といったところか。
+
+この地方は元々リンゴ栽培が地場産業で盛んなのだが、６０年代にヒッピーたちが大挙してインドへやって来ていた時期に、ヒッピー相手の観光業に目をつけた地元の人が、リンゴの木と大麻草の混合栽培を始めた事をきっかけとして広まっていった。
+
+りんごの木は２メートル以上と大きく、木々の隙間に２メートル以下の大麻草を植えることで、収益を倍化させていた。
+
+噂が噂を呼び、ヒッピー的な旅人が多く集まってくることで、その他のヒッピー文化も隆盛し始める。
+
+## マナリのパーティー
+
+ゴアでパーティーを楽しんだ旅人たちは、４月頃の暑すぎる時期になると、インド北部のヒマラヤ山地で避暑を求める。
+
+それぞれがヒマラヤ各地の街へ散っていくのだが、マナリはゴアからの旅人がやって来る街の中で最大のものの一つだ。
+
+ある程度の人数が集まったパーティー・フリークたちは、ゴアだけではなくマナリでもパーティーが欲しくなり、自分たちでスピーカー、アンプ、DJセット、ジェネレーターを山奥まで担ぎ込み、パーティーを始めたのだ。
+
+それがいつ頃から行われていたのかは知らないが、１９９９年の段階では毎年定期的に行われていたようだ。
+
+ゴアトランス好きでインド好きの旅人たちの中には、ゴアとマナリを何年も往復し続ける人たちもいる。
+
+彼らが中心となり、独特の文化を作り出していた。
+
+それはある側面では、自然との繋がりを大事にし、意識の未知の部分を開拓し、個人の可能性を大きく開いていた。
+
+またある側面では、その自由な行動や思想が行き過ぎて、地元の人たちに迷惑をかけることも多々あった。
+
+[前の記事](https://qryptraveller.com/8an-autobiography-of-a-hot-springs-village-in-the-himalayas-185/)　｜　[次の記事](https://qryptraveller.com/10-autobiography-of-a-hot-springs-village-in-the-himalayas-187/)
+
+[/um\_show\_content]

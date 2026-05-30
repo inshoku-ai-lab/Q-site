@@ -1,0 +1,84 @@
+---
+id: 5970
+title: "ヒマラヤの秋の話１９（放浪記２２４）"
+slug: "autumn-in-the-himalayas-19-autobiography-224"
+date: "2022-07-09 07:35:00"
+status: "publish"
+original_url: "https://qryptraveller.com/autumn-in-the-himalayas-19-autobiography-224/"
+featured_image_id: "5933"
+categories:
+  - "放浪記"
+tags:
+images:
+flags: "no-images"
+---
+
+[show\_for\_guests\_and\_members]
+
+--- この記事の後半はプライベートな情報があるために完全版でのみ公開しています---
+
+[プレミアムアカウントにアップグレードして完全版を読む](https://qryptraveller.com/index1/travel-blog/membership-join/)
+
+.upgrade-button {
+display: inline-block;
+padding: 10px 20px;
+background-color: #6d8e5d;
+color: white;
+text-decoration: none;
+border-radius: 8px;
+font-weight: bold;
+transition: background-color 0.3s;
+}
+.upgrade-button:hover {
+background-color: #587746;
+}
+[前の記事](https://qryptraveller.com/autumn-in-the-himalayas-18-autobiography-223/)　｜　[次の記事](https://qryptraveller.com/autumn-in-the-himalayas-20-autobiography-225/)[/show\_for\_guests\_and\_members]
+[um\_show\_content roles='um\_custom\_role\_1']
+
+（以下内容転載禁止、法的対処有。）
+
+## 危険な顔
+
+この村には優しい顔の他に危険な顔もあった。
+
+実質的にこの谷に存在する村の殆どが大麻農家で、殆どの人が大麻関連のことで収入を得ていた。
+
+作物を育て、樹脂を取り出し、扱いやすいように加工し、山奥の村から谷沿いの村へ運び、販売し、さらにインド各地へと運び、さらには世界各地へと運ぶ。
+
+そう言った麻薬ビジネスの他に、やって来る旅人を相手に宿を経営し、食事を提供し、旅行の手配などをする仕事がある。
+
+一見すると、そんなに危ないようにも見えないのだが、危ないのは 「山奥の村から谷沿いの村へ運び」の部分。
+
+最高級品を安く買い求めたい旅人達は、何日もかけて登山し、山奥の村へと大麻樹脂を買いに行く。
+
+懐には大金を潜ませて。。。
+
+## 事件
+
+この大金が山賊や警察や農民や同業者に狙われるのだ。
+
+行きは大金を持ち、帰りは大量の大麻樹脂を持つ。
+
+どちらも地元の平均的な収入からすると、何年分もの収入に相当する。
+
+そんな大層な額を持ち山奥の道を歩くと、良くて脅され、悪いと谷底に突き落とされる。
+
+この辺りは実質的に無法地帯なので、一度谷に突き落とされれば、それで完全犯罪が成り立ってしまう。
+
+地域のレストランなどでは、行方不明者の張り紙を頻繁に見かけるが、誰もがその人は帰ってこないことを知っている。
+
+踏み込んではいけない部分に足を踏み入れてしまったもの達の自業自得の末路なのだ。
+
+## 蛮勇
+
+だが、それでも旅人達は最高級の大麻樹脂を求めて山奥へと旅立って行く。
+
+この界隈を旅している者たちは、何年もの間、冒険に冒険を重ねてきているので、恐怖心が麻痺している者達が多く、さらなる冒険を求めて山奥へと旅立つ。
+
+買い付けに成功して帰って来れば、それだけでインドで１年ほど遊んで暮らせるお金を手に入れることも可能で、最高級大麻樹脂と大金と武勇伝と名声を手に入れるのだ。
+
+インドを旅する大麻好きの旅人達の間では、良質の大麻を持つということは、そのまま身分が上昇することを意味しており、最高級の大麻樹脂を手に入れた日には、一躍スターの座に躍り出る。
+
+馬鹿げてはいるが、良質の大麻にはそれほどの価値があった。
+
+[前の記事](https://qryptraveller.com/autumn-in-the-himalayas-18-autobiography-223/)　｜　[次の記事](https://qryptraveller.com/autumn-in-the-himalayas-20-autobiography-225/)[/um\_show\_content]

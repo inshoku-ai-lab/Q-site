@@ -1,0 +1,93 @@
+---
+id: 6293
+title: "２期目のゴアの話３０（放浪記２８２）"
+slug: "gores-story-of-his-second-term-30-autobiography-282"
+date: "2022-09-03 06:32:00"
+status: "publish"
+original_url: "https://qryptraveller.com/gores-story-of-his-second-term-30-autobiography-282/"
+featured_image_id: "6248"
+categories:
+  - "放浪記"
+tags:
+images:
+flags: "no-images"
+---
+
+[show\_for\_guests\_and\_members]
+
+--- この記事の後半はプライベートな情報があるために完全版でのみ公開しています---
+
+[プレミアムアカウントにアップグレードして完全版を読む](https://qryptraveller.com/index1/travel-blog/membership-join/)
+
+.upgrade-button {
+display: inline-block;
+padding: 10px 20px;
+background-color: #6d8e5d;
+color: white;
+text-decoration: none;
+border-radius: 8px;
+font-weight: bold;
+transition: background-color 0.3s;
+}
+.upgrade-button:hover {
+background-color: #587746;
+}
+[前の記事](https://qryptraveller.com/gores-story-of-his-second-term-29-autobiography-281/)　｜　[次の記事](
+)[/show\_for\_guests\_and\_members]
+[um\_show\_content roles='um\_custom\_role\_1']
+
+（以下内容転載禁止、法的対処有。）
+
+## DMTのその後
+
+僕のセッションの後にIちゃんも続いた。
+
+彼女も深い体験をしたらしいが、どうにも言葉にできるものでもなく、すごかったと嘆息を漏らすだけだった。
+
+他の何人かの友人たちとDMTについて話を交わしたが、お互いに昨夜の夢の話をしているようで、まったく要領を得ない。
+
+いまいち納得のいく会話は、他人とはできなかったが、僕の中では大きな意味があった。
+
+この体験により、時間という枠組みから解放され始めた。
+
+それまでは、時間というものは世界の枠組みとしてそこに存在していて、絶対的なもので不可侵のものだったが、この体験以降は、自身の感覚により長くも短くもなるものだということを理解した。
+
+そして、”あの世”のような世界では、時間は存在せず、無限と一瞬が同時に存在しているという、禅問答のような事柄を感覚として理解した。
+
+頭では全くわかっていなかったが、その体験は絶対的なものだった。
+
+この体験は、僕の物質世界に対する閉ざされた固定観念を解放するきっかけとなった。
+
+## 好奇心
+
+DMTは、僕の好奇心に火をつけた。
+
+だがSさん曰く、一度やった後は一ヶ月ほど待ったほうが良いというので、一ヶ月たった後に再びセッションをお願いした。
+
+一ヶ月待たなかったとしても、かなり値の張るモノなので、頻繁にできるようなものでもない。
+
+Iちゃんはそこまで興味はないらしく、僕だけが２度目のセッションに挑戦する。
+
+今回は一度経験した後なので、未知への恐怖もなく、簡単に事が運んだ。
+
+## ２度目のセッション
+
+Sさんの導きにより、異次元の世界へと入って行く。
+
+前回と同じく、無限の幾何学曼荼羅が広がり、不可思議なメロディーがその場を満たしている。
+
+そして前回と同じく、僕はその世界を客観的に見ているのではなくて、その世界そのものになっていた。
+
+だが今回違ったのは、その異次元世界の存在が意思を持っていた事だ。
+
+目の中に広がる幾何学模様の真ん中にその意思は存在した。
+
+そして、暖かい受容に満ちた愛の波動をこちらに向けて放っていた。
+
+異次元の中心には愛の存在がいたのだ。
+
+その光はピンク色のような暖色で、暖かくて優しいエネルギーを放射していた。
+
+僕の２度目のセッションは、優しさに包まれた温かな気持ちで閉じることになった。
+
+[前の記事](https://qryptraveller.com/gores-story-of-his-second-term-29-autobiography-281/)　｜　[次の記事](https://qryptraveller.com/gores-story-of-his-second-term-31-autobiography-283/)[/um\_show\_content]

@@ -1,0 +1,104 @@
+---
+id: 5384
+title: "ゴアに目覚める話３２（放浪記１４９）"
+slug: "a-story-of-awakening-to-gore-32-autobiography-149"
+date: "2022-04-26 08:12:00"
+status: "publish"
+original_url: "https://qryptraveller.com/a-story-of-awakening-to-gore-32-autobiography-149/"
+featured_image_id: "5371"
+categories:
+  - "放浪記"
+tags:
+images:
+flags: "no-images"
+---
+
+[show\_for\_guests\_and\_members]
+
+--- この記事の後半はプライベートな情報があるために完全版でのみ公開しています---
+
+[プレミアムアカウントにアップグレードして完全版を読む](https://qryptraveller.com/index1/travel-blog/membership-join/)
+
+.upgrade-button {
+display: inline-block;
+padding: 10px 20px;
+background-color: #6d8e5d;
+color: white;
+text-decoration: none;
+border-radius: 8px;
+font-weight: bold;
+transition: background-color 0.3s;
+}
+.upgrade-button:hover {
+background-color: #587746;
+}
+[前の記事](https://qryptraveller.com/a-story-of-awakening-to-gore-31-autobiography-148/)　｜　[次の記事](https://qryptraveller.com/the-story-of-awakening-to-gore-33-autobiography-150/)
+[/show\_for\_guests\_and\_members]
+[um\_show\_content roles='um\_custom\_role\_1']
+
+（以下内容転載禁止、法的対処有。）
+
+## ニュー・イヤー・パーティー
+
+世紀末を迎えるパーティーは、ゴアギルのDJにより、パライソで行われる。
+
+クリスマスの最高の興奮が冷めやらぬ間に、またゴアギルのパーティーが体験できることに僕たちは大喜びしていた。
+
+しかも今回は、前回の倍の時間のパーティーが開かれる。
+
+前回２４時間ぶっ続けでDJをしていたが、今回は、なんと４８時間ぶっ続けでDJをすると言う。
+
+人間業をとうに超えている。
+
+３日の晩が満月なので、新年のパーティーはフルムーン・パーティーも兼ねている。  
+祝う理由は多ければ多いほど楽しい。
+
+僕たちは年を越す何時間も前に年越しそばを食べ終わり、夕暮れ時にはパーティー会場へ向かう。
+
+既にものすごい量の人が集まっていて、通りは全てバイクで埋まり、車などは通ることは出来ない。
+
+爆音と喧噪でごった返す中、パーティーへと入って行く。
+
+誰もが夕陽に美しく照らされながら気持ち良さそうに踊っている。
+
+気持ちよく踊る人たちを見るのはなんとも気持ちがいい。
+
+喜びや幸せが辺りに振りまかれている。
+
+僕たちはいつもの様にチャイ屋へ向かい、チャイを飲みながらジョイントを吸い、ダンスに備える。
+
+クリスマスのパーティーでは、強めにLSDを取って踊り続けたが、今回は倍の時間のパーティーだ。
+
+短期決戦の手法は通用しない。
+
+今回は最初にエクスタシーの錠剤をひとかじりし、８分の１の適量のLSDを何度にも分けて摂取することにした。
+
+この方法だと、トビすぎて大変な事にはならずに、調子のいい状態を長時間維持できるのでは無いかという予想だ。
+
+ゴアのパーティーの中心で踊り続けるライオンは４分の１のLSDを何度にも分けて取りながら、よく振って炭酸を抜いたコカ・コーラを飲みながら踊り続けるらしい。
+
+## セッション２
+
+少しづつ定期的に摂取する作戦は見事に成功した。
+
+僕は、１２時間ぶっ続けで踊ってから一度帰宅する。
+
+摂取量が適量だったために、すぐに眠りにつく事ができ、１２時間眠って体力を回復させることが出来た。
+
+パーティーはまだまだ続く。
+
+しっかりと休んだ後にダンスフロアへ再び帰って来ると、全く衰えていない奇跡的な盛り上がりを保ち続けている。
+
+LSDは続けて取ると耐性ができて効かなくなるので、今度は４分の１づつ摂取することにした。
+
+これまた適量だったようで、身体が固まったりせずに踊り続けることが出来た。
+
+今度は１８時間踊り続けて、夕陽が海へ沈むまで続いたパーティーで最後まで踊り続けることができた。
+
+全部で３０時間もトランスして踊り続けたわけだ。
+
+こんなにも長時間の間、全力で踊り続けるなど、常軌を大きく逸しているが、二十歳の僕にとっては自然な事だった。
+
+クリスマスの倍の時間のパーティーだけあって、その意識の旅の深さは半端なく、クリスマスの時以上に人々に大きな意識変化を引き起こしていた。
+
+[前の記事](https://qryptraveller.com/a-story-of-awakening-to-gore-31-autobiography-148/)　｜　[次の記事](https://qryptraveller.com/the-story-of-awakening-to-gore-33-autobiography-150/)[/um\_show\_content]

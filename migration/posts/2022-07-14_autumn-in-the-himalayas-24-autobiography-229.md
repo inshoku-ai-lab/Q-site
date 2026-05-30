@@ -1,0 +1,96 @@
+---
+id: 5996
+title: "ヒマラヤの秋の話２４（放浪記２２９）"
+slug: "autumn-in-the-himalayas-24-autobiography-229"
+date: "2022-07-14 01:14:00"
+status: "publish"
+original_url: "https://qryptraveller.com/autumn-in-the-himalayas-24-autobiography-229/"
+featured_image_id: "5999"
+categories:
+  - "放浪記"
+tags:
+images:
+flags: "no-images"
+---
+
+[show\_for\_guests\_and\_members]
+
+--- この記事の後半はプライベートな情報があるために完全版でのみ公開しています---
+
+[プレミアムアカウントにアップグレードして完全版を読む](https://qryptraveller.com/index1/travel-blog/membership-join/)
+
+.upgrade-button {
+display: inline-block;
+padding: 10px 20px;
+background-color: #6d8e5d;
+color: white;
+text-decoration: none;
+border-radius: 8px;
+font-weight: bold;
+transition: background-color 0.3s;
+}
+.upgrade-button:hover {
+background-color: #587746;
+}
+[前の記事](https://qryptraveller.com/autumn-in-the-himalayas-23-autobiography-228/)　｜　[次の記事](https://qryptraveller.com/autumn-in-the-himalayas-25-autobiography-230/)[/show\_for\_guests\_and\_members]
+[um\_show\_content roles='um\_custom\_role\_1']
+
+（以下内容転載禁止、法的対処有。）
+
+## ブラウンシュガー
+
+バシシトでは、雨季が終わり、晴れた日が続くと同時に冬が近づいてきていた。
+
+段々と冷え込むようになりだすと同時に、旅人たちの間でブラウンシュガーと言う阿片の一種が流行りだした。
+
+流行っていると言っても中毒のような感じではなく、あくまでも友人同士の遊びの一種として、好奇心旺盛な旅人たちが危険な遊びを楽しんでいると言った感じだった。
+
+好奇心が旺盛なのは僕も同じで、阿片のような体が重くリラックスするようなドラッグには全く興味はなかったが、好奇心を満たすことにはやぶさかでは無かった。
+
+## 阿片体験
+
+隣の友人の部屋で、いつも吸う大麻のジョイントにブラウンシュガーを混ぜて皆で回しながら吸う。
+
+通常の大麻体験よりも、より一層リラックスして心が静かなように感じる。
+
+冬が近ずくにつれて、皆がブラウンシュガーを吸いだしたのが納得できる。
+
+皆が静かになるので、一緒に吸っていても楽しいものでもなかったので、すでに夜遅く、ブラウンシュガーでトビながら眠りに着こうと自分の部屋へと戻る。
+
+ベッドに横になり、音楽を聴く。
+
+こう言った静かでリラックスした状態では、静かな音が聞きたいと思い、アンビエントのような実験音楽を聴きながらベッドで横たわる。
+
+## 不思議体験
+
+横になり始めてどれくらいの時間が経ったのかはわからない。
+
+もしかしたら眠りに落ちていたのかもしれないし、半覚醒状態だったのかもしれない。
+
+気がつくと結構大きな音で実験音楽の浮遊音が足元に置いた音楽プレーヤーから流れていたので、半身を起こして音楽を停止させた。
+
+半身を起こして音楽を止めたと思っていたのに、気がつくとまだベッドに横になったままだった。
+
+実際に体を動かして半身を起こしたのか、あるいは意識だけ抜け出して半身を起こしたように感じたのか、はたまた全ては夢なのか分からない。
+
+だが、音楽はまだ鳴り続けている。
+
+もう一度起き上がろうと思ったが、今度は身体が全く動かない。
+
+金縛りが起こっていた。
+
+生まれて初めての体験だ。
+
+どれだけ体を動かそうとしても、体は動かず、耳元なのか脳内なのか不可思議な浮遊音が流れ続けている。
+
+どことなく、脚を押さえつけられているような感覚もするが、起き上がることができないので足元を見ることはできない。
+
+ちょっとしたパニックになるが、阿片の効果からか、リラックスして落ち着いてもいる。
+
+体を動かせない状態がしばらく続いた後に、また気絶するように眠りに落ちてしまった。
+
+朝になり、ルームメイトにこの話をしたが、夜中に音楽は鳴っていなかったらしい。
+
+結局なんだったのかは分からずじまいだったが、阿片による幽体離脱のような体験だったと捉えている。
+
+[前の記事](https://qryptraveller.com/autumn-in-the-himalayas-23-autobiography-228/)　｜　[次の記事](https://qryptraveller.com/autumn-in-the-himalayas-25-autobiography-230/)[/um\_show\_content]

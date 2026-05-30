@@ -1,0 +1,31 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import ArticleCard from "../../components/ArticleCard.astro";
+import { getTagIndex, getPostsByTag } from "../../lib/posts";
+
+export async function getStaticPaths() {
+  return getTagIndex().map((t) => ({
+    params: { name: t.name },
+    props: { name: t.name, count: t.count },
+  }));
+}
+
+const { name, count } = Astro.props;
+const posts = getPostsByTag(name).sort((a, b) => (b.date ?? "").localeCompare(a.date ?? ""));
+---
+
+<Layout title={`#${name} - タグ`}>
+  <div class="max-w-page mx-auto px-4 md:px-8 py-16">
+    <header class="mb-12 max-w-prose">
+      <div class="text-xs uppercase tracking-[0.3em] text-earth mb-3">Tag</div>
+      <h1 class="font-serif text-3xl md:text-5xl font-semibold text-moss-dark leading-tight">
+        #{name}
+      </h1>
+      <p class="mt-4 text-ink-muted">{count}本の記事</p>
+    </header>
+
+    <div class="space-y-1 bg-paper-50 rounded-lg border border-paper-200 px-5">
+      {posts.map((post) => <ArticleCard post={post} variant="compact" />)}
+    </div>
+  </div>
+</Layout>

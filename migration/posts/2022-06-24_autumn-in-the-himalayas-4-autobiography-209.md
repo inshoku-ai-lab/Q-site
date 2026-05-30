@@ -1,0 +1,84 @@
+---
+id: 5894
+title: "ヒマラヤの秋の話４（放浪記２０９）"
+slug: "autumn-in-the-himalayas-4-autobiography-209"
+date: "2022-06-24 05:33:00"
+status: "publish"
+original_url: "https://qryptraveller.com/autumn-in-the-himalayas-4-autobiography-209/"
+featured_image_id: "5860"
+categories:
+  - "放浪記"
+tags:
+images:
+flags: "no-images"
+---
+
+## 新しい友人
+
+ゲストハウスに新しい二人組みの日本人がやってきた。
+
+彼らは幼少時からの親友で、体育会系のノリ。
+
+実際にそういった大学を卒業したらしい。
+
+年長の一人は、頭が良く面倒見の良い、人間的に大人なタイプのBくん。
+
+もう一人は、Bくんの弟分で、だらしなく甘えん坊だが愛嬌のあるFくん。
+
+二人は体育会系だけに勢いがよく社交的で、すぐにみんなと打ち解けていた。
+
+その反面、静かな雰囲気を好むバシシトに長期滞在している旅人には煙たがられていたが。
+
+皆で温泉に行ったり、食事に行ったり、滝に行ったりと毎日色々と遊んで楽しく過ごしていたが、あるとき事件が起こる。
+
+[show\_for\_guests\_and\_members]
+
+--- この記事の後半はプライベートな情報があるために完全版でのみ公開しています---
+
+[プレミアムアカウントにアップグレードして完全版を読む](https://qryptraveller.com/index1/travel-blog/membership-join/)
+
+.upgrade-button {
+display: inline-block;
+padding: 10px 20px;
+background-color: #6d8e5d;
+color: white;
+text-decoration: none;
+border-radius: 8px;
+font-weight: bold;
+transition: background-color 0.3s;
+}
+.upgrade-button:hover {
+background-color: #587746;
+}
+[前の記事](https://qryptraveller.com/autumn-in-the-himalayas-3-autobiography-208/)　｜　[次の記事](https://qryptraveller.com/autumn-in-the-himalayas-5-autobiography-210/)[/show\_for\_guests\_and\_members]
+[um\_show\_content roles='um\_custom\_role\_1']
+
+（以下内容転載禁止、法的対処有。）
+
+## インドア・パーティー
+
+雨季はまだ続いていて、雨が降ったり止んだりしていた。
+
+こんな天気では野外でのトランス・パーティーなど起こるわけも無いだろうと思っていた矢先に、パーティーの話が舞い込んできた。
+
+バシシトの谷の反対側に位置するオールドマナリの村のホテルを借り切ってパーティーが開催されると言うのだ。
+
+なるほど、これなら雨の影響もなくパーティーができるし、村の中であっても騒音の問題も少なくて済むだろう。
+
+残念ながら大自然の中で踊る喜びは無いが、雨季で観光客の少ないホテル側にとっても悪い話では無いはずだ。
+
+旅人を喜ばせ、ホテルのオーナーを喜ばせ、地元の人に迷惑をかけない、ウィンウィンウィンの関係だった。
+
+僕たちは、喜び勇んでオートリクシャーを乗り継ぎ、パーティー会場へと向かう。
+
+パーティーは一部が建物の中で、一部が中庭を使って行われるので、雨でも晴れでも最適な状態で楽しむことができる。
+
+インドでのゴアトランスのパーティーに有るまじき有料制だったが、ホテルへ利用料を払っているので、文句の言いようもない。
+
+そもそも、オーガナイザーもお金を稼ぐのが目的では無いので、入場料も安かった。
+
+インドでのゴアトランスのパーティーは、お金目的で作られるものは殆どなく、その殆どが自分たちが楽しんで、仲間たちを楽しませたいと言う純粋なコミュニティへの奉仕の精神から出来ていた。
+
+このパーティーも同じように、奉仕の精神から出来ており、お金を稼いでやろうと言う搾取の精神から出来ているパーティーとは全く異なる愛の波動に満ちていた。
+
+[前の記事](https://qryptraveller.com/autumn-in-the-himalayas-3-autobiography-208/)　｜　[次の記事](https://qryptraveller.com/autumn-in-the-himalayas-5-autobiography-210/)[/um\_show\_content]

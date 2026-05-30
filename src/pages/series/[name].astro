@@ -1,0 +1,40 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import ArticleCard from "../../components/ArticleCard.astro";
+import {
+  getSeriesIndex,
+  getPostsBySeries,
+} from "../../lib/posts";
+
+export async function getStaticPaths() {
+  return getSeriesIndex().map((s) => ({
+    params: { name: s.name },
+    props: { name: s.name, count: s.count },
+  }));
+}
+
+const { name, count } = Astro.props;
+const posts = getPostsBySeries(name);
+const hasEpisodes = posts.some((p) => p.episode != null);
+---
+
+<Layout title={`${name} シリーズ`} description={`「${name}」シリーズの全${count}話の目次。`}>
+  <div class="max-w-page mx-auto px-4 md:px-8 py-16">
+    <header class="mb-12 max-w-prose">
+      <div class="text-xs uppercase tracking-[0.3em] text-earth mb-3">Series</div>
+      <h1 class="font-serif text-3xl md:text-5xl font-semibold text-moss-dark leading-tight">{name}</h1>
+      <p class="mt-4 text-ink-muted">
+        全 <strong class="text-ink">{count}</strong> 話。
+        {hasEpisodes ? "番号順に並んでいます。" : "新しい順に並んでいます。"}
+      </p>
+    </header>
+
+    <div class="bg-paper-50 rounded-lg border border-paper-200 divide-y divide-paper-200">
+      {posts.map((post) => (
+        <div class="px-5">
+          <ArticleCard post={post} variant="compact" showCategory={false} />
+        </div>
+      ))}
+    </div>
+  </div>
+</Layout>

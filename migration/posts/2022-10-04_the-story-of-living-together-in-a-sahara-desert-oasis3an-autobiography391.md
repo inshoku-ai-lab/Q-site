@@ -1,0 +1,61 @@
+---
+id: 6858
+title: "サハラ砂漠のオアシスで共同生活する話３（放浪記３９１）"
+slug: "the-story-of-living-together-in-a-sahara-desert-oasis3an-autobiography391"
+date: "2022-10-04 07:28:00"
+status: "publish"
+original_url: "https://qryptraveller.com/the-story-of-living-together-in-a-sahara-desert-oasis3an-autobiography391/"
+featured_image_id: "6731"
+categories:
+  - "放浪記"
+tags:
+images:
+  - "https://qryptraveller.com/wp-content/uploads/2022/04/スクリーンショット-2022-04-24-16.32.24.png"
+flags: ""
+---
+
+## 道具
+
+ガンドルフさんが運んできたのは、人だけでなく、数多くの道具類も一緒だった。
+
+米や小麦や野菜類などの食料、フェスティバルで使われたカーペットやクッション類、調理器具や大工道具などだ。
+
+その中で一番大きく、一番目を引いたのは、巨大な金属の物体だった。
+
+１メートル以上ある大きさのパラボラアンテナのような金属が上部に取り付けられており、下部の土台を元にして、動くようになっている。
+
+アンテナが一点に集約する部分には金属の枠があり、何かの目的を果たしているようだ。
+
+言葉では説明しきれないので、画像をみて欲しい。
+
+![](https://qryptraveller.com/wp-content/uploads/2022/04/スクリーンショット-2022-04-24-16.32.24.png)
+
+## エコロジー博士
+
+僕にはこの物体になんの目的があるのか全く理解できなかったので、ガンドルフさんに聞いてみた。
+
+これはソーラークッカーというものだそうで、太陽の熱を反射して一点に集約し、調理をすることができるという。
+
+ガンドルフさんが自分で作ったものだそうだ。
+
+ここで判明したのは、ガンドルフさんは昔にエコロジー博士として活躍していて、太陽電池の開発などに関わっていたそうだ。
+
+色々な発明品があるという。
+
+魔法使いのおじいさんは、魔法でものを作り出すのではなく、科学を使って発明をしていたようだ。
+
+## 着地
+
+新しくやってきた友人たちが、それぞれの荷物を小屋の中に運び込み、それぞれの落ち着き場所を小屋の中に見出した。
+
+皆それぞれが、期待に満ちた笑顔をしている。
+
+とりあえずなんだかよく分からないが面白そうなので参加したといった感じだ。
+
+実際に誰一人今後どういった流れになるのか理解していない。
+
+主催者のガンドルフさんですらよくわかっていないだろう。
+
+だからこそ面白い冒険になるのだ。
+
+[前の記事](https://qryptraveller.com/the-story-of-living-in-a-sahara-desert-oasis-2-autobiography-390/)　｜　[次の記事](https://qryptraveller.com/a-story-of-living-together-in-a-sahara-desert-oasis4an-autobiography392/)

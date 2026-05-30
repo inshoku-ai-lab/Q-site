@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply bg-paper-100 text-ink antialiased;
+    font-feature-settings: "palt" 1;
+  }
+
+  body {
+    @apply font-sans text-body;
+  }
+
+  /* Selection color */
+  ::selection {
+    @apply bg-moss/20 text-ink;
+  }
+
+  /* Headings */
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif text-moss-dark;
+    font-feature-settings: "palt" 1;
+  }
+
+  /* Links in prose default */
+  a {
+    @apply text-moss underline decoration-moss/30 underline-offset-4 transition-colors hover:text-moss-dark hover:decoration-moss-dark;
+  }
+}
+
+@layer components {
+  /* Article prose styling */
+  .prose-article {
+    @apply text-ink;
+  }
+  .prose-article h1 {
+    @apply text-3xl md:text-4xl font-serif font-semibold text-moss-dark mt-12 mb-6 leading-tight;
+  }
+  .prose-article h2 {
+    @apply text-2xl md:text-[1.6rem] font-serif font-semibold text-moss-dark mt-12 mb-5 leading-snug border-b border-paper-300 pb-2;
+  }
+  .prose-article h3 {
+    @apply text-xl md:text-[1.35rem] font-serif font-semibold text-moss-dark mt-10 mb-4;
+  }
+  .prose-article h4 {
+    @apply text-lg font-serif font-semibold text-moss-dark mt-8 mb-3;
+  }
+  .prose-article p {
+    @apply text-body md:text-body-lg my-5 leading-[1.95];
+  }
+  .prose-article ul {
+    @apply my-5 pl-6 list-disc marker:text-earth;
+  }
+  .prose-article ol {
+    @apply my-5 pl-6 list-decimal marker:text-earth;
+  }
+  .prose-article li {
+    @apply my-2 leading-[1.85];
+  }
+  .prose-article blockquote {
+    @apply my-6 px-5 py-2 border-l-4 border-earth/60 bg-paper-50 text-ink-light italic;
+  }
+  .prose-article a {
+    @apply text-moss underline decoration-moss/40 underline-offset-4 hover:text-moss-dark hover:decoration-moss-dark break-words;
+  }
+  .prose-article strong {
+    @apply font-semibold text-ink;
+  }
+  .prose-article code {
+    @apply px-1.5 py-0.5 bg-paper-200 rounded text-[0.95em] font-mono;
+  }
+  .prose-article pre {
+    @apply my-6 p-4 bg-ink text-paper-100 rounded-md overflow-x-auto;
+  }
+  .prose-article pre code {
+    @apply p-0 bg-transparent text-paper-100;
+  }
+  .prose-article img {
+    @apply my-8 rounded-md mx-auto shadow-sm;
+  }
+  .prose-article hr {
+    @apply my-12 border-t border-paper-300;
+  }
+
+  /* Card hover */
+  .card-hover {
+    @apply transition-all duration-200 hover:translate-y-[-2px] hover:shadow-md;
+  }
+}

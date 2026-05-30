@@ -1,0 +1,111 @@
+---
+import type { Block } from "../lib/posts";
+
+interface Props {
+  blocks: Block[];
+}
+const { blocks } = Astro.props;
+
+// Group consecutive list items into <ul>/<ol>
+type Group = { type: "ul" | "ol" | "single"; items: Block[] };
+function groupBlocks(blocks: Block[]): Group[] {
+  const out: Group[] = [];
+  for (const b of blocks) {
+    if (b.type === "bulleted_list_item") {
+      const last = out[out.length - 1];
+      if (last?.type === "ul") last.items.push(b);
+      else out.push({ type: "ul", items: [b] });
+    } else if (b.type === "numbered_list_item") {
+      const last = out[out.length - 1];
+      if (last?.type === "ol") last.items.push(b);
+      else out.push({ type: "ol", items: [b] });
+    } else {
+      out.push({ type: "single", items: [b] });
+    }
+  }
+  return out;
+}
+
+const groups = groupBlocks(blocks);
+---
+
+<article class="prose-article">
+  {
+    groups.map((g) => {
+      if (g.type === "ul") {
+        return (
+          <ul>
+            {g.items.map((b) => (
+              <li set:html={b.html ?? ""} />
+            ))}
+          </ul>
+        );
+      }
+      if (g.type === "ol") {
+        return (
+          <ol>
+            {g.items.map((b) => (
+              <li set:html={b.html ?? ""} />
+            ))}
+          </ol>
+        );
+      }
+      const b = g.items[0];
+      switch (b.type) {
+        case "paragraph":
+          if (!b.html?.trim()) return null;
+          return <p set:html={b.html} />;
+        case "heading_1":
+          return <h2 set:html={b.html ?? ""} />;
+        case "heading_2":
+          return <h2 set:html={b.html ?? ""} />;
+        case "heading_3":
+          return <h3 set:html={b.html ?? ""} />;
+        case "quote":
+          return <blockquote set:html={b.html ?? ""} />;
+        case "callout":
+          return (
+            <div class="my-6 p-4 rounded-md bg-earth/10 border-l-4 border-earth">
+              <div set:html={b.html ?? ""} />
+            </div>
+          );
+        case "code":
+          return (
+            <pre>
+              <code class={`language-${b.language ?? "plain text"}`}>{b.code}</code>
+            </pre>
+          );
+        case "divider":
+          return <hr />;
+        case "image":
+          if (!b.src) return null;
+          return (
+            <figure class="my-8">
+              <img src={b.src} alt={b.caption?.replace(/<[^>]+>/g, "") ?? ""} loading="lazy" />
+              {b.caption && <figcaption class="text-xs text-ink-muted text-center mt-2" set:html={b.caption} />}
+            </figure>
+          );
+        case "bookmark":
+        case "embed":
+          if (!b.url) return null;
+          return (
+            <div class="my-6">
+              <a href={b.url} target="_blank" rel="noopener" class="block p-4 bg-paper-50 border border-paper-300 rounded-md text-sm break-all hover:bg-paper-200">
+                {b.url}
+              </a>
+            </div>
+          );
+        case "video":
+          if (!b.url) return null;
+          return (
+            <div class="my-6 aspect-video">
+              <iframe src={b.url} class="w-full h-full rounded-md" allow="autoplay; encrypted-media" allowfullscreen />
+            </div>
+          );
+        default:
+          if (b.html) return <p set:html={b.html} />;
+          return null;
+      }
+    })
+  }
+</article>

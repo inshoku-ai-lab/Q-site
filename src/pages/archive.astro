@@ -1,0 +1,32 @@
+---
+import Layout from "../layouts/Layout.astro";
+import ArticleCard from "../components/ArticleCard.astro";
+import { getArchiveIndex } from "../lib/posts";
+
+const archive = getArchiveIndex();
+const totalCount = archive.reduce((sum, y) => sum + y.posts.length, 0);
+---
+
+<Layout title="アーカイブ">
+  <div class="max-w-page mx-auto px-4 md:px-8 py-16">
+    <header class="mb-12">
+      <div class="text-xs uppercase tracking-[0.3em] text-earth mb-3">Archive</div>
+      <h1 class="font-serif text-3xl md:text-4xl font-semibold text-moss-dark">年別アーカイブ</h1>
+      <p class="mt-3 text-ink-muted">全{totalCount.toLocaleString()}本の記事を年別に。</p>
+    </header>
+
+    <div class="space-y-16">
+      {archive.map((y) => (
+        <section>
+          <div class="flex items-baseline justify-between mb-6 pb-3 border-b border-paper-300">
+            <h2 class="font-serif text-3xl font-bold text-moss-dark">{y.year}</h2>
+            <span class="text-sm text-ink-muted font-mono">{y.posts.length}本</span>
+          </div>
+          <div class="bg-paper-50 rounded-lg border border-paper-200 px-5">
+            {y.posts.map((post) => <ArticleCard post={post} variant="compact" />)}
+          </div>
+        </section>
+      ))}
+    </div>
+  </div>
+</Layout>

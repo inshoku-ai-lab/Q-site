@@ -1,0 +1,134 @@
+---
+import Layout from "../layouts/Layout.astro";
+import ArticleCard from "../components/ArticleCard.astro";
+import SeriesCard from "../components/SeriesCard.astro";
+import {
+  getLatestPosts,
+  getFeaturedPosts,
+  getSeriesIndex,
+  getPublishedPosts,
+} from "../lib/posts";
+
+const featured = getFeaturedPosts(3);
+const latest = getLatestPosts(8);
+const seriesList = getSeriesIndex();
+const totalPosts = getPublishedPosts().length;
+
+// Curated series order for homepage
+const seriesOrder = [
+  "放浪記",
+  "デボリューション理論",
+  "ツイッターファイル",
+  "ティール・スワン",
+];
+const seriesSorted = seriesOrder
+  .map((name) => seriesList.find((s) => s.name === name))
+  .filter((s): s is NonNullable<typeof s> => Boolean(s));
+
+const seriesDescriptions: Record<string, string> = {
+  "放浪記": "宗教家庭から脱出した17歳の少年が、世界中を放浪し続ける物語。500話以上の連載。",
+  "デボリューション理論": "トランプ政権末期に発動された軍事的権限委譲作戦の全貌。徹底解説。",
+  "ツイッターファイル": "イーロン・マスクが暴露したTwitter社内の検閲構造。全シリーズ要約。",
+  "ティール・スワン": "悪魔崇拝サバイバーがトラウマセラピストへ。意識の断片化と統合の話。",
+  "真のビットコイン (BSV)": "BTCではなくBSV。サトシ・ナカモトの正体とビットコインの本質。",
+  "翻訳記事": "海外の重要な情報源から、日本人が知っておくべき記事を翻訳。",
+};
+---
+
+<Layout title="Cryptraveler's Notes">
+  <!-- Hero -->
+  <section class="border-b border-paper-300 bg-gradient-to-b from-paper-50 to-paper-100">
+    <div class="max-w-page mx-auto px-4 md:px-8 py-16 md:py-24 grid md:grid-cols-12 gap-8 items-center">
+      <div class="md:col-span-7">
+        <div class="text-xs uppercase tracking-[0.3em] text-earth mb-4">
+          Records of a Roaming Mind · since 2021
+        </div>
+        <h1 class="font-serif text-3xl md:text-5xl lg:text-6xl font-semibold text-moss-dark leading-[1.25] mb-6">
+          地球放浪
+          <span class="text-earth">20年以上</span>
+          の<br />吟遊詩人による<br />思索のアーカイブ
+        </h1>
+        <p class="text-ink-light leading-relaxed mb-8 max-w-prose">
+          スナフキンを心の師として、住所も保険証も持たずに世界中を旅し続ける。
+          放浪の記録、思想と理論、時事の考察、そして雑記。<br />
+          <span class="text-ink-muted text-sm">{totalPosts.toLocaleString()}本の記事をご用意しています。</span>
+        </p>
+        <div class="flex flex-wrap gap-3">
+          <a
+            href="/series/%E6%94%BE%E6%B5%AA%E8%A8%98/"
+            class="inline-block px-5 py-3 bg-moss-dark text-paper-100 rounded-md text-sm font-medium no-underline hover:bg-moss"
+          >
+            放浪記を読む
+          </a>
+          <a
+            href="/about/"
+            class="inline-block px-5 py-3 border border-moss-dark text-moss-dark rounded-md text-sm font-medium no-underline hover:bg-moss-dark hover:text-paper-100"
+          >
+            About this site
+          </a>
+        </div>
+      </div>
+
+      <div class="md:col-span-5 hidden md:block">
+        <div class="relative aspect-[4/5] rounded-lg overflow-hidden bg-gradient-to-br from-wandering/30 to-thought/20 border border-paper-300">
+          <div class="absolute inset-0 flex items-center justify-center">
+            <svg viewBox="0 0 200 200" class="w-3/5 h-3/5 text-moss-dark/30">
+              <path d="M20 160 L60 80 L90 120 L130 60 L180 160 Z" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
+              <circle cx="100" cy="40" r="12" fill="currentColor" opacity="0.5" />
+              <path d="M10 175 Q 100 165 190 175" fill="none" stroke="currentColor" stroke-width="1.5" stroke-dasharray="4 4" opacity="0.4" />
+            </svg>
+          </div>
+          <div class="absolute bottom-6 left-6 right-6 text-xs font-serif italic text-moss-dark/60">
+            "Travel light, observe deeply."
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  {featured.length > 0 && (
+    <section class="max-w-page mx-auto px-4 md:px-8 py-16">
+      <div class="flex items-baseline justify-between mb-8">
+        <h2 class="font-serif text-2xl md:text-3xl font-semibold text-moss-dark">特集記事</h2>
+        <span class="text-xs uppercase tracking-widest text-ink-muted">Featured</span>
+      </div>
+      <div class="grid md:grid-cols-3 gap-6">
+        {featured.map((post) => <ArticleCard post={post} variant="wide" />)}
+      </div>
+    </section>
+  )}
+
+  <section class="bg-paper-50 border-y border-paper-300">
+    <div class="max-w-page mx-auto px-4 md:px-8 py-16">
+      <div class="flex items-baseline justify-between mb-8">
+        <h2 class="font-serif text-2xl md:text-3xl font-semibold text-moss-dark">シリーズで読む</h2>
+        <a href="/series/" class="text-sm text-moss no-underline hover:text-moss-dark">すべて見る →</a>
+      </div>
+      <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
+        {seriesSorted.map((s) => (
+          <SeriesCard
+            name={s.name}
+            count={s.count}
+            description={seriesDescriptions[s.name]}
+            cover={s.representative?.cover ?? null}
+            accent={
+              s.name === "放浪記" ? "wandering"
+              : s.name === "デボリューション理論" || s.name === "ティール・スワン" ? "thought"
+              : "current"
+            }
+          />
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="max-w-page mx-auto px-4 md:px-8 py-16">
+    <div class="flex items-baseline justify-between mb-8">
+      <h2 class="font-serif text-2xl md:text-3xl font-semibold text-moss-dark">最新の記事</h2>
+      <a href="/archive/" class="text-sm text-moss no-underline hover:text-moss-dark">アーカイブを見る →</a>
+    </div>
+    <div class="grid md:grid-cols-2 gap-5">
+      {latest.map((post) => <ArticleCard post={post} variant="default" />)}
+    </div>
+  </section>
+</Layout>

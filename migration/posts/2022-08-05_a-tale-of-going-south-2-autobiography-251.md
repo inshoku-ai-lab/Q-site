@@ -1,0 +1,90 @@
+---
+id: 6124
+title: "南へ向かう話２（放浪記２５１）"
+slug: "a-tale-of-going-south-2-autobiography-251"
+date: "2022-08-05 03:53:00"
+status: "publish"
+original_url: "https://qryptraveller.com/a-tale-of-going-south-2-autobiography-251/"
+featured_image_id: "6113"
+categories:
+  - "放浪記"
+tags:
+images:
+flags: "no-images"
+---
+
+[show\_for\_guests\_and\_members]
+
+--- この記事の後半はプライベートな情報があるために完全版でのみ公開しています---
+
+[プレミアムアカウントにアップグレードして完全版を読む](https://qryptraveller.com/index1/travel-blog/membership-join/)
+
+.upgrade-button {
+display: inline-block;
+padding: 10px 20px;
+background-color: #6d8e5d;
+color: white;
+text-decoration: none;
+border-radius: 8px;
+font-weight: bold;
+transition: background-color 0.3s;
+}
+.upgrade-button:hover {
+background-color: #587746;
+}
+[前の記事](https://qryptraveller.com/a-tale-of-going-south-1-autobiography-250/)　｜　[次の記事](https://qryptraveller.com/a-tale-of-going-south-3-autobiography-252/)[/show\_for\_guests\_and\_members]
+[um\_show\_content roles='um\_custom\_role\_1']
+
+（以下内容転載禁止、法的対処有。）
+
+## 退屈しのぎ
+
+僕は、インド人からのいつもの質問ぜめを避けるために、２等寝台車の最上段のベッドを取っていた。
+
+ここだと、面倒臭くなるとベッドで寝転んでイヤホンで音楽を聴いていれば、放っておいてくれる。
+
+僕は、この長時間の移動の退屈さをしのぐために、裏技を用意していた。
+
+それは、大麻樹脂を食べることだ。
+
+少量を脂っこい食べ物と一緒に飲み込むと、１時間くらいしたあたりからジンワリと大麻の効果が現れる。
+
+効果は長時間継続するので、効き目が切れてくると継ぎ足しながら、のんびりと列車の旅を続けた。
+
+長時間の間に僕がしていたことは、ひたすらブッとんで音楽を聴き続けることだけだった。
+
+大麻の影響下で音楽を聴くことは、通常の意識で聴くこととは大きく違っていて、飽きる事はなかった。
+
+常に新しい発見があり、常に音楽が心地よく、常にインスピレーションに満ちていた。
+
+## カシミール人
+
+デリーを出発する前に、カシミール出身と名乗る親しげな若者に声をかけられた。
+
+カシミールとは、パキスタンとアフガニスタンと国境を接するインドの北西の地方のこと。
+
+話しかけられて仲良くなり、チャイを一緒に飲んだりした。
+
+そのうちに話が大麻樹脂の話になり、良いネタを持ってるから買うか？なんて事になっていった。
+
+もう少しリスクを背負って、ゴアに持って行ってお金を稼ぐのも悪くないと思ったので、話だけは聞いてみることにした。
+
+彼について歩き、表通りにある土産物屋の中へ入る。
+
+店内でチャイを出されたが、こういう状況では睡眠薬が混ぜられている事があるなんて話を聞いた事があったので、一応遠慮した。
+
+だが、彼らも同じチャイを飲んでいるので、気にしすぎることは無いなと思い直して、一緒にチャイを飲んだ。
+
+## 取引
+
+しばらくチャイを飲みながら待っていると、店の奥からカシミール産の大麻樹脂を出してきた。
+
+少し変わった匂いがすると言うと、カシミール産のモノはこういう匂いがするものだと言う。
+
+実際に吸ってみると、特別に良いわけでは無いが、かと言って悪くもなく、値段との兼ね合いを考えると悪く無いように思えた。
+
+そんなわけで、５００グラムほど購入したのだが、実はこれは大失敗だった。
+
+その話は後ほど書いていく。
+
+[前の記事](https://qryptraveller.com/a-tale-of-going-south-1-autobiography-250/)　｜　[次の記事](https://qryptraveller.com/a-tale-of-going-south-3-autobiography-252/)[/um\_show\_content]

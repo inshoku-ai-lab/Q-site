@@ -1,0 +1,74 @@
+---
+id: 6056
+title: "デリーでの出会いの話３（放浪記２３９）"
+slug: "a-story-of-encounters-in-delhi-3-autobiography-239"
+date: "2022-07-24 02:48:00"
+status: "publish"
+original_url: "https://qryptraveller.com/a-story-of-encounters-in-delhi-3-autobiography-239/"
+featured_image_id: "6010"
+categories:
+  - "放浪記"
+tags:
+images:
+flags: "no-images"
+---
+
+[show\_for\_guests\_and\_members]
+
+--- この記事の後半はプライベートな情報があるために完全版でのみ公開しています---
+
+[プレミアムアカウントにアップグレードして完全版を読む](https://qryptraveller.com/index1/travel-blog/membership-join/)
+
+.upgrade-button {
+display: inline-block;
+padding: 10px 20px;
+background-color: #6d8e5d;
+color: white;
+text-decoration: none;
+border-radius: 8px;
+font-weight: bold;
+transition: background-color 0.3s;
+}
+.upgrade-button:hover {
+background-color: #587746;
+}
+[前の記事](https://qryptraveller.com/the-story-of-meeting-in-delhi-2-autobiography-238/)　｜　[次の記事](https://qryptraveller.com/a-story-of-encounters-in-delhi-4-autobiography-240/)[/show\_for\_guests\_and\_members]
+[um\_show\_content roles='um\_custom\_role\_1']
+
+（以下内容転載禁止、法的対処有。）
+
+## ブライト・ゲストハウス
+
+僕たちが泊まっていたゲストハウスは年季の入った旅人が多く出入りするのだが、その一番の理由は、一切何の問題もなく宿内で大麻を吸うことが出来ると言うことだ。
+
+Jさん情報によると、宿のオーナーが警察の上層部と繋がりがあり、定期的に賄賂を払うことで、警察の取り締まりを免れているのだと言う。
+
+僕たちは毎日ジョイントやチロムを吸っていたが、インドの大麻文化の特徴として、その場にいる人全員に吸っているものを回すと言うマナーがある。
+
+それと同時に、回ってきたものは出来る限り吸うのもマナーの一つになっている。
+
+一緒に吸うのは何も見知らぬ旅人同士だけではなく、宿に働く従業員も友人の様な関係で一緒に大麻を吸う。
+
+よほど仕事が忙しい時や、オーナーが宿にいるときは別なようだが、基本的には従業員も昼間から旅人たちと一緒に大麻を吸って仕事をしている。
+
+ここは、デリーの街中の隠れた解放区になっており、皆が安心して暮らせる場所だった。
+
+## Dさん
+
+僕たちがデリーへ来て数日経った頃にDさんがやって来た。
+
+彼はJさんとは長年の友人で、Uくんもゴアで少しだけあったことがあると言う。
+
+DさんもJさんと同じく何年も旅の世界で生きている人で、麻薬の運び屋をしながら世界中を旅する、半分ヤクザよりの旅人だった。
+
+ドラッグに関わる方法でお金を稼ぐ旅人は多くいるが、Dさんが他と違っていたのは、その種類と規模だった。
+
+彼はヘロイン中毒で、大量のヘロインを運んで旅をしているので、大きなリスクと引き換えに大金を持って世界中を自由に旅していた。
+
+こう言う次元で生きている人は、頭の線が吹っ切れていて、恐怖への向き合い方や度胸の持ち方が異次元で、ある種の悟りきったような落ち着きがあり、悪魔的な魅力があった。
+
+そんなDさんが極上のヘロインがあるからと、僕たちを誘ってくれた。
+
+当時２１歳の怖いもの知らずで好奇心にあふれる僕とUくんは、迷わずにお呼ばれした。
+
+[前の記事](https://qryptraveller.com/the-story-of-meeting-in-delhi-2-autobiography-238/)　｜　[次の記事](https://qryptraveller.com/a-story-of-encounters-in-delhi-4-autobiography-240/)[/um\_show\_content]

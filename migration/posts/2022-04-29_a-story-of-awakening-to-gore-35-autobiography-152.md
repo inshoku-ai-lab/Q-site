@@ -1,0 +1,81 @@
+---
+id: 5395
+title: "ゴアに目覚める話３５（放浪記１５２）"
+slug: "a-story-of-awakening-to-gore-35-autobiography-152"
+date: "2022-04-29 08:29:00"
+status: "publish"
+original_url: "https://qryptraveller.com/a-story-of-awakening-to-gore-35-autobiography-152/"
+featured_image_id: "5374"
+categories:
+  - "放浪記"
+tags:
+images:
+flags: "no-images"
+---
+
+## ヒッピーのおじさん
+
+以前の記事でゴアに長年住むヒッピーのおじさんCさんの話をしたが、彼の押しの強い個性があちこちで問題を生んでいた。
+
+日本人同士のちょっとした仲違いなどはあったのだが、大きな問題になったのは、アンチ・ヒッピーの思想を持つドイツ人のネオナチ集団に拐われたことだ。
+
+なぜ、ヒッピーだらけの南国パラダイスのゴアにネオナチが居るのか分からないし、どんなイザコザを起こせば拐われるような大事に至るのかも分からないが、実際に拐われてしまった。
+
+ここで活躍するのが聖者キャラのBさん。
+
+英語を流暢に話す彼は、ネオナチ集団の中へ入って行き平和的にCさんを助け出した。
+
+彼の平和な態度にはネオナチもどうしようもなかったのかも知れない。
+
+恐れをなしたCさんは直ぐに日本へ帰国したので話が聞けず、Bさんも詳細を話さないので何が起こったのかは分からずじまいに終わったがなんとも恐ろしい話だ。
+
+## ハードボイルドのおじさん
+
+同じく以前の記事で話したハードボイルドのおじさんも厄介事に巻き込まれていた。
+
+エラそうなヤクザキャラの彼は怒鳴り散らしたことで皆から総スカンを食らっていたが、反省することなく、ふてぶてしさは増していく。
+
+[show\_for\_guests\_and\_members]
+
+--- この記事の後半はプライベートな情報があるために完全版でのみ公開しています---
+
+[プレミアムアカウントにアップグレードして完全版を読む](https://qryptraveller.com/index1/travel-blog/membership-join/)
+
+.upgrade-button {
+display: inline-block;
+padding: 10px 20px;
+background-color: #6d8e5d;
+color: white;
+text-decoration: none;
+border-radius: 8px;
+font-weight: bold;
+transition: background-color 0.3s;
+}
+.upgrade-button:hover {
+background-color: #587746;
+}
+[前の記事](https://qryptraveller.com/a-story-of-awakening-to-gore-34-autobiography-151/)　｜　[次の記事](https://qryptraveller.com/a-story-of-awakening-to-gore-36-autobiography-153/)
+[/show\_for\_guests\_and\_members]
+[um\_show\_content roles='um\_custom\_role\_1']
+
+（以下内容転載禁止、法的対処有。）
+
+それに業を煮やした若い日本人男性がいた。
+
+彼は本当にハードな世界で生きてきた人で、ガチで危険な修羅場を乗り越えてきた本物のハードボイルド。
+
+見た目は小柄ながらも筋肉質のモヒカン頭で、この人とだけは揉めてはいけないと思わせるようなものがあった。
+
+ハードボイルドなおじさんも若者も旅人ではあるけれども、どちらかと言えばヤクザな世界に半歩あるいは両足踏み入れているような状態。
+
+どちらもドラッグ関連の仕事を生業にしている本物のアウトローだ。
+
+みんなが楽しんでいるパーティーで怒鳴り散らすおじさんに我慢の限界を超えた若者が、ナイフを突きつけて脅し、パーティーの外へ連れていき、説教をしたらしい。
+
+おじさんは相手にしている若者が本当に危険な同業者だと理解して大人しくなった。
+
+その事件以降、おじさんは人の良いおとなしいキャラに変わったが、やはり居心地が悪くなったのだろう、すぐにゴアから出ていった。
+
+良くも悪くも、警察が賄賂まみれで役に立たないゴアでは、西部劇の時代のようなワイルドさがあった。
+
+[前の記事](https://qryptraveller.com/a-story-of-awakening-to-gore-34-autobiography-151/)　｜　[次の記事](https://qryptraveller.com/a-story-of-awakening-to-gore-36-autobiography-153/)[/um\_show\_content]

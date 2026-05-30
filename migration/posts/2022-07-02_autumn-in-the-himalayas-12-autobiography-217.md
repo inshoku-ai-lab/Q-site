@@ -1,0 +1,85 @@
+---
+id: 5942
+title: "ヒマラヤの秋の話１２（放浪記２１７）"
+slug: "autumn-in-the-himalayas-12-autobiography-217"
+date: "2022-07-02 07:09:00"
+status: "publish"
+original_url: "https://qryptraveller.com/autumn-in-the-himalayas-12-autobiography-217/"
+featured_image_id: "5927"
+categories:
+  - "放浪記"
+tags:
+images:
+flags: "no-images"
+---
+
+[show\_for\_guests\_and\_members]
+
+--- この記事の後半はプライベートな情報があるために完全版でのみ公開しています---
+
+[プレミアムアカウントにアップグレードして完全版を読む](https://qryptraveller.com/index1/travel-blog/membership-join/)
+
+.upgrade-button {
+display: inline-block;
+padding: 10px 20px;
+background-color: #6d8e5d;
+color: white;
+text-decoration: none;
+border-radius: 8px;
+font-weight: bold;
+transition: background-color 0.3s;
+}
+.upgrade-button:hover {
+background-color: #587746;
+}
+[前の記事](https://qryptraveller.com/autumn-in-the-himalayas-11-autobiography-216/
+)　｜　[次の記事](https://qryptraveller.com/autumn-in-the-himalayas-13-autobiography-218/)[/show\_for\_guests\_and\_members]
+[um\_show\_content roles='um\_custom\_role\_1']
+
+（以下内容転載禁止、法的対処有。）
+
+## 警察の襲撃
+
+チベット人のオーガナイザーたちは森の中へ飛び込んで、振り向きもせずに一目散に森の中を駆け下りる。
+
+すると案の定、後ろから警官の集団が出て来てパーティーの中止を告げた。
+
+この時に僕もチベット人たちと一緒に森を駆け下りると良かったのだが、大した危機感を持っていなかった僕は、そのままパーティー会場へ滞在し続けた。
+
+僕はなんのドラッグも持っていないし、パーティーに参加すること自体は違法でも何でもないので、やるべき手続きが済めば、それで事が収まるだろうと思っていた。
+
+警官が中庭へやって来て、旅人たちを整列させて二手に分けて行く。
+
+片方は身分証を持っているもの、もう片方は身分証を持っていないもの。
+
+僕は、幸か不幸かパスポートを持っていたので、助かったが、身分証を持っていない人達はもっと色々とややこしい事になりそうだ。
+
+この時点でYさんの姿は見えず、僕は彼の無事を祈っていた。
+
+## 歩行
+
+事態が収まることをしばらく待っていたが、インドの要領の悪さゆえになかなか進展せず、最終的には身分証を持っている人も持っていない人も歩いて街の警察署まで行って、書類にサインして解放という手順になった。
+
+パーティーに参加していた者で、逃げ遅れた５０人ほどが列になってアスファルトの山道を下って行く。
+
+オールドマナリからマナリまでは歩いて３０分ほどの距離。
+
+そこをサイケな格好をした旅人たちが、LSDでブッとびながら警察の付き添いで歩いて行くのは、なかなか奇妙な光景だった。
+
+みんなブッとんでいつつも、そんなに大してややこしい事にならないと理解しているので、和かな雰囲気のまま歩き続ける。
+
+最初のうちは楽しく歩いていたのだが、途中からある事に気づいた。
+
+徐々に一緒に歩いている人数が減って行っているのだ。
+
+一緒に列をなしていたヨーロッパ人とイスラエル人が、徐々に一人づつ列から離れて姿をくらまして行ったのだ。
+
+僕も逃げ出したかったが、いまいちタイミングを掴めずに街まで歩き続けた。
+
+最終的に警察署に着く頃には５０人ほどいた歩行者のほとんどが消えてしまい、１組のイスラエル人カップルと１０人ほどの日本人だけが残される結果になってしまった。
+
+チベット人は真っ先に消えたし、西欧人も既に消えているし、イスラエル人もほぼ全員が消えた。
+
+残されたのは危機感の薄い日本人だけと言う、何とも間抜けで格好悪い事になっていた。
+
+[前の記事](https://qryptraveller.com/autumn-in-the-himalayas-11-autobiography-216/)　｜　[次の記事](https://qryptraveller.com/autumn-in-the-himalayas-13-autobiography-218/)[/um\_show\_content]
