@@ -19,6 +19,15 @@ const ROOT = path.resolve(__dirname, "..");
 const DATA_DIR = path.join(ROOT, "src/data");
 const POSTS_JSON = path.join(DATA_DIR, "posts.json");
 const STATE_JSON = path.join(DATA_DIR, "sync-state.json");
+const COVER_MAP_PATH = path.join(ROOT, "migration/reports/wp-cover-map.json");
+
+let coverMap = {};
+try {
+  coverMap = JSON.parse(await fs.readFile(COVER_MAP_PATH, "utf-8"));
+  console.log(`Cover map loaded: ${Object.keys(coverMap).length} entries`);
+} catch {
+  console.warn("WARN: wp-cover-map.json not found; covers will fall back to first body image.");
+}
 
 const DATABASE_ID = "8ec5cc48-52a5-492e-9d0b-377bc4ff3c82";
 
@@ -284,7 +293,7 @@ async function main() {
       char_count: get.number(props, "Char Count"),
       image_count: get.number(props, "Image Count"),
       wp_url: get.url(props, "WP URL"),
-      cover: extractCover(blocks),
+      cover: (wpId != null && coverMap[String(wpId)]) || extractCover(blocks),
       blocks,
     });
   }

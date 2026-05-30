@@ -13,9 +13,18 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
 const POSTS_DIR = path.join(ROOT, "migration/posts");
 const CSV_PATH = path.join(ROOT, "migration/reports/enriched_posts.csv");
+const COVER_MAP_PATH = path.join(ROOT, "migration/reports/wp-cover-map.json");
 const OUT = path.join(ROOT, "src/data/posts.json");
 
 await fs.mkdir(path.dirname(OUT), { recursive: true });
+
+// Load WP featured-image cover map (wp_id -> local image path)
+let coverMap = {};
+try {
+  coverMap = JSON.parse(await fs.readFile(COVER_MAP_PATH, "utf-8"));
+} catch {
+  console.warn("WARN: wp-cover-map.json not found; covers will fall back to first body image.");
+}
 
 // CSV parsing (handles quoted fields)
 function parseCSV(text) {
@@ -196,7 +205,7 @@ async function main() {
       char_count: Number(row.char_count) || 0,
       image_count: Number(row.image_count) || 0,
       wp_url: row.original_url || null,
-      cover: extractCover(blocks),
+      cover: coverMap[row.id] || extractCover(blocks),
       blocks,
     });
 
