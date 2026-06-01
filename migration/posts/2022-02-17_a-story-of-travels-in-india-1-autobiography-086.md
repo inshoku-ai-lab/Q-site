@@ -10,8 +10,8 @@ categories:
   - "放浪記"
 tags:
 images:
-  - "https://qryptraveler.com/wp-content/uploads/2021/11/Blog86-1.jpg"
-  - "https://qryptraveler.com/wp-content/uploads/2021/11/Blog86-2.jpg"
+  - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog86-1.jpg"
+  - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog86-2.jpg"
 flags: ""
 ---
 
@@ -49,7 +49,7 @@ flags: ""
 
 ダージリンと言えば紅茶で、世界中に茶葉を輸出しているが、インド人的には有名な避暑地で、色々な観光名所がある。
 
-![Blog86-1](https://qryptraveler.com/wp-content/uploads/2021/11/Blog86-1.jpg)
+![Blog86-1](https://qryptraveller.com/wp-content/uploads/2021/11/Blog86-1.jpg)
 
 だが、それも暑季に限った話で、雨季のダージリンは活気がなく、観光客も旅人も出稼ぎ労働者も居なく閑散としていた。
 
@@ -99,7 +99,7 @@ flags: ""
 
 観光客ではなく、旅人でありたいと思っていたのだ。
 
-![Blog86-2](https://qryptraveler.com/wp-content/uploads/2021/11/Blog86-2.jpg)
+![Blog86-2](https://qryptraveller.com/wp-content/uploads/2021/11/Blog86-2.jpg)
 
 同じ理由で、カメラを持っていくことを拒否した。
 

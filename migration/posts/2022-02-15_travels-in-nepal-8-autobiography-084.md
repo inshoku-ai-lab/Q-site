@@ -10,8 +10,8 @@ categories:
   - "放浪記"
 tags:
 images:
-  - "https://qryptraveler.com/wp-content/uploads/2021/11/Blog84-1.jpg"
-  - "https://qryptraveler.com/wp-content/uploads/2021/11/Blog84-2.jpg"
+  - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog84-1.jpg"
+  - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog84-2.jpg"
 flags: ""
 ---
 
@@ -51,7 +51,7 @@ Sさんは、中国地方出身の２４歳の男性。
 
 見知らぬ国での勝手知らない外国人旅行者として、お互いに助け合わないといけないと言うこともあるし、お互いの不安感がお互いを引き寄せ合うこともあるだろう。
 
-![Blog84-1](https://qryptraveler.com/wp-content/uploads/2021/11/Blog84-1.jpg)
+![Blog84-1](https://qryptraveller.com/wp-content/uploads/2021/11/Blog84-1.jpg)
 
 また、自国では出会うことのない旅人という人種が、親近感を感じさせるのも当然のことだ。
 
@@ -99,7 +99,7 @@ Sさんは日本に彼女が居て、帰国前なのでIさんに対して暖か
 
 僕はジェットコースターのような旅の環境で自然と恋心が増し、旅の勢いを利用して告白しようと思い立った。
 
-![Blog84-2](https://qryptraveler.com/wp-content/uploads/2021/11/Blog84-2.jpg)
+![Blog84-2](https://qryptraveller.com/wp-content/uploads/2021/11/Blog84-2.jpg)
 
 僕にとっては女性に恋を告白するなど、今までに一度もなかった事だし、自分にそんな行為が出来るとも思っていなかった。
 

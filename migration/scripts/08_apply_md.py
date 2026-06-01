@@ -82,13 +82,15 @@ def main():
             continue
         text = f.read_text(encoding="utf-8")
         cnt = text.count(c["old"])
-        if cnt == 1:
+        allow_all = c.get("all", False)
+        if cnt >= 1 and (cnt == 1 or allow_all):
             new_text = text.replace(c["old"], c["new"])
             if not args.dry_run:
                 f.write_text(new_text, encoding="utf-8")
                 applied.add(k)
             n_applied += 1
-            print(f"  ✓ {c['file']}")
+            tag = f" ×{cnt}" if cnt > 1 else ""
+            print(f"  ✓ {c['file']}{tag}")
             print(f"      - {c['old']}")
             print(f"      + {c['new']}   ({c.get('reason','')})")
         elif cnt == 0:

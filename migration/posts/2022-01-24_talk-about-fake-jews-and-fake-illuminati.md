@@ -21,15 +21,15 @@ tags:
   - "日ユ道祖論"
   - "１７７６委員会"
 images:
-  - "https://qryptraveler.com/wp-content/uploads/2021/11/False-Jewish-1-min.jpg"
-  - "https://qryptraveler.com/wp-content/uploads/2021/11/False-Jewish-2-min.jpg"
-  - "https://qryptraveler.com/wp-content/uploads/2021/11/False-Jewish-3-min.jpg"
-  - "https://qryptraveler.com/wp-content/uploads/2021/11/False-Jewish-4-1.jpg"
-  - "https://qryptraveler.com/wp-content/uploads/2021/11/False-Jewish-5-min.jpg"
-  - "https://qryptraveler.com/wp-content/uploads/2021/11/False-Jewish-6-min.jpg"
-  - "https://qryptraveler.com/wp-content/uploads/2021/11/False-Jewish-7-1.jpg"
-  - "https://qryptraveler.com/wp-content/uploads/2021/11/False-Jewish-8-min.jpg"
-  - "https://qryptraveler.com/wp-content/uploads/2021/11/False-Jewish-9-min.jpg"
+  - "https://qryptraveller.com/wp-content/uploads/2021/11/False-Jewish-1-min.jpg"
+  - "https://qryptraveller.com/wp-content/uploads/2021/11/False-Jewish-2-min.jpg"
+  - "https://qryptraveller.com/wp-content/uploads/2021/11/False-Jewish-3-min.jpg"
+  - "https://qryptraveller.com/wp-content/uploads/2021/11/False-Jewish-4-1.jpg"
+  - "https://qryptraveller.com/wp-content/uploads/2021/11/False-Jewish-5-min.jpg"
+  - "https://qryptraveller.com/wp-content/uploads/2021/11/False-Jewish-6-min.jpg"
+  - "https://qryptraveller.com/wp-content/uploads/2021/11/False-Jewish-7-1.jpg"
+  - "https://qryptraveller.com/wp-content/uploads/2021/11/False-Jewish-8-min.jpg"
+  - "https://qryptraveller.com/wp-content/uploads/2021/11/False-Jewish-9-min.jpg"
 excerpt: "この記事を読んでいる方は、陰謀論やユダヤ金融の世界支配の話を知っているとは思いますが、偽ユダヤや偽イルミナティの話は聞いたことがあるでしょうか？  これは、陰謀論すらが陰謀論だったという話なんです。"
 flags: ""
 ---
@@ -48,7 +48,7 @@ flags: ""
 
 混乱してますか？
 
-![False Jewish-1-min](https://qryptraveler.com/wp-content/uploads/2021/11/False-Jewish-1-min.jpg)
+![False Jewish-1-min](https://qryptraveller.com/wp-content/uploads/2021/11/False-Jewish-1-min.jpg)
 
 ここを理解するには、そもそもユダヤ人とはなんなのか？と言う部分から説明する必要があります。
 
@@ -66,7 +66,7 @@ flags: ""
 
 これは、母系制のシステムで、母親がユダヤ人の血を引いていれば、その子供はユダヤ人という枠組みに入ります。
 
-![False Jewish-2-min](https://qryptraveler.com/wp-content/uploads/2021/11/False-Jewish-2-min.jpg)
+![False Jewish-2-min](https://qryptraveller.com/wp-content/uploads/2021/11/False-Jewish-2-min.jpg)
 
 もう一つは宗教によるもの。
 
@@ -84,7 +84,7 @@ flags: ""
 
 その子は、両親ともにイスラム教徒のインドネシア人で、先祖代々インドネシア人の血を引いているけれども、ユダヤ人という枠組みを名乗ることができるのです。
 
-![False Jewish-3-min](https://qryptraveler.com/wp-content/uploads/2021/11/False-Jewish-3-min.jpg)
+![False Jewish-3-min](https://qryptraveller.com/wp-content/uploads/2021/11/False-Jewish-3-min.jpg)
 
 相当訳のわからんことになっていますが、これが偽ユダヤ人を支えている仕組みです。
 
@@ -106,7 +106,7 @@ flags: ""
 
 ## ロシア内部からの乗っ取り
 
-![False Jewish-5-min](https://qryptraveler.com/wp-content/uploads/2021/11/False-Jewish-5-min.jpg)
+![False Jewish-5-min](https://qryptraveller.com/wp-content/uploads/2021/11/False-Jewish-5-min.jpg)
 
 ユダヤ人に化けたハザール人が、ロシア革命を起こしました。
 
@@ -128,7 +128,7 @@ flags: ""
 
 長年にわたる調査の結果、『第１３支族』という本を出版し、白色ユダヤ人のルーツはハザール人であると発表しました。
 
-![False Jewish-4](https://qryptraveler.com/wp-content/uploads/2021/11/False-Jewish-4-1.jpg)
+![False Jewish-4](https://qryptraveller.com/wp-content/uploads/2021/11/False-Jewish-4-1.jpg)
 
 その本の内容は、各地で絶賛されたと同時に、あまりにも大きな問題を提起する本だったので、各国の出版社は翻訳を控えたそうです。
 
@@ -154,7 +154,7 @@ flags: ""
 
 もしかしたら、ハザール王国自体も内側からカバール勢力に乗っ取られていても不思議ではありません。
 
-![False Jewish-6-min](https://qryptraveler.com/wp-content/uploads/2021/11/False-Jewish-6-min.jpg)
+![False Jewish-6-min](https://qryptraveller.com/wp-content/uploads/2021/11/False-Jewish-6-min.jpg)
 
 ハザール人のトップはユダヤ教徒に改宗したフリをした悪魔教徒なのではないでしょうか？
 
@@ -172,7 +172,7 @@ flags: ""
 
 今ではイルミナティはカバール組織の別名として定着していますが、本来は善側の組織だったという話があります。
 
-![False Jewish-7](https://qryptraveler.com/wp-content/uploads/2021/11/False-Jewish-7-1.jpg)
+![False Jewish-7](https://qryptraveller.com/wp-content/uploads/2021/11/False-Jewish-7-1.jpg)
 
 イルミナティはヴァウス・ハウプトというドイツ人によって１７７６年に始められました。
 
@@ -188,7 +188,7 @@ flags: ""
 
 その一連の流れが、Qおよびトランプ大統領のバックに繋がっているのではないかと推測しています。
 
-引いては、ケネディ大統領のバックに、引いてはリンカーン大統領のバックに、引いてはアメリカ独立戦争を率いたワシントンのバックにいたのではないかと想像しています。
+ひいては、ケネディ大統領のバックに、ひいてはリンカーン大統領のバックに、ひいてはアメリカ独立戦争を率いたワシントンのバックにいたのではないかと想像しています。
 
 ## １７７６
 
@@ -196,7 +196,7 @@ flags: ""
 
 これは偶然でしょうか？
 
-![False Jewish-8-min](https://qryptraveler.com/wp-content/uploads/2021/11/False-Jewish-8-min.jpg)
+![False Jewish-8-min](https://qryptraveller.com/wp-content/uploads/2021/11/False-Jewish-8-min.jpg)
 
 １７７６はローマ数字では、MDCCLXXVIと書きます。
 
@@ -220,7 +220,7 @@ flags: ""
 
 今まで、なりすましだらけの嘘ばっかりの世界でしたが、今後はそういったものが全て暴かれていくのだと思っています。
 
-![False Jewish-9-min](https://qryptraveler.com/wp-content/uploads/2021/11/False-Jewish-9-min.jpg)
+![False Jewish-9-min](https://qryptraveller.com/wp-content/uploads/2021/11/False-Jewish-9-min.jpg)
 
 不正選挙も暴かれるし、ユダヤ人の正体も表に出てくるし、とある国の天ぷらさんなども表沙汰になってくるでしょう。
 

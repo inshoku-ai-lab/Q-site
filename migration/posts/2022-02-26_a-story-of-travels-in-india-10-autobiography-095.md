@@ -10,8 +10,8 @@ categories:
   - "放浪記"
 tags:
 images:
-  - "https://qryptraveler.com/wp-content/uploads/2021/11/Blog95-1.jpg"
-  - "https://qryptraveler.com/wp-content/uploads/2021/11/Blog95-2.jpg"
+  - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog95-1.jpg"
+  - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog95-2.jpg"
 flags: ""
 ---
 
@@ -59,7 +59,7 @@ flags: ""
 
 なかなか強烈な匂いで、あまり風下には居たくない。
 
-![Blog95-1](https://qryptraveler.com/wp-content/uploads/2021/11/Blog95-1.jpg)
+![Blog95-1](https://qryptraveller.com/wp-content/uploads/2021/11/Blog95-1.jpg)
 
 火葬台では、積み重ねられた薪が大きな炎を上げている。
 
@@ -103,7 +103,7 @@ flags: ""
 
 だが、待てども待てども列車は来ない。
 
-![Blog95-2](https://qryptraveler.com/wp-content/uploads/2021/11/Blog95-2.jpg)
+![Blog95-2](https://qryptraveller.com/wp-content/uploads/2021/11/Blog95-2.jpg)
 
 何度か、旅行案内所に問い合わせるが「まだだ」の一点張り。
 

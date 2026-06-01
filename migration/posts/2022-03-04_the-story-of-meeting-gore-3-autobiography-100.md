@@ -10,7 +10,7 @@ categories:
   - "放浪記"
 tags:
 images:
-  - "https://qryptraveler.com/wp-content/uploads/2021/11/Blog100-1.jpg"
+  - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog100-1.jpg"
 flags: ""
 ---
 
@@ -22,7 +22,7 @@ flags: ""
 
 下手したらもっとかかるかも。
 
-![Blog100-1](https://qryptraveler.com/wp-content/uploads/2021/11/Blog100-1.jpg)
+![Blog100-1](https://qryptraveller.com/wp-content/uploads/2021/11/Blog100-1.jpg)
 
 この先１０年くらいは、執筆活動が生活の一部になりそう。
 

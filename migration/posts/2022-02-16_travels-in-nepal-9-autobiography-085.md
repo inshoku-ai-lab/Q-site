@@ -10,8 +10,8 @@ categories:
   - "放浪記"
 tags:
 images:
-  - "https://qryptraveler.com/wp-content/uploads/2021/11/Blog85-1.jpg"
-  - "https://qryptraveler.com/wp-content/uploads/2021/11/Blog85-2.jpg"
+  - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog85-1.jpg"
+  - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog85-2.jpg"
 flags: ""
 ---
 
@@ -37,7 +37,7 @@ flags: ""
 
 感動的な別れがあったと思うのだが、記憶に残っていない。
 
-![Blog85-1](https://qryptraveler.com/wp-content/uploads/2021/11/Blog85-1.jpg)
+![Blog85-1](https://qryptraveller.com/wp-content/uploads/2021/11/Blog85-1.jpg)
 
 人間とは薄情な物だ。
 
@@ -81,7 +81,7 @@ flags: ""
 
 この街は山の民だけあって、気性が穏やかで落ち着いている。
 
-![Blog85-2](https://qryptraveler.com/wp-content/uploads/2021/11/Blog85-2.jpg)
+![Blog85-2](https://qryptraveller.com/wp-content/uploads/2021/11/Blog85-2.jpg)
 
 インドへ来る前に想像していた、インド特有のあんな事やこんな事は起こらず、ネパールの延長のような感じでインドへ入ることができた。
 

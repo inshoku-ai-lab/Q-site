@@ -242,4 +242,4 @@ https://qryptraveller.com/the-truth-about-the-media-lying-regime-vs-dr-craig-and
 
 グレート・アウェイクニングが起こるまで待ったなしです。
 
-シートベルトを占めてしっかりと準備を整えてください！
+シートベルトを締めてしっかりと準備を整えてください！

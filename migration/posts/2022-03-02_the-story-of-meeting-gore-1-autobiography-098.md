@@ -10,8 +10,8 @@ categories:
   - "放浪記"
 tags:
 images:
-  - "https://qryptraveler.com/wp-content/uploads/2021/11/Blog98-1.jpg"
-  - "https://qryptraveler.com/wp-content/uploads/2021/11/Blog98-2.jpg"
+  - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog98-1.jpg"
+  - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog98-2.jpg"
 flags: ""
 ---
 
@@ -35,7 +35,7 @@ flags: ""
 
 ガイドブックによると『カラングート・ビーチ』に行くと、比較的安く暮らせると言うので、そこへ向かった。
 
-![Blog98-1](https://qryptraveler.com/wp-content/uploads/2021/11/Blog98-1.jpg)
+![Blog98-1](https://qryptraveller.com/wp-content/uploads/2021/11/Blog98-1.jpg)
 
 ビーチから歩いて数分の所に、一泊１５０円ほどの格安の部屋を見つけた。
 
@@ -63,7 +63,7 @@ flags: ""
 
 最初の自炊のメニューは、魚料理にする事にした。
 
-![Blog98-2](https://qryptraveler.com/wp-content/uploads/2021/11/Blog98-2.jpg)
+![Blog98-2](https://qryptraveller.com/wp-content/uploads/2021/11/Blog98-2.jpg)
 
 旅を始めた初日以来で、3ヶ月半ぶりの魚料理だ。
 

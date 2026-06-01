@@ -10,8 +10,8 @@ categories:
   - "放浪記"
 tags:
 images:
-  - "https://qryptraveler.com/wp-content/uploads/2021/11/Blog97-1.jpg"
-  - "https://qryptraveler.com/wp-content/uploads/2021/11/Blog97-2.jpg"
+  - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog97-1.jpg"
+  - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog97-2.jpg"
 flags: ""
 ---
 
@@ -31,7 +31,7 @@ flags: ""
 
 すると、ありがたいことに彼の「診療所に、空き場所があるから数日なら泊まってもいいよ」と言ってくれた。
 
-![Blog97-1](https://qryptraveler.com/wp-content/uploads/2021/11/Blog97-1.jpg)
+![Blog97-1](https://qryptraveller.com/wp-content/uploads/2021/11/Blog97-1.jpg)
 
 物価の高いこの街で、ただで泊めてもらうのは大いに助かる。
 
@@ -59,7 +59,7 @@ flags: ""
 
 夕食に手作りの中華料理を、ご馳走してくれた。
 
-![Blog97-2](https://qryptraveler.com/wp-content/uploads/2021/11/Blog97-2.jpg)
+![Blog97-2](https://qryptraveller.com/wp-content/uploads/2021/11/Blog97-2.jpg)
 
 ここプーナは都会なので、輸入食材屋などがあり、一部の中華食材などが買えるという。
 

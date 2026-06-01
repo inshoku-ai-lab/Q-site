@@ -10,8 +10,8 @@ categories:
   - "放浪記"
 tags:
 images:
-  - "https://qryptraveler.com/wp-content/uploads/2021/11/Blog92-1.jpg"
-  - "https://qryptraveler.com/wp-content/uploads/2021/11/Blog92-2.jpg"
+  - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog92-1.jpg"
+  - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog92-2.jpg"
 flags: ""
 ---
 
@@ -43,7 +43,7 @@ flags: ""
 
 「お菓子があるから一緒に食べないか？」との誘いだ。
 
-![Blog92-1](https://qryptraveler.com/wp-content/uploads/2021/11/Blog92-1.jpg)
+![Blog92-1](https://qryptraveller.com/wp-content/uploads/2021/11/Blog92-1.jpg)
 
 ヘンテコな東洋人と、交流を持ちたいらしい。
 
@@ -83,7 +83,7 @@ flags: ""
 
 故郷を離れてさみしく無いのか？
 
-![Blog92-2](https://qryptraveler.com/wp-content/uploads/2021/11/Blog92-2.jpg)
+![Blog92-2](https://qryptraveller.com/wp-content/uploads/2021/11/Blog92-2.jpg)
 
 基本的な質問で簡単な英語だったので僕にも理解できたが、なぜ結婚しないのか？や、故郷を離れてさみしく無いのか？の質問には英語力のなさ故に答えることができなかった。
 

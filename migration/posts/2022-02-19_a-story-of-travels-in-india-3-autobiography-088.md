@@ -10,8 +10,8 @@ categories:
   - "放浪記"
 tags:
 images:
-  - "https://qryptraveler.com/wp-content/uploads/2021/11/Blog88-1.jpg"
-  - "https://qryptraveler.com/wp-content/uploads/2021/11/Blog88-2.jpg"
+  - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog88-1.jpg"
+  - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog88-2.jpg"
 flags: ""
 ---
 
@@ -53,7 +53,7 @@ flags: ""
 
 野良犬や野良猫の糞尿も混じっているはずだし、大都会の下水道の水もこの洪水の水に混じっているはずだ。
 
-![Blog88-1](https://qryptraveler.com/wp-content/uploads/2021/11/Blog88-1.jpg)
+![Blog88-1](https://qryptraveller.com/wp-content/uploads/2021/11/Blog88-1.jpg)
 
 僕たちは、この水が持つ病原菌の可能性に恐れおののいた。
 
@@ -91,7 +91,7 @@ flags: ""
 
 レストランの中は、笑顔と活気で溢れている。
 
-![Blog88-2](https://qryptraveler.com/wp-content/uploads/2021/11/Blog88-2.jpg)
+![Blog88-2](https://qryptraveller.com/wp-content/uploads/2021/11/Blog88-2.jpg)
 
 このレストランのメニューで、僕が特に気に入ったのは『チョコレート・ラッシー』と言うもの。
 

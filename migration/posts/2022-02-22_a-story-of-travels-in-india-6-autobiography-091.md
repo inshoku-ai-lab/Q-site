@@ -10,8 +10,8 @@ categories:
   - "放浪記"
 tags:
 images:
-  - "https://qryptraveler.com/wp-content/uploads/2021/11/Blog91-1.jpg"
-  - "https://qryptraveler.com/wp-content/uploads/2021/11/Blog91-2.jpg"
+  - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog91-1.jpg"
+  - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog91-2.jpg"
 flags: ""
 ---
 
@@ -41,7 +41,7 @@ flags: ""
 
 僕は適度な緊張感を持ちながらも、恐怖心は克服していて、目の前に広がるカオスの海に自らを投げ入れることに興奮していた。
 
-![Blog91-1](https://qryptraveler.com/wp-content/uploads/2021/11/Blog91-1.jpg)
+![Blog91-1](https://qryptraveller.com/wp-content/uploads/2021/11/Blog91-1.jpg)
 
 幸いなことに、僕のバックパックは小さめで荷物の量も少ないので、常に肩にかけていても気になるような重さではなかった。
 
@@ -115,7 +115,7 @@ flags: ""
 
 さすがインド、プライバシーやら遠慮やら気遣いやら、という細やかな心遣いは通用しない。
 
-![Blog91-2](https://qryptraveler.com/wp-content/uploads/2021/11/Blog91-2.jpg)
+![Blog91-2](https://qryptraveller.com/wp-content/uploads/2021/11/Blog91-2.jpg)
 
 少年はチャイを売りたい、だから僕を起こした。
 

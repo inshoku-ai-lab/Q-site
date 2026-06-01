@@ -10,7 +10,7 @@ categories:
   - "放浪記"
 tags:
 images:
-  - "https://qryptraveler.com/wp-content/uploads/2021/11/Blog80-1.jpg"
+  - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog80-1.jpg"
   - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog80-2.jpg"
 flags: ""
 ---
@@ -33,7 +33,7 @@ flags: ""
 
 山道の左右のカーブの連続が半端なく、車内の３分の１ほどはうつむいて憂鬱な顔をしている。
 
-![Blog80-1](https://qryptraveler.com/wp-content/uploads/2021/11/Blog80-1.jpg)
+![Blog80-1](https://qryptraveller.com/wp-content/uploads/2021/11/Blog80-1.jpg)
 
 僕たちはポカラに着いた後は、ダムサイドに宿を見つけた。
 

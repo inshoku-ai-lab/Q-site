@@ -10,8 +10,8 @@ categories:
   - "放浪記"
 tags:
 images:
-  - "https://qryptraveler.com/wp-content/uploads/2021/11/Blog93-1.jpg"
-  - "https://qryptraveler.com/wp-content/uploads/2021/11/Blog93-2.jpg"
+  - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog93-1.jpg"
+  - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog93-2.jpg"
 flags: ""
 ---
 
@@ -35,7 +35,7 @@ flags: ""
 
 流石に腕を掴まれたりはしなかったが、このまま拉致されてしまいそうな勢いだった。
 
-![Blog93-1](https://qryptraveler.com/wp-content/uploads/2021/11/Blog93-1.jpg)
+![Blog93-1](https://qryptraveller.com/wp-content/uploads/2021/11/Blog93-1.jpg)
 
 このままタクシーに乗ると、ロクでも無いことになりそうなので、自分の足で歩くことにした。
 
@@ -71,7 +71,7 @@ flags: ""
 
 だから彼らは、お金や食べ物を施されても感謝する事はなく、むしろ施す側が感謝しないといけないという構図だ。
 
-![Blog93-2](https://qryptraveler.com/wp-content/uploads/2021/11/Blog93-2.jpg)
+![Blog93-2](https://qryptraveller.com/wp-content/uploads/2021/11/Blog93-2.jpg)
 
 彼らの多くは、物乞いと言う『カースト』（身分制度による階級）に生まれてきており、ヒンドゥー教徒でいる限りは、物乞いから抜け出すことは出来ないらしい。
 

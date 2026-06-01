@@ -10,8 +10,8 @@ categories:
   - "放浪記"
 tags:
 images:
-  - "https://qryptraveler.com/wp-content/uploads/2021/11/Blog96-1.jpg"
-  - "https://qryptraveler.com/wp-content/uploads/2021/11/Blog96-2.jpg"
+  - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog96-1.jpg"
+  - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog96-2.jpg"
 flags: ""
 ---
 
@@ -45,7 +45,7 @@ flags: ""
 
 安い部屋が見つからない限り、この街には長居できないなと思いながら、ヨガを教えてくれる場所へ向かった。
 
-![Blog96-1](https://qryptraveler.com/wp-content/uploads/2021/11/Blog96-1.jpg)
+![Blog96-1](https://qryptraveller.com/wp-content/uploads/2021/11/Blog96-1.jpg)
 
 そこは、Osho（和尚）と呼ばれる人が開設した『アシュラム』と呼ばれる修行所で、ヨガを教えていたり、色々なワークショップを開催しているらしい。
 
@@ -97,7 +97,7 @@ flags: ""
 
 その代わりに無料で開催していた、音楽に合わせて踊りながら瞑想すると言うワークショップに参加した。
 
-![Blog96-2](https://qryptraveler.com/wp-content/uploads/2021/11/Blog96-2.jpg)
+![Blog96-2](https://qryptraveller.com/wp-content/uploads/2021/11/Blog96-2.jpg)
 
 小さな体育館のようなホールで、十人くらいで輪になって座り、目を閉じて座るところからワークショップは始まる。
 

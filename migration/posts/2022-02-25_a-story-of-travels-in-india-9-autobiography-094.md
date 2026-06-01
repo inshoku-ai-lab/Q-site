@@ -10,8 +10,8 @@ categories:
   - "放浪記"
 tags:
 images:
-  - "https://qryptraveler.com/wp-content/uploads/2021/11/Blog94-1.jpg"
-  - "https://qryptraveler.com/wp-content/uploads/2021/11/Blog94-2.jpg"
+  - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog94-1.jpg"
+  - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog94-2.jpg"
 flags: ""
 ---
 
@@ -59,7 +59,7 @@ flags: ""
 
 地元の人は、その水で身体を洗うし洗濯もする。
 
-![Blog94-1](https://qryptraveler.com/wp-content/uploads/2021/11/Blog94-1.jpg)
+![Blog94-1](https://qryptraveller.com/wp-content/uploads/2021/11/Blog94-1.jpg)
 
 そういった衛生面での不安が、僕に沐浴をするのを恐れさせた。
 
@@ -77,7 +77,7 @@ flags: ""
 
 緩やかに泳いでいたのも束の間、偶然の事故により、すぐ脇を通りかかったボートのオールで頭を叩かれた！
 
-![Blog94-2](https://qryptraveler.com/wp-content/uploads/2021/11/Blog94-2.jpg)
+![Blog94-2](https://qryptraveller.com/wp-content/uploads/2021/11/Blog94-2.jpg)
 
 当たりは強くは無かったが、泳いでいる最中だったので、バランスを崩してしまった。
 
