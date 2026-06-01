@@ -60,7 +60,7 @@ flags: "no-images"
 
 この3者が結託して、フリンはロシアの諜報員であるという虚偽のストーリーを作り上げた。
 
-彼らはフリンに濡れ衣を着せてトランプの内閣から追い出し、それを踏み台にして([偽のロシア調査](https://www.foxnews.com/opinion/russia-hoax-lie-hillary-clinton-gregg-jarrett)を進めたのです。
+彼らはフリンに濡れ衣を着せてトランプの内閣から追い出し、それを踏み台にして[偽のロシア調査](https://www.foxnews.com/opinion/russia-hoax-lie-hillary-clinton-gregg-jarrett)を進めたのです。
 
 当時、多くの人がアメリカ史上最大の政治犯罪だと考えていた。
 
