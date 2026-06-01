@@ -133,3 +133,6 @@
 {"file": "2024-10-13_why-cryptraveler-removed-the-letter-q-from-his-name.md", "old": "Qリプトラベラー", "new": "クリプトラベラー", "all": true, "reason": "承認済み改名（旧名→新名、MD未適用分）", "type": "rename"}
 {"file": "2022-03-20_part-8-3-12-trump-still-has-real-power-and-the-theory-of-delegation-of-authority-is-amazing-explaining-why-from-a-legal-aspect.md", "old": "ラトクリフ国防長官", "new": "ラトクリフ国家情報長官", "all": true, "reason": "事実誤り（ラトクリフはDNI=国家情報長官。同記事内で正しい表記12件）", "type": "word"}
 {"file": "2022-03-22_part-8-5-12-trump-still-has-real-power-and-the-theory-of-delegation-of-authority-is-amazing-explaining-why-from-a-legal-aspect.md", "old": "ラトクリフ国防長官", "new": "ラトクリフ国家情報長官", "all": true, "reason": "事実誤り（ラトクリフはDNI=国家情報長官。同記事内で正しい表記12件）", "type": "word"}
+{"file": "2022-03-24_a-story-of-awakening-to-gore-3-autobiography-120.md", "old": "必要量のの8倍", "new": "必要量の8倍", "reason": "衍字（のの→の）", "type": "typo"}
+{"file": "2022-03-26_a-story-of-awakening-to-gore-5-autobiography-122.md", "old": "サポートようだな", "new": "サポート用だな", "reason": "変換漏れ（よう→用）", "type": "typo"}
+{"file": "2022-03-23_part-8-6-12-trump-still-has-real-power-and-the-delegation-of-authority-theory-is-amazing-explaining-why-from-a-legal-aspect.md", "old": "スカビーノ", "new": "スカヴィーノ", "all": true, "reason": "人名表記ゆれ（スカヴィーノ18件が標準、スカビーノ2件が外れ値）", "type": "word"}
