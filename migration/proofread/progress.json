@@ -1,8 +1,8 @@
 {
- "next_index": 245,
+ "next_index": 257,
  "total": 781,
- "auto_fixed_total": 104,
- "uncertain_pending": 13,
- "note": "173行目から再開。1〜172行精読済み。誤字91件＋旧名改名42ファイル適用。要判断はuncertain.md/global_usage.md。",
+ "auto_fixed_total": 106,
+ "uncertain_pending": 14,
+ "note": "257行目から再開。1〜256行精読済み。誤字106件＋旧名改名42ファイル適用。要判断はuncertain.md(U-1〜U-17)/global_usage.md。",
  "rename_files": 42
 }

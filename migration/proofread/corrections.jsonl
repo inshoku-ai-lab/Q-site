@@ -144,3 +144,5 @@
 {"file": "2022-04-13_a-story-of-awakening-to-gore-18-autobiography-135.md", "old": "レストラン無いをさまよい", "new": "レストラン内をさまよい", "reason": "誤変換（無い/内）", "type": "typo"}
 {"file": "2022-04-19_starlink-has-arrived-deep-in-the-mountains-of-mexico.md", "old": "半端ない便さ", "new": "半端ない不便さ", "reason": "脱字（不便さの「不」抜け、見出し）", "type": "typo"}
 {"file": "2022-04-22_a-story-of-awakening-to-gore-28-autobiography-145.md", "old": "ゴアトランスとい言う道", "new": "ゴアトランスと言う道", "reason": "衍字（とい言う→と言う、見出し）", "type": "typo"}
+{"file": "2022-04-26_part-10-16-27-trump-still-has-real-power-and-the-delegation-of-authority-theory-is-amazing-explaining-why-from-a-legal-aspect.md", "old": "政治的意思決定者まで伝達できる方法を構築しければならない", "new": "政治的意思決定者まで伝達できる方法を構築しなければならない", "reason": "「構築しければならない」は「な」の脱字。「構築しなければならない」が正しい。", "type": "typo"}
+{"file": "2022-04-28_part-10-18-28-trump-still-has-real-power-and-the-delegation-of-authority-theory-is-amazing-explaining-why-from-a-legal-aspect.md", "old": "ヒラリー氏は「市民の反乱」支援したが", "new": "ヒラリー氏は「市民の反乱」を支援したが", "reason": "目的格助詞「を」の脱字。「『市民の反乱』を支援した」が正しい。", "type": "typo", "all": true}
