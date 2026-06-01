@@ -35,3 +35,6 @@
 {"file": "2022-01-20_a-story-of-cultural-life-in-nishinari-11-autobiography-056.md", "old": "奔放な姓を刺激", "new": "奔放な性を刺激", "reason": "誤変換（姓/性）", "type": "typo"}
 {"file": "2022-01-20_a-story-of-cultural-life-in-nishinari-12-autobiography-057.md", "old": "その後どうのように", "new": "その後どのように", "reason": "衍字（どうの→どの）", "type": "typo"}
 {"file": "2022-01-20_a-story-of-cultural-life-in-nishinari-4-autobiography-049.md", "old": "次の次元に持って言った", "new": "次の次元に持って行った", "reason": "誤変換（言った/行った）", "type": "typo"}
+{"file": "2021-10-31_the-power-of-true-prayer-which-has-been-intentionally-hidden-from-the-world-is-now-being-revealed.md", "old": "より悪い世界になるようへと、世界全体", "new": "より悪い世界になるように、世界全体", "reason": "「なるようへと」が不自然（U-4：ユーザー判断＝なるように）", "type": "grammar"}
+{"file": "2021-10-31_the-power-of-true-prayer-which-has-been-intentionally-hidden-from-the-world-is-now-being-revealed.md", "old": "現実を想像することができる", "new": "現実を創造することができる", "reason": "誤変換（想像/創造、記事テーマは創造）（U-5：ユーザー判断＝創造）", "type": "word"}
+{"file": "2021-10-31_the-power-of-true-prayer-which-has-been-intentionally-hidden-from-the-world-is-now-being-revealed.md", "old": "見合った現実を想像し続けてきた", "new": "見合った現実を創造し続けてきた", "reason": "誤変換（想像/創造）（U-5：ユーザー判断＝創造）", "type": "word"}
