@@ -66,7 +66,7 @@ flags: ""
 
 今後も素晴らしい記事を書き続けてもらうためにも彼に寄付をして応援してもらえると、僕も彼も大いに喜びます。
 
-寄付の仕方は非常に簡単で、こちらのリンクをクリックしてsubstuckというブログサイトの定期購読に登録します。
+寄付の仕方は非常に簡単で、こちらのリンクをクリックしてSubstackというブログサイトの定期購読に登録します。
 
 [blogcard url="https://patelpatriot.substack.com/subscribe?utm\_source=menu&simple=true&next=https%3A%2F%2Fpatelpatriot.substack.com%2Fp%2Fdevolution"]
 

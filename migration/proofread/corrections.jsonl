@@ -38,3 +38,7 @@
 {"file": "2021-10-31_the-power-of-true-prayer-which-has-been-intentionally-hidden-from-the-world-is-now-being-revealed.md", "old": "より悪い世界になるようへと、世界全体", "new": "より悪い世界になるように、世界全体", "reason": "「なるようへと」が不自然（U-4：ユーザー判断＝なるように）", "type": "grammar"}
 {"file": "2021-10-31_the-power-of-true-prayer-which-has-been-intentionally-hidden-from-the-world-is-now-being-revealed.md", "old": "現実を想像することができる", "new": "現実を創造することができる", "reason": "誤変換（想像/創造、記事テーマは創造）（U-5：ユーザー判断＝創造）", "type": "word"}
 {"file": "2021-10-31_the-power-of-true-prayer-which-has-been-intentionally-hidden-from-the-world-is-now-being-revealed.md", "old": "見合った現実を想像し続けてきた", "new": "見合った現実を創造し続けてきた", "reason": "誤変換（想像/創造）（U-5：ユーザー判断＝創造）", "type": "word"}
+{"file": "2022-01-21_a-story-of-cultural-life-in-nishinari-14-autobiography-059.md", "old": "相手に認めれれる事", "new": "相手に認められる事", "reason": "誤字（認めれれる→認められる）", "type": "typo"}
+{"file": "2022-01-21_trump-still-has-real-power-the-theory-of-delegation-of-authority-that-explains-why-from-a-legal-aspect-is-amazing-part-1-1-of-6.md", "old": "substuckというブログサイト", "new": "Substackというブログサイト", "reason": "ブランド名の綴り誤り（substuck→Substack）", "type": "typo"}
+{"file": "2022-01-22_a-story-of-travels-in-communist-china-4-autobiography-067.md", "old": "殆どののビルが", "new": "殆どのビルが", "reason": "衍字（のの→の）", "type": "typo"}
+{"file": "2022-01-22_a-story-of-travels-in-communist-china-4-autobiography-067.md", "old": "騙されてりした感じ", "new": "騙されたりした感じ", "reason": "誤字（てり→たり）", "type": "typo"}
