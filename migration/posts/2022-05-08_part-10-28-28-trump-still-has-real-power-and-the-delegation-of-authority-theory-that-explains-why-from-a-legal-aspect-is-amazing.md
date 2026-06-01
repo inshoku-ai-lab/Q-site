@@ -114,6 +114,6 @@ flags: "no-images"
 
 [blogcard url="https://qryptraveller.com/deel-11-1-16-trump-heeft-nog-steeds-echte-macht-de-theorie-van-de-delegatie-van-bevoegdheden-is-verbazingwekkend-uit-te-leggen-waarom-vanuit-een-juridisch-aspect/"]
 
-この記事を気に入って応援したいと思われた方は、下記の記事を参考にして、著者のパテル・パトリオット氏に寄付をしていただけると翻訳者として無常の喜びです。
+この記事を気に入って応援したいと思われた方は、下記の記事を参考にして、著者のパテル・パトリオット氏に寄付をしていただけると翻訳者として無上の喜びです。
 
 [blogcard url="https://qryptraveller.com/trump-still-has-real-power-the-theory-of-delegation-of-authority-that-explains-why-from-a-legal-aspect-is-amazing-part-1-1-of-6/"]

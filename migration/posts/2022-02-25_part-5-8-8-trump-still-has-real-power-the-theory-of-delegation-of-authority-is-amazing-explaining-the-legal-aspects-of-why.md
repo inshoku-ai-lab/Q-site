@@ -121,6 +121,6 @@ flags: "no-images"
 [blogcard url="https://qryptraveller.com/part-6-1-7-trump-still-has-real-power-the-theory-of-delegation-of-authority-is-amazing-explaining-the-legal-aspects-of-why/
 "]
 
-この記事を気に入って応援したいと思われた方は、下記の記事を参考にして、著者のパテル・パトリオット氏に寄付をしていただけると翻訳者として無常の喜びです。
+この記事を気に入って応援したいと思われた方は、下記の記事を参考にして、著者のパテル・パトリオット氏に寄付をしていただけると翻訳者として無上の喜びです。
 
 [blogcard url="https://note.com/qryp/n/nfd91ae7c14a6"]
