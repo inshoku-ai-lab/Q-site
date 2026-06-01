@@ -85,3 +85,4 @@
 {"file": "2022-02-22_part-5-5-8-trump-still-has-real-power-the-theory-of-delegation-of-authority-is-amazing-explaining-the-legal-aspects-of-why.md", "old": "公法92-163号", "new": "公法92-463号", "reason": "数字誤り（同記事で他は92-463、FACAは92-463）", "type": "typo"}
 {"file": "2022-02-24_a-story-of-travels-in-india-8-autobiography-093.md", "old": "更に上を言っていた", "new": "更に上を行っていた", "reason": "誤変換（上を言う→上を行く）", "type": "typo"}
 {"file": "2022-02-27_a-story-of-travels-in-india-11-autobiography-096.md", "old": "燕脂色をした衣装", "new": "臙脂色をした衣装", "reason": "表記統一（同記事内で臙脂色を使用）", "type": "typo"}
+{"file": "2022-03-05_the-story-of-meeting-gore-4-autobiography-101.md", "old": "日々を楽しんている", "new": "日々を楽しんでいる", "reason": "脱字（楽しんている→楽しんでいる）", "type": "typo"}

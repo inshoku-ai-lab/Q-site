@@ -1,7 +1,7 @@
 {
- "next_index": 137,
+ "next_index": 149,
  "total": 781,
- "auto_fixed_total": 87,
+ "auto_fixed_total": 88,
  "uncertain_pending": 12,
  "note": "file_order.txt の next_index 行目から再開。1〜76行精読済み。global_usage.md/technical_notes.md/uncertain.md に要判断事項を集約中。"
 }
