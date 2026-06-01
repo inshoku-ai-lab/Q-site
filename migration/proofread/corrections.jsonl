@@ -141,3 +141,4 @@
 {"file": "2022-04-02_part-9-4-10-trump-still-has-real-power-and-the-delegation-of-authority-theory-is-amazing-explaining-why-from-a-legal-aspect.md", "old": "権限委譲計画計画の具体的な内容", "new": "権限委譲計画の具体的な内容", "reason": "衍字（計画の重複）", "type": "typo"}
 {"file": "2022-04-03_part-9-5-10-trump-still-has-real-power-and-the-theory-of-delegation-of-authority-is-amazing-explaining-why-from-a-legal-aspect.md", "old": "洗浄の準備を整えていた", "new": "戦場の準備を整えていた", "all": true, "reason": "誤変換（洗浄/戦場、本文＋抜粋）", "type": "typo"}
 {"file": "2022-04-10_a-story-of-awakening-to-gore-15-autobiography-132.md", "old": "しかしたらみんな騙されている", "new": "もしかしたらみんな騙されている", "reason": "脱字（しかしたら→もしかしたら）", "type": "typo"}
+{"file": "2022-04-13_a-story-of-awakening-to-gore-18-autobiography-135.md", "old": "レストラン無いをさまよい", "new": "レストラン内をさまよい", "reason": "誤変換（無い/内）", "type": "typo"}
