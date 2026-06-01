@@ -78,3 +78,7 @@
 {"file": "2022-02-10_part-3-3-6-trump-still-has-real-power-the-theory-of-delegation-of-authority-is-amazing-explaining-the-legal-aspects-of-why.md", "old": "低密度紛争", "new": "低強度紛争", "all": true, "reason": "誤変換/用語ゆれ（低密度→低強度、Low-Intensity Conflict）", "type": "word"}
 {"file": "2022-02-11_part-3-4-6-trump-still-has-the-real-power-the-theory-of-delegation-of-authority-is-amazing-explaining-the-legal-aspects-of-why.md", "old": "低密度紛争", "new": "低強度紛争", "all": true, "reason": "誤変換/用語ゆれ（低密度→低強度、Low-Intensity Conflict）", "type": "word"}
 {"file": "2022-02-12_part-3-5-6-trump-still-has-real-power-the-theory-of-delegation-of-authority-is-amazing-explaining-the-legal-aspects-of-why.md", "old": "低密度紛争", "new": "低強度紛争", "all": true, "reason": "誤変換/用語ゆれ（低密度→低強度、Low-Intensity Conflict）", "type": "word"}
+{"file": "2022-02-17_a-story-of-travels-in-india-1-autobiography-086.md", "old": "カルカッタヘ向かう", "new": "カルカッタへ向かう", "reason": "カタカナ「ヘ」→助詞「へ」", "type": "typo"}
+{"file": "2022-02-17_part-4-4-5-trump-still-has-real-power-the-theory-of-delegation-of-authority-is-amazing-explaining-the-legal-aspects-of-why.md", "old": "意義を唱えることはない", "new": "異議を唱えることはない", "reason": "誤変換（意義/異議）", "type": "typo"}
+{"file": "2022-02-19_a-story-of-travels-in-india-3-autobiography-088.md", "old": "そう風に余裕に思っていた", "new": "そんな風に余裕に思っていた", "reason": "誤り（そう風に→そんな風に）", "type": "typo"}
+{"file": "2022-02-19_a-story-of-travels-in-india-3-autobiography-088.md", "old": "雨は休むことなく振り続ける", "new": "雨は休むことなく降り続ける", "reason": "誤変換（振る/降る）", "type": "typo"}
