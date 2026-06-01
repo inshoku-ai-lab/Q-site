@@ -50,7 +50,7 @@ flags: "no-images"
 
 彼らは軍隊の司令官であり、権限委譲計画の計画が実行されれば、クリス・ミラー国防長官がブリーフィングをすることになる人々である。
 
-権限委譲計画計画の具体的な内容は、エズラ・コーエン・ワトニックと特殊作戦部隊[（権限委譲理論-パート3）](https://qryptraveller.com/part-3-1-3-trump-still-has-real-power-the-theory-of-delegation-of-authority-is-amazing-explaining-the-legal-aspects-of-why/)が必須機能作戦（MEFs）を遂行することを任務としたと私は考えています。
+権限委譲計画の具体的な内容は、エズラ・コーエン・ワトニックと特殊作戦部隊[（権限委譲理論-パート3）](https://qryptraveller.com/part-3-1-3-trump-still-has-real-power-the-theory-of-delegation-of-authority-is-amazing-explaining-the-legal-aspects-of-why/)が必須機能作戦（MEFs）を遂行することを任務としたと私は考えています。
 
 この必須機能作戦（MEFs）については次回に詳しく述べることにして、今回はこの指揮系統の非常に特殊な属性に焦点を当てることにする。
 
