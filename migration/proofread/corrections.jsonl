@@ -86,3 +86,5 @@
 {"file": "2022-02-24_a-story-of-travels-in-india-8-autobiography-093.md", "old": "更に上を言っていた", "new": "更に上を行っていた", "reason": "誤変換（上を言う→上を行く）", "type": "typo"}
 {"file": "2022-02-27_a-story-of-travels-in-india-11-autobiography-096.md", "old": "燕脂色をした衣装", "new": "臙脂色をした衣装", "reason": "表記統一（同記事内で臙脂色を使用）", "type": "typo"}
 {"file": "2022-03-05_the-story-of-meeting-gore-4-autobiography-101.md", "old": "日々を楽しんている", "new": "日々を楽しんでいる", "reason": "脱字（楽しんている→楽しんでいる）", "type": "typo"}
+{"file": "2022-03-06_part-7-1-12-trump-still-has-real-power-the-theory-of-delegation-of-authority-that-explains-why-from-a-legal-aspect-is-awesome.md", "old": "鍵となる大統領に署名していた", "new": "鍵となる大統領令に署名していた", "all": true, "reason": "脱字（大統領令の「令」抜け、本文＋抜粋）", "type": "typo"}
+{"file": "2022-03-06_part-7-1-12-trump-still-has-real-power-the-theory-of-delegation-of-authority-that-explains-why-from-a-legal-aspect-is-awesome.md", "old": "その背景として、挙の公正さに関する", "new": "その背景として、選挙の公正さに関する", "all": true, "reason": "脱字（選挙の「選」抜け、本文＋抜粋）", "type": "typo"}
