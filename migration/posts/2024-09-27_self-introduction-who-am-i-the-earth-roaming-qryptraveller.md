@@ -9,7 +9,7 @@ featured_image_id: "10907"
 categories:
   - "オリジナル記事"
 tags:
-  - "Qリプトラベラー"
+  - "クリプトラベラー"
   - "クリプトラベラー"
   - "自己紹介"
 images:
