@@ -1,0 +1,15 @@
+{"file": "2022-08-24_gores-story-of-his-second-term-18-autobiography-270.md", "old": "ありきたりな話なのでで、特に旅行記", "new": "ありきたりな話なので、特に旅行記", "reason": "助詞「で」の重複", "type": "typo"}
+{"file": "2021-09-30_story-before-born.md", "old": "僕の過去生ははこんな感じ", "new": "僕の過去生はこんな感じ", "reason": "助詞「は」の重複", "type": "typo"}
+{"file": "2023-02-08_the-twitterfiles-part-3-president-trumps-account-deleted-from-twitter.md", "old": "私はは懸念しています", "new": "私は懸念しています", "reason": "助詞「は」の重複", "type": "typo"}
+{"file": "2022-03-21_the-story-of-meeting-gore-20-autobiography-117.md", "old": "育った故にに女性に対して", "new": "育った故に女性に対して", "reason": "助詞「に」の重複", "type": "typo"}
+{"file": "2022-05-19_the-story-of-returning-to-japan-16-autobiography-172.md", "old": "あっという間にに消え去り", "new": "あっという間に消え去り", "reason": "助詞「に」の重複", "type": "typo"}
+{"file": "2023-04-19_interview-with-elon-musk-by-tucker-carlson-part-i.md", "old": "公共の場にに立ってますよね", "new": "公共の場に立ってますよね", "reason": "助詞「に」の重複", "type": "typo"}
+{"file": "2022-05-21_a-story-of-soaring-back-to-india-3-autobiography-175.md", "old": "値段交渉をを怠って", "new": "値段交渉を怠って", "reason": "助詞「を」の重複", "type": "typo"}
+{"file": "2023-04-24_seven-ways-to-turn-the-looming-great-reset-crisis-into-an-opportunity-part-3.md", "old": "道を誤ることをを防ぐ", "new": "道を誤ることを防ぐ", "reason": "助詞「を」の重複", "type": "typo"}
+{"file": "2021-10-28_stories-of-life-in-peru-1-autobiography-019.md", "old": "学校へ行くことととエホバの証人", "new": "学校へ行くこととエホバの証人", "reason": "助詞「と」の重複（三連→二）", "type": "typo"}
+{"file": "2023-02-07_twitterfiles-part-1-laptop-from-hunter-biden-hell.md", "old": "parallax-shop/&quot;]\">https://qryptraveller.com/index/parallax-shop/", "new": "parallax-shop/", "reason": "markdownify由来の壊れたリンク残骸を除去", "type": "mechanical"}
+{"file": "2023-09-09_facebook-files-from-congressman-jim-jordan-fifth-using-fake-information-from-digital-hate-countermeasures-center-ccdh.md", "old": "窺えます&#x1f914;", "new": "窺えます🤔", "reason": "HTMLエンティティ&#x1f914;をデコード（🤔）", "type": "mechanical"}
+{"file": "2021-10-02_for-those-who-want-to-start-looking-into-q-anon.md", "old": "ということを受け入る所から始めて", "new": "ということを受け入れる所から始めて", "reason": "脱字（受け入れる）", "type": "typo"}
+{"file": "2021-10-02_for-those-who-want-to-start-looking-into-q-anon.md", "old": "保留しながら調べ勧めて下さい", "new": "保留しながら調べ進めて下さい", "reason": "誤変換（進む/勧める）", "type": "typo"}
+{"file": "2021-10-03_childhood-life-start-with-crash-of-family-life-002.md", "old": "偶然再開し、愛し合い", "new": "偶然再会し、愛し合い", "reason": "誤変換（再開/再会）", "type": "typo"}
+{"file": "2021-10-03_childhood-life-start-with-crash-of-family-life-002.md", "old": "また引っ越をした", "new": "また引っ越しをした", "reason": "脱字（し）", "type": "typo"}

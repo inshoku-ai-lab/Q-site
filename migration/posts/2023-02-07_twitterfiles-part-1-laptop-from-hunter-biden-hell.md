@@ -461,7 +461,7 @@ Sent from my iPhone
 
 世紀末の経済危機に備えつつ、真実暴露の執筆活動を応援していただけると非常にありがたいです。
 
-[【銀の購入代行】](https://qryptraveller.com/index/parallax-shop/&quot;]">https://qryptraveller.com/index/parallax-shop/)
+[【銀の購入代行】](https://qryptraveller.com/index/parallax-shop/)
 
 次の記事はこちらです。
 

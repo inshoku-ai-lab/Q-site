@@ -10,7 +10,7 @@ categories:
   - "ツイッターファイル全記事"
 tags:
 images:
-excerpt: "今回のFacebook Filesではデジタルヘイト対策センター(CCDH)がでっち上げた統計を、バイデン政権がソーシャルネットワーク界隈の言論を検閲する為に悪用した事が、Facebookの内部資料から窺えます&#x1f914;"
+excerpt: "今回のFacebook Filesではデジタルヘイト対策センター(CCDH)がでっち上げた統計を、バイデン政権がソーシャルネットワーク界隈の言論を検閲する為に悪用した事が、Facebookの内部資料から窺えます🤔"
 flags: "short;no-images"
 ---
 
