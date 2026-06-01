@@ -82,3 +82,6 @@
 {"file": "2022-02-17_part-4-4-5-trump-still-has-real-power-the-theory-of-delegation-of-authority-is-amazing-explaining-the-legal-aspects-of-why.md", "old": "意義を唱えることはない", "new": "異議を唱えることはない", "reason": "誤変換（意義/異議）", "type": "typo"}
 {"file": "2022-02-19_a-story-of-travels-in-india-3-autobiography-088.md", "old": "そう風に余裕に思っていた", "new": "そんな風に余裕に思っていた", "reason": "誤り（そう風に→そんな風に）", "type": "typo"}
 {"file": "2022-02-19_a-story-of-travels-in-india-3-autobiography-088.md", "old": "雨は休むことなく振り続ける", "new": "雨は休むことなく降り続ける", "reason": "誤変換（振る/降る）", "type": "typo"}
+{"file": "2022-02-22_part-5-5-8-trump-still-has-real-power-the-theory-of-delegation-of-authority-is-amazing-explaining-the-legal-aspects-of-why.md", "old": "公法92-163号", "new": "公法92-463号", "reason": "数字誤り（同記事で他は92-463、FACAは92-463）", "type": "typo"}
+{"file": "2022-02-24_a-story-of-travels-in-india-8-autobiography-093.md", "old": "更に上を言っていた", "new": "更に上を行っていた", "reason": "誤変換（上を言う→上を行く）", "type": "typo"}
+{"file": "2022-02-27_a-story-of-travels-in-india-11-autobiography-096.md", "old": "燕脂色をした衣装", "new": "臙脂色をした衣装", "reason": "表記統一（同記事内で臙脂色を使用）", "type": "typo"}
