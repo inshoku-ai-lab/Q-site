@@ -327,3 +327,8 @@
 {"file": "2022-11-03_the-story-of-my-grandfathers-death-4-autobiography-493.md", "old": "ジクソーパズル", "new": "ジグソーパズル", "reason": "誤字 ク→グ（jigsaw）", "type": "typo"}
 {"file": "2022-11-13_ftx-bankruptcy-the-darkness-in-the-case-was-deeper-than-we-thought.md", "old": "圧倒的劣勢にある民商等陣営", "new": "圧倒的劣勢にある民主党陣営", "reason": "誤変換 民商等→民主党", "type": "typo"}
 {"file": "2022-11-19_ive-been-researching-cryptocurrencies-and-global-conspiracies-since-2011-and-ill-explain-the-essence-of-the-ftx-bankruptcy.md", "old": "エレルギー不足", "new": "エネルギー不足", "reason": "誤字 エレルギー→エネルギー", "type": "typo"}
+{"file": "2023-02-07_twitterfiles-part-1-laptop-from-hunter-biden-hell.md", "old": "兼ねてから予告", "new": "かねてから予告", "reason": "誤用 兼ねて→かねて（予てから。corpus多数はかねてから6件）", "type": "typo", "all": true}
+{"file": "2023-02-08_twitterfiles-part-2-the-secret-blacklist-team-that-existed-within-twitter.md", "old": "7日間の血用停止", "new": "7日間の利用停止", "reason": "誤変換 血用→利用（同段落も利用停止）", "type": "typo"}
+{"file": "2023-02-08_twitterfiles-part-2-the-secret-blacklist-team-that-existed-within-twitter.md", "old": "身元をばらされされた", "new": "身元をばらされた", "reason": "衍字 され重複", "type": "typo"}
+{"file": "2023-02-08_the-twitterfiles-part-3-president-trumps-account-deleted-from-twitter.md", "old": "郵政投票", "new": "郵便投票", "reason": "誤変換 郵政→郵便（同記事本文は郵便投票12件）", "type": "typo", "all": true}
+{"file": "2023-02-11_the-twitterfiles-part-8-u-s-department-of-defense-secret-online-operations.md", "old": "FBIと関係を待ち", "new": "FBIと関係を持ち", "reason": "誤変換 待→持（関係を持つ。次節も持っていた）", "type": "typo"}

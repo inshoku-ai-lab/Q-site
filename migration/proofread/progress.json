@@ -1,9 +1,9 @@
 {
- "next_index": 665,
+ "next_index": 677,
  "total": 781,
- "auto_fixed_total": 291,
- "corrections_jsonl_total": 329,
+ "auto_fixed_total": 296,
+ "corrections_jsonl_total": 334,
  "uncertain_pending": 34,
- "note": "665行目から再開。1〜664行精読済み（放浪記487-493、山小屋編完＋祖父の死、情報記事5本=中間選挙/FTX×2/トランプ会見/Died Suddenly）。私の自動修正291件（バッチ55: といいう衍字×4・身柄→身元×3・２３歳・掬える・ジグソー・民主党・エネルギー）。corrections.jsonl計329件（全適用済み）。要判断uncertain.md(U-6〜U-27,U-29,U-30,m-1)＋global_usage.md(G-1,2,3,7,8,9,10,11,12,13,14,15)。",
+ "note": "677行目から再開。1〜676行精読済み（トランプ検閲宣言・マイナンバー・ツイッターファイル第1〜8弾＋補足・下書き、計12情報記事）。私の自動修正296件（バッチ56: かねてから・利用停止・ばらされた・郵便投票・関係を持ち）。下書きテンプレ記事はG-16で除外提案。corrections.jsonl計334件（全適用済み）。要判断uncertain.md(U-6〜U-27,U-29,U-30,m-1)＋global_usage.md(G-1,2,3,7,8,9,10,11,12,13,14,15,16)。",
  "rename_files": 42
 }
