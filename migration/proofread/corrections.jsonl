@@ -347,3 +347,6 @@
 {"file": "2023-06-24_what-is-trauma-enmeshment-trauma-which-is-created-when-parents-think-of-their-children-as-their-own-teal-swan-explains.md", "old": "存在してします", "new": "存在しています", "reason": "誤字 してします→しています", "type": "typo"}
 {"file": "2023-07-01_are-individual-personal-boundaries-and-the-idea-of-oneness-contradictory-teal-swan-says.md", "old": "役に立つないようになっている", "new": "役に立つ内容になっている", "reason": "誤変換 ないよう→内容（役に立つ内容）", "type": "typo"}
 {"file": "2023-07-20_%e8%87%aa%e8%bb%a2%e8%bb%8a%e3%81%a7%e6%b2%96%e7%b8%84%e3%81%b8%e5%90%91%e3%81%8b%e3%81%86%e8%a9%b1%ef%bc%99%ef%bc%88%e6%94%be%e6%b5%aa%e8%a8%98%ef%bc%95%ef%bc%90%ef%bc%93%ef%bc%89.md", "old": "ロープを貼って通れない", "new": "ロープを張って通れない", "reason": "誤変換 貼る→張る（ロープを張る）", "type": "typo"}
+{"file": "2023-08-14_ive-been-wandering-the-earth-for-25-years-now.md", "old": "合わさったのがコロナ渦です", "new": "合わさったのがコロナ禍です", "reason": "誤変換 渦→禍（同記事内で後段はコロナ禍と正しく表記）", "type": "typo"}
+{"file": "2022-04-19_starlink-has-arrived-deep-in-the-mountains-of-mexico.md", "old": "コロナ渦の影響", "new": "コロナ禍の影響", "reason": "誤変換 渦→禍（コロナ禍）", "type": "typo"}
+{"file": "2023-09-11_nothing-will-happen-if-you-dont-first-deal-with-the-resistance-within-you-teal-swan-said.md", "old": "一歩引いてして抵抗感を確認", "new": "一歩引いて抵抗感を確認", "reason": "衍字 して（一歩引いて〜）", "type": "typo"}
