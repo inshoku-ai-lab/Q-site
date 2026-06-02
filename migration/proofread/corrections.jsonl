@@ -301,3 +301,9 @@
 {"file": "2022-10-22_7an-autobiography-of-working-at-a-mountain-hut-in-the-northern-alps-448.md", "old": "毎朝の昌和", "new": "毎朝の唱和", "reason": "誤変換 昌→唱（経営理念の唱和。445でも唱和表記）", "type": "typo"}
 {"file": "2022-10-22_8an-autobiography-of-working-at-a-mountain-hut-in-the-northern-alps-449.md", "old": "人見知りする正確", "new": "人見知りする性格", "reason": "誤変換 正確→性格", "type": "typo"}
 {"file": "2022-10-22_8an-autobiography-of-working-at-a-mountain-hut-in-the-northern-alps-449.md", "old": "目の淵", "new": "目の縁", "reason": "誤変換 淵→縁（目の縁＝目のふち）", "type": "typo", "all": true}
+{"file": "2022-10-23_15-autobiography-of-working-at-a-mountain-lodge-in-the-northern-alps456story-15-ab.md", "old": "２件の山小屋", "new": "２軒の山小屋", "reason": "誤変換 件→軒（小屋の助数詞は軒。放浪記474では「１軒の山小屋」と正用）", "type": "typo"}
+{"file": "2022-10-23_16-stories-of-working-at-a-mountain-hut-in-the-northern-alps-autobiography-457.md", "old": "井草を使った", "new": "い草を使った", "reason": "誤変換 井草→い草（畳表のイグサ）", "type": "typo"}
+{"file": "2022-10-24_19-autobiography-460-the-story-of-working-in-a-mountain-lodge-in-the-northern-alps.md", "old": "皮を向いてみろ", "new": "皮を剥いてみろ", "reason": "誤変換 向く→剥く（皮を剥く。直後も剥き方/剥いた）", "type": "typo"}
+{"file": "2022-10-24_20-autobiography-461-the-story-of-working-in-a-mountain-lodge-in-the-northern-alps.md", "old": "十分に遂げている", "new": "十分に研げている", "reason": "誤変換 遂げる→研げる（包丁が研げている。直前も研げる）", "type": "typo"}
+{"file": "2022-10-24_21-autobiography-462-the-story-of-working-in-a-mountain-lodge-in-the-northern-alps.md", "old": "歯を痛めず", "new": "刃を痛めず", "reason": "誤変換 歯→刃（包丁の刃。後段も刃と正用）", "type": "typo"}
+{"file": "2022-10-24_story-18-autobiography-459-about-working-in-a-mountain-lodge-in-the-northern-alps.md", "old": "その人隣が", "new": "その人柄が", "reason": "誤変換 人隣→人柄（ひとがら）", "type": "typo"}
