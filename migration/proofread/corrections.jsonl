@@ -223,3 +223,9 @@
 {"file": "2022-07-10_autumn-in-the-himalayas-20-autobiography-225.md", "old": "トビの強さも去ることながら", "new": "トビの強さもさることながら", "reason": "誤変換（去る/然る）。慣用句『さることながら』。", "type": "typo"}
 {"file": "2022-07-12_autumn-in-the-himalayas-22-autobiography-227.md", "old": "儀式に乗っ取り", "new": "儀式に則り", "reason": "誤変換（乗っ取る/則る）。『儀式に則り（のっとり）』が正。", "type": "typo"}
 {"file": "2022-07-13_autumn-in-the-himalayas-23-autobiography-228.md", "old": "パールヴァティ・バレー", "new": "パールバティ・バレー", "reason": "地名の少数異形。corpus内『パールバティ』23件に対し『パールヴァティ』1件。多数派に統一。", "type": "word"}
+{"file": "2022-07-14_autumn-in-the-himalayas-24-autobiography-229.md", "old": "冬が近ずくにつれて", "new": "冬が近づくにつれて", "reason": "仮名遣い誤り（ず→づ）。『近づく』が正。同記事冒頭では『近づいて』と正用。", "type": "typo"}
+{"file": "2022-07-16_autumn-in-the-himalayas-26-autobiography-231.md", "old": "築５０年ほど立っていそうな", "new": "築５０年ほど経っていそうな", "reason": "誤変換（立つ/経つ）。築年数の経過なので『経つ』。", "type": "typo"}
+{"file": "2022-07-20_autumn-in-the-himalayas-30-autobiography-235.md", "old": "リスクを犯す者たち", "new": "リスクを冒す者たち", "reason": "誤変換（犯す/冒す）。危険を引き受ける意は『冒す』。corpus他所も『リスクを冒す』。", "type": "typo"}
+{"file": "2022-07-22_a-story-of-encounters-in-delhi1-autobiography-237.md", "old": "インドで１年遊んだといいう", "new": "インドで１年遊んだという", "reason": "衍字（い）。『という』が正。", "type": "typo"}
+{"file": "2022-07-23_the-story-of-meeting-in-delhi-2-autobiography-238.md", "old": "山道を登らければならない", "new": "山道を登らなければならない", "reason": "脱字（な）。『登らなければならない』が正。", "type": "typo"}
+{"file": "2022-07-25_a-story-of-encounters-in-delhi-4-autobiography-240.md", "old": "世俗からの開放感", "new": "世俗からの解放感", "reason": "誤変換（開放/解放）。『〜からの解放』で束縛から解き放たれる意。", "type": "typo"}
