@@ -1,9 +1,9 @@
 {
- "next_index": 365,
+ "next_index": 377,
  "total": 781,
- "auto_fixed_total": 172,
- "corrections_jsonl_total": 214,
+ "auto_fixed_total": 178,
+ "corrections_jsonl_total": 220,
  "uncertain_pending": 24,
- "note": "365行目から再開。1〜364行精読済み。私の自動修正172件（バッチ30: 若干→弱冠7記事一括・高知→高地・産地→山地・計画モデル重複・ミーリー/メドーズ統一）。corrections.jsonl計214件（全適用済み）。要判断uncertain.md(U-6〜U-22,m-1)＋global_usage.md(G-1,2,3,7,8,9)。",
+ "note": "377行目から再開。1〜376行精読済み。デボリューション理論シリーズ(part13)完結まで読了。私の自動修正178件（バッチ31: アメリカン誤字・bio重複2件・は重複・の衍字・F/B取り違え）。今だに(2件)は許容変種として保留。corrections.jsonl計220件（全適用済み）。要判断uncertain.md(U-6〜U-22,m-1,進化はU-13に集約)＋global_usage.md(G-1,2,3,7,8,9)。",
  "rename_files": 42
 }
