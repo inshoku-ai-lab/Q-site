@@ -232,3 +232,8 @@
 {"file": "2022-08-01_renewing-an-indian-visa-in-thailand-story-6-autobiography-247.md", "old": "Iちゃんとのインドでの再開", "new": "Iちゃんとのインドでの再会", "reason": "誤変換（再開/再会）。人と再び会う意なので『再会』。", "type": "typo"}
 {"file": "2022-08-03_the-story-of-going-to-the-himalayas-again1-autobiography-249.md", "old": "親友のYさんに再開し", "new": "親友のYさんに再会し", "reason": "誤変換（再開/再会）。人と再び会う意なので『再会』。", "type": "typo"}
 {"file": "2022-08-06_a-tale-of-going-south-3-autobiography-252.md", "old": "アンジュナビーチヘと向かった", "new": "アンジュナビーチへと向かった", "reason": "助詞『へ』をカタカナ『ヘ』で誤記。ひらがな『へ』に修正（既知の表記ゆれの残存1件）。", "type": "typo"}
+{"file": "2022-08-07_gores-story-1-autobiography-253-of-his-second-term.md", "old": "再開", "new": "再会", "reason": "誤変換（再開/再会）。Yさんと数ヶ月ぶりに会う意。見出し・本文の2箇所とも再会。", "type": "typo", "all": true}
+{"file": "2022-08-09_gores-story-of-his-second-term-3-autobiography-255.md", "old": "ゴザをかい", "new": "ゴザを買い", "reason": "並列『布団を買い、ゴザを買い、…買う』の中で1箇所だけ平仮名。漢字に統一（買い）。", "type": "typo"}
+{"file": "2022-08-11_gores-story-of-his-second-term-5-autobiography-257.md", "old": "水をかけて消化した", "new": "水をかけて消火した", "reason": "誤変換（消化/消火）。燃えた枕に水をかけて火を消す意なので『消火』。", "type": "typo"}
+{"file": "2022-08-16_verifiable-evidence-that-trump-and-q-are-closely-involved.md", "old": "注目してくいださい", "new": "注目してください", "reason": "誤字（くいださい→ください）。衍字『い』。", "type": "typo"}
+{"file": "2022-08-17_gores-story-of-his-second-term-11-autobiography-263.md", "old": "パーティーに望んだ", "new": "パーティーに臨んだ", "reason": "誤変換（望む/臨む）。催しに参加・対峙する意は『臨む』。", "type": "typo"}
