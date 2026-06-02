@@ -317,3 +317,13 @@
 {"file": "2025-01-21_how-does-buying-silver-at-crypt-protect-you-from-government-confiscation-of-your-precious-metals.md", "old": "そんなことは起こらないと鷹を括っていた", "new": "そんなことは起こらないと高を括っていた", "reason": "誤変換 鷹→高（高を括る）", "type": "typo"}
 {"file": "2022-10-30_40-autobiography-480-the-story-of-working-in-a-mountain-lodge-in-the-northern-alps.md", "old": "紐類をきっちりと絞めることで", "new": "紐類をきっちりと締めることで", "reason": "誤変換 絞→締（紐を締める。同記事後段も締めると正用）", "type": "typo"}
 {"file": "2022-10-30_41-autobiography-481-the-story-of-working-in-a-mountain-lodge-in-the-northern-alps.md", "old": "もう一つ教えられてのは", "new": "もう一つ教えられたのは", "reason": "誤字 て→た（教えられたのは）", "type": "typo"}
+{"file": "2022-11-01_46-autobiography-487-the-story-of-working-in-a-mountain-lodge-in-the-northern-alps.md", "old": "好かれたいといいう思い", "new": "好かれたいという思い", "reason": "衍字 い（という）", "type": "typo"}
+{"file": "2022-11-13_ftx-bankruptcy-the-darkness-in-the-case-was-deeper-than-we-thought.md", "old": "破綻へと至ったといいう訳", "new": "破綻へと至ったという訳", "reason": "衍字 い（という）", "type": "typo"}
+{"file": "2023-02-08_the-twitterfiles-part-3-president-trumps-account-deleted-from-twitter.md", "old": "安全ではないといいう事実", "new": "安全ではないという事実", "reason": "衍字 い（という）", "type": "typo"}
+{"file": "2022-01-24_talk-about-fake-jews-and-fake-illuminati.md", "old": "偽ユダヤといいうのは", "new": "偽ユダヤというのは", "reason": "衍字 い（という）", "type": "typo"}
+{"file": "2022-11-02_the-story-of-my-grandfathers-death-2-autobiography-491.md", "old": "身柄", "new": "身元", "reason": "誤用 身柄→身元（焼死体の身元の特定）", "type": "typo", "all": true}
+{"file": "2022-11-03_the-story-of-my-grandfathers-death-3-autobiography-492.md", "old": "当時の２３際の僕", "new": "当時の２３歳の僕", "reason": "誤変換 際→歳", "type": "typo"}
+{"file": "2022-11-03_the-story-of-my-grandfathers-death-4-autobiography-493.md", "old": "両手で救えるほどの遺灰", "new": "両手で掬えるほどの遺灰", "reason": "誤変換 救う→掬う（すくう）", "type": "typo"}
+{"file": "2022-11-03_the-story-of-my-grandfathers-death-4-autobiography-493.md", "old": "ジクソーパズル", "new": "ジグソーパズル", "reason": "誤字 ク→グ（jigsaw）", "type": "typo"}
+{"file": "2022-11-13_ftx-bankruptcy-the-darkness-in-the-case-was-deeper-than-we-thought.md", "old": "圧倒的劣勢にある民商等陣営", "new": "圧倒的劣勢にある民主党陣営", "reason": "誤変換 民商等→民主党", "type": "typo"}
+{"file": "2022-11-19_ive-been-researching-cryptocurrencies-and-global-conspiracies-since-2011-and-ill-explain-the-essence-of-the-ftx-bankruptcy.md", "old": "エレルギー不足", "new": "エネルギー不足", "reason": "誤字 エレルギー→エネルギー", "type": "typo"}
