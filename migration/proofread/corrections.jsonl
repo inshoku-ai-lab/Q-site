@@ -338,3 +338,6 @@
 {"file": "2023-02-12_twitterfiles-part-9-twitter-and-cia.md", "old": "抵抗はないのだでしょうか", "new": "抵抗はないのでしょうか", "reason": "衍字 だ（ないのでしょうか）", "type": "typo"}
 {"file": "2023-02-14_twitterfiles-part-14-russia-gate-lies.md", "old": "意義を唱え", "new": "異議を唱え", "reason": "誤変換 意義→異議（異議を唱える。本文では異議と正用）", "type": "typo", "all": true}
 {"file": "2023-02-14_twitterfiles-supplement-13-how-the-twitter-file-got-into-the-article.md", "old": "やココロナワクチン", "new": "やコロナワクチン", "reason": "衍字 コ（コロナワクチン）", "type": "typo"}
+{"file": "2023-04-01_how-vipassana-meditation-can-free-people-from-suffering-after-a-pilgrimage.md", "old": "元飼い犬に再開したら", "new": "元飼い犬に再会したら", "reason": "誤変換 再開→再会（再び会う）", "type": "typo"}
+{"file": "2023-04-05_summary-and-full-translation-of-trumps-indictment.md", "old": "刑法175.10ドル違反", "new": "刑法175.10条違反", "reason": "誤変換 §→＄／ドル（正しくは175.10条。本文多数は条）", "type": "typo", "all": true}
+{"file": "2023-04-23_seven-ways-to-turn-the-looming-great-reset-crisis-into-an-opportunity-part-1.md", "old": "当たらずしも遠からず", "new": "当たらずとも遠からず", "reason": "慣用句の誤り しも→とも（著者の標準形は当たらずとも遠からず）", "type": "typo"}

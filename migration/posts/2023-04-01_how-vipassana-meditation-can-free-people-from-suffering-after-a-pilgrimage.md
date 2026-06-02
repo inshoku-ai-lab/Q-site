@@ -72,7 +72,7 @@ https://twitter.com/qryptraveller/status/1635629927180685312?s=20
 
 https://twitter.com/qryptraveller/status/1637187136997711878?s=20
 
-街で元飼い犬に再開したら病気が一層悪化していたり。
+街で元飼い犬に再会したら病気が一層悪化していたり。
 
 https://twitter.com/qryptraveller/status/1637499710217891840?s=20
 

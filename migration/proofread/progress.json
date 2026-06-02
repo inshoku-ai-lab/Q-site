@@ -1,9 +1,9 @@
 {
- "next_index": 689,
+ "next_index": 701,
  "total": 781,
- "auto_fixed_total": 302,
- "corrections_jsonl_total": 340,
- "uncertain_pending": 35,
- "note": "689行目から再開。1〜688行精読済み（ツイッターファイル6補足〜15、フェイスブックファイル等、情報記事16本）。私の自動修正302件（バッチ57: 実際に働く・リーク・言います・ないのでしょうか・異議を唱え×4・コロナ）。画像OCR引用は原文保持。corrections.jsonl計340件（全適用済み）。要判断uncertain.md(U-6〜U-27,U-29,U-30,U-31,m-1)＋global_usage.md(G-1,2,3,7〜16)。",
+ "auto_fixed_total": 306,
+ "corrections_jsonl_total": 343,
+ "uncertain_pending": 36,
+ "note": "701行目から再開。1〜700行精読済み（オハイオ列車・TF16・Google File・巡礼memoir2本・Trump起訴状・Tuckerインタビュー・グレートリセット3部作・TF19、情報記事中心）。私の自動修正306件（バッチ58: 元飼い犬に再会・175.10条×2・当たらずとも遠からず）。corrections.jsonl計343件（全適用済み）。要判断uncertain.md(U-6〜U-27,U-29〜U-32,m-1)＋global_usage.md(G-1,2,3,7〜16)。",
  "rename_files": 42
 }
