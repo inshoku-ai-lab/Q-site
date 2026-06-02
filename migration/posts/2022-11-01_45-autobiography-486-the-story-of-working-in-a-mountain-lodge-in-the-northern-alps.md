@@ -1,6 +1,6 @@
 ---
 id: 7442
-title: "北アルプスの山小屋で働く話４５（放浪記４８６）"
+title: "北アルプスの山小屋で働く話４６（放浪記４８６）"
 slug: "45-autobiography-486-the-story-of-working-in-a-mountain-lodge-in-the-northern-alps"
 date: "2022-11-01 06:15:00"
 status: "publish"

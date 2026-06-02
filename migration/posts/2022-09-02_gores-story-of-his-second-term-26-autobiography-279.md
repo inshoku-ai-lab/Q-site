@@ -1,6 +1,6 @@
 ---
 id: 6281
-title: "２期目のゴアの話２６（放浪記２７９）"
+title: "２期目のゴアの話２７（放浪記２７９）"
 slug: "gores-story-of-his-second-term-26-autobiography-279"
 date: "2022-09-02 06:24:00"
 status: "publish"

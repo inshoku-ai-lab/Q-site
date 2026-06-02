@@ -153,7 +153,7 @@ background-color: #587746;
 
 僕にはLSDの体験による深い知覚体験や幻聴幻覚効果の方が圧倒的に興味があることを確認した。
 
-僕に取ってのエクスタシーの使い方はパーティーのメインドラッグではなくて、LSDでバッドトリップにならないためのサポート用だな、と。
+僕にとってのエクスタシーの使い方はパーティーのメインドラッグではなくて、LSDでバッドトリップにならないためのサポート用だな、と。
 
 [前の記事121](https://qryptraveller.com/a-story-of-awakening-to-gore-4-autobiography-121/
 )　｜　[次の記事123](https://qryptraveller.com/a-story-of-awakening-to-gore-6-autobiography-123/
