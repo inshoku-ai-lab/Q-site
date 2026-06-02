@@ -341,3 +341,6 @@
 {"file": "2023-04-01_how-vipassana-meditation-can-free-people-from-suffering-after-a-pilgrimage.md", "old": "元飼い犬に再開したら", "new": "元飼い犬に再会したら", "reason": "誤変換 再開→再会（再び会う）", "type": "typo"}
 {"file": "2023-04-05_summary-and-full-translation-of-trumps-indictment.md", "old": "刑法175.10ドル違反", "new": "刑法175.10条違反", "reason": "誤変換 §→＄／ドル（正しくは175.10条。本文多数は条）", "type": "typo", "all": true}
 {"file": "2023-04-23_seven-ways-to-turn-the-looming-great-reset-crisis-into-an-opportunity-part-1.md", "old": "当たらずしも遠からず", "new": "当たらずとも遠からず", "reason": "慣用句の誤り しも→とも（著者の標準形は当たらずとも遠からず）", "type": "typo"}
+{"file": "2023-05-28_intuition-while-a-source-of-life-is-a-weakness-in-information-warfare-how-to-train-it-and-what-to-do-about-it.md", "old": "ガンジがらみ", "new": "がんじがらめ", "reason": "慣用句の誤り（がんじがらめ）", "type": "typo"}
+{"file": "2023-06-03_satanic-ritual-survivor-turned-genius-trauma-therapist-teal-swans-story.md", "old": "逃れるようとしました", "new": "逃れようとしました", "reason": "誤活用 逃れるよう→逃れよう（意志形＋とする）", "type": "typo"}
+{"file": "2023-06-16_the-story-of-my-grandfathers-death-5-ramblings-494.md", "old": "人記事あたり", "new": "一記事あたり", "reason": "誤変換 人→一（一記事あたり）", "type": "typo"}
