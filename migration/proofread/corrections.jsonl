@@ -265,3 +265,8 @@
 {"file": "2022-09-12_the-story-of-living-in-london-4-autobiography-308.md", "old": "こう行った事態に", "new": "こういった事態に", "reason": "誤変換（行った/いった）。『こういった』が正。", "type": "typo"}
 {"file": "2022-09-23_a-story-of-coming-of-age-in-morocco-in-the-21st-century-6-autobiography-349.md", "old": "良質のハシシ安く売ることで", "new": "良質のハシシを安く売ることで", "reason": "目的格助詞『を』の脱字。", "type": "typo"}
 {"file": "2022-09-24_a-story-of-coming-of-age-in-morocco-in-the-21st-century-9-autobiography-352.md", "old": "欠かしては行けない習慣", "new": "欠かしてはいけない習慣", "reason": "誤変換（行けない/いけない）。禁止の助動詞は平仮名『いけない』。", "type": "typo"}
+{"file": "2022-09-25_a-story-of-coming-of-age-in-morocco-in-the-21st-century-14-autobiography-357.md", "old": "椰子の木以外にはは何もない", "new": "椰子の木以外には何もない", "reason": "助詞『は』の重複（衍字）。", "type": "typo"}
+{"file": "2022-09-25_a-story-of-coming-of-age-in-morocco-in-the-21st-century-14-autobiography-357.md", "old": "ローブの一種を来ている", "new": "ローブの一種を着ている", "reason": "誤変換（来る/着る）。衣服を身につける意は『着ている』。", "type": "typo"}
+{"file": "2022-09-25_sixteen-autobiographies-of-stories-of-coming-of-age-in-morocco-in-the-21st-century-359.md", "old": "あるのいうのは", "new": "あるというのは", "reason": "誤字（の→とい）。『あるというのは』が正。", "type": "typo"}
+{"file": "2022-09-26_a-story-of-coming-of-age-in-morocco-in-the-21st-century-17-autobiography-360.md", "old": "J君", "new": "R君", "reason": "人物名の取り違え。仏人アーティストは見出し『Rくん』・他記事(362/365)でも『R君』。本記事本文のみ『J君』は誤り。", "type": "typo", "all": true}
+{"file": "2022-09-27_twenty-autobiographies-of-stories-of-the-21st-century-in-morocco-363.md", "old": "祭りがすごそこに迫っている", "new": "祭りがすぐそこに迫っている", "reason": "誤字（すご→すぐ）。『すぐそこ』が正。", "type": "typo"}
