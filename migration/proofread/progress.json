@@ -1,9 +1,9 @@
 {
- "next_index": 713,
+ "next_index": 725,
  "total": 781,
- "auto_fixed_total": 309,
- "corrections_jsonl_total": 346,
+ "auto_fixed_total": 311,
+ "corrections_jsonl_total": 348,
  "uncertain_pending": 36,
- "note": "713行目から再開。1〜712行精読済み（TF17/18/20/21/22/23・直感記事・ティールスワン記事・祖父の死5放浪記494・自転車で沖縄1-3放浪記495-497）。私の自動修正309件（バッチ59: がんじがらめ・逃れようと・一記事あたり）。TF翻訳は概ね良好。corrections.jsonl計346件（全適用済み）。要判断uncertain.md(U-6〜U-27,U-29〜U-32,m-1)＋global_usage.md(G-1,2,3,7〜16)。",
+ "note": "725行目から再開。1〜724行精読済み（工作員考察・自転車で沖縄4-8放浪記498-502・ブラックロック・ティール4記事・サウンドオブフリーダム）。私の自動修正311件（バッチ60: 存在しています・役に立つ内容）。的を得る(2記事)はG-1で管理。ティール翻訳・自転車memoirは概ね良好。corrections.jsonl計348件。要判断uncertain.md(U-6〜U-27,U-29〜U-32,m-1)＋global_usage.md(G-1,2,3,7〜16)。",
  "rename_files": 42
 }
