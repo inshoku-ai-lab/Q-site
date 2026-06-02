@@ -249,3 +249,6 @@
 {"file": "2022-09-14_the-story-of-living-in-london-11-autobiography-315.md", "old": "開催されいていて", "new": "開催されていて", "reason": "衍字（い）。『開催されていて』が正。", "type": "typo"}
 {"file": "2022-09-14_the-world-revolution-thats-happening-right-now-may-take-longer-than-we-thought.md", "old": "予定されいている計画", "new": "予定されている計画", "reason": "衍字（い）。『予定されている』が正。", "type": "typo"}
 {"file": "2022-09-14_the-world-revolution-thats-happening-right-now-may-take-longer-than-we-thought.md", "old": "スコアカードとハンマーとスコアカードの詳細", "new": "スコアカードとハンマーの詳細", "reason": "語の重複（衍字）。『スコアカード』が二重。", "type": "typo"}
+{"file": "2022-09-17_the-story-of-living-in-london-23-autobiography-327.md", "old": "グラントンベリー", "new": "グラストンベリー", "reason": "地名綴り誤り。Glastonbury＝グラストンベリー（corpus多数6件）。『グラントンベリー』はス抜けの少数異形。", "type": "typo", "all": true}
+{"file": "2022-09-19_the-story-of-living-in-london-28-autobiography-332.md", "old": "グラントンベリー", "new": "グラストンベリー", "reason": "地名綴り誤り（ス抜け）。Glastonbury＝グラストンベリーに統一。", "type": "typo", "all": true}
+{"file": "2022-09-18_a-story-of-living-in-london-26-autobiography-330.md", "old": "グランストンベリー", "new": "グラストンベリー", "reason": "地名綴り誤り（ン衍字）。Glastonbury＝グラストンベリーに統一。", "type": "typo", "all": true}
