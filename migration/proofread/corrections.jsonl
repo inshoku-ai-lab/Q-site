@@ -252,3 +252,14 @@
 {"file": "2022-09-17_the-story-of-living-in-london-23-autobiography-327.md", "old": "グラントンベリー", "new": "グラストンベリー", "reason": "地名綴り誤り。Glastonbury＝グラストンベリー（corpus多数6件）。『グラントンベリー』はス抜けの少数異形。", "type": "typo", "all": true}
 {"file": "2022-09-19_the-story-of-living-in-london-28-autobiography-332.md", "old": "グラントンベリー", "new": "グラストンベリー", "reason": "地名綴り誤り（ス抜け）。Glastonbury＝グラストンベリーに統一。", "type": "typo", "all": true}
 {"file": "2022-09-18_a-story-of-living-in-london-26-autobiography-330.md", "old": "グランストンベリー", "new": "グラストンベリー", "reason": "地名綴り誤り（ン衍字）。Glastonbury＝グラストンベリーに統一。", "type": "typo", "all": true}
+{"file": "2022-09-20_the-story-of-living-in-london-32-autobiography-336.md", "old": "リハリビを続けながら", "new": "リハビリを続けながら", "reason": "誤字（音位転換 ハビリ→ハリビ）。『リハビリ』が正。", "type": "typo"}
+{"file": "2022-09-21_the-inventor-of-bitcoin-is-dr-craig-wright-17-mathematical-proofs-alpha.md", "old": "犯罪シンジゲート", "new": "犯罪シンジケート", "reason": "誤字（ゲ→ケ）。Syndicate＝シンジケート。同記事見出しは『シンジケート』。", "type": "typo"}
+{"file": "2022-09-21_the-inventor-of-bitcoin-is-dr-craig-wright-17-mathematical-proofs-alpha.md", "old": "エネルギーを裂いている", "new": "エネルギーを割いている", "reason": "誤変換（裂く/割く）。時間・労力を充てる意は『割く』。", "type": "typo"}
+{"file": "2022-09-21_the-story-of-living-in-london-35-autobiography-339.md", "old": "引いては２１世紀の夜明け", "new": "ひいては２１世紀の夜明け", "reason": "誤変換（引いて→ひいて）。接続詞『ひいては』。", "type": "typo"}
+{"file": "2022-10-25_too-much-darkness-in-the-recently-arrested-konnech-company.md", "old": "引いては日本を守る", "new": "ひいては日本を守る", "reason": "誤変換（引いて→ひいて）。接続詞『ひいては』。", "type": "typo"}
+{"file": "2023-06-17_the-qryptraveller-is-an-agent-a-matter-for-thorough-consideration.md", "old": "引いてはその他の真相発言者", "new": "ひいてはその他の真相発言者", "reason": "誤変換（引いて→ひいて）。接続詞『ひいては』。", "type": "typo"}
+{"file": "2022-09-20_the-story-of-living-in-london-33-autobiography-337.md", "old": "こう行った学術的な本", "new": "こういった学術的な本", "reason": "誤変換（行った/いった）。『こういった』が正。", "type": "typo"}
+{"file": "2022-03-03_the-story-of-meeting-gore-2-autobiography-099.md", "old": "こう行った状況で手ぶら", "new": "こういった状況で手ぶら", "reason": "誤変換（行った/いった）。『こういった』が正。", "type": "typo"}
+{"file": "2022-01-20_a-story-of-cultural-life-in-nishinari-4-autobiography-049.md", "old": "そう行った規制", "new": "そういった規制", "reason": "誤変換（行った/いった）。『そういった』が正。", "type": "typo"}
+{"file": "2022-08-02_renewing-an-indian-visa-in-thailand-7-autobiography-248.md", "old": "こう行った旅人のツテ", "new": "こういった旅人のツテ", "reason": "誤変換（行った/いった）。『こういった』が正。", "type": "typo"}
+{"file": "2022-09-12_the-story-of-living-in-london-4-autobiography-308.md", "old": "こう行った事態に", "new": "こういった事態に", "reason": "誤変換（行った/いった）。『こういった』が正。", "type": "typo"}

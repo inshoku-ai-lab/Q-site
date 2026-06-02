@@ -1,9 +1,9 @@
 {
- "next_index": 497,
+ "next_index": 509,
  "total": 781,
- "auto_fixed_total": 212,
- "corrections_jsonl_total": 254,
+ "auto_fixed_total": 224,
+ "corrections_jsonl_total": 265,
  "uncertain_pending": 28,
- "note": "497行目から再開。1〜496行精読済み（放浪記323-334）。私の自動修正212件（バッチ41: グラストンベリー表記統一3記事）。corrections.jsonl計254件（全適用済み）。要判断uncertain.md(U-6〜U-24,m-1)＋global_usage.md(G-1,2,3,7,8,9,10,11)。",
+ "note": "509行目から再開。1〜508行精読済み（放浪記335-347＋BTC記事、ロンドン編〜モロッコ編開始）。私の自動修正224件（バッチ42: リハビリ・シンジケート・割いて・引いては→ひいて3・こう/そう行った→いった5・見出し##）。長引いては(israel)は正用で除外。corrections.jsonl計265件。要判断uncertain.md(U-6〜U-24,m-1)＋global_usage.md(G-1,2,3,7,8,9,10,11)。",
  "rename_files": 42
 }
