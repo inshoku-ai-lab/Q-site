@@ -83,7 +83,7 @@ background-color: #587746;
 
 Cくんは完全に自分の中に没頭していて、周りのことなど微塵も気にしていない。
 
-さすがはワールドクラスと行った趣だった。
+さすがはワールドクラスといった趣だった。
 
 [前の記事](https://qryptraveller.com/14-autobiography-of-a-hot-springs-village-in-the-himalayas-191/)　｜　[次の記事](https://qryptraveller.com/the-story-of-a-hot-springs-village-in-the-himalayas-16-autobiography-193/)
 

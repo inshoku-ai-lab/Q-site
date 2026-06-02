@@ -83,7 +83,7 @@ flags: ""
 
 ![](https://qryptraveller.com/wp-content/uploads/2022/05/5-1.png)
 
-バイデンの「就任式」後に話を進めると、法的監査に反対する闘いにおいて、イライアスが再び登場することになる。
+バイデンの「就任式」後に話を進めると、法的監査に反対する闘いにおいて、エリアスが再び登場することになる。
 
 ソロスが資金提供したプロテクト・デモクラシー（移行統合計画に資金提供した）は、アリゾナ州の科学捜査監査に異議を唱えるために[マーク・エリアスを雇った](https://www.thegatewaypundit.com/2021/04/democrats-arizona-scared-bringing-marc-eliass-perkins-coie-make-threats-make-maricopa-county-audit-go-away/)。
 
