@@ -281,3 +281,6 @@
 {"file": "2022-10-03_uncovering-the-behind-the-scenes-of-bitcoin-why-the-bilderberg-conference-president-and-epstein-gave-big-donations-to-bitcoin-developers.md", "old": "人々に知らせたたようですが", "new": "人々に知らせたようですが", "reason": "衍字（た）。『知らせたようですが』が正。", "type": "typo"}
 {"file": "2022-10-03_uncovering-the-behind-the-scenes-of-bitcoin-why-the-bilderberg-conference-president-and-epstein-gave-big-donations-to-bitcoin-developers.md", "old": "グレッグ", "new": "グリッグ", "reason": "人名の不統一。Ian Grigg は同記事で『グリッグ』（794行）。本文3箇所『グレッグ』は同一人物の誤り。", "type": "typo", "all": true}
 {"file": "2022-10-07_12-autobiography-400-a-story-of-communal-living-in-a-saharan-oasis.md", "old": "満を辞して旅に出る", "new": "満を持して旅に出る", "reason": "誤変換（辞す/持す）。慣用句『満を持して』が正。", "type": "typo"}
+{"file": "2022-10-09_18-autobiography-406-a-story-of-communal-living-in-a-saharan-oasis.md", "old": "彼の娘は８さいと１１歳だ", "new": "彼の娘は８歳と１１歳だ", "reason": "表記統一（直後の「１１歳」に合わせ漢字に）", "type": "typo"}
+{"file": "2022-10-10_21-autobiography-409-a-story-of-communal-living-in-a-saharan-oasis.md", "old": "それぞれがそれぞれの枠割を務める", "new": "それぞれがそれぞれの役割を務める", "reason": "誤変換 枠→役（見出しでは「役割」表記）", "type": "typo"}
+{"file": "2022-10-10_23-autobiography-411-a-story-of-communal-living-in-a-saharan-oasis.md", "old": "そんなことはことは一切意に介していない", "new": "そんなことは一切意に介していない", "reason": "衍字「ことは」の重複", "type": "typo"}
