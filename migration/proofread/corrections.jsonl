@@ -238,3 +238,5 @@
 {"file": "2022-08-16_verifiable-evidence-that-trump-and-q-are-closely-involved.md", "old": "注目してくいださい", "new": "注目してください", "reason": "誤字（くいださい→ください）。衍字『い』。", "type": "typo"}
 {"file": "2022-08-17_gores-story-of-his-second-term-11-autobiography-263.md", "old": "パーティーに望んだ", "new": "パーティーに臨んだ", "reason": "誤変換（望む/臨む）。催しに参加・対峙する意は『臨む』。", "type": "typo"}
 {"file": "2022-08-24_gores-story-of-his-second-term-18-autobiography-270.md", "old": "焼き魚のバーベーキュー", "new": "焼き魚のバーベキュー", "reason": "衍字（長音符）。Barbecue＝バーベキュー。『バーベーキュー』は誤り。", "type": "typo"}
+{"file": "2022-08-30_gores-story-of-his-second-term-24-autobiography-276.md", "old": "ちょどいい物件", "new": "ちょうどいい物件", "reason": "脱字（う）。『ちょうどいい』が正。", "type": "typo"}
+{"file": "2022-09-04_gores-story-of-his-second-term-31-autobiography-283.md", "old": "最高に楽しみ来ることができない", "new": "最高に楽しみきることができない", "reason": "誤変換（来る/切る）。『楽しみきる』が正。同記事他所も『楽しみきる』。", "type": "typo"}
