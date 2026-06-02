@@ -307,3 +307,9 @@
 {"file": "2022-10-24_20-autobiography-461-the-story-of-working-in-a-mountain-lodge-in-the-northern-alps.md", "old": "十分に遂げている", "new": "十分に研げている", "reason": "誤変換 遂げる→研げる（包丁が研げている。直前も研げる）", "type": "typo"}
 {"file": "2022-10-24_21-autobiography-462-the-story-of-working-in-a-mountain-lodge-in-the-northern-alps.md", "old": "歯を痛めず", "new": "刃を痛めず", "reason": "誤変換 歯→刃（包丁の刃。後段も刃と正用）", "type": "typo"}
 {"file": "2022-10-24_story-18-autobiography-459-about-working-in-a-mountain-lodge-in-the-northern-alps.md", "old": "その人隣が", "new": "その人柄が", "reason": "誤変換 人隣→人柄（ひとがら）", "type": "typo"}
+{"file": "2022-10-25_24-autobiography-465-the-story-of-working-in-a-mountain-lodge-in-the-northern-alps.md", "old": "手伝いに来て来れた", "new": "手伝いに来てくれた", "reason": "誤変換 くれた→来れた（来てくれた）", "type": "typo"}
+{"file": "2022-10-25_too-much-darkness-in-the-recently-arrested-konnech-company.md", "old": "制御することがきるようになる", "new": "制御することができるようになる", "reason": "脱字 で（できる）", "type": "typo"}
+{"file": "2022-10-25_too-much-darkness-in-the-recently-arrested-konnech-company.md", "old": "Votem社という会社に買収さたが", "new": "Votem社という会社に買収されたが", "reason": "脱字 れ（買収された）", "type": "typo"}
+{"file": "2022-10-26_stories-of-working-at-a-mountain-hut-in-the-northern-alps-29-autobiography-470.md", "old": "半円の２時ではなく全円の虹", "new": "半円の虹ではなく全円の虹", "reason": "誤変換 にじ→２時（虹）", "type": "typo"}
+{"file": "2022-10-28_34-autobiography-474-the-story-of-working-in-a-mountain-lodge-in-the-northern-alps.md", "old": "増加具合と現象具合", "new": "増加具合と減少具合", "reason": "誤変換 現象→減少（登山客が減る文脈）", "type": "typo"}
+{"file": "2022-10-28_34-autobiography-474-the-story-of-working-in-a-mountain-lodge-in-the-northern-alps.md", "old": "人口の建物すらも", "new": "人工の建物すらも", "reason": "誤変換 人口→人工（man-made）", "type": "typo"}
