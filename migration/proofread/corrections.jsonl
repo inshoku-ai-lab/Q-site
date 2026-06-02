@@ -270,3 +270,7 @@
 {"file": "2022-09-25_sixteen-autobiographies-of-stories-of-coming-of-age-in-morocco-in-the-21st-century-359.md", "old": "あるのいうのは", "new": "あるというのは", "reason": "誤字（の→とい）。『あるというのは』が正。", "type": "typo"}
 {"file": "2022-09-26_a-story-of-coming-of-age-in-morocco-in-the-21st-century-17-autobiography-360.md", "old": "J君", "new": "R君", "reason": "人物名の取り違え。仏人アーティストは見出し『Rくん』・他記事(362/365)でも『R君』。本記事本文のみ『J君』は誤り。", "type": "typo", "all": true}
 {"file": "2022-09-27_twenty-autobiographies-of-stories-of-the-21st-century-in-morocco-363.md", "old": "祭りがすごそこに迫っている", "new": "祭りがすぐそこに迫っている", "reason": "誤字（すご→すぐ）。『すぐそこ』が正。", "type": "typo"}
+{"file": "2022-09-29_27-autobiography-370-a-story-about-coming-into-the-21st-century-in-morocco.md", "old": "作法に乗っ取り", "new": "作法に則り", "reason": "誤変換（乗っ取る/則る）。慣習に従う意は『則る』。", "type": "typo"}
+{"file": "2023-09-20_the-dig-at-trumps-misspelled-buckel-up-again.md", "old": "説に乗っ取って書いて", "new": "説に則って書いて", "reason": "誤変換（乗っ取る/則る）。説に従って書く意は『則って』。", "type": "typo"}
+{"file": "2022-09-29_a-story-of-coming-of-age-in-morocco-in-the-21st-century-28-autobiography-371.md", "old": "Iちゃんを目を見合わせて", "new": "Iちゃんと目を見合わせて", "reason": "助詞誤り（を→と）。『〜と目を見合わせる』。", "type": "typo"}
+{"file": "2022-09-30_31-autobiography-374-a-story-about-coming-into-the-21st-century-in-morocco.md", "old": "この天候の軌跡がもたらした", "new": "この天候の奇跡がもたらした", "reason": "誤変換（軌跡/奇跡）。4年ぶりの雨は『奇跡』（本文他所も奇跡）。", "type": "typo"}

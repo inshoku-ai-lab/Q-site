@@ -1,9 +1,9 @@
 {
- "next_index": 533,
+ "next_index": 545,
  "total": 781,
- "auto_fixed_total": 231,
- "corrections_jsonl_total": 272,
+ "auto_fixed_total": 235,
+ "corrections_jsonl_total": 276,
  "uncertain_pending": 28,
- "note": "533行目から再開。1〜532行精読済み（放浪記357-369、モロッコ編）。私の自動修正231件（バッチ44: にはは・着て・あるという・J君→R君・すぐそこ）。corrections.jsonl計272件（全適用済み）。要判断uncertain.md(U-6〜U-24,m-1)＋global_usage.md(G-1,2,3,7,8,9,10,11)。",
+ "note": "545行目から再開。1〜544行精読済み（放浪記370-381、モロッコ編）。私の自動修正235件（バッチ45: 則り2件・と目を・奇跡）。を乗っ取る(意識を)は正用で除外。corrections.jsonl計276件（全適用済み）。要判断uncertain.md(U-6〜U-24,m-1)＋global_usage.md(G-1,2,3,7,8,9,10,11)。",
  "rename_files": 42
 }
