@@ -1,9 +1,9 @@
 {
- "next_index": 377,
+ "next_index": 389,
  "total": 781,
- "auto_fixed_total": 178,
- "corrections_jsonl_total": 220,
+ "auto_fixed_total": 183,
+ "corrections_jsonl_total": 225,
  "uncertain_pending": 24,
- "note": "377行目から再開。1〜376行精読済み。デボリューション理論シリーズ(part13)完結まで読了。私の自動修正178件（バッチ31: アメリカン誤字・bio重複2件・は重複・の衍字・F/B取り違え）。今だに(2件)は許容変種として保留。corrections.jsonl計220件（全適用済み）。要判断uncertain.md(U-6〜U-22,m-1,進化はU-13に集約)＋global_usage.md(G-1,2,3,7,8,9)。",
+ "note": "389行目から再開。1〜388行精読済み（放浪記228まで）。私の自動修正183件（バッチ32: 和やか脱字・一日中を衍字・さることながら・則り・パールバティ統一）。corrections.jsonl計225件（全適用済み）。要判断uncertain.md(U-6〜U-22,m-1)＋global_usage.md(G-1,2,3,7,8,9)。",
  "rename_files": 42
 }

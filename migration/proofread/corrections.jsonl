@@ -218,3 +218,8 @@
 {"file": "2022-06-23_autumn-in-the-himalayas-3-autobiography-208.md", "old": "レストランは、はチロム道場", "new": "レストランは、チロム道場", "reason": "助詞『は』の重複（衍字）。", "type": "typo"}
 {"file": "2022-06-25_autumn-in-the-himalayas-5-autobiography-210.md", "old": "幼さの残るのFくん", "new": "幼さの残るFくん", "reason": "衍字（の）。連体修飾『幼さの残るFくん』が正（見出し）。", "type": "typo"}
 {"file": "2022-06-27_autumn-in-the-himalayas-7-autobiography-212.md", "old": "察知したFくんは、スピーカーから離れ", "new": "察知したBくんは、スピーカーから離れ", "reason": "人物取り違え。話を聞く側はBくん（直後に『聞く側のBくん』と明記、Fくんは助けを求めて来た側）。", "type": "typo"}
+{"file": "2022-07-02_autumn-in-the-himalayas-12-autobiography-217.md", "old": "和かな雰囲気", "new": "和やかな雰囲気", "reason": "脱字（や）。『和やか（なごやか）』が正。同著者は他所で『和やかに』と正しく表記。", "type": "typo"}
+{"file": "2022-07-08_autumn-in-the-himalayas-18-autobiography-223.md", "old": "一日中を大麻を吸って過ごす", "new": "一日中大麻を吸って過ごす", "reason": "助詞『を』の重複・余分（衍字）。『一日中大麻を吸って過ごす』が自然。", "type": "typo"}
+{"file": "2022-07-10_autumn-in-the-himalayas-20-autobiography-225.md", "old": "トビの強さも去ることながら", "new": "トビの強さもさることながら", "reason": "誤変換（去る/然る）。慣用句『さることながら』。", "type": "typo"}
+{"file": "2022-07-12_autumn-in-the-himalayas-22-autobiography-227.md", "old": "儀式に乗っ取り", "new": "儀式に則り", "reason": "誤変換（乗っ取る/則る）。『儀式に則り（のっとり）』が正。", "type": "typo"}
+{"file": "2022-07-13_autumn-in-the-himalayas-23-autobiography-228.md", "old": "パールヴァティ・バレー", "new": "パールバティ・バレー", "reason": "地名の少数異形。corpus内『パールバティ』23件に対し『パールヴァティ』1件。多数派に統一。", "type": "word"}
