@@ -350,3 +350,8 @@
 {"file": "2023-08-14_ive-been-wandering-the-earth-for-25-years-now.md", "old": "合わさったのがコロナ渦です", "new": "合わさったのがコロナ禍です", "reason": "誤変換 渦→禍（同記事内で後段はコロナ禍と正しく表記）", "type": "typo"}
 {"file": "2022-04-19_starlink-has-arrived-deep-in-the-mountains-of-mexico.md", "old": "コロナ渦の影響", "new": "コロナ禍の影響", "reason": "誤変換 渦→禍（コロナ禍）", "type": "typo"}
 {"file": "2023-09-11_nothing-will-happen-if-you-dont-first-deal-with-the-resistance-within-you-teal-swan-said.md", "old": "一歩引いてして抵抗感を確認", "new": "一歩引いて抵抗感を確認", "reason": "衍字 して（一歩引いて〜）", "type": "typo"}
+{"file": "2023-11-07_what-is-a-spiritual-bypass-a-trap-to-escape-from-life-using-spiritual-matters-teal-swan-says.md", "old": "偏見と抵抗感を抱いきつつも", "new": "偏見と抵抗感を抱きつつも", "reason": "衍字 い（抱きつつ）", "type": "typo"}
+{"file": "2024-02-20_ds-q-and-satoshi-nakamoto-connecting-the-dots-and-beyond.md", "old": "権威による信用を売ることでなりったっている", "new": "権威による信用を売ることで成り立っている", "reason": "衍字 っ（成り立っている）", "type": "typo"}
+{"file": "2024-02-20_ds-q-and-satoshi-nakamoto-connecting-the-dots-and-beyond.md", "old": "BSVによるブロッックチェーン・システム", "new": "BSVによるブロックチェーン・システム", "reason": "衍字 ッ（ブロックチェーン）", "type": "typo"}
+{"file": "2024-02-20_ds-q-and-satoshi-nakamoto-connecting-the-dots-and-beyond.md", "old": "BitMex Reserach", "new": "BitMEX Research", "reason": "英文タイプミス Reserach→Research、社名表記をBitMEXに統一（直後のリンクのBitMEXResearchと整合）", "type": "typo"}
+{"file": "2024-10-24_the-identity-of-trump-assassin-bem-miller-comes-into-focus.md", "old": "彼の作ったドキュメンタリ映画がすごい情報を暴露している", "new": "彼の作ったドキュメンタリー映画がすごい情報を暴露している", "reason": "脱字 ー（同記事内で他14箇所は全て『ドキュメンタリー映画』と正しく表記）", "type": "typo"}
