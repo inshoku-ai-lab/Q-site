@@ -240,3 +240,5 @@
 {"file": "2022-08-24_gores-story-of-his-second-term-18-autobiography-270.md", "old": "焼き魚のバーベーキュー", "new": "焼き魚のバーベキュー", "reason": "衍字（長音符）。Barbecue＝バーベキュー。『バーベーキュー』は誤り。", "type": "typo"}
 {"file": "2022-08-30_gores-story-of-his-second-term-24-autobiography-276.md", "old": "ちょどいい物件", "new": "ちょうどいい物件", "reason": "脱字（う）。『ちょうどいい』が正。", "type": "typo"}
 {"file": "2022-09-04_gores-story-of-his-second-term-31-autobiography-283.md", "old": "最高に楽しみ来ることができない", "new": "最高に楽しみきることができない", "reason": "誤変換（来る/切る）。『楽しみきる』が正。同記事他所も『楽しみきる』。", "type": "typo"}
+{"file": "2022-09-06_gores-story-of-his-second-term-37-autobiography-289.md", "old": "はっきりと聞こえて始めた", "new": "はっきりと聞こえ始めた", "reason": "複合動詞の誤り（衍字『て』）。『聞こえ始めた』が正。", "type": "typo"}
+{"file": "2022-09-06_gores-story-of-his-second-term-38-autobiography-290.md", "old": "逆向", "new": "逆行", "reason": "誤変換（逆向/逆行）。時間が後戻りする意は『逆行』。見出し・本文の2箇所とも。", "type": "typo", "all": true}
