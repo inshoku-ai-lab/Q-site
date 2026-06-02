@@ -237,3 +237,4 @@
 {"file": "2022-08-11_gores-story-of-his-second-term-5-autobiography-257.md", "old": "水をかけて消化した", "new": "水をかけて消火した", "reason": "誤変換（消化/消火）。燃えた枕に水をかけて火を消す意なので『消火』。", "type": "typo"}
 {"file": "2022-08-16_verifiable-evidence-that-trump-and-q-are-closely-involved.md", "old": "注目してくいださい", "new": "注目してください", "reason": "誤字（くいださい→ください）。衍字『い』。", "type": "typo"}
 {"file": "2022-08-17_gores-story-of-his-second-term-11-autobiography-263.md", "old": "パーティーに望んだ", "new": "パーティーに臨んだ", "reason": "誤変換（望む/臨む）。催しに参加・対峙する意は『臨む』。", "type": "typo"}
+{"file": "2022-08-24_gores-story-of-his-second-term-18-autobiography-270.md", "old": "焼き魚のバーベーキュー", "new": "焼き魚のバーベキュー", "reason": "衍字（長音符）。Barbecue＝バーベキュー。『バーベーキュー』は誤り。", "type": "typo"}
