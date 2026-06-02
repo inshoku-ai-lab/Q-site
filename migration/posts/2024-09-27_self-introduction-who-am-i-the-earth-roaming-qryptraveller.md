@@ -10,7 +10,6 @@ categories:
   - "オリジナル記事"
 tags:
   - "クリプトラベラー"
-  - "クリプトラベラー"
   - "自己紹介"
 images:
   - "https://qryptraveller.com/wp-content/uploads/2024/09/IMG_20240731_170600-scaled.jpg"

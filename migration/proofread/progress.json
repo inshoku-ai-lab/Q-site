@@ -2,9 +2,9 @@
  "next_index": 781,
  "total_original": 781,
  "total_after_removal": 778,
- "auto_fixed_total": 370,
+ "auto_fixed_total": 524,
  "corrections_jsonl_total": 410,
- "uncertain_pending": 1,
- "note": "全推奨を一括適用済（U-6〜U-34, m-1, G-1, G-2, G-7〜G-19）。G-16/G-17/G-18 の3記事を移行対象から除外（781→778）。G-3（デボルーション/デボリューション統一）は推奨文の前提（出現数）が実データ（デボリューション451 vs デボルーション154）と逆だったため保留→FINAL_REPORT_2.md で再確認を仰ぐ。",
+ "uncertain_pending": 0,
+ "note": "**全推奨適用完了**。G-3 はオプションA採択: デボルーション→デボリューション 一括統合（154件本文＋148件タグ＋296件CSV）。タグの重複（デボリューション×2）も148記事で解消。残るは デヴォリューション272件・デヴォルーション148件（G-3スコープ外、要望なし）。",
  "rename_files": 42
 }
