@@ -199,3 +199,4 @@
 {"file": "2022-06-07_15-autobiography-of-a-hot-springs-village-in-the-himalayas-192.md", "old": "ワールドクラスと行った趣", "new": "ワールドクラスといった趣", "reason": "誤変換（行った/いった）。『～といった趣』が正。", "type": "typo"}
 {"file": "2022-06-07_part-13-1-17trump-still-has-real-power-and-the-theory-of-delegation-of-authority-is-amazing-explaining-why-from-a-legal-aspect.md", "old": "NEE 8:", "new": "NEF 8:", "reason": "OCR誤り（F→E）。NEF1〜7に続く項目なのでNEF 8。", "type": "typo"}
 {"file": "2022-06-08_part-13-3-17trump-still-has-real-power-and-the-theory-of-delegation-of-authority-is-amazing-explaining-why-from-a-legal-aspect.md", "old": "NErsに対するリスク", "new": "NEFsに対するリスク", "reason": "OCR誤り（NErs→NEFs）。NEF（国家必須機能）の略。", "type": "typo"}
+{"file": "2022-06-11_part-13-6-17trump-still-has-real-power-and-the-theory-of-delegation-of-authority-is-amazing-explaining-why-from-a-legal-aspect.md", "old": "通信権限が以上される", "new": "通信権限が委譲される", "reason": "誤変換（以上/委譲）。記事主題は『権限委譲』。『通信権限が委譲される』が正。", "type": "typo", "all": true}

@@ -1,9 +1,9 @@
 {
- "next_index": 341,
+ "next_index": 353,
  "total": 781,
- "auto_fixed_total": 159,
- "corrections_jsonl_total": 201,
+ "auto_fixed_total": 160,
+ "corrections_jsonl_total": 202,
  "uncertain_pending": 24,
- "note": "341行目から再開。1〜340行精読済み。私の自動修正159件（バッチ28: プロバガンダ→プロパガンダ13記事一括＋イライアス/分乗/そのう後ろ/離れた/といった/NEF8/NEFs 計7件）。corrections.jsonl計201件（全適用済み）。要判断uncertain.md(U-6〜U-22,m-1)＋global_usage.md(G-1,2,3,7,8,9)。技術メモtechnical_notes(part13スラッグ重複)。",
+ "note": "353行目から再開。1〜352行精読済み。私の自動修正160件（バッチ29: 以上→委譲。他は良好で誤字僅少）。corrections.jsonl計202件（全適用済み）。要判断uncertain.md(U-6〜U-22,m-1)＋global_usage.md(G-1,2,3,7,8,9)。",
  "rename_files": 42
 }
