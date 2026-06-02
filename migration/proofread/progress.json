@@ -1,9 +1,9 @@
 {
- "next_index": 737,
+ "next_index": 749,
  "total": 781,
  "auto_fixed_total": 312,
  "corrections_jsonl_total": 349,
  "uncertain_pending": 37,
- "note": "737行目から再開。1〜736行精読済み（自転車で沖縄9-16放浪記503-510、ティール信頼、ウクライナ児童、TF24）。私の自動修正312件（バッチ61: ロープを張って）。U-33（放浪記506お金を行く）記録。corrections.jsonl計349件。要判断uncertain.md(U-6〜U-27,U-29〜U-33,m-1)＋global_usage.md(G-1,2,3,7〜16)。",
+ "note": "749行目から再開。1〜748行精読済み（石垣島でキャンプ1-7放浪記511-517、FBファイル4本=外部リンク、ティールブルドーザー）。バッチ62は誤字なし（memoir・翻訳ともに良好）。corrections.jsonl計349件。要判断uncertain.md(U-6〜U-27,U-29〜U-33,m-1)＋global_usage.md(G-1,2,3,7〜16)。",
  "rename_files": 42
 }
