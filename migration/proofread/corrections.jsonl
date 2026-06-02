@@ -291,3 +291,8 @@
 {"file": "2022-10-15_camping-at-a-waterfall-in-the-sahara-desert-6-autobiography-42.md", "old": "今後に再開する予定もない", "new": "今後に再会する予定もない", "reason": "誤変換 再開→再会（再び会う）", "type": "typo"}
 {"file": "2023-06-17_%e8%87%aa%e8%bb%a2%e8%bb%8a%e3%81%a7%e6%b2%96%e7%b8%84%e3%81%b8%e5%90%91%e3%81%8b%e3%81%86%e8%a9%b1%ef%bc%93%ef%bc%88%e6%94%be%e6%b5%aa%e8%a8%98%ef%bc%94%ef%bc%99%ef%bc%97%ef%bc%89.md", "old": "テントを貼るような気分にならなかった", "new": "テントを張るような気分にならなかった", "reason": "誤変換 貼る→張る（テントは「張る」）", "type": "typo"}
 {"file": "2023-06-22_%e8%87%aa%e8%bb%a2%e8%bb%8a%e3%81%a7%e6%b2%96%e7%b8%84%e3%81%b8%e5%90%91%e3%81%8b%e3%81%86%e8%a9%b1%ef%bc%96%ef%bc%88%e6%94%be%e6%b5%aa%e8%a8%98%ef%bc%95%ef%bc%90%ef%bc%90%ef%bc%89.md", "old": "テントを貼って休むことにした", "new": "テントを張って休むことにした", "reason": "誤変換 貼る→張る（テントは「張る」）", "type": "typo"}
+{"file": "2022-10-16_a-story-of-touring-morocco4an-autobiography432.md", "old": "## 再開", "new": "## 再会", "reason": "誤変換 再開→再会（Cさんとの再会の見出し）", "type": "typo"}
+{"file": "2022-10-16_a-story-of-touring-morocco4an-autobiography432.md", "old": "驚きの再開がある", "new": "驚きの再会がある", "reason": "誤変換 再開→再会（再び会う）", "type": "typo"}
+{"file": "2022-10-17_the-story-of-going-to-england-1-autobiography-434.md", "old": "四ヶ月ぶりの再開だが", "new": "四ヶ月ぶりの再会だが", "reason": "誤変換 再開→再会（Nちゃんと再び会う）", "type": "typo"}
+{"file": "2022-10-18_story-2-toward-japan-autobiography-437.md", "old": "彼女の中の良い旅の友人", "new": "彼女の仲の良い旅の友人", "reason": "誤変換 中→仲（仲の良い）", "type": "typo"}
+{"file": "2022-10-19_a-story-of-going-to-japan-5-autobiography-440.md", "old": "呆けにとられた", "new": "呆気にとられた", "reason": "誤字 呆気にとられる（あっけ）", "type": "typo"}
