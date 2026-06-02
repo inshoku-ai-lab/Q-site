@@ -313,3 +313,7 @@
 {"file": "2022-10-26_stories-of-working-at-a-mountain-hut-in-the-northern-alps-29-autobiography-470.md", "old": "半円の２時ではなく全円の虹", "new": "半円の虹ではなく全円の虹", "reason": "誤変換 にじ→２時（虹）", "type": "typo"}
 {"file": "2022-10-28_34-autobiography-474-the-story-of-working-in-a-mountain-lodge-in-the-northern-alps.md", "old": "増加具合と現象具合", "new": "増加具合と減少具合", "reason": "誤変換 現象→減少（登山客が減る文脈）", "type": "typo"}
 {"file": "2022-10-28_34-autobiography-474-the-story-of-working-in-a-mountain-lodge-in-the-northern-alps.md", "old": "人口の建物すらも", "new": "人工の建物すらも", "reason": "誤変換 人口→人工（man-made）", "type": "typo"}
+{"file": "2022-10-29_37-autobiography-477-a-story-about-working-in-a-mountain-lodge-in-the-northern-alps.md", "old": "大丈夫だろうと鷹を括って", "new": "大丈夫だろうと高を括って", "reason": "誤変換 鷹→高（高を括る＝甘く見る）", "type": "typo"}
+{"file": "2025-01-21_how-does-buying-silver-at-crypt-protect-you-from-government-confiscation-of-your-precious-metals.md", "old": "そんなことは起こらないと鷹を括っていた", "new": "そんなことは起こらないと高を括っていた", "reason": "誤変換 鷹→高（高を括る）", "type": "typo"}
+{"file": "2022-10-30_40-autobiography-480-the-story-of-working-in-a-mountain-lodge-in-the-northern-alps.md", "old": "紐類をきっちりと絞めることで", "new": "紐類をきっちりと締めることで", "reason": "誤変換 絞→締（紐を締める。同記事後段も締めると正用）", "type": "typo"}
+{"file": "2022-10-30_41-autobiography-481-the-story-of-working-in-a-mountain-lodge-in-the-northern-alps.md", "old": "もう一つ教えられてのは", "new": "もう一つ教えられたのは", "reason": "誤字 て→た（教えられたのは）", "type": "typo"}
