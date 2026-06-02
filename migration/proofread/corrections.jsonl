@@ -246,3 +246,6 @@
 {"file": "2022-09-11_a-tale-of-going-north-3-autobiography-304.md", "old": "当麻樹脂", "new": "大麻樹脂", "reason": "誤変換（当麻/大麻）。文脈は大麻樹脂。著者は他所一貫して『大麻樹脂』。", "type": "typo"}
 {"file": "2022-09-12_the-story-of-living-in-london-2-autobiography-306.md", "old": "日本語で”オネエサン”と読んでいる", "new": "日本語で”オネエサン”と呼んでいる", "reason": "誤変換（読む/呼ぶ）。名前で呼ぶ意なので『呼んで』。直後に『オネエサンと呼ぶ』と正用。", "type": "typo"}
 {"file": "2022-09-13_the-story-of-living-in-london-5-autobiography-309.md", "old": "と言っていてたが", "new": "と言っていたが", "reason": "衍字（て）。『言っていた』が正。", "type": "typo"}
+{"file": "2022-09-14_the-story-of-living-in-london-11-autobiography-315.md", "old": "開催されいていて", "new": "開催されていて", "reason": "衍字（い）。『開催されていて』が正。", "type": "typo"}
+{"file": "2022-09-14_the-world-revolution-thats-happening-right-now-may-take-longer-than-we-thought.md", "old": "予定されいている計画", "new": "予定されている計画", "reason": "衍字（い）。『予定されている』が正。", "type": "typo"}
+{"file": "2022-09-14_the-world-revolution-thats-happening-right-now-may-take-longer-than-we-thought.md", "old": "スコアカードとハンマーとスコアカードの詳細", "new": "スコアカードとハンマーの詳細", "reason": "語の重複（衍字）。『スコアカード』が二重。", "type": "typo"}
