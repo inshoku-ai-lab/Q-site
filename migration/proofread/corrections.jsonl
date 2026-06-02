@@ -242,3 +242,7 @@
 {"file": "2022-09-04_gores-story-of-his-second-term-31-autobiography-283.md", "old": "最高に楽しみ来ることができない", "new": "最高に楽しみきることができない", "reason": "誤変換（来る/切る）。『楽しみきる』が正。同記事他所も『楽しみきる』。", "type": "typo"}
 {"file": "2022-09-06_gores-story-of-his-second-term-37-autobiography-289.md", "old": "はっきりと聞こえて始めた", "new": "はっきりと聞こえ始めた", "reason": "複合動詞の誤り（衍字『て』）。『聞こえ始めた』が正。", "type": "typo"}
 {"file": "2022-09-06_gores-story-of-his-second-term-38-autobiography-290.md", "old": "逆向", "new": "逆行", "reason": "誤変換（逆向/逆行）。時間が後戻りする意は『逆行』。見出し・本文の2箇所とも。", "type": "typo", "all": true}
+{"file": "2022-09-11_a-tale-of-going-north-3-autobiography-304.md", "old": "素早くぐり抜けて", "new": "素早くくぐり抜けて", "reason": "脱字（く）。『くぐり抜けて』が正。", "type": "typo"}
+{"file": "2022-09-11_a-tale-of-going-north-3-autobiography-304.md", "old": "当麻樹脂", "new": "大麻樹脂", "reason": "誤変換（当麻/大麻）。文脈は大麻樹脂。著者は他所一貫して『大麻樹脂』。", "type": "typo"}
+{"file": "2022-09-12_the-story-of-living-in-london-2-autobiography-306.md", "old": "日本語で”オネエサン”と読んでいる", "new": "日本語で”オネエサン”と呼んでいる", "reason": "誤変換（読む/呼ぶ）。名前で呼ぶ意なので『呼んで』。直後に『オネエサンと呼ぶ』と正用。", "type": "typo"}
+{"file": "2022-09-13_the-story-of-living-in-london-5-autobiography-309.md", "old": "と言っていてたが", "new": "と言っていたが", "reason": "衍字（て）。『言っていた』が正。", "type": "typo"}

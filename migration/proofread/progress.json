@@ -1,9 +1,9 @@
 {
- "next_index": 461,
+ "next_index": 473,
  "total": 781,
- "auto_fixed_total": 202,
- "corrections_jsonl_total": 244,
+ "auto_fixed_total": 206,
+ "corrections_jsonl_total": 248,
  "uncertain_pending": 27,
- "note": "461行目から再開。1〜460行精読済み（放浪記299まで）。私の自動修正202件（バッチ38: 聞こえ始めた・逆行2箇所）。corrections.jsonl計244件（全適用済み）。要判断uncertain.md(U-6〜U-23,m-1)＋global_usage.md(G-1,2,3,7,8,9,10,11)。",
+ "note": "473行目から再開。1〜472行精読済み（放浪記300-311、ゴア2期完＋ロンドン編開始）。私の自動修正206件（バッチ39: くぐり抜け・大麻樹脂・呼んで・言っていた）。corrections.jsonl計248件（全適用済み）。要判断uncertain.md(U-6〜U-23,m-1)＋global_usage.md(G-1,2,3,7,8,9,10,11)。",
  "rename_files": 42
 }
