@@ -296,3 +296,8 @@
 {"file": "2022-10-17_the-story-of-going-to-england-1-autobiography-434.md", "old": "四ヶ月ぶりの再開だが", "new": "四ヶ月ぶりの再会だが", "reason": "誤変換 再開→再会（Nちゃんと再び会う）", "type": "typo"}
 {"file": "2022-10-18_story-2-toward-japan-autobiography-437.md", "old": "彼女の中の良い旅の友人", "new": "彼女の仲の良い旅の友人", "reason": "誤変換 中→仲（仲の良い）", "type": "typo"}
 {"file": "2022-10-19_a-story-of-going-to-japan-5-autobiography-440.md", "old": "呆けにとられた", "new": "呆気にとられた", "reason": "誤字 呆気にとられる（あっけ）", "type": "typo"}
+{"file": "2022-10-21_6an-autobiography-of-working-at-a-mountain-hut-in-the-northern-alps-447.md", "old": "時給性ではなく日給制", "new": "時給制ではなく日給制", "reason": "誤変換 性→制（時給制）", "type": "typo"}
+{"file": "2022-10-22_10-autobiography-451-the-story-of-working-in-a-mountain-lodge-in-the-northern-alps.md", "old": "ものではないか、いろいろな方向", "new": "ものではないが、いろいろな方向", "reason": "誤字 か→が（逆接「〜ではないが」）", "type": "typo"}
+{"file": "2022-10-22_7an-autobiography-of-working-at-a-mountain-hut-in-the-northern-alps-448.md", "old": "毎朝の昌和", "new": "毎朝の唱和", "reason": "誤変換 昌→唱（経営理念の唱和。445でも唱和表記）", "type": "typo"}
+{"file": "2022-10-22_8an-autobiography-of-working-at-a-mountain-hut-in-the-northern-alps-449.md", "old": "人見知りする正確", "new": "人見知りする性格", "reason": "誤変換 正確→性格", "type": "typo"}
+{"file": "2022-10-22_8an-autobiography-of-working-at-a-mountain-hut-in-the-northern-alps-449.md", "old": "目の淵", "new": "目の縁", "reason": "誤変換 淵→縁（目の縁＝目のふち）", "type": "typo", "all": true}

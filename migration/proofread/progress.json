@@ -1,9 +1,9 @@
 {
- "next_index": 605,
+ "next_index": 617,
  "total": 781,
- "auto_fixed_total": 257,
- "corrections_jsonl_total": 298,
- "uncertain_pending": 30,
- "note": "605行目から再開。1〜604行精読済み（放浪記392-440、モロッコ周遊／イギリス・日本帰国編）。私の自動修正257件（バッチ50: 再開→再会×3・中の良い→仲の良い・呆けに→呆気に）。corrections.jsonl計298件（全適用済み）。要判断uncertain.md(U-6〜U-26,m-1)＋global_usage.md(G-1,2,3,7,8,9,10,11,12)。",
+ "auto_fixed_total": 263,
+ "corrections_jsonl_total": 303,
+ "uncertain_pending": 33,
+ "note": "617行目から再開。1〜616行精読済み（放浪記441-452、北アルプス山小屋編）。私の自動修正263件（バッチ51: 時給制・か→が・昌和→唱和・正確→性格・目の縁×2）。corrections.jsonl計303件（全適用済み）。要判断uncertain.md(U-6〜U-28,m-1)＋global_usage.md(G-1,2,3,7,8,9,10,11,12,13)。",
  "rename_files": 42
 }
