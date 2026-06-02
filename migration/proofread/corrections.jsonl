@@ -229,3 +229,6 @@
 {"file": "2022-07-22_a-story-of-encounters-in-delhi1-autobiography-237.md", "old": "インドで１年遊んだといいう", "new": "インドで１年遊んだという", "reason": "衍字（い）。『という』が正。", "type": "typo"}
 {"file": "2022-07-23_the-story-of-meeting-in-delhi-2-autobiography-238.md", "old": "山道を登らければならない", "new": "山道を登らなければならない", "reason": "脱字（な）。『登らなければならない』が正。", "type": "typo"}
 {"file": "2022-07-25_a-story-of-encounters-in-delhi-4-autobiography-240.md", "old": "世俗からの開放感", "new": "世俗からの解放感", "reason": "誤変換（開放/解放）。『〜からの解放』で束縛から解き放たれる意。", "type": "typo"}
+{"file": "2022-08-01_renewing-an-indian-visa-in-thailand-story-6-autobiography-247.md", "old": "Iちゃんとのインドでの再開", "new": "Iちゃんとのインドでの再会", "reason": "誤変換（再開/再会）。人と再び会う意なので『再会』。", "type": "typo"}
+{"file": "2022-08-03_the-story-of-going-to-the-himalayas-again1-autobiography-249.md", "old": "親友のYさんに再開し", "new": "親友のYさんに再会し", "reason": "誤変換（再開/再会）。人と再び会う意なので『再会』。", "type": "typo"}
+{"file": "2022-08-06_a-tale-of-going-south-3-autobiography-252.md", "old": "アンジュナビーチヘと向かった", "new": "アンジュナビーチへと向かった", "reason": "助詞『へ』をカタカナ『ヘ』で誤記。ひらがな『へ』に修正（既知の表記ゆれの残存1件）。", "type": "typo"}

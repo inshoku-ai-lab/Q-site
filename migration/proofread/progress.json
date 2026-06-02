@@ -1,9 +1,9 @@
 {
- "next_index": 401,
+ "next_index": 413,
  "total": 781,
- "auto_fixed_total": 189,
- "corrections_jsonl_total": 231,
- "uncertain_pending": 24,
- "note": "401行目から再開。1〜400行精読済み（放浪記240まで）。私の自動修正189件（バッチ33: 近づく・経つ・冒す・という・登らなければ・解放感）。corrections.jsonl計231件（全適用済み）。要判断uncertain.md(U-6〜U-22,m-1)＋global_usage.md(G-1,2,3,7,8,9)。",
+ "auto_fixed_total": 192,
+ "corrections_jsonl_total": 234,
+ "uncertain_pending": 25,
+ "note": "413行目から再開。1〜412行精読済み（放浪記252まで）。私の自動修正192件（バッチ34: 再開→再会2件・カタカナヘ→へ）。corrections.jsonl計234件（全適用済み）。要判断uncertain.md(U-6〜U-23,m-1)＋global_usage.md(G-1,2,3,7,8,9)。",
  "rename_files": 42
 }
