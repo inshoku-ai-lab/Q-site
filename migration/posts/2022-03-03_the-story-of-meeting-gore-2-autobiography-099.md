@@ -9,9 +9,17 @@ featured_image_id: "4636"
 categories:
   - "放浪記"
 tags:
+  - "放浪記"
+  - "地球放浪"
+  - "インド"
+  - "ゴア"
+  - "旅仲間"
+  - "友情"
+  - "私小説"
 images:
   - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog99-1.jpg"
   - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog99-2.jpg"
+excerpt: "元番長で元暴走族、格闘技パンクラスを練習する厳つい業界人Yさんと、永く続く友情が始まる。負けず嫌いのYさんに大富豪やポーカーで勝ち続け、2週間分の家賃を払わせてしまう。ゴア人と結婚予定の日本人女性Kさんの家で、愛のないまま結婚へ進む友人Tちゃんの危うい話を目撃する。"
 flags: ""
 ---
 
