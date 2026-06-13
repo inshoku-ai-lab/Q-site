@@ -9,9 +9,17 @@ featured_image_id: "3804"
 categories:
   - "放浪記"
 tags:
+  - "放浪記"
+  - "地球放浪"
+  - "日本"
+  - "エホバの証人"
+  - "中学生"
+  - "いじめ"
+  - "私小説"
 images:
   - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog7-1-1.jpg"
   - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog7-2.jpg"
+excerpt: "テストの解答欄に上からa,b,c,d…と書いてたまたま1点を取った英語の話、神経性の腹痛で学校を休む癖をつけた話——大学進学が信仰上推奨されていなかった少年が勉強への意味を失い、病気を防御手段にして生きた中学生時代の記録。"
 flags: ""
 ---
 

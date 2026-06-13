@@ -9,9 +9,16 @@ featured_image_id: "3816"
 categories:
   - "放浪記"
 tags:
+  - "放浪記"
+  - "地球放浪"
+  - "日本"
+  - "エホバの証人"
+  - "中学生"
+  - "私小説"
 images:
   - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog11-1.jpg"
   - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog11-2.jpg"
+excerpt: "近所のエホバの証人の家庭で育った同年代の反逆児3人組——表向きは集会で賛美歌を歌い、裏では小遣いをかけてトランプ・モノポリーで賭博。隠したい真実を共有する『刑務所仲間』のような友情の記録。"
 flags: ""
 ---
 

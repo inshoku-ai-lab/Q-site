@@ -9,9 +9,17 @@ featured_image_id: "3807"
 categories:
   - "放浪記"
 tags:
+  - "放浪記"
+  - "地球放浪"
+  - "日本"
+  - "エホバの証人"
+  - "中学生"
+  - "反抗期"
+  - "私小説"
 images:
   - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog8-1-1.jpg"
   - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog8-2-1.jpg"
+excerpt: "親の前では清楚な格好で正直さを演じ、裏では本屋・神社の賽銭箱・親の財布から盗みを繰り返す——エホバの証人の家庭で育った反抗期の少年が身につけた二面性と、犯罪エスカレートの末に偶然訪れたターニングポイントの物語。"
 flags: ""
 ---
 

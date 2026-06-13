@@ -9,9 +9,17 @@ featured_image_id: "3813"
 categories:
   - "放浪記"
 tags:
+  - "放浪記"
+  - "地球放浪"
+  - "日本"
+  - "エホバの証人"
+  - "中学生"
+  - "お笑い"
+  - "私小説"
 images:
   - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog10-1-1.jpg"
   - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog10-2-1.jpg"
+excerpt: "姉がチリへの宣教を口実に親元から脱出。残された自分は深夜番組『2丁目ワチャチャTV』で千原兄弟やケンコバの笑いに度肝を抜かれる——抑圧された少年が初めて『情熱』を覚え、自我が芽生え始めた中学三年生の秋。"
 flags: ""
 ---
 

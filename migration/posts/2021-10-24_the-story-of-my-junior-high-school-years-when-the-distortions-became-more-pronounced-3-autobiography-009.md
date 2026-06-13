@@ -9,9 +9,18 @@ featured_image_id: "3810"
 categories:
   - "放浪記"
 tags:
+  - "放浪記"
+  - "地球放浪"
+  - "日本"
+  - "エホバの証人"
+  - "中学生"
+  - "母子家庭"
+  - "思春期"
+  - "私小説"
 images:
   - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog9-1-1.jpg"
   - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog9-2-1.jpg"
+excerpt: "校歌も歌えず、運動会の騎馬戦にも参加できず、クリスマス会もお誕生日会も禁止——『普通の家庭に生まれたい』と願う少年の中学生生活。同居を始めた祖父との同居、母子家庭の狭い団地での思春期の歪み。"
 flags: ""
 ---
 

@@ -9,14 +9,19 @@ featured_image_id: "3792"
 categories:
   - "放浪記"
 tags:
+  - "放浪記"
+  - "地球放浪"
+  - "日本"
+  - "幼少期"
+  - "家庭崩壊"
+  - "母子家庭"
   - "エホバの証人"
-  - "ギャンブル"
-  - "嫁姑"
-  - "宗教"
-  - "放浪"
+  - "毒親"
+  - "私小説"
 images:
   - "https://qryptraveller.com/wp-content/uploads/2021/10/002-1-604x400.jpg"
   - "https://qryptraveller.com/wp-content/uploads/2021/10/002-2-671x400.jpg"
+excerpt: "父のギャンブル狂いと姑からの嫁いびり——逃げ場を求めた母がたどり着いたのは、姉が信仰するエホバの証人だった。家族崩壊から始まった母子家庭での暮らしと、宗教が生活の中心に据わるまでの幼少期の記録。"
 flags: ""
 ---
 

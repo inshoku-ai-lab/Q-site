@@ -9,12 +9,18 @@ featured_image_id: "3607"
 categories:
   - "放浪記"
 tags:
-  - "エホバの証人"
-  - "宗教"
   - "放浪記"
+  - "地球放浪"
+  - "日本"
+  - "エホバの証人"
+  - "幼少期"
+  - "毒親"
+  - "貧困"
+  - "私小説"
 images:
   - "https://qryptraveller.com/wp-content/uploads/2021/10/003-1-600x400.jpg"
   - "https://qryptraveller.com/wp-content/uploads/2021/10/003-2-350x400.png"
+excerpt: "週3回の集会、車のゴムベルトで作った手作りの鞭による『愛の鞭』、ネクタイ姿で家々を訪問する『奉仕活動』——エホバの証人の家庭で育つ子供のリアルな日常。母には救いとなった宗教が、子供にとっては地獄だった日々を綴る。"
 flags: ""
 ---
 

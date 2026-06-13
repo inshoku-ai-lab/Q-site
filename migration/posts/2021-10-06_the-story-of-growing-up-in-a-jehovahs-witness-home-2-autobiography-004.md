@@ -9,12 +9,17 @@ featured_image_id: "3794"
 categories:
   - "放浪記"
 tags:
-  - "#エホバの証人二世"
-  - "#実体験ルポルタージュ"
+  - "放浪記"
+  - "地球放浪"
+  - "日本"
   - "エホバの証人"
+  - "幼少期"
+  - "宗教生活"
+  - "私小説"
 images:
   - "https://qryptraveller.com/wp-content/uploads/2021/10/旅行記-004-2-437x400.jpg"
   - "https://qryptraveller.com/wp-content/uploads/2021/10/旅行記004-1.jpg"
+excerpt: "群れ、会衆、王国会館、注解、賛美の歌——エホバの証人の組織構造と週3回の集会、毎朝3時間の奉仕活動の実態を、未開部族への潜入レポートのように赤裸々に描写。生活時間のすべてが宗教に費やされた12年間の生態誌。"
 flags: ""
 ---
 

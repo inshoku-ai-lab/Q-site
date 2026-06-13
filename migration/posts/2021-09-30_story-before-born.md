@@ -9,14 +9,17 @@ featured_image_id: "3596"
 categories:
   - "放浪記"
 tags:
-  - "ガイドスピリット"
+  - "放浪記"
+  - "地球放浪"
+  - "スピリチュアル"
   - "前世"
-  - "無人島"
-  - "輪廻転生"
-  - "魂の仲間"
+  - "ガイドスピリット"
+  - "幼少期"
+  - "私小説"
 images:
   - "https://qryptraveller.com/wp-content/uploads/2021/09/002guide-500x400.jpg"
   - "https://qryptraveller.com/wp-content/uploads/2021/09/002stand.jpg"
+excerpt: "アフリカで太鼓を叩いた人生、ヒマラヤで高僧として生きた人生、キューバ革命で戦った人生——超強力なガイドスピリットに導かれて転生を繰り返してきた魂が、最後の旅としてこの肉体にやってきた話。クリプトラベラーの旅の起点となるスピリチュアルな前世譚。"
 flags: ""
 ---
 

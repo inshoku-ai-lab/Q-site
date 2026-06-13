@@ -9,9 +9,17 @@ featured_image_id: "3827"
 categories:
   - "放浪記"
 tags:
+  - "放浪記"
+  - "地球放浪"
+  - "日本"
+  - "エホバの証人"
+  - "高校生"
+  - "阪神大震災"
+  - "私小説"
 images:
   - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog14-1.jpg"
   - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog14-2.jpg"
+excerpt: "原因のわからない怒りに襲われ、誰もいない家で枕を殴り続けた朝。阪神大震災が起きても被害より『学校が休みになって嬉しい』と感じてしまった自分。そして姉がペルー人と結婚——後のペルー行きの伏線となる出来事が次々と起こる高校1年の冬。"
 flags: ""
 ---
 

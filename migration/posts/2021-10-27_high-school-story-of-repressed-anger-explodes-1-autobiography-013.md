@@ -9,9 +9,18 @@ featured_image_id: "3824"
 categories:
   - "放浪記"
 tags:
+  - "放浪記"
+  - "地球放浪"
+  - "日本"
+  - "エホバの証人"
+  - "高校生"
+  - "祖母の死"
+  - "スピリチュアル"
+  - "私小説"
 images:
   - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog13-1.jpg"
   - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog13-2.jpg"
+excerpt: "卒業までに3分の1が中退する退廃的な工業高校で、立ち読みオッケーの本屋を友として漫画と映画にのめり込んでいく少年。そして、優しかった祖母の死——20年後のチャネリングで明かされる、葬式に行けなかった本当の理由。"
 flags: ""
 ---
 

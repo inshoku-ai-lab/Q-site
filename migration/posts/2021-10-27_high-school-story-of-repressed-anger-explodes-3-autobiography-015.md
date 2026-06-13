@@ -9,9 +9,18 @@ featured_image_id: "3830"
 categories:
   - "放浪記"
 tags:
+  - "放浪記"
+  - "地球放浪"
+  - "日本"
+  - "エホバの証人"
+  - "高校生"
+  - "映画"
+  - "17歳"
+  - "私小説"
 images:
   - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog15-1.jpg"
   - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog15-2.jpg"
+excerpt: "兄に連れられて観た『パルプ・フィクション』で脳みそを吹き飛ばされ、17歳の誕生日に『将来』という言葉と向き合った日。『犯罪を犯してでも、乞食になってでも生きていける』——その気づきが暗闇に差し込んだ最初の光になった。"
 flags: ""
 ---
 

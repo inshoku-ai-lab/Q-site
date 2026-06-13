@@ -9,9 +9,17 @@ featured_image_id: "3821"
 categories:
   - "放浪記"
 tags:
+  - "放浪記"
+  - "地球放浪"
+  - "日本"
+  - "エホバの証人"
+  - "中学生"
+  - "高校受験"
+  - "私小説"
 images:
   - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog12-1.jpg"
   - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog12-2.jpg"
+excerpt: "柔道の授業を休めるから、男女共学なのに99%男子だから、試験が2ヶ月早いから——母の宗教的都合と自分のゲーム欲求が重なって選ばれた工業高校。母にバレないよう嘘の電話番号でこっそり柔道着を予約した中学卒業の春。"
 flags: ""
 ---
 
