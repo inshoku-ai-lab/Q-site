@@ -113,4 +113,4 @@ flags: ""
 
 つづく。。。
 
-[前の記事０３４](https://qryptraveller.com/a-story-of-culture-shock-in-thailand-1-autobiography-034/)　｜　[次の記事０３６](https://qryptraveller.com/a-story-of-culture-shock-in-thailand-3-autobiography-036/)
+[前の記事](https://qryptraveller.com/a-story-of-culture-shock-in-thailand-1-autobiography-034/)　｜　[次の記事](https://qryptraveller.com/a-story-of-culture-shock-in-thailand-3-autobiography-036/)

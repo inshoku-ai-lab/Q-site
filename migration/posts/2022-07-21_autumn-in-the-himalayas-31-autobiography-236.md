@@ -87,4 +87,4 @@ background-color: #587746;
 
 デリーの都会の喧騒を恐れていたが、これなら大丈夫と安心できた。
 
-[前の記事](https://qryptraveller.com/autumn-in-the-himalayas-30-autobiography-235/)　｜　[次の記事](https://qryptraveller.com/a-story-of-encounters-in-delhi1-autobiography-237/)[/um\_show\_content]
+[/um\_show\_content]

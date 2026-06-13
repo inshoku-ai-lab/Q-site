@@ -73,4 +73,4 @@ background-color: #587746;
 
 どんなゴアシーズンになるかが、今から楽しみだ。
 
-[前の記事](https://qryptraveller.com/renewing-an-indian-visa-in-thailand-7-autobiography-248/)　｜　[次の記事](https://qryptraveller.com/a-tale-of-going-south-1-autobiography-250/)[/um\_show\_content]
+[/um\_show\_content]

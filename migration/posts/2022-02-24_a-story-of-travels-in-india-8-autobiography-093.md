@@ -99,6 +99,4 @@ flags: ""
 
 その強さが、インドを旅する面白さであったりもするのだ。
 
-[前の記事０９２](https://qryptraveller.com/a-story-of-travels-in-india-7-autobiography-092/
-)　｜　[次の記事０９４](https://qryptraveller.com/a-story-of-travels-in-india-9-autobiography-094/
-)
+[前の記事](https://qryptraveller.com/a-story-of-travels-in-india-7-autobiography-092/)　｜　[次の記事](https://qryptraveller.com/a-story-of-travels-in-india-9-autobiography-094/)

@@ -77,9 +77,7 @@ transition: background-color 0.3s;
 .upgrade-button:hover {
 background-color: #587746;
 }
-[前の記事116](https://qryptraveller.com/the-story-of-meeting-gore-19-autobiography-116/
-)　｜　[次の記事118](https://qryptraveller.com/a-story-of-awakening-to-gore-1-autobiography-118/
-)
+[前の記事](https://qryptraveller.com/the-story-of-meeting-gore-19-autobiography-116/)　｜　[次の記事](https://qryptraveller.com/a-story-of-awakening-to-gore-1-autobiography-118/)
 [/show\_for\_guests\_and\_members]
 [um\_show\_content roles='um\_custom\_role\_1']
 
@@ -121,6 +119,4 @@ LSDは基本的にはLSD25という、LSDを生成する実験を始めてから
 
 僕はこのゲバラと言うLSDを通し、大きな意識革命を経験することになる。
 
-[前の記事116](https://qryptraveller.com/the-story-of-meeting-gore-19-autobiography-116/
-)　｜　[次の記事118](https://qryptraveller.com/a-story-of-awakening-to-gore-1-autobiography-118/
-)[/um\_show\_content]
+[/um\_show\_content]

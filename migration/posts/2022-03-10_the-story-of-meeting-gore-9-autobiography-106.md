@@ -73,9 +73,7 @@ transition: background-color 0.3s;
 background-color: #587746;
 }
 
-[前の記事105](https://qryptraveller.com/the-story-of-meeting-gore-8-autobiography-105/
-)　｜　[次の記事107](https://qryptraveller.com/the-story-of-meeting-gore-10-autobiography-107/
-)
+[前の記事](https://qryptraveller.com/the-story-of-meeting-gore-8-autobiography-105/)　｜　[次の記事](https://qryptraveller.com/the-story-of-meeting-gore-10-autobiography-107/)
 
 [/show\_for\_guests\_and\_members]
 [um\_show\_content roles='um\_custom\_role\_1']
@@ -104,8 +102,6 @@ background-color: #587746;
 
 次回の有料記事でLSDの話をもう少し続けます。
 
-[前の記事105](https://qryptraveller.com/the-story-of-meeting-gore-8-autobiography-105/
-)　｜　[次の記事107](https://qryptraveller.com/the-story-of-meeting-gore-10-autobiography-107/
-)
+
 
 [/um\_show\_content]

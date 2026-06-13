@@ -32,8 +32,7 @@ transition: background-color 0.3s;
 .upgrade-button:hover {
 background-color: #587746;
 }
-[前の記事](https://qryptraveller.com/a-story-of-coming-of-age-in-morocco-in-the-21st-century-28-autobiography-371/)　｜　[次の記事](https://qryptraveller.com/30-autobiography-373-a-story-about-coming-into-the-21st-century-in-morocco/
-)[/show\_for\_guests\_and\_members]
+[前の記事](https://qryptraveller.com/a-story-of-coming-of-age-in-morocco-in-the-21st-century-28-autobiography-371/)　｜　[次の記事](https://qryptraveller.com/30-autobiography-373-a-story-about-coming-into-the-21st-century-in-morocco/)[/show\_for\_guests\_and\_members]
 [um\_show\_content roles='um\_custom\_role\_1']
 
 （以下内容転載禁止、法的対処有。）
@@ -80,4 +79,4 @@ DさんやEさんや、その他のメンツはおもしろカッコよく、面
 
 良くも悪くも因果応報を思い知ることになったクリスマスだった。
 
-[前の記事](https://qryptraveller.com/a-story-of-coming-of-age-in-morocco-in-the-21st-century-28-autobiography-371/)　｜　[次の記事](https://qryptraveller.com/30-autobiography-373-a-story-about-coming-into-the-21st-century-in-morocco/)[/um\_show\_content]
+[/um\_show\_content]

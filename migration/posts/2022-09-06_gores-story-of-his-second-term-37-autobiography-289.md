@@ -89,4 +89,4 @@ background-color: #587746;
 
 そこには、自分が今までに見知っていた世界とは全く異なる異次元の世界が展開していた。
 
-[前の記事](https://qryptraveller.com/gores-story-of-his-second-term-36-autobiography-288/)　｜　[次の記事](https://qryptraveller.com/gores-story-of-his-second-term-38-autobiography-290/)[/um\_show\_content]
+[/um\_show\_content]

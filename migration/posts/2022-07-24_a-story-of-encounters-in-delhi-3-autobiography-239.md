@@ -71,4 +71,4 @@ DさんもJさんと同じく何年も旅の世界で生きている人で、麻
 
 当時２１歳の怖いもの知らずで好奇心にあふれる僕とUくんは、迷わずにお呼ばれした。
 
-[前の記事](https://qryptraveller.com/the-story-of-meeting-in-delhi-2-autobiography-238/)　｜　[次の記事](https://qryptraveller.com/a-story-of-encounters-in-delhi-4-autobiography-240/)[/um\_show\_content]
+[/um\_show\_content]

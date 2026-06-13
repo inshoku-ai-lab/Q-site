@@ -81,4 +81,4 @@ background-color: #587746;
 
 これなら間違いない
 
-[前の記事](https://qryptraveller.com/a-story-of-coming-of-age-in-morocco-in-the-21st-century-6-autobiography-349/)　｜　[次の記事](https://qryptraveller.com/a-story-of-coming-of-age-in-morocco-in-the-21st-century-8-autobiography-351/)[/um\_show\_content]
+[/um\_show\_content]

@@ -75,4 +75,4 @@ background-color: #587746;
 
 長居するつもりはないが、新しい街並みを見るのは気分が盛り上がる。
 
-[前の記事](https://qryptraveller.com/autumn-in-the-himalayas-16-autobiography-221/)　｜　[次の記事](https://qryptraveller.com/autumn-in-the-himalayas-18-autobiography-223/)[/um\_show\_content]
+[/um\_show\_content]

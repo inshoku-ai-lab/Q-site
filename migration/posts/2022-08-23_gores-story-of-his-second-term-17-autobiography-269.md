@@ -71,4 +71,4 @@ background-color: #587746;
 
 それと同時に、ずっと続いていた頭痛も治っていき、だんだんと僕のひきつった顔に笑顔が戻って来た。
 
-[前の記事](https://qryptraveller.com/gores-story-of-his-second-term-16-autobiography-268/)　｜　[次の記事](https://qryptraveller.com/gores-story-of-his-second-term-18-autobiography-270/)[/um\_show\_content]
+[/um\_show\_content]

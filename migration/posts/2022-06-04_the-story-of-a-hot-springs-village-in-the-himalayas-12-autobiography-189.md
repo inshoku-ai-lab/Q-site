@@ -79,6 +79,6 @@ background-color: #587746;
 
 旅に出て色々な経験をする事で世界観が更新されることが、ある種の快感になっていた。
 
-[前の記事](https://qryptraveller.com/11-autobiography-of-a-hot-springs-village-in-the-himalayas-188/)　｜　[次の記事](https://qryptraveller.com/the-story-of-a-hot-springs-village-in-the-himalayas-13-autobiography-190/)
+
 
 [/um\_show\_content]

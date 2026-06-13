@@ -77,4 +77,4 @@ background-color: #587746;
 
 ゴアはその自由さゆえに、人々に最高の経験と成長をもたらす一方で、半歩踏み外すだけで奈落の底へと落ちてしまう諸刃の剣の側面を持っていた。
 
-[前の記事](https://qryptraveller.com/gores-story-of-his-second-term-24-autobiography-276/)　｜　[次の記事](https://qryptraveller.com/gores-story-of-his-second-term-26-autobiography-278/)[/um\_show\_content]
+[/um\_show\_content]

@@ -106,6 +106,4 @@ Kさんと旦那の間には、愛があるのが見て取れるが、Tちゃん
 
 この話には、これ以上ツッコマないようにしようと言う事で、お互いに納得した。
 
-[前の記事０９８](https://qryptraveller.com/the-story-of-meeting-gore-1-autobiography-098/
-)　｜　[次の記事１００](https://qryptraveller.com/the-story-of-meeting-gore-3-autobiography-100/
-)
+[前の記事](https://qryptraveller.com/the-story-of-meeting-gore-1-autobiography-098/)　｜　[次の記事](https://qryptraveller.com/the-story-of-meeting-gore-3-autobiography-100/)

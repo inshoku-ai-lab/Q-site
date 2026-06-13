@@ -107,4 +107,4 @@ flags: ""
 
 つづく。。。
 
-[前の記事０２３](https://qryptraveller.com/stories-of-life-in-peru-5-autobiography-023/)　｜　[次の記事０２５](https://qryptraveller.com/the-story-of-the-first-normal-like-life-in-my-life-1-autobiography-025/)
+[前の記事](https://qryptraveller.com/stories-of-life-in-peru-5-autobiography-023/)　｜　[次の記事](https://qryptraveller.com/the-story-of-the-first-normal-like-life-in-my-life-1-autobiography-025/)

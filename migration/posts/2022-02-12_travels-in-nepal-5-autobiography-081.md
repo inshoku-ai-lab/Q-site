@@ -41,9 +41,7 @@ transition: background-color 0.3s;
 background-color: #587746;
 }
 
-[前の記事０８０](https://qryptraveller.com/travels-in-nepal-4-autobiography-080/
-)　｜　[次の記事０８２](https://qryptraveller.com/a-story-of-travel-in-nepal-6-autobiography-082/
-)
+[前の記事](https://qryptraveller.com/travels-in-nepal-4-autobiography-080/)　｜　[次の記事](https://qryptraveller.com/a-story-of-travel-in-nepal-6-autobiography-082/)
 
 [/show\_for\_guests\_and\_members]
 [um\_show\_content roles='um\_custom\_role\_1']
@@ -118,8 +116,6 @@ background-color: #587746;
 
 全く違う国で、全く違う時間間隔と価値観で生きるということを、全く違う意識感覚で体験することで、旅という体験が何倍にも深まっていた。
 
-[前の記事０８０](https://qryptraveller.com/travels-in-nepal-4-autobiography-080/
-)　｜　[次の記事０８２](https://qryptraveller.com/a-story-of-travel-in-nepal-6-autobiography-082/
-)
+
 
 [/um\_show\_content]

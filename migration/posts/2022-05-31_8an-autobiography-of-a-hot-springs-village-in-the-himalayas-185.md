@@ -49,4 +49,4 @@ flags: "no-images"
 
 ヒマラヤの山々を遠くに見ながら、友人たちと楽しく過ごし、大好きな音楽を好きなだけ聴くなんて、最高の贅沢だ、などと悦に入っていた。
 
-[前の記事](https://qryptraveller.com/the-story-of-a-hot-springs-village-in-the-himalayas-5-autobiography-182/)　｜　[次の記事](https://qryptraveller.com/9an-autobiography-of-a-hot-springs-village-in-the-himalayas-186/)
+[前の記事](https://qryptraveller.com/the-story-of-a-hot-springs-village-in-the-himalayas-7-autobiography-184/)　｜　[次の記事](https://qryptraveller.com/9an-autobiography-of-a-hot-springs-village-in-the-himalayas-186/)

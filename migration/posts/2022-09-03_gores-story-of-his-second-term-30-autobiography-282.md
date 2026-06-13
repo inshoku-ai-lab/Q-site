@@ -32,8 +32,7 @@ transition: background-color 0.3s;
 .upgrade-button:hover {
 background-color: #587746;
 }
-[前の記事](https://qryptraveller.com/gores-story-of-his-second-term-29-autobiography-281/)　｜　[次の記事](
-)[/show\_for\_guests\_and\_members]
+[前の記事](https://qryptraveller.com/gores-story-of-his-second-term-29-autobiography-281/)　｜　[次の記事](https://qryptraveller.com/gores-story-of-his-second-term-31-autobiography-283/)[/show\_for\_guests\_and\_members]
 [um\_show\_content roles='um\_custom\_role\_1']
 
 （以下内容転載禁止、法的対処有。）
@@ -90,4 +89,4 @@ Sさんの導きにより、異次元の世界へと入って行く。
 
 僕の２度目のセッションは、優しさに包まれた温かな気持ちで閉じることになった。
 
-[前の記事](https://qryptraveller.com/gores-story-of-his-second-term-29-autobiography-281/)　｜　[次の記事](https://qryptraveller.com/gores-story-of-his-second-term-31-autobiography-283/)[/um\_show\_content]
+[/um\_show\_content]

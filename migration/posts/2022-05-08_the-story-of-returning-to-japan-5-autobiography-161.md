@@ -95,6 +95,6 @@ background-color: #587746;
 
 僕は彼らの言葉を頭の片隅に置きながらパーティー内を散策することにした。
 
-[前の記事](https://qryptraveller.com/the-story-of-returning-to-japan-4-autobiography-160/)　｜　[次の記事](https://qryptraveller.com/story-of-returning-to-japan-6-autobiography-162/)
+
 
 [/um\_show\_content]

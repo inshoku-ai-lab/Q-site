@@ -69,4 +69,4 @@ background-color: #587746;
 
 それだったら、どうして多めに持ち運んでお金を稼がないのか？という考え方だ。
 
-[前の記事](https://qryptraveller.com/autumn-in-the-himalayas-8-autobiography-213/)　｜　[次の記事](https://qryptraveller.com/autumn-in-the-himalayas-10-autobiography-215/)[/um\_show\_content]
+[/um\_show\_content]

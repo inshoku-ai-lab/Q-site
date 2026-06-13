@@ -73,4 +73,4 @@ background-color: #587746;
 
 そう言った豊かな時間の使い方が、心地の良い雰囲気を作り出している。
 
-[前の記事](https://qryptraveller.com/autumn-in-the-himalayas-17-autobiography-222/)　｜　[次の記事](https://qryptraveller.com/autumn-in-the-himalayas-19-autobiography-224/)[/um\_show\_content]
+[/um\_show\_content]

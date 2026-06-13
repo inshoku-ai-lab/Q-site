@@ -70,9 +70,7 @@ transition: background-color 0.3s;
 .upgrade-button:hover {
 background-color: #587746;
 }
-[前の記事](
-)　｜　[次の記事](
-)
+[前の記事](https://qryptraveller.com/a-story-of-awakening-to-gore-5-autobiography-122/)　｜　[次の記事](https://qryptraveller.com/awakening-to-gore-story-7-autobiography-124/)
 [/show\_for\_guests\_and\_members]
 [um\_show\_content roles='um\_custom\_role\_1']
 
@@ -108,6 +106,4 @@ background-color: #587746;
 
 僕は次のパーティーに備えて準備をし、時が来るのを待った。
 
-[前の記事122](https://qryptraveller.com/a-story-of-awakening-to-gore-5-autobiography-122/
-)　｜　[次の記事124](https://qryptraveller.com/awakening-to-gore-story-7-autobiography-124/
-)[/um\_show\_content]
+[/um\_show\_content]

@@ -88,4 +88,4 @@ WEB 1.0の時代。
 
 つづく。。。
 
-[前の記事０３１](https://qryptraveller.com/a-story-of-living-alone-in-a-dodgy-neighborhood-in-osaka-4-autobiography-031/)　｜　[次の記事０３３](https://qryptraveller.com/a-story-of-living-alone-in-a-dodgy-neighborhood-in-osaka-6-autobiography-033/)
+[前の記事](https://qryptraveller.com/a-story-of-living-alone-in-a-dodgy-neighborhood-in-osaka-4-autobiography-031/)　｜　[次の記事](https://qryptraveller.com/a-story-of-living-alone-in-a-dodgy-neighborhood-in-osaka-6-autobiography-033/)

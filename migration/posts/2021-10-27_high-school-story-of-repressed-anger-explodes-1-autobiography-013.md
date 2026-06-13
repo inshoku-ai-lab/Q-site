@@ -111,4 +111,4 @@ flags: ""
 
 つづく。。。
 
-[前の記事０１２](https://qryptraveller.com/the-story-of-my-junior-high-school-years-when-the-distortions-became-more-pronounced6-autobiography-012/)　｜　[次の記事０１４](https://qryptraveller.com/high-school-story-of-repressed-anger-explodes-2-autobiography-014/)
+[前の記事](https://qryptraveller.com/the-story-of-my-junior-high-school-years-when-the-distortions-became-more-pronounced6-autobiography-012/)　｜　[次の記事](https://qryptraveller.com/high-school-story-of-repressed-anger-explodes-2-autobiography-014/)

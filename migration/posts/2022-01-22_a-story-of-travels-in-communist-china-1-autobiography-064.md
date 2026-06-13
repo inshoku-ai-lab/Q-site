@@ -126,4 +126,4 @@ flags: "no-images"
 
 つづく。。。
 
-[前の記事０６３](https://qryptraveller.com/a-story-of-cultural-life-in-nishinari-18-autobiography-063/)　｜　[次の記事０６５](https://qryptraveller.com/a-story-of-travels-in-communist-china-2-autobiography-065)
+[前の記事](https://qryptraveller.com/a-story-of-cultural-life-in-nishinari-18-autobiography-063/)　｜　[次の記事](https://qryptraveller.com/a-story-of-travels-in-communist-china-2-autobiography-065/)

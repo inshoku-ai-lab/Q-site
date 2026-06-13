@@ -82,5 +82,4 @@ flags: "no-images"
 
 その日のうちに旅行代理店へ行き、２日後の関空行きのチケットをとった。
 
-[前の記事](https://qryptraveller.com/story-of-returning-to-japan-2-autobiography-158/)　｜　[次の記事](
-)
+[前の記事](https://qryptraveller.com/story-of-returning-to-japan-2-autobiography-158/)　｜　[次の記事](https://qryptraveller.com/the-story-of-returning-to-japan-4-autobiography-160/)

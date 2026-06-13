@@ -81,4 +81,4 @@ background-color: #587746;
 
 今になって思えば、その特権的立場は、警官同士の賄賂によっても取引されていたんじゃ無いかと思う。
 
-[前の記事](https://qryptraveller.com/autumn-in-the-himalayas-29-autobiography-234/)　｜　[次の記事](https://qryptraveller.com/autumn-in-the-himalayas-31-autobiography-236/)[/um\_show\_content]
+[/um\_show\_content]

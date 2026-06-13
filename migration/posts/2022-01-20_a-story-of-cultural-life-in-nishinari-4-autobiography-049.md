@@ -88,4 +88,4 @@ https://www.youtube.com/watch?v=gDt4\_n6xP0M
 
 つづく。。。
 
-[前の記事０４８](https://qryptraveller.com/a-story-of-cultural-life-in-nishinari-3-autobiography-048/)　｜　[次の記事０５０](https://qryptraveller.com/a-story-of-cultural-life-in-nishinari-5-autobiography-050)
+[前の記事](https://qryptraveller.com/a-story-of-cultural-life-in-nishinari-3-autobiography-048/)　｜　[次の記事](https://qryptraveller.com/a-story-of-cultural-life-in-nishinari-5-autobiography-050/)

@@ -94,4 +94,4 @@ FinderPop
 
 つづく。。。
 
-[前の記事０５８](https://qryptraveller.com/a-story-of-cultural-life-in-nishinari-13-autobiography-058)　｜　[次の記事０６０](https://qryptraveller.com/a-story-of-cultural-life-in-nishinari-15-autobiography-060)
+[前の記事](https://qryptraveller.com/a-story-of-cultural-life-in-nishinari-13-autobiography-058/)　｜　[次の記事](https://qryptraveller.com/a-story-of-cultural-life-in-nishinari-15-autobiography-060/)

@@ -84,4 +84,4 @@ background-color: #587746;
 
 近未来の方向性が決まった事で、より一層今を楽しもうと言う気になって来ていた。
 
-[前の記事](https://qryptraveller.com/a-story-of-awakening-to-gore-29-autobiography-146/)　｜　[次の記事](https://qryptraveller.com/a-story-of-awakening-to-gore-31-autobiography-148/)[/um\_show\_content]
+[/um\_show\_content]

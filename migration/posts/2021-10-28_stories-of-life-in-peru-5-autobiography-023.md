@@ -108,4 +108,4 @@ flags: ""
 
 つづく。。。
 
-[前の記事０２２](https://qryptraveller.com/stories-of-life-in-peru-4-autobiography-022/)　｜　[次の記事０２４](https://qryptraveller.com/the-story-of-my-days-as-a-recluse-autobiography-024/)
+[前の記事](https://qryptraveller.com/stories-of-life-in-peru-4-autobiography-022/)　｜　[次の記事](https://qryptraveller.com/the-story-of-my-days-as-a-recluse-autobiography-024/)

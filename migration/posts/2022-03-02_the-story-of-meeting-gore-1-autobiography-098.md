@@ -107,6 +107,4 @@ flags: ""
 
 何を言っているのかよく分からなかったが、後々にどういう意味か分かってくることになる。
 
-[前の記事０９７](https://qryptraveller.com/a-story-of-travels-in-india-12-autobiography-097/
-)　｜　[次の記事０９９](https://qryptraveller.com/the-story-of-meeting-gore-2-autobiography-099/
-)
+[前の記事](https://qryptraveller.com/a-story-of-travels-in-india-12-autobiography-097/)　｜　[次の記事](https://qryptraveller.com/the-story-of-meeting-gore-2-autobiography-099/)

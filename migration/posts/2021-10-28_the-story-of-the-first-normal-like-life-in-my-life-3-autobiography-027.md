@@ -108,4 +108,4 @@ flags: ""
 
 つづく。。。
 
-[前の記事０２６](https://qryptraveller.com/the-story-of-the-first-normal-like-life-in-my-life-2-autobiography-026/)　｜　[次の記事０２８](https://qryptraveller.com/a-story-of-living-alone-in-a-dodgy-neighborhood-in-osaka-1-autobiography-028/)
+[前の記事](https://qryptraveller.com/the-story-of-the-first-normal-like-life-in-my-life-2-autobiography-026/)　｜　[次の記事](https://qryptraveller.com/a-story-of-living-alone-in-a-dodgy-neighborhood-in-osaka-1-autobiography-028/)

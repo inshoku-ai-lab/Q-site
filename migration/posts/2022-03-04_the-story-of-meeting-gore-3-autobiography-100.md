@@ -48,9 +48,7 @@ transition: background-color 0.3s;
 background-color: #587746;
 }
 
-[前の記事０99](https://qryptraveller.com/the-story-of-meeting-gore-2-autobiography-099/
-)　｜　[次の記事101](https://qryptraveller.com/the-story-of-meeting-gore-4-autobiography-101/
-)
+[前の記事](https://qryptraveller.com/the-story-of-meeting-gore-2-autobiography-099/)　｜　[次の記事](https://qryptraveller.com/the-story-of-meeting-gore-4-autobiography-101/)
 
 [/show\_for\_guests\_and\_members]
 [um\_show\_content roles='um\_custom\_role\_1']
@@ -177,8 +175,6 @@ Yさん曰く、格闘家は恐怖から目を逸らさないのだという。
 
 僕たちはゴアには面白いパーティーは無いのだと受け入れて意気消沈しつつ、ジョイントを吸いながらバイクに乗って家路についた。
 
-[前の記事０99](https://qryptraveller.com/the-story-of-meeting-gore-2-autobiography-099/
-)　｜　[次の記事101](https://qryptraveller.com/the-story-of-meeting-gore-4-autobiography-101/
-)
+
 
 [/um\_show\_content]

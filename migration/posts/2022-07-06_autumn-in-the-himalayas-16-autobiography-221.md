@@ -73,4 +73,4 @@ background-color: #587746;
 
 ヒマラヤにあるヒッピーの聖地と言うことはマナリと同じだが、パールバティにはインド人観光客が来ないので、より一層濃い旅人専門の独特な雰囲気を出していた。
 
-[前の記事](https://qryptraveller.com/autumn-in-the-himalayas-15-autobiography-220/)　｜　[次の記事](https://qryptraveller.com/autumn-in-the-himalayas-17-autobiography-222/)[/um\_show\_content]
+[/um\_show\_content]

@@ -82,6 +82,4 @@ flags: ""
 
 日本人同士で、つるんで漫画を読んでいるだけだが、僕の価値観においては非常に有益な時間の過ごし方だった。
 
-[前の記事０７９](https://qryptraveller.com/travels-in-nepal-3-autobiography-079/
-)　｜　[次の記事０８１](https://qryptraveller.com/travels-in-nepal-5-autobiography-081/
-)
+[前の記事](https://qryptraveller.com/travels-in-nepal-3-autobiography-079/)　｜　[次の記事](https://qryptraveller.com/travels-in-nepal-5-autobiography-081/)

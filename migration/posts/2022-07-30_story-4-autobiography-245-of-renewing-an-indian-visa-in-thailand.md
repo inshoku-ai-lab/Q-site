@@ -73,4 +73,4 @@ background-color: #587746;
 
 僕たちはRさんを助ける気が満々だが、同時に自業自得で苦しむRさんを当然の報いとして冷ややかに見てもいた。
 
-[前の記事](https://qryptraveller.com/renewing-an-indian-visa-in-thailand-story-3-autobiography-244/)　｜　[次の記事](https://qryptraveller.com/renewing-an-indian-visa-in-thailand-story-5-autobiography-246/)[/um\_show\_content]
+[/um\_show\_content]

@@ -81,4 +81,4 @@ background-color: #587746;
 
 このパーティーも同じように、奉仕の精神から出来ており、お金を稼いでやろうと言う搾取の精神から出来ているパーティーとは全く異なる愛の波動に満ちていた。
 
-[前の記事](https://qryptraveller.com/autumn-in-the-himalayas-3-autobiography-208/)　｜　[次の記事](https://qryptraveller.com/autumn-in-the-himalayas-5-autobiography-210/)[/um\_show\_content]
+[/um\_show\_content]

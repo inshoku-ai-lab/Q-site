@@ -116,4 +116,4 @@ flags: ""
 
 つづく。。。
 
-[前の記事００２](https://qryptraveller.com/childhood-life-start-with-crash-of-family-life-002/)　｜　[次の記事００４](https://qryptraveller.com/the-story-of-growing-up-in-a-jehovahs-witness-home-2-autobiography-004/)
+[前の記事](https://qryptraveller.com/childhood-life-start-with-crash-of-family-life-002/)　｜　[次の記事](https://qryptraveller.com/the-story-of-growing-up-in-a-jehovahs-witness-home-2-autobiography-004/)

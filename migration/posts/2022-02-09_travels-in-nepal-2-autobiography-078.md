@@ -99,9 +99,7 @@ transition: background-color 0.3s;
 background-color: #587746;
 }
 
-[前の記事０７７](https://qryptraveller.com/travels-in-nepal-1-autobiography-077/
-)　｜　[次の記事０７９](https://qryptraveller.com/travels-in-nepal-3-autobiography-079/
-)
+[前の記事](https://qryptraveller.com/travels-in-nepal-1-autobiography-077/)　｜　[次の記事](https://qryptraveller.com/travels-in-nepal-3-autobiography-079/)
 
 [/show\_for\_guests\_and\_members]
 [um\_show\_content roles='um\_custom\_role\_1']
@@ -124,8 +122,6 @@ background-color: #587746;
 
 僕のサイケデリックドラッグに対する好奇心は募る一方で、決して諦めないことを心に誓った。
 
-[前の記事０７７](https://qryptraveller.com/travels-in-nepal-1-autobiography-077/
-)　｜　[次の記事０７９](https://qryptraveller.com/travels-in-nepal-3-autobiography-079/
-)
+
 
 [/um\_show\_content]

@@ -87,6 +87,4 @@ flags: "no-images"
 
 チベットでの旅の話を共有し、ここネパールで再会できたことを祝い、不思議な場所でまたお茶を共に飲んでいる事を喜び合った。
 
-[前の記事０７８](https://qryptraveller.com/travels-in-nepal-2-autobiography-078/
-)　｜　[次の記事０８０](https://qryptraveller.com/travels-in-nepal-4-autobiography-080/
-)
+[前の記事](https://qryptraveller.com/travels-in-nepal-2-autobiography-078/)　｜　[次の記事](https://qryptraveller.com/travels-in-nepal-4-autobiography-080/)

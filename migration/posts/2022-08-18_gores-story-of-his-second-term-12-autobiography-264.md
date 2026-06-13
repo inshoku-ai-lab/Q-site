@@ -87,4 +87,4 @@ background-color: #587746;
 
 準備ができたところで、LSDを摂取してダンスフロアへと向かう。
 
-[前の記事](https://qryptraveller.com/gores-story-of-his-second-term-11-autobiography-263/)　｜　[次の記事](https://qryptraveller.com/gores-story-of-his-second-term-13-autobiography-265/)[/um\_show\_content]
+[/um\_show\_content]

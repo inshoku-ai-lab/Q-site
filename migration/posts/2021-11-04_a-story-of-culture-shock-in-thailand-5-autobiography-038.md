@@ -80,4 +80,4 @@ flags: "no-images"
 
 つづく。。。
 
-[前の記事０３７](https://qryptraveller.com/a-story-of-culture-shock-in-thailand-4-autobiography-037/)　｜　[次の記事０３９](https://qryptraveller.com/a-story-of-culture-shock-in-thailand-6-autobiography-039/)
+[前の記事](https://qryptraveller.com/a-story-of-culture-shock-in-thailand-4-autobiography-037/)　｜　[次の記事](https://qryptraveller.com/a-story-of-culture-shock-in-thailand-6-autobiography-039/)

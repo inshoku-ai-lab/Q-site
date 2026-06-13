@@ -107,4 +107,4 @@ background-color: #587746;
 
 僕たちは、これから待ち受けている冒険に胸を膨らませながらダンスフロアへと向かう。
 
-[前の記事](https://qryptraveller.com/awakening-to-gore-story-12-autobiography-129/)　｜　[次の記事](https://qryptraveller.com/a-story-of-awakening-to-gore-14-autobiography-131/)[/um\_show\_content]
+[/um\_show\_content]

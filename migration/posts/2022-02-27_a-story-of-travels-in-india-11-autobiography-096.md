@@ -115,6 +115,4 @@ flags: ""
 
 瞑想状態で、音楽に合わせて体を揺らすと言うのは、都会にあるテクノのクラブで一晩中激しく踊ると言うのとは全く違った意味を持っていて、未知の感覚を体験することが嬉しかった。
 
-[前の記事０９５](https://qryptraveller.com/a-story-of-travels-in-india-10-autobiography-095/
-)　｜　[次の記事０９７](https://qryptraveller.com/a-story-of-travels-in-india-12-autobiography-097/
-)
+[前の記事](https://qryptraveller.com/a-story-of-travels-in-india-10-autobiography-095/)　｜　[次の記事](https://qryptraveller.com/a-story-of-travels-in-india-12-autobiography-097/)

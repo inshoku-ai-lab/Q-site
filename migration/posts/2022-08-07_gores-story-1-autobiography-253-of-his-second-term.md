@@ -85,4 +85,4 @@ Yさんの家につくと、そこにいた映画業界の後輩のAさんと、
 
 リスクが報われた嬉しくてたまらない瞬間だった。
 
-[前の記事](https://qryptraveller.com/a-tale-of-going-south-3-autobiography-252/)　｜　[次の記事](https://qryptraveller.com/gores-story-2-autobiography-254-of-his-second-term/)[/um\_show\_content]
+[/um\_show\_content]

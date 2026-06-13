@@ -95,4 +95,4 @@ background-color: #587746;
 
 ”俺がなんとかしてみせる”と言って、パーティーを止めに来た警官とDJたちとの会話に入り込んで行った。
 
-[前の記事](https://qryptraveller.com/gores-story-of-his-second-term-38-autobiography-290/)　｜　[次の記事](https://qryptraveller.com/40-autobiography-292-the-story-of-gore-in-his-second-term/)[/um\_show\_content]
+[/um\_show\_content]

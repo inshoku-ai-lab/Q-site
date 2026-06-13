@@ -79,4 +79,4 @@ background-color: #587746;
 
 その一点だけを目的に全力で突っ込んで行った。
 
-[前の記事](https://qryptraveller.com/gores-story-of-his-second-term-32-autobiography-284/)　｜　[次の記事](https://qryptraveller.com/gores-story-of-his-second-term-34-autobiography-286/)[/um\_show\_content]
+[/um\_show\_content]

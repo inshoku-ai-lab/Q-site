@@ -112,4 +112,4 @@ flags: "no-images"
 
 つづく。。。
 
-[前の記事０６６](https://qryptraveller.com/a-story-of-travels-in-communist-china-3-autobiography-066/)　｜　[次の記事０６８](https://qryptraveller.com/a-story-of-travels-in-communist-china-5-autobiography-068/)
+[前の記事](https://qryptraveller.com/a-story-of-travels-in-communist-china-3-autobiography-066/)　｜　[次の記事](https://qryptraveller.com/a-story-of-travels-in-communist-china-5-autobiography-068/)

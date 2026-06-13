@@ -94,4 +94,4 @@ background-color: #587746;
 
 なんでもない日々をダラダラと過ごすことは、僕たちの友情を次のレベルへと押し上げ、僕たちはお互いを家族のように認識するようになった。
 
-[前の記事](https://qryptraveller.com/a-story-of-awakening-to-gore-35-autobiography-152/)　｜　[次の記事](https://qryptraveller.com/the-story-of-awakening-to-gore-37-autobiography-154/)[/um\_show\_content]
+[/um\_show\_content]

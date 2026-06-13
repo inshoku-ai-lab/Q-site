@@ -77,5 +77,4 @@ flags: "no-images"
 
 ゴアでの生活は日本の常識とはかけ離れ過ぎて居たので、徐々に都会的な生活に慣らしていくためにも必要なプロセスだった。
 
-[前の記事](https://qryptraveller.com/the-story-of-awakening-to-gore-39-autobiography-156/)　｜　[次の記事](
-)
+[前の記事](https://qryptraveller.com/the-story-of-awakening-to-gore-39-autobiography-156/)　｜　[次の記事](https://qryptraveller.com/story-of-returning-to-japan-2-autobiography-158/)

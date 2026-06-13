@@ -122,4 +122,4 @@ flags: ""
 
 つづく。。。
 
-[前の記事００１](https://qryptraveller.com/story-before-born/)　｜　[次の記事００３](https://qryptraveller.com/the-story-of-growing-up-in-a-jehovahs-witness-home-1-autobiography-003/)
+[前の記事](https://qryptraveller.com/story-before-born/)　｜　[次の記事](https://qryptraveller.com/the-story-of-growing-up-in-a-jehovahs-witness-home-1-autobiography-003/)

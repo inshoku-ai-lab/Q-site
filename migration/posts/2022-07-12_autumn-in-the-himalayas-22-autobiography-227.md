@@ -32,8 +32,7 @@ transition: background-color 0.3s;
 .upgrade-button:hover {
 background-color: #587746;
 }
-[前の記事](https://qryptraveller.com/autumn-in-the-himalayas-21-autobiography-226/)　｜　[次の記事](
-)[/show\_for\_guests\_and\_members]
+[前の記事](https://qryptraveller.com/autumn-in-the-himalayas-21-autobiography-226/)　｜　[次の記事](https://qryptraveller.com/autumn-in-the-himalayas-23-autobiography-228/)[/show\_for\_guests\_and\_members]
 [um\_show\_content roles='um\_custom\_role\_1']
 
 （以下内容転載禁止、法的対処有。）
@@ -84,5 +83,4 @@ background-color: #587746;
 
 僕は、大事なコレクションとして、特別な時に大事な友人たちと吸う為に、各地の村々の最高級品を手に入れた。
 
-[前の記事](https://qryptraveller.com/autumn-in-the-himalayas-21-autobiography-226/)　｜　[次の記事](https://qryptraveller.com/autumn-in-the-himalayas-23-autobiography-228/
-)[/um\_show\_content]
+[/um\_show\_content]

@@ -96,4 +96,4 @@ background-color: #587746;
 
 だが、目の前に実際に旅を続けている格好いい旅人達をみる事で、自分にもできるんじゃないかと大きな希望に満たされた。
 
-[前の記事](https://qryptraveller.com/a-story-of-awakening-to-gore-21-autobiography-138/)　｜　[次の記事](https://qryptraveller.com/a-story-of-awakening-to-gore-23-autobiography-140/)[/um\_show\_content]
+[/um\_show\_content]

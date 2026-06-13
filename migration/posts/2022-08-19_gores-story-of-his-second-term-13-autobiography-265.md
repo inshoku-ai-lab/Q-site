@@ -73,4 +73,4 @@ Yさんの感覚からすると、通常の５倍以上の摂取量だ。
 
 僕は、LSDを大量摂取することは必ずしもパーティーでダンシングハイを経験することには繋がらないということを体験を通して知っていたので、８分の１を摂取してギリギリにオーバードーズを超えない線を維持していた。
 
-[前の記事](https://qryptraveller.com/gores-story-of-his-second-term-12-autobiography-264/)　｜　[次の記事](https://qryptraveller.com/gores-story-of-his-second-term-14-autobiography-266/)[/um\_show\_content]
+[/um\_show\_content]

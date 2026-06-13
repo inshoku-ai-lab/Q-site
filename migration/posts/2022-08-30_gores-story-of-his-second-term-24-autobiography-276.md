@@ -81,4 +81,4 @@ background-color: #587746;
 
 なんとか省庁の長官の息子や、世界的に有名なカメラ関係の会社の息子や、有名なブランド服の一族や、テレビ業界関係者などで、自由で優雅な生まれ育ちゆえに、遊ぶこととなると留まることを知らずに突き詰めていた。
 
-[前の記事](https://qryptraveller.com/gores-story-of-his-second-term-23-autobiography-275/)　｜　[次の記事](https://qryptraveller.com/gores-story-of-his-second-term-25-autobiography-277/)[/um\_show\_content]
+[/um\_show\_content]

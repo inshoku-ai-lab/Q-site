@@ -85,4 +85,4 @@ A君のこの対応にはガンドルフさんも大いに困惑した。
 
 それぞれの落ち着き具合と貫禄は凄いものがあった。
 
-[前の記事](https://qryptraveller.com/39-autobiography-382-a-story-about-coming-into-the-21st-century-in-morocco/)　｜　[次の記事](https://qryptraveller.com/41-autobiography-384-a-story-about-coming-into-the-21st-century-in-morocco/)[/um\_show\_content]
+[/um\_show\_content]

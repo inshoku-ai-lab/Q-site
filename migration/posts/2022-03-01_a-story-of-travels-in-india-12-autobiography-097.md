@@ -114,9 +114,7 @@ transition: background-color 0.3s;
 .upgrade-button:hover {
 background-color: #587746;
 }
-[前の記事０９６](https://qryptraveller.com/a-story-of-travels-in-india-11-autobiography-096/
-)　｜　[次の記事０９８](https://qryptraveller.com/the-story-of-meeting-gore-1-autobiography-098/
-)
+[前の記事](https://qryptraveller.com/a-story-of-travels-in-india-11-autobiography-096/)　｜　[次の記事](https://qryptraveller.com/the-story-of-meeting-gore-1-autobiography-098/)
 [/show\_for\_guests\_and\_members]
 [um\_show\_content roles='um\_custom\_role\_1']
 
@@ -144,6 +142,4 @@ background-color: #587746;
 
 列車では何も食べず、夕方から朝まで爆睡する事で何とかしのぐ事ができた。
 
-[前の記事０９６](https://qryptraveller.com/a-story-of-travels-in-india-11-autobiography-096/
-)　｜　[次の記事０９８](https://qryptraveller.com/the-story-of-meeting-gore-1-autobiography-098/
-)[/um\_show\_content]
+[/um\_show\_content]

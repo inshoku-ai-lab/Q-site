@@ -139,6 +139,4 @@ flags: ""
 
 この作業は、その後も数日にわたって行われ、強烈な塩素の匂いと共に洪水騒動は幕を閉じた。
 
-[前の記事０８７](https://qryptraveller.com/a-story-of-travels-in-india-2-autobiography-087/
-)　｜　[次の記事０８９](https://qryptraveller.com/a-story-of-travels-in-india-4-autobiography-089/
-)
+[前の記事](https://qryptraveller.com/a-story-of-travels-in-india-2-autobiography-087/)　｜　[次の記事](https://qryptraveller.com/a-story-of-travels-in-india-4-autobiography-089/)

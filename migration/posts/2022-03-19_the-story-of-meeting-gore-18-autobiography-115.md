@@ -103,6 +103,4 @@ flags: "no-images"
 
 ここまで息の合った兄弟はそんなにいるものでは無いし、僕たちが一緒に育っていなくて、数年前からの親友関係だと言う話を聞いて尚更驚いていた。
 
-[前の記事114](https://qryptraveller.com/the-story-of-meeting-gore-17-autobiography-114/
-)　｜　[次の記事116](https://qryptraveller.com/the-story-of-meeting-gore-19-autobiography-116/
-)
+[前の記事](https://qryptraveller.com/the-story-of-meeting-gore-17-autobiography-114/)　｜　[次の記事](https://qryptraveller.com/the-story-of-meeting-gore-19-autobiography-116/)

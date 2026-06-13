@@ -51,4 +51,3 @@ flags: "no-images"
 
 チロム自体がシヴァ神の陰茎を象徴しているので、それに触れてはいけないと言う意味もあるだろうし、色々な菌が蔓延るインドでの衛生観念の延長上にできた文化でもあるだろう。
 
-[前の記事](https://qryptraveller.com/autumn-in-the-himalayas-2-autobiography-207/)　｜　[次の記事](https://qryptraveller.com/autumn-in-the-himalayas-4-autobiography-209/)

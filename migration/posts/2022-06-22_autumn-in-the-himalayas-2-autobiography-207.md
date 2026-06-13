@@ -91,4 +91,4 @@ background-color: #587746;
 
 この村では、こういった感じで旅人同士の繋がりは強化されて行き、独特の文化を作っていくと言う訳だ。
 
-[前の記事](https://qryptraveller.com/autumn-in-the-himalayas-1-autobiography-206/)　｜　[次の記事](https://qryptraveller.com/autumn-in-the-himalayas-3-autobiography-208/)[/um\_show\_content]
+[/um\_show\_content]

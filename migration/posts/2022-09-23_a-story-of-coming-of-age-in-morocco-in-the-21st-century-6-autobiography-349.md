@@ -77,4 +77,4 @@ background-color: #587746;
 
 密売業者においても正直な商売が結果的に儲かるのである。
 
-[前の記事](https://qryptraveller.com/a-story-of-the-21st-century-in-morocco-5-autobiography-348/)　｜　[次の記事](https://qryptraveller.com/a-story-of-coming-of-age-in-morocco-in-the-21st-century7an-autobiography350/)[/um\_show\_content]
+[/um\_show\_content]

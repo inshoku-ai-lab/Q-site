@@ -75,4 +75,4 @@ background-color: #587746;
 
 ヒッピー旅人文化、及びサイトランス旅人文化とはそう言うものなのである。
 
-[前の記事](https://qryptraveller.com/24-autobiography-412-a-story-of-communal-living-in-a-saharan-oasis/)　｜　[次の記事](https://qryptraveller.com/the-story-of-living-together-in-a-sahara-desert-oasis26an-autobiography414/)[/um\_show\_content]
+[/um\_show\_content]

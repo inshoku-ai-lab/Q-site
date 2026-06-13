@@ -115,6 +115,4 @@ flags: ""
 
 とは言うものの、あのときカメラを持っていれば、色々といい写真をこのブログで紹介できたのになぁ、などと思う今日このごろです。
 
-[前の記事０８５](https://qryptraveller.com/travels-in-nepal-9-autobiography-085/
-)　｜　[次の記事０８７](https://qryptraveller.com/a-story-of-travels-in-india-2-autobiography-087/
-)
+[前の記事](https://qryptraveller.com/travels-in-nepal-9-autobiography-085/)　｜　[次の記事](https://qryptraveller.com/a-story-of-travels-in-india-2-autobiography-087/)

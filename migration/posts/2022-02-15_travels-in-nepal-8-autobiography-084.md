@@ -127,6 +127,4 @@ GさんのIさんに対する恋心に気づいていたわけでも無く、た
 
 僕には人を真剣に愛するような、心の準備は出来ていなかったんだと思う。
 
-[前の記事０８３](https://qryptraveller.com/travels-in-nepal-7-autobiography-083/
-)　｜　[次の記事０８５](https://qryptraveller.com/travels-in-nepal-9-autobiography-085/
-)
+[前の記事](https://qryptraveller.com/travels-in-nepal-7-autobiography-083/)　｜　[次の記事](https://qryptraveller.com/travels-in-nepal-9-autobiography-085/)

@@ -73,4 +73,4 @@ background-color: #587746;
 
 そして、秋の収穫期が終わり、大量の大麻樹脂が流通し始めていて、バシシトを出発する時期が近づいていた今が、絶好の買い付けのタイミングだった。
 
-[前の記事](https://qryptraveller.com/autumn-in-the-himalayas-26-autobiography-231/)　｜　[次の記事](https://qryptraveller.com/autumn-in-the-himalayas-28-autobiography-233/)[/um\_show\_content]
+[/um\_show\_content]

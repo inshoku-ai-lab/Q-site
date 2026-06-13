@@ -83,6 +83,6 @@ background-color: #587746;
 
 それが、ダンシング・ハイを求めるトランスの文化と相性がいいのだ。
 
-[前の記事](https://qryptraveller.com/the-story-of-a-hot-springs-village-in-the-himalayas-12-autobiography-189/)　｜　[次の記事](https://qryptraveller.com/14-autobiography-of-a-hot-springs-village-in-the-himalayas-191/)
+
 
 [/um\_show\_content]

@@ -113,4 +113,4 @@ MさんとNさんは二人で店舗内の映画紹介コーナーを運営して
 
 つづく。。。
 
-[前の記事０２９](https://qryptraveller.com/a-story-of-living-alone-in-a-dodgy-neighborhood-in-osaka-2-autobiography-029/)　｜　[次の記事０３１](https://qryptraveller.com/a-story-of-living-alone-in-a-dodgy-neighborhood-in-osaka-4-autobiography-031/)
+[前の記事](https://qryptraveller.com/a-story-of-living-alone-in-a-dodgy-neighborhood-in-osaka-2-autobiography-029/)　｜　[次の記事](https://qryptraveller.com/a-story-of-living-alone-in-a-dodgy-neighborhood-in-osaka-4-autobiography-031/)

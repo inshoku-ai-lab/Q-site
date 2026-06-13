@@ -98,4 +98,4 @@ flags: ""
 
 つづく。。。
 
-[前の記事０３３](https://qryptraveller.com/a-story-of-living-alone-in-a-dodgy-neighborhood-in-osaka-6-autobiography-033/)　｜　[次の記事０３５](https://qryptraveller.com/a-story-of-culture-shock-in-thailand-2-autobiography-035/)
+[前の記事](https://qryptraveller.com/a-story-of-living-alone-in-a-dodgy-neighborhood-in-osaka-6-autobiography-033/)　｜　[次の記事](https://qryptraveller.com/a-story-of-culture-shock-in-thailand-2-autobiography-035/)

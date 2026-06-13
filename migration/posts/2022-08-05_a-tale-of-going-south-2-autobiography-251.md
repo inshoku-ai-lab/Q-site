@@ -87,4 +87,4 @@ background-color: #587746;
 
 その話は後ほど書いていく。
 
-[前の記事](https://qryptraveller.com/a-tale-of-going-south-1-autobiography-250/)　｜　[次の記事](https://qryptraveller.com/a-tale-of-going-south-3-autobiography-252/)[/um\_show\_content]
+[/um\_show\_content]

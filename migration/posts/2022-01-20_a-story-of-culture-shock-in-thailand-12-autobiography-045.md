@@ -124,4 +124,4 @@ flags: "no-images"
 
 つづく。。。
 
-[前の記事０４４](https://qryptraveller.com/a-story-of-culture-shock-in-thailand-11-autobiography-044/)　｜　[次の記事０４６](https://qryptraveller.com/a-story-of-cultural-life-in-nishinari-1-autobiography-046)
+[前の記事](https://qryptraveller.com/a-story-of-culture-shock-in-thailand-11-autobiography-044/)　｜　[次の記事](https://qryptraveller.com/a-story-of-cultural-life-in-nishinari-1-autobiography-046/)

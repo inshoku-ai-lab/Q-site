@@ -32,9 +32,7 @@ transition: background-color 0.3s;
 .upgrade-button:hover {
 background-color: #587746;
 }
-[前の記事０８２](https://qryptraveller.com/a-story-of-travel-in-nepal-6-autobiography-082/
-)　｜　[次の記事０８４](https://qryptraveller.com/travels-in-nepal-8-autobiography-084/
-)
+[前の記事](https://qryptraveller.com/a-story-of-travel-in-nepal-6-autobiography-082/)　｜　[次の記事](https://qryptraveller.com/travels-in-nepal-8-autobiography-084/)
 [/show\_for\_guests\_and\_members]
 [um\_show\_content roles='um\_custom\_role\_1']
 
@@ -108,6 +106,4 @@ background-color: #587746;
 宿の主人から強く反省を促され、全ては一件落着した。
  
 全ては元の鞘に収まったが、僕のマヌケ具合も不甲斐なさも何も変わらず、旅の恥はかき捨てなんて言う言葉では補えないほどの恥を心に留めた。
-こうして僕の”四度目の正直”になるサイケデリック体験は大失敗で幕を閉じた。[前の記事０８２](https://qryptraveller.com/a-story-of-travel-in-nepal-6-autobiography-082/
-)　｜　[次の記事０８４](https://qryptraveller.com/travels-in-nepal-8-autobiography-084/
-)[/um\_show\_content]
+こうして僕の”四度目の正直”になるサイケデリック体験は大失敗で幕を閉じた。[/um\_show\_content]

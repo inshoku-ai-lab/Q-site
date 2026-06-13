@@ -86,8 +86,7 @@ transition: background-color 0.3s;
 .upgrade-button:hover {
 background-color: #587746;
 }
-[前の記事](https://qryptraveller.com/35-autobiography-475-the-story-of-working-in-a-mountain-lodge-in-the-northern-alps/)　｜　[次の記事](https://qryptraveller.com/37-autobiography-477-a-story-about-working-in-a-mountain-lodge-in-the-northern-alps/
-)[/show\_for\_guests\_and\_members]
+[前の記事](https://qryptraveller.com/35-autobiography-475-the-story-of-working-in-a-mountain-lodge-in-the-northern-alps/)　｜　[次の記事](https://qryptraveller.com/37-autobiography-477-a-story-about-working-in-a-mountain-lodge-in-the-northern-alps/)[/show\_for\_guests\_and\_members]
 [um\_show\_content roles='um\_custom\_role\_1']
 
 （以下内容転載禁止、法的対処有。）
@@ -104,4 +103,4 @@ background-color: #587746;
 
 以降のこの日の分の記事は、LSDでトビながら登山行をしていると思って読んでください。
 
-[前の記事](https://qryptraveller.com/35-autobiography-475-the-story-of-working-in-a-mountain-lodge-in-the-northern-alps/)　｜　[次の記事](https://qryptraveller.com/37-autobiography-477-a-story-about-working-in-a-mountain-lodge-in-the-northern-alps/)[/um\_show\_content]
+[/um\_show\_content]

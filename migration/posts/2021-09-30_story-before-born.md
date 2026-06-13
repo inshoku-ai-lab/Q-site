@@ -124,4 +124,4 @@ flags: ""
 
 つづく。。。
 
-[前の記事０００](https://qryptraveller.com/a-story-of-more-than-20-years-of-wandering-around-the-world/)　｜　[次の記事００２](https://qryptraveller.com/childhood-life-start-with-crash-of-family-life-002/)
+[前の記事](https://qryptraveller.com/a-story-of-more-than-20-years-of-wandering-around-the-world/)　｜　[次の記事](https://qryptraveller.com/childhood-life-start-with-crash-of-family-life-002/)

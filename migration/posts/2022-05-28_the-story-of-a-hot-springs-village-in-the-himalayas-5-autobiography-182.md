@@ -59,4 +59,3 @@ Rさんは自由意志で闇に堕ちて行くことを選択していた。
 
 果てし無く馬鹿げていて、完全に病的だが、不思議なことにRさん本人は相変わらず優しくて暖かな人柄を保っていた。
 
-[前の記事](https://qryptraveller.com/the-story-of-a-hot-springs-village-in-the-himalayas-4-autobiography-181/)　｜　[次の記事](https://qryptraveller.com/the-story-of-a-hot-springs-village-in-the-himalayas-6-autobiography-183/)

@@ -102,4 +102,4 @@ background-color: #587746;
 
 そんな無茶苦茶なことが起こりうるのが、ここインドのゴアだった。
 
-[前の記事](https://qryptraveller.com/a-story-of-awakening-to-gore-19-autobiography-136/)　｜　[次の記事](https://qryptraveller.com/a-story-of-awakening-to-gore-21-autobiography-138/)[/um\_show\_content]
+[/um\_show\_content]

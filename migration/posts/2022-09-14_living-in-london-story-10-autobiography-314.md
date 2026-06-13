@@ -71,4 +71,4 @@ background-color: #587746;
 
 僕はこのパーティーにチロムとインド産のチャラスを持って来ていたので、A君との出会いを祝してチロムで乾杯をした。
 
-[前の記事](https://qryptraveller.com/the-story-of-living-in-london-9-autobiography-313/)　｜　[次の記事](https://qryptraveller.com/the-story-of-living-in-london-11-autobiography-315/)[/um\_show\_content]
+[/um\_show\_content]

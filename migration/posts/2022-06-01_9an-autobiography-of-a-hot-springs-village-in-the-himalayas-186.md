@@ -73,6 +73,6 @@ background-color: #587746;
 
 またある側面では、その自由な行動や思想が行き過ぎて、地元の人たちに迷惑をかけることも多々あった。
 
-[前の記事](https://qryptraveller.com/8an-autobiography-of-a-hot-springs-village-in-the-himalayas-185/)　｜　[次の記事](https://qryptraveller.com/10-autobiography-of-a-hot-springs-village-in-the-himalayas-187/)
+
 
 [/um\_show\_content]

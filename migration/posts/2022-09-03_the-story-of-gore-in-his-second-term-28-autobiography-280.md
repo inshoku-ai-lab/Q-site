@@ -89,4 +89,4 @@ Sさんは「しっかりと止めて」と繰り返している。
 
 この頃にはもう僕の意識は異次元へと向かい始めていた。
 
-[前の記事](https://qryptraveller.com/gores-story-of-his-second-term-26-autobiography-279/)　｜　[次の記事](https://qryptraveller.com/gores-story-of-his-second-term-29-autobiography-281/)[/um\_show\_content]
+[/um\_show\_content]

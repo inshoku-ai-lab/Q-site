@@ -32,8 +32,7 @@ transition: background-color 0.3s;
 .upgrade-button:hover {
 background-color: #587746;
 }
-[前の記事](https://qryptraveller.com/the-story-of-a-hot-springs-village-in-the-himalayas-16-autobiography-193/
-)　｜　[次の記事](https://qryptraveller.com/the-story-of-a-hot-springs-village-in-the-himalayas-18-autobiography-195/)[/show\_for\_guests\_and\_members]
+[前の記事](https://qryptraveller.com/the-story-of-a-hot-springs-village-in-the-himalayas-16-autobiography-193/)　｜　[次の記事](https://qryptraveller.com/the-story-of-a-hot-springs-village-in-the-himalayas-18-autobiography-195/)[/show\_for\_guests\_and\_members]
 [um\_show\_content roles='um\_custom\_role\_1']
 
 （以下内容転載禁止、法的対処有。）
@@ -92,4 +91,4 @@ background-color: #587746;
 
 僕はチベタン蕎麦とチベタン餃子を頼んだが、ここでもやはり本場チベットで食べるよりも遥かに美味しかった。
 
-[前の記事](https://qryptraveller.com/the-story-of-a-hot-springs-village-in-the-himalayas-16-autobiography-193/)　｜　[次の記事](https://qryptraveller.com/the-story-of-a-hot-springs-village-in-the-himalayas-18-autobiography-195/)[/um\_show\_content]
+[/um\_show\_content]

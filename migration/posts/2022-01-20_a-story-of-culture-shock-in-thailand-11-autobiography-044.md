@@ -109,7 +109,7 @@ transition: background-color 0.3s;
 .upgrade-button:hover {
 background-color: #587746;
 }
-[前の記事０４３](https://qryptraveller.com/a-story-of-culture-shock-in-thailand-10-autobiography-043/)　｜　[次の記事０４５](https://qryptraveller.com/a-story-of-culture-shock-in-thailand-12-autobiography-045/)[/show\_for\_guests\_and\_members]
+[前の記事](https://qryptraveller.com/a-story-of-culture-shock-in-thailand-10-autobiography-043/)　｜　[次の記事](https://qryptraveller.com/a-story-of-culture-shock-in-thailand-12-autobiography-045/)[/show\_for\_guests\_and\_members]
 [um\_show\_content roles='um\_custom\_role\_1']
 
 （以下内容転載禁止、法的対処有。）
@@ -156,4 +156,4 @@ background-color: #587746;
 
 つづく。。。
 
-[前の記事０４３](https://qryptraveller.com/a-story-of-culture-shock-in-thailand-10-autobiography-043/)　｜　[次の記事０４５](https://qryptraveller.com/a-story-of-culture-shock-in-thailand-12-autobiography-045/)[/um\_show\_content]
+[/um\_show\_content]

@@ -32,9 +32,7 @@ transition: background-color 0.3s;
 .upgrade-button:hover {
 background-color: #587746;
 }
-[前の記事118](https://qryptraveller.com/a-story-of-awakening-to-gore-1-autobiography-118/
-)　｜　[次の記事120](https://qryptraveller.com/a-story-of-awakening-to-gore-3-autobiography-120/
-)
+[前の記事](https://qryptraveller.com/a-story-of-awakening-to-gore-1-autobiography-118/)　｜　[次の記事](https://qryptraveller.com/a-story-of-awakening-to-gore-3-autobiography-120/)
 [/show\_for\_guests\_and\_members]
 [um\_show\_content roles='um\_custom\_role\_1']
 
@@ -116,6 +114,4 @@ LSDは法律で禁止されている。
 
 彼は、この道を歩くことに迷いはなく、突き進んでいたが、その異常な生き様がパーティーでの踊りに現れており、その衝撃が僕をさらなる悩みへと引き込んでいった。
 
-[前の記事118](https://qryptraveller.com/a-story-of-awakening-to-gore-1-autobiography-118/
-)　｜　[次の記事120](https://qryptraveller.com/a-story-of-awakening-to-gore-3-autobiography-120/
-)[/um\_show\_content]
+[/um\_show\_content]

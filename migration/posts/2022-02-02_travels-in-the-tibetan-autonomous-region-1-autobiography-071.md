@@ -123,6 +123,4 @@ flags: "no-images"
 
 つづく。。。
 
-[前の記事０７０](https://qryptraveller.com/a-story-of-travels-in-communist-china-7-autobiography-070/
-)　｜　[次の記事０７２](https://qryptraveller.com/travels-in-the-tibetan-autonomous-region-2-autobiography-072/
-)
+[前の記事](https://qryptraveller.com/a-story-of-travels-in-communist-china-7-autobiography-070/)　｜　[次の記事](https://qryptraveller.com/travels-in-the-tibetan-autonomous-region-2-autobiography-072/)

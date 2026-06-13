@@ -107,4 +107,4 @@ flags: ""
 
 つづく。。。
 
-[前の記事０２１](https://qryptraveller.com/stories-of-life-in-peru-3-autobiography-021/)　｜　[次の記事０２３](https://qryptraveller.com/stories-of-life-in-peru-5-autobiography-023/)
+[前の記事](https://qryptraveller.com/stories-of-life-in-peru-3-autobiography-021/)　｜　[次の記事](https://qryptraveller.com/stories-of-life-in-peru-5-autobiography-023/)

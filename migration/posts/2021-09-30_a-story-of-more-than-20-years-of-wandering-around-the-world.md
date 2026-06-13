@@ -80,4 +80,4 @@ flags: "no-images"
 
 この放浪記が、読者のみなさんの日々の楽しみになれば幸いです。
 
-[続き、、、第一話、生まれて来る前の話。](https://qryptraveller.com/story-before-born/)
+[次の記事](https://qryptraveller.com/story-before-born/)

@@ -105,4 +105,4 @@ flags: ""
 
 つづく。。。
 
-[前の記事０２５](https://qryptraveller.com/the-story-of-the-first-normal-like-life-in-my-life-1-autobiography-025/)　｜　[次の記事０２７](https://qryptraveller.com/the-story-of-the-first-normal-like-life-in-my-life-3-autobiography-027/)
+[前の記事](https://qryptraveller.com/the-story-of-the-first-normal-like-life-in-my-life-1-autobiography-025/)　｜　[次の記事](https://qryptraveller.com/the-story-of-the-first-normal-like-life-in-my-life-3-autobiography-027/)

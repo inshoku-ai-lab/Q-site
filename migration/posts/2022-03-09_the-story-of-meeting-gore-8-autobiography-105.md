@@ -59,9 +59,7 @@ transition: background-color 0.3s;
 background-color: #587746;
 }
 
-[前の記事104](https://qryptraveller.com/the-story-of-meeting-gore-7-autobiography-104/
-)　｜　[次の記事106](https://qryptraveller.com/the-story-of-meeting-gore-9-autobiography-106/
-)
+[前の記事](https://qryptraveller.com/the-story-of-meeting-gore-7-autobiography-104/)　｜　[次の記事](https://qryptraveller.com/the-story-of-meeting-gore-9-autobiography-106/)
 
 [/show\_for\_guests\_and\_members]
 [um\_show\_content roles='um\_custom\_role\_1']
@@ -102,8 +100,6 @@ background-color: #587746;
 
 これはかなり重要な話なので、次回に続きます。
 
-[前の記事104](https://qryptraveller.com/the-story-of-meeting-gore-7-autobiography-104/
-)　｜　[次の記事106](https://qryptraveller.com/the-story-of-meeting-gore-9-autobiography-106/
-)
+
 
 [/um\_show\_content]

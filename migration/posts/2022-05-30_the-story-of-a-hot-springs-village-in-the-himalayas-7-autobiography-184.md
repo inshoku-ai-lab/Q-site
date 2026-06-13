@@ -81,6 +81,6 @@ Rさんの場合はブラウンシュガーだった。
 
 僕たちは、どうしようもないと言う事を受け入れ切って、ただRさんとの間に友情を育くみ続けるという事を選ぶ他なかった。
 
-[前の記事](https://qryptraveller.com/the-story-of-a-hot-springs-village-in-the-himalayas-6-autobiography-183/)　｜　[次の記事](https://qryptraveller.com/8an-autobiography-of-a-hot-springs-village-in-the-himalayas-185/)
+
 
 [/um\_show\_content]

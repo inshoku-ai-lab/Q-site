@@ -77,4 +77,4 @@ DJの練習を数ヶ月かけてこなした彼は、自分でパーティーを
 
 彼は、無理と思われるような目標を達成することに恍惚感を感じていた。
 
-[前の記事](https://qryptraveller.com/gores-story-43-autobiography-295-of-his-second-term/)　｜　[次の記事](https://qryptraveller.com/gores-story-of-his-second-term-45-autobiography-297/)[/um\_show\_content]
+[/um\_show\_content]

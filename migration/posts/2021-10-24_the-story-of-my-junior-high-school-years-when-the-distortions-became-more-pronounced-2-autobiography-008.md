@@ -149,4 +149,4 @@ flags: ""
 
 つづく。。。
 
-[前の記事００７](https://qryptraveller.com/the-story-of-my-junior-high-school-years-when-the-distortions-became-more-pronounced-1-autobiography-007/)　｜　[次の記事００９](https://qryptraveller.com/the-story-of-my-junior-high-school-years-when-the-distortions-became-more-pronounced-3-autobiography-009/)
+[前の記事](https://qryptraveller.com/the-story-of-my-junior-high-school-years-when-the-distortions-became-more-pronounced-1-autobiography-007/)　｜　[次の記事](https://qryptraveller.com/the-story-of-my-junior-high-school-years-when-the-distortions-became-more-pronounced-3-autobiography-009/)

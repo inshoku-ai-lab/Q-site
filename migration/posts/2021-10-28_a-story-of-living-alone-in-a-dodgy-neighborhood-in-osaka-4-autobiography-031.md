@@ -95,4 +95,4 @@ flags: ""
 
 つづく。。。
 
-[前の記事０３０](https://qryptraveller.com/a-story-of-living-alone-in-a-dodgy-neighborhood-in-osaka-3-autobiography-030/)　｜　[次の記事０３２](https://qryptraveller.com/a-story-of-living-alone-in-a-dodgy-neighborhood-in-osaka-5-autobiography-032/)
+[前の記事](https://qryptraveller.com/a-story-of-living-alone-in-a-dodgy-neighborhood-in-osaka-3-autobiography-030/)　｜　[次の記事](https://qryptraveller.com/a-story-of-living-alone-in-a-dodgy-neighborhood-in-osaka-5-autobiography-032/)

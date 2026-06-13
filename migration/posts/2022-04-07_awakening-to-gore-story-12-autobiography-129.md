@@ -110,6 +110,6 @@ RさんとNちゃんは標準的だが、痩せていて体力の無い芸術肌
 
 僕たちは試行錯誤をしながら最大限に楽しめるように準備を整えて、野外のパーティーに望んだ。
 
-[前の記事](https://qryptraveller.com/a-story-of-awakening-to-gore-11-autobiography-128/)　｜　[次の記事](https://qryptraveller.com/awakening-to-gore-13-autobiography-130/)
+
 
 [/um\_show\_content]

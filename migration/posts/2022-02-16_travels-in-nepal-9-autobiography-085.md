@@ -99,6 +99,4 @@ flags: ""
 
 おじさんの地味な格好に、彼のカラフルなズボンのコントラストがあまりにも奇抜で、インドのシュールな面白さを体験したと言う話。。。
 
-[前の記事０８４](https://qryptraveller.com/travels-in-nepal-8-autobiography-084/
-)　｜　[次の記事０８６](https://qryptraveller.com/a-story-of-travels-in-india-1-autobiography-086/
-)
+[前の記事](https://qryptraveller.com/travels-in-nepal-8-autobiography-084/)　｜　[次の記事](https://qryptraveller.com/a-story-of-travels-in-india-1-autobiography-086/)

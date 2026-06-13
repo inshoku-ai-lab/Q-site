@@ -92,4 +92,4 @@ https://www.youtube.com/watch?v=o8Fkpbt82Dc
 
 つづく。。。
 
-[前の記事０２８](https://qryptraveller.com/a-story-of-living-alone-in-a-dodgy-neighborhood-in-osaka-1-autobiography-028/)　｜　[次の記事０３０](https://qryptraveller.com/a-story-of-living-alone-in-a-dodgy-neighborhood-in-osaka-3-autobiography-030/)
+[前の記事](https://qryptraveller.com/a-story-of-living-alone-in-a-dodgy-neighborhood-in-osaka-1-autobiography-028/)　｜　[次の記事](https://qryptraveller.com/a-story-of-living-alone-in-a-dodgy-neighborhood-in-osaka-3-autobiography-030/)

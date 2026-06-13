@@ -77,4 +77,4 @@ background-color: #587746;
 
 一度ゴアを深く経験した旅人はゴアの自由度に合わせて自身の意識を拡大するために、ゴア以外の場所にいると、刑務所の中にいるかのような窮屈さを感じることになる。
 
-[前の記事](https://qryptraveller.com/gores-story-of-his-second-term-17-autobiography-269/)　｜　[次の記事](https://qryptraveller.com/gores-story-of-his-second-term-19-autobiography-271/)[/um\_show\_content]
+[/um\_show\_content]

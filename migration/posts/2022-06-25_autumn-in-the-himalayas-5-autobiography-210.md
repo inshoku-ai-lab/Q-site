@@ -75,4 +75,4 @@ background-color: #587746;
 
 怖いもの無しでリスク大歓迎の彼らなのだ。
 
-[前の記事](https://qryptraveller.com/autumn-in-the-himalayas-4-autobiography-209/)　｜　[次の記事](https://qryptraveller.com/autumn-in-the-himalayas-6-autobiography-211/)[/um\_show\_content]
+[/um\_show\_content]

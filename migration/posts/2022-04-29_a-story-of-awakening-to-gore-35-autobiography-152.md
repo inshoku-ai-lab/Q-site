@@ -78,4 +78,4 @@ background-color: #587746;
 
 良くも悪くも、警察が賄賂まみれで役に立たないゴアでは、西部劇の時代のようなワイルドさがあった。
 
-[前の記事](https://qryptraveller.com/a-story-of-awakening-to-gore-34-autobiography-151/)　｜　[次の記事](https://qryptraveller.com/a-story-of-awakening-to-gore-36-autobiography-153/)[/um\_show\_content]
+[/um\_show\_content]

@@ -73,4 +73,4 @@ background-color: #587746;
 
 初めてきたゴアのパーティーがこれなら、なんの違和感もなく受け入れるのだろうが、過去の栄光を知っているものたちは、残念に思っていた。
 
-[前の記事](https://qryptraveller.com/gores-story-of-his-second-term-5-autobiography-257/)　｜　[次の記事](https://qryptraveller.com/gores-story-of-his-second-term-7-autobiography-259/)[/um\_show\_content]
+[/um\_show\_content]

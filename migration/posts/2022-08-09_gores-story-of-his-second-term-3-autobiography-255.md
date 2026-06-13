@@ -79,4 +79,4 @@ background-color: #587746;
 
 今年は、さらにお金をかけて改装してさらに巨大になって新規オープンするはずだったものが、あまりに目立ちすぎて警察に潰されてしまった。
 
-[前の記事](https://qryptraveller.com/gores-story-2-autobiography-254-of-his-second-term/)　｜　[次の記事](https://qryptraveller.com/gores-story-4-autobiography-256-of-his-second-term/)[/um\_show\_content]
+[/um\_show\_content]

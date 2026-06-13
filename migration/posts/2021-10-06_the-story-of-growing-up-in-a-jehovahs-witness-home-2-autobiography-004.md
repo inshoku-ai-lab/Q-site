@@ -116,4 +116,4 @@ flags: ""
 
 つづく。。。
 
-[前の記事００３](https://qryptraveller.com/the-story-of-growing-up-in-a-jehovahs-witness-home-1-autobiography-003/)　｜　[次の記事００５](https://qryptraveller.com/the-story-of-my-elementary-school-days-facing-the-harshness-of-society-1-autobiography-005/)
+[前の記事](https://qryptraveller.com/the-story-of-growing-up-in-a-jehovahs-witness-home-1-autobiography-003/)　｜　[次の記事](https://qryptraveller.com/the-story-of-my-elementary-school-days-facing-the-harshness-of-society-1-autobiography-005/)

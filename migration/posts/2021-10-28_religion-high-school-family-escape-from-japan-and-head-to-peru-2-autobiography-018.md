@@ -111,4 +111,4 @@ flags: ""
 
 つづく。。。
 
-[前の記事０１７](https://qryptraveller.com/religion-high-school-family-escape-from-japan-and-head-to-peru-1-autobiography-017/)　｜　[次の記事０１９](https://qryptraveller.com/stories-of-life-in-peru-1-autobiography-019/)
+[前の記事](https://qryptraveller.com/religion-high-school-family-escape-from-japan-and-head-to-peru-1-autobiography-017/)　｜　[次の記事](https://qryptraveller.com/stories-of-life-in-peru-1-autobiography-019/)

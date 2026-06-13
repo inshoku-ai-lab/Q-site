@@ -77,4 +77,4 @@ OLの仕事を経験して、上司とうまくやっていた事にも腹が立
 
 そんな事は本当に濡れ衣でしかないし、無茶苦茶な八つ当たりだが、僕は一方的に自分勝手な理由で相手を責めていた。
 
-[前の記事](https://qryptraveller.com/the-story-of-gore-in-his-second-term-8-autobiography-260/)　｜　[次の記事](https://qryptraveller.com/gores-story-of-his-second-term-10-autobiography-262/)[/um\_show\_content]
+[/um\_show\_content]

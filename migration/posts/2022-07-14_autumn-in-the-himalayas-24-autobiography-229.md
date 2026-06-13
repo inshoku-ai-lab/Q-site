@@ -93,4 +93,4 @@ background-color: #587746;
 
 結局なんだったのかは分からずじまいだったが、阿片による幽体離脱のような体験だったと捉えている。
 
-[前の記事](https://qryptraveller.com/autumn-in-the-himalayas-23-autobiography-228/)　｜　[次の記事](https://qryptraveller.com/autumn-in-the-himalayas-25-autobiography-230/)[/um\_show\_content]
+[/um\_show\_content]

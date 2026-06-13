@@ -71,4 +71,4 @@ background-color: #587746;
 
 僕たちは真昼間の公園のど真ん中で、シヴァ神に感謝を捧げて、インド式にレゲエカーニバルを祝った。
 
-[前の記事](https://qryptraveller.com/the-story-of-living-in-london-17-autobiography-321/)　｜　[次の記事](https://qryptraveller.com/the-story-of-living-in-london-19-autobiography-323/)[/um\_show\_content]
+[/um\_show\_content]

@@ -112,4 +112,4 @@ DJテーブルのそばには、宇宙の想像と破壊を司るシヴァ神の
 
 僕はそれが意味しているところを、このパーティーを通して知ることになる。
 
-[前の記事](https://qryptraveller.com/a-story-of-awakening-to-gore-22-autobiography-139/)　｜　[次の記事](https://qryptraveller.com/a-story-of-awakening-to-gore-24-autobiography-141/)[/um\_show\_content]
+[/um\_show\_content]

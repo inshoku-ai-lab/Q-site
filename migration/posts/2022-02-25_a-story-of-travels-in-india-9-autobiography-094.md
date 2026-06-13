@@ -99,6 +99,4 @@ flags: ""
 
 寄生虫やアメーバが、身体に入っていた可能性はあるが、少なくとも直接的な症状は出なかったので良しとした。
 
-[前の記事０９３](https://qryptraveller.com/a-story-of-travels-in-india-8-autobiography-093/
-)　｜　[次の記事０９５](https://qryptraveller.com/a-story-of-travels-in-india-10-autobiography-095/
-)
+[前の記事](https://qryptraveller.com/a-story-of-travels-in-india-8-autobiography-093/)　｜　[次の記事](https://qryptraveller.com/a-story-of-travels-in-india-10-autobiography-095/)

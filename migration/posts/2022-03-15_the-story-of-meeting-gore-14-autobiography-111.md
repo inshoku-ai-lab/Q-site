@@ -89,9 +89,7 @@ transition: background-color 0.3s;
 background-color: #587746;
 }
 
-[前の記事11０](https://qryptraveller.com/the-story-of-meeting-gore-13-autobiography-110/
-)　｜　[次の記事112](https://qryptraveller.com/the-story-of-meeting-gore-15-autobiography-112/
-)
+[前の記事](https://qryptraveller.com/the-story-of-meeting-gore-13-autobiography-110/)　｜　[次の記事](https://qryptraveller.com/the-story-of-meeting-gore-15-autobiography-112/)
 
 [/show\_for\_guests\_and\_members]
 [um\_show\_content roles='um\_custom\_role\_1']
@@ -130,8 +128,6 @@ EちゃんとCさんに対する嫉妬心や理解できない状況に対する
 
 Sくんは日に日に焦燥し弱っていった。
 
-[前の記事11０](https://qryptraveller.com/the-story-of-meeting-gore-13-autobiography-110/
-)　｜　[次の記事112](https://qryptraveller.com/the-story-of-meeting-gore-15-autobiography-112/
-)
+
 
 [/um\_show\_content]

@@ -85,4 +85,4 @@ background-color: #587746;
 
 また、ゴアに通っている人たちが集まってパーティーをしているという噂も聞いていたので、何か面白い体験ができるんじゃないかと考えていた。
 
-[前の記事](https://qryptraveller.com/gores-story-of-his-second-term-46-autobiography-298/)　｜　[次の記事](https://qryptraveller.com/gores-story-of-his-second-term-48-autobiography-300/)[/um\_show\_content]
+[/um\_show\_content]

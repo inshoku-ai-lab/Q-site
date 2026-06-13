@@ -115,4 +115,4 @@ flags: ""
 
 つづく。。。
 
-[前の記事０１６](https://qryptraveller.com/high-school-story-of-repressed-anger-explodes-4-autobiography-016/)　｜　[次の記事０１８](https://qryptraveller.com/religion-high-school-family-escape-from-japan-and-head-to-peru-2-autobiography-018/)
+[前の記事](https://qryptraveller.com/high-school-story-of-repressed-anger-explodes-4-autobiography-016/)　｜　[次の記事](https://qryptraveller.com/religion-high-school-family-escape-from-japan-and-head-to-peru-2-autobiography-018/)

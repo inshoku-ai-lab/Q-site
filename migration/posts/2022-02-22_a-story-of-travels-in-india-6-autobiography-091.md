@@ -129,6 +129,4 @@ flags: ""
 
 無理やり起こしてくれた少年に感謝して1日が始まった。
 
-[前の記事０９０](https://qryptraveller.com/a-story-of-travels-in-india-5-autobiography-090/
-)　｜　[次の記事０９２](https://qryptraveller.com/a-story-of-travels-in-india-7-autobiography-092/
-)
+[前の記事](https://qryptraveller.com/a-story-of-travels-in-india-5-autobiography-090/)　｜　[次の記事](https://qryptraveller.com/a-story-of-travels-in-india-7-autobiography-092/)

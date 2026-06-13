@@ -87,7 +87,6 @@ background-color: #587746;
 
 彼女の自由で強大なエネルギーはパーティー全体に恵みをもたらしていた。
 
-[前の記事](https://qryptraveller.com/the-story-of-a-hot-springs-village-in-the-himalayas-13-autobiography-190/
-)　｜　[次の記事](https://qryptraveller.com/15-autobiography-of-a-hot-springs-village-in-the-himalayas-192/)
+
 
 [/um\_show\_content]

@@ -77,4 +77,4 @@ background-color: #587746;
 
 だが、この村や彼の感覚にとっては、チロムで大麻を吸うことはシヴァ神を崇拝する為の神聖なもので、できる限り大声で叫ぶ事が良しとされた。
 
-[前の記事](https://qryptraveller.com/autumn-in-the-himalayas-20-autobiography-225/)　｜　[次の記事](https://qryptraveller.com/autumn-in-the-himalayas-22-autobiography-227/)[/um\_show\_content]
+[/um\_show\_content]

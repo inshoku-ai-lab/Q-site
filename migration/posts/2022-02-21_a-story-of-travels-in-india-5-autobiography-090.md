@@ -97,6 +97,4 @@ flags: ""
 
 もっと前は外国人優遇措置なども無かったので、かなり大変だが、その分よりリアルな旅があったんだと思う。
 
-[前の記事０８９](https://qryptraveller.com/a-story-of-travels-in-india-4-autobiography-089/
-)　｜　[次の記事０９１](https://qryptraveller.com/a-story-of-travels-in-india-6-autobiography-091/
-)
+[前の記事](https://qryptraveller.com/a-story-of-travels-in-india-4-autobiography-089/)　｜　[次の記事](https://qryptraveller.com/a-story-of-travels-in-india-6-autobiography-091/)

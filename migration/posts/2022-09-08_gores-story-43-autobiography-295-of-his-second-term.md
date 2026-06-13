@@ -79,4 +79,4 @@ background-color: #587746;
 
 良くも悪くもそれぞれの利害関係が見事に一致し合い、絶妙な砂上の楼閣の上に幻の楽園を作り上げていた。
 
-[前の記事](https://qryptraveller.com/gores-story-of-his-second-term-42-autobiography-294/)　｜　[次の記事](https://qryptraveller.com/gores-story-of-his-second-term-44-autobiography-296/)[/um\_show\_content]
+[/um\_show\_content]

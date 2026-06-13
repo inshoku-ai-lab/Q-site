@@ -32,9 +32,7 @@ transition: background-color 0.3s;
 .upgrade-button:hover {
 background-color: #587746;
 }
-[前の記事０８１](https://qryptraveller.com/travels-in-nepal-5-autobiography-081/
-)　｜　[次の記事０８３](https://qryptraveller.com/travels-in-nepal-7-autobiography-083/
-)
+[前の記事](https://qryptraveller.com/travels-in-nepal-5-autobiography-081/)　｜　[次の記事](https://qryptraveller.com/travels-in-nepal-7-autobiography-083/)
 [/show\_for\_guests\_and\_members]
 [um\_show\_content roles='um\_custom\_role\_1']
 
@@ -104,6 +102,4 @@ background-color: #587746;
 ドンドン訳が分からなくなっていき、楽しいとか気持ちが良いとかの話とは全く別物だ。
 ぶん殴って取り返したいが、エホバの証人として育ったことで、条件反射として人を殴ったりなど出来ないようになっている。
 平和主義が裏目に出た。
-情けないことに結局何も出来ないまま、彼のバイクの後ろに乗って家まで送り返された。[前の記事０８１](https://qryptraveller.com/travels-in-nepal-5-autobiography-081/
-)　｜　[次の記事０８３](https://qryptraveller.com/travels-in-nepal-7-autobiography-083/
-)[/um\_show\_content]
+情けないことに結局何も出来ないまま、彼のバイクの後ろに乗って家まで送り返された。[/um\_show\_content]

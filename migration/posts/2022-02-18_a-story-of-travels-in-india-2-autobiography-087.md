@@ -101,9 +101,7 @@ transition: background-color 0.3s;
 background-color: #587746;
 }
 
-[前の記事０８６](https://qryptraveller.com/a-story-of-travels-in-india-1-autobiography-086/
-)　｜　[次の記事０８８](https://qryptraveller.com/a-story-of-travels-in-india-3-autobiography-088/
-)
+[前の記事](https://qryptraveller.com/a-story-of-travels-in-india-1-autobiography-086/)　｜　[次の記事](https://qryptraveller.com/a-story-of-travels-in-india-3-autobiography-088/)
 
 [/show\_for\_guests\_and\_members]
 [um\_show\_content roles='um\_custom\_role\_1']
@@ -126,8 +124,6 @@ background-color: #587746;
 
 大麻を一緒に吸って馬鹿笑いすることがこんなにも楽しいとは想像を遥かに超えていて、僕は一気に大麻の友好的な雰囲気の虜になった。
 
-[前の記事０８６](https://qryptraveller.com/a-story-of-travels-in-india-1-autobiography-086/
-)　｜　[次の記事０８８](https://qryptraveller.com/a-story-of-travels-in-india-3-autobiography-088/
-)
+
 
 [/um\_show\_content]

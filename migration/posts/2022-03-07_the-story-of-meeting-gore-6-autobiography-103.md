@@ -72,9 +72,7 @@ transition: background-color 0.3s;
 background-color: #587746;
 }
 
-[前の記事102](https://qryptraveller.com/the-story-of-meeting-gore-5-autobiography-102/
-)　｜　[次の記事104](https://qryptraveller.com/the-story-of-meeting-gore-7-autobiography-104/
-)
+[前の記事](https://qryptraveller.com/the-story-of-meeting-gore-5-autobiography-102/)　｜　[次の記事](https://qryptraveller.com/the-story-of-meeting-gore-7-autobiography-104/)
 
 [/show\_for\_guests\_and\_members]
 [um\_show\_content roles='um\_custom\_role\_1']
@@ -129,8 +127,6 @@ background-color: #587746;
 
 駐車場にバイクを止めてバーへと向かう間に すでに僕は盛り上がりきっていて、両手を上げて叫びながらバーへと走りだす。
 
-[前の記事102](https://qryptraveller.com/the-story-of-meeting-gore-5-autobiography-102/
-)　｜　[次の記事104](https://qryptraveller.com/the-story-of-meeting-gore-7-autobiography-104/
-)
+
 
 [/um\_show\_content]

@@ -89,9 +89,7 @@ transition: background-color 0.3s;
 background-color: #587746;
 }
 
-[前の記事100](https://qryptraveller.com/the-story-of-meeting-gore-3-autobiography-100/
-)　｜　[次の記事1０2](https://qryptraveller.com/the-story-of-meeting-gore-5-autobiography-102/
-)
+[前の記事](https://qryptraveller.com/the-story-of-meeting-gore-3-autobiography-100/)　｜　[次の記事](https://qryptraveller.com/the-story-of-meeting-gore-5-autobiography-102/)
 
 [/show\_for\_guests\_and\_members]
 [um\_show\_content roles='um\_custom\_role\_1']
@@ -126,8 +124,6 @@ Mさんは、レストランで無給で働いている。
 
 だが、これはまだまだ序の口で、ゴアから受ける衝撃はこんなものでは無かった。
 
-[前の記事100](https://qryptraveller.com/the-story-of-meeting-gore-3-autobiography-100/
-)　｜　[次の記事1０2](https://qryptraveller.com/the-story-of-meeting-gore-5-autobiography-102/
-)
+
 
 [/um\_show\_content]

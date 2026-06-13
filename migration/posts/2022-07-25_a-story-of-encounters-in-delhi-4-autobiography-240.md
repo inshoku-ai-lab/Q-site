@@ -81,4 +81,4 @@ Jさんにしろ、Dさんにしろ、僕たちにしろ、宿にいるほぼ全
 
 Jさんは、そのコミュニティの先人だった。
 
-[前の記事](https://qryptraveller.com/a-story-of-encounters-in-delhi-3-autobiography-239/)　｜　[次の記事](https://qryptraveller.com/a-story-of-encounters-in-delhi-5-autobiography-241/)[/um\_show\_content]
+[/um\_show\_content]

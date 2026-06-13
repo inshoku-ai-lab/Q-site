@@ -85,4 +85,4 @@ background-color: #587746;
 
 こうして、生まれ直しの儀式を通り抜けた事で、１週間かけて人生最大のイベントを乗り切ることができた。
 
-[前の記事](https://qryptraveller.com/gores-story-of-his-second-term-41-autobiography-293/)　｜　[次の記事](https://qryptraveller.com/gores-story-43-autobiography-295-of-his-second-term/)[/um\_show\_content]
+[/um\_show\_content]

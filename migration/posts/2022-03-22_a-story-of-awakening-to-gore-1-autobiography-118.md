@@ -42,9 +42,7 @@ transition: background-color 0.3s;
 .upgrade-button:hover {
 background-color: #587746;
 }
-[前の記事117](https://qryptraveller.com/the-story-of-meeting-gore-20-autobiography-117/
-)　｜　[次の記事119](https://qryptraveller.com/a-story-of-awakening-to-gore-2-autobiography-119/
-)
+[前の記事](https://qryptraveller.com/the-story-of-meeting-gore-20-autobiography-117/)　｜　[次の記事](https://qryptraveller.com/a-story-of-awakening-to-gore-2-autobiography-119/)
 [/show\_for\_guests\_and\_members]
 [um\_show\_content roles='um\_custom\_role\_1']
 
@@ -118,6 +116,4 @@ background-color: #587746;
 
 だが、ここへ来て大きな実存的命題が立ち上がって来た。
 
-[前の記事117](https://qryptraveller.com/the-story-of-meeting-gore-20-autobiography-117/
-)　｜　[次の記事119](https://qryptraveller.com/a-story-of-awakening-to-gore-2-autobiography-119/
-)[/um\_show\_content]
+[/um\_show\_content]

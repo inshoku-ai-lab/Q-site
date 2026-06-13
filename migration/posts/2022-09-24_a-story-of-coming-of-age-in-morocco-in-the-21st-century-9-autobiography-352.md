@@ -67,4 +67,4 @@ background-color: #587746;
 
 これは僕の中で納得のいくラインだった。
 
-[前の記事](https://qryptraveller.com/a-story-of-coming-of-age-in-morocco-in-the-21st-century-8-autobiography-351/)　｜　[次の記事](https://qryptraveller.com/ten-autobiographies-353-the-story-of-the-21st-century-in-morocco/)[/um\_show\_content]
+[/um\_show\_content]

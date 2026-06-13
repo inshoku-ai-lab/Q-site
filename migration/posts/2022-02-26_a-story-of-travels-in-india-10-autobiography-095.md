@@ -119,6 +119,4 @@ flags: ""
 
 結局、次に出発する列車のチケットを少し割安の値段で買うことになり、駅員の助けもあり、無事に次の列車に乗ることができた。
 
-[前の記事０９４](https://qryptraveller.com/a-story-of-travels-in-india-9-autobiography-094/
-)　｜　[次の記事０９６](https://qryptraveller.com/a-story-of-travels-in-india-11-autobiography-096/
-)
+[前の記事](https://qryptraveller.com/a-story-of-travels-in-india-9-autobiography-094/)　｜　[次の記事](https://qryptraveller.com/a-story-of-travels-in-india-11-autobiography-096/)

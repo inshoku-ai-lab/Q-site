@@ -100,6 +100,6 @@ background-color: #587746;
 
 好きな人は好きらしいが、僕には何の興味も喚び起さなかった。
 
-[前の記事](https://qryptraveller.com/story-of-returning-to-japan-1an-autobiography-157/)　｜　[次の記事](https://qryptraveller.com/story-of-returning-to-japan-3-autobiography-159/)
+
 
 [/um\_show\_content]

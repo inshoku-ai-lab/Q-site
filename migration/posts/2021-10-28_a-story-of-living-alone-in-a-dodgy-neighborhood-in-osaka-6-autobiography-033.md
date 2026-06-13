@@ -92,4 +92,4 @@ Youtubeビデオ
 
 つづく。。。
 
-[前の記事０３２](https://qryptraveller.com/a-story-of-living-alone-in-a-dodgy-neighborhood-in-osaka-5-autobiography-032/)　｜　[次の記事０３４](https://qryptraveller.com/a-story-of-culture-shock-in-thailand-1-autobiography-034/)
+[前の記事](https://qryptraveller.com/a-story-of-living-alone-in-a-dodgy-neighborhood-in-osaka-5-autobiography-032/)　｜　[次の記事](https://qryptraveller.com/a-story-of-culture-shock-in-thailand-1-autobiography-034/)

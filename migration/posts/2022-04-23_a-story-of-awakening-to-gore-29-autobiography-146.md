@@ -92,4 +92,4 @@ background-color: #587746;
 
 それまでは社会の枠組みの中で存在していたが、その枠組みが取っ払われ、無限の可能性を得たように感じた。
 
-[前の記事](https://qryptraveller.com/a-story-of-awakening-to-gore-28-autobiography-145/)　｜　[次の記事](https://qryptraveller.com/a-story-of-awakening-to-gore-30-autobiography-147/)[/um\_show\_content]
+[/um\_show\_content]

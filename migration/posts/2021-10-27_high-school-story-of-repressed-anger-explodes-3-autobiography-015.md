@@ -107,4 +107,4 @@ flags: ""
 
 つづく。。。
 
-[前の記事０１４](https://qryptraveller.com/high-school-story-of-repressed-anger-explodes-2-autobiography-014/)　｜　[次の記事０１６](https://qryptraveller.com/high-school-story-of-repressed-anger-explodes-4-autobiography-016/)
+[前の記事](https://qryptraveller.com/high-school-story-of-repressed-anger-explodes-2-autobiography-014/)　｜　[次の記事](https://qryptraveller.com/high-school-story-of-repressed-anger-explodes-4-autobiography-016/)

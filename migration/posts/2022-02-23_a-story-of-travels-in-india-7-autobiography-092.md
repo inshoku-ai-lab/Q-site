@@ -111,6 +111,4 @@ flags: ""
 
 崩壊した家庭から、やって来た僕には少し面倒くさかったが。。。
 
-[前の記事０９１](https://qryptraveller.com/a-story-of-travels-in-india-6-autobiography-091/
-)　｜　[次の記事０９３](https://qryptraveller.com/a-story-of-travels-in-india-8-autobiography-093/
-)
+[前の記事](https://qryptraveller.com/a-story-of-travels-in-india-6-autobiography-091/)　｜　[次の記事](https://qryptraveller.com/a-story-of-travels-in-india-8-autobiography-093/)

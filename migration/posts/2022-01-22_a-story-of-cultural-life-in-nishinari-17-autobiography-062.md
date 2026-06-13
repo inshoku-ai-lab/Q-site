@@ -82,7 +82,7 @@ transition: background-color 0.3s;
 background-color: #587746;
 }
 
-[前の記事０６１](https://qryptraveller.com/a-story-of-cultural-life-in-nishinari-16-autobiography-061/)　｜　[次の記事０６３](https://qryptraveller.com/a-story-of-cultural-life-in-nishinari-18-autobiography-063/)
+[前の記事](https://qryptraveller.com/a-story-of-cultural-life-in-nishinari-16-autobiography-061/)　｜　[次の記事](https://qryptraveller.com/a-story-of-cultural-life-in-nishinari-18-autobiography-063/)
 
 [/show\_for\_guests\_and\_members]
 [um\_show\_content roles='um\_custom\_role\_1']
@@ -143,6 +143,6 @@ background-color: #587746;
 
 つづく。。。
 
-[前の記事０６１](https://qryptraveller.com/a-story-of-cultural-life-in-nishinari-16-autobiography-061/)　｜　[次の記事０６３](https://qryptraveller.com/a-story-of-cultural-life-in-nishinari-18-autobiography-063/)
+
 
 [/um\_show\_content]

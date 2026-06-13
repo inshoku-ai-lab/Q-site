@@ -66,8 +66,7 @@ transition: background-color 0.3s;
 .upgrade-button:hover {
 background-color: #587746;
 }
-[前の記事](https://qryptraveller.com/the-story-of-returning-to-japan-10-autobiography-166/)　｜　[次の記事](
-)[/show\_for\_guests\_and\_members]
+[前の記事](https://qryptraveller.com/the-story-of-returning-to-japan-10-autobiography-166/)　｜　[次の記事](https://qryptraveller.com/the-story-of-returning-to-japan-12-autobiography-168/)[/show\_for\_guests\_and\_members]
 [um\_show\_content roles='um\_custom\_role\_1']
 
 （以下内容転載禁止、法的対処有。）
@@ -88,6 +87,6 @@ background-color: #587746;
 
 だからと言って日本社会に合わせようと言う気などサラサラ無かったので仕方のないことだったが。
 
-[前の記事](https://qryptraveller.com/the-story-of-returning-to-japan-10-autobiography-166/)　｜　[次の記事](https://qryptraveller.com/the-story-of-returning-to-japan-12-autobiography-168/)
+
 
 [/um\_show\_content]

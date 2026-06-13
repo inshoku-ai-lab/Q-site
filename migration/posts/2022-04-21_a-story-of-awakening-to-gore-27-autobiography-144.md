@@ -100,4 +100,4 @@ background-color: #587746;
 
 僕たちはゴアのクリスマス・パーティーによって解放されたのだ。
 
-[前の記事](https://qryptraveller.com/a-story-of-awakening-to-gore-26-autobiography-143/)　｜　[次の記事](https://qryptraveller.com/a-story-of-awakening-to-gore-28-autobiography-145/)[/um\_show\_content]
+[/um\_show\_content]

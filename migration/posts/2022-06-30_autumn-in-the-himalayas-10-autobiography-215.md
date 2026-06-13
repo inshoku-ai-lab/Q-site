@@ -77,4 +77,4 @@ background-color: #587746;
 
 そして、それは大惨事という形で現れてきた。
 
-[前の記事](https://qryptraveller.com/autumn-in-the-himalayas-9-autobiography-214/)　｜　[次の記事](https://qryptraveller.com/autumn-in-the-himalayas-11-autobiography-216/)[/um\_show\_content]
+[/um\_show\_content]

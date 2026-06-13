@@ -81,4 +81,4 @@ background-color: #587746;
 
 馬鹿げてはいるが、良質の大麻にはそれほどの価値があった。
 
-[前の記事](https://qryptraveller.com/autumn-in-the-himalayas-18-autobiography-223/)　｜　[次の記事](https://qryptraveller.com/autumn-in-the-himalayas-20-autobiography-225/)[/um\_show\_content]
+[/um\_show\_content]

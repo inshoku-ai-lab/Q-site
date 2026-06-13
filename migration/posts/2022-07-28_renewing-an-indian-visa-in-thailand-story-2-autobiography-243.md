@@ -87,5 +87,4 @@ background-color: #587746;
 
 だが、身の安全に関わる重大事なので、なんとか熱心に警官を説得することを試みた。
 
-[前の記事](https://qryptraveller.com/renewing-an-indian-visa-in-thailand-story-1-autobiography-242/
-)　｜　[次の記事](https://qryptraveller.com/renewing-an-indian-visa-in-thailand-story-3-autobiography-244/)[/um\_show\_content]
+[/um\_show\_content]

@@ -85,4 +85,4 @@ background-color: #587746;
 
 そして、皆が無意識のうちにこの階級制度に属しており、無意識のうちに上位に登ろうとしていた。
 
-[前の記事](https://qryptraveller.com/gores-story-of-his-second-term-19-autobiography-271/)　｜　[次の記事](https://qryptraveller.com/gores-story-of-his-second-term-21-autobiography-273/)[/um\_show\_content]
+[/um\_show\_content]

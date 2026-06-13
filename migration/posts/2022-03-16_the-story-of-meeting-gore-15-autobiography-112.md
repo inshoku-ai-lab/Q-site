@@ -41,10 +41,7 @@ transition: background-color 0.3s;
 background-color: #587746;
 }
 
-[前の記事111](https://qryptraveller.com/the-story-of-meeting-gore-14-autobiography-111/
-)　｜　[次の記事113](https://qryptraveller.com/the-story-of-meeting-gore-16-autobiography-113/
-
-)
+[前の記事](https://qryptraveller.com/the-story-of-meeting-gore-14-autobiography-111/)　｜　[次の記事](https://qryptraveller.com/the-story-of-meeting-gore-16-autobiography-113/)
 
 [/show\_for\_guests\_and\_members]
 [um\_show\_content roles='um\_custom\_role\_1']
@@ -131,9 +128,6 @@ background-color: #587746;
 
 圧倒的な体感には知識や理屈の及ばない”何か”があることを知った。
 
-[前の記事111](https://qryptraveller.com/the-story-of-meeting-gore-14-autobiography-111/
-)　｜　[次の記事113](https://qryptraveller.com/the-story-of-meeting-gore-16-autobiography-113/
 
-)
 
 [/um\_show\_content]

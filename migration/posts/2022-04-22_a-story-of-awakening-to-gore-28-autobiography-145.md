@@ -92,4 +92,4 @@ Yさんがつたない英語で、ゴアにはよく来るのかと聞いた。
 
 僕は、既に体験してしまっていて、後戻りのできない道に一歩を踏み出してしまっていた。
 
-[前の記事](https://qryptraveller.com/a-story-of-awakening-to-gore-27-autobiography-144/)　｜　[次の記事](https://qryptraveller.com/a-story-of-awakening-to-gore-29-autobiography-146/)[/um\_show\_content]
+[/um\_show\_content]

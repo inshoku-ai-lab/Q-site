@@ -97,4 +97,4 @@ background-color: #587746;
 
 もう、こんな所にはいられないと。
 
-[前の記事](https://qryptraveller.com/renewing-an-indian-visa-in-thailand-story-2-autobiography-243/)　｜　[次の記事](https://qryptraveller.com/story-4-autobiography-245-of-renewing-an-indian-visa-in-thailand/)[/um\_show\_content]
+[/um\_show\_content]

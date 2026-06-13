@@ -88,4 +88,4 @@ flags: "no-images"
 
 つづく。。。
 
-[前の記事０６０](https://qryptraveller.com/a-story-of-cultural-life-in-nishinari-15-autobiography-060)　｜　[次の記事０６２](https://qryptraveller.com/a-story-of-cultural-life-in-nishinari-17-autobiography-062)
+[前の記事](https://qryptraveller.com/a-story-of-cultural-life-in-nishinari-15-autobiography-060/)　｜　[次の記事](https://qryptraveller.com/a-story-of-cultural-life-in-nishinari-17-autobiography-062/)

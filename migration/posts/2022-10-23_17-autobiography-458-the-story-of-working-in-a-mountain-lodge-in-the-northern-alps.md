@@ -55,4 +55,4 @@ flags: "no-images"
 
 もちろん、そんなことを意に介するような小さな肝っ玉の社長ではなかったが。
 
-[前の記事](https://qryptraveller.com/16-stories-of-working-at-a-mountain-hut-in-the-northern-alps-autobiography-457/)　｜　[次の記事](https://qryptraveller.com/16-stories-of-working-at-a-mountain-hut-in-the-northern-alps-autobiography-457/)
+[前の記事](https://qryptraveller.com/16-stories-of-working-at-a-mountain-hut-in-the-northern-alps-autobiography-457/)　｜　[次の記事](https://qryptraveller.com/story-18-autobiography-459-about-working-in-a-mountain-lodge-in-the-northern-alps/)

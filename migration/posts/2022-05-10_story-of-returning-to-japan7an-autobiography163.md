@@ -73,4 +73,4 @@ background-color: #587746;
 
 この手の自国に対する批判的感情は、世界を放浪する旅人たちが最初の数年間に通る通過儀礼だというのは、その後に随分経ってから知ることになる。
 
-[前の記事](https://qryptraveller.com/story-of-returning-to-japan-6-autobiography-162/)　｜　[次の記事](https://qryptraveller.com/the-story-of-returning-to-japan-8-autobiography-164/)[/um\_show\_content]
+[/um\_show\_content]

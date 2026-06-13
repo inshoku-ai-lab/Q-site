@@ -108,6 +108,6 @@ background-color: #587746;
 
 あまりにも常識はずれの解決策だったが、浮世離れした感覚を楽しんでもいた。
 
-[前の記事](https://qryptraveller.com/story-of-returning-to-japan7an-autobiography163/)　｜　[次の記事](https://qryptraveller.com/the-story-of-returning-to-japan-9-autobiography-165/)
+
 
 [/um\_show\_content]

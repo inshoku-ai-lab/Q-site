@@ -97,6 +97,6 @@ background-color: #587746;
 
 緩んだ心身は宇宙の流れに乗り、これからの旅に思いを馳せるだけで、胸がいっぱいに満たされた。
 
-[前の記事](https://qryptraveller.com/a-story-of-soaring-back-to-india-3-autobiography-175/)　｜　[次の記事](https://qryptraveller.com/a-story-of-soaring-back-to-india-5-autobiography-177/)
+
 
 [/um\_show\_content]

@@ -75,4 +75,4 @@ background-color: #587746;
 
 そんな世界最上級の大麻樹脂をご馳走してくれるというまたとない機会に恵まれた。
 
-[前の記事](https://qryptraveller.com/autumn-in-the-himalayas-19-autobiography-224/)　｜　[次の記事](https://qryptraveller.com/autumn-in-the-himalayas-21-autobiography-226/)[/um\_show\_content]
+[/um\_show\_content]
