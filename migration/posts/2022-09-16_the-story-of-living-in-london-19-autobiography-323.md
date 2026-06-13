@@ -9,8 +9,16 @@ featured_image_id: "6430"
 categories:
   - "放浪記"
 tags:
+  - "放浪記"
+  - "地球放浪"
+  - "イギリス"
+  - "ロンドン"
+  - "カーニバル"
+  - "音楽"
+  - "私小説"
 images:
   - "https://qryptraveller.com/wp-content/uploads/2022/04/tfL-Notting-Hill-Carnival-map-1-2.png"
+excerpt: "合流したNちゃんの夢は、ボブ・マーリーのような黒人と白人のハーフのラスタマンと結婚し三つの人種が混じった子を持つこと。休んだ地元カフェで聞けば、先週ここでDJしたのは僕が長年ライブを夢見たロシアのDJ VADIM——「普通に良かったよ」と温度差に愕然。神と仰ぐミュージシャンが一五〇〇円でプレイする街だった。"
 flags: ""
 ---
 
