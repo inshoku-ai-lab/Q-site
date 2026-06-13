@@ -9,14 +9,18 @@ featured_image_id: "3888"
 categories:
   - "放浪記"
 tags:
-  - "#タイ"
-  - "#バイト仲間"
-  - "#バックパッカー"
-  - "#高校中退"
-  - "＃放浪記"
+  - "放浪記"
+  - "地球放浪"
+  - "日本"
+  - "タイ"
+  - "バックパッカー"
+  - "猿岩石"
+  - "18歳"
+  - "私小説"
 images:
   - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog34-1.jpg"
   - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog34-2.jpg"
+excerpt: "深夜番組『電波少年』の『猿岩石』ユーラシア横断ヒッチハイクに釘付けになり、20年以上続く旅の原点を植え付けられた18歳。TSUTAYAのバイト仲間で広がっていた東南アジアバックパッカー・ブームの波に乗り、テクノ友達A君と3週間のタイ旅行を決意——人生初の能動的な海外冒険の幕開け。"
 flags: ""
 ---
 
