@@ -9,9 +9,18 @@ featured_image_id: "3839"
 categories:
   - "放浪記"
 tags:
+  - "放浪記"
+  - "地球放浪"
+  - "日本"
+  - "ペルー"
+  - "海外初体験"
+  - "17歳"
+  - "エホバの証人"
+  - "私小説"
 images:
   - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog18-1.jpg"
   - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog18-2.jpg"
+excerpt: "ペルー人と結婚した姉の婚前交渉を防ぐ『監視役』として母に送り込まれた17歳の少年。本も2冊、ノート1冊だけをバックパックに詰め、関空からロサンジェルス、マイアミを経てリマへ——人生初の海外、初めての飛行機。死ぬ覚悟で旅立った無感情の少年の旅の出発点。"
 flags: ""
 ---
 

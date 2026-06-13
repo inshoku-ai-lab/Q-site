@@ -9,12 +9,19 @@ featured_image_id: "3885"
 categories:
   - "放浪記"
 tags:
-  - "#クラブ"
-  - "#テクノ"
   - "放浪記"
+  - "地球放浪"
+  - "日本"
+  - "大阪"
+  - "西成"
+  - "音楽"
+  - "テクノ"
+  - "クラブ"
+  - "私小説"
 images:
   - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog33-1.jpg"
   - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog33-2.jpg"
+excerpt: "毎週ひとりでクラブへ通い、夜11時から朝6時までスピーカー前で黙々と踊り続けた18歳。『ミニマルテクノ』『ドラムンベース』を浴び続けた身体に、海外の本物のテクノシーンへの渇望が芽生える——バイト仲間のテクノミュージシャンA君と、タイの野外テクノイベントへの計画が動き出す。"
 flags: ""
 ---
 

@@ -9,13 +9,17 @@ featured_image_id: "3863"
 categories:
   - "放浪記"
 tags:
-  - "#エホバの証人脱退"
-  - "#サブカルチャー"
-  - "#魚武"
   - "放浪記"
+  - "地球放浪"
+  - "日本"
+  - "サブカルチャー"
+  - "兄"
+  - "詩人魚武"
+  - "私小説"
 images:
   - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog26-1.jpg"
   - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog26-2.jpg"
+excerpt: "雑誌『クイック・ジャパン』創刊号で出会ったサブカルチャーの世界。『二十歳までに行動を起こせ』と説く詩人・三代目魚武濱田成夫の言葉に心を鷲掴みにされる。そして実の兄の家を訪ねた夜、壁に掛けられた『魚武の詩』の額縁——14年離れて暮らした兄弟が、サブカル同志として再会した邂逅の日。"
 flags: ""
 ---
 

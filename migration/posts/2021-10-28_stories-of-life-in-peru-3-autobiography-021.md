@@ -9,13 +9,18 @@ featured_image_id: "3848"
 categories:
   - "放浪記"
 tags:
-  - "#エホバの証人脱退"
-  - "#ペルー"
-  - "#結婚式"
   - "放浪記"
+  - "地球放浪"
+  - "ペルー"
+  - "ワンカヨ"
+  - "ホームパーティー"
+  - "結婚式"
+  - "エホバの証人"
+  - "私小説"
 images:
   - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog21-1.jpg"
   - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog21-2.jpg"
+excerpt: "ペルー人エホバの証人のホームパーティーで、生まれて初めて『自分の意思で』音楽に合わせて踊った夜。日本では世俗の罪とされた踊りが、ここでは日常だった——カルチャーショックと、姉のペルー式結婚式の記録。"
 flags: ""
 ---
 

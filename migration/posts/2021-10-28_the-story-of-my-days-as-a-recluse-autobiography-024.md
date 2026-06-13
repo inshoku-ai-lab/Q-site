@@ -9,12 +9,17 @@ featured_image_id: "3857"
 categories:
   - "放浪記"
 tags:
-  - "#ひきこもり"
-  - "#エホバの証人脱退"
   - "放浪記"
+  - "地球放浪"
+  - "日本"
+  - "引きこもり"
+  - "停滞期"
+  - "17歳"
+  - "私小説"
 images:
   - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog24-1.jpg"
   - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog24-2.jpg"
+excerpt: "ペルーから戻った冬、祖父との実質的な一人暮らし。エホバの証人も高校も辞めて手に入れた自由を、ただひたすらゲームとテレビと立ち読みで4ヶ月消費する停滞期間。ペルーから国際電話で説得した姉の言葉と、人と話さなくて済むピザの配達バイトが、引きこもりの少年を外に押し出す。"
 flags: ""
 ---
 

@@ -9,13 +9,17 @@ featured_image_id: "3851"
 categories:
   - "放浪記"
 tags:
-  - "#エホバの証人脱退"
-  - "#ペルー"
-  - "#国際結婚"
   - "放浪記"
+  - "地球放浪"
+  - "ペルー"
+  - "マチュピチュ"
+  - "クスコ"
+  - "家族旅行"
+  - "私小説"
 images:
   - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog22-1.jpg"
   - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog22-2.jpg"
+excerpt: "ナスカの地上絵かマチュピチュか——時間と予算の関係で選ばれたマチュピチュ。だが当時の少年に景色を感動する心はなく、ただ淡々と歩いた。麓に降りるバスを直線で追い抜き、何度も手を振りに現れる現地の浮浪児たちが印象的だった、家族みんなとの新婚旅行の記憶。"
 flags: ""
 ---
 

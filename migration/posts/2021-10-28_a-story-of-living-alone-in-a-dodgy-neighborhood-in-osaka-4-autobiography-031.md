@@ -9,12 +9,20 @@ featured_image_id: "3879"
 categories:
   - "放浪記"
 tags:
-  - "#サンプラー"
-  - "#作曲"
   - "放浪記"
+  - "地球放浪"
+  - "日本"
+  - "大阪"
+  - "西成"
+  - "音楽"
+  - "兄"
+  - "DTM"
+  - "テクノ"
+  - "私小説"
 images:
   - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog31-1.jpg"
   - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog31-2.jpg"
+excerpt: "兄の長年続けたロックバンドが解散——テクノとロックを融合した兄弟ユニットが誕生する。中古3万円のサンプラーを人生初の楽器として購入し、毎週火曜日の夜にアパートで作曲。エホバの集会の代わりに『サブカルチャー教』の作曲会が始まり、ついには15万円のマッキントッシュへ突き進んでいく。"
 flags: ""
 ---
 

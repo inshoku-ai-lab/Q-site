@@ -9,13 +9,17 @@ featured_image_id: "3845"
 categories:
   - "放浪記"
 tags:
-  - "#エホバの証人脱退"
-  - "#コンプレックス"
-  - "#ペルー"
   - "放浪記"
+  - "地球放浪"
+  - "ペルー"
+  - "ワンカヨ"
+  - "内省"
+  - "コンプレックス"
+  - "私小説"
 images:
   - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog20-1.jpg"
   - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog20-2.jpg"
+excerpt: "一冊のノートに、17年間誰にも話せなかった想いを書き綴る——『一生誰の目にも触れさせない』と誓って始めたペルーでの日記。背の高さへのコンプレックス、胸毛への悩み、そして『普通の暮らしがしたい』という、絶対に手の届かないと感じていた切実な願い。"
 flags: ""
 ---
 

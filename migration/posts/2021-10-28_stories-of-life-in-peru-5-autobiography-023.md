@@ -9,12 +9,17 @@ featured_image_id: "3854"
 categories:
   - "放浪記"
 tags:
-  - "#エホバの証人脱退"
-  - "#ペルー"
   - "放浪記"
+  - "地球放浪"
+  - "ペルー"
+  - "リマ"
+  - "高山病"
+  - "海外初体験"
+  - "私小説"
 images:
   - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog23-1.jpg"
   - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog23-2.jpg"
+excerpt: "曲がりくねる山道で、車酔い・高山病・風邪薬の副作用が同時に襲い、胃液が枯れるまで吐き続けた帰路。空港の医務室でお尻にぶっとい注射を打たれて全症状が一瞬で消えた——2ヶ月のペルー滞在を終え、わずかな自信を得て少年は日本へ帰る。"
 flags: ""
 ---
 

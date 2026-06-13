@@ -9,14 +9,18 @@ featured_image_id: "3866"
 categories:
   - "放浪記"
 tags:
-  - "#18歳"
-  - "#エホバの証人脱退"
-  - "#一人暮らし"
-  - "#恋"
   - "放浪記"
+  - "地球放浪"
+  - "日本"
+  - "大阪"
+  - "西成"
+  - "一人暮らし"
+  - "18歳"
+  - "私小説"
 images:
   - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog27-1.jpg"
   - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog27-2.jpg"
+excerpt: "ピザ屋に通う女子高生に淡い恋心を抱きながら、母の元で育った歪みが行動を許さない18歳の春。一人暮らしを始める準備のため帰国した姉と共に、父母の生まれ育ったドヤ街・大阪西成区にワンルームを借りる——12月、社会への第一歩がついに始まる。"
 flags: ""
 ---
 

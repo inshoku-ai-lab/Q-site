@@ -9,14 +9,20 @@ featured_image_id: "3882"
 categories:
   - "放浪記"
 tags:
-  - "#サンプラー"
-  - "#マッキントッシュ"
-  - "#作曲"
   - "放浪記"
-  - "＃DTM"
+  - "地球放浪"
+  - "日本"
+  - "大阪"
+  - "西成"
+  - "音楽"
+  - "テクノ"
+  - "DTM"
+  - "インターネット黎明期"
+  - "私小説"
 images:
   - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog32-1.jpg"
   - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog32-2.jpg"
+excerpt: "ISDNテレホーダイで深夜のインターネットに繋ぎ、マック専用のコミュニケーション・ソフト『HOTLINE』で違法ファイルを巡る裏ネット文化に深入りする。ソフトウェア・シンセサイザー『RB-338』のドラム音を違法改造する日々——DTM黎明期の興奮と、テクノ作曲家としての覚醒。"
 flags: ""
 ---
 

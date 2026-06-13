@@ -9,9 +9,19 @@ featured_image_id: "3876"
 categories:
   - "放浪記"
 tags:
+  - "放浪記"
+  - "地球放浪"
+  - "日本"
+  - "大阪"
+  - "西成"
+  - "TSUTAYA"
+  - "映画"
+  - "音楽"
+  - "私小説"
 images:
   - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog30-1.jpg"
   - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog30-2.jpg"
+excerpt: "近鉄阿倍野の大型TSUTAYAの深夜シフトに集まる、映画オタクと音楽オタクたち。自称『文化貴族』の26歳Nさんを筆頭とするカリスマたちが、皆のマック購入から東南アジア放浪までを牽引していく——同じ興味を持つ仲間に初めて出会った、文化的覚醒の日々。"
 flags: ""
 ---
 

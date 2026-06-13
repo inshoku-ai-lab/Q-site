@@ -9,12 +9,17 @@ featured_image_id: "3860"
 categories:
   - "放浪記"
 tags:
-  - "#エホバの証人脱退"
-  - "#ピザ屋"
   - "放浪記"
+  - "地球放浪"
+  - "日本"
+  - "アルバイト"
+  - "ピザ屋"
+  - "17歳"
+  - "私小説"
 images:
   - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog25-1.jpg"
   - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog25-2.jpg"
+excerpt: "店長は元ヤン、奥さんも金髪——ヤンキー番長が仕切る家族のように仲のいいピザ屋で、初めて女友達ができ、初めて『普通の暮らし』を手に入れた17歳。バイト終わりに深夜のラーメン屋に皆で行く、ありきたりな日常が、夢にまで見た風景だった。"
 flags: ""
 ---
 

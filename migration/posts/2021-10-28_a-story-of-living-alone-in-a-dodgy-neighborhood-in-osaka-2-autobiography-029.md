@@ -9,12 +9,19 @@ featured_image_id: "3872"
 categories:
   - "放浪記"
 tags:
-  - "#エホバの証人脱退"
-  - "#サブカルチャー"
   - "放浪記"
+  - "地球放浪"
+  - "日本"
+  - "大阪"
+  - "西成"
+  - "音楽"
+  - "反抗期"
+  - "ハードコアテクノ"
+  - "私小説"
 images:
   - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog29-1.jpg"
   - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog29-2.jpg"
+excerpt: "Atari Teenage Riotの『Fuck All』をテーマ曲に、フランス映画『La Haine（憎しみ）』の主人公に憧れて大晦日に丸坊主——12年間の宗教生活の反動が、遅れてやってきた反抗期として爆発。雑誌『危ない１号』に脳天を爆裂させられ、デジタル・ハードコア・レコーディングスのハードコアパンクテクノで心を癒した18歳の春。"
 flags: ""
 ---
 

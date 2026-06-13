@@ -9,9 +9,17 @@ featured_image_id: "3836"
 categories:
   - "放浪記"
 tags:
+  - "放浪記"
+  - "地球放浪"
+  - "日本"
+  - "エホバの証人脱退"
+  - "高校中退"
+  - "17歳"
+  - "私小説"
 images:
   - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog17-1.jpg"
   - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog17-2-1.jpg"
+excerpt: "12年間夢に見続けたエホバの証人からの自由を手に入れ、ついに高校も中退——『２週間前には考えてもいなかった』決断が、一瞬で実行された秋。家を追い出される覚悟をしていた17歳に訪れた、母の予想外に平和な反応と、突如手に入った無為の日々の記録。"
 flags: ""
 ---
 
