@@ -9,7 +9,15 @@ featured_image_id: "10347"
 categories:
   - "ツイッターファイル全記事"
 tags:
+  - "facebookfiles"
+  - "フェイスブックファイル"
+  - "ジムジョーダン"
+  - "バイデン政権"
+  - "検閲"
+  - "言論統制"
+  - "FBI"
 images:
+excerpt: "ジム・ジョーダン下院議員が委員会の入手資料を元に暴露するFacebook Files第二弾。バイデン政権が、新型コロナ関連情報の検閲をフェイスブックに働きかけていた実態を、内部資料から明らかにしたスレッドの翻訳記事。"
 flags: "short;no-images"
 ---
 

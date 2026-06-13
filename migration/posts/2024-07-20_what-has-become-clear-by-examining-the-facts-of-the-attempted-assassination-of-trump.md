@@ -9,10 +9,17 @@ featured_image_id: "10834"
 categories:
   - "オリジナル記事"
 tags:
+  - "デヴォリューション"
+  - "トランプ"
+  - "暗殺未遂"
+  - "真相論"
+  - "陰謀"
+  - "Q"
 images:
   - "https://qryptraveller.com/wp-content/uploads/2024/07/golgo-13.jpg"
   - "https://qryptraveller.com/wp-content/uploads/2024/07/フスカ.png"
   - "https://qryptraveller.com/wp-content/uploads/2024/07/弾丸通貨.jpg"
+excerpt: "トランプ氏が銃撃された——錯綜する情報を、デヴォリューション作戦を大前提に一つずつ検証する。二十歳単独犯説、DS犯人説、自作自演説、偽救世主説、犯行放置説の五つの仮説を整理し、貧弱な青年がシークレットサービスを出し抜けるのかという疑問から事実を読み解いていく。"
 flags: ""
 ---
 

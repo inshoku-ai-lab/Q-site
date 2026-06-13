@@ -9,6 +9,16 @@ featured_image_id: "9965"
 categories:
   - "デボリューション理論の記事集"
 tags:
+  - "Devolution"
+  - "Theory"
+  - "デボリューション"
+  - "デヴォリューション"
+  - "トランプ"
+  - "権限委譲理論"
+  - "中国"
+  - "ハンターバイデン"
+  - "情報戦争"
+  - "理論"
 images:
   - "https://qryptraveller.com/wp-content/uploads/2022/04/２.webp"
   - "https://qryptraveller.com/wp-content/uploads/2022/04/３.webp"

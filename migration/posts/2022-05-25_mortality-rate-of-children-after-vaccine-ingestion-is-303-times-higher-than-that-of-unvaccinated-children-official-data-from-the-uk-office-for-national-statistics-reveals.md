@@ -29,6 +29,7 @@ images:
   - "https://qryptraveller.com/wp-content/uploads/2022/05/image-217.jpeg"
   - "https://qryptraveller.com/wp-content/uploads/2022/05/image-218.jpeg"
   - "https://qryptraveller.com/wp-content/uploads/2022/05/image-219.jpeg"
+excerpt: "英国国家統計局が二〇二二年に公開したデータの表九に残された接種状況別の死亡数と人年数から、子供の死亡率を自力で計算できてしまった。算出すると、一〇〜一四歳の三回接種児は未接種児に比べコロナ以外の原因で三〇三倍死にやすいという恐るべき数字が現れる——その計算過程を追った翻訳記事。"
 flags: ""
 ---
 

@@ -9,6 +9,12 @@ featured_image_id: "11000"
 categories:
   - "ブログ記事"
 tags:
+  - "Q"
+  - "クリプトラベラー"
+  - "Qアノン"
+  - "デヴォリューション"
+  - "改名"
+  - "情報発信"
 images:
 excerpt: "名前を変えました。その理由を説明しています。"
 flags: "no-images"

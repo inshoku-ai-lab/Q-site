@@ -9,6 +9,13 @@ featured_image_id: "10420"
 categories:
   - "ツイッターファイル全記事"
 tags:
+  - "facebookfiles"
+  - "フェイスブックファイル"
+  - "ジムジョーダン"
+  - "バイデン政権"
+  - "検閲"
+  - "CCDH"
+  - "言論統制"
 images:
 excerpt: "今回のFacebook Filesではデジタルヘイト対策センター(CCDH)がでっち上げた統計を、バイデン政権がソーシャルネットワーク界隈の言論を検閲する為に悪用した事が、Facebookの内部資料から窺えます🤔"
 flags: "short;no-images"

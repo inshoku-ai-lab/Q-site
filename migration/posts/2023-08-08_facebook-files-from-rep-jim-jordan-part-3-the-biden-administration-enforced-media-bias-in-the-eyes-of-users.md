@@ -9,7 +9,15 @@ featured_image_id: "10351"
 categories:
   - "ツイッターファイル全記事"
 tags:
+  - "facebookfiles"
+  - "フェイスブックファイル"
+  - "ジムジョーダン"
+  - "バイデン政権"
+  - "検閲"
+  - "言論統制"
+  - "FBI"
 images:
+excerpt: "Facebook Files第三弾。バイデン政権が、ユーザーの目に触れるメディアの偏りを強制していたことを、フェイスブックの内部資料から示す、ジム・ジョーダン議員のスレッドの翻訳記事。"
 flags: "short;no-images"
 ---
 

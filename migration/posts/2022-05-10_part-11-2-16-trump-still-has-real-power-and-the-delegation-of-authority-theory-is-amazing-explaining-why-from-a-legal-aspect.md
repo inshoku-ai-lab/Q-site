@@ -12,10 +12,13 @@ tags:
   - "Devolution"
   - "Theory"
   - "クーデター"
+  - "サスマン裁判"
+  - "ダーラム"
   - "デボリューション"
   - "デヴォリューション"
   - "デヴォルーション"
   - "トランプ"
+  - "ヒラリー"
   - "不正選挙"
   - "情報戦争"
   - "戦争"
@@ -27,6 +30,7 @@ images:
   - "https://qryptraveller.com/wp-content/uploads/2022/04/００２-1400x193.png"
   - "https://qryptraveller.com/wp-content/uploads/2022/04/００３.webp"
   - "https://qryptraveller.com/wp-content/uploads/2022/04/００４.webp"
+excerpt: "二〇二一年九月、ダーラム特別検察官はマイケル・サスマン弁護士の虚偽陳述罪での起訴を大陪審に要請した——彼はトランプ組織とアルファ銀行が通信しているという信用できない説をFBIに手渡していた。フュージョンGPSとの共謀を示すメールも明るみに。スパイゲートの第二の捏造調査を追う。"
 flags: ""
 ---
 

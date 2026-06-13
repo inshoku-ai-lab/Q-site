@@ -24,6 +24,7 @@ tags:
   - "理論"
 images:
   - "https://qryptraveller.com/wp-content/uploads/2022/02/d5_13_b.png"
+excerpt: "政府機関DHSと連携するEISCCは、民間が支配するCIPACの枠組みで運営される——その根拠が国土安全保障法第八七一条だ。国土安全保障長官はこの条文で、諮問委員会の設立・運営を律する公法九二‐四六三の適用を免除でき、その通知は公に提出され二年ごとに更新されている。"
 flags: ""
 ---
 

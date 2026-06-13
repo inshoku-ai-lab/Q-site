@@ -9,7 +9,15 @@ featured_image_id: "10355"
 categories:
   - "ツイッターファイル全記事"
 tags:
+  - "facebookfiles"
+  - "フェイスブックファイル"
+  - "ジムジョーダン"
+  - "バイデン政権"
+  - "検閲"
+  - "言論統制"
+  - "FBI"
 images:
+excerpt: "Facebook Files第四弾。FBIがハンター・バイデンのノートパソコン報道を無力化するためについた「嘘」を、フェイスブックの内部資料から暴く、ジム・ジョーダン議員のスレッドの翻訳記事。"
 flags: "short;no-images"
 ---
 

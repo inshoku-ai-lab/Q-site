@@ -9,6 +9,12 @@ featured_image_id: "10382"
 categories:
   - "オリジナル記事"
 tags:
+  - "クリプトラベラー"
+  - "地球放浪"
+  - "放浪"
+  - "旅"
+  - "エッセイ"
+  - "メキシコ"
 images:
 excerpt: "四半世紀も放浪し続ける結果になったので、思うところを書き綴ってみました。"
 flags: "no-images"

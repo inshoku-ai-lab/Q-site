@@ -65,6 +65,7 @@ images:
   - "https://qryptraveller.com/wp-content/uploads/2023/02/7b-1.jpg"
   - "https://qryptraveller.com/wp-content/uploads/2023/02/8-1.jpg"
   - "https://qryptraveller.com/wp-content/uploads/2023/02/9-2.png"
+excerpt: "ツイッターファイル第一二弾「ツイッターとFBIの“おへそ”」。国務省の情報統制機関GEC、FBI、DHSがあらゆる政府機関の言論統制要求の橋渡しとなり、削除すべきユーザーを特定していた様を内部資料が描く。二〇二〇年の大統領選前、検閲依頼が殺到しツイッターが混乱した実態を完全翻訳する。"
 flags: ""
 ---
 
