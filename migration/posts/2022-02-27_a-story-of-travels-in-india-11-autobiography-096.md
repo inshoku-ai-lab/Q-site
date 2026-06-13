@@ -9,9 +9,18 @@ featured_image_id: "4632"
 categories:
   - "放浪記"
 tags:
+  - "放浪記"
+  - "地球放浪"
+  - "インド"
+  - "プーナ"
+  - "アシュラム"
+  - "瞑想"
+  - "Osho"
+  - "私小説"
 images:
   - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog96-1.jpg"
   - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog96-2.jpg"
+excerpt: "バラナシの濃いインド色とは一転、近代化された都会プーナへ。Osho（和尚）のアシュラムは、臙脂色の僧衣購入とエイズ陰性の血液検査を経て入る楽園——花咲く庭で瞑想する小綺麗な西洋人たち。高額に落ち着けない貧乏旅行者は、無料の音楽瞑想ワークショップで70年代ドイツロックのような生演奏に身を委ねる。"
 flags: ""
 ---
 

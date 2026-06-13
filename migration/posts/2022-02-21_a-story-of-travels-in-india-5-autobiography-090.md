@@ -9,9 +9,17 @@ featured_image_id: "4497"
 categories:
   - "放浪記"
 tags:
+  - "放浪記"
+  - "地球放浪"
+  - "インド"
+  - "カルカッタ"
+  - "旅仲間"
+  - "お笑い"
+  - "私小説"
 images:
   - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog90-1.jpg"
   - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog90-2.jpg"
+excerpt: "見た目は100%インド人なのに完璧な関西弁としゃべくり文化を操る、お香の露天商サトシ。子供の頃に長期滞在した関西人の旅人から言葉を覚えたという。お笑いオタクの著者をも満足させる他人種間ノリツッコミを楽しんだ後、いよいよ一人でバラナシへ向かう寝台列車の切符を取る。"
 flags: ""
 ---
 

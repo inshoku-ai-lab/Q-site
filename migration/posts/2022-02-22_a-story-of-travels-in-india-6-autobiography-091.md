@@ -9,9 +9,17 @@ featured_image_id: "4503"
 categories:
   - "放浪記"
 tags:
+  - "放浪記"
+  - "地球放浪"
+  - "インド"
+  - "鉄道"
+  - "バラナシ"
+  - "バックパッカー"
+  - "私小説"
 images:
   - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog91-1.jpg"
   - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog91-2.jpg"
+excerpt: "牛・野良犬・猿・盗人まで、駅を利用したい全ての存在に平等に開かれたインドの駅は、それ自体が一つの文化圏。小汚いバックパッカーの自分も駅構内では上位1%の富裕層＝泥棒の標的。適度な緊張感に冒険心を刺激されながら、3段ベッド最上段でバラナシ行きの寝台列車に揺られる。"
 flags: ""
 ---
 

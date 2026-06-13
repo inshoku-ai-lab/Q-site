@@ -9,9 +9,18 @@ featured_image_id: "4461"
 categories:
   - "放浪記"
 tags:
+  - "放浪記"
+  - "地球放浪"
+  - "ネパール"
+  - "ポカラ"
+  - "旅仲間"
+  - "恋愛"
+  - "20歳"
+  - "私小説"
 images:
   - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog84-1.jpg"
   - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog84-2.jpg"
+excerpt: "紅一点のマドンナIさんと男性3人——『あいのり』のような旅の恋愛模様。チベットから共に旅するGさんが密かに恋心を育む中、寂しさとチンピラ事件で不安定になっていた二十歳の僕は、旅の勢いで人生初の恋の告白を手紙に綴る。やんわり断られ、それが友情と性欲の混ざったものだったと納得する。"
 flags: ""
 ---
 

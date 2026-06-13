@@ -9,9 +9,17 @@ featured_image_id: "4631"
 categories:
   - "放浪記"
 tags:
+  - "放浪記"
+  - "地球放浪"
+  - "インド"
+  - "バラナシ"
+  - "火葬"
+  - "死生観"
+  - "私小説"
 images:
   - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog95-1.jpg"
   - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog95-2.jpg"
+excerpt: "バルコニーから見た猿のオス同士の交尾に頭が真っ白に。ガンジス河沿いで人の死体が燃え尽きる最後の姿を目の当たりにし、『死』が見えない恐怖から見えていて怖くない恐怖へと変わる——生がより意味を増した日。ヨガを習いにプーナへ向かうが、9時間待った列車は4時間前に別ホームから発車済みだった。"
 flags: ""
 ---
 

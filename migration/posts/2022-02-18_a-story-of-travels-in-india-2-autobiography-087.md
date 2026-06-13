@@ -9,9 +9,18 @@ featured_image_id: "4480"
 categories:
   - "放浪記"
 tags:
+  - "放浪記"
+  - "地球放浪"
+  - "インド"
+  - "カルカッタ"
+  - "バックパッカー"
+  - "貧困"
+  - "大麻"
+  - "私小説"
 images:
   - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog87-1.jpg"
   - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog87-2.jpg"
+excerpt: "インドの『都会』とは、文明の発達ではなく凄まじい人口密度のことだった——カルカッタの路上で井戸を共有しシャワーを浴びる人々、着の身着のままで眠る大人や子供。マザーテレサの施設に隣接する旅人の溜まり場パラゴン・ゲストハウスで、夕暮れに大麻を回し吸う友情の輪に魅了されていく。"
 flags: ""
 ---
 

@@ -9,9 +9,17 @@ featured_image_id: "4509"
 categories:
   - "放浪記"
 tags:
+  - "放浪記"
+  - "地球放浪"
+  - "インド"
+  - "鉄道"
+  - "チャイ"
+  - "バラナシ"
+  - "私小説"
 images:
   - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog92-1.jpg"
   - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog92-2.jpg"
+excerpt: "外国人だけ足を揺すって起こすチャイ売りの少年と、寝起きの熱いチャイ。下段の家族連れに招かれて激辛スナックをつまみ、『なぜ結婚しないのか』『故郷を離れて寂しくないか』と純粋な好奇心から質問攻めに——家族を何より大事にするインド人の価値観が、崩壊した家庭から来た僕には少し面倒だった。"
 flags: ""
 ---
 

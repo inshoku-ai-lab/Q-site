@@ -9,9 +9,18 @@ featured_image_id: "4633"
 categories:
   - "放浪記"
 tags:
+  - "放浪記"
+  - "地球放浪"
+  - "インド"
+  - "プーナ"
+  - "アシュラム"
+  - "旅仲間"
+  - "ゴア"
+  - "私小説"
 images:
   - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog97-1.jpg"
   - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog97-2.jpg"
+excerpt: "アシュラムで出会った、中国の圧政を逃れてチベット経由で亡命した鍼灸師の中国人。物価の高いプーナで診療所に泊めてもらい、カレー続きの日々に手作り中華をご馳走になる。だが出発前に試したインド式噛みタバコを取りすぎ、胃液まで吐いてフラフラのままゴア行きの夜行列車に倒れ込む。"
 flags: ""
 ---
 

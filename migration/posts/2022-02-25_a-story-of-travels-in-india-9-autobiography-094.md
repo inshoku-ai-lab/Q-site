@@ -9,9 +9,18 @@ featured_image_id: "4521"
 categories:
   - "放浪記"
 tags:
+  - "放浪記"
+  - "地球放浪"
+  - "インド"
+  - "バラナシ"
+  - "ガンジス河"
+  - "沐浴"
+  - "火葬"
+  - "私小説"
 images:
   - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog94-1.jpg"
   - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog94-2.jpg"
+excerpt: "輪廻から抜け出すため死を待つ人々が集うバラナシ。髪が焦げるような火葬の煙が絶えない街で、聖なるが生物学的には最高に汚れたガンジス河で沐浴する。ボートのオールで頭を叩かれパニックになり、よりにもよって聖なる河の水を飲み込む——ミネラルウォーターで胃を薄める決死の作戦。"
 flags: ""
 ---
 

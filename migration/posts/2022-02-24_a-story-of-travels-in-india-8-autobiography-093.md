@@ -9,9 +9,18 @@ featured_image_id: "4513"
 categories:
   - "放浪記"
 tags:
+  - "放浪記"
+  - "地球放浪"
+  - "インド"
+  - "バラナシ"
+  - "聖地"
+  - "貧困"
+  - "カースト"
+  - "私小説"
 images:
   - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog93-1.jpg"
   - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog93-2.jpg"
+excerpt: "太古の昔からインド最大級の聖地として崇められるバラナシへ。カルカッタを上回る貧しさと、土地に対する聖なる牛の多さ。『バクシーシ』と叫び追ってくる物乞いたち——一生物乞いを続けるカースト制度への抵抗から金を渡せず食べ物を施すが、すぐ丸裸に。先進国から来た旅人が誰もが通る最初の試練。"
 flags: ""
 ---
 

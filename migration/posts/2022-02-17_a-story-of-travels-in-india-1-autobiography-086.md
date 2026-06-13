@@ -9,9 +9,17 @@ featured_image_id: ""
 categories:
   - "放浪記"
 tags:
+  - "放浪記"
+  - "地球放浪"
+  - "インド"
+  - "ダージリン"
+  - "紅茶"
+  - "バックパッカー"
+  - "私小説"
 images:
   - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog86-1.jpg"
   - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog86-2.jpg"
+excerpt: "世界有数の多雨地帯ダージリンで、激しい雨季に部屋にこもり2ヶ月の旅を振り返る。身構えていたインドはネパールと大差なく拍子抜け。観光客ではなく旅人でありたいという志からカメラを持たず、ガイドブックも本来は拒みたかった——カメラに映らない本当の体験を求めてカルカッタへ向かう。"
 flags: ""
 ---
 

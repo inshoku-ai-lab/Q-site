@@ -9,9 +9,17 @@ featured_image_id: "4487"
 categories:
   - "放浪記"
 tags:
+  - "放浪記"
+  - "地球放浪"
+  - "インド"
+  - "カルカッタ"
+  - "洪水"
+  - "バックパッカー"
+  - "私小説"
 images:
   - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog88-1.jpg"
   - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog88-2.jpg"
+excerpt: "カルカッタを襲った集中豪雨で街全体が太ももまでの洪水に。小便所も野良犬の糞尿も下水も混じった『毒の沼地』を、ヤバいヤバいとはしゃぎながらレストランへ。虫刺されの傷に塩を刷り込んで消毒し、チョコレート・ラッシーに常識を壊された、旅人たちが非常事態を楽しむカルカッタの3日間。"
 flags: ""
 ---
 

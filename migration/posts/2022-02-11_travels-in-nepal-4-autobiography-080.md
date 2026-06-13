@@ -9,9 +9,18 @@ featured_image_id: "2392"
 categories:
   - "放浪記"
 tags:
+  - "放浪記"
+  - "地球放浪"
+  - "ネパール"
+  - "ポカラ"
+  - "日本食"
+  - "バックパッカー"
+  - "旅仲間"
+  - "私小説"
 images:
   - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog80-1.jpg"
   - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog80-2.jpg"
+excerpt: "カトマンズから山道を6時間、ヒマラヤを望む湖の街ポカラへ。旅友4人で綺麗なリゾートホテルを格安シェア。日本人旅行者が作り方を教えたトタン小屋の日本食屋『アニルモモ』で、1ヶ月半ぶりの醤油の味と漫画読み放題に感動——お金をかけず旅人の感覚を味わう、長期旅行者の時間の過ごし方。"
 flags: ""
 ---
 

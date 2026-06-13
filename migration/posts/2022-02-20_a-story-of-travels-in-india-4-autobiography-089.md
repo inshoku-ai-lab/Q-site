@@ -9,9 +9,17 @@ featured_image_id: "4491"
 categories:
   - "放浪記"
 tags:
+  - "放浪記"
+  - "地球放浪"
+  - "インド"
+  - "カルカッタ"
+  - "旅仲間"
+  - "沈没"
+  - "私小説"
 images:
   - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog89-1.jpg"
   - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog89-2.jpg"
+excerpt: "トップクラスの頭脳を持つ京大生Kさんが、観光名所もない世界最貧の地域に9ヶ月『沈没』していた。修道院的な奉仕を嫌い、巨大な氷を荷車で運んで路上で『かき氷屋』を営みストリートチルドレンと友情を築く——免許や衛生など『インドには関係ない』と言い切る、旅人の枠を超えた行動。"
 flags: ""
 ---
 
