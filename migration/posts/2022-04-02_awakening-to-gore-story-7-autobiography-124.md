@@ -33,7 +33,7 @@ transition: background-color 0.3s;
 background-color: #587746;
 }
 
-[前の記事](https://qryptraveller.com/awakening-to-gore-story-6-autobiography-123/)　｜　[次の記事](https://qryptraveller.com/a-story-of-awakening-gore-to-gore-8-autobiography-125/)
+[前の記事](https://qryptraveller.com/a-story-of-awakening-to-gore-6-autobiography-123/)　｜　[次の記事](https://qryptraveller.com/a-story-of-awakening-gore-to-gore-8-autobiography-125/)
 
 [/show\_for\_guests\_and\_members]
 [um\_show\_content roles='um\_custom\_role\_1']
@@ -126,6 +126,6 @@ background-color: #587746;
 
 家へ帰る途中に地元の子供達に指をさされて笑われたことで、派手派手のズボンを真昼間に履いて出歩いている事が恥ずかしくなり、このズボンはこのパーティーで一回履いただけでお蔵入りになった。
 
-[前の記事](https://qryptraveller.com/awakening-to-gore-story-6-autobiography-123/)　｜　[次の記事](https://qryptraveller.com/a-story-of-awakening-gore-to-gore-8-autobiography-125/)
+[前の記事](https://qryptraveller.com/a-story-of-awakening-to-gore-6-autobiography-123/)　｜　[次の記事](https://qryptraveller.com/a-story-of-awakening-gore-to-gore-8-autobiography-125/)
 
 [/um\_show\_content]

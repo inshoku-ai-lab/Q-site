@@ -113,4 +113,4 @@ flags: "no-images"
 
 この記事の続きはこちらになります。
 
-[blogcard url="https://qryptraveller.com/part-10-2-28-trump-still-has-real-power-and-the-theory-of-delegation-of-authority-is-amazing-explaining-why-from-a-legal-aspect/"]
+[blogcard url="https://qryptraveller.com/part-10-2-27-trump-still-has-real-power-and-the-theory-of-delegation-of-authority-is-amazing-explaining-why-from-a-legal-aspect/"]

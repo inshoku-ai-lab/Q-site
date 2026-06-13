@@ -420,6 +420,6 @@ https://twitter.com/iheartmindy/status/1849203129595871704?ref\_src=twsrc%5Etfw%
 
 [blogcard url="https://qryptraveller.com/is-the-investor-of-the-sound-of-freedom-a-person-who-is-in-bed-with-ds-an-in-depth-investigation/"]
 
-[blogcard url="https://qryptraveller.com/%E6%94%AF%E9%85%8D%E5%B1%A4%E3%81%8C%E7%B7%A8%E3%81%BF%E5%87%BA%E3%81%97%E3%81%9F%E3%80%81%E8%A6%9A%E9%86%92%E8%80%85%E3%82%92%E8%AA%A4%E8%AA%98%E5%B0%8E%E3%81%99%E3%82%8B%E7%BD%A0%E3%81%A8%E3%81%AF/"]
+[blogcard url="https://qryptraveller.com/%e6%94%af%e9%85%8d%e5%b1%a4%e3%81%8c%e7%b7%a8%e3%81%bf%e5%87%ba%e3%81%97%e3%81%9f%e3%80%81%e8%a6%9a%e9%86%92%e8%80%85%e3%82%92%e8%aa%a4%e8%aa%98%e5%b0%8e%e3%81%99%e3%82%8b%e7%bd%a0%e3%81%a8%e3%81%af/"]
 
 [blogcard url="https://qryptraveller.com/intuition-while-a-source-of-life-is-a-weakness-in-information-warfare-how-to-train-it-and-what-to-do-about-it/"]

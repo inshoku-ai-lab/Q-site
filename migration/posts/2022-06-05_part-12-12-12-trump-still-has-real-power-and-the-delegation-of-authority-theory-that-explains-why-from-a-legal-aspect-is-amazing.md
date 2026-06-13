@@ -87,7 +87,7 @@ flags: "no-images"
 
 この記事の続きはこちらになります。
 
-[blogcard url="https://qryptraveller.com/part-13-1-17-trump-still-has-real-power-and-the-theory-of-delegation-of-authority-is-amazing-explaining-why-from-a-legal-aspect/"]
+[blogcard url="https://qryptraveller.com/part-13-1-17-trump-still-has-real-power-and-the-theory-of-delegation-of-authority-is-amazing-explaining-why-from-a-legal-aspec/"]
 
 この記事を気に入って応援したいと思われた方は、下記の記事を参考にして、著者のパテル・パトリオット氏に寄付をしていただけると翻訳者として無上の喜びです。
 
