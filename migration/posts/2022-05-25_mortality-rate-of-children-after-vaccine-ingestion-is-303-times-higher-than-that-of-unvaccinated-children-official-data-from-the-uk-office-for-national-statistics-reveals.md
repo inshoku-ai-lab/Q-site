@@ -9,17 +9,16 @@ featured_image_id: "7543"
 categories:
   - "日本人が知っておくべき英文記事の翻訳"
 tags:
-  - "covid"
   - "コロナ"
-  - "データ"
   - "ワクチン"
-  - "公式"
+  - "ONS"
   - "国家統計局"
   - "子供"
-  - "未接種"
   - "死亡率"
   - "統計"
-  - "非接種"
+  - "未接種"
+  - "副反応"
+  - "暴露"
 images:
   - "https://qryptraveller.com/wp-content/uploads/2022/05/image-210.jpeg"
   - "https://qryptraveller.com/wp-content/uploads/2022/05/image-211.jpeg"
@@ -29,7 +28,7 @@ images:
   - "https://qryptraveller.com/wp-content/uploads/2022/05/image-217.jpeg"
   - "https://qryptraveller.com/wp-content/uploads/2022/05/image-218.jpeg"
   - "https://qryptraveller.com/wp-content/uploads/2022/05/image-219.jpeg"
-excerpt: "英国国家統計局が二〇二二年に公開したデータの表九に残された接種状況別の死亡数と人年数から、子供の死亡率を自力で計算できてしまった。算出すると、一〇〜一四歳の三回接種児は未接種児に比べコロナ以外の原因で三〇三倍死にやすいという恐るべき数字が現れる——その計算過程を追った翻訳記事。"
+excerpt: "英国国家統計局（ONS）が二〇二二年五月に公開したデータの表九には、接種状況別の死亡数と人年数が残されていた——一〇〇〇〇〇人年あたりの死亡率を自力で計算すると、二〇二一年一月〜二〇二二年三月の間、一〇〜一四歳の三回接種児はコロナ以外の原因で未接種児の三〇三倍死にやすいという恐るべき数字が浮かぶ。その計算過程を追った翻訳記事。"
 flags: ""
 ---
 
