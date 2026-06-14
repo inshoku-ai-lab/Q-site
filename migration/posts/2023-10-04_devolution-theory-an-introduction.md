@@ -10,11 +10,15 @@ categories:
   - "デボリューション理論の記事集"
 tags:
   - "デボリューション"
+  - "デヴォリューション"
   - "デヴォルーション"
+  - "Devolution"
+  - "Theory"
+  - "入門編"
+  - "COG"
+  - "政府継続性"
   - "トランプ"
-  - "不正選挙"
-  - "情報戦争"
-  - "権限委譲"
+  - "ジョン・ヘロルド"
   - "権限委譲理論"
 images:
   - "https://qryptraveller.com/wp-content/uploads/2023/10/1.jpeg"
@@ -47,7 +51,7 @@ images:
   - "https://qryptraveller.com/wp-content/uploads/2023/10/82.jpeg"
   - "https://qryptraveller.com/wp-content/uploads/2023/10/9.jpeg"
   - "https://qryptraveller.com/wp-content/uploads/2023/10/devo4steps.png"
-excerpt: "デヴォリューション理論とは、海外勢力が２０２０大統領選に介入して不正を起こしたことで発動した軍事作戦の存在を示唆する理論である。この記事では詳細な証拠と共にその理論の実在を証明しています。"
+excerpt: "デヴォリューション理論の入門編——筆者ジョン・ヘロルド氏が長大な本編シリーズをひとまとめにした網羅記事の翻訳。家族の三台目の車「バックアップ」の喩えから「政府継続性（COG）」計画を解き、敵国がワシントンDCを核攻撃した場合の備えと同じ理屈で、選挙が盗まれた緊急事態に対しトランプが起動したCOGプランの全体像を提示する。"
 flags: ""
 ---
 
