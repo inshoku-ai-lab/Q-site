@@ -10,22 +10,16 @@ categories:
   - "DSが潰したい真のビットコインの話"
 tags:
   - "Bitcoin"
-  - "BitcoinSV"
-  - "Blockchain"
   - "BSV"
   - "BTC"
-  - "Cabal"
-  - "Craigissatoshi"
-  - "CraigWrightisSatoshi"
-  - "DeepState"
-  - "Epstein"
-  - "nakamoto"
-  - "Q"
-  - "Qanon"
-  - "satoshi"
+  - "BitcoinSV"
+  - "CraigWrightIsSatoshi"
   - "SatoshiNakamoto"
+  - "Cabal"
+  - "DeepState"
+  - "English"
 images:
-excerpt: "malicious individuals exploited a gap in Bitcoin’s development rules and hijacked the development camp, reforming and taking control of the originally competent Bitcoin."
+excerpt: "English (DeepL auto-translation) version of the 2021/11 long-form article: the Bitcoin (BTC) everyone knows is a fake — years ago malicious individuals exploited a gap in development rules, hijacked the project, and replaced the originally competent Bitcoin with something incompetent in name only. Covers the 7-trillion-yen Florida civil trial and the identity of Satoshi."
 flags: "no-images"
 ---
 
