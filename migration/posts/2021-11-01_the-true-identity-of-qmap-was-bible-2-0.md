@@ -9,17 +9,19 @@ featured_image_id: "3909"
 categories:
   - "オリジナル記事"
 tags:
-  - "2.0"
+  - "Q"
   - "Qmap"
-  - "人類を光へと導くための道具"
-  - "正体"
   - "聖書"
+  - "宗教"
+  - "スピリチュアル"
+  - "ニューエイジ"
+  - "真相論"
 images:
   - "https://qryptraveller.com/wp-content/uploads/2021/11/book-gfcc97c844_1920.jpg"
   - "https://qryptraveller.com/wp-content/uploads/2021/11/morning-2264051_640-601x400.jpg"
   - "https://qryptraveller.com/wp-content/uploads/2021/11/thinker-1294491_640-601x400.jpg"
   - "https://qryptraveller.com/wp-content/uploads/2022/01/jesus-christ-898330_640.jpg"
-excerpt: "過激なタイトルで始めてしまいましたが、ガチで話しています。  でも、どの文脈で話すかによって、このタイトルの意味は大きく変わってくるので、何をもとにそんな突拍子ないことを言っているのかを定義させていただきます。"
+excerpt: "Qmap（Qの投稿群）は「聖書二．〇」だと言うガチ論考。聖書を「人類を光へと導くための道具」と定義すれば、改竄を重ねられてきた聖書一．Xに対して、現代版の同じ道具がQmapだと言える——そう主張する根拠を、聖書の改竄史と悪魔崇拝教団の浸透の歴史を踏まえて一つずつ解説していく。"
 flags: ""
 ---
 

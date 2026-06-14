@@ -11,17 +11,20 @@ categories:
 tags:
   - "グレートリセット"
   - "ハイパーインフレ"
-  - "対策"
   - "経済危機"
   - "銀行破綻"
+  - "クレディスイス"
+  - "FTX"
+  - "暗号通貨"
   - "食糧危機"
+  - "対策"
 images:
   - "https://qryptraveller.com/wp-content/uploads/2023/04/businessman-3042272_1280.jpg"
   - "https://qryptraveller.com/wp-content/uploads/2023/04/bust-2794420_1280.jpg"
   - "https://qryptraveller.com/wp-content/uploads/2023/04/gold-bullion-163553_1280.jpg"
   - "https://qryptraveller.com/wp-content/uploads/2023/04/hyper.jpg"
   - "https://qryptraveller.com/wp-content/uploads/2023/04/silver-702537_1280.jpg"
-excerpt: "グレートリセット、ハイパーインフレ、食糧危機、経済危機、銀行破綻などなどの迫り来る危機に対処し、さらにはチャンスに替える７つの対策方法を解説しています。"
+excerpt: "対策方法七つの三部作・中編。コロナ後の経済衰退はグレートリセット計画の要——FTX破綻に代表される暗号通貨業界の危機、米国の銀行破綻からクレディスイス破綻へと連鎖する銀行危機、市民の信頼喪失が引き起こす取り付け騒ぎ、そしてバイデン政権の紙幣供給対策まで、経済危機への具体的な備え方を提示する。"
 flags: ""
 ---
 

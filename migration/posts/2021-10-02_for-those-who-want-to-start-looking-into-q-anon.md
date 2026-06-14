@@ -12,13 +12,12 @@ tags:
   - "Q"
   - "Qアノン"
   - "アノン"
-  - "ツイッター"
-  - "保留"
   - "初心者"
+  - "入門"
+  - "保留"
   - "真相論"
-  - "調べ方"
   - "論理的思考"
-  - "陰謀論"
+  - "調べ方"
 images:
   - "https://qryptraveller.com/wp-content/uploads/2021/11/coruption-534x400.jpg"
   - "https://qryptraveller.com/wp-content/uploads/2021/11/door-600x400.jpg"
@@ -26,7 +25,7 @@ images:
   - "https://qryptraveller.com/wp-content/uploads/2021/11/old-money-623x400.jpg"
   - "https://qryptraveller.com/wp-content/uploads/2021/11/rabbit-600x400.jpg"
   - "https://qryptraveller.com/wp-content/uploads/2021/11/suspend-479x400.jpg"
-excerpt: "これを読めば、Qとは何なのか理解できるようになるための、基礎的な調べ方を知ることができます。 安心して飛び込んでください。"
+excerpt: "Qの情報を調べ始めたい人のための入門記事。「Qアノン」とはQ組織でなくQの情報を追う人たちのことだという基礎用語の整理から始め、難易度の高さの心構え、そして最重要の思考技術「保留」——〇か×かの即断癖を捨て、ショックを受けても否定・嘲笑・拒絶の自動反応をいったん横に置いて見極めるための実践的な手引き。"
 flags: ""
 ---
 

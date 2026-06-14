@@ -9,14 +9,15 @@ featured_image_id: "11017"
 categories:
   - "オリジナル記事"
 tags:
+  - "ベムミラー"
+  - "ベム・ミラー"
+  - "バンディ"
+  - "ドキュメンタリー"
   - "ディープステート"
   - "トランプ"
-  - "ドキュメンタリー映画"
-  - "バンディ"
-  - "ベム"
-  - "ミラー"
-  - "ヴェム"
   - "暗殺未遂"
+  - "ネヴァダ"
+  - "市民ジャーナリスト"
 images:
   - "https://qryptraveller.com/wp-content/uploads/2024/10/1.png"
   - "https://qryptraveller.com/wp-content/uploads/2024/10/11.png"
@@ -29,7 +30,7 @@ images:
   - "https://qryptraveller.com/wp-content/uploads/2024/10/6.png"
   - "https://qryptraveller.com/wp-content/uploads/2024/10/8.png"
   - "https://qryptraveller.com/wp-content/uploads/2024/10/9.png"
-excerpt: "三度も起こったトランプ氏暗殺未遂事件。だが、この三度目の暗殺者は実は愛国者が濡れ衣を着せられただけなのかも知れない。彼の作る反DSドキュメンタリー映画がすごいので要約しました。"
+excerpt: "三度目のトランプ氏暗殺未遂犯ベム・ミラー氏は、実はネヴァダ州トランプ支持者の会代表で反DSドキュメンタリーを作る市民ジャーナリストだった——彼のドキュメンタリーが描く二〇一四年バンディ家農場襲撃事件と、東京ドーム一〇万個分の土地が連邦政府にもネヴァダ州にも公式には所有されていなかったという衝撃の発見を要約する。"
 flags: ""
 ---
 

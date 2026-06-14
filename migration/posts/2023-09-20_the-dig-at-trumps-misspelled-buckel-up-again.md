@@ -9,15 +9,15 @@ featured_image_id: "10481"
 categories:
   - "オリジナル記事"
 tags:
-  - "buckel up"
-  - "buckle up"
   - "Q"
   - "Qアノン"
   - "トランプ"
   - "ミススペル"
-  - "情報戦争"
   - "暗号"
-  - "締めて"
+  - "TRUTH Social"
+  - "Buckel up"
+  - "イラン"
+  - "情報戦争"
 images:
   - "https://qryptraveller.com/wp-content/uploads/2023/09/4368.png"
   - "https://qryptraveller.com/wp-content/uploads/2023/09/スクリーンショット-2023-09-19-13.04.00.png"
@@ -26,7 +26,7 @@ images:
   - "https://qryptraveller.com/wp-content/uploads/2023/09/スクリーンショット-2023-09-19-16.50.47.png"
   - "https://qryptraveller.com/wp-content/uploads/2023/09/スクリーンショット-2023-09-19-17.14.57.png"
   - "https://qryptraveller.com/wp-content/uploads/2023/09/スクリーンショット-2023-09-19-17.31.45.png"
-excerpt: "トランプ大統領の綴り間違いは、Qの発信する暗号メッセージ。 「シートベルトを締めて」に値する「Buckel up」の誤字メッセージについて。"
+excerpt: "トランプ氏のミススペルは暗号通信——Qの八三一番目の投稿「スペルミスは重要」を踏まえ、二〇二三年九月一八日のTRUTH Social投稿で誤記された「Buckel up（本来Buckle up：シートベルトを締めて衝撃に備えよ）」を、イラン六〇億ドル人質取引の文脈から読み解く。Q暗号デコードの実例記事。"
 flags: ""
 ---
 

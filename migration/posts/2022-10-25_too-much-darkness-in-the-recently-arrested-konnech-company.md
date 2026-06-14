@@ -10,16 +10,15 @@ categories:
   - "オリジナル記事"
 tags:
   - "Konnech"
-  - "コネク"
   - "コネック"
-  - "コネッチ"
-  - "コンネック"
+  - "ユージン・ユー"
+  - "中国共産党"
+  - "CCP"
   - "スパイ"
-  - "ユー"
-  - "ユージン"
-  - "浸透"
-  - "米軍"
   - "選挙"
+  - "米軍"
+  - "浸透"
+  - "逮捕"
 images:
   - "https://qryptraveller.com/wp-content/uploads/2022/10/1.jpg"
   - "https://qryptraveller.com/wp-content/uploads/2022/10/2.jpg"
@@ -29,7 +28,7 @@ images:
   - "https://qryptraveller.com/wp-content/uploads/2022/10/6.jpg"
   - "https://qryptraveller.com/wp-content/uploads/2022/10/7.jpg"
   - "https://qryptraveller.com/wp-content/uploads/2022/10/8.jpg"
-excerpt: "２０２２年１０月初めに、Konnech社というアメリカの選挙や軍事に深く関わっている中国系会社のCEOがロサンジェルス検察により逮捕されました。  日本のメディアでは全く報道しないので、知らない方も多いかと思いますが、この件、実はとんでもなくヤバい話なのです。  そして、ヤバいことの反面に大きな希望でもあります。  このKonnech社が何をしていたかを簡単に言うと、米国の政府機関と癒着してアメリカ軍人をスパイして、そのデータを中国に送って、中国のデータとして所有していたのです。"
+excerpt: "二〇二二年一〇月、米国の選挙や軍事に深く関わる中国系会社Konnechの創業者ユージン・ユー氏がロサンジェルス検察により逮捕——一八〇万人超の米国投票者の個人識別情報、投票機の位置、建物の構造図などの機密選挙データが中国共産党所有のサーバーに送られていた。日本のメディアが報じない、中国の米国浸透の実態を翻訳記事で追う。"
 flags: ""
 ---
 

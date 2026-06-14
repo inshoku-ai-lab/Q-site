@@ -9,10 +9,13 @@ featured_image_id: "9379"
 categories:
   - "オリジナル記事"
 tags:
-  - "情報戦"
   - "直感"
+  - "第六感"
+  - "情報戦"
   - "罠"
   - "鍛え方"
+  - "スピリチュアル"
+  - "ヒーリング"
 images:
   - "https://qryptraveller.com/wp-content/uploads/2023/05/choice.jpg"
   - "https://qryptraveller.com/wp-content/uploads/2023/05/compas.jpg"
@@ -22,7 +25,7 @@ images:
   - "https://qryptraveller.com/wp-content/uploads/2023/05/travel.jpg"
   - "https://qryptraveller.com/wp-content/uploads/2023/05/trust.jpg"
   - "https://qryptraveller.com/wp-content/uploads/2023/05/universe-flow.jpg"
-excerpt: "直感はより良い人生を生きるために重要な要素だが、情報戦においては弱点になりうる。直感の鍛え方と弱点の克服方法を解説！"
+excerpt: "これからの時代は直感が物を言う——直感を「宇宙の流れを知覚する第六感」と定義し、誰でも筋肉のように鍛えられると説く。だが直感は情報戦においては大きな弱点になりうる——支配層は人々の直感的反応を利用して罠を仕掛けるからだ。鍛え方と、情報戦における危険な罠の見抜き方と対策を体系化する。"
 flags: ""
 ---
 

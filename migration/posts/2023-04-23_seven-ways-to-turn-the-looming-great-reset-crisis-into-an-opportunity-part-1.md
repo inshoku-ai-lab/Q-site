@@ -15,6 +15,10 @@ tags:
   - "経済危機"
   - "銀行破綻"
   - "食糧危機"
+  - "NWO"
+  - "グレートアウェイクニング"
+  - "自給自足"
+  - "コミュニティ"
 images:
   - "https://qryptraveller.com/wp-content/uploads/2023/04/campfire-896196_1280.jpg"
   - "https://qryptraveller.com/wp-content/uploads/2023/04/climate-change-1325882_1280.jpg"
@@ -27,7 +31,7 @@ images:
   - "https://qryptraveller.com/wp-content/uploads/2023/04/pharmacy-3377670_1280.jpg"
   - "https://qryptraveller.com/wp-content/uploads/2023/04/purchasing-4981245_1280.jpg"
   - "https://qryptraveller.com/wp-content/uploads/2023/04/web-3963945_1280.jpg"
-excerpt: "グレートリセット、ハイパーインフレ、食糧危機、経済危機、銀行破綻などなどの迫り来る危機に対処し、さらにはチャンスに替える７つの対策方法を解説しています。 グレートリセットに対策するための指南書です。"
+excerpt: "迫りくるグレートリセットの危機を「チャンスに変える」対策方法七つの三部作・前編。グレートリセット→新世界秩序（NWO）→グレートアウェイクニングという流れの予測、規模・時期・期間の想定、そして自給自足とコミュニティ形成という最初の二つの対策を、メキシコ山奥で自給自足を進める著者が解説する。"
 flags: ""
 ---
 

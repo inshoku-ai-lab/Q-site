@@ -9,17 +9,16 @@ featured_image_id: "7967"
 categories:
   - "オリジナル記事"
 tags:
-  - "コロナ"
-  - "デジタルID"
-  - "プライバシー"
-  - "マイナカード"
   - "マイナンバーカード"
-  - "世界統一政府"
-  - "奴隷社会"
-  - "情報統制"
+  - "マイナカード"
+  - "マイナポータル"
+  - "デジタルID"
   - "監視社会"
-  - "言論統制"
   - "超監視社会"
+  - "プライバシー"
+  - "世界統一政府"
+  - "情報統制"
+  - "奴隷社会"
 images:
   - "https://qryptraveller.com/wp-content/uploads/2022/12/１.jpeg"
   - "https://qryptraveller.com/wp-content/uploads/2022/12/１１.jpeg"
@@ -33,7 +32,7 @@ images:
   - "https://qryptraveller.com/wp-content/uploads/2022/12/７.jpeg"
   - "https://qryptraveller.com/wp-content/uploads/2022/12/８.jpeg"
   - "https://qryptraveller.com/wp-content/uploads/2022/12/９.jpeg"
-excerpt: "マイナンバーカードのヤバさをわかりやすく解説しているスレッドを見つけたので、ツイッターをやってない人でも読めるように、記事にしました。  書き出すのは、らんさんのスレッドです。"
+excerpt: "マイナンバーカードのヤバさを、らんさんのスレッドを書き起こしてまとめた記事。マイナポータルという紐付けサイトの【ツール】に過ぎず、所有＝利用申込書に等しい——契約書ではないため利用規約は国が国会承認なしで自由に変更でき、利用者にあらゆるリスクが押し付けられる仕組みを法的観点から徹底解説。"
 flags: ""
 ---
 

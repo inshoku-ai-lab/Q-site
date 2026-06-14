@@ -9,16 +9,14 @@ featured_image_id: "4325"
 categories:
   - "オリジナル記事"
 tags:
-  - "なりすまし"
-  - "イスラエル"
-  - "イルミナティ"
-  - "ユダヤ人"
+  - "偽ユダヤ人"
+  - "偽イルミナティ"
+  - "ハザール"
   - "ユダヤ金融"
+  - "世界支配"
   - "アダム・ヴァイスハウプト"
   - "乗っ取り"
-  - "偽イルミナティ"
-  - "偽ユダヤ人"
-  - "日ユ道祖論"
+  - "日ユ同祖論"
   - "１７７６委員会"
 images:
   - "https://qryptraveller.com/wp-content/uploads/2021/11/False-Jewish-1-min.jpg"
@@ -30,7 +28,7 @@ images:
   - "https://qryptraveller.com/wp-content/uploads/2021/11/False-Jewish-7-1.jpg"
   - "https://qryptraveller.com/wp-content/uploads/2021/11/False-Jewish-8-min.jpg"
   - "https://qryptraveller.com/wp-content/uploads/2021/11/False-Jewish-9-min.jpg"
-excerpt: "この記事を読んでいる方は、陰謀論やユダヤ金融の世界支配の話を知っているとは思いますが、偽ユダヤや偽イルミナティの話は聞いたことがあるでしょうか？  これは、陰謀論すらが陰謀論だったという話なんです。"
+excerpt: "陰謀論ですら陰謀論だった——世界の金融を支配する「ユダヤ人」は、実はユダヤ人の血を引いていない「偽ユダヤ人」だ。血筋による枠組みと宗教改宗による枠組みの二つを持つユダヤ人定義の隙間を利用したハザール王国の歴史的経緯から、アダム・ヴァイスハウプトの偽イルミナティ起源まで、一七七六委員会の言葉を補助線に解き明かす。"
 flags: ""
 ---
 

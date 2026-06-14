@@ -9,20 +9,21 @@ featured_image_id: "1394"
 categories:
   - "オリジナル記事"
 tags:
+  - "祈り"
+  - "呪い"
+  - "悪魔崇拝"
+  - "スピリチュアル"
+  - "霊的世界"
   - "Qアノン"
   - "トランプ"
-  - "呪い"
-  - "大統領"
-  - "悪魔崇拝"
-  - "祈り"
-  - "胡散臭い"
+  - "DS"
 images:
   - "https://qryptraveller.com/wp-content/uploads/2021/10/ritual.jpg"
   - "https://qryptraveller.com/wp-content/uploads/2021/10/sadhu-601x400.jpg"
   - "https://qryptraveller.com/wp-content/uploads/2021/10/woman-600x400.jpg"
   - "https://qryptraveller.com/wp-content/uploads/2021/10/wormhole-gd1ef89070_360.jpg"
   - "https://qryptraveller.com/wp-content/uploads/2021/11/meditation-g82eb3fc61_640.jpg"
-excerpt: "「祈り」ってなんか胡散臭いし、外部の力に頼るのってダサいなんて思っていませんか？ それ、長年かけて知らず知らずの間に思考誘導されてるんですよ。 知ってました？　誘導されていたことに。。。"
+excerpt: "「祈り」は胡散臭くダサい——その感覚自体が長年の思考誘導の結果だと著者は説く。世界を支配する悪魔崇拝者たちが秘伝の儀式で力を得ては、人工地震・九一一・ワクチン・人口削減すべてを儀式として呪いに用いてきた歴史を踏まえ、なぜ呪いは効くのか、霊的世界の仕組みと真の祈りの力を解放するための三つの真実を提示する。"
 flags: ""
 ---
 
