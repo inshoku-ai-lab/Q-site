@@ -7,17 +7,20 @@ status: "publish"
 original_url: "https://qryptraveller.com/evidence-that-ukraine-is-the-most-important-center-for-child-organ-trafficking/"
 featured_image_id: "10258"
 categories:
-  - "放浪記"
+  - "オリジナル記事"
 tags:
   - "ウクライナ"
   - "ロシア"
   - "人身売買"
   - "児童人身売買"
   - "性奴隷"
-  - "戦争"
   - "臓器売買"
+  - "戦争"
+  - "Dom Lucre"
+  - "赤ちゃん工場"
+  - "暴露"
 images:
-excerpt: "ウクライナが小児人身売買や臓器人身売買の重要な拠点だということを数々の証拠とともに解説した記事。"
+excerpt: "独立系ジャーナリストDom Lucre氏のスレッドの翻訳——二〇二三年三月、ロシア兵がウクライナで発見した「赤ちゃん工場」の動画、ニュージーランド・テレグラフ紙の違法臓器売買報道、戦争前から続いていたと証言した親友ボイコフ氏の親友の不審死、BBC報道のウクライナ難民を食い物にする性売買。戦争の霧をビジネスの隠れ蓑とする実態の証拠羅列。"
 flags: "no-images"
 ---
 
