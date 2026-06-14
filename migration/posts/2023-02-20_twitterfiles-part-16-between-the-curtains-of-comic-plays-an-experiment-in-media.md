@@ -9,15 +9,13 @@ featured_image_id: "8975"
 categories:
   - "ツイッターファイル全記事"
 tags:
-  - "files"
-  - "twitter"
   - "twitterfiles"
-  - "イーロンマスク"
-  - "イーロン・マスク"
-  - "ツイッター"
   - "ツイッターファイル"
+  - "アダム・シフ"
   - "トランプ"
-  - "ファイル"
+  - "メディア"
+  - "ハミルトン68"
+  - "検閲"
   - "言論統制"
 images:
   - "https://qryptraveller.com/wp-content/uploads/2023/02/1-1.jpg"
@@ -35,7 +33,7 @@ images:
   - "https://qryptraveller.com/wp-content/uploads/2023/02/7c.png"
   - "https://qryptraveller.com/wp-content/uploads/2023/02/7d.png"
   - "https://qryptraveller.com/wp-content/uploads/2023/02/9-2.jpg"
-excerpt: "トランプ氏がツイートの削除依頼をしたときは、メディアが大いに騒ぎ立てたが、アダム・シフ氏がツイート削除の依頼をしていたことが発覚しても、メディアはダンマリを決め込んでいる。  その点を見るだけでもメディアの本質が見えてくる。"
+excerpt: "ツイッターファイル第一六弾「コミック劇の幕間：メディアの実験」。トランプの削除依頼にはメディアが騒ぎ立てるが、シフ議員の削除依頼にはダンマリ——その対比を見るだけでメディアの本質が見えてくる。連邦政府が保守派と左派の両方を架空のロシア人と勘違いし、ツイッターが書類上で検閲権限を「米国情報機関」に譲り渡していた事実も明らかに。"
 flags: ""
 ---
 

@@ -9,15 +9,14 @@ featured_image_id: "8069"
 categories:
   - "ツイッターファイル全記事"
 tags:
-  - "files"
-  - "twitter"
   - "twitterfiles"
-  - "イーロンマスク"
-  - "イーロン・マスク"
-  - "ツイッター"
   - "ツイッターファイル"
+  - "イーロン・マスク"
   - "トランプ"
-  - "ファイル"
+  - "J6"
+  - "議事堂襲撃"
+  - "アカウント停止"
+  - "検閲"
   - "言論統制"
 images:
   - "https://qryptraveller.com/wp-content/uploads/2023/02/10-1.jpeg"
@@ -45,7 +44,7 @@ images:
   - "https://qryptraveller.com/wp-content/uploads/2023/02/37b.png"
   - "https://qryptraveller.com/wp-content/uploads/2023/02/7-2.jpeg"
   - "https://qryptraveller.com/wp-content/uploads/2023/02/9-2.jpeg"
-excerpt: "ツイッターファイルの第５弾。  ツイッター社員はトランプ大統領がルールに違反していないことを知りつつも、嫌悪の気持ちとトランプ大統領を停止させたい勢力の押しにより、アカウント停止を決定した。  ２０２１年１月８日の裏側事情を内部文書から描きます。"
+excerpt: "ツイッターファイル第五弾「ツイッターからのトランプ排除」。一月八日朝、永久停止まで残り一回というカウントの中で大統領が放った二つのツイートを社員はルール違反でないと知りつつ追放した——他国の過激な指導者は放置しながら。検閲を義務と感じ、追放に喜びを見出した社員たちの姿が、内部メールから一日単位で明らかになる。"
 flags: ""
 ---
 

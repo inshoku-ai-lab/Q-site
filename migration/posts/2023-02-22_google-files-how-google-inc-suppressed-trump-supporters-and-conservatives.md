@@ -9,12 +9,14 @@ featured_image_id: "9046"
 categories:
   - "ツイッターファイル全記事"
 tags:
-  - "google"
-  - "kanekoa"
-  - "twitterfiles"
-  - "グーグル"
+  - "googlefiles"
   - "グーグルファイル"
-  - "ツイッターファイル"
+  - "Google"
+  - "YouTube"
+  - "Kanekoa"
+  - "ヒラリー"
+  - "トランプ"
+  - "検閲"
   - "言論統制"
 images:
   - "https://qryptraveller.com/wp-content/uploads/2023/02/1-2.jpg"
@@ -35,7 +37,7 @@ images:
   - "https://qryptraveller.com/wp-content/uploads/2023/02/3-1.png"
   - "https://qryptraveller.com/wp-content/uploads/2023/02/6-6.jpg"
   - "https://qryptraveller.com/wp-content/uploads/2023/02/9-4.jpg"
-excerpt: "グーグル社はトランプ氏が大統領に当選して以来、言論統制のギアを一気に上げた。  グーグルの親会社の会長は、ヒラリー氏の選挙戦の「外部顧問の長」だったり、クリントン陣営の最高技術責任者は、グーグル出身だった。  グーグル社の内部告発者の暴露本の解説！"
+excerpt: "グーグルファイル。市民ジャーナリストKanekoa The Greatが、九五〇ページの内部文書「グーグルリークス」と暴露本を元に解説——親会社会長はヒラリー陣営の外部顧問の長、CTOはグーグル出身、無料乗車券資金まで提供。トランプ当選を転機にYouTubeを含む検索を操作し、Gmailは共和党の寄付メールをスパム指定、CEOは議会で偽証していた。"
 flags: ""
 ---
 

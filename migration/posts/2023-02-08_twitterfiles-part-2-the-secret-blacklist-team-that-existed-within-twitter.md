@@ -9,15 +9,12 @@ featured_image_id: "8066"
 categories:
   - "ツイッターファイル全記事"
 tags:
-  - "files"
-  - "twitter"
   - "twitterfiles"
-  - "イーロンマスク"
-  - "イーロン・マスク"
-  - "ツイッター"
   - "ツイッターファイル"
-  - "ファイル"
+  - "イーロン・マスク"
   - "ブラックリスト"
+  - "シャドーバン"
+  - "検閲"
   - "言論統制"
 images:
   - "https://qryptraveller.com/wp-content/uploads/2023/02/16.jpeg"
@@ -28,7 +25,7 @@ images:
   - "https://qryptraveller.com/wp-content/uploads/2023/02/3.jpeg"
   - "https://qryptraveller.com/wp-content/uploads/2023/02/4.jpeg"
   - "https://qryptraveller.com/wp-content/uploads/2023/02/5.jpeg"
-excerpt: "ツイッターファイル第２弾は、ツイッター者内部に専門の言論統制班がいて、医学博士や保守活動家を標的として特別な言論統制を行っていたというものです。  詳細な内部資料付きで完全に暴露した記事です。"
+excerpt: "ツイッターファイル第二弾「ツイッターの秘密のブラックリスト」。「トレンドBL」「検索BL」「拡散させない」の三層のシャドーバン設定が秘密裏に運用され、医師ジェイ・バッタチャリヤやLibsOfTiktokなど保守・反ロックダウンの声を標的にしていた。前CEOドーシーやアグラワル氏が参加する秘密のブラックリストチームの実態を暴く。"
 flags: ""
 ---
 

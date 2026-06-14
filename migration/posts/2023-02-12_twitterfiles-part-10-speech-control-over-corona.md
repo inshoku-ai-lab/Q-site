@@ -9,15 +9,13 @@ featured_image_id: "8587"
 categories:
   - "ツイッターファイル全記事"
 tags:
-  - "files"
-  - "twitter"
   - "twitterfiles"
-  - "イーロンマスク"
-  - "イーロン・マスク"
-  - "ツイッター"
   - "ツイッターファイル"
-  - "トランプ"
-  - "ファイル"
+  - "コロナ"
+  - "ワクチン"
+  - "CDC"
+  - "バイデン政権"
+  - "検閲"
   - "言論統制"
 images:
   - "https://qryptraveller.com/wp-content/uploads/2023/02/10-1.png"
@@ -38,7 +36,7 @@ images:
   - "https://qryptraveller.com/wp-content/uploads/2023/02/6-1.png"
   - "https://qryptraveller.com/wp-content/uploads/2023/02/7-2.png"
   - "https://qryptraveller.com/wp-content/uploads/2023/02/8-1.png"
-excerpt: "今回のツイッターファイルは、ついに現代の最大のタブーである「コロナに関する言論統制」に言及しています。  ツイッターの内部資料によると、バイデン政権が「反ワクチンのアカウント」に焦点を合わせて言論統制していたことが分かります。"
+excerpt: "ツイッターファイル第一〇弾「コロナに対する言論統制」。トランプ政権はパニック買い対策、バイデン政権は「反ワクチン・アカウント」に焦点を絞ってSNSへ圧力をかけ、ツイッターはCDCデータを共有する一般ユーザーや反対する医師まで抑圧した。政府が不都合な真実を検閲し、専門家の信用を失墜させた仕組みを内部資料から解き明かす。"
 flags: ""
 ---
 

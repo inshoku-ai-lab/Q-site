@@ -9,15 +9,13 @@ featured_image_id: "8070"
 categories:
   - "ツイッターファイル全記事"
 tags:
-  - "files"
-  - "twitter"
   - "twitterfiles"
-  - "イーロンマスク"
-  - "イーロン・マスク"
-  - "ツイッター"
   - "ツイッターファイル"
-  - "トランプ"
-  - "ファイル"
+  - "イーロン・マスク"
+  - "FBI"
+  - "FTIF"
+  - "ヨエル・ロス"
+  - "検閲"
   - "言論統制"
 images:
   - "https://qryptraveller.com/wp-content/uploads/2023/02/11-2.jpeg"
@@ -47,7 +45,7 @@ images:
   - "https://qryptraveller.com/wp-content/uploads/2023/02/40a.jpeg"
   - "https://qryptraveller.com/wp-content/uploads/2023/02/41.jpeg"
   - "https://qryptraveller.com/wp-content/uploads/2023/02/42.jpeg"
-excerpt: "ツイッターファイルの第６弾です。  FBIが如何にツイッターを自身の子会社のように扱い、目的の通りに言論統制をさせてきたのか？  その全貌が、内部文書より明らかにされています。"
+excerpt: "ツイッターファイル第六弾「ツイッター社は、まるでFBIの子会社のようだ」。FBIサンフランシスコ支局のエルヴィス・チャン捜査官と元信頼安全主任ヨエル・ロスとの間で交わされた一五〇通超のメール、八〇人規模に膨張したタスクフォースFTIF、ジョークツイートまで規制対象にした要請——癒着を超える結びつきが内部資料から浮かび上がる。"
 flags: ""
 ---
 

@@ -9,15 +9,14 @@ featured_image_id: "8079"
 categories:
   - "ツイッターファイル全記事"
 tags:
-  - "files"
-  - "twitter"
   - "twitterfiles"
-  - "イーロンマスク"
-  - "イーロン・マスク"
-  - "ツイッター"
   - "ツイッターファイル"
-  - "トランプ"
-  - "ファイル"
+  - "イーロン・マスク"
+  - "GEC"
+  - "FBI"
+  - "DHS"
+  - "アダム・シフ"
+  - "検閲"
   - "言論統制"
 images:
   - "https://qryptraveller.com/wp-content/uploads/2023/02/11a.jpg"
@@ -65,7 +64,7 @@ images:
   - "https://qryptraveller.com/wp-content/uploads/2023/02/7b-1.jpg"
   - "https://qryptraveller.com/wp-content/uploads/2023/02/8-1.jpg"
   - "https://qryptraveller.com/wp-content/uploads/2023/02/9-2.png"
-excerpt: "ツイッターファイル第一二弾「ツイッターとFBIの“おへそ”」。国務省の情報統制機関GEC、FBI、DHSがあらゆる政府機関の言論統制要求の橋渡しとなり、削除すべきユーザーを特定していた様を内部資料が描く。二〇二〇年の大統領選前、検閲依頼が殺到しツイッターが混乱した実態を完全翻訳する。"
+excerpt: "ツイッターファイル第一二弾「ツイッターとFBIの“おへそ”」。国務省GEC、FBI、DHSが他の政府機関の検閲要求の橋渡しとなり、削除すべきユーザーを特定していた——アダム・シフが個人的に依頼、ロシアの大手出版社や本の宣伝までもが対象に。二〇二〇年大統領選前、殺到する検閲依頼でツイッター社内が混乱した実態を内部資料が描く。"
 flags: ""
 ---
 

@@ -9,15 +9,14 @@ featured_image_id: "8083"
 categories:
   - "ツイッターファイル全記事"
 tags:
-  - "files"
-  - "twitter"
   - "twitterfiles"
-  - "イーロンマスク"
-  - "イーロン・マスク"
-  - "ツイッター"
   - "ツイッターファイル"
-  - "トランプ"
-  - "ファイル"
+  - "ハミルトン68"
+  - "民主主義確保同盟"
+  - "FBI"
+  - "ロシアゲート"
+  - "メディア"
+  - "検閲"
   - "言論統制"
 images:
   - "https://qryptraveller.com/wp-content/uploads/2023/02/10-3.png"
@@ -70,7 +69,7 @@ images:
   - "https://qryptraveller.com/wp-content/uploads/2023/02/9b.jpeg"
   - "https://qryptraveller.com/wp-content/uploads/2023/02/9c.jpeg"
   - "https://qryptraveller.com/wp-content/uploads/2023/02/9d.jpeg"
-excerpt: "FBI関係者のいる団体が資金援助するハミルトン６８という団体が、ツイッター内にロシアの工作員が紛れているという嘘をでっち上げた。  その嘘が、マスコミに報道され、政治に利用され、学術機関に利用された。  ツイッターの内部資料を元にどのように偽情報が生成されるかを暴く！"
+excerpt: "ツイッターファイル第一六弾（自称一五弾）「ハミルトン68の捏造」。元FBI防諜官率いる「民主主義確保同盟」が資金提供（ポデスタ、CIA・NSA・DHS元高官が参加）、「ディープステート」等のハッシュタグをロシアのボット発と決めつけた六〇〇アカウントのリストは秘匿——ツイッター幹部が独自に調査して全くロシアと無関係と結論づけたが反論できなかった。"
 flags: ""
 ---
 

@@ -9,15 +9,13 @@ featured_image_id: "8074"
 categories:
   - "ツイッターファイル全記事"
 tags:
-  - "files"
-  - "twitter"
   - "twitterfiles"
-  - "イーロンマスク"
-  - "イーロン・マスク"
-  - "ツイッター"
   - "ツイッターファイル"
-  - "トランプ"
-  - "ファイル"
+  - "イーロン・マスク"
+  - "国防総省"
+  - "アメリカ中央軍"
+  - "プロパガンダ"
+  - "検閲"
   - "言論統制"
 images:
   - "https://qryptraveller.com/wp-content/uploads/2023/02/10-2.jpeg"
@@ -32,7 +30,7 @@ images:
   - "https://qryptraveller.com/wp-content/uploads/2023/02/6c.jpeg"
   - "https://qryptraveller.com/wp-content/uploads/2023/02/7a.jpeg"
   - "https://qryptraveller.com/wp-content/uploads/2023/02/7b.jpeg"
-excerpt: "今回のツイッターファイルでは、国防総省とアメリカ中央軍が、中東でプロパガンダ作戦を行っていて、ツイッター社がその作戦に便宜を測っていたことが、内部文書により明かされています。"
+excerpt: "ツイッターファイル第八弾「ツイッターはいかにして米国防総省の秘密オンライン作戦を助けたか？」。国家のプラットフォーム操作を停止すると議会で証言しながら、アメリカ中央軍が中東で運営する偽アカウント網に認証マークやホワイトリストを付与して便宜を図っていた——他国の同種アカウントは停止しながら。米軍プロパガンダの片棒を担いだ実態を暴く。"
 flags: ""
 ---
 

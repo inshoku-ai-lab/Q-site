@@ -9,12 +9,14 @@ featured_image_id: "9412"
 categories:
   - "ツイッターファイル全記事"
 tags:
-  - "FBI"
   - "twitterfiles"
-  - "ウクライナ"
-  - "ツイッター"
   - "ツイッターファイル"
-  - "ファイル"
+  - "ウクライナ"
+  - "SBU"
+  - "FBI"
+  - "アーロン・メイト"
+  - "ジャーナリスト"
+  - "検閲"
   - "言論統制"
 images:
   - "https://qryptraveller.com/wp-content/uploads/2023/06/1.jpg"
@@ -22,7 +24,7 @@ images:
   - "https://qryptraveller.com/wp-content/uploads/2023/06/5.jpg"
   - "https://qryptraveller.com/wp-content/uploads/2023/06/２.png"
   - "https://qryptraveller.com/wp-content/uploads/2023/06/３.png"
-excerpt: "今回のツイッターファイルでは、ウクライナがFBIを通して自分たちに都合の悪いジャーナリストを検閲していたことが、ツイッター社の内部資料より暴露されています。"
+excerpt: "ツイッターファイル第二三弾。ジャーナリストのアーロン・メイト氏が、ウクライナ情報機関SBUがFBI経由で米国人ジャーナリスト（メイト氏自身を含む）の検閲を要請していたことを暴露——マット・タイッビ氏が「最もFBIを非難する記事」と評した、外国政府の依頼に応じる連邦機関の姿を内部メールから示す。"
 flags: ""
 ---
 

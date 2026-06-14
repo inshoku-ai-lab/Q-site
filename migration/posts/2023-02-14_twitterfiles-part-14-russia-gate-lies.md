@@ -9,16 +9,15 @@ featured_image_id: "8081"
 categories:
   - "ツイッターファイル全記事"
 tags:
-  - "files"
-  - "twitter"
   - "twitterfiles"
-  - "イーロンマスク"
-  - "イーロン・マスク"
-  - "ツイッター"
   - "ツイッターファイル"
-  - "トランプ"
-  - "ファイル"
+  - "ロシアゲート"
+  - "ハミルトン68"
+  - "アダム・シフ"
+  - "FBI"
+  - "検閲"
   - "言論統制"
+  - "暴露"
 images:
   - "https://qryptraveller.com/wp-content/uploads/2023/02/10-2.png"
   - "https://qryptraveller.com/wp-content/uploads/2023/02/11-2.png"
@@ -63,7 +62,7 @@ images:
   - "https://qryptraveller.com/wp-content/uploads/2023/02/7c.jpg"
   - "https://qryptraveller.com/wp-content/uploads/2023/02/7d.jpg"
   - "https://qryptraveller.com/wp-content/uploads/2023/02/9b.png"
-excerpt: "ハミルトン６８という研究機関の発表に合わせて、各マスメディアはロシアの陰謀を騒ぎ立てていた。  だが、実際にはロシアの陰謀などなく、無理やりにでっち上げた冤罪だった。  大手メディアの嘘ニュースが作り上げられる仕組みをツイッター社の内部ファイルより暴露した記事。"
+excerpt: "ツイッターファイル第一四弾「ロシアゲートの嘘」。FBI元防諜官の率いる「民主主義確保同盟」が後援するハミルトン68を情報源として、ファインスタイン・シフ・ブルメンタール議員が#ReleaseTheMemoをロシア工作員のせいだと公開書簡で糾弾した——ツイッターは関連性なしと知りつつ反論せず、大手メディアの嘘ニュースが量産された仕組みを暴く。"
 flags: ""
 ---
 

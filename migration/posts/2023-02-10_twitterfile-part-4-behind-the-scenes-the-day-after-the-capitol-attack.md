@@ -9,15 +9,14 @@ featured_image_id: "8068"
 categories:
   - "ツイッターファイル全記事"
 tags:
-  - "files"
-  - "twitter"
   - "twitterfiles"
-  - "イーロンマスク"
-  - "イーロン・マスク"
-  - "ツイッター"
   - "ツイッターファイル"
+  - "イーロン・マスク"
   - "トランプ"
-  - "ファイル"
+  - "J6"
+  - "議事堂襲撃"
+  - "アカウント停止"
+  - "検閲"
   - "言論統制"
 images:
   - "https://qryptraveller.com/wp-content/uploads/2023/02/1.jpeg"
@@ -50,7 +49,7 @@ images:
   - "https://qryptraveller.com/wp-content/uploads/2023/02/7-1.jpeg"
   - "https://qryptraveller.com/wp-content/uploads/2023/02/8-1.jpeg"
   - "https://qryptraveller.com/wp-content/uploads/2023/02/9-1.jpeg"
-excerpt: "議事堂襲撃事件の翌日、ツイッター社内は混乱に満ちていた。  一部の上級社員はトランプ大統領のアカウント削除に反対していたが、多くの急進派の一般社員の意見がツイッター全体に大きな影響を与え、トランプ大統領のアカウント停止に踏み切った。  その裏側のドラマを内部文書のメールなどをもとに描いています。"
+excerpt: "ツイッターファイル第四弾「ドナルド・トランプの排除 一月七日」。永久追放に反対する上級幹部もいたが、急進的思想を持つ言論統制班と一般社員の声に押されてルールを書き換え、「暴力をさらに扇動する危険性」を理由に追放した——カウンタースピーチや言論の自由への影響はほぼ議論されなかった。フェイスブックも同日追放決定。"
 flags: ""
 ---
 

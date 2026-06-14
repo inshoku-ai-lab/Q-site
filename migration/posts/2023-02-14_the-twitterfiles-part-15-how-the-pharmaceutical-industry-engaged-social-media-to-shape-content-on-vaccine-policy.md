@@ -9,15 +9,14 @@ featured_image_id: "8082"
 categories:
   - "ツイッターファイル全記事"
 tags:
-  - "files"
-  - "twitter"
   - "twitterfiles"
-  - "イーロンマスク"
-  - "イーロン・マスク"
-  - "ツイッター"
   - "ツイッターファイル"
-  - "トランプ"
-  - "ファイル"
+  - "製薬業界"
+  - "ファイザー"
+  - "ワクチン"
+  - "コロナ"
+  - "PGP"
+  - "検閲"
   - "言論統制"
 images:
   - "https://qryptraveller.com/wp-content/uploads/2023/02/10a.jpg"
@@ -27,7 +26,7 @@ images:
   - "https://qryptraveller.com/wp-content/uploads/2023/02/12-3.jpg"
   - "https://qryptraveller.com/wp-content/uploads/2023/02/5-3.jpg"
   - "https://qryptraveller.com/wp-content/uploads/2023/02/6-2.jpg"
-excerpt: "大手製薬会社は世界的な危機を最大のビジネスチャンスと捉えており、製薬会社のロビー団体は、他の国が低価格のワクチンを作ることが出来ないように制裁することを米国政府に要求していた。  Twitter社の内部文書により発覚！"
+excerpt: "ツイッターファイル第一五弾「製薬業界はどのようにSNSに働きかけワクチン政策を形成したか？」。ファイザーのパートナーであるバイオテック社が低所得国向けジェネリックワクチンを求める活動家の検閲を直接要求、PGPはワクチンパスポートや強制接種への疑念を規制しつつ製薬会社自身には適用せず——危機を最大の儲け場に変えた構造を暴く。"
 flags: ""
 ---
 

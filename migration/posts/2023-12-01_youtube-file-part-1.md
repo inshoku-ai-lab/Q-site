@@ -9,13 +9,15 @@ featured_image_id: "10584"
 categories:
   - "ツイッターファイル全記事"
 tags:
-  - "files"
-  - "youtube"
-  - "ジム・ジョーダン"
-  - "ファイル"
-  - "ユーチューブ"
+  - "youtubefiles"
   - "ユーチューブファイル"
+  - "ジム・ジョーダン"
+  - "Google"
+  - "YouTube"
+  - "バイデン政権"
+  - "コロナ"
   - "検閲"
+  - "言論統制"
 images:
   - "https://qryptraveller.com/wp-content/uploads/2023/12/1.png"
   - "https://qryptraveller.com/wp-content/uploads/2023/12/pic2.png"
@@ -24,7 +26,7 @@ images:
   - "https://qryptraveller.com/wp-content/uploads/2023/12/pic5.png"
   - "https://qryptraveller.com/wp-content/uploads/2023/12/pic6.png"
   - "https://qryptraveller.com/wp-content/uploads/2023/12/pic7.png"
-excerpt: "バイデン政権がYoutubeに対して検閲するように圧力をかけていたことが、米下院司法委員会に提出された証拠により明らかになりました。 その証拠を元に下院司法委員会の委員長であるジム・ジョーダン議員自らがわかりやすく解説しているものを翻訳しています。"
+excerpt: "ユーチューブファイル第一弾。下院司法委員会委員長ジム・ジョーダン議員が、グーグル社（YouTubeの親会社）の内部文書を議会に提出された証拠とともに公開——バイデン政権のフラハティ補佐官らが二〇二一年四月から繰り返しYouTubeにコロナ「誤情報」検閲の圧力をかけていた実態を、Xへの投稿から完全翻訳する。"
 flags: ""
 ---
 

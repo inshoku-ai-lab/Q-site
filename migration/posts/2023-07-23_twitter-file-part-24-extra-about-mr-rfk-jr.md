@@ -9,15 +9,16 @@ featured_image_id: "10264"
 categories:
   - "ツイッターファイル全記事"
 tags:
-  - "RFKJr"
-  - "ケネディ"
-  - "ツイッター"
+  - "twitterfiles"
   - "ツイッターファイル"
-  - "反ワクチン"
-  - "大統領"
+  - "RFKJr"
+  - "ロバート・ケネディ"
+  - "バイデン政権"
+  - "CCDH"
   - "民主党"
+  - "反ワクチン"
+  - "検閲"
   - "言論統制"
-  - "選挙"
 images:
   - "https://qryptraveller.com/wp-content/uploads/2023/07/2.png"
   - "https://qryptraveller.com/wp-content/uploads/2023/07/3.jpeg"
@@ -28,7 +29,7 @@ images:
   - "https://qryptraveller.com/wp-content/uploads/2023/07/7.jpeg"
   - "https://qryptraveller.com/wp-content/uploads/2023/07/7a.jpeg"
   - "https://qryptraveller.com/wp-content/uploads/2023/07/7b.jpeg"
-excerpt: "今回のツイッターファイルは、RFK Jr氏が民主党から散々に攻撃されて、言論統制のターゲットになっていることをツイッター社内のデータより解き明かした記事になります。"
+excerpt: "ツイッターファイル第二四弾エクストラ「RFK Jr氏への言論統制」。バイデン就任翌日の二〇二一年一月二一日午後八時五分、ホワイトハウスのフラハティ補佐官が彼のツイート削除を要請、五分後にハワイのシャッツ上院議員の事務所も同じ要請を法律事務所経由で送っていた——CCDHの「一二人の偽情報拡散者」リストやVirality Projectの「常習犯」認定の実態も。"
 flags: ""
 ---
 

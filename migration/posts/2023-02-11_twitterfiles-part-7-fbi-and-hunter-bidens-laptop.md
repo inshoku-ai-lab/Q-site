@@ -9,15 +9,13 @@ featured_image_id: "8072"
 categories:
   - "ツイッターファイル全記事"
 tags:
-  - "files"
-  - "twitter"
   - "twitterfiles"
-  - "イーロンマスク"
-  - "イーロン・マスク"
-  - "ツイッター"
   - "ツイッターファイル"
-  - "トランプ"
-  - "ファイル"
+  - "FBI"
+  - "ハンター・バイデン"
+  - "ラップトップ"
+  - "ジム・ベーカー"
+  - "検閲"
   - "言論統制"
 images:
   - "https://qryptraveller.com/wp-content/uploads/2023/02/1-1.jpeg"
@@ -77,7 +75,7 @@ images:
   - "https://qryptraveller.com/wp-content/uploads/2023/02/6-1.jpeg"
   - "https://qryptraveller.com/wp-content/uploads/2023/02/8.png"
   - "https://qryptraveller.com/wp-content/uploads/2023/02/9.png"
-excerpt: "ツイッターファイルの第７弾は、FBIが如何にしてハンターバイデンの地獄からのラップトップの情報を隠すために奔走していたかが、内部文書をもとに描かれています。"
+excerpt: "ツイッターファイル第七弾「FBIとハンター・バイデンのラップトップ」。FBIが「ロシアによるハッキングとリーク」という偽情報を議員や各SNSに植え付け、本物だと知っていたジム・ベーカーが内側からツイッターの言論統制を主導した——ツイッターには機密情報閲覧権限まで付与され、政府による市民への誤報工作の輪郭が浮かぶ最長の完全翻訳記事。"
 flags: ""
 ---
 

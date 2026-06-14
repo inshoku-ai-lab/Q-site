@@ -9,15 +9,14 @@ featured_image_id: "8835"
 categories:
   - "ツイッターファイル全記事"
 tags:
-  - "files"
-  - "twitter"
-  - "twitterfiles"
-  - "イーロンマスク"
-  - "イーロン・マスク"
-  - "ツイッター"
-  - "ツイッターファイル"
-  - "トランプ"
-  - "ファイル"
+  - "facebookfiles"
+  - "フェイスブックファイル"
+  - "メタ"
+  - "CDC"
+  - "ファウチ"
+  - "コロナ"
+  - "ワクチン"
+  - "検閲"
   - "言論統制"
 images:
   - "https://qryptraveller.com/wp-content/uploads/2023/02/11-1.jpg"
@@ -26,7 +25,7 @@ images:
   - "https://qryptraveller.com/wp-content/uploads/2023/02/6-3.jpg"
   - "https://qryptraveller.com/wp-content/uploads/2023/02/7-2.jpg"
   - "https://qryptraveller.com/wp-content/uploads/2023/02/9-1.jpg"
-excerpt: "フェイスブックでもツイッターと同じように言論統制が行われていた。  メタ社はCDCに言論統制の力を与え、ファウチ氏の批判を告げ口していた。  裁判によって公開された内部文書をもとに構築された記事。  ツイッターファイルとは別物。"
+excerpt: "フェイスブックファイル「CDCとフェイスブックの関係」。Reason誌の上級記者ロビー・ソアべ氏が、ルイジアナ州・ミズーリ州司法長官対ファウチ・バイデン政権の訴訟で公開されたメタ社内部資料を元に執筆——CDCに日常的に投稿を審査させ、ファウチ氏批判を告げ口する権限まで与えていた。検閲の問題はツイッターだけではないと示す。"
 flags: ""
 ---
 

@@ -9,15 +9,14 @@ featured_image_id: "9345"
 categories:
   - "ツイッターファイル全記事"
 tags:
-  - "files"
-  - "twitter"
   - "twitterfiles"
-  - "イーロンマスク"
-  - "イーロン・マスク"
-  - "ツイッター"
   - "ツイッターファイル"
-  - "トランプ"
-  - "ファイル"
+  - "検閲産業複合体"
+  - "国防総省"
+  - "360OS"
+  - "スタンフォード"
+  - "カーネギー"
+  - "検閲"
   - "言論統制"
 images:
   - "https://qryptraveller.com/wp-content/uploads/2023/04/10a.jpg"
@@ -82,7 +81,7 @@ images:
   - "https://qryptraveller.com/wp-content/uploads/2023/04/9a.jpg"
   - "https://qryptraveller.com/wp-content/uploads/2023/04/9b.jpg"
   - "https://qryptraveller.com/wp-content/uploads/2023/04/9c.jpg"
-excerpt: "ツイッターファイル 第２０弾！　「情報カルテル」  ツイッター社の内部情報を元にして書かれています。"
+excerpt: "ツイッターファイル第二〇弾「情報カルテル」。国防総省はペラトン社に五年で九億七九〇〇万ドルを投じ、ベルリンの360/OSサミットなどのオフレコ会議で政府・市民団体・報道・産業が連携——スタンフォードでワクチン副反応の実話を検閲、クレイグリストはトランプ打倒に二億ドル寄付、カーネギーや一二人の検事総長まで参加した検閲ネットワークの全貌。"
 flags: ""
 ---
 

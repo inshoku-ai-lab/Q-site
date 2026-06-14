@@ -9,16 +9,14 @@ featured_image_id: "8086"
 categories:
   - "ツイッターファイル全記事"
 tags:
-  - "files"
-  - "twitter"
   - "twitterfiles"
-  - "イーロンマスク"
-  - "イーロン・マスク"
-  - "ツイッター"
   - "ツイッターファイル"
-  - "トランプ"
-  - "ファイル"
+  - "アダム・シフ"
+  - "Qアノン"
+  - "ジョー・バイデン"
+  - "検閲"
   - "言論統制"
+  - "補足"
 images:
   - "https://qryptraveller.com/wp-content/uploads/2023/02/3a-2.jpg"
   - "https://qryptraveller.com/wp-content/uploads/2023/02/4-1.jpg"
@@ -29,7 +27,7 @@ images:
   - "https://qryptraveller.com/wp-content/uploads/2023/02/6d-1.jpg"
   - "https://qryptraveller.com/wp-content/uploads/2023/02/7-1.jpg"
   - "https://qryptraveller.com/wp-content/uploads/2023/02/9.jpg"
-excerpt: "今回のツイッターファイルは、民主党大物議員のアダム・シフ氏がバイデン大統領のパロディ写真を削除するように依頼したり、Qアノンのアカウントを規制するようにと依頼していたことをTwitter社の内部文書より明らかにしています。"
+excerpt: "ツイッターファイル第一四弾補足「アダム・シフのアカウント停止要請とQアノン拡散防止措置」。下院民主党議員シフのスタッフは、ジョー・バイデンの「Peter Douche」パロディ写真の削除をDNCと共に要請したが、ヨエル・ロスはユーモア意図ありと拒否した——一方Qアノン規制ではアカウントを停止せず「拡散防止」する手段が選ばれていた。"
 flags: ""
 ---
 

@@ -9,15 +9,13 @@ featured_image_id: "8075"
 categories:
   - "ツイッターファイル全記事"
 tags:
-  - "files"
-  - "twitter"
   - "twitterfiles"
-  - "イーロンマスク"
-  - "イーロン・マスク"
-  - "ツイッター"
   - "ツイッターファイル"
-  - "トランプ"
-  - "ファイル"
+  - "イーロン・マスク"
+  - "CIA"
+  - "FBI"
+  - "ウクライナ"
+  - "検閲"
   - "言論統制"
 images:
   - "https://qryptraveller.com/wp-content/uploads/2023/02/12-4.jpeg"
@@ -60,7 +58,7 @@ images:
   - "https://qryptraveller.com/wp-content/uploads/2023/02/6a-1.jpeg"
   - "https://qryptraveller.com/wp-content/uploads/2023/02/6b-1.jpeg"
   - "https://qryptraveller.com/wp-content/uploads/2023/02/8-2.jpeg"
-excerpt: "CIAは「他の政府機関」という仮名を用いて、ツイッターでの言論統制に加担していた。  CIAはヤフーやウィキメディアとも情報を共有しており、各メディアでの偏向報道などが懸念される。  ツイッター社の内部資料をもとに言論統制の裏側を暴く！"
+excerpt: "ツイッターファイル第九弾「ツイッターと他の政府機関」。「他の政府機関」とはCIAの隠語——ツイッター幹部の一人が元CIAなのは公然の秘密で、CIAは常に検閲に関与し、ヤフーやウィキメディアとも情報を共有していた。FBIの依頼量は莫大、「外国からの干渉」を名目にした規制拡大、ウクライナ・ロシア戦争での加担まで暴く。"
 flags: ""
 ---
 

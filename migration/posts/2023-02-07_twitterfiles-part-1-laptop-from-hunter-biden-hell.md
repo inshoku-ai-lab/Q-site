@@ -10,17 +10,13 @@ categories:
   - "ツイッターファイル全記事"
 tags:
   - "twitterfiles"
-  - "イーロン・マスク"
-  - "ツイッター"
   - "ツイッターファイル"
-  - "ハンター"
-  - "バイデン"
-  - "ファイル"
+  - "イーロン・マスク"
+  - "ハンター・バイデン"
   - "ラップトップ"
-  - "内部"
-  - "告発"
-  - "地獄からのラップトップ"
-  - "曝露"
+  - "検閲"
+  - "言論統制"
+  - "暴露"
 images:
   - "https://qryptraveller.com/wp-content/uploads/2023/02/11.png"
   - "https://qryptraveller.com/wp-content/uploads/2023/02/19-scaled.jpeg"
@@ -39,7 +35,7 @@ images:
   - "https://qryptraveller.com/wp-content/uploads/2023/02/36.png"
   - "https://qryptraveller.com/wp-content/uploads/2023/02/8.jpeg"
   - "https://qryptraveller.com/wp-content/uploads/2023/02/9.jpeg"
-excerpt: "イーロン・マスク氏がかねてから予告していた通り、ツイッターの内部情報を暴露した投稿がツイッターで投下されました。  スレッドで引用されている画像の書き出しも含め全文を分かりやすく詳細に解説した記事です。"
+excerpt: "イーロン・マスク氏のツイッター買収後、同社の内部資料を元にしたツイッターファイル第一弾が投下された——ハンター・バイデンのラップトップ問題でツイッターが行った言論統制の暴露だ。「ハッキングされたデータ」と決めつけた検閲はCEOジャック・ドーシーの関与なしに、憲法を軽視する社員によって実行されていた。スレッド全文と引用画像を完全翻訳。"
 flags: ""
 ---
 
