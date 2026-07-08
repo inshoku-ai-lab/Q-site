@@ -18,8 +18,8 @@ tags:
   - "バックパッカー"
   - "私小説"
 images:
-  - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog98-1.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog98-2.jpg"
+  - "/images/wp/wp-content/uploads/2021/11/Blog98-1.jpg"
+  - "/images/wp/wp-content/uploads/2021/11/Blog98-2.jpg"
 excerpt: "3ヶ月半かけて海路と陸路を渡り、ついに旅の最終目的地ゴアへ。一泊150円の宿で南国の花咲く庭を眺め、ケロシンストーブを買って3ヶ月半ぶりの魚料理を自炊する。ヒッピーの聖地と聞いていたが旅人はまだ誰もおらず——映画助監督のYさん、レストランに住み込むドイツ人ジプシーのMさんと出会う。"
 flags: ""
 ---
@@ -44,7 +44,7 @@ flags: ""
 
 ガイドブックによると『カラングート・ビーチ』に行くと、比較的安く暮らせると言うので、そこへ向かった。
 
-![Blog98-1](https://qryptraveller.com/wp-content/uploads/2021/11/Blog98-1.jpg)
+![Blog98-1](/images/wp/wp-content/uploads/2021/11/Blog98-1.jpg)
 
 ビーチから歩いて数分の所に、一泊１５０円ほどの格安の部屋を見つけた。
 
@@ -72,7 +72,7 @@ flags: ""
 
 最初の自炊のメニューは、魚料理にする事にした。
 
-![Blog98-2](https://qryptraveller.com/wp-content/uploads/2021/11/Blog98-2.jpg)
+![Blog98-2](/images/wp/wp-content/uploads/2021/11/Blog98-2.jpg)
 
 旅を始めた初日以来で、3ヶ月半ぶりの魚料理だ。
 

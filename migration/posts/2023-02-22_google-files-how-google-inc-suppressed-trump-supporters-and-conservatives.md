@@ -19,24 +19,24 @@ tags:
   - "検閲"
   - "言論統制"
 images:
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/1-2.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/14-3.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/15a.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/15b.png"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/15c.png"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/16a.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/16b.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/17a.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/17b.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/17c.png"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/18-3.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/19-2.png"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/2.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/22-3.png"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/23-3.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/3-1.png"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/6-6.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/9-4.jpg"
+  - "/images/wp/wp-content/uploads/2023/02/1-2.jpg"
+  - "/images/wp/wp-content/uploads/2023/02/14-3.jpg"
+  - "/images/wp/wp-content/uploads/2023/02/15a.jpg"
+  - "/images/wp/wp-content/uploads/2023/02/15b.png"
+  - "/images/wp/wp-content/uploads/2023/02/15c.png"
+  - "/images/wp/wp-content/uploads/2023/02/16a.jpg"
+  - "/images/wp/wp-content/uploads/2023/02/16b.jpg"
+  - "/images/wp/wp-content/uploads/2023/02/17a.jpg"
+  - "/images/wp/wp-content/uploads/2023/02/17b.jpg"
+  - "/images/wp/wp-content/uploads/2023/02/17c.png"
+  - "/images/wp/wp-content/uploads/2023/02/18-3.jpg"
+  - "/images/wp/wp-content/uploads/2023/02/19-2.png"
+  - "/images/wp/wp-content/uploads/2023/02/2.jpg"
+  - "/images/wp/wp-content/uploads/2023/02/22-3.png"
+  - "/images/wp/wp-content/uploads/2023/02/23-3.jpg"
+  - "/images/wp/wp-content/uploads/2023/02/3-1.png"
+  - "/images/wp/wp-content/uploads/2023/02/6-6.jpg"
+  - "/images/wp/wp-content/uploads/2023/02/9-4.jpg"
 excerpt: "グーグルファイル。市民ジャーナリストKanekoa The Greatが、九五〇ページの内部文書「グーグルリークス」と暴露本を元に解説——親会社会長はヒラリー陣営の外部顧問の長、CTOはグーグル出身、無料乗車券資金まで提供。トランプ当選を転機にYouTubeを含む検索を操作し、Gmailは共和党の寄付メールをスパム指定、CEOは議会で偽証していた。"
 flags: ""
 ---
@@ -95,7 +95,7 @@ https://twitter.com/KanekoaTheGreat/status/1620195663580626945?ref\_src=twsrc%5E
 
 > ポピュリズム（英: populism）とは、有権者を「エリート」と「大衆」に分けた上で、2つを対立する集団と位置づけ、「大衆」の権利こそ尊重されるべきだと主張する政治思想をいう。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/1-2.jpg)
+![](/images/wp/wp-content/uploads/2023/02/1-2.jpg)
 
 グーグルは毎日56億回の検索を受け、世界の検索トラフィックの90%を支配している。
 
@@ -103,7 +103,7 @@ YouTubeのユーザー数は23億人です。
 
 私たちの信念は検索結果と不可分に結びついているが、グーグルは偏った情報源であり、この技術プラットフォームは私たちが目にするものを積極的に操作している。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/2.jpg)
+![](/images/wp/wp-content/uploads/2023/02/2.jpg)
 
 ## グーグル社の言論統制へのターニングポイントはトランプ氏が大統領に当選したことだった
 
@@ -111,7 +111,7 @@ YouTubeのユーザー数は23億人です。
 
 選挙の翌朝、社員は泣き、正気を失い、抵抗運動を計画した。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/3-1.png)
+![](/images/wp/wp-content/uploads/2023/02/3-1.png)
 
 > "ザック・ヴォルヒーズはアメリカのヒーローだ" -ロバート・F・ケネディ・Jr.   
 >   
@@ -268,7 +268,7 @@ https://twitter.com/KanekoaTheGreat/status/1620195670715138048?ref\_src=twsrc%5E
 
 シュミットは選挙戦の「外部顧問の長」だった。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/6-6.jpg)
+![](/images/wp/wp-content/uploads/2023/02/6-6.jpg)
 
 > グーグル社のエリック・シュミット氏（左）は、ヒラリー・クリントン氏（右）が大統領選への出馬を表明する丸1年前から、選挙プランをチームに伝えていた
 
@@ -288,7 +288,7 @@ https://twitter.com/KanekoaTheGreat/status/1620195670715138048?ref\_src=twsrc%5E
 
 テックの社員は政治的な左派との連携で有名で、2018年の米国中間選挙では、グーグルの社員の96％が民主党に寄付した。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/9-4.jpg)
+![](/images/wp/wp-content/uploads/2023/02/9-4.jpg)
 
 > 中間選挙の候補者に対する従業員からの寄付（政党別）青＝民主党　赤＝共和党
 
@@ -444,7 +444,7 @@ https://twitter.com/KanekoaTheGreat/status/1620195681196732416?ref\_src=twsrc%5E
 
 このように、ビッグ・テックでは、検索結果やアルゴリズムに政治的バイアスを手動で挿入しているのです。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/14-3.jpg)
+![](/images/wp/wp-content/uploads/2023/02/14-3.jpg)
 
 > ・進行中の仕事   
 >   
@@ -462,7 +462,7 @@ https://twitter.com/KanekoaTheGreat/status/1620195681196732416?ref\_src=twsrc%5E
 
 これらは、ツイッターがどのように特定の考えを促進し、他の考えを抑圧したかを示すために、@elonmuskが公開すべきソースドキュメントの一種である。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/15a.jpg)
+![](/images/wp/wp-content/uploads/2023/02/15a.jpg)
 
 > フリンジ・クエリーの例   
 >   
@@ -481,7 +481,7 @@ https://twitter.com/KanekoaTheGreat/status/1620195681196732416?ref\_src=twsrc%5E
 > （恐竜は存在しなかった）   
 > （気候変動のデマ）
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/15b.png)
+![](/images/wp/wp-content/uploads/2023/02/15b.png)
 
 > 毎日、上位26ロケール、上位250動画を複数の人間が評価   
 >   
@@ -489,7 +489,7 @@ https://twitter.com/KanekoaTheGreat/status/1620195681196732416?ref\_src=twsrc%5E
 >   
 > フィルタリングを開始 ユーザーからの苦情が -50%
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/15c.png)
+![](/images/wp/wp-content/uploads/2023/02/15c.png)
 
 > トレーニングデータを採取   
 > ↑↓   
@@ -509,19 +509,19 @@ https://twitter.com/KanekoaTheGreat/status/1620195681196732416?ref\_src=twsrc%5E
 
 例えば、デイリーコーラー、ウェスタンジャーナル、レッドステート、ゲートウェイパンディット、スティーブン・クラウダー、ミッシェル・マルキン、グレン・ベックが検閲された。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/16a.jpg)
+![](/images/wp/wp-content/uploads/2023/02/16a.jpg)
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/16b.jpg)
+![](/images/wp/wp-content/uploads/2023/02/16b.jpg)
 
 ヴォルヒーズはYouTubeのブラックリストを公開し、検索結果から検閲された数百のトピックを示しました。
 
 -ラスベガス射殺事件
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/17a.jpg)
+![](/images/wp/wp-content/uploads/2023/02/17a.jpg)
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/17b.jpg)
+![](/images/wp/wp-content/uploads/2023/02/17b.jpg)
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/17c.png)
+![](/images/wp/wp-content/uploads/2023/02/17c.png)
 
 ## グーグルのCEOと副社長は議会で嘘をついていた
 
@@ -529,7 +529,7 @@ https://twitter.com/KanekoaTheGreat/status/1620195681196732416?ref\_src=twsrc%5E
 
 グーグル自身の内部文書に基づき、スンダー・ピチャイとカラン・バティアは議会で嘘をつきました。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/18-3.jpg)
+![](/images/wp/wp-content/uploads/2023/02/18-3.jpg)
 
 > グーグルの政治的偏向、検閲、ブラックリスト   
 >   
@@ -566,7 +566,7 @@ https://twitter.com/KanekoaTheGreat/status/1620195681196732416?ref\_src=twsrc%5E
 
 同じ期間に、Gmailは民主党の資金調達メールを11%未満しかスパムとしてマークしていない。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/19-2.png)
+![](/images/wp/wp-content/uploads/2023/02/19-2.png)
 
 [blogcard url="https://www.foxnews.com/politics/google-gmail-censorship-cost-gop-candidates-2b-study"]
 
@@ -610,13 +610,13 @@ https://twitter.com/KanekoaTheGreat/status/1620195693217595393?ref\_src=twsrc%5E
 
 博士の研究が開拓したコンセプトの多くは、ツイッターで無意識のうちに選挙結果を左右するために使われています。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/22-3.png)
+![](/images/wp/wp-content/uploads/2023/02/22-3.png)
 
 まとめ：@elonmuskは、言論の自由を抑圧するために使われているブラックリストと機械学習アルゴリズムのソース文書を公開すべきだ。
 
 @DrREpsteinのような専門家にアクセス権を与えれば、一握りのシリコンバレーの経営者が何十億人もの心を操作していることを世界に示すことができるだろう。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/23-3.jpg)
+![](/images/wp/wp-content/uploads/2023/02/23-3.jpg)
 
 （翻訳ここまで）
 

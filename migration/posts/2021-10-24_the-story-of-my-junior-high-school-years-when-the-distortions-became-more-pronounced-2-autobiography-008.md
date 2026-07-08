@@ -17,8 +17,8 @@ tags:
   - "反抗期"
   - "私小説"
 images:
-  - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog8-1-1.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog8-2-1.jpg"
+  - "/images/wp/wp-content/uploads/2021/11/Blog8-1-1.jpg"
+  - "/images/wp/wp-content/uploads/2021/11/Blog8-2-1.jpg"
 excerpt: "親の前では清楚な格好で正直さを演じ、裏では本屋・神社の賽銭箱・親の財布から盗みを繰り返す——エホバの証人の家庭で育った反抗期の少年が身につけた二面性と、犯罪エスカレートの末に偶然訪れたターニングポイントの物語。"
 flags: ""
 ---
@@ -85,7 +85,7 @@ flags: ""
 
 僕は週に三回、エホバの証人の集会に正装で参加し、神を讃える歌を歌っている一方、時間のある時には友人と万引きツアーを繰り返していた。
 
-![Blog8-1](https://qryptraveller.com/wp-content/uploads/2021/11/Blog8-1-1.jpg)
+![Blog8-1](/images/wp/wp-content/uploads/2021/11/Blog8-1-1.jpg)
 
 犯罪の足がつかないように自転車で遠く離れた街まで行き、盗みを繰り返す。
 
@@ -127,7 +127,7 @@ flags: ""
 
 僕たちはお目当のモノを見つけたと思い、その箱を持って脱出し、近くの公園まで走って逃げた。
 
-![Blog8-2](https://qryptraveller.com/wp-content/uploads/2021/11/Blog8-2-1.jpg)
+![Blog8-2](/images/wp/wp-content/uploads/2021/11/Blog8-2-1.jpg)
 
 緊張もすごいが、喜びも大きい。
 

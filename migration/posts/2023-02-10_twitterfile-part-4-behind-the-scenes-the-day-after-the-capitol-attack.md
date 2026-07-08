@@ -19,36 +19,36 @@ tags:
   - "検閲"
   - "言論統制"
 images:
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/1.jpeg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/10.jpeg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/11-1.jpeg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/12.jpeg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/13.jpeg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/15.jpeg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/16-2.jpeg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/17.jpeg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/18.jpeg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/19-2.jpeg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/2.jpeg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/20.png"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/21-1.png"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/22.png"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/23.png"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/24.png"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/25-1.png"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/26.png"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/27.jpeg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/28.png"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/29.png"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/3-1-scaled.jpeg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/30-1.png"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/31-1.png"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/4-1.jpeg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/5-1.png"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/6.jpeg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/7-1.jpeg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/8-1.jpeg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/9-1.jpeg"
+  - "/images/wp/wp-content/uploads/2023/02/1.jpeg"
+  - "/images/wp/wp-content/uploads/2023/02/10.jpeg"
+  - "/images/wp/wp-content/uploads/2023/02/11-1.jpeg"
+  - "/images/wp/wp-content/uploads/2023/02/12.jpeg"
+  - "/images/wp/wp-content/uploads/2023/02/13.jpeg"
+  - "/images/wp/wp-content/uploads/2023/02/15.jpeg"
+  - "/images/wp/wp-content/uploads/2023/02/16-2.jpeg"
+  - "/images/wp/wp-content/uploads/2023/02/17.jpeg"
+  - "/images/wp/wp-content/uploads/2023/02/18.jpeg"
+  - "/images/wp/wp-content/uploads/2023/02/19-2.jpeg"
+  - "/images/wp/wp-content/uploads/2023/02/2.jpeg"
+  - "/images/wp/wp-content/uploads/2023/02/20.png"
+  - "/images/wp/wp-content/uploads/2023/02/21-1.png"
+  - "/images/wp/wp-content/uploads/2023/02/22.png"
+  - "/images/wp/wp-content/uploads/2023/02/23.png"
+  - "/images/wp/wp-content/uploads/2023/02/24.png"
+  - "/images/wp/wp-content/uploads/2023/02/25-1.png"
+  - "/images/wp/wp-content/uploads/2023/02/26.png"
+  - "/images/wp/wp-content/uploads/2023/02/27.jpeg"
+  - "/images/wp/wp-content/uploads/2023/02/28.png"
+  - "/images/wp/wp-content/uploads/2023/02/29.png"
+  - "/images/wp/wp-content/uploads/2023/02/3-1-scaled.jpeg"
+  - "/images/wp/wp-content/uploads/2023/02/30-1.png"
+  - "/images/wp/wp-content/uploads/2023/02/31-1.png"
+  - "/images/wp/wp-content/uploads/2023/02/4-1.jpeg"
+  - "/images/wp/wp-content/uploads/2023/02/5-1.png"
+  - "/images/wp/wp-content/uploads/2023/02/6.jpeg"
+  - "/images/wp/wp-content/uploads/2023/02/7-1.jpeg"
+  - "/images/wp/wp-content/uploads/2023/02/8-1.jpeg"
+  - "/images/wp/wp-content/uploads/2023/02/9-1.jpeg"
 excerpt: "ツイッターファイル第四弾「ドナルド・トランプの排除 一月七日」。永久追放に反対する上級幹部もいたが、急進的思想を持つ言論統制班と一般社員の声に押されてルールを書き換え、「暴力をさらに扇動する危険性」を理由に追放した——カウンタースピーチや言論の自由への影響はほぼ議論されなかった。フェイスブックも同日追放決定。"
 flags: ""
 ---
@@ -139,7 +139,7 @@ https://twitter.com/Policy/status/949399583842619392?s=20&t=jL6FRRgVvxg4Rplpdape
 
 元ファーストレディのミシェル・オバマ（@michelleobama）、テックジャーナリストのカラス・ウィッシャー（@karaswisher）@ADL、ハイテクVCのクリス・サッカ（@ChrisSacca）など、多くの人がツイッターにトランプ氏を永久追放するよう公に呼びかけていました。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/1.jpeg)
+![](/images/wp/wp-content/uploads/2023/02/1.jpeg)
 
 > クリス・サッカ   
 >   
@@ -153,7 +153,7 @@ https://twitter.com/Policy/status/949399583842619392?s=20&t=jL6FRRgVvxg4Rplpdape
 >   
 > 閉鎖してください。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/2.jpeg)
+![](/images/wp/wp-content/uploads/2023/02/2.jpeg)
 
 > 「ソーシャルメディア・プラットフォームはトランプを永久追放する時が来た」   
 >   
@@ -163,7 +163,7 @@ https://twitter.com/Policy/status/949399583842619392?s=20&t=jL6FRRgVvxg4Rplpdape
 >   
 > その代わりに、恐ろしい混乱をもたらし、全ての敵を飲み込むことと関係があった。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/3-1-scaled.jpeg)
+![](/images/wp/wp-content/uploads/2023/02/3-1-scaled.jpeg)
 
 > 昨日の暴動への対応と、この夏の平和的な抗議行動、そして人種的正義を求める大きな運動との間にある溝を見るのは、とても辛いことです。   
 >   
@@ -228,7 +228,7 @@ https://twitter.com/Policy/status/949399583842619392?s=20&t=jL6FRRgVvxg4Rplpdape
 >   
 > 12:49 PM - 2021年1月7日
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/4-1.jpeg)
+![](/images/wp/wp-content/uploads/2023/02/4-1.jpeg)
 
 > ジョナサン・グリーンブラット   
 >   
@@ -322,13 +322,13 @@ https://twitter.com/mtaibbi/status/1598829996264390656?s=20&t=OgCRRtZ2t4fmdwHnS2
 
 2022年4月、ロスは同僚に、自分の目標は「世界に変化をもたらすこと」であり、それが学者にならないことにした理由だと語りました。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/5-1.png)
+![](/images/wp/wp-content/uploads/2023/02/5-1.png)
 
 > ヨエル・ロス   
 >   
 > はい、そのピンクの帽子の人は明らかにホワイトハウスに実在するナチスよりも、あなたのブランドのフェミニズムにとって大きな脅威です。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/6.jpeg)
+![](/images/wp/wp-content/uploads/2023/02/6.jpeg)
 
 > ヨエル・ロス   
 >   
@@ -348,7 +348,7 @@ https://twitter.com/mtaibbi/status/1598829996264390656?s=20&t=OgCRRtZ2t4fmdwHnS2
 
 その後、ロスはある従業員に対し、"このことを気にかけている人たちは...私たちがいる場所に満足していない "と再確認しています。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/7-1.jpeg)
+![](/images/wp/wp-content/uploads/2023/02/7-1.jpeg)
 
 > ヨエル・ロス   
 >   
@@ -382,7 +382,7 @@ https://twitter.com/mtaibbi/status/1598829996264390656?s=20&t=OgCRRtZ2t4fmdwHnS2
 
 この新しいアプローチでは、5回の違反（"ストライク"）で永久停止になるシステムが作られます。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/8-1.jpeg)
+![](/images/wp/wp-content/uploads/2023/02/8-1.jpeg)
 
 > ヨエル・ロス   
 >   
@@ -424,7 +424,7 @@ https://twitter.com/mtaibbi/status/1598829996264390656?s=20&t=OgCRRtZ2t4fmdwHnS2
 
 「トランプは引き続き違反を一つ持つだけです。」（中略）。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/9-1.jpeg)
+![](/images/wp/wp-content/uploads/2023/02/9-1.jpeg)
 
 > 匿名   
 >   
@@ -452,7 +452,7 @@ https://twitter.com/mtaibbi/status/1598829996264390656?s=20&t=OgCRRtZ2t4fmdwHnS2
 
 1月8日、ツイッターは "暴力をさらに扇動する危険性 "を理由に、トランプ氏の永久追放を発表しました。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/10.jpeg)
+![](/images/wp/wp-content/uploads/2023/02/10.jpeg)
 
 > @realDonaldTrump の永久停止   
 >   
@@ -466,11 +466,11 @@ https://twitter.com/mtaibbi/status/1598829996264390656?s=20&t=OgCRRtZ2t4fmdwHnS2
 
 [blogcard url="https://blog.twitter.com/en\_us/topics/company/2019/worldleaders2019"]
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/11-1.jpeg)
+![](/images/wp/wp-content/uploads/2023/02/11-1.jpeg)
 
 > 最近の@realDonaldTrumpのアカウントからのツイートとその周辺の文脈（**具体的にツイッター内外でどのように受け取られ解釈されているか**）を精査した結果、さらなる暴力扇動の危険性があるため、同アカウントを永久停止にしました。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/12.jpeg)
+![](/images/wp/wp-content/uploads/2023/02/12.jpeg)
 
 > 私たちは報告されたツイートの文言に着目しており、内容やその意図について考えられる**すべての解釈を判断しようとはしていません。**
 
@@ -480,7 +480,7 @@ https://twitter.com/mtaibbi/status/1598829996264390656?s=20&t=OgCRRtZ2t4fmdwHnS2
 
 それは、"サイトの自動統合性"として知られる下層部のスラックチャンネルに隠されていたのです。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/13.jpeg)
+![](/images/wp/wp-content/uploads/2023/02/13.jpeg)
 
 > 匿名   
 >   
@@ -498,7 +498,7 @@ https://twitter.com/mtaibbi/status/1598829996264390656?s=20&t=OgCRRtZ2t4fmdwHnS2
 
 以下はその典型的な例です。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/15.jpeg)
+![](/images/wp/wp-content/uploads/2023/02/15.jpeg)
 
 > ストライクでバウンスした可能性があります。   
 >   
@@ -510,7 +510,7 @@ https://twitter.com/mtaibbi/status/1598829996264390656?s=20&t=OgCRRtZ2t4fmdwHnS2
 >   
 > USAsecession - 私たちは、ここでの一回限りの決定を理解しようとしています。**
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/16-2.jpeg)
+![](/images/wp/wp-content/uploads/2023/02/16-2.jpeg)
 
 > 2020年11月6日(金) 08.38.11 by 匿名  
 >   
@@ -532,7 +532,7 @@ https://twitter.com/bariweiss/status/1601015872046260226?s=20&t=OpaSF3fSdXZLh9R9
 
 ツイッターの職員は、自分たちの政治とツイッターの利用規約（TOS）の違いを認識していますが、「#stopthesteal」ハッシュタグをめぐる一連のやり取りで明らかになったように、禁止ツイートを排除するために、コンテンツの複雑な解釈にも関わっているようです。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/17.jpeg)
+![](/images/wp/wp-content/uploads/2023/02/17.jpeg)
 
 > 2021年1月7日(木) 匿名   
 >   
@@ -554,7 +554,7 @@ https://twitter.com/bariweiss/status/1601015872046260226?s=20&t=OpaSF3fSdXZLh9R9
 >   
 > PTが修正します。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/18.jpeg)
+![](/images/wp/wp-content/uploads/2023/02/18.jpeg)
 
 > このハッシュタグを見て、検索してみたら、ひどい内容ばかりでした。   
 >   
@@ -570,7 +570,7 @@ https://twitter.com/bariweiss/status/1601015872046260226?s=20&t=OpaSF3fSdXZLh9R9
 
 ## カウンタースピーチを考慮していた
 
-<https://qryptraveller.com/wp-content/uploads/2023/02/スクリーンショット-2023-02-07-16.35.42.png>
+</images/wp/wp-content/uploads/2023/02/スクリーンショット-2023-02-07-16.35.42.png>
 
 （訳注：カウンタースピーチは状況によっては言論統制側にとって都合が良い時もある）
 
@@ -578,7 +578,7 @@ https://twitter.com/bariweiss/status/1601015872046260226?s=20&t=OpaSF3fSdXZLh9R9
 
 ロスの同僚は、「stopthesteal」を批判・反論している投稿まで見えにくくしてしまう危険性があると反対しているのだと思います。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/19-2.jpeg)
+![](/images/wp/wp-content/uploads/2023/02/19-2.jpeg)
 
 > ヨエル・ロス   
 >   
@@ -604,7 +604,7 @@ https://twitter.com/bariweiss/status/1601015872046260226?s=20&t=OpaSF3fSdXZLh9R9
 
 「名前/プロフィールにstopthestealとあるアカウントは、カウンタースピーチとは無関係なので、"矮小化"する。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/20.png)
+![](/images/wp/wp-content/uploads/2023/02/20.png)
 
 > 匿名   
 >   
@@ -636,7 +636,7 @@ https://twitter.com/bariweiss/status/1601015872046260226?s=20&t=OpaSF3fSdXZLh9R9
 
 というのも、krakenは、ノルウェーの神話上の海の怪物に基づいたQAnonの陰謀論であることに加えて、暗号通貨取引所の名前でもあり、そのため "許可済み"にされたのです。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/21-1.png)
+![](/images/wp/wp-content/uploads/2023/02/21-1.png)
 
 > ヨエル・ロス   
 >   
@@ -667,7 +667,7 @@ https://twitter.com/bariweiss/status/1601015872046260226?s=20&t=OpaSF3fSdXZLh9R9
 
 「彼らはトランプを批判しているので、このユーザーにストライクを適用するのは少しためらわれます。」
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/22.png)
+![](/images/wp/wp-content/uploads/2023/02/22.png)
 
 > 匿名   
 >   
@@ -713,7 +713,7 @@ https://twitter.com/bariweiss/status/1601015872046260226?s=20&t=OpaSF3fSdXZLh9R9
 
 「意図が不明確な事例があれば遠慮なく提起してください。」
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/23.png)
+![](/images/wp/wp-content/uploads/2023/02/23.png)
 
 > 匿名  
 >   
@@ -772,7 +772,7 @@ https://twitter.com/bariweiss/status/1601015872046260226?s=20&t=OpaSF3fSdXZLh9R9
 
 ロス: 「全てのポリシー違反」です。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/24.png)
+![](/images/wp/wp-content/uploads/2023/02/24.png)
 
 > 匿名   
 >   
@@ -816,7 +816,7 @@ https://twitter.com/bariweiss/status/1601015872046260226?s=20&t=OpaSF3fSdXZLh9R9
 
 ロス、6時間後 「この具体的なケースでは、彼のアカウントに対する公益的なアプローチを変更しています...」
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/25-1.png)
+![](/images/wp/wp-content/uploads/2023/02/25-1.png)
 
 > 匿名   
 >   
@@ -856,7 +856,7 @@ https://twitter.com/bariweiss/status/1601015872046260226?s=20&t=OpaSF3fSdXZLh9R9
 
 [blogcard url="https://help.twitter.com/en/rules-and-policies/public-interest"]
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/26.png)
+![](/images/wp/wp-content/uploads/2023/02/26.png)
 
 > 現在、私たちは例外を、重要な種類の公益コンテンツである選挙で選ばれた公務員や政府関係者のツイートに限定しています。   
 >   
@@ -870,7 +870,7 @@ https://twitter.com/bariweiss/status/1601015872046260226?s=20&t=OpaSF3fSdXZLh9R9
 
 "ツイッターの "安全性（チーム）に...暴力を煽る陰謀として排除するよう説得しています。"
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/27.jpeg)
+![](/images/wp/wp-content/uploads/2023/02/27.jpeg)
 
 > 匿名   
 >   
@@ -917,7 +917,7 @@ https://twitter.com/bariweiss/status/1601015872046260226?s=20&t=OpaSF3fSdXZLh9R9
 
 「もしこれを推し進めれば、皆が望んでいることの代わりに何かを提供しようとしているように見える」、つまりトランプ大統領の禁止令を恐れているように見えます。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/28.png)
+![](/images/wp/wp-content/uploads/2023/02/28.png)
 
 > 匿名   
 >   
@@ -939,7 +939,7 @@ https://twitter.com/bariweiss/status/1601015872046260226?s=20&t=OpaSF3fSdXZLh9R9
 
 "例外に関する多くの議論は、トランプのアカウントが他の誰とも技術的に異なるわけではないのに、彼の個人的なステータスによって、対応する\_ツイッタールール\_がなく、別扱いされていることに起因すると感じている..."
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/29.png)
+![](/images/wp/wp-content/uploads/2023/02/29.png)
 
 > 匿名   
 >   
@@ -961,7 +961,7 @@ https://twitter.com/bariweiss/status/1601015872046260226?s=20&t=OpaSF3fSdXZLh9R9
 
 「ポリシーはツイッターのシステムの一部であり、製品やポリシーを適応させるよりも早く世界が変わってしまったのです。」
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/30-1.png)
+![](/images/wp/wp-content/uploads/2023/02/30-1.png)
 
 > ヨエル・ロス   
 >   
@@ -1001,7 +1001,7 @@ https://twitter.com/ShellenbergerMD/status/1601738653805387779?s=20&t=Qs88yFZoG4
 
 その空間は、すべての...インターネットの支配者が...王様のように座って、人々が見ることができるものとできないものを気軽に決めているという考え（陰謀論？）で満たされています。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/31-1.png)
+![](/images/wp/wp-content/uploads/2023/02/31-1.png)
 
 > 1月7日木曜日202108.51.27 by 匿名   
 >   

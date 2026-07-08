@@ -18,8 +18,8 @@ tags:
   - "貧困"
   - "私小説"
 images:
-  - "https://qryptraveller.com/wp-content/uploads/2021/10/003-1-600x400.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2021/10/003-2-350x400.png"
+  - "/images/wp/wp-content/uploads/2021/10/003-1-600x400.jpg"
+  - "/images/wp/wp-content/uploads/2021/10/003-2-350x400.png"
 excerpt: "週3回の集会、車のゴムベルトで作った手作りの鞭による『愛の鞭』、ネクタイ姿で家々を訪問する『奉仕活動』——エホバの証人の家庭で育つ子供のリアルな日常。母には救いとなった宗教が、子供にとっては地獄だった日々を綴る。"
 flags: ""
 ---
@@ -62,7 +62,7 @@ flags: ""
 
 母はなんの迷いもなく、エホバの証人の道を邁進し、幸せな日々を送っていた。
 
-![](https://qryptraveller.com/wp-content/uploads/2021/10/003-1-600x400.jpg)
+![](/images/wp/wp-content/uploads/2021/10/003-1-600x400.jpg)
 
 # 愛の鞭
 
@@ -118,7 +118,7 @@ flags: ""
 
 少なくとも僕は今では起こった全てのことに対して感謝しか感じていないし、恨みも怒りもありません。
 
-![母と子](https://qryptraveller.com/wp-content/uploads/2021/10/003-2-350x400.png)
+![母と子](/images/wp/wp-content/uploads/2021/10/003-2-350x400.png)
 
 つづく。。。
 

@@ -17,8 +17,8 @@ tags:
   - "バックパッカー"
   - "私小説"
 images:
-  - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog91-1.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog91-2.jpg"
+  - "/images/wp/wp-content/uploads/2021/11/Blog91-1.jpg"
+  - "/images/wp/wp-content/uploads/2021/11/Blog91-2.jpg"
 excerpt: "牛・野良犬・猿・盗人まで、駅を利用したい全ての存在に平等に開かれたインドの駅は、それ自体が一つの文化圏。小汚いバックパッカーの自分も駅構内では上位1%の富裕層＝泥棒の標的。適度な緊張感に冒険心を刺激されながら、3段ベッド最上段でバラナシ行きの寝台列車に揺られる。"
 flags: ""
 ---
@@ -49,7 +49,7 @@ flags: ""
 
 僕は適度な緊張感を持ちながらも、恐怖心は克服していて、目の前に広がるカオスの海に自らを投げ入れることに興奮していた。
 
-![Blog91-1](https://qryptraveller.com/wp-content/uploads/2021/11/Blog91-1.jpg)
+![Blog91-1](/images/wp/wp-content/uploads/2021/11/Blog91-1.jpg)
 
 幸いなことに、僕のバックパックは小さめで荷物の量も少ないので、常に肩にかけていても気になるような重さではなかった。
 
@@ -123,7 +123,7 @@ flags: ""
 
 さすがインド、プライバシーやら遠慮やら気遣いやら、という細やかな心遣いは通用しない。
 
-![Blog91-2](https://qryptraveller.com/wp-content/uploads/2021/11/Blog91-2.jpg)
+![Blog91-2](/images/wp/wp-content/uploads/2021/11/Blog91-2.jpg)
 
 少年はチャイを売りたい、だから僕を起こした。
 

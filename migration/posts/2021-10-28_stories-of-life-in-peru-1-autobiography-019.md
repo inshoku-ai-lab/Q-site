@@ -17,8 +17,8 @@ tags:
   - "海外初体験"
   - "私小説"
 images:
-  - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog19-1.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog19-2.jpg"
+  - "/images/wp/wp-content/uploads/2021/11/Blog19-1.jpg"
+  - "/images/wp/wp-content/uploads/2021/11/Blog19-2.jpg"
 excerpt: "標高3350メートル、富士山八合目より高い街ワンカヨ。水シャワーに怖気付き、酸素不足でサウナで倒れかける——アンデス山脈に着いた少年を迎えたのは、姉夫婦による半軟禁生活と、テレビも本も日本語の文化もない無限の退屈だった。"
 flags: ""
 ---
@@ -47,7 +47,7 @@ flags: ""
 
 どれくらいかかったのか、はっきりと覚えていないが全部で３、４日はかかったと思う。
 
-![Blog19-1](https://qryptraveller.com/wp-content/uploads/2021/11/Blog19-1.jpg)
+![Blog19-1](/images/wp/wp-content/uploads/2021/11/Blog19-1.jpg)
 
 全くなんの人生経験もない、生まれ直したばかりの僕にとって、なかなか刺激的な体験だった。
 
@@ -105,7 +105,7 @@ flags: ""
 
 外出禁止だったので、姉だけが遊び相手だが、６歳離れた姉とは遊びようもなく、一人で過ごしていた。
 
-![Blog19-2](https://qryptraveller.com/wp-content/uploads/2021/11/Blog19-2.jpg)
+![Blog19-2](/images/wp/wp-content/uploads/2021/11/Blog19-2.jpg)
 
 日本で一人で過ごす時は、テレビやゲームや本があって、本屋に立ち読みに行ったり、ビデオを借りて映画を見たりできたけど、当たり前だがペルーには日本語の文化はない。
 

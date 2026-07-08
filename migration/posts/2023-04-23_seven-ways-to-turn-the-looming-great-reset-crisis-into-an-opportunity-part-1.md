@@ -20,17 +20,17 @@ tags:
   - "自給自足"
   - "コミュニティ"
 images:
-  - "https://qryptraveller.com/wp-content/uploads/2023/04/campfire-896196_1280.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/04/climate-change-1325882_1280.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/04/clock-2883626_1280.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/04/coins-1015125_1280.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/04/cows-4708901_1280.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/04/library-869061_1280.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/04/lockdown-5038830_1280.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/04/people-2591874_1280.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/04/pharmacy-3377670_1280.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/04/purchasing-4981245_1280.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/04/web-3963945_1280.jpg"
+  - "/images/wp/wp-content/uploads/2023/04/campfire-896196_1280.jpg"
+  - "/images/wp/wp-content/uploads/2023/04/climate-change-1325882_1280.jpg"
+  - "/images/wp/wp-content/uploads/2023/04/clock-2883626_1280.jpg"
+  - "/images/wp/wp-content/uploads/2023/04/coins-1015125_1280.jpg"
+  - "/images/wp/wp-content/uploads/2023/04/cows-4708901_1280.jpg"
+  - "/images/wp/wp-content/uploads/2023/04/library-869061_1280.jpg"
+  - "/images/wp/wp-content/uploads/2023/04/lockdown-5038830_1280.jpg"
+  - "/images/wp/wp-content/uploads/2023/04/people-2591874_1280.jpg"
+  - "/images/wp/wp-content/uploads/2023/04/pharmacy-3377670_1280.jpg"
+  - "/images/wp/wp-content/uploads/2023/04/purchasing-4981245_1280.jpg"
+  - "/images/wp/wp-content/uploads/2023/04/web-3963945_1280.jpg"
 excerpt: "迫りくるグレートリセットの危機を「チャンスに変える」対策方法七つの三部作・前編。グレートリセット→新世界秩序（NWO）→グレートアウェイクニングという流れの予測、規模・時期・期間の想定、そして自給自足とコミュニティ形成という最初の二つの対策を、メキシコ山奥で自給自足を進める著者が解説する。"
 flags: ""
 ---
@@ -73,7 +73,7 @@ flags: ""
 
 どの程度を想定するかによって対策は変わってくるので、その予測は非常に重要な要素になります。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/04/clock-2883626_1280.jpg)
+![](/images/wp/wp-content/uploads/2023/04/clock-2883626_1280.jpg)
 
 私個人としては最悪の事態を想定しています。
 
@@ -135,7 +135,7 @@ flags: ""
 
 ## １　情報通になる
 
-![](https://qryptraveller.com/wp-content/uploads/2023/04/library-869061_1280.jpg)
+![](/images/wp/wp-content/uploads/2023/04/library-869061_1280.jpg)
 
 これは一番最初に来る必須条件です。
 
@@ -179,7 +179,7 @@ flags: ""
 
 ### 自分の頭で考える
 
-![](https://qryptraveller.com/wp-content/uploads/2023/04/people-2591874_1280.jpg)
+![](/images/wp/wp-content/uploads/2023/04/people-2591874_1280.jpg)
 
 情報の正確さや鮮度も重要ですが、それよりも重要になってくるのが、自分の頭で考えるということです。
 
@@ -199,7 +199,7 @@ flags: ""
 
 いくつもの**形を合わせると動きが見えてくる**ので、その動きがどこからきてどこに向かっているのかが見えてくるようになります。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/04/web-3963945_1280.jpg)
+![](/images/wp/wp-content/uploads/2023/04/web-3963945_1280.jpg)
 
 そして、その動きがどこへ向かっているのかをあらかじめ予測することで、その事態にしっかりと備え、さらにはチャンスに変えることが出来ると言うわけです。
 
@@ -221,7 +221,7 @@ flags: ""
 
 ## ２　田舎に逃げ道を作る
 
-![](https://qryptraveller.com/wp-content/uploads/2023/04/cows-4708901_1280.jpg)
+![](/images/wp/wp-content/uploads/2023/04/cows-4708901_1280.jpg)
 
 この話題をする人はあまりいませんが、私はこの項目は２番目に大事だと考えています。
 
@@ -247,7 +247,7 @@ flags: ""
 
 そのような準備をする余裕のない方は、キャンプ場に目星をつけておいたり、キャンプできる自然環境をグーグルマップで見つけておくのも良いかもしれません。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/04/campfire-896196_1280.jpg)
+![](/images/wp/wp-content/uploads/2023/04/campfire-896196_1280.jpg)
 
 キャンプ道具一色とバックパックと浄水フィルターを用意しておけば、最悪の状況に陥ってもなんとかなります。
 
@@ -303,7 +303,7 @@ flags: ""
 
 ## ３　食糧不足に備える
 
-![](https://qryptraveller.com/wp-content/uploads/2023/04/purchasing-4981245_1280.jpg)
+![](/images/wp/wp-content/uploads/2023/04/purchasing-4981245_1280.jpg)
 
 私が３番目に大事だと考えているのが、食糧備蓄です。
 
@@ -351,7 +351,7 @@ flags: ""
 
 ほぼ確実に来ることがわかっている以上、準備を整えるのは当然の流れでしょう。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/04/climate-change-1325882_1280.jpg)
+![](/images/wp/wp-content/uploads/2023/04/climate-change-1325882_1280.jpg)
 
 ですが、ほとんどの人は食糧備蓄などしていません。
 
@@ -365,7 +365,7 @@ flags: ""
 
 ２つ目の理由は、物々交換の手段への投資としてです。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/04/pharmacy-3377670_1280.jpg)
+![](/images/wp/wp-content/uploads/2023/04/pharmacy-3377670_1280.jpg)
 
 現時点ですでに高度のインフレが起こっており、さらにはとんでもないハイパーインフレが来る可能性があります。
 
@@ -385,7 +385,7 @@ flags: ""
 
 ３つ目の理由は節約目的です。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/04/coins-1015125_1280.jpg)
+![](/images/wp/wp-content/uploads/2023/04/coins-1015125_1280.jpg)
 
 現時点ですでに食料価格の高騰が起こっているので、今のうちに食料を買っておくと、後で高い値段を払わずに済むので、お金の節約になります。
 
@@ -421,7 +421,7 @@ flags: ""
 
 ### 家庭菜園
 
-![](https://qryptraveller.com/wp-content/uploads/2023/04/lockdown-5038830_1280.jpg)
+![](/images/wp/wp-content/uploads/2023/04/lockdown-5038830_1280.jpg)
 
 食糧備蓄は利点だらけで欠点なしですが、それと併せて行うとさらに良いのが家庭菜園です。
 

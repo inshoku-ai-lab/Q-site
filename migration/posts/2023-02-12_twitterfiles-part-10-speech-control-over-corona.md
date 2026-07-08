@@ -18,24 +18,24 @@ tags:
   - "検閲"
   - "言論統制"
 images:
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/10-1.png"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/12.png"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/16-3.jpeg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/20-4.jpeg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/21-4.jpeg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/23-2.png"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/25-3.png"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/27-2.png"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/28-2.png"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/29-2.png"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/30-3.png"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/31-2.png"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/33-1.png"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/34-3.jpeg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/35-1.jpeg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/6-1.png"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/7-2.png"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/8-1.png"
+  - "/images/wp/wp-content/uploads/2023/02/10-1.png"
+  - "/images/wp/wp-content/uploads/2023/02/12.png"
+  - "/images/wp/wp-content/uploads/2023/02/16-3.jpeg"
+  - "/images/wp/wp-content/uploads/2023/02/20-4.jpeg"
+  - "/images/wp/wp-content/uploads/2023/02/21-4.jpeg"
+  - "/images/wp/wp-content/uploads/2023/02/23-2.png"
+  - "/images/wp/wp-content/uploads/2023/02/25-3.png"
+  - "/images/wp/wp-content/uploads/2023/02/27-2.png"
+  - "/images/wp/wp-content/uploads/2023/02/28-2.png"
+  - "/images/wp/wp-content/uploads/2023/02/29-2.png"
+  - "/images/wp/wp-content/uploads/2023/02/30-3.png"
+  - "/images/wp/wp-content/uploads/2023/02/31-2.png"
+  - "/images/wp/wp-content/uploads/2023/02/33-1.png"
+  - "/images/wp/wp-content/uploads/2023/02/34-3.jpeg"
+  - "/images/wp/wp-content/uploads/2023/02/35-1.jpeg"
+  - "/images/wp/wp-content/uploads/2023/02/6-1.png"
+  - "/images/wp/wp-content/uploads/2023/02/7-2.png"
+  - "/images/wp/wp-content/uploads/2023/02/8-1.png"
 excerpt: "ツイッターファイル第一〇弾「コロナに対する言論統制」。トランプ政権はパニック買い対策、バイデン政権は「反ワクチン・アカウント」に焦点を絞ってSNSへ圧力をかけ、ツイッターはCDCデータを共有する一般ユーザーや反対する医師まで抑圧した。政府が不都合な真実を検閲し、専門家の信用を失墜させた仕組みを内部資料から解き明かす。"
 flags: ""
 ---
@@ -98,7 +98,7 @@ The Free Pressの取材中に閲覧したツイッターの内部ファイルに
 
 しかし、......人々は食料品店に殺到していました。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/6-1.png)
+![](/images/wp/wp-content/uploads/2023/02/6-1.png)
 
 > トランプ・ホワイトハウス、特にマイケル・クラツロスは、トランプ政権が誤報に対抗するためにテック企業に助けを求めることを主導しました。   
 >   
@@ -114,7 +114,7 @@ The Free Pressの取材中に閲覧したツイッターの内部ファイルに
 
 トランプ政権との会合には、グーグル、フェイスブック、マイクロソフトなども参加していました。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/7-2.png)
+![](/images/wp/wp-content/uploads/2023/02/7-2.png)
 
 > a. ツイッターは、グーグル、フェイスブック、マイクロソフトなどの他の複数のテック企業とともに参加しました。   
 >   
@@ -132,7 +132,7 @@ The Free Pressの取材中に閲覧したツイッターの内部ファイルに
 
 特にアレックス・ベレンソンです。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/8-1.png)
+![](/images/wp/wp-content/uploads/2023/02/8-1.png)
 
 > バイデン ・バイデン政権からの最初の会合の一つは、コロナの誤報に関するものでした。   
 >   
@@ -148,7 +148,7 @@ The Free Pressの取材中に閲覧したツイッターの内部ファイルに
 
  [blogcard url="<https://alexberenson.substack.com/p/jesse-jackson-cant-swim"]>
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/10-1.png)
+![](/images/wp/wp-content/uploads/2023/02/10-1.png)
 
 > Slackチャンネル プライベート   
 >   
@@ -170,7 +170,7 @@ The Free Pressの取材中に閲覧したツイッターの内部ファイルに
 
 バイデン氏のチームは、ツイッター社が複数のアカウントの削除に積極的でなかったことに「非常に腹を立てていた」と書いています。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/12.png)
+![](/images/wp/wp-content/uploads/2023/02/12.png)
 
 > ・バイデン氏のチームは、ツイッター社が複数のアカウントをプラットフォームから解除することに、もっと積極的に取り組んでほしかったので、 ツイッター社の強制的なアプローチに不満を持っていました。   
 >   
@@ -196,7 +196,7 @@ The Free Pressの取材中に閲覧したツイッターの内部ファイルに
 
 しかし、心筋炎やマスクの効能データといった複雑なトピックに関するツイートの判定を、専門家ではない業者に任せることは、大きなエラー率を生む運命にありました。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/16-3.jpeg)
+![](/images/wp/wp-content/uploads/2023/02/16-3.jpeg)
 
 ３つ目は最も重要で、ボットや決定の入力を選択し、取り上げられたケースや停止を主観的に決定したツイッターの上級社員が、その責任を負う必要があったということです。
 
@@ -210,7 +210,7 @@ The Free Pressの取材中に閲覧したツイッターの内部ファイルに
 
 例A: ハーバード大学医学部の疫学者であるマーティン・クルドルフ博士は、アメリカの公衆衛生当局や、ツイッターのスタッフほぼ全員の政治的所属であるアメリカの左派と対立する意見をツイートしていました。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/20-4.jpeg)
+![](/images/wp/wp-content/uploads/2023/02/20-4.jpeg)
 
 > Martin Kulldorff：   
 >   
@@ -232,7 +232,7 @@ The Free Pressの取材中に閲覧したツイッターの内部ファイルに
 
 社内メールには、クルドルフのツイートが同社のコロナ誤報ポリシーに違反しているとし、"誤った情報 "を共有したと主張する規制者の「行動意図」が示されています。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/21-4.jpeg)
+![](/images/wp/wp-content/uploads/2023/02/21-4.jpeg)
 
 > こんにちは、チームの皆さん。   
 >   
@@ -254,7 +254,7 @@ The Free Pressの取材中に閲覧したツイッターの内部ファイルに
 
 １８０００人のフォロワーを持つ自称公衆衛生ファクトチェッカーの@KelleyKgaによるツイートは、CDCの独自のデータを表示しているにもかかわらず、「誤解を招く」というフラグが立てられ、返信や「いいね」が無効化されました。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/23-2.png)
+![](/images/wp/wp-content/uploads/2023/02/23-2.png)
 
 > このように、「データの選り好みをする事」はとても素晴らしいです。   
 >   
@@ -272,7 +272,7 @@ The Free Pressの取材中に閲覧したツイッターの内部ファイルに
 
 しかし、その誤情報を伝えたツイートはプラットフォーム上に残っており、「誤解を招く」というラベルも貼られていません。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/25-3.png)
+![](/images/wp/wp-content/uploads/2023/02/25-3.png)
 
 > 私もそうです。 ここにデータがあります。   
 >   
@@ -284,7 +284,7 @@ The Free Pressの取材中に閲覧したツイッターの内部ファイルに
 
 このアカウントの持ち主である医師の@Euzebiuszは、発表された研究結果に言及していたにもかかわらず、このツイートは「誤解を招く」というレッテルを貼られました。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/27-2.png)
+![](/images/wp/wp-content/uploads/2023/02/27-2.png)
 
 > 以下は、若年層（１６ー３９歳）におけるmRNAワクチンが心停止（心筋炎に限らず）と関連することを示した最初の研究です。   
 >   
@@ -294,7 +294,7 @@ The Free Pressの取材中に閲覧したツイッターの内部ファイルに
 
 彼のストライクの一つは、mRNAワクチンに関する査読された研究からの結果に言及したツイートに対するものでした。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/28-2.png)
+![](/images/wp/wp-content/uploads/2023/02/28-2.png)
 
 > Covid-19 BNT162b mRNA の一次接種により、精液提供者の精液濃度と総運動計数が一時的に低下し、５ヶ月目までに明らかに回復するが、ブースター効果についてはデータがありません。   
 >   
@@ -308,7 +308,7 @@ The Free Pressの取材中に閲覧したツイッターの内部ファイルに
 
 ツイッターのログファイルを調べたところ、ボストム氏の弁護士がツイッターに連絡した後に行われた内部監査で、ボストム氏の5つの違反行為のうち1つだけが有効であったことが判明しました。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/29-2.png)
+![](/images/wp/wp-content/uploads/2023/02/29-2.png)
 
 > 私たちは、それぞれの違反行為を再調査し、サイト統合チームと協力して調査結果を検証しました。   
 >   
@@ -324,7 +324,7 @@ The Free Pressの取材中に閲覧したツイッターの内部ファイルに
 
 まだ違反であることが判明したボストムのツイートは、子どものインフルエンザ対コロナのリスクに関する公衆衛生機関の物語にとって、正当ではあるが不都合なデータを引用しています。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/30-3.png)
+![](/images/wp/wp-content/uploads/2023/02/30-3.png)
 
 > 米国＆地元ロードアイランドのデータです。   
 >   
@@ -340,7 +340,7 @@ The Free Pressの取材中に閲覧したツイッターの内部ファイルに
 
 多くのトランプ大統領のツイートは、大規模な内部討論を引き起こしましたが、このツイートも同様でした。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/31-2.png)
+![](/images/wp/wp-content/uploads/2023/02/31-2.png)
 
 > 本日午後6時30分に、偉大なるウォルターリード・メディカルセンターを出発します。   
 >   
@@ -354,7 +354,7 @@ The Free Pressの取材中に閲覧したツイッターの内部ファイルに
 
 シュールなやりとりの中で、当時ツイッターの副法律顧問だったジム・ベイカーは、なぜ「恐れるな」と言うことがツイッターのコロナ誤報ポリシーに違反しないのかと質問しています。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/33-1.png)
+![](/images/wp/wp-content/uploads/2023/02/33-1.png)
 
 > ヨエルとステーシアへ、   
 >   
@@ -368,7 +368,7 @@ The Free Pressの取材中に閲覧したツイッターの内部ファイルに
 
 ツイッターの元信頼と安全チーム責任者のヨエル・ロスは、楽観主義が誤報ではないことを説明しなければなりませんでした。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/34-3.jpeg)
+![](/images/wp/wp-content/uploads/2023/02/34-3.jpeg)
 
 > やあ、ジム。   
 >   
@@ -390,7 +390,7 @@ CDCのデータをツイートした@KelleyKgaを覚えていますか？
 
 「我々は、露出や感染の増加につながる可能性があるコンテンツのレビューとラベリングを優先します。」
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/35-1.jpeg)
+![](/images/wp/wp-content/uploads/2023/02/35-1.jpeg)
 
 > こんにちは、@Kelleykoeさん。   
 >   

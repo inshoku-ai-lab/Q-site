@@ -18,8 +18,8 @@ tags:
   - "火葬"
   - "私小説"
 images:
-  - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog94-1.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog94-2.jpg"
+  - "/images/wp/wp-content/uploads/2021/11/Blog94-1.jpg"
+  - "/images/wp/wp-content/uploads/2021/11/Blog94-2.jpg"
 excerpt: "輪廻から抜け出すため死を待つ人々が集うバラナシ。髪が焦げるような火葬の煙が絶えない街で、聖なるが生物学的には最高に汚れたガンジス河で沐浴する。ボートのオールで頭を叩かれパニックになり、よりにもよって聖なる河の水を飲み込む——ミネラルウォーターで胃を薄める決死の作戦。"
 flags: ""
 ---
@@ -68,7 +68,7 @@ flags: ""
 
 地元の人は、その水で身体を洗うし洗濯もする。
 
-![Blog94-1](https://qryptraveller.com/wp-content/uploads/2021/11/Blog94-1.jpg)
+![Blog94-1](/images/wp/wp-content/uploads/2021/11/Blog94-1.jpg)
 
 そういった衛生面での不安が、僕に沐浴をするのを恐れさせた。
 
@@ -86,7 +86,7 @@ flags: ""
 
 緩やかに泳いでいたのも束の間、偶然の事故により、すぐ脇を通りかかったボートのオールで頭を叩かれた！
 
-![Blog94-2](https://qryptraveller.com/wp-content/uploads/2021/11/Blog94-2.jpg)
+![Blog94-2](/images/wp/wp-content/uploads/2021/11/Blog94-2.jpg)
 
 当たりは強くは無かったが、泳いでいる最中だったので、バランスを崩してしまった。
 

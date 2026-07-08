@@ -19,17 +19,17 @@ tags:
   - "ネヴァダ"
   - "市民ジャーナリスト"
 images:
-  - "https://qryptraveller.com/wp-content/uploads/2024/10/1.png"
-  - "https://qryptraveller.com/wp-content/uploads/2024/10/11.png"
-  - "https://qryptraveller.com/wp-content/uploads/2024/10/12.png"
-  - "https://qryptraveller.com/wp-content/uploads/2024/10/13.png"
-  - "https://qryptraveller.com/wp-content/uploads/2024/10/2.png"
-  - "https://qryptraveller.com/wp-content/uploads/2024/10/3.png"
-  - "https://qryptraveller.com/wp-content/uploads/2024/10/4.png"
-  - "https://qryptraveller.com/wp-content/uploads/2024/10/5.png"
-  - "https://qryptraveller.com/wp-content/uploads/2024/10/6.png"
-  - "https://qryptraveller.com/wp-content/uploads/2024/10/8.png"
-  - "https://qryptraveller.com/wp-content/uploads/2024/10/9.png"
+  - "/images/wp/wp-content/uploads/2024/10/1.png"
+  - "/images/wp/wp-content/uploads/2024/10/11.png"
+  - "/images/wp/wp-content/uploads/2024/10/12.png"
+  - "/images/wp/wp-content/uploads/2024/10/13.png"
+  - "/images/wp/wp-content/uploads/2024/10/2.png"
+  - "/images/wp/wp-content/uploads/2024/10/3.png"
+  - "/images/wp/wp-content/uploads/2024/10/4.png"
+  - "/images/wp/wp-content/uploads/2024/10/5.png"
+  - "/images/wp/wp-content/uploads/2024/10/6.png"
+  - "/images/wp/wp-content/uploads/2024/10/8.png"
+  - "/images/wp/wp-content/uploads/2024/10/9.png"
 excerpt: "三度目のトランプ氏暗殺未遂犯ベム・ミラー氏は、実はネヴァダ州トランプ支持者の会代表で反DSドキュメンタリーを作る市民ジャーナリストだった——彼のドキュメンタリーが描く二〇一四年バンディ家農場襲撃事件と、東京ドーム一〇万個分の土地が連邦政府にもネヴァダ州にも公式には所有されていなかったという衝撃の発見を要約する。"
 flags: ""
 ---
@@ -62,7 +62,7 @@ flags: ""
 
 ことの発端は２０１４年に幾つかの政府機関たちが合同で小さな軍隊にも匹敵するような部隊を作って、ネヴァダ州にあるバンディ家の農場を彼らの土地から追い出そうとしたことから始まります。
 
-![](https://qryptraveller.com/wp-content/uploads/2024/10/1.png)
+![](/images/wp/wp-content/uploads/2024/10/1.png)
 
 その理由はバンディ農家が連邦政府の土地を違法に占拠しているというものです。
 
@@ -70,7 +70,7 @@ flags: ""
 
 当局はヘリコプターを動員し、空から射撃して家畜たちを殲滅していきます。
 
-![](https://qryptraveller.com/wp-content/uploads/2024/10/2.png)
+![](/images/wp/wp-content/uploads/2024/10/2.png)
 
 この時にバンディ農場の主も逮捕され留置所に入れられます。
 
@@ -78,7 +78,7 @@ flags: ""
 
 無法者の農家、国家テロリストなどなど。
 
-![](https://qryptraveller.com/wp-content/uploads/2024/10/3.png)
+![](/images/wp/wp-content/uploads/2024/10/3.png)
 
 いつものことですが、バンディ農家の言い分は聞くふりだけしても、まともに話を聞こうなどとはしません。
 
@@ -92,7 +92,7 @@ flags: ""
 
 この理不尽すぎる襲撃に業を煮やした友人のマイク・リトル氏は、いったい何が起こっているのか？と実情を調べ始めます。
 
-![](https://qryptraveller.com/wp-content/uploads/2024/10/4.png)
+![](/images/wp/wp-content/uploads/2024/10/4.png)
 
 その土地の所有権を深く調べたマイク氏は衝撃の事実を発見します。
 
@@ -102,7 +102,7 @@ flags: ""
 
 この範囲にはバンディ家の土地やラスベガスの都市全体が含まれています。
 
-![黄色く塗られた部分が無所属の土地](https://qryptraveller.com/wp-content/uploads/2024/10/12.png)
+![黄色く塗られた部分が無所属の土地](/images/wp/wp-content/uploads/2024/10/12.png)
 
 黄色く塗られた部分が無所属の土地。
 
@@ -118,7 +118,7 @@ flags: ""
 
 ２年間もの間、違法に拘束された後に突然に、無効裁判だとして解放されたのです。
 
-![](https://qryptraveller.com/wp-content/uploads/2024/10/5.png)
+![](/images/wp/wp-content/uploads/2024/10/5.png)
 
 マイク氏は、バンディ氏が解放された理由は、連邦政府が裁判を通して土地の所有権を明確にしたくなかったからだとしています。
 
@@ -128,13 +128,13 @@ flags: ""
 
 そして、自分たちは鉱物のマイニングに努めます。
 
-![](https://qryptraveller.com/wp-content/uploads/2024/10/6.png)
+![](/images/wp/wp-content/uploads/2024/10/6.png)
 
 バンディ家を潰そうとすれば、裁判でもっとややこしいことになる、それよりも彼らを放置して、自分たちが利益を上げることに集中した方が良いとの判断でしょうか？
 
 この背景には、ネヴァダ州知事の中国との汚職が関与しているようです。
 
-![](https://qryptraveller.com/wp-content/uploads/2024/10/13.png)
+![](/images/wp/wp-content/uploads/2024/10/13.png)
 
 この州知事はもちろんDS側の人間で、バンディ家を潰すために尽力し、その後には中国と契約を結んで、ネヴァダ州の資源を売却しています。
 
@@ -152,7 +152,7 @@ flags: ""
 
 それは市民から搾取する銀行の役割を、市民に利益を分配するものへと変換する大きな計画です。
 
-![](https://qryptraveller.com/wp-content/uploads/2024/10/8.png)
+![](/images/wp/wp-content/uploads/2024/10/8.png)
 
 ですが、そのような計画は支配層が最も嫌うものであることは皆さんもご存知でしょう。
 
@@ -164,7 +164,7 @@ flags: ""
 
 マイク氏が謎の体調不良に陥り、病院へと入院したのです。
 
-![](https://qryptraveller.com/wp-content/uploads/2024/10/9.png)
+![](/images/wp/wp-content/uploads/2024/10/9.png)
 
 ５週間入院しても病気は診断されず、治療法も見つかりません。
 
@@ -194,7 +194,7 @@ flags: ""
 
 これはある意味では市民vs支配層の戦いということもできます。
 
-![](https://qryptraveller.com/wp-content/uploads/2024/10/11.png)
+![](/images/wp/wp-content/uploads/2024/10/11.png)
 
 そして、その訴訟が提出された２週間後にこのドキュメンタリー映画が公開されます。
 

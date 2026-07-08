@@ -17,8 +17,8 @@ tags:
   - "17歳"
   - "私小説"
 images:
-  - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog24-1.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog24-2.jpg"
+  - "/images/wp/wp-content/uploads/2021/11/Blog24-1.jpg"
+  - "/images/wp/wp-content/uploads/2021/11/Blog24-2.jpg"
 excerpt: "ペルーから戻った冬、祖父との実質的な一人暮らし。エホバの証人も高校も辞めて手に入れた自由を、ただひたすらゲームとテレビと立ち読みで4ヶ月消費する停滞期間。ペルーから国際電話で説得した姉の言葉と、人と話さなくて済むピザの配達バイトが、引きこもりの少年を外に押し出す。"
 flags: ""
 ---
@@ -53,7 +53,7 @@ flags: ""
 
 母のコントロール下から抜け出た僕と、どう接していいか分からなかったのだろう。
 
-![Blog24-1](https://qryptraveller.com/wp-content/uploads/2021/11/Blog24-1.jpg)
+![Blog24-1](/images/wp/wp-content/uploads/2021/11/Blog24-1.jpg)
 
 結局、この時期は全部で四ヶ月ほど、引きこもってゲームを続けた。
 
@@ -83,7 +83,7 @@ flags: ""
 
 困り果てた母は姉に相談したことで、ペルーにいる姉から直接国際電話がかかってきた。
 
-![Blog24-2](https://qryptraveller.com/wp-content/uploads/2021/11/Blog24-2.jpg)
+![Blog24-2](/images/wp/wp-content/uploads/2021/11/Blog24-2.jpg)
 
 姉に対して僕の心は比較的開いていたので、僕に対して意見を伝えるにはいい方法だったと思う。
 

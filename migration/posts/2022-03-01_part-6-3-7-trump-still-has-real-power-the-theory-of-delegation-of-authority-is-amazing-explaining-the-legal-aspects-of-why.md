@@ -21,7 +21,7 @@ tags:
   - "司法省"
   - "反政府過激派"
 images:
-  - "https://qryptraveller.com/wp-content/uploads/2022/02/d6-3-7_1-600x400.jpeg"
+  - "/images/wp/wp-content/uploads/2022/02/d6-3-7_1-600x400.jpeg"
 excerpt: "二〇二〇年五月のジョージ・フロイド氏の死は全米で暴力的抗議活動を呼び起こし、それが一月六日事件→権限委譲計画へとつながる。司法省は外国勢力の関与を発表し「反政府過激派タスクフォース」を創設、トランプ大統領はアンティファをテロ組織に分類したいと考えていた——その布石をなぞる。"
 flags: ""
 ---
@@ -64,7 +64,7 @@ flags: ""
 
 6月1日 トランプ大統領、セント・ジョンズ教会を突然訪問
 
-![](https://qryptraveller.com/wp-content/uploads/2022/02/d6-3-7_1-600x400.jpeg)
+![](/images/wp/wp-content/uploads/2022/02/d6-3-7_1-600x400.jpeg)
 
 6月1日 セント・ジョンズ教会の写真の数時間後、[連邦捜査局(FBI)の偵察機がワシントンD.C.の抗議活動を監視し始めました](https://www.buzzfeednews.com/article/peteraldhous/fbi-surveillance-plane-black-lives-matter-dc)。
 

@@ -22,7 +22,7 @@ tags:
   - "投票者ID"
   - "トランプ"
 images:
-  - "https://qryptraveller.com/wp-content/uploads/2022/02/002_10-674x800.jpeg"
+  - "/images/wp/wp-content/uploads/2022/02/002_10-674x800.jpeg"
 excerpt: "トランプ大統領は議事堂乱入事件の前日に、権限委譲計画の鍵となる大統領令に署名していた——その背景として、二〇一七年の選挙公正性に関する大統領諮問委員会の設立と民主党反発による解散、「投票者IDによる新しい投票システムを作らなければいけない」という発言、不正選挙への布石を辿るパート７の幕開け。"
 flags: ""
 ---
@@ -67,7 +67,7 @@ flags: ""
 
 2018年1月3日、報告書が発表されることなく、トランプ氏は「ほとんどが民主党の州」を非難して[委員会を解散させた。](https://web.archive.org/web/20180107075558/http://time.com/5087064/donald-trump-voter-fraud-commission-dissolved/)
 
-![](https://qryptraveller.com/wp-content/uploads/2022/02/002_10-674x800.jpeg)
+![](/images/wp/wp-content/uploads/2022/02/002_10-674x800.jpeg)
 > ドナルド・J・トランプ
 >
 > 多くのほとんど民主党の州が、有権者不正調査委員会に2016年の選挙のデータを渡すことを拒否した。

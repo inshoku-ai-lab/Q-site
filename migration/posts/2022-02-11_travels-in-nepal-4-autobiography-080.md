@@ -18,8 +18,8 @@ tags:
   - "旅仲間"
   - "私小説"
 images:
-  - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog80-1.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog80-2.jpg"
+  - "/images/wp/wp-content/uploads/2021/11/Blog80-1.jpg"
+  - "/images/wp/wp-content/uploads/2021/11/Blog80-2.jpg"
 excerpt: "カトマンズから山道を6時間、ヒマラヤを望む湖の街ポカラへ。旅友4人で綺麗なリゾートホテルを格安シェア。日本人旅行者が作り方を教えたトタン小屋の日本食屋『アニルモモ』で、1ヶ月半ぶりの醤油の味と漫画読み放題に感動——お金をかけず旅人の感覚を味わう、長期旅行者の時間の過ごし方。"
 flags: ""
 ---
@@ -42,7 +42,7 @@ flags: ""
 
 山道の左右のカーブの連続が半端なく、車内の３分の１ほどはうつむいて憂鬱な顔をしている。
 
-![Blog80-1](https://qryptraveller.com/wp-content/uploads/2021/11/Blog80-1.jpg)
+![Blog80-1](/images/wp/wp-content/uploads/2021/11/Blog80-1.jpg)
 
 僕たちはポカラに着いた後は、ダムサイドに宿を見つけた。
 
@@ -74,7 +74,7 @@ flags: ""
 
 日本を出て以来、1ヶ月半ぶりの『醤油の味』は感動モノで、自分が如何に日本人かを再確認した。
 
-![Blog80-2](https://qryptraveller.com/wp-content/uploads/2021/11/Blog80-2.jpg)
+![Blog80-2](/images/wp/wp-content/uploads/2021/11/Blog80-2.jpg)
 
 僕を惹きつけたのは日本の味だけでは無く、店内に置かれている日本の漫画達も僕の足を引き留めた。
 

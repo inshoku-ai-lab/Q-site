@@ -17,7 +17,7 @@ tags:
   - "サイトランス"
   - "私小説"
 images:
-  - "https://qryptraveller.com/wp-content/uploads/2022/04/morocco.jpeg"
+  - "/images/wp/wp-content/uploads/2022/04/morocco.jpeg"
 excerpt: "知能指数の異常に高いJくんの家でもらった一枚のフライヤー——二〇〇〇年の年越し、二一世紀の夜明けを祝うモロッコのサイトランス・パーティー。サハラ砂漠のオアシスに浮かぶ廃墟の島で三日間。「サハラ」「オアシス」「世紀越し」の言葉が一瞬で僕を捕える。勝手に行き先を決める僕にIちゃんは反発したが、最後は一致を見た。"
 flags: ""
 ---
@@ -30,7 +30,7 @@ flags: ""
 
 こんな感じ。
 
-![](https://qryptraveller.com/wp-content/uploads/2022/04/morocco.jpeg)
+![](/images/wp/wp-content/uploads/2022/04/morocco.jpeg)
 
 サハラ砂漠のオアシスに浮かぶ島の上で行われる３日間のフェスティバル。
 

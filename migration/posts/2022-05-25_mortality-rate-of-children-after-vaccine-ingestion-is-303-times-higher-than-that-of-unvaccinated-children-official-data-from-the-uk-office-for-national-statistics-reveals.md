@@ -20,14 +20,14 @@ tags:
   - "副反応"
   - "暴露"
 images:
-  - "https://qryptraveller.com/wp-content/uploads/2022/05/image-210.jpeg"
-  - "https://qryptraveller.com/wp-content/uploads/2022/05/image-211.jpeg"
-  - "https://qryptraveller.com/wp-content/uploads/2022/05/image-212.jpeg"
-  - "https://qryptraveller.com/wp-content/uploads/2022/05/image-213.jpeg"
-  - "https://qryptraveller.com/wp-content/uploads/2022/05/image-216-scaled.jpeg"
-  - "https://qryptraveller.com/wp-content/uploads/2022/05/image-217.jpeg"
-  - "https://qryptraveller.com/wp-content/uploads/2022/05/image-218.jpeg"
-  - "https://qryptraveller.com/wp-content/uploads/2022/05/image-219.jpeg"
+  - "/images/wp/wp-content/uploads/2022/05/image-210.jpeg"
+  - "/images/wp/wp-content/uploads/2022/05/image-211.jpeg"
+  - "/images/wp/wp-content/uploads/2022/05/image-212.jpeg"
+  - "/images/wp/wp-content/uploads/2022/05/image-213.jpeg"
+  - "/images/wp/wp-content/uploads/2022/05/image-216-scaled.jpeg"
+  - "/images/wp/wp-content/uploads/2022/05/image-217.jpeg"
+  - "/images/wp/wp-content/uploads/2022/05/image-218.jpeg"
+  - "/images/wp/wp-content/uploads/2022/05/image-219.jpeg"
 excerpt: "英国国家統計局（ONS）が二〇二二年五月に公開したデータの表九には、接種状況別の死亡数と人年数が残されていた——一〇〇〇〇〇人年あたりの死亡率を自力で計算すると、二〇二一年一月〜二〇二二年三月の間、一〇〜一四歳の三回接種児はコロナ以外の原因で未接種児の三〇三倍死にやすいという恐るべき数字が浮かぶ。その計算過程を追った翻訳記事。"
 flags: ""
 ---
@@ -48,7 +48,7 @@ https://twitter.com/qryptraveller/status/1529169613874946048?s=20&t=Lofi2cp8gbLM
 
 以下は、最新のデータセットの表2から引用した例である。
 
-![](https://qryptraveller.com/wp-content/uploads/2022/05/image-216-scaled.jpeg)
+![](/images/wp/wp-content/uploads/2022/05/image-216-scaled.jpeg)
 
 ご覧のように、国家統計局は、5歳の子供でもコ●ナワク●ンの接種が可能であるにもかかわらず、●亡率の計算に子供を含めないことにしている。
 
@@ -62,11 +62,11 @@ https://twitter.com/qryptraveller/status/1529169613874946048?s=20&t=Lofi2cp8gbLM
 
 国家統計局が発表した10〜14歳の表9の数字は以下のとおりである。
 
-![](https://qryptraveller.com/wp-content/uploads/2022/05/image-217.jpeg)
+![](/images/wp/wp-content/uploads/2022/05/image-217.jpeg)
 
 そして、これが国家統計局が発表した15歳から19歳までの表9の数字である。
 
-![](https://qryptraveller.com/wp-content/uploads/2022/05/image-218.jpeg)
+![](/images/wp/wp-content/uploads/2022/05/image-218.jpeg)
 
 このように、国家統計局はワク●ン接種状況別に●亡者数と人年数の両方を出しています。
 
@@ -86,15 +86,15 @@ https://twitter.com/qryptraveller/status/1529169613874946048?s=20&t=Lofi2cp8gbLM
 
 以下は、国家統計局が算出した人年数をもとに、15〜19歳のワク●ン接種状況別の●亡率を算出したものである。
 
-![](https://qryptraveller.com/wp-content/uploads/2022/05/image-211.jpeg)
+![](/images/wp/wp-content/uploads/2022/05/image-211.jpeg)
 
-![](https://qryptraveller.com/wp-content/uploads/2022/05/image-212.jpeg)
+![](/images/wp/wp-content/uploads/2022/05/image-212.jpeg)
 
 そして、こちらは、●亡者数と国家統計局が算出した人年数から計算した、10〜14歳のワク●ン接種状況別●亡率です。
 
-![](https://qryptraveller.com/wp-content/uploads/2022/05/image-210.jpeg)
+![](/images/wp/wp-content/uploads/2022/05/image-210.jpeg)
 
-![](https://qryptraveller.com/wp-content/uploads/2022/05/image-213.jpeg)
+![](/images/wp/wp-content/uploads/2022/05/image-213.jpeg)
 
 この数字は恐ろしい。
 
@@ -122,7 +122,7 @@ https://twitter.com/qryptraveller/status/1529169613874946048?s=20&t=Lofi2cp8gbLM
 
 2022年5月14日時点で5歳から11歳の7％しかコ●ナワク●ンを受けていないという素晴らしいニュースから、このことがわかります。
 
-![](https://qryptraveller.com/wp-content/uploads/2022/05/image-219.jpeg)
+![](/images/wp/wp-content/uploads/2022/05/image-219.jpeg)
 
 したがって、もしコ●ナワク●ンが子どもたちの早すぎる●を引き起こしていないのであれば、ワク●ン接種者の●亡率はワク●ン非接種者の●亡率より低く、同程度でもなく、8,100％から30,200％高い●亡率でもないことが予想される。
 

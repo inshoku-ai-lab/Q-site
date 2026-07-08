@@ -18,8 +18,8 @@ tags:
   - "18歳"
   - "私小説"
 images:
-  - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog27-1.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog27-2.jpg"
+  - "/images/wp/wp-content/uploads/2021/11/Blog27-1.jpg"
+  - "/images/wp/wp-content/uploads/2021/11/Blog27-2.jpg"
 excerpt: "ピザ屋に通う女子高生に淡い恋心を抱きながら、母の元で育った歪みが行動を許さない18歳の春。一人暮らしを始める準備のため帰国した姉と共に、父母の生まれ育ったドヤ街・大阪西成区にワンルームを借りる——12月、社会への第一歩がついに始まる。"
 flags: ""
 ---
@@ -48,7 +48,7 @@ flags: ""
 
 それを見た僕は状況を理解し同時に自分には女性と親しくなる『心の準備』は、できていない事を理解した。
 
-![Blog27-1](https://qryptraveller.com/wp-content/uploads/2021/11/Blog27-1.jpg)
+![Blog27-1](/images/wp/wp-content/uploads/2021/11/Blog27-1.jpg)
 
 自分を覆うトラウマやタブーは、実家で暮らしている限りは消えることはない。
 
@@ -88,7 +88,7 @@ flags: ""
 
 その為には大阪の都心部で安い家賃で部屋を借りる事が重要。
 
-![Blog27-2](https://qryptraveller.com/wp-content/uploads/2021/11/Blog27-2.jpg)
+![Blog27-2](/images/wp/wp-content/uploads/2021/11/Blog27-2.jpg)
 
 僕が狙いをつけたのは、大阪市西成区という街。
 

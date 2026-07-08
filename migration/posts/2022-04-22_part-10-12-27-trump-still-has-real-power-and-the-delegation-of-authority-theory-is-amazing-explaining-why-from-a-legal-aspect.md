@@ -23,7 +23,7 @@ tags:
   - "SO/LIC"
   - "派兵中止"
 images:
-  - "https://qryptraveller.com/wp-content/uploads/2022/04/11.jpg"
+  - "/images/wp/wp-content/uploads/2022/04/11.jpg"
 excerpt: "権限委譲計画中心のミラー氏は、ベンガジ襲撃の際に特殊作戦部隊を指揮——国防総省から事件の成り行きを見つつ作戦決定を行うチームの一員だった。当時ベンガジに向かえる特殊部隊は存在したが、国防総省が中止を命じた。その結果、ベンガジ事件は複数の議会調査へと発展する。"
 flags: ""
 ---
@@ -70,7 +70,7 @@ flags: ""
 
 特殊作戦/非正規戦担当ディレクター時代の指揮系統を説明するため、簡略化してみました。
 
-![](https://qryptraveller.com/wp-content/uploads/2022/04/11.jpg)
+![](/images/wp/wp-content/uploads/2022/04/11.jpg)
 
 2012年9月11日のベンガジ襲撃の際、クリス・ミラーは国防総省から事件の成り行きを見ており、作戦決定を行うチームの一員であったはずだ。
 

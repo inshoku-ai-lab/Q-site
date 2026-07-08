@@ -18,8 +18,8 @@ tags:
   - "17歳"
   - "私小説"
 images:
-  - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog15-1.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog15-2.jpg"
+  - "/images/wp/wp-content/uploads/2021/11/Blog15-1.jpg"
+  - "/images/wp/wp-content/uploads/2021/11/Blog15-2.jpg"
 excerpt: "兄に連れられて観た『パルプ・フィクション』で脳みそを吹き飛ばされ、17歳の誕生日に『将来』という言葉と向き合った日。『犯罪を犯してでも、乞食になってでも生きていける』——その気づきが暗闇に差し込んだ最初の光になった。"
 flags: ""
 ---
@@ -42,7 +42,7 @@ flags: ""
 
 一作目の『レザボア・ドッグス』を観に行った時は、普通に面白いなと感じただけだったが、二作目の『パルプ・フィクション』を観た時にはものすごい衝撃を受けた。
 
-![Blog15-1](https://qryptraveller.com/wp-content/uploads/2021/11/Blog15-1.jpg)
+![Blog15-1](/images/wp/wp-content/uploads/2021/11/Blog15-1.jpg)
 
 それまでに僕が、メインで見ていたハリウッドアクション映画とは、全く違う感性の映画で、映像の撮り方、ストーリー展開、音楽の使い方など全ての部分で脳みそを吹き飛ばされた。
 
@@ -98,7 +98,7 @@ flags: ""
 
 誕生日が先だったか、『パルプ・フィクション』を見たのが先だったか覚えてはいないが、ほぼ同じ時期だったと思う。
 
-![Blog15-2](https://qryptraveller.com/wp-content/uploads/2021/11/Blog15-2.jpg)
+![Blog15-2](/images/wp/wp-content/uploads/2021/11/Blog15-2.jpg)
 
 この映画は、ギャングの話が主体に流れているのだが、ギャング的なかっこよさに憧れることにより、犯罪を犯して生きると言う選択肢があることに気づいた。
 

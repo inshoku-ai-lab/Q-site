@@ -18,8 +18,8 @@ tags:
   - "ゴア"
   - "私小説"
 images:
-  - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog97-1.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog97-2.jpg"
+  - "/images/wp/wp-content/uploads/2021/11/Blog97-1.jpg"
+  - "/images/wp/wp-content/uploads/2021/11/Blog97-2.jpg"
 excerpt: "アシュラムで出会った、中国の圧政を逃れてチベット経由で亡命した鍼灸師の中国人。物価の高いプーナで診療所に泊めてもらい、カレー続きの日々に手作り中華をご馳走になる。だが出発前に試したインド式噛みタバコを取りすぎ、胃液まで吐いてフラフラのままゴア行きの夜行列車に倒れ込む。"
 flags: ""
 ---
@@ -40,7 +40,7 @@ flags: ""
 
 すると、ありがたいことに彼の「診療所に、空き場所があるから数日なら泊まってもいいよ」と言ってくれた。
 
-![Blog97-1](https://qryptraveller.com/wp-content/uploads/2021/11/Blog97-1.jpg)
+![Blog97-1](/images/wp/wp-content/uploads/2021/11/Blog97-1.jpg)
 
 物価の高いこの街で、ただで泊めてもらうのは大いに助かる。
 
@@ -68,7 +68,7 @@ flags: ""
 
 夕食に手作りの中華料理を、ご馳走してくれた。
 
-![Blog97-2](https://qryptraveller.com/wp-content/uploads/2021/11/Blog97-2.jpg)
+![Blog97-2](/images/wp/wp-content/uploads/2021/11/Blog97-2.jpg)
 
 ここプーナは都会なので、輸入食材屋などがあり、一部の中華食材などが買えるという。
 

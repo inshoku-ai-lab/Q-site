@@ -17,8 +17,8 @@ tags:
   - "高校受験"
   - "私小説"
 images:
-  - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog12-1.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog12-2.jpg"
+  - "/images/wp/wp-content/uploads/2021/11/Blog12-1.jpg"
+  - "/images/wp/wp-content/uploads/2021/11/Blog12-2.jpg"
 excerpt: "柔道の授業を休めるから、男女共学なのに99%男子だから、試験が2ヶ月早いから——母の宗教的都合と自分のゲーム欲求が重なって選ばれた工業高校。母にバレないよう嘘の電話番号でこっそり柔道着を予約した中学卒業の春。"
 flags: ""
 ---
@@ -47,7 +47,7 @@ flags: ""
 
 また、かなり頭の悪い高校なので、大学進学への希望が無いこともエホバの証人として都合が良かったと思う。
 
-![Blog12-2](https://qryptraveller.com/wp-content/uploads/2021/11/Blog12-2.jpg)
+![Blog12-2](/images/wp/wp-content/uploads/2021/11/Blog12-2.jpg)
 
 僕がこの高校を受験した動機は、母の強い推薦だけでなく、試験の日程が他の高校よりも２ヶ月ほど早かったことが決め手になった。
 
@@ -73,7 +73,7 @@ flags: ""
 
 僕のした準備は、母に禁止されていた柔道に参加するための柔道着を母にバレないように買う事だった。
 
-![Blog12-1](https://qryptraveller.com/wp-content/uploads/2021/11/Blog12-1.jpg)
+![Blog12-1](/images/wp/wp-content/uploads/2021/11/Blog12-1.jpg)
 
 この頃には母は、僕がエホバの証人である事を嫌がっている事にハッキリと気づいていて、もし僕がエホバの証人をやめるような事があれば、家から追い出すと言っていた。
 

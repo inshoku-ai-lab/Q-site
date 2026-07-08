@@ -20,8 +20,8 @@ tags:
   - "テクノ"
   - "私小説"
 images:
-  - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog31-1.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog31-2.jpg"
+  - "/images/wp/wp-content/uploads/2021/11/Blog31-1.jpg"
+  - "/images/wp/wp-content/uploads/2021/11/Blog31-2.jpg"
 excerpt: "兄の長年続けたロックバンドが解散——テクノとロックを融合した兄弟ユニットが誕生する。中古3万円のサンプラーを人生初の楽器として購入し、毎週火曜日の夜にアパートで作曲。エホバの集会の代わりに『サブカルチャー教』の作曲会が始まり、ついには15万円のマッキントッシュへ突き進んでいく。"
 flags: ""
 ---
@@ -48,7 +48,7 @@ flags: ""
 
 兄はシーケンサーと言う電子音を鳴らすシンセサイザーや、サンプル音を鳴らすサンプラーなどを自動演奏させる機械を持っていた。
 
-![Blog31-1](https://qryptraveller.com/wp-content/uploads/2021/11/Blog31-1.jpg)
+![Blog31-1](/images/wp/wp-content/uploads/2021/11/Blog31-1.jpg)
 
 他にも色々なケーブルやエフェクターなども持っていたので、僕がサンプラーさえ買えば、理屈上は作りたい音楽を作り始めることができると言う。
 
@@ -87,7 +87,7 @@ flags: ""
 
 折しも前述のNさんの影響でバイト仲間の間に『マッキントッシュ・コンピューター』を買うことが流行っていたので、流れに乗り思い切って買うことにした。
 
-![Blog31-2](https://qryptraveller.com/wp-content/uploads/2021/11/Blog31-2.jpg)
+![Blog31-2](/images/wp/wp-content/uploads/2021/11/Blog31-2.jpg)
 
 合計１５万円。
 

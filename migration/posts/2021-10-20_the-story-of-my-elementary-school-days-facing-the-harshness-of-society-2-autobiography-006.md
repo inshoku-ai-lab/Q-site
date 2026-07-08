@@ -18,7 +18,7 @@ tags:
   - "キャンプ"
   - "私小説"
 images:
-  - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog6-2-1.jpg"
+  - "/images/wp/wp-content/uploads/2021/11/Blog6-2-1.jpg"
 excerpt: "苦しみから逃れるため心を閉ざし、図書室を聖域とした少年。それでも年に一度のお盆のキャンプ旅行——無人のビーチで潮干狩り、山奥でバーベキュー——だけは記憶に燦然と輝いていた。後の地球放浪の人生の伏線となるキャンプの原体験。"
 flags: ""
 ---
@@ -103,7 +103,7 @@ flags: ""
 
 悪の支配する世俗的な遊園地などに行かずに、神の創造物である大自然を愛でる行為がエホバの証人の娯楽として推奨されていたからだ。
 
-![Blog6-2](https://qryptraveller.com/wp-content/uploads/2021/11/Blog6-2-1.jpg)
+![Blog6-2](/images/wp/wp-content/uploads/2021/11/Blog6-2-1.jpg)
 
 素晴らしいと思う。
 

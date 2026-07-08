@@ -17,8 +17,8 @@ tags:
   - "阪神大震災"
   - "私小説"
 images:
-  - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog14-1.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog14-2.jpg"
+  - "/images/wp/wp-content/uploads/2021/11/Blog14-1.jpg"
+  - "/images/wp/wp-content/uploads/2021/11/Blog14-2.jpg"
 excerpt: "原因のわからない怒りに襲われ、誰もいない家で枕を殴り続けた朝。阪神大震災が起きても被害より『学校が休みになって嬉しい』と感じてしまった自分。そして姉がペルー人と結婚——後のペルー行きの伏線となる出来事が次々と起こる高校1年の冬。"
 flags: ""
 ---
@@ -57,7 +57,7 @@ flags: ""
 
 何かの夢でもみていたのだろうか、原因は分からないが大きな大きな怒り。
 
-![Blog14-1](https://qryptraveller.com/wp-content/uploads/2021/11/Blog14-1.jpg)
+![Blog14-1](/images/wp/wp-content/uploads/2021/11/Blog14-1.jpg)
 
 その日は、たまたま家に誰もいなかったので、半泣きになりながら枕を殴り続けた。
 
@@ -105,7 +105,7 @@ flags: ""
 
 ちょうどこの頃、姉はエホバの証人としてのスペイン語の勉強が進んでおり、その活動を通して知り合った、日本に働きにきていたペルー人の男性と結婚する事になった。
 
-![Blog14-2](https://qryptraveller.com/wp-content/uploads/2021/11/Blog14-2.jpg)
+![Blog14-2](/images/wp/wp-content/uploads/2021/11/Blog14-2.jpg)
 
 姉が、外国人と結婚すると言う一大事に親戚一同騒然となった。
 

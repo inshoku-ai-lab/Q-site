@@ -18,8 +18,8 @@ tags:
   - "思春期"
   - "私小説"
 images:
-  - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog9-1-1.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog9-2-1.jpg"
+  - "/images/wp/wp-content/uploads/2021/11/Blog9-1-1.jpg"
+  - "/images/wp/wp-content/uploads/2021/11/Blog9-2-1.jpg"
 excerpt: "校歌も歌えず、運動会の騎馬戦にも参加できず、クリスマス会もお誕生日会も禁止——『普通の家庭に生まれたい』と願う少年の中学生生活。同居を始めた祖父との同居、母子家庭の狭い団地での思春期の歪み。"
 flags: ""
 ---
@@ -68,7 +68,7 @@ flags: ""
 
 その愛は母から子への愛なのだが、母は潜在意識的には男女愛のエネルギーを放出していたように思う。
 
-![Blog9-1](https://qryptraveller.com/wp-content/uploads/2021/11/Blog9-1-1.jpg)
+![Blog9-1](/images/wp/wp-content/uploads/2021/11/Blog9-1-1.jpg)
 
 溺愛や過保護は、思春期に入った少年にとって、もっとも居心地の悪いもの。
 
@@ -104,7 +104,7 @@ flags: ""
 
 ドヤ街出身の彼らにとっては、ギャンブルは生活の一部で、もっとも一般的な趣味。
 
-![Blog9-2](https://qryptraveller.com/wp-content/uploads/2021/11/Blog9-2-1.jpg)
+![Blog9-2](/images/wp/wp-content/uploads/2021/11/Blog9-2-1.jpg)
 
 祖父は月に一度もらう年金を１週間から２週間でパチンコに消費し、次の年金までの残りの日々を部屋でパズルを組み立てて過ごすと言う日々を送っていた。
 

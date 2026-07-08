@@ -18,7 +18,7 @@ tags:
   - "DS"
   - "真相論"
 images:
-  - "https://qryptraveller.com/wp-content/uploads/2023/07/fox.png"
+  - "/images/wp/wp-content/uploads/2023/07/fox.png"
 excerpt: "小児人身売買を描く映画『サウンド・オブ・フリーダム』の出資者は、クリントン陣営に献金しているDSの超富豪カルロス・スリム氏——だからこの映画はコントロールド・オポジション（ガス抜き勢力）ではないか？という噂を、ティム・バラード氏の発言の唇シンク疑惑の検証から五年前のFOXインタビュー発掘まで、徹底的に証拠を辿って検証した記事。"
 flags: ""
 ---
@@ -67,7 +67,7 @@ https://twitter.com/karma44921039/status/1679758023613349890?s=20
 
 ツイッターの動画をよく見てみると、古い感じの映像で、インタビューのセットにFOXの文字が見えました。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/07/fox.png)
+![](/images/wp/wp-content/uploads/2023/07/fox.png)
 
 この映画は5年前に完成しているので、その直後のFOXでのインタビューかもしれません。
 

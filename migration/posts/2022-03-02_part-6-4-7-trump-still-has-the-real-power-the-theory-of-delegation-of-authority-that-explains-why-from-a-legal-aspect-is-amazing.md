@@ -21,7 +21,7 @@ tags:
   - "バー司法長官"
   - "テロ対策"
 images:
-  - "https://qryptraveller.com/wp-content/uploads/2022/02/tero.jpg"
+  - "/images/wp/wp-content/uploads/2022/02/tero.jpg"
 excerpt: "国家テロ対策センター（NCTC）は国内テロでは大した権限を持たないが、国際的なテロには主導権を握り対策を取る——軍がテロ対策に関与するには「テログループの国際的な側面」が必要条件だ。トランプは「アンティファをテロ組織と指定する」と発言、バー司法長官は「外国人の行為者も見られる」と裏付けた。アンティファを正当に軍が監視する根拠を作る記事。"
 flags: ""
 ---
@@ -66,7 +66,7 @@ flags: ""
 
 ここでは、[1996年の反テロリズムおよび効果的な死刑制度に関する法律からの抜粋](https://www.govinfo.gov/content/pkg/PLAW-104publ132/pdf/PLAW-104publ132.pdf)を紹介します（ハイライト部分だけ読めばOK）。
 
-![](https://qryptraveller.com/wp-content/uploads/2022/02/tero.jpg)
+![](/images/wp/wp-content/uploads/2022/02/tero.jpg)
 > 2339A. テロリストへの物的支援
 >
 > "(a)違反者：**米国内で、物的支援や資源を提供したり、物的支援や資源の性質、場所、出所、所有権を隠したり、偽装したりする者で、それらがテロの準備や実行に使用されることを知り、または意図していた者。**

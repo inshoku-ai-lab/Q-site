@@ -23,7 +23,7 @@ tags:
   - "権限委譲理論"
   - "理論"
 images:
-  - "https://qryptraveller.com/wp-content/uploads/2022/02/d4_13_z.jpeg"
+  - "/images/wp/wp-content/uploads/2022/02/d4_13_z.jpeg"
 excerpt: "南北戦争中、リンカーンは憲法の曖昧さを巧みに使い、緊急時に強大な権力を握って戦争を有利に導いた——国家の存続は憲法の遵守に優先する。リンカーンもトランプも、与えられた戦争権限を使って国家存続のために反撃したのだ、とデヴォリューション理論パート４を締めくくる。"
 flags: ""
 ---
@@ -114,7 +114,7 @@ flags: ""
 >
 > **私は、そうでなければ違憲となる措置が、国家の存続を通じて憲法の維持に不可欠なものとなることで、合法となる可能性があると感じたのです」。**
 
-![](https://qryptraveller.com/wp-content/uploads/2022/02/d4_13_z.jpeg)
+![](/images/wp/wp-content/uploads/2022/02/d4_13_z.jpeg)
 
 トランプはよく自分をリンカーンになぞらえていた。
 

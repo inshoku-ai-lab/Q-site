@@ -18,8 +18,8 @@ tags:
   - "バックパッカー"
   - "私小説"
 images:
-  - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog35-1.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog35-2.jpg"
+  - "/images/wp/wp-content/uploads/2021/11/Blog35-1.jpg"
+  - "/images/wp/wp-content/uploads/2021/11/Blog35-2.jpg"
 excerpt: "関空からバンコクへ——3月の街は想像を超える蒸し暑さで、カオサンロードは客引きと屋台と土産物屋でひしめき合っていた。冷房が最大値に効きすぎる夜行寝台バスで南へ。フェリーで出会った旅慣れた日本人2人組に誘われ、パンガン島の知る人ぞ知るゲストハウスへ向かう。"
 flags: ""
 ---
@@ -58,7 +58,7 @@ flags: ""
 
 そこにタクシーの客引きとホテルの客引きがやって来て、我先にと観光客をどこかへ連れて行こうとする。
 
-![Blog35-1](https://qryptraveller.com/wp-content/uploads/2021/11/Blog35-1.jpg)
+![Blog35-1](/images/wp/wp-content/uploads/2021/11/Blog35-1.jpg)
 
 僕たちは、こう言った客引きたちについて行っては危ないと聞いていたので、彼らの声を無視して目的の宿へと足を進める。
 
@@ -90,7 +90,7 @@ flags: ""
 
 普段日本だと、同じバスに乗っていたとしても話しかけて仲良くなったりはしないが、乗員２００名ほどのフェリーで唯一の日本人同士だということで気軽に話しかけることが出来た。
 
-![Blog35-2](https://qryptraveller.com/wp-content/uploads/2021/11/Blog35-2.jpg)
+![Blog35-2](/images/wp/wp-content/uploads/2021/11/Blog35-2.jpg)
 
 一人は丸坊主のIさん、一人は長髪のTさん。
 

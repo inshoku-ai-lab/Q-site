@@ -22,7 +22,7 @@ tags:
   - "左翼勢力"
   - "資金調達"
 images:
-  - "https://qryptraveller.com/wp-content/uploads/2022/05/4-1.png"
+  - "/images/wp/wp-content/uploads/2022/05/4-1.png"
 excerpt: "ジョージ・ソロスが共同創設者の「民主主義同盟」と、そこから移行した「市民参加のための資金調達委員会」は、国内外の左翼勢力から、バイデン当選のための資金を受け取っている——外国と国内の影響力がバイデン当選に資金を流す構造を解剖する。"
 flags: ""
 ---
@@ -85,7 +85,7 @@ flags: ""
 
 [シリコンバレー・コミュニティ財団は、「ビッグテック」プレーヤーと、2020年の選挙中に起こった「カラー革命」でトランプと保守派を検閲した人たちで構成されています。](https://www.influencewatch.org/non-profit/silicon-valley-community-foundation/)
 
-![](https://qryptraveller.com/wp-content/uploads/2022/05/4-1.png)
+![](/images/wp/wp-content/uploads/2022/05/4-1.png)
 
 移行統合計画を設立し、資金を提供した人たちを考えると、私たちがカラー革命の成功のための第2の基準を目撃していることが、はっきりとわかるのである。
 

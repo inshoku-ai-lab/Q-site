@@ -19,8 +19,8 @@ tags:
   - "クラブ"
   - "私小説"
 images:
-  - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog33-1.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog33-2.jpg"
+  - "/images/wp/wp-content/uploads/2021/11/Blog33-1.jpg"
+  - "/images/wp/wp-content/uploads/2021/11/Blog33-2.jpg"
 excerpt: "毎週ひとりでクラブへ通い、夜11時から朝6時までスピーカー前で黙々と踊り続けた18歳。『ミニマルテクノ』『ドラムンベース』を浴び続けた身体に、海外の本物のテクノシーンへの渇望が芽生える——バイト仲間のテクノミュージシャンA君と、タイの野外テクノイベントへの計画が動き出す。"
 flags: ""
 ---
@@ -57,7 +57,7 @@ Youtubeビデオ
 
 ここでいうクラブとは、学校でやる野球部やサッカー部のクラブ活動ではなく、夜の街でお姉ちゃんとお酒を飲むクラブでもなく、共通の趣味を持つ人が集まるようなクラブでもない。
 
-![Blog33-1](https://qryptraveller.com/wp-content/uploads/2021/11/Blog33-1.jpg)
+![Blog33-1](/images/wp/wp-content/uploads/2021/11/Blog33-1.jpg)
 
 ディスコというのが近い表現だが、ナンパ目的ではなくパーティーピープルでもなく、テクノマニアが集まって黙々と一晩中、踊っているような感じだった。
 
@@ -79,7 +79,7 @@ Youtubeビデオ
 
 僕のテクノ熱が高じるに連れて、共通の話題が多くなっていき、作曲用の機材やソフトの話などにおよび、有名アーティストが海外から来るときは、一緒にクラブに行ったりするようになった。
 
-![Blog33-2](https://qryptraveller.com/wp-content/uploads/2021/11/Blog33-2.jpg)
+![Blog33-2](/images/wp/wp-content/uploads/2021/11/Blog33-2.jpg)
 
 まともに友達ができて、バイトで時間を過ごす以外にも一緒に遊びに行くなど、実に５年ぶりくらいの話だった。
 

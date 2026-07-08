@@ -22,7 +22,7 @@ tags:
   - "作戦"
   - "パート11完結"
 images:
-  - "https://qryptraveller.com/wp-content/uploads/2022/05/１２.png"
+  - "/images/wp/wp-content/uploads/2022/05/１２.png"
 excerpt: "ソーラーウィンズ社を攻撃したハッカー集団は、新しい技術を開発した上で昔のハッカーのように行動した——それは無意味な行動であり、他の何かを得ようとしていたように見える。狙いはメールアカウントやオフィス・ソフトウェアのライセンスへの侵入。実は米サイバーコマンドの作戦だった可能性を示唆するパート１１最終回。"
 flags: ""
 ---
@@ -91,7 +91,7 @@ flags: ""
 
 2020年12月14日からのドミニオンのウェブ・クライアント・ポータルへの[アーカイブリンク](https://web.archive.org/web/20201214093452/http://dvsfileshare.dominionvoting.com/Web%20Client/Mobile/MLogin.htm)はこちらです。
 
-![](https://qryptraveller.com/wp-content/uploads/2022/05/１２.png)
+![](/images/wp/wp-content/uploads/2022/05/１２.png)
 
 2020年3月のいつかに始まったハッキングが、2020年12月まで発見されなかったことで、ハッカーはドミニオン社にアクセスし、したがって、ドミニオン社のマシンの数千とは言わないまでも、数百に及ぶソフトウェアを持っていたクラウドストライク社にもアクセスすることができたのです。
 

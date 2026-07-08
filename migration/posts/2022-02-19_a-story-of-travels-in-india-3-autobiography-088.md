@@ -17,8 +17,8 @@ tags:
   - "バックパッカー"
   - "私小説"
 images:
-  - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog88-1.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog88-2.jpg"
+  - "/images/wp/wp-content/uploads/2021/11/Blog88-1.jpg"
+  - "/images/wp/wp-content/uploads/2021/11/Blog88-2.jpg"
 excerpt: "カルカッタを襲った集中豪雨で街全体が太ももまでの洪水に。小便所も野良犬の糞尿も下水も混じった『毒の沼地』を、ヤバいヤバいとはしゃぎながらレストランへ。虫刺されの傷に塩を刷り込んで消毒し、チョコレート・ラッシーに常識を壊された、旅人たちが非常事態を楽しむカルカッタの3日間。"
 flags: ""
 ---
@@ -61,7 +61,7 @@ flags: ""
 
 野良犬や野良猫の糞尿も混じっているはずだし、大都会の下水道の水もこの洪水の水に混じっているはずだ。
 
-![Blog88-1](https://qryptraveller.com/wp-content/uploads/2021/11/Blog88-1.jpg)
+![Blog88-1](/images/wp/wp-content/uploads/2021/11/Blog88-1.jpg)
 
 僕たちは、この水が持つ病原菌の可能性に恐れおののいた。
 
@@ -99,7 +99,7 @@ flags: ""
 
 レストランの中は、笑顔と活気で溢れている。
 
-![Blog88-2](https://qryptraveller.com/wp-content/uploads/2021/11/Blog88-2.jpg)
+![Blog88-2](/images/wp/wp-content/uploads/2021/11/Blog88-2.jpg)
 
 このレストランのメニューで、僕が特に気に入ったのは『チョコレート・ラッシー』と言うもの。
 

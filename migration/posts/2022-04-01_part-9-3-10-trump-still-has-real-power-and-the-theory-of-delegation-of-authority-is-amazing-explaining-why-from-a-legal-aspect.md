@@ -21,20 +21,20 @@ tags:
   - "フリン一族"
   - "国防長官"
 images:
-  - "https://qryptraveller.com/wp-content/uploads/2022/04/1.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2022/04/10.jpeg"
-  - "https://qryptraveller.com/wp-content/uploads/2022/04/11.jpeg"
-  - "https://qryptraveller.com/wp-content/uploads/2022/04/12.jpeg"
-  - "https://qryptraveller.com/wp-content/uploads/2022/04/13.jpeg"
-  - "https://qryptraveller.com/wp-content/uploads/2022/04/14.jpeg"
-  - "https://qryptraveller.com/wp-content/uploads/2022/04/6.jpeg"
-  - "https://qryptraveller.com/wp-content/uploads/2022/04/7.jpeg"
-  - "https://qryptraveller.com/wp-content/uploads/2022/04/8.jpeg"
-  - "https://qryptraveller.com/wp-content/uploads/2022/04/9.jpeg"
-  - "https://qryptraveller.com/wp-content/uploads/2022/04/２.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2022/04/３-3.png"
-  - "https://qryptraveller.com/wp-content/uploads/2022/04/４.jpeg"
-  - "https://qryptraveller.com/wp-content/uploads/2022/04/５.jpeg"
+  - "/images/wp/wp-content/uploads/2022/04/1.jpg"
+  - "/images/wp/wp-content/uploads/2022/04/10.jpeg"
+  - "/images/wp/wp-content/uploads/2022/04/11.jpeg"
+  - "/images/wp/wp-content/uploads/2022/04/12.jpeg"
+  - "/images/wp/wp-content/uploads/2022/04/13.jpeg"
+  - "/images/wp/wp-content/uploads/2022/04/14.jpeg"
+  - "/images/wp/wp-content/uploads/2022/04/6.jpeg"
+  - "/images/wp/wp-content/uploads/2022/04/7.jpeg"
+  - "/images/wp/wp-content/uploads/2022/04/8.jpeg"
+  - "/images/wp/wp-content/uploads/2022/04/9.jpeg"
+  - "/images/wp/wp-content/uploads/2022/04/２.jpg"
+  - "/images/wp/wp-content/uploads/2022/04/３-3.png"
+  - "/images/wp/wp-content/uploads/2022/04/４.jpeg"
+  - "/images/wp/wp-content/uploads/2022/04/５.jpeg"
 excerpt: "米軍の指揮系統を理解することで権限委譲の流れが見える——大統領→国防長官→戦闘指揮官の三段階。戦闘司令部は全部で一一あり、七つの地理的区分けと四つの機能的区分けに分かれる。一一人の戦闘司令官のうち一〇人はトランプ任期中に就任、唯一バイデン期就任の一人もフリン一族が関与しているため安全だ、と解説する。"
 flags: ""
 ---
@@ -67,11 +67,11 @@ flags: ""
 
 そこから、国防長官、戦闘指揮官へと指揮系統が続いていきます。
 
-![](https://qryptraveller.com/wp-content/uploads/2022/04/1.jpg)
+![](/images/wp/wp-content/uploads/2022/04/1.jpg)
 
 これが指揮系統の別の表現です。
 
-![](https://qryptraveller.com/wp-content/uploads/2022/04/２.jpg)
+![](/images/wp/wp-content/uploads/2022/04/２.jpg)
 
 ## 戦闘指揮所と戦闘指揮官
 
@@ -89,7 +89,7 @@ flags: ""
 
 全部で11の戦闘司令部（COCOM）があり、それぞれが地理的または機能的なカテゴリーに分類されています。
 
-![](https://qryptraveller.com/wp-content/uploads/2022/04/３-3.png)
+![](/images/wp/wp-content/uploads/2022/04/３-3.png)
 
 このうち7つの司令部は地理的な位置づけにあり、「アフリカ」や「宇宙」など、地球上または上空の明確に定義された実際の場所におけるすべての作戦などを担当する。
 
@@ -99,29 +99,29 @@ flags: ""
 
 米軍北部軍
 
-![](https://qryptraveller.com/wp-content/uploads/2022/04/４.jpeg)
+![](/images/wp/wp-content/uploads/2022/04/４.jpeg)
 
 米国南方軍
 
-![](https://qryptraveller.com/wp-content/uploads/2022/04/５.jpeg)
+![](/images/wp/wp-content/uploads/2022/04/５.jpeg)
 
 米国欧州軍  
-![](https://qryptraveller.com/wp-content/uploads/2022/04/6.jpeg)
+![](/images/wp/wp-content/uploads/2022/04/6.jpeg)
 
 アメリカ・アフリカ軍
 
-![](https://qryptraveller.com/wp-content/uploads/2022/04/7.jpeg)
+![](/images/wp/wp-content/uploads/2022/04/7.jpeg)
 
 米国中央軍  
-![](https://qryptraveller.com/wp-content/uploads/2022/04/8.jpeg)
+![](/images/wp/wp-content/uploads/2022/04/8.jpeg)
 
 米国インド太平洋軍
 
-![](https://qryptraveller.com/wp-content/uploads/2022/04/9.jpeg)
+![](/images/wp/wp-content/uploads/2022/04/9.jpeg)
 
 米国宇宙軍
 
-![](https://qryptraveller.com/wp-content/uploads/2022/04/10.jpeg)
+![](/images/wp/wp-content/uploads/2022/04/10.jpeg)
 
 戦闘司令部（COCOM）のうち4つは機能別として指定されている。
 
@@ -133,19 +133,19 @@ flags: ""
 
 米国特殊作戦司令部（U.S. Special Operations Command）
 
-![](https://qryptraveller.com/wp-content/uploads/2022/04/11.jpeg)
+![](/images/wp/wp-content/uploads/2022/04/11.jpeg)
 
 米サイバー軍 - ナカソネ将軍はNSAのトップでもある
 
-![](https://qryptraveller.com/wp-content/uploads/2022/04/12.jpeg)
+![](/images/wp/wp-content/uploads/2022/04/12.jpeg)
 
 米国戦略軍
 
-![](https://qryptraveller.com/wp-content/uploads/2022/04/13.jpeg)
+![](/images/wp/wp-content/uploads/2022/04/13.jpeg)
 
 米国運輸司令部
 
-![](https://qryptraveller.com/wp-content/uploads/2022/04/14.jpeg)
+![](/images/wp/wp-content/uploads/2022/04/14.jpeg)
 
 戦闘団長に就任するためには、国防長官の推薦を受け、合衆国大統領によって指名され、上院で承認された後、国防長官の命により、4つ星将官として任命される。
 

@@ -18,23 +18,23 @@ tags:
   - "言論統制"
   - "暴露"
 images:
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/11.png"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/19-scaled.jpeg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/20.jpeg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/21.png"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/25.png"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/26-scaled.jpeg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/27.png"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/28.jpeg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/30.png"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/31.png"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/32.png"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/33.png"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/34.png"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/35.png"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/36.png"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/8.jpeg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/9.jpeg"
+  - "/images/wp/wp-content/uploads/2023/02/11.png"
+  - "/images/wp/wp-content/uploads/2023/02/19-scaled.jpeg"
+  - "/images/wp/wp-content/uploads/2023/02/20.jpeg"
+  - "/images/wp/wp-content/uploads/2023/02/21.png"
+  - "/images/wp/wp-content/uploads/2023/02/25.png"
+  - "/images/wp/wp-content/uploads/2023/02/26-scaled.jpeg"
+  - "/images/wp/wp-content/uploads/2023/02/27.png"
+  - "/images/wp/wp-content/uploads/2023/02/28.jpeg"
+  - "/images/wp/wp-content/uploads/2023/02/30.png"
+  - "/images/wp/wp-content/uploads/2023/02/31.png"
+  - "/images/wp/wp-content/uploads/2023/02/32.png"
+  - "/images/wp/wp-content/uploads/2023/02/33.png"
+  - "/images/wp/wp-content/uploads/2023/02/34.png"
+  - "/images/wp/wp-content/uploads/2023/02/35.png"
+  - "/images/wp/wp-content/uploads/2023/02/36.png"
+  - "/images/wp/wp-content/uploads/2023/02/8.jpeg"
+  - "/images/wp/wp-content/uploads/2023/02/9.jpeg"
 excerpt: "イーロン・マスク氏のツイッター買収後、同社の内部資料を元にしたツイッターファイル第一弾が投下された——ハンター・バイデンのラップトップ問題でツイッターが行った言論統制の暴露だ。「ハッキングされたデータ」と決めつけた検閲はCEOジャック・ドーシーの関与なしに、憲法を軽視する社員によって実行されていた。スレッド全文と引用画像を完全翻訳。"
 flags: ""
 ---
@@ -93,7 +93,7 @@ https://twitter.com/mtaibbi/status/1598822959866683394?s=20&t=Qf4Ek7HsLnMK8JzQWl
 
 するとすぐさま「処理しました。 」と返信が来るのです。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/8.jpeg)
+![](/images/wp/wp-content/uploads/2023/02/8.jpeg)
 
 > 画像抽出：   
 >   
@@ -111,7 +111,7 @@ https://twitter.com/mtaibbi/status/1598822959866683394?s=20&t=Qf4Ek7HsLnMK8JzQWl
 
 有名人も無名人も、政党の命令で削除したり、修正したりすることができました。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/9.jpeg)
+![](/images/wp/wp-content/uploads/2023/02/9.jpeg)
 
 > 画像抽出：   
 > On Sun, Oct 25, 2020 at 9:58 AN twitter.com wrote:   
@@ -137,7 +137,7 @@ https://twitter.com/mtaibbi/status/1598822959866683394?s=20&t=Qf4Ek7HsLnMK8JzQWl
 
 ツイッターは圧倒的に一つの政治的志向を持つ人々で占められていたため、右派よりも左派（まあ、民主党）の方がより多くのチャンネル、より多くの文句を言う方法が開かれていました。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/11.png)
+![](/images/wp/wp-content/uploads/2023/02/11.png)
 
 画像抽出：ツイッター社が寄付した相手先別内訳（９９％近くが民主党への寄付）  
 https://www.opensecrets.org/orgs/twitter/summary?id=D000067113
@@ -156,7 +156,7 @@ https://www.opensecrets.org/orgs/twitter/summary?id=D000067113
 
 さらには、児童ポルノなどの極端なケースにのみ使用される、ダイレクトメッセージでの送信までブロックしました。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/19-scaled.jpeg)
+![](/images/wp/wp-content/uploads/2023/02/19-scaled.jpeg)
 
 画像抽出：   
 From: Mike Hahn mhahn@donaldtrump.com Date: Wed, Oct 14, 2020 at 7:19 PM Subject: URGENT: Kayleigh Manany To: cstrom@twitter.com cstrom@twitter.com、Lauren Devoll Idevoll@twitter.com、Twitter Government & Politics gov@twitter.com   
@@ -177,7 +177,7 @@ From: Mike Hahn mhahn@donaldtrump.com Date: Wed, Oct 14, 2020 at 7:19 PM Subject
 
 複数の社員が、規制をほとんどコントロールできない通信／政策チームと、安全／信頼チームとの間に緊張関係があったことを指摘しています。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/20.jpeg)
+![](/images/wp/wp-content/uploads/2023/02/20.jpeg)
 
 画像抽出：  
 On Thu, Oct 15, 2020 at 7:24 AM Caroline Strom cstrom@twitter.com wrote:   
@@ -190,7 +190,7 @@ On Thu, Oct 15, 2020 at 7:24 AM Caroline Strom cstrom@twitter.com wrote:
 
 [blogcard url="https://web.archive.org/web/20190717143909/https://help.twitter.com/en/rules-and-policies/hacked-materials"]
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/21.png)
+![](/images/wp/wp-content/uploads/2023/02/21.png)
 
 こんにちは、キャロラインさん。   
   
@@ -221,7 +221,7 @@ On Thu, Oct 15, 2020 at 7:24 AM Caroline Strom cstrom@twitter.com wrote:
 
 通信関係者のトレントン・ケネディは、「私は、これを安全でないと指定する政策的根拠を理解するのに苦労しています」と書いています。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/25.png)
+![](/images/wp/wp-content/uploads/2023/02/25.png)
 
 2020-10-14 NYPost ハンター・バイデン・ラップトップ記事 - 機密保持   
   
@@ -250,7 +250,7 @@ https://www.foxnews.com/politics/hunter-biden-emails-senate-homeland-security-co
 
 この時点では、「誰もがこれがメチャクチャなことだとわかっていた。」とある元従業員は語っていますが、その対応は基本的に「間違いを続ける側に回ること」でした。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/26-scaled.jpeg)
+![](/images/wp/wp-content/uploads/2023/02/26-scaled.jpeg)
 
 ヨエル・ロス：  
   
@@ -279,7 +279,7 @@ https://www.foxnews.com/politics/hunter-biden-emails-senate-homeland-security-co
 
 元グローバル・コミュニケーション担当副社長ブランドン・ボーマンは、「これがポリシーの一部であると正直に主張できるだろうか？」と質問しました。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/27.png)
+![](/images/wp/wp-content/uploads/2023/02/27.png)
 
 ブランドン・ボーマン：  
   
@@ -289,7 +289,7 @@ https://www.foxnews.com/politics/hunter-biden-emails-senate-homeland-security-co
 
 元副顧問のジム・ベイカーは、「慎重な対応が必要だ」として、再び方針を変更しないことを勧めているようです。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/28.jpeg)
+![](/images/wp/wp-content/uploads/2023/02/28.jpeg)
 
 ジム・ベイカー： 機密保持   
   
@@ -307,7 +307,7 @@ https://www.foxnews.com/politics/hunter-biden-emails-senate-homeland-security-co
 
 カンナは、私がファイルの中で見つけた、懸念を表明した唯一の民主党関係者でした。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/30.png)
+![](/images/wp/wp-content/uploads/2023/02/30.png)
 
 画像抽出：  
   
@@ -321,7 +321,7 @@ Sent from my iPhone
 
 ガッデはすぐに返信し、急いでツイッターのポリシーについて話しましたが、カンナが権利章典についてもっと心配していることに気がついていません。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/31.png)
+![](/images/wp/wp-content/uploads/2023/02/31.png)
 
 カンナ議員、ご連絡ありがとうございます。   
   
@@ -337,7 +337,7 @@ Sent from my iPhone
 
 カンナは話を憲法修正第1条に振り向けようとするが、この件についての言及はファイルでは、なかなか見つけにくいです。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/32.png)
+![](/images/wp/wp-content/uploads/2023/02/32.png)
 
 ヴィジャヤさんが、お元気であることを望みます。   
   
@@ -369,7 +369,7 @@ Sent from my iPhone
 
 この調査会社は、下院司法委員会からジュディ・チュー議員の事務所まで、下院議員9人、民主党議員3人の計12人の議員を対象に、すでに世論調査を行っていたのです。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/33.png)
+![](/images/wp/wp-content/uploads/2023/02/33.png)
 
 バイデン＆"言論統制 "についてのヒル・コンボスのまとめ   
   
@@ -383,7 +383,7 @@ Sent from my iPhone
 
 ビッグテックが「自分たちで規制もできないほど大きくなったので、政府が介入する必要があるのかもしれない」と不満を述べています。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/34.png)
+![](/images/wp/wp-content/uploads/2023/02/34.png)
 
 共和党員は皆、「これは転換点だ。ひどすぎる」と言いました。  
   
@@ -391,7 +391,7 @@ Sent from my iPhone
 
 サボはツイッターに、一部のヒル関係者がラップトップの話を「技術者のアクセスに関してのハリウッド的な瞬間」と特徴づけていると報告しています。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/35.png)
+![](/images/wp/wp-content/uploads/2023/02/35.png)
 
 > この状況がどれほどひどいものかを尋ねられたとき、あるスタッフはこう言いました。   
 >   
@@ -411,7 +411,7 @@ Sent from my iPhone
 
 彼らは「もっと」節度を求めており、権利章典に関しては「絶対的なものではない」のです。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/36.png)
+![](/images/wp/wp-content/uploads/2023/02/36.png)
 
 > 一方、民主党は、「企業が無能だ」と文句を言いました。   
 >   

@@ -18,7 +18,7 @@ tags:
   - "ドラッグ体験"
   - "私小説"
 images:
-  - "https://qryptraveller.com/wp-content/uploads/2022/02/guevara.jpeg"
+  - "/images/wp/wp-content/uploads/2022/02/guevara.jpeg"
 excerpt: "1998年12月4日、満月の日——ついにゴアのパーティーシーズンが幕を開ける。管理されたバーのパーティーではない、本物のフルムーンパーティー。アムステルダムから密輸されたての新鮮なLSD『ゲバラ』を手に入れる。チェ・ゲバラの肖像が描かれたその一片を通じて、大きな意識革命を経験することになる。"
 flags: ""
 ---
@@ -116,7 +116,7 @@ LSDは基本的にはLSD25という、LSDを生成する実験を始めてから
 
 紙切れにはキューバ革命を導いたチェ・ゲバラの肖像画が描かれている。
 
-![](https://qryptraveller.com/wp-content/uploads/2022/02/guevara.jpeg)
+![](/images/wp/wp-content/uploads/2022/02/guevara.jpeg)
 
 この後何年も経ってから、この絵には重要な意味があったことに気づいたが、当時は全く意識していなかった。
 

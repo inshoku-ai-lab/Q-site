@@ -19,7 +19,7 @@ tags:
   - "予言"
   - "暗号デコード"
 images:
-  - "https://qryptraveller.com/wp-content/uploads/2023/10/916.png"
+  - "/images/wp/wp-content/uploads/2023/10/916.png"
 excerpt: "Qは二〇一八年五月、アワン氏についての質問への回答で「私たちはイスラエルを最後まで取っておく。今まで一度も言及されたことのない具体的な理由のせいだ」と述べた——その「最後」の意味を、DSの大掃除説と大衆覚醒の暴露説の両面で考察し、ひと月前の「シートベルトを締めて」警告とイスラエル戦争開始の符合から読み解く。"
 flags: ""
 ---
@@ -36,7 +36,7 @@ flags: ""
 
 今回取り上げるのは、[こちらのQの投稿](https://operationq.pub/?n=916)です。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/10/916.png)
+![](/images/wp/wp-content/uploads/2023/10/916.png)
 
 この投稿は、アノンの一人が、「アワンはどうだ。イスラエルは関与しているのか？」とQに質問したことに対しての回答です。
 

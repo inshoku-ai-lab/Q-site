@@ -22,14 +22,14 @@ tags:
   - "利益相反"
   - "選挙設備"
 images:
-  - "https://qryptraveller.com/wp-content/uploads/2022/05/3.png"
-  - "https://qryptraveller.com/wp-content/uploads/2022/05/4.png"
-  - "https://qryptraveller.com/wp-content/uploads/2022/05/5.png"
-  - "https://qryptraveller.com/wp-content/uploads/2022/05/6.png"
-  - "https://qryptraveller.com/wp-content/uploads/2022/05/7.png"
-  - "https://qryptraveller.com/wp-content/uploads/2022/05/8.png"
-  - "https://qryptraveller.com/wp-content/uploads/2022/05/１.png"
-  - "https://qryptraveller.com/wp-content/uploads/2022/05/２.png"
+  - "/images/wp/wp-content/uploads/2022/05/3.png"
+  - "/images/wp/wp-content/uploads/2022/05/4.png"
+  - "/images/wp/wp-content/uploads/2022/05/5.png"
+  - "/images/wp/wp-content/uploads/2022/05/6.png"
+  - "/images/wp/wp-content/uploads/2022/05/7.png"
+  - "/images/wp/wp-content/uploads/2022/05/8.png"
+  - "/images/wp/wp-content/uploads/2022/05/１.png"
+  - "/images/wp/wp-content/uploads/2022/05/２.png"
 excerpt: "EI-ISACとは選挙保護に関する情報・リソースを提供する組織——だが米国の選挙を実質管理する民間企業（ドミニオン社・スマートマティック社など）が会員となる選挙設備下位部門政府調整会議（EISCC）は、金銭的利害による利益相反があると政府も認知している。にも関わらず監視なしの運営を許され、会員企業は権利放棄書への署名と引き換えに法的責任を免除される。"
 flags: ""
 ---
@@ -72,19 +72,19 @@ flags: ""
 
 （ここから権限委譲理論パート５の内容を引用）
 
-![](https://qryptraveller.com/wp-content/uploads/2022/05/１.png)
+![](/images/wp/wp-content/uploads/2022/05/１.png)
 
-![](https://qryptraveller.com/wp-content/uploads/2022/05/２.png)![](https://qryptraveller.com/wp-content/uploads/2022/05/3.png)
+![](/images/wp/wp-content/uploads/2022/05/２.png)![](/images/wp/wp-content/uploads/2022/05/3.png)
 
-![](https://qryptraveller.com/wp-content/uploads/2022/05/4.png)
+![](/images/wp/wp-content/uploads/2022/05/4.png)
 
-![](https://qryptraveller.com/wp-content/uploads/2022/05/5.png)
+![](/images/wp/wp-content/uploads/2022/05/5.png)
 
-![](https://qryptraveller.com/wp-content/uploads/2022/05/6.png)
+![](/images/wp/wp-content/uploads/2022/05/6.png)
 
-![](https://qryptraveller.com/wp-content/uploads/2022/05/7.png)
+![](/images/wp/wp-content/uploads/2022/05/7.png)
 
-![](https://qryptraveller.com/wp-content/uploads/2022/05/8.png)
+![](/images/wp/wp-content/uploads/2022/05/8.png)
 
 この記事の続きはこちらになります。
 

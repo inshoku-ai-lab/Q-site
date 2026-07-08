@@ -22,7 +22,7 @@ tags:
   - "パーキンス・コーイ"
   - "内部リーク"
 images:
-  - "https://qryptraveller.com/wp-content/uploads/2022/05/1.webp"
+  - "/images/wp/wp-content/uploads/2022/05/1.webp"
 excerpt: "DNCデータをダウンロードしたのは、元DNCコンピューター投票専門家のセス・リッチ氏である可能性が高い——彼はデータダウンロードから五日後、ロシア人ハッキング報告の五日前に殺害された。金銭目的ではなかった。アサンジは情報懸賞金をかけ、殺害の証拠をFBIに提出したのは事件に深く関わるパーキンス・コーイ法律事務所だった。"
 flags: ""
 ---
@@ -85,7 +85,7 @@ flags: ""
 
 パーキンス・コーイ法律事務所に他なりません。
 
-![](https://qryptraveller.com/wp-content/uploads/2022/05/1.webp)
+![](/images/wp/wp-content/uploads/2022/05/1.webp)
 
 > 送信：2018年6月26日（火）10:24 AM
 >

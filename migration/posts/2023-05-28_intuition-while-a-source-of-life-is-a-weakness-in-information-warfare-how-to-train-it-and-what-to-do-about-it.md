@@ -17,14 +17,14 @@ tags:
   - "スピリチュアル"
   - "ヒーリング"
 images:
-  - "https://qryptraveller.com/wp-content/uploads/2023/05/choice.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/05/compas.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/05/distrust.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/05/trade.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/05/trap.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/05/travel.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/05/trust.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/05/universe-flow.jpg"
+  - "/images/wp/wp-content/uploads/2023/05/choice.jpg"
+  - "/images/wp/wp-content/uploads/2023/05/compas.jpg"
+  - "/images/wp/wp-content/uploads/2023/05/distrust.jpg"
+  - "/images/wp/wp-content/uploads/2023/05/trade.jpg"
+  - "/images/wp/wp-content/uploads/2023/05/trap.jpg"
+  - "/images/wp/wp-content/uploads/2023/05/travel.jpg"
+  - "/images/wp/wp-content/uploads/2023/05/trust.jpg"
+  - "/images/wp/wp-content/uploads/2023/05/universe-flow.jpg"
 excerpt: "これからの時代は直感が物を言う——直感を「宇宙の流れを知覚する第六感」と定義し、誰でも筋肉のように鍛えられると説く。だが直感は情報戦においては大きな弱点になりうる——支配層は人々の直感的反応を利用して罠を仕掛けるからだ。鍛え方と、情報戦における危険な罠の見抜き方と対策を体系化する。"
 flags: ""
 ---
@@ -65,7 +65,7 @@ flags: ""
 
 その流れを知覚する能力が人間に備わっており、それが直感と呼ばれるものです。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/05/universe-flow.jpg)
+![](/images/wp/wp-content/uploads/2023/05/universe-flow.jpg)
 
 それはある種の超能力のようなものでもあり、第六感と呼ばれたりもしますが、本来的に人間に備わっているもので、筋肉などと同様に誰でも鍛える事ができるものです。
 
@@ -87,7 +87,7 @@ flags: ""
 
 僕の旅のスタイルは、「お正月にハワイへ１週間のバカンス」といった感じのものではなくて、「バックパックで担ぐことの出来るもの以外の全所持品を処分して、身一つで海外に出て、その場その場で稼ぎながら無期限に放浪を続ける」というかなり極度な旅バカのやり方です。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/05/travel.jpg)
+![](/images/wp/wp-content/uploads/2023/05/travel.jpg)
 
 全人生が「今ここ」の瞬間と「バックパック」に凝縮されているので、その時々の選択次第でその後の全人生が全く別のものになるといった状況を長年続けてきました。
 
@@ -121,7 +121,7 @@ flags: ""
 
 理性と直感が同じ判断になった時にはそのままでいいのですが、問題は理性的判断と直感的判断が異なる場合です。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/05/choice.jpg)
+![](/images/wp/wp-content/uploads/2023/05/choice.jpg)
 
 そのような場合にはいろいろな方法がありますが、僕が最も直感を鍛えることに繋がると考えている方法は以下の通りです。
 
@@ -143,7 +143,7 @@ flags: ""
 
 これらの直感での最終判断に役立つ指針があるのでご紹介します。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/05/compas.jpg)
+![](/images/wp/wp-content/uploads/2023/05/compas.jpg)
 
 それはその直感の判断の背後にある感情です。
 
@@ -169,7 +169,7 @@ flags: ""
 
 それは宇宙に対する**「大きな意味での信頼」**であり、神、生命に対する信頼でもあります。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/05/trust.jpg)
+![](/images/wp/wp-content/uploads/2023/05/trust.jpg)
 
 だけどそれは「直感の選択が絶対にうまくいくはずだ」といった類の信頼ではありません。
 
@@ -225,7 +225,7 @@ flags: ""
 
 いくら自分の直感に自信があろうと、直感のみでトレードしていては最終的には損失を出してしまいます。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/05/trade.jpg)
+![](/images/wp/wp-content/uploads/2023/05/trade.jpg)
 
 トレードで直感が役に立たない理由の大きな要因はそこに欲と恐怖が絡んでくるからです。
 
@@ -247,7 +247,7 @@ flags: ""
 
 それゆえに直感で信じきってしまうため、その情報が嘘か本当かを検証することができず、支配層に誤誘導されてしまうと言うわけです。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/05/trap.jpg)
+![](/images/wp/wp-content/uploads/2023/05/trap.jpg)
 
 直感を信じることで命が助かった人に対して、意図的に誤誘導するような直感に沿った偽情報の罠を仕掛けて、その上で直感を信じろというメッセージを繰り返し与え続けると、それらの偽情報の罠に気づく事ができません。
 
@@ -303,7 +303,7 @@ flags: ""
 
 そのような欲があると、誰かの主張が正しいかどうかの検証をすっ飛ばして、直感に従いその誰かが間違えていると考えてしまうものです。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/05/distrust.jpg)
+![](/images/wp/wp-content/uploads/2023/05/distrust.jpg)
 
 場合によってはその誰かの主張は単に考え方が違うだけなのに、その人の人格まで疑ってしまうことになるかもしれません。
 

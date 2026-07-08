@@ -20,13 +20,13 @@ tags:
   - "汚染"
   - "真相論"
 images:
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/photo_2023-02-14-21.58.36.jpeg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/スクリーンショット-2023-02-13-21.48.28.png"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/スクリーンショット-2023-02-13-22.31.51.png"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/スクリーンショット-2023-02-13-22.36.02.png"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/スクリーンショット-2023-02-13-22.37.16.png"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/スクリーンショット-2023-02-13-22.59.00.png"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/スクリーンショット-2023-02-14-0.22.28.png"
+  - "/images/wp/wp-content/uploads/2023/02/photo_2023-02-14-21.58.36.jpeg"
+  - "/images/wp/wp-content/uploads/2023/02/スクリーンショット-2023-02-13-21.48.28.png"
+  - "/images/wp/wp-content/uploads/2023/02/スクリーンショット-2023-02-13-22.31.51.png"
+  - "/images/wp/wp-content/uploads/2023/02/スクリーンショット-2023-02-13-22.36.02.png"
+  - "/images/wp/wp-content/uploads/2023/02/スクリーンショット-2023-02-13-22.37.16.png"
+  - "/images/wp/wp-content/uploads/2023/02/スクリーンショット-2023-02-13-22.59.00.png"
+  - "/images/wp/wp-content/uploads/2023/02/スクリーンショット-2023-02-14-0.22.28.png"
 excerpt: "二〇二三年二月三日のオハイオ州イーストパレスタイン列車事故と、二〇二二年公開のNetflix映画『ホワイトノイズ』との奇妙すぎる一致——「オハイオ州で列車事故が爆発、毒物を撒き散らして住民が避難」の設定が完全一致し、撮影の一部が事故現場のすぐ近くで行われていたことを著者がオハイオ州ニュースサイトの動画で裏取りして検証する。"
 flags: ""
 ---
@@ -219,13 +219,13 @@ https://youtu.be/1vqTimt9pQ0
 
 映画の冒頭はハリウッド映画の事故シーンの歴史を話しており、「これらの事故は演出されている」などと言う言葉は意味深なものを感じます。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/photo_2023-02-14-21.58.36.jpeg)
+![](/images/wp/wp-content/uploads/2023/02/photo_2023-02-14-21.58.36.jpeg)
 
 その後には、「事故の暴力性の向こうに無邪気な喜びと楽しみがあるんだ」と言った言葉と共に映画のタイトルが表示されます。
 
 そうして始まる第１章の副題は、「波と放射物」です。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/スクリーンショット-2023-02-13-21.48.28.png)
+![](/images/wp/wp-content/uploads/2023/02/スクリーンショット-2023-02-13-21.48.28.png)
 
 まぁ、映画のコンセプトが事故による毒物の放射なので、当然の成り行きですが、現実の事故とかぶさってくるので、なんとも奇妙な気分になります。
 
@@ -233,25 +233,25 @@ https://youtu.be/1vqTimt9pQ0
 
 [blogcard url="https://xn--rck1ae0dua7lwa.com/blog/2017/11/18/1984-orwell/"]
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/スクリーンショット-2023-02-13-22.31.51.png)
+![](/images/wp/wp-content/uploads/2023/02/スクリーンショット-2023-02-13-22.31.51.png)
 
 だからどうした？と言われればそれまでですが、この映画なにかと怪しいものがそこかしこに漂っています。
 
 主人公とその妻が死を極度に恐れるあまり極端な行動に走ったり、事故を起こしたトラックから漏れ出るガソリンが血のようだったりなどなど。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/スクリーンショット-2023-02-13-22.36.02.png)
+![](/images/wp/wp-content/uploads/2023/02/スクリーンショット-2023-02-13-22.36.02.png)
 
 避難キャンプ場の入り口に悪魔的な象徴が飾られていたり、
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/スクリーンショット-2023-02-13-22.59.00.png)
+![](/images/wp/wp-content/uploads/2023/02/スクリーンショット-2023-02-13-22.59.00.png)
 
 他にもキリスト教系の病院の尼さんのシルエットがツノの生えた悪魔のような形で、全くキリストを信じていなかったり、
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/スクリーンショット-2023-02-14-0.22.28.png)
+![](/images/wp/wp-content/uploads/2023/02/スクリーンショット-2023-02-14-0.22.28.png)
 
 第２章の副題は、空媒毒物事象となっており、これまた現実の事故と被ってくるので、奇妙な気持ちになります。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/スクリーンショット-2023-02-13-22.37.16.png)
+![](/images/wp/wp-content/uploads/2023/02/スクリーンショット-2023-02-13-22.37.16.png)
 
 怪しいところを取り上げていけばキリがないほど、とにかく胡散臭い悪魔的な言葉と不吉な映像が続いていきます。
 

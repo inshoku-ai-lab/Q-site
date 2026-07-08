@@ -19,8 +19,8 @@ tags:
   - "TSUTAYA"
   - "私小説"
 images:
-  - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog28-1.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog28-2.jpg"
+  - "/images/wp/wp-content/uploads/2021/11/Blog28-1.jpg"
+  - "/images/wp/wp-content/uploads/2021/11/Blog28-2.jpg"
 excerpt: "目の前に工場の側壁が迫る6畳一間のワンルームから始まる『自分の城』。狙い撃ちで天王寺の大規模TSUTAYAに直接乗り込んで採用を勝ち取り、貯金50万円を全部『センスを磨くこと』に注ぐと決めた18歳。1玉20円の焼うどんを食べ続け、メールIDは『yakiudon』——ストイックな新生活の幕開け。"
 flags: ""
 ---
@@ -45,7 +45,7 @@ flags: ""
 
 ベランダの先には、目の前の手の届く範囲に工場の側壁があった。
 
-![Blog28-1](https://qryptraveller.com/wp-content/uploads/2021/11/Blog28-1.jpg)
+![Blog28-1](/images/wp/wp-content/uploads/2021/11/Blog28-1.jpg)
 
 『素敵な我が家』というには程遠い環境だが、必要最低限のものが狭いスペースにしっかりと収まり僕のニーズを完璧に満たしていた。
 
@@ -107,7 +107,7 @@ flags: ""
 
 それでも生き急ぎたい気持ちが強く、とことん節約して全てのお金をセンスを磨くことに集中させようと思っていた。
 
-![Blog28-2](https://qryptraveller.com/wp-content/uploads/2021/11/Blog28-2.jpg)
+![Blog28-2](/images/wp/wp-content/uploads/2021/11/Blog28-2.jpg)
 
 それが自分の幸せにとって最も重要なことだと信じきっていた。
 

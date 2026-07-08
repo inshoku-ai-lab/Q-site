@@ -18,8 +18,8 @@ tags:
   - "17歳"
   - "私小説"
 images:
-  - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog16-1.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog16-2.jpg"
+  - "/images/wp/wp-content/uploads/2021/11/Blog16-1.jpg"
+  - "/images/wp/wp-content/uploads/2021/11/Blog16-2.jpg"
 excerpt: "練りに練った決意の手紙——『今までレールの上を走る貨物列車の貨物のような気持ちだった』と17歳の少年は母に伝えた。エホバの証人会衆の長老との面接で初めて『辞めたい』と本音を口にし、12年間の宗教生活の呪縛から自分を解き放った日。"
 flags: ""
 ---
@@ -42,7 +42,7 @@ flags: ""
 
 長年、エホバの証人の教えによる愛の鞭で教育されて来た僕は、親に反抗することに対して反射的な拒絶反応を示していた。
 
-![Blog16-1](https://qryptraveller.com/wp-content/uploads/2021/11/Blog16-1.jpg)
+![Blog16-1](/images/wp/wp-content/uploads/2021/11/Blog16-1.jpg)
 
 だが、ここを乗り越えなければ、暗闇の人生から抜け出すことが出来ず、一生監獄暮らしが続く。
 
@@ -84,7 +84,7 @@ flags: ""
 
 母は、僕が心変わりすることを期待していたと思う。
 
-![Blog16-2](https://qryptraveller.com/wp-content/uploads/2021/11/Blog16-2.jpg)
+![Blog16-2](/images/wp/wp-content/uploads/2021/11/Blog16-2.jpg)
 
 僕はここで生まれて初めて、エホバの証人を続けたく無いと言う本音を言葉に出して伝えた。
 

@@ -17,8 +17,8 @@ tags:
   - "宗教生活"
   - "私小説"
 images:
-  - "https://qryptraveller.com/wp-content/uploads/2021/10/旅行記-004-2-437x400.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2021/10/旅行記004-1.jpg"
+  - "/images/wp/wp-content/uploads/2021/10/旅行記-004-2-437x400.jpg"
+  - "/images/wp/wp-content/uploads/2021/10/旅行記004-1.jpg"
 excerpt: "群れ、会衆、王国会館、注解、賛美の歌——エホバの証人の組織構造と週3回の集会、毎朝3時間の奉仕活動の実態を、未開部族への潜入レポートのように赤裸々に描写。生活時間のすべてが宗教に費やされた12年間の生態誌。"
 flags: ""
 ---
@@ -83,7 +83,7 @@ flags: ""
 
 うちの家は極貧だったので旅行に行くことなどはなかったが、毎週日曜日に集会があるので、週末を楽しむなんて言う感覚が元々存在しなかった。
 
-![朝霧](https://qryptraveller.com/wp-content/uploads/2021/10/旅行記004-1.jpg)
+![朝霧](/images/wp/wp-content/uploads/2021/10/旅行記004-1.jpg)
 
 # 奉仕
 
@@ -115,7 +115,7 @@ flags: ""
 
 結構な修行と言える。
 
-![桟橋](https://qryptraveller.com/wp-content/uploads/2021/10/旅行記-004-2-437x400.jpg)
+![桟橋](/images/wp/wp-content/uploads/2021/10/旅行記-004-2-437x400.jpg)
 
 他にも地域中のエホバの証人が集まる地域大会や国際大会の話、階級制度の話などもあるのだが、キリがないので、ここら辺でエホバの証人の話は終わりにして、次回からは本筋に戻りたいと思う。
 

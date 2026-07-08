@@ -17,39 +17,39 @@ tags:
   - "検閲"
   - "言論統制"
 images:
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/10b.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/11.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/12.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/13.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/14.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/15.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/16.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/17-1.png"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/19.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/20-3.png"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/22-2.png"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/23.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/23b.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/24.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/25-4.png"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/26.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/27-3.png"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/28-3.png"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/28b.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/28c.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/29.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/30.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/31.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/3a.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/3b.png"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/3c.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/4a.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/4b.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/5.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/7.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/7b.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/8.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/9-1.png"
+  - "/images/wp/wp-content/uploads/2023/02/10b.jpg"
+  - "/images/wp/wp-content/uploads/2023/02/11.jpg"
+  - "/images/wp/wp-content/uploads/2023/02/12.jpg"
+  - "/images/wp/wp-content/uploads/2023/02/13.jpg"
+  - "/images/wp/wp-content/uploads/2023/02/14.jpg"
+  - "/images/wp/wp-content/uploads/2023/02/15.jpg"
+  - "/images/wp/wp-content/uploads/2023/02/16.jpg"
+  - "/images/wp/wp-content/uploads/2023/02/17-1.png"
+  - "/images/wp/wp-content/uploads/2023/02/19.jpg"
+  - "/images/wp/wp-content/uploads/2023/02/20-3.png"
+  - "/images/wp/wp-content/uploads/2023/02/22-2.png"
+  - "/images/wp/wp-content/uploads/2023/02/23.jpg"
+  - "/images/wp/wp-content/uploads/2023/02/23b.jpg"
+  - "/images/wp/wp-content/uploads/2023/02/24.jpg"
+  - "/images/wp/wp-content/uploads/2023/02/25-4.png"
+  - "/images/wp/wp-content/uploads/2023/02/26.jpg"
+  - "/images/wp/wp-content/uploads/2023/02/27-3.png"
+  - "/images/wp/wp-content/uploads/2023/02/28-3.png"
+  - "/images/wp/wp-content/uploads/2023/02/28b.jpg"
+  - "/images/wp/wp-content/uploads/2023/02/28c.jpg"
+  - "/images/wp/wp-content/uploads/2023/02/29.jpg"
+  - "/images/wp/wp-content/uploads/2023/02/30.jpg"
+  - "/images/wp/wp-content/uploads/2023/02/31.jpg"
+  - "/images/wp/wp-content/uploads/2023/02/3a.jpg"
+  - "/images/wp/wp-content/uploads/2023/02/3b.png"
+  - "/images/wp/wp-content/uploads/2023/02/3c.jpg"
+  - "/images/wp/wp-content/uploads/2023/02/4a.jpg"
+  - "/images/wp/wp-content/uploads/2023/02/4b.jpg"
+  - "/images/wp/wp-content/uploads/2023/02/5.jpg"
+  - "/images/wp/wp-content/uploads/2023/02/7.jpg"
+  - "/images/wp/wp-content/uploads/2023/02/7b.jpg"
+  - "/images/wp/wp-content/uploads/2023/02/8.jpg"
+  - "/images/wp/wp-content/uploads/2023/02/9-1.png"
 excerpt: "ツイッターファイル第一一弾「ツイッターは如何にして諜報機関を受け入れたのか？」。ロシア干渉を疑われ調査するも証拠が出ない→だからこそ「ツイッターはロシア証拠を消した」と諜報機関委員会から悪評を立てられる→広告ポリシー変更を強いられる——巧妙な追い込みで諜報機関の言いなりとなる裏表構造が完成する過程を、内部文書で描く。"
 flags: ""
 ---
@@ -104,7 +104,7 @@ https://twitter.com/mtaibbi/status/1610372352872783872?ref\_src=twsrc%5Etfw%7Ctw
 
 「FBは数百のアカウントに、我々は〜25のアカウントにアクションを起こすかもしれない。」
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/3a.jpg)
+![](/images/wp/wp-content/uploads/2023/02/3a.jpg)
 
 > この取り組みでFBと一緒に、我々はそれを行うことができます。   
 >   
@@ -114,7 +114,7 @@ https://twitter.com/mtaibbi/status/1610372352872783872?ref\_src=twsrc%5Etfw%7Ctw
 >   
 > より詳細については、ヨエルを追加することができます。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/3b.png)
+![](/images/wp/wp-content/uploads/2023/02/3b.png)
 
 > コリン・クロウェル   
 >   
@@ -130,7 +130,7 @@ https://twitter.com/mtaibbi/status/1610372352872783872?ref\_src=twsrc%5Etfw%7Ctw
 >   
 > ツイッター株式会社
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/3c.jpg)
+![](/images/wp/wp-content/uploads/2023/02/3c.jpg)
 
 > ビジャヤさん、   
 >   
@@ -146,7 +146,7 @@ https://twitter.com/mtaibbi/status/1610372352872783872?ref\_src=twsrc%5Etfw%7Ctw
 
 ツイッターはロシア問題がないと確信していたので、幹部は最高のPR戦略として、記録には何も書かず、静かにフェイスブックにレポーターを送りつけることに同意しました。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/4a.jpg)
+![](/images/wp/wp-content/uploads/2023/02/4a.jpg)
 
 > 広報ポリシーチームとの話し合いでは、以下の理由から、記録に残るような声明を出すことは推奨していません。  
 >   
@@ -154,7 +154,7 @@ https://twitter.com/mtaibbi/status/1610372352872783872?ref\_src=twsrc%5Etfw%7Ctw
 >   
 > 2) 声明を出すことで、フェイスブックやこの問題に関する彼らの脆弱性、そしてロシアに関する続報に近づくことができます。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/4b.jpg)
+![](/images/wp/wp-content/uploads/2023/02/4b.jpg)
 
 > 我々は広報戦略を練っているところです。   
 >   
@@ -168,7 +168,7 @@ https://twitter.com/mtaibbi/status/1610372352872783872?ref\_src=twsrc%5Etfw%7Ctw
 
 「スポットライトはFBにあります。」と、公共政策副社長コリン・クロウェルは書いています。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/5.jpg)
+![](/images/wp/wp-content/uploads/2023/02/5.jpg)
 
 > コリン・クロウェル   
 >   
@@ -208,13 +208,13 @@ https://twitter.com/mtaibbi/status/1610372352872783872?ref\_src=twsrc%5Etfw%7Ctw
 
 このわずかな結果を受け、情報委員会の民主党委員長であるバージニア州のマーク・ワーナー上院議員は激怒し、直ちに記者会見を開き、ツイッターの報告書を 「あらゆるレベルで率直に不適切」と非難したのです。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/7.jpg)
+![](/images/wp/wp-content/uploads/2023/02/7.jpg)
 
 > ツイッターの米議会調査団への説明、期待外れ   
 >   
 > マーク・ワーナー上院議員
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/7b.jpg)
+![](/images/wp/wp-content/uploads/2023/02/7b.jpg)
 
 > 上院議員、ツイッターを非難：ロシアへの影響力に関するプレゼンテーションは「あらゆるレベルで不十分」だった。
 
@@ -222,7 +222,7 @@ https://twitter.com/mtaibbi/status/1610372352872783872?ref\_src=twsrc%5Etfw%7Ctw
 
 "笑 "と、ショーン・エッジット法務部長は答えました。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/8.jpg)
+![](/images/wp/wp-content/uploads/2023/02/8.jpg)
 
 > コリン・クロウェル   
 >   
@@ -248,7 +248,7 @@ https://twitter.com/mtaibbi/status/1610372352872783872?ref\_src=twsrc%5Etfw%7Ctw
 
 「ワーナーはこの問題をニュースのトップに据え、我々や他の業界に対して、彼らのために素材を作り続けるよう圧力をかけ続ける政治的インセンティブがあります。」
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/9-1.png)
+![](/images/wp/wp-content/uploads/2023/02/9-1.png)
 
 > コリン・クロウェル   
 >   
@@ -290,7 +290,7 @@ https://twitter.com/mtaibbi/status/1610372352872783872?ref\_src=twsrc%5Etfw%7Ctw
 
 「ツイッターはそろそろ足を引っ張るのをやめて、そのプラットフォームがサイバー戦争の道具として使われているという事実を受け入れるべきです。」
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/10b.jpg)
+![](/images/wp/wp-content/uploads/2023/02/10b.jpg)
 
 > ヒラリー・クリントンが、フェイスブック、ツイッター、グーグルがロシアの工作員の活動を可能にしていると非難している。
 
@@ -298,7 +298,7 @@ https://twitter.com/mtaibbi/status/1610372352872783872?ref\_src=twsrc%5Etfw%7Ctw
 
 PR問題への不安が高まる中、ツイッターは「ロシア・タスクフォース」を結成し、積極的な自己調査を行いました。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/11.jpg)
+![](/images/wp/wp-content/uploads/2023/02/11.jpg)
 
 > カルロス・モンジェ   
 >   
@@ -322,7 +322,7 @@ PR問題への不安が高まる中、ツイッターは「ロシア・タスク
 
 しかし、ロシアの背信行為を探すのは不発に終わりました。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/12.jpg)
+![](/images/wp/wp-content/uploads/2023/02/12.jpg)
 
 > 2017年10月11日（水）   
 >   
@@ -342,7 +342,7 @@ PR問題への不安が高まる中、ツイッターは「ロシア・タスク
 
 2017年10月13日 「協調的なアプローチの証拠はなく、発見されたアカウントはすべて一匹狼タイプの活動（異なるタイミング、支出、ターゲット、広告費10kドル未満）のようです。」
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/13.jpg)
+![](/images/wp/wp-content/uploads/2023/02/13.jpg)
 
 > 10月13日（金）   
 >   
@@ -360,7 +360,7 @@ PR問題への不安が高まる中、ツイッターは「ロシア・タスク
 
 2017年OCT18日、「ロシア調査の第一ラウンド...15個の高リスクアカウント、うち3個はロシアとのつながりあり、ただし2個はRT」
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/14.jpg)
+![](/images/wp/wp-content/uploads/2023/02/14.jpg)
 
 > 10月18日（水）   
 >   
@@ -382,7 +382,7 @@ PR問題への不安が高まる中、ツイッターは「ロシア・タスク
 
 少額の出費で20件くらいまでが見つかると予想しています。」
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/15.jpg)
+![](/images/wp/wp-content/uploads/2023/02/15.jpg)
 
 > 実行状況の更新   
 >   
@@ -404,7 +404,7 @@ PR問題への不安が高まる中、ツイッターは「ロシア・タスク
 
 残りの支出は１万ドル以下です。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/16.jpg)
+![](/images/wp/wp-content/uploads/2023/02/16.jpg)
 
 > 10月23日(月) - 14日目   
 >   
@@ -426,7 +426,7 @@ PR問題への不安が高まる中、ツイッターは「ロシア・タスク
 
 ツイッターの検索で「2つだけ」の重要なアカウント、「そのうちの1つはロシア・トゥデイ」を見つけたのは、後に「ロシアの影響力はフェイスブックだけで、1億2600万人に達した」といったパニックの見出しを刺激した同じデータに基づいています。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/17-1.png)
+![](/images/wp/wp-content/uploads/2023/02/17-1.png)
 
 > ロシアの影響力はフェイスブックだけで1億2600万人に達した
 
@@ -434,14 +434,14 @@ PR問題への不安が高まる中、ツイッターは「ロシア・タスク
 
 ワーナーの記者会見後の数週間、諜報機関委員会をソースとするストーリーの奔流がニュースに流れ込み、その一例が10月13日のポリティコ誌による 「ツイッター、ロシア疑惑の重要なデータを削除 」です。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/19.jpg)
+![](/images/wp/wp-content/uploads/2023/02/19.jpg)
 
 > ポリティコ   
 > ツイッター、ロシア疑惑の重要なデータを削除した可能性
 
 ジョンズ・ホプキンス大学教授（諜報機関委員会の「専門家」）のトーマス・リッド氏はポリティコに対し、「ツイッターはFSBの請負業者だったのか...彼らはこれ以上効果的な偽情報プラットフォームを構築できなかったはずだ」と述べました。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/20-3.png)
+![](/images/wp/wp-content/uploads/2023/02/20-3.png)
 
 > ツイッターは、2016年の米国選挙妨害キャンペーンに関与したロシアの情報機関である「FSBの請負業者だったのか？」   
 >   
@@ -453,7 +453,7 @@ PR問題への不安が高まる中、ツイッターは「ロシア・タスク
 
 「やあ、みんな.... 私たちの政治的広告に影響を与える可能性のある法律（または新しいFEC規制）について、今日のワシントンポストからここに書かれていることを意識して伝えています。」 とコリン・クロウェルは書きました。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/22-2.png)
+![](/images/wp/wp-content/uploads/2023/02/22-2.png)
 
 > コリン・クロウェル   
 >   
@@ -481,13 +481,13 @@ PR問題への不安が高まる中、ツイッターは「ロシア・タスク
 
 「削除されたアカウントに関するポリティコの記事に大きな関心」
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/23.jpg)
+![](/images/wp/wp-content/uploads/2023/02/23.jpg)
 
 > CoSとのフレンドリーな会議では、ワーナー上院議員は答えを見つけることに最も焦点を当て、一般的に技術業界や特にツイッターに対して何も持っていないと述べた。   
 >   
 > ワーナー氏は、ハイテク産業が数ヶ月間否定していたように感じ、今は昨年起こったことの重大さを理解しているように感じているとのこと。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/23b.jpg)
+![](/images/wp/wp-content/uploads/2023/02/23b.jpg)
 
 > 諜報機関職員はいくつか言及している。   
 >   
@@ -497,7 +497,7 @@ PR問題への不安が高まる中、ツイッターは「ロシア・タスク
 
 ツイッターは「法制化を望む彼らに協力することを約束した」
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/24.jpg)
+![](/images/wp/wp-content/uploads/2023/02/24.jpg)
 
 > 私たちの仕事の流れを説明したところ、彼らは満足した様子で、来週末に諜報機関のスタッフと一緒に証言のプレビューに来ることを楽しみにしていました。   
 >   
@@ -505,7 +505,7 @@ PR問題への不安が高まる中、ツイッターは「ロシア・タスク
 
 「私たちの広告ポリシーと製品の変更は、議会の監視を予想する努力であることを知って、私は上院議員ワーナー、クロブチャーとマケインが導入する法案の関連ハイライトを共有したいと思いました。」と、ポリシーディレクターのカルロス・モンジェは、直後に書きました。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/25-4.png)
+![](/images/wp/wp-content/uploads/2023/02/25-4.png)
 
 > カルロス・モンジェ   
 >   
@@ -523,7 +523,7 @@ PR問題への不安が高まる中、ツイッターは「ロシア・タスク
 
 ツイッターがワシントンをなだめるために広告ポリシーを変更し、ロシアトゥデイとスプートニクを削除する準備をしていた時でさえ、議会はさらに熱を上げ、2700アカウントのより大規模なベースリストを流出させたました。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/26.jpg)
+![](/images/wp/wp-content/uploads/2023/02/26.jpg)
 
 > From カルロス・モンジェ   
 >   
@@ -537,7 +537,7 @@ PR問題への不安が高まる中、ツイッターは「ロシア・タスク
 
 バズフィードはシェフィールド大学と協力し、ツイッター上で「ロシアに関連するボットアカウントと密接な関係を持つ」「新しいネットワーク」を発見したと主張しました。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/27-3.png)
+![](/images/wp/wp-content/uploads/2023/02/27-3.png)
 
 > ニック・ピッケル（への返信） 英国のバズフィードから下記の依頼がありました。   
 >   
@@ -553,7 +553,7 @@ PR問題への不安が高まる中、ツイッターは「ロシア・タスク
 
 ツイッターは内部的に、バズフィード／シェフィールドの調査結果を支持することを望みませんでした。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/28-3.png)
+![](/images/wp/wp-content/uploads/2023/02/28-3.png)
 
 > ヨエル・ロス   
 >   
@@ -569,7 +569,7 @@ PR問題への不安が高まる中、ツイッターは「ロシア・タスク
 >   
 > そのため、IRAに関連する悪質業者であると確信するまでは、ユーザーのプライバシーを保護するという観点から、審査の過程で見つけたすべてのハンドルネームを公開することはありませんでした。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/28b.jpg)
+![](/images/wp/wp-content/uploads/2023/02/28b.jpg)
 
 > バズフィードの記者たちに、その方法論を尋ねない方がいいと思います。   
 >   
@@ -579,7 +579,7 @@ PR問題への不安が高まる中、ツイッターは「ロシア・タスク
 >   
 > これは、彼ら自身のツールの有効性を疑問視するものです。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/28c.jpg)
+![](/images/wp/wp-content/uploads/2023/02/28c.jpg)
 
 > 同意見です。   
 >   
@@ -591,7 +591,7 @@ PR問題への不安が高まる中、ツイッターは「ロシア・タスク
 
 ツイッターはすぐに、当初は問題ないと上院に伝えていたのと同じアカウントについて謝罪しました。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/29.jpg)
+![](/images/wp/wp-content/uploads/2023/02/29.jpg)
 
 > ヨエル・ロス   
 >   
@@ -615,7 +615,7 @@ PR問題への不安が高まる中、ツイッターは「ロシア・タスク
 
 後で連邦法執行機関との提携で正式になるでしょう。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/30.jpg)
+![](/images/wp/wp-content/uploads/2023/02/30.jpg)
 
 > 皆さん、こんにちは、   
 >   
@@ -635,7 +635,7 @@ PR問題への不安が高まる中、ツイッターは「ロシア・タスク
 
 非公開では、「米国情報機関がサイバー作戦を行う国家支援組織と認定したもの」を「削除」しています。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/31.jpg)
+![](/images/wp/wp-content/uploads/2023/02/31.jpg)
 
 > 外部オフボーディングポリシー：   
 >   
@@ -657,7 +657,7 @@ PR問題への不安が高まる中、ツイッターは「ロシア・タスク
 
 「我々は現状に戻ることはありません。」
 
-https://qryptraveller.com/wp-content/uploads/2023/02/32.jpg
+/images/wp/wp-content/uploads/2023/02/32.jpg
 
 > 全体として、私が感じるのは、この公聴会に向けてワシントンの政治的地勢が変化してきたということです。   
 >   

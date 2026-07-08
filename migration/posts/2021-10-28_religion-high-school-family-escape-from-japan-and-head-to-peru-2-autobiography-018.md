@@ -18,8 +18,8 @@ tags:
   - "エホバの証人"
   - "私小説"
 images:
-  - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog18-1.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog18-2.jpg"
+  - "/images/wp/wp-content/uploads/2021/11/Blog18-1.jpg"
+  - "/images/wp/wp-content/uploads/2021/11/Blog18-2.jpg"
 excerpt: "ペルー人と結婚した姉の婚前交渉を防ぐ『監視役』として母に送り込まれた17歳の少年。本も2冊、ノート1冊だけをバックパックに詰め、関空からロサンジェルス、マイアミを経てリマへ——人生初の海外、初めての飛行機。死ぬ覚悟で旅立った無感情の少年の旅の出発点。"
 flags: ""
 ---
@@ -50,7 +50,7 @@ flags: ""
 
 だが、状況的に姉は一人でペルーに行かなくてはならず、結婚前の旦那と時間を過ごすことになれば、婚前交渉（結婚前のセックス）をしてしまう恐れがある。
 
-![Blog18-1](https://qryptraveller.com/wp-content/uploads/2021/11/Blog18-1.jpg)
+![Blog18-1](/images/wp/wp-content/uploads/2021/11/Blog18-1.jpg)
 
 それが起こらないようにと母は、僕を監視役として送り出したというのだ。
 
@@ -98,7 +98,7 @@ flags: ""
 
 ここでも感情が死んでいるのが役に立ったのかして、恐れることなく淡々とできることをこなして行く。
 
-![Blog18-2](https://qryptraveller.com/wp-content/uploads/2021/11/Blog18-2.jpg)
+![Blog18-2](/images/wp/wp-content/uploads/2021/11/Blog18-2.jpg)
 
 最初の飛行機は、関西国際空港からロサンジェルスへ向かう。
 

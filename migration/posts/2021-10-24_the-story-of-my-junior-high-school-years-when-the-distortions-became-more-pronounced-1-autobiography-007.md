@@ -17,8 +17,8 @@ tags:
   - "いじめ"
   - "私小説"
 images:
-  - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog7-1-1.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog7-2.jpg"
+  - "/images/wp/wp-content/uploads/2021/11/Blog7-1-1.jpg"
+  - "/images/wp/wp-content/uploads/2021/11/Blog7-2.jpg"
 excerpt: "テストの解答欄に上からa,b,c,d…と書いてたまたま1点を取った英語の話、神経性の腹痛で学校を休む癖をつけた話——大学進学が信仰上推奨されていなかった少年が勉強への意味を失い、病気を防御手段にして生きた中学生時代の記録。"
 flags: ""
 ---
@@ -75,7 +75,7 @@ flags: ""
 
 実際に怪我をするような暴力的ないじめや、お金を巻き上げられるとかでは無く、陰湿なパワハラのようなイジメだった。
 
-![Blog7-1](https://qryptraveller.com/wp-content/uploads/2021/11/Blog7-1-1.jpg)
+![Blog7-1](/images/wp/wp-content/uploads/2021/11/Blog7-1-1.jpg)
 
 親や先生に相談すれば良かったのかもしれないが、心を閉ざしていた僕は人に何かを相談すると言う考えなど思い浮かばなかった。
 
@@ -91,7 +91,7 @@ flags: ""
 
 更には都合よく微熱なども出るようになったりして、病気が僕の防御手段になって行った。
 
-![Blog7-2](https://qryptraveller.com/wp-content/uploads/2021/11/Blog7-2.jpg)
+![Blog7-2](/images/wp/wp-content/uploads/2021/11/Blog7-2.jpg)
 
 この頃から平均して、週一くらいで学校を休んでいた。
 

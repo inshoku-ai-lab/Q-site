@@ -19,7 +19,7 @@ tags:
   - "グレートリセット"
   - "資産防衛"
 images:
-  - "https://qryptraveller.com/wp-content/uploads/2024/04/nothing.jpeg"
+  - "/images/wp/wp-content/uploads/2024/04/nothing.jpeg"
 excerpt: "トランプ氏勝利で景気上向きと見るか、崩壊間近の前準備と見るか——両建てで資産防衛に臨む著者が、ルーズベルト政権大統領令六一〇二号（金没収）と六八一四号（銀没収）の歴史を踏まえて、預金封鎖と貴金属没収の両方に対応する完璧に近い対応策を提示する。銀購入代行運営者ならではの実践記事。"
 flags: ""
 ---
@@ -190,7 +190,7 @@ https://youtu.be/AMjhC6WY6qs
 
 WEFのスローガンの一つである、「You'll own nothing and you'll be happy」「あなたは何も持たない、そしてあなたは幸せになる。」という言葉がありますが、それは単なる詩的な言葉なのでしょうか？それともそれ以上の意図があるのでしょうか？
 
-![](https://qryptraveller.com/wp-content/uploads/2024/04/nothing.jpeg)
+![](/images/wp/wp-content/uploads/2024/04/nothing.jpeg)
 
 ここでの大事なポイントとして、政府が悪巧みをしていたとしても貴金属没収をするとは限りません。
 

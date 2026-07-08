@@ -21,7 +21,7 @@ tags:
   - "サイバー攻撃"
   - "国家安全保障"
 images:
-  - "https://qryptraveller.com/wp-content/uploads/2022/03/8.jpeg"
+  - "/images/wp/wp-content/uploads/2022/03/8.jpeg"
 excerpt: "大統領の次に機密情報に詳しい国防長官が「中国は国家安全保障の脅威No.1」と題する論説をウォール・ストリート・ジャーナルに寄稿——中国は既に米国のウェブコンテンツを弾圧し、米本土へのサイバー攻撃能力を開発、自国が頂点でない世界秩序を「歴史的異常」とみなす。諜報情報が明確である以上、的確な対応が必要だと国防総省は警告する。"
 flags: ""
 ---
@@ -106,7 +106,7 @@ flags: ""
 
 彼らは自分たちを「ガーディアン/守護者」と呼んでいます。
 
-![](https://qryptraveller.com/wp-content/uploads/2022/03/8.jpeg)
+![](/images/wp/wp-content/uploads/2022/03/8.jpeg)
 
 この記事の続きはこちらになります。
 

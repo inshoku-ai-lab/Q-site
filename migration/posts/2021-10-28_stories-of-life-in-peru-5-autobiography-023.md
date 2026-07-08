@@ -17,8 +17,8 @@ tags:
   - "海外初体験"
   - "私小説"
 images:
-  - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog23-1.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog23-2.jpg"
+  - "/images/wp/wp-content/uploads/2021/11/Blog23-1.jpg"
+  - "/images/wp/wp-content/uploads/2021/11/Blog23-2.jpg"
 excerpt: "曲がりくねる山道で、車酔い・高山病・風邪薬の副作用が同時に襲い、胃液が枯れるまで吐き続けた帰路。空港の医務室でお尻にぶっとい注射を打たれて全症状が一瞬で消えた——2ヶ月のペルー滞在を終え、わずかな自信を得て少年は日本へ帰る。"
 flags: ""
 ---
@@ -67,7 +67,7 @@ flags: ""
 
 バスは、曲がりくねった山道を走り続ける。
 
-![Blog23-1](https://qryptraveller.com/wp-content/uploads/2021/11/Blog23-1.jpg)
+![Blog23-1](/images/wp/wp-content/uploads/2021/11/Blog23-1.jpg)
 
 症状は全く好転せず、気分はどんどんと悪くなり、車酔いと風邪ひきでゲーゲー吐き始めてしまった。
 
@@ -103,7 +103,7 @@ flags: ""
 
 こんな感じでペルーでの初めての海外体験は終わった。
 
-![Blog23-2](https://qryptraveller.com/wp-content/uploads/2021/11/Blog23-2.jpg)
+![Blog23-2](/images/wp/wp-content/uploads/2021/11/Blog23-2.jpg)
 
 二ヶ月ちょっと滞在して、実際にペルーを体験したかと言うと、そうとも言えないと思うし、楽しんだかと聞かれても、うーん、、、としか言いようがないけど、それでも今までとは全く違った生き方をして、違う国での生活を体験したことは、大きな自信になった。
 

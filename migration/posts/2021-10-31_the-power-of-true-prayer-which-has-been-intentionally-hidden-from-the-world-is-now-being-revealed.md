@@ -18,11 +18,11 @@ tags:
   - "トランプ"
   - "DS"
 images:
-  - "https://qryptraveller.com/wp-content/uploads/2021/10/ritual.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2021/10/sadhu-601x400.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2021/10/woman-600x400.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2021/10/wormhole-gd1ef89070_360.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2021/11/meditation-g82eb3fc61_640.jpg"
+  - "/images/wp/wp-content/uploads/2021/10/ritual.jpg"
+  - "/images/wp/wp-content/uploads/2021/10/sadhu-601x400.jpg"
+  - "/images/wp/wp-content/uploads/2021/10/woman-600x400.jpg"
+  - "/images/wp/wp-content/uploads/2021/10/wormhole-gd1ef89070_360.jpg"
+  - "/images/wp/wp-content/uploads/2021/11/meditation-g82eb3fc61_640.jpg"
 excerpt: "「祈り」は胡散臭くダサい——その感覚自体が長年の思考誘導の結果だと著者は説く。世界を支配する悪魔崇拝者たちが秘伝の儀式で力を得ては、人工地震・九一一・ワクチン・人口削減すべてを儀式として呪いに用いてきた歴史を踏まえ、なぜ呪いは効くのか、霊的世界の仕組みと真の祈りの力を解放するための三つの真実を提示する。"
 flags: ""
 ---
@@ -51,7 +51,7 @@ flags: ""
 
 その儀式を暴露した映画に”アイズ・ワイド・シャット”（目を大きく閉じろ）と言うものがあり、それを監督したスタンリー・キューブリック監督はその後に不慮の死を遂げています。
 
-![ritual](https://qryptraveller.com/wp-content/uploads/2021/10/ritual.jpg)
+![ritual](/images/wp/wp-content/uploads/2021/10/ritual.jpg)
 
 なぜ彼らは、儀式に執心しているのか？
 
@@ -91,7 +91,7 @@ flags: ""
 
 中南米のシャーマニズムにおいては主流の考え方であり、スピリチュアリズムなどでも語られることが多々あります。
 
-![wormhole](https://qryptraveller.com/wp-content/uploads/2021/10/wormhole-gd1ef89070_360.jpg)
+![wormhole](/images/wp/wp-content/uploads/2021/10/wormhole-gd1ef89070_360.jpg)
 
 その仕組みというのは、霊的世界という別次元の世界が並行同時的に、僕たちの生きる物質世界とともに被さって存在していると言うこと。
 
@@ -131,7 +131,7 @@ flags: ""
 
 **否、人間の意思の力から現実が生まれてきているという事です。**
 
-![consciousness](https://qryptraveller.com/wp-content/uploads/2021/11/meditation-g82eb3fc61_640.jpg)
+![consciousness](/images/wp/wp-content/uploads/2021/11/meditation-g82eb3fc61_640.jpg)
 
 そして悪魔崇拝者たちは、その真実を巧みに隠した上で使いこなして、人類が自ら望んで奴隷化の道を進むように誘導しています。
 
@@ -185,7 +185,7 @@ flags: ""
 
 だから彼らはあらゆる方法を使って祈りの真の力を隠してきました。
 
-![woman pray](https://qryptraveller.com/wp-content/uploads/2021/10/woman-600x400.jpg)
+![woman pray](/images/wp/wp-content/uploads/2021/10/woman-600x400.jpg)
 
 では、どのようにすれば祈りの真の力を解放することができるのでしょうか？
 
@@ -213,7 +213,7 @@ flags: ""
 
 真実が含まれているからこそ人々を虜にする力があるのです。
 
-![sadhu](https://qryptraveller.com/wp-content/uploads/2021/10/sadhu-601x400.jpg)
+![sadhu](/images/wp/wp-content/uploads/2021/10/sadhu-601x400.jpg)
 
 霊的世界の存在を理解することで、祈りの真の力が解放されていきます。
 

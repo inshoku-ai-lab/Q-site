@@ -17,8 +17,8 @@ tags:
   - "死生観"
   - "私小説"
 images:
-  - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog95-1.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog95-2.jpg"
+  - "/images/wp/wp-content/uploads/2021/11/Blog95-1.jpg"
+  - "/images/wp/wp-content/uploads/2021/11/Blog95-2.jpg"
 excerpt: "バルコニーから見た猿のオス同士の交尾に頭が真っ白に。ガンジス河沿いで人の死体が燃え尽きる最後の姿を目の当たりにし、『死』が見えない恐怖から見えていて怖くない恐怖へと変わる——生がより意味を増した日。ヨガを習いにプーナへ向かうが、9時間待った列車は4時間前に別ホームから発車済みだった。"
 flags: ""
 ---
@@ -67,7 +67,7 @@ flags: ""
 
 なかなか強烈な匂いで、あまり風下には居たくない。
 
-![Blog95-1](https://qryptraveller.com/wp-content/uploads/2021/11/Blog95-1.jpg)
+![Blog95-1](/images/wp/wp-content/uploads/2021/11/Blog95-1.jpg)
 
 火葬台では、積み重ねられた薪が大きな炎を上げている。
 
@@ -111,7 +111,7 @@ flags: ""
 
 だが、待てども待てども列車は来ない。
 
-![Blog95-2](https://qryptraveller.com/wp-content/uploads/2021/11/Blog95-2.jpg)
+![Blog95-2](/images/wp/wp-content/uploads/2021/11/Blog95-2.jpg)
 
 何度か、旅行案内所に問い合わせるが「まだだ」の一点張り。
 

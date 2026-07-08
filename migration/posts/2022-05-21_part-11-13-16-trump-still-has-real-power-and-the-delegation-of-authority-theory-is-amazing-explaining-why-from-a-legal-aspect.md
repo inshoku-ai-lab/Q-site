@@ -22,7 +22,7 @@ tags:
   - "CIS"
   - "ネブラスカ"
 images:
-  - "https://qryptraveller.com/wp-content/uploads/2022/05/１１.webp"
+  - "/images/wp/wp-content/uploads/2022/05/１１.webp"
 excerpt: "全米各地のSLTT組織は、選挙設備保護のためにクラウドストライク社のセキュリティ・サービスを利用している——ネブラスカ州のあるインターネット・セキュリティ法人が米国防省からEI-ISACとして認定され、DHSからSLTTおよび地方選挙関連の重要サイバー・セキュリティ・リソースとして認められる。CISが利用するEDRサービスはクラウドストライク社から提供されていた。"
 flags: ""
 ---
@@ -45,7 +45,7 @@ flags: ""
 
 ここに注目したのは、なかなか[面白い文書](https://www.lancaster.ne.gov/DocumentCenter/View/6207/C-20-0552)を見つけたからです。
 
-![](https://qryptraveller.com/wp-content/uploads/2022/05/１１.webp)
+![](/images/wp/wp-content/uploads/2022/05/１１.webp)
 
 > **インターネットセキュリティセンター**とネブラスカ州ランカスター郡の間の**エンドポイント検出および応答 （EDR）（以下「EDR」と省略）サービス** (連邦資金によるサービス) に関する契約覚書。
 >

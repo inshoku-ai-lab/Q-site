@@ -20,18 +20,18 @@ tags:
   - "情報統制"
   - "奴隷社会"
 images:
-  - "https://qryptraveller.com/wp-content/uploads/2022/12/１.jpeg"
-  - "https://qryptraveller.com/wp-content/uploads/2022/12/１１.jpeg"
-  - "https://qryptraveller.com/wp-content/uploads/2022/12/１３.jpeg"
-  - "https://qryptraveller.com/wp-content/uploads/2022/12/１４.jpeg"
-  - "https://qryptraveller.com/wp-content/uploads/2022/12/２.jpeg"
-  - "https://qryptraveller.com/wp-content/uploads/2022/12/３.jpeg"
-  - "https://qryptraveller.com/wp-content/uploads/2022/12/４.jpeg"
-  - "https://qryptraveller.com/wp-content/uploads/2022/12/５.jpeg"
-  - "https://qryptraveller.com/wp-content/uploads/2022/12/６.jpeg"
-  - "https://qryptraveller.com/wp-content/uploads/2022/12/７.jpeg"
-  - "https://qryptraveller.com/wp-content/uploads/2022/12/８.jpeg"
-  - "https://qryptraveller.com/wp-content/uploads/2022/12/９.jpeg"
+  - "/images/wp/wp-content/uploads/2022/12/１.jpeg"
+  - "/images/wp/wp-content/uploads/2022/12/１１.jpeg"
+  - "/images/wp/wp-content/uploads/2022/12/１３.jpeg"
+  - "/images/wp/wp-content/uploads/2022/12/１４.jpeg"
+  - "/images/wp/wp-content/uploads/2022/12/２.jpeg"
+  - "/images/wp/wp-content/uploads/2022/12/３.jpeg"
+  - "/images/wp/wp-content/uploads/2022/12/４.jpeg"
+  - "/images/wp/wp-content/uploads/2022/12/５.jpeg"
+  - "/images/wp/wp-content/uploads/2022/12/６.jpeg"
+  - "/images/wp/wp-content/uploads/2022/12/７.jpeg"
+  - "/images/wp/wp-content/uploads/2022/12/８.jpeg"
+  - "/images/wp/wp-content/uploads/2022/12/９.jpeg"
 excerpt: "マイナンバーカードのヤバさを、らんさんのスレッドを書き起こしてまとめた記事。マイナポータルという紐付けサイトの【ツール】に過ぎず、所有＝利用申込書に等しい——契約書ではないため利用規約は国が国会承認なしで自由に変更でき、利用者にあらゆるリスクが押し付けられる仕組みを法的観点から徹底解説。"
 flags: ""
 ---
@@ -118,7 +118,7 @@ https://twitter.com/ranranran\_ran/status/1582572382228992000?s=20&t=AK7hDcpnYBf
 
 で…添付画像を見て欲しい。
 
-![](https://qryptraveller.com/wp-content/uploads/2022/12/１.jpeg)
+![](/images/wp/wp-content/uploads/2022/12/１.jpeg)
 
 これはマイナポータルの【利用規約】の序文。
 
@@ -138,7 +138,7 @@ https://twitter.com/ranranran\_ran/status/1582572382228992000?s=20&t=AK7hDcpnYBf
 
 第３条
 
-![](https://qryptraveller.com/wp-content/uploads/2022/12/２.jpeg)
+![](/images/wp/wp-content/uploads/2022/12/２.jpeg)
 
 笑ってしまうが【国民】とは書かずに【システム利用者の責任】とある。
 
@@ -158,7 +158,7 @@ https://twitter.com/ranranran\_ran/status/1582572382228992000?s=20&t=AK7hDcpnYBf
 
 第４条
 
-![](https://qryptraveller.com/wp-content/uploads/2022/12/３.jpeg)
+![](/images/wp/wp-content/uploads/2022/12/３.jpeg)
 
 マイナポータル利用者（＝マイナンバーカード申込者）は。
 
@@ -260,23 +260,23 @@ https://twitter.com/ranranran\_ran/status/1582572382228992000?s=20&t=AK7hDcpnYBf
 
 ５条の後半〜８条
 
-![](https://qryptraveller.com/wp-content/uploads/2022/12/４.jpeg)
+![](/images/wp/wp-content/uploads/2022/12/４.jpeg)
 
-![](https://qryptraveller.com/wp-content/uploads/2022/12/６.jpeg)
+![](/images/wp/wp-content/uploads/2022/12/６.jpeg)
 
-![](https://qryptraveller.com/wp-content/uploads/2022/12/５.jpeg)
+![](/images/wp/wp-content/uploads/2022/12/５.jpeg)
 
-![](https://qryptraveller.com/wp-content/uploads/2022/12/７.jpeg)
+![](/images/wp/wp-content/uploads/2022/12/７.jpeg)
 
 ９〜１０条
 
-![](https://qryptraveller.com/wp-content/uploads/2022/12/８.jpeg)
+![](/images/wp/wp-content/uploads/2022/12/８.jpeg)
 
-![](https://qryptraveller.com/wp-content/uploads/2022/12/９.jpeg)
+![](/images/wp/wp-content/uploads/2022/12/９.jpeg)
 
 では１１条を見てみよう。
 
-![](https://qryptraveller.com/wp-content/uploads/2022/12/１１.jpeg)
+![](/images/wp/wp-content/uploads/2022/12/１１.jpeg)
 
 ◉（電子申請に当たり）システム利用者が申請先の行政機関の長に同意する事項。
 
@@ -320,7 +320,7 @@ https://twitter.com/ranranran\_ran/status/1582572382228992000?s=20&t=AK7hDcpnYBf
 
 第２３条
 
-![](https://qryptraveller.com/wp-content/uploads/2022/12/１３.jpeg)
+![](/images/wp/wp-content/uploads/2022/12/１３.jpeg)
 
 汎ゆる責任を。
 
@@ -336,7 +336,7 @@ https://twitter.com/ranranran\_ran/status/1582572382228992000?s=20&t=AK7hDcpnYBf
 
 ２４条には誰もが凍りつくでしょう。
 
-![](https://qryptraveller.com/wp-content/uploads/2022/12/１４.jpeg)
+![](/images/wp/wp-content/uploads/2022/12/１４.jpeg)
 
 ◉利用規約の改正
 

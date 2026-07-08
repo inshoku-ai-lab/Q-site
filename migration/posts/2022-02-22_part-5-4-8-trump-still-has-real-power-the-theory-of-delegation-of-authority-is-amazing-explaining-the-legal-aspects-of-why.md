@@ -23,7 +23,7 @@ tags:
   - "権限委譲理論"
   - "理論"
 images:
-  - "https://qryptraveller.com/wp-content/uploads/2022/02/d5_13_b.png"
+  - "/images/wp/wp-content/uploads/2022/02/d5_13_b.png"
 excerpt: "政府機関DHSと連携するEISCCは、民間が支配するCIPACの枠組みで運営される——その根拠が国土安全保障法第八七一条だ。国土安全保障長官はこの条文で、諮問委員会の設立・運営を律する公法九二‐四六三の適用を免除でき、その通知は公に提出され二年ごとに更新されている。"
 flags: ""
 ---
@@ -66,7 +66,7 @@ flags: ""
 
 つまり、重要設備提携諮問委員会（CIPAC）の枠組みで運営されていることがわかっている選挙設備下位部門政府調整会議（EISCC）は、公法92-463（以下のスクリーンショット）の対象外であり、この法律は「諮問委員会の設立と運営を管理するシステム」を定めています。
 
-![](https://qryptraveller.com/wp-content/uploads/2022/02/d5_13_b.png)
+![](/images/wp/wp-content/uploads/2022/02/d5_13_b.png)
 > 公法92-463
 >
 > AN ACT

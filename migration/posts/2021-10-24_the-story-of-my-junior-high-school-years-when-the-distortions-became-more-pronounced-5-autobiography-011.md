@@ -16,8 +16,8 @@ tags:
   - "中学生"
   - "私小説"
 images:
-  - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog11-1.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog11-2.jpg"
+  - "/images/wp/wp-content/uploads/2021/11/Blog11-1.jpg"
+  - "/images/wp/wp-content/uploads/2021/11/Blog11-2.jpg"
 excerpt: "近所のエホバの証人の家庭で育った同年代の反逆児3人組——表向きは集会で賛美歌を歌い、裏では小遣いをかけてトランプ・モノポリーで賭博。隠したい真実を共有する『刑務所仲間』のような友情の記録。"
 flags: ""
 ---
@@ -48,7 +48,7 @@ flags: ""
 
 図書館でトランプゲームの本を借りて来て、あらゆるトランプゲームを遊び、常にお金を賭け続けていた。
 
-![Blog11-1](https://qryptraveller.com/wp-content/uploads/2021/11/Blog11-1.jpg)
+![Blog11-1](/images/wp/wp-content/uploads/2021/11/Blog11-1.jpg)
 
 僕たちのギャンブルは、お金を稼ぐためではなく、ゲームの真剣さを増すためにお金を賭けていた。
 
@@ -88,7 +88,7 @@ flags: ""
 
 正確にいうと、エホバの証人としての表の顔と、反逆児の裏の顔と、学校社会での顔の三面性だった。
 
-![Blog11-2](https://qryptraveller.com/wp-content/uploads/2021/11/Blog11-2.jpg)
+![Blog11-2](/images/wp/wp-content/uploads/2021/11/Blog11-2.jpg)
 
 一緒に帰宅する仲間だったのに、学校社会では一定の距離を置いていた。
 

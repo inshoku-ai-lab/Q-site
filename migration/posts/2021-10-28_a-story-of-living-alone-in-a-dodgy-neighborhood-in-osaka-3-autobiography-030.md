@@ -19,8 +19,8 @@ tags:
   - "音楽"
   - "私小説"
 images:
-  - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog30-1.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog30-2.jpg"
+  - "/images/wp/wp-content/uploads/2021/11/Blog30-1.jpg"
+  - "/images/wp/wp-content/uploads/2021/11/Blog30-2.jpg"
 excerpt: "近鉄阿倍野の大型TSUTAYAの深夜シフトに集まる、映画オタクと音楽オタクたち。自称『文化貴族』の26歳Nさんを筆頭とするカリスマたちが、皆のマック購入から東南アジア放浪までを牽引していく——同じ興味を持つ仲間に初めて出会った、文化的覚醒の日々。"
 flags: ""
 ---
@@ -53,7 +53,7 @@ flags: ""
 
 主に３つの派閥があり健全で爽やかな昼間シフトの人たち、おしゃれな遊び人の夕方シフトの人たち、映画オタクや音楽オタクの集まる深夜シフトの僕たちだった。
 
-![Blog30-1](https://qryptraveller.com/wp-content/uploads/2021/11/Blog30-1.jpg)
+![Blog30-1](/images/wp/wp-content/uploads/2021/11/Blog30-1.jpg)
 
 半分以上のバイトの人が僕と同じような目的で働きに来ており、映画や音楽のマニアや芸術関係の活動をしている人が多く、似たような興味を持つ人が集まってくるハブスポットの一つになっていた。
 
@@ -97,7 +97,7 @@ Mさんは、映像作家を目指す２２歳。
 
 映画に関してはNさんに一歩譲るものの、音楽やその他の文化全般に詳しく、深夜バイトの『カリスマ２大巨頭』だった。
 
-![Blog30-2](https://qryptraveller.com/wp-content/uploads/2021/11/Blog30-2.jpg)
+![Blog30-2](/images/wp/wp-content/uploads/2021/11/Blog30-2.jpg)
 
 MさんとNさんは二人で店舗内の映画紹介コーナーを運営しており、全バイト内で強い発言権を持っていた。
 

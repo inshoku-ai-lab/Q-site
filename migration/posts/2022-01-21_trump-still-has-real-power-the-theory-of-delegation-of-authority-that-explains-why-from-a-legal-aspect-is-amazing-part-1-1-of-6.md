@@ -23,8 +23,8 @@ tags:
   - "不正選挙"
   - "情報戦争"
 images:
-  - "https://qryptraveller.com/wp-content/uploads/2022/01/donation1-970x800.png"
-  - "https://qryptraveller.com/wp-content/uploads/2022/01/subscribe1.png"
+  - "/images/wp/wp-content/uploads/2022/01/donation1-970x800.png"
+  - "/images/wp/wp-content/uploads/2022/01/subscribe1.png"
 excerpt: "権限委譲理論（Devolution Theory）翻訳シリーズの開幕。法律の側面と公式発表のみから理論を組み立てる——匿名関係者談や自称専門家の推測を一切含まず、大統領令・米軍の動き・公的記事のみを根拠とする。Qやアノンの言うことと内容は似るが、権威ある存在の言葉しか信用しない人にも直接響く構造を持つ、と筆者パテル・パトリオット氏の作品を紹介。"
 flags: ""
 ---
@@ -71,11 +71,11 @@ flags: ""
 
 下のような画面が現れるので、Eメールアドレスを登録して下さい
 
-![subscribe](https://qryptraveller.com/wp-content/uploads/2022/01/subscribe1.png)
+![subscribe](/images/wp/wp-content/uploads/2022/01/subscribe1.png)
 
 メールを登録すると、下の写真のような画面になるので、お望みの金額とクレジットカード番号を入力してSubscribeをクリックすれば完了です。
 
-![](https://qryptraveller.com/wp-content/uploads/2022/01/donation1-970x800.png)
+![](/images/wp/wp-content/uploads/2022/01/donation1-970x800.png)
 
 非常に簡単なので、ぜひ寄付して応援してあげて下さい。
 

@@ -17,8 +17,8 @@ tags:
   - "お笑い"
   - "私小説"
 images:
-  - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog10-1-1.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog10-2-1.jpg"
+  - "/images/wp/wp-content/uploads/2021/11/Blog10-1-1.jpg"
+  - "/images/wp/wp-content/uploads/2021/11/Blog10-2-1.jpg"
 excerpt: "姉がチリへの宣教を口実に親元から脱出。残された自分は深夜番組『2丁目ワチャチャTV』で千原兄弟やケンコバの笑いに度肝を抜かれる——抑圧された少年が初めて『情熱』を覚え、自我が芽生え始めた中学三年生の秋。"
 flags: ""
 ---
@@ -53,7 +53,7 @@ flags: ""
 
 同じ頃に我が家に、新しい大きめのテレビがやって来たので、今まで使っていた１４インチの小さなテレビを僕の部屋にくれる事になった。
 
-![Blog10-1](https://qryptraveller.com/wp-content/uploads/2021/11/Blog10-1-1.jpg)
+![Blog10-1](/images/wp/wp-content/uploads/2021/11/Blog10-1-1.jpg)
 
 独立した部屋を持った中学生男子の僕は、同級生の間で話題になっていた、土曜日の夜中にやっているエッチな深夜番組を見るようになった。
 
@@ -97,7 +97,7 @@ flags: ""
 
 元から頭が良く、頭を使うことが好きだったので、パズルやなぞなぞを解くような感覚で勉強を楽しむようになって行った。
 
-![Blog10-2](https://qryptraveller.com/wp-content/uploads/2021/11/Blog10-2-1.jpg)
+![Blog10-2](/images/wp/wp-content/uploads/2021/11/Blog10-2-1.jpg)
 
 何ヶ月か勉強した後に、テストの日がやってきた。
 

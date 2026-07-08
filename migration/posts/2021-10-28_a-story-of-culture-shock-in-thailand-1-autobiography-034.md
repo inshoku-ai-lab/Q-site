@@ -18,8 +18,8 @@ tags:
   - "18歳"
   - "私小説"
 images:
-  - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog34-1.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog34-2.jpg"
+  - "/images/wp/wp-content/uploads/2021/11/Blog34-1.jpg"
+  - "/images/wp/wp-content/uploads/2021/11/Blog34-2.jpg"
 excerpt: "深夜番組『電波少年』の『猿岩石』ユーラシア横断ヒッチハイクに釘付けになり、20年以上続く旅の原点を植え付けられた18歳。TSUTAYAのバイト仲間で広がっていた東南アジアバックパッカー・ブームの波に乗り、テクノ友達A君と3週間のタイ旅行を決意——人生初の能動的な海外冒険の幕開け。"
 flags: ""
 ---
@@ -48,7 +48,7 @@ flags: ""
 
 ２０年以上も旅しているので、何か神秘的な理由やきっかけになるような大事件が欲しいところだが、実質的に僕が受け取った最も大きな旅のインスピレーションは『猿岩石』だった。
 
-![Blog34-1](https://qryptraveller.com/wp-content/uploads/2021/11/Blog34-1.jpg)
+![Blog34-1](/images/wp/wp-content/uploads/2021/11/Blog34-1.jpg)
 
 そのインスピレーションから、たった数ヶ月後に自分が実際にバックパック旅行をするなんて夢にも思っていなかったが、番組から受け取った感動は僕の魂を揺さぶり放浪者の種を植え付けていた。
 
@@ -84,7 +84,7 @@ flags: ""
 
 当時の僕は、高校を辞めて感性を磨く生き方をしたいと思っていたので、同級生と違う行動をすることは重要な事だった。
 
-![Blog34-2](https://qryptraveller.com/wp-content/uploads/2021/11/Blog34-2.jpg)
+![Blog34-2](/images/wp/wp-content/uploads/2021/11/Blog34-2.jpg)
 
 予定は前半の一週間ほどをパンガン島と言う南の島へ向かい、後半の一週間をチェンマイと言う山の街で過ごす。
 

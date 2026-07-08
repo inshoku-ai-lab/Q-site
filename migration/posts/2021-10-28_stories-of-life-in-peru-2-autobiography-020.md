@@ -17,8 +17,8 @@ tags:
   - "コンプレックス"
   - "私小説"
 images:
-  - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog20-1.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog20-2.jpg"
+  - "/images/wp/wp-content/uploads/2021/11/Blog20-1.jpg"
+  - "/images/wp/wp-content/uploads/2021/11/Blog20-2.jpg"
 excerpt: "一冊のノートに、17年間誰にも話せなかった想いを書き綴る——『一生誰の目にも触れさせない』と誓って始めたペルーでの日記。背の高さへのコンプレックス、胸毛への悩み、そして『普通の暮らしがしたい』という、絶対に手の届かないと感じていた切実な願い。"
 flags: ""
 ---
@@ -45,7 +45,7 @@ flags: ""
 
 だから、ノートを隠して、姉のいないときに書いていたし、このノートは一生誰の目にも触れさせないと誓った。
 
-![Blog20-1](https://qryptraveller.com/wp-content/uploads/2021/11/Blog20-1.jpg)
+![Blog20-1](/images/wp/wp-content/uploads/2021/11/Blog20-1.jpg)
 
 それまでの人生は、学校とエホバの証人の生活しかなく、自分の思いに向き合う時間は無かったし、また有ったとしても生きることが苦しすぎて、向き合うことができなかった。
 
@@ -95,7 +95,7 @@ flags: ""
 
 テレビを見たり、お出かけしたり、友達と日曜日に遊んだり。
 
-![Blog20-2](https://qryptraveller.com/wp-content/uploads/2021/11/Blog20-2.jpg)
+![Blog20-2](/images/wp/wp-content/uploads/2021/11/Blog20-2.jpg)
 
 高校生になれば、女の子と話したり、デートしたり、友達とカラオケに行ったりなど、極ありきたりの普通の生活。
 

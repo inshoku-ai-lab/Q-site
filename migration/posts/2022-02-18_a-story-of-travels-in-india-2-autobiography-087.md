@@ -18,8 +18,8 @@ tags:
   - "大麻"
   - "私小説"
 images:
-  - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog87-1.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog87-2.jpg"
+  - "/images/wp/wp-content/uploads/2021/11/Blog87-1.jpg"
+  - "/images/wp/wp-content/uploads/2021/11/Blog87-2.jpg"
 excerpt: "インドの『都会』とは、文明の発達ではなく凄まじい人口密度のことだった——カルカッタの路上で井戸を共有しシャワーを浴びる人々、着の身着のままで眠る大人や子供。マザーテレサの施設に隣接する旅人の溜まり場パラゴン・ゲストハウスで、夕暮れに大麻を回し吸う友情の輪に魅了されていく。"
 flags: ""
 ---
@@ -34,7 +34,7 @@ flags: ""
 
 この辺りでは路上で生活してるのは特別な事ではなく、着の身着のままで路上に寝ている大人や子どもがいる。
 
-![Blog87-1](https://qryptraveller.com/wp-content/uploads/2021/11/Blog87-1.jpg)
+![Blog87-1](/images/wp/wp-content/uploads/2021/11/Blog87-1.jpg)
 
 『リクシャ』と呼ばれる人力車の運転手も多く、彼らは座席を寝床にして生活している。
 
@@ -72,7 +72,7 @@ flags: ""
 
 彼らは日々安宿に滞在して、世界への奉仕に精を出していた。
 
-![Blog87-2](https://qryptraveller.com/wp-content/uploads/2021/11/Blog87-2.jpg)
+![Blog87-2](/images/wp/wp-content/uploads/2021/11/Blog87-2.jpg)
 
 そのおかげか『マリア・ゲストハウス』の周辺にはゲストハウスが乱立していて、サダルストリートと呼ばれるこの安宿街は、カルカッタから入国する外国人旅行者の溜まり場になっていた。
 

@@ -23,7 +23,7 @@ tags:
   - "アリゾナ"
   - "DNC"
 images:
-  - "https://qryptraveller.com/wp-content/uploads/2022/05/5-1.png"
+  - "/images/wp/wp-content/uploads/2022/05/5-1.png"
 excerpt: "ジョージ・ソロスその他の左翼NGOの資金提供により訴訟が起こされ、数多くの選挙法が変更された——民主党全国委員会の選挙弁護士マーク・エリアスは、国内でカラー革命を実施する政治体制側の中心人物。大統領選前に州の選挙法に挑戦する五〇以上の訴訟を全米で起こし、アリゾナ州の科学捜査監査に異議を唱えるためにソロス資金で雇われた。"
 flags: ""
 ---
@@ -80,7 +80,7 @@ flags: ""
 >
 > 被告民事訴訟番号 3:19-cv-I3188- RIIC-APP Hon. Robert Cleland Magistrate Anthony A. Patti
 
-![](https://qryptraveller.com/wp-content/uploads/2022/05/5-1.png)
+![](/images/wp/wp-content/uploads/2022/05/5-1.png)
 
 バイデンの「就任式」後に話を進めると、法的監査に反対する闘いにおいて、エリアスが再び登場することになる。
 

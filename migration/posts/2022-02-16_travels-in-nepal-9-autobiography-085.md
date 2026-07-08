@@ -18,8 +18,8 @@ tags:
   - "内省"
   - "私小説"
 images:
-  - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog85-1.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog85-2.jpg"
+  - "/images/wp/wp-content/uploads/2021/11/Blog85-1.jpg"
+  - "/images/wp/wp-content/uploads/2021/11/Blog85-2.jpg"
 excerpt: "お茶の街イラムを経て、いよいよ単身インドへ。ダージリンへの乗合タクシーで激しい車酔いに襲われるが、苦しみを味わい切ることで深い瞑想状態に入り、母が人生で味わった苦しみへの共感が訪れる——極端な信心に走らざるを得なかった母を理解し、エホバの証人への恨みを捨てて自立できた転機。"
 flags: ""
 ---
@@ -46,7 +46,7 @@ flags: ""
 
 感動的な別れがあったと思うのだが、記憶に残っていない。
 
-![Blog85-1](https://qryptraveller.com/wp-content/uploads/2021/11/Blog85-1.jpg)
+![Blog85-1](/images/wp/wp-content/uploads/2021/11/Blog85-1.jpg)
 
 人間とは薄情な物だ。
 
@@ -90,7 +90,7 @@ flags: ""
 
 この街は山の民だけあって、気性が穏やかで落ち着いている。
 
-![Blog85-2](https://qryptraveller.com/wp-content/uploads/2021/11/Blog85-2.jpg)
+![Blog85-2](/images/wp/wp-content/uploads/2021/11/Blog85-2.jpg)
 
 インドへ来る前に想像していた、インド特有のあんな事やこんな事は起こらず、ネパールの延長のような感じでインドへ入ることができた。
 

@@ -21,7 +21,7 @@ tags:
   - "選挙保護"
   - "サイバーセキュリティ"
 images:
-  - "https://qryptraveller.com/wp-content/uploads/2022/05/２.webp"
+  - "/images/wp/wp-content/uploads/2022/05/２.webp"
 excerpt: "クラウドストライク社は、選挙設備保護に重要な役割を果たすインターネット・セキュリティ・センター（CIS）および選挙設備情報共有・分析センター（EI-ISAC）と提携し、「選挙を守るグローバルリーダー」を自称——「サイバーセキュリティと選挙セキュリティのリソースセンター」を立ち上げ、米国の選挙保護機構の中枢に食い込んでいる。"
 flags: ""
 ---
@@ -98,7 +98,7 @@ flags: ""
 
 「サイバーセキュリティと選挙セキュリティのリソースセンター」の[リンク](https://www.crowdstrike.com/election-security/)をクリックすると、以下のページが表示されます。
 
-![](https://qryptraveller.com/wp-content/uploads/2022/05/２.webp)
+![](/images/wp/wp-content/uploads/2022/05/２.webp)
 
 > クラウドストライク社　推奨プログラム
 >

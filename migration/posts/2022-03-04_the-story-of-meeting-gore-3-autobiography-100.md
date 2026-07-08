@@ -18,7 +18,7 @@ tags:
   - "大麻"
   - "私小説"
 images:
-  - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog100-1.jpg"
+  - "/images/wp/wp-content/uploads/2021/11/Blog100-1.jpg"
 excerpt: "放浪記100話到達——3000話まで書く妄想を抱く記念回。元暴走族Yさんと求めていたゴアのレイブパーティーを探して、土曜の夜パナジのディスコへ繰り出すが、待っていたのはボリウッド音楽パーティー。公園でジョイントを吸っていたところ賄賂目当ての警官に詰め寄られ、膝が震える恐怖の一夜。"
 flags: ""
 ---
@@ -31,7 +31,7 @@ flags: ""
 
 下手したらもっとかかるかも。
 
-![Blog100-1](https://qryptraveller.com/wp-content/uploads/2021/11/Blog100-1.jpg)
+![Blog100-1](/images/wp/wp-content/uploads/2021/11/Blog100-1.jpg)
 
 この先１０年くらいは、執筆活動が生活の一部になりそう。
 

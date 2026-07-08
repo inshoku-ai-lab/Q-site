@@ -23,8 +23,8 @@ tags:
   - "宇宙軍"
   - "郵政投票"
 images:
-  - "https://qryptraveller.com/wp-content/uploads/2022/01/cyber-security.jpeg"
-  - "https://qryptraveller.com/wp-content/uploads/2022/01/trump-tweet.jpeg"
+  - "/images/wp/wp-content/uploads/2022/01/cyber-security.jpeg"
+  - "/images/wp/wp-content/uploads/2022/01/trump-tweet.jpeg"
 excerpt: "二〇一六年大統領選でも不正を熟知していたトランプは、二〇二〇年に向けて布石を打っていた——「選挙の完全性に関する大統領諮問委員会」「米国選挙への外国干渉に制裁を課す大統領令」「サイバーセキュリティ・インフラ庁（CISA）」「宇宙軍」の創設。「自分が負けるとしたら郵政投票による不正の時だけだ」と前もって公言していた発言の根拠を辿る。"
 flags: ""
 ---
@@ -54,7 +54,7 @@ flags: ""
 >
 > トランプ氏は、コロナウイルスの大流行時に郵便投票が広く行われたことで、選挙に不正を招き入れることになると根拠なく主張してきましたが、今回の発言はそれに続くものです。
 
-これらのような例は何千もあり、2020年以前にもいくつかあります。![](https://qryptraveller.com/wp-content/uploads/2022/01/trump-tweet.jpeg)
+これらのような例は何千もあり、2020年以前にもいくつかあります。![](/images/wp/wp-content/uploads/2022/01/trump-tweet.jpeg)
 
 投票機がロムニーの票をオバマにすり替えたという報告が相次いでいます。  
 投票機に細心の注意を払い、自分の一票が盗まれないようにしよう 。  
@@ -98,7 +98,7 @@ flags: ""
 
 2018年11月には「サイバーセキュリティ・インフラストラクチャ・セキュリティ庁」を創設した。
 
-![](https://qryptraveller.com/wp-content/uploads/2022/01/cyber-security.jpeg)
+![](/images/wp/wp-content/uploads/2022/01/cyber-security.jpeg)
 > 2018年11月16日、大統領は「Cybersecurity and Infrastructure Security Agency Act of 2018」に署名し、法律を制定した。
 >
 > この法律は、旧国土安全保障省（DHS）の国家保護プログラム局（NPPD）の任務を昇格させ、サイバーセキュリティ・インフラストラクチャセキュリティ庁（CISA）を設立するものである。

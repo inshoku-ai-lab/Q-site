@@ -21,9 +21,9 @@ tags:
   - "第一回弾劾"
   - "市民運動"
 images:
-  - "https://qryptraveller.com/wp-content/uploads/2022/05/1.png"
-  - "https://qryptraveller.com/wp-content/uploads/2022/05/2.png"
-  - "https://qryptraveller.com/wp-content/uploads/2022/05/3-1.png"
+  - "/images/wp/wp-content/uploads/2022/05/1.png"
+  - "/images/wp/wp-content/uploads/2022/05/2.png"
+  - "/images/wp/wp-content/uploads/2022/05/3-1.png"
 excerpt: "カラー革命を牽引する「権力に対して立ち上がる市民」たちは、自分達の行動は必然的な進歩だと考え、誘導されていることに気づかない——第一回弾劾でトランプを倒そうとした人々と、カラー革命の専門家とされる人々が同じ顔ぶれ。バラク・オバマのロースクール同級生ノーム・アイゼンが重要な役割を果たす。"
 flags: ""
 ---
@@ -84,15 +84,15 @@ flags: ""
 
 カラー革命の専門家とされる人たちは、第1回弾劾の際にトランプを倒そうとした人たちと同じです。
 
-![](https://qryptraveller.com/wp-content/uploads/2022/05/1.png)
+![](/images/wp/wp-content/uploads/2022/05/1.png)
 
 > ジョージ・ケント「オレンジ革命」時のオバマ政権下のウクライナ公使館副主任 - 第1次弾劾時のトランプ氏に対する証人 - カラー革命専門家
 
-![](https://qryptraveller.com/wp-content/uploads/2022/05/2.png)
+![](/images/wp/wp-content/uploads/2022/05/2.png)
 
 > ビクトリア・ヌーランド- ジョー・バイデン現国務次官（政治担当）-「オレンジ革命」時のオバマ大統領補佐官（欧州・ユーラシア担当）-第1次弾劾時のトランプ氏に対する証人
 
-![](https://qryptraveller.com/wp-content/uploads/2022/05/3-1.png)
+![](/images/wp/wp-content/uploads/2022/05/3-1.png)
 
 > ノーム・アイゼン- バラク・オバマのロースクールの同級生 - オバマの駐チェコ大使、ホワイトハウスの倫理・政府改革担当特別顧問 - 第1次弾劾時のドナルド・トランプに対する共同弁護人 - カラー革命による政権交代マニュアル「The Playbook」の著者。- トランジション・インテグリティ・プロジェクト
 

@@ -23,7 +23,7 @@ tags:
   - "計画的罠"
   - "パート6完結"
 images:
-  - "https://qryptraveller.com/wp-content/uploads/2022/02/date.jpeg"
+  - "/images/wp/wp-content/uploads/2022/02/date.jpeg"
 excerpt: "トランプ陣営は一月六日事件を予期し対策を整えていた——一月五日発行のメモでアンティファがテロ組織として位置付けられ、当日トランプは軍責任者にコロンビア特別区国家警備隊召集権限を委譲した。選挙を奪った勢力が「バイデン就任邪魔を防ぐ最後の手段として暴動を計画」した結果、トランプは一月六日を犠牲にして圧倒的に優位な立場に立った。"
 flags: ""
 ---
@@ -74,7 +74,7 @@ flags: ""
 
 日付に注目してください。
 
-![](https://qryptraveller.com/wp-content/uploads/2022/02/date.jpeg)
+![](/images/wp/wp-content/uploads/2022/02/date.jpeg)
 
 > 大統領メモ
 >

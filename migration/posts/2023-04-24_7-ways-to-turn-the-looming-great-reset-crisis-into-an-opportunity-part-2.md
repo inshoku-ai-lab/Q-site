@@ -19,11 +19,11 @@ tags:
   - "食糧危機"
   - "対策"
 images:
-  - "https://qryptraveller.com/wp-content/uploads/2023/04/businessman-3042272_1280.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/04/bust-2794420_1280.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/04/gold-bullion-163553_1280.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/04/hyper.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/04/silver-702537_1280.jpg"
+  - "/images/wp/wp-content/uploads/2023/04/businessman-3042272_1280.jpg"
+  - "/images/wp/wp-content/uploads/2023/04/bust-2794420_1280.jpg"
+  - "/images/wp/wp-content/uploads/2023/04/gold-bullion-163553_1280.jpg"
+  - "/images/wp/wp-content/uploads/2023/04/hyper.jpg"
+  - "/images/wp/wp-content/uploads/2023/04/silver-702537_1280.jpg"
 excerpt: "対策方法七つの三部作・中編。コロナ後の経済衰退はグレートリセット計画の要——FTX破綻に代表される暗号通貨業界の危機、米国の銀行破綻からクレディスイス破綻へと連鎖する銀行危機、市民の信頼喪失が引き起こす取り付け騒ぎ、そしてバイデン政権の紙幣供給対策まで、経済危機への具体的な備え方を提示する。"
 flags: ""
 ---
@@ -36,7 +36,7 @@ flags: ""
 
 ## ４　経済危機に備える
 
-![](https://qryptraveller.com/wp-content/uploads/2023/04/businessman-3042272_1280.jpg)
+![](/images/wp/wp-content/uploads/2023/04/businessman-3042272_1280.jpg)
 
 コロナ禍での経済政策は、その必然の流れとして経済衰退が含まれています。
 
@@ -116,7 +116,7 @@ https://www.youtube.com/watch?v=vBY2EC1Gowk
 
 ハイパーインフレが起こると、酷いときには１日で紙幣の価値が半額になると言ったことや、１キロのトマトを買うのに荷押し車満杯の紙幣を担がないと買えないと言ったことが起こるようです。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/04/hyper.jpg)
+![](/images/wp/wp-content/uploads/2023/04/hyper.jpg)
 
 戦後の日本では４年間の間に物価が７０倍になったそうです。
 
@@ -168,7 +168,7 @@ https://www.youtube.com/watch?v=vBY2EC1Gowk
 
 ハイパーインフレにおいては、株式や債権は強いと言われていますが、グレートリセットのような社会全体がリセットされるような出来事においては、あまり意味がないかもしれません。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/04/bust-2794420_1280.jpg)
+![](/images/wp/wp-content/uploads/2023/04/bust-2794420_1280.jpg)
 
 ### 経済崩壊への対策
 
@@ -248,7 +248,7 @@ https://twitter.com/qryptraveller/status/1641647600993460224?s=20
 
 ## 貴金属備蓄における金属の種類
 
-![](https://qryptraveller.com/wp-content/uploads/2023/04/gold-bullion-163553_1280.jpg)
+![](/images/wp/wp-content/uploads/2023/04/gold-bullion-163553_1280.jpg)
 
 貴金属備蓄の一般的な種類としては、金、銀、プラチナ、パラジウムなどが挙げられます。
 
@@ -288,7 +288,7 @@ https://qryptraveller.com/why-silver-now-five-overt-and-three-covert-reasons-why
 
 なので、銀備蓄は銀貨だけで無く、銀インゴットとしての備蓄もお勧めします。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/04/silver-702537_1280.jpg)
+![](/images/wp/wp-content/uploads/2023/04/silver-702537_1280.jpg)
 
 銀インゴットのサイズは１００グラム、１キロ、３キロ、１０キロなどと色々ありますが、１キロ以上のものが割安になります。
 

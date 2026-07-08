@@ -17,8 +17,8 @@ tags:
   - "バラナシ"
   - "私小説"
 images:
-  - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog92-1.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog92-2.jpg"
+  - "/images/wp/wp-content/uploads/2021/11/Blog92-1.jpg"
+  - "/images/wp/wp-content/uploads/2021/11/Blog92-2.jpg"
 excerpt: "外国人だけ足を揺すって起こすチャイ売りの少年と、寝起きの熱いチャイ。下段の家族連れに招かれて激辛スナックをつまみ、『なぜ結婚しないのか』『故郷を離れて寂しくないか』と純粋な好奇心から質問攻めに——家族を何より大事にするインド人の価値観が、崩壊した家庭から来た僕には少し面倒だった。"
 flags: ""
 ---
@@ -51,7 +51,7 @@ flags: ""
 
 「お菓子があるから一緒に食べないか？」との誘いだ。
 
-![Blog92-1](https://qryptraveller.com/wp-content/uploads/2021/11/Blog92-1.jpg)
+![Blog92-1](/images/wp/wp-content/uploads/2021/11/Blog92-1.jpg)
 
 ヘンテコな東洋人と、交流を持ちたいらしい。
 
@@ -91,7 +91,7 @@ flags: ""
 
 故郷を離れてさみしく無いのか？
 
-![Blog92-2](https://qryptraveller.com/wp-content/uploads/2021/11/Blog92-2.jpg)
+![Blog92-2](/images/wp/wp-content/uploads/2021/11/Blog92-2.jpg)
 
 基本的な質問で簡単な英語だったので僕にも理解できたが、なぜ結婚しないのか？や、故郷を離れてさみしく無いのか？の質問には英語力のなさ故に答えることができなかった。
 

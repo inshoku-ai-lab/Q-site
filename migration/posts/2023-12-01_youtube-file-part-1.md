@@ -19,13 +19,13 @@ tags:
   - "検閲"
   - "言論統制"
 images:
-  - "https://qryptraveller.com/wp-content/uploads/2023/12/1.png"
-  - "https://qryptraveller.com/wp-content/uploads/2023/12/pic2.png"
-  - "https://qryptraveller.com/wp-content/uploads/2023/12/pic3.png"
-  - "https://qryptraveller.com/wp-content/uploads/2023/12/pic4.png"
-  - "https://qryptraveller.com/wp-content/uploads/2023/12/pic5.png"
-  - "https://qryptraveller.com/wp-content/uploads/2023/12/pic6.png"
-  - "https://qryptraveller.com/wp-content/uploads/2023/12/pic7.png"
+  - "/images/wp/wp-content/uploads/2023/12/1.png"
+  - "/images/wp/wp-content/uploads/2023/12/pic2.png"
+  - "/images/wp/wp-content/uploads/2023/12/pic3.png"
+  - "/images/wp/wp-content/uploads/2023/12/pic4.png"
+  - "/images/wp/wp-content/uploads/2023/12/pic5.png"
+  - "/images/wp/wp-content/uploads/2023/12/pic6.png"
+  - "/images/wp/wp-content/uploads/2023/12/pic7.png"
 excerpt: "ユーチューブファイル第一弾。下院司法委員会委員長ジム・ジョーダン議員が、グーグル社（YouTubeの親会社）の内部文書を議会に提出された証拠とともに公開——バイデン政権のフラハティ補佐官らが二〇二一年四月から繰り返しYouTubeにコロナ「誤情報」検閲の圧力をかけていた実態を、Xへの投稿から完全翻訳する。"
 flags: ""
 ---
@@ -86,35 +86,35 @@ https://twitter.com/Jim\_Jordan/status/1684595375875760128
 
 2021年4月12日、ロブ・フラハティ氏、バイデンのデジタル戦略担当ディレクターは、グーグルがどのようにすれば「ワクチンの誤報を取り締まる」ことができるかを知り、「ホワイトハウス（と私たちのコロナ専門家）があなたの製品開発で提携できる方法」について話し合いたいとグーグルにメールを送りました。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/12/1.png)
+![](/images/wp/wp-content/uploads/2023/12/1.png)
 
 JudiciaryGOPが入手した内部文書で明らかになったように、グーグルは内心ではこの要求が何を意味するのか理解していたのです。
 
 "ロブの質問は特にYoutubeに焦点を当てたもの "であり、彼は "際どいコンテンツに対する我々の判断について掘り下げました"。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/12/pic2.png)
+![](/images/wp/wp-content/uploads/2023/12/pic2.png)
 
 その1週間後の2021年4月21日、グーグル政府関係チームのメンバーの一人が、バイデンホワイトハウスの中の特にロブ・フラハティと電話で話して、フラハティが何を望んでいるのかをわかりやすく説明してもらっていました。
 
 「どうやら彼は私たちが目にしている「引き下がらないものたち」に実に興味があるようです。」
 
-![](https://qryptraveller.com/wp-content/uploads/2023/12/pic3.png)
+![](/images/wp/wp-content/uploads/2023/12/pic3.png)
 
 YouTubeの政府関係チームはその後、YouTubeのプロダクトチームにメールを送り、バイデン氏に警告しました。
 
 「ホワイトハウスは、際どいコンテンツに関する我々の取り組みに非常に興味を持っています。」
 
-![](https://qryptraveller.com/wp-content/uploads/2023/12/pic4.png)
+![](/images/wp/wp-content/uploads/2023/12/pic4.png)
 
 さらに1週間後、YouTubeの政府担当チームはYouTubeの製品チームにメールで状況を報告しました。
 
 グーグルとユーチューブの政府担当チームは、"ユーチューブの方針についてホワイトハウスのスタッフと話し合っている "と言っています。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/12/pic5.png)
+![](/images/wp/wp-content/uploads/2023/12/pic5.png)
 
 グーグルとユーチューブの両政府担当チームは、ユーチューブのプロダクトチームがホワイトハウスのスタッフと会うことを望んでいました。 というのも、ホワイトハウスのスタッフは、「YouTubeの多くのポリシーやコンテンツ削除の取り組みに精通しており、 "コンテンツの引き上げ／削減の取り組みについて疑問を持ち続けていた "からです。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/12/pic6.png)
+![](/images/wp/wp-content/uploads/2023/12/pic6.png)
 
 同社はこのミーティングを早急に行う必要がありました。
 
@@ -122,7 +122,7 @@ YouTubeの政府関係チームはその後、YouTubeのプロダクトチーム
 
 2) グーグルは「複数の政策面で（バイデン）政権と緊密に協力」しようとしており、彼らをなだめる必要がありました。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/12/pic7.png)
+![](/images/wp/wp-content/uploads/2023/12/pic7.png)
 
 ランドポール上院議員と共和党下院議員は、政府による検閲の被害者を救済する法案を提出しました。
 

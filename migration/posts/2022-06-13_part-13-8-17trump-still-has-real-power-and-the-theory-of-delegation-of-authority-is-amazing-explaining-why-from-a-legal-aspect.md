@@ -20,8 +20,8 @@ tags:
   - "民間企業"
   - "インフラ"
 images:
-  - "https://qryptraveller.com/wp-content/uploads/2022/06/1.png"
-  - "https://qryptraveller.com/wp-content/uploads/2022/06/スクリーンショット-2022-06-09-17.06.50.png"
+  - "/images/wp/wp-content/uploads/2022/06/1.png"
+  - "/images/wp/wp-content/uploads/2022/06/スクリーンショット-2022-06-09-17.06.50.png"
 excerpt: "本来なら負けて退任するはずの大統領が、退任直前に継続計画を作ったこと自体が権限委譲計画が実際に起こっている証拠——大統領令は枠組みを確立し、細かな詳細は「連邦政府機能復興戦略」に記載。「政府と民間企業が協力して脆弱性を減らし、最初から回復力に対応したインフラを設計しなければなりません」というトランプの紹介文が鍵。"
 flags: ""
 ---
@@ -48,7 +48,7 @@ flags: ""
 
 その計画の詳細については、この戦略に記載されています。
 
-![](https://qryptraveller.com/wp-content/uploads/2022/06/1.png)
+![](/images/wp/wp-content/uploads/2022/06/1.png)
 
 まずはドナルド・トランプ氏自身による紹介文を見ていきます。
 
@@ -84,7 +84,7 @@ flags: ""
 >
 > ドナルド・J・トランプ大統領 ホワイトハウス 2020年12月
 
-![](https://qryptraveller.com/wp-content/uploads/2022/06/スクリーンショット-2022-06-09-17.06.50.png)
+![](/images/wp/wp-content/uploads/2022/06/スクリーンショット-2022-06-09-17.06.50.png)
 
 この導入部全体が、トランプ氏なりの「これからやろうとしていること」である。
 

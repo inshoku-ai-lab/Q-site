@@ -17,8 +17,8 @@ tags:
   - "17歳"
   - "私小説"
 images:
-  - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog25-1.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog25-2.jpg"
+  - "/images/wp/wp-content/uploads/2021/11/Blog25-1.jpg"
+  - "/images/wp/wp-content/uploads/2021/11/Blog25-2.jpg"
 excerpt: "店長は元ヤン、奥さんも金髪——ヤンキー番長が仕切る家族のように仲のいいピザ屋で、初めて女友達ができ、初めて『普通の暮らし』を手に入れた17歳。バイト終わりに深夜のラーメン屋に皆で行く、ありきたりな日常が、夢にまで見た風景だった。"
 flags: ""
 ---
@@ -41,7 +41,7 @@ flags: ""
 
 彼女たちは僕にとって初めての女友達であり、中学以来３年ぶりにできた友達だった。
 
-![Blog25-1](https://qryptraveller.com/wp-content/uploads/2021/11/Blog25-1.jpg)
+![Blog25-1](/images/wp/wp-content/uploads/2021/11/Blog25-1.jpg)
 
 この時に気づいたのが、優しい環境で育った僕には男友達よりも女友達の方が一緒に過ごしやすいと言うことだった。
 
@@ -87,7 +87,7 @@ flags: ""
 
 仕事の実力と店長という権力を笠に着て、他のバイトに対する横暴な行為が増えて行き、ピザ屋の人的構図が変わって行った。
 
-![Blog25-2](https://qryptraveller.com/wp-content/uploads/2021/11/Blog25-2.jpg)
+![Blog25-2](/images/wp/wp-content/uploads/2021/11/Blog25-2.jpg)
 
 番長キャラが番長を演じる分には問題はなかったが、成り上がりの下っ端が番長を演じても人心はついていかず、それまでは社長VS店長とバイトだったのが、社長と店長VSバイトという構図に変わって行った。
 

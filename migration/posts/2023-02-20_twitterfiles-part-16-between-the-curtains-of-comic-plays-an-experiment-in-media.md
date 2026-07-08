@@ -18,21 +18,21 @@ tags:
   - "検閲"
   - "言論統制"
 images:
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/1-1.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/10.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/12-5.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/2a-1.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/2b-1.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/2c.png"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/2d.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/3-2.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/4-2.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/6-4.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/7a-3.png"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/7b.png"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/7c.png"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/7d.png"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/9-2.jpg"
+  - "/images/wp/wp-content/uploads/2023/02/1-1.jpg"
+  - "/images/wp/wp-content/uploads/2023/02/10.jpg"
+  - "/images/wp/wp-content/uploads/2023/02/12-5.jpg"
+  - "/images/wp/wp-content/uploads/2023/02/2a-1.jpg"
+  - "/images/wp/wp-content/uploads/2023/02/2b-1.jpg"
+  - "/images/wp/wp-content/uploads/2023/02/2c.png"
+  - "/images/wp/wp-content/uploads/2023/02/2d.jpg"
+  - "/images/wp/wp-content/uploads/2023/02/3-2.jpg"
+  - "/images/wp/wp-content/uploads/2023/02/4-2.jpg"
+  - "/images/wp/wp-content/uploads/2023/02/6-4.jpg"
+  - "/images/wp/wp-content/uploads/2023/02/7a-3.png"
+  - "/images/wp/wp-content/uploads/2023/02/7b.png"
+  - "/images/wp/wp-content/uploads/2023/02/7c.png"
+  - "/images/wp/wp-content/uploads/2023/02/7d.png"
+  - "/images/wp/wp-content/uploads/2023/02/9-2.jpg"
 excerpt: "ツイッターファイル第一六弾「コミック劇の幕間：メディアの実験」。トランプの削除依頼にはメディアが騒ぎ立てるが、シフ議員の削除依頼にはダンマリ——その対比を見るだけでメディアの本質が見えてくる。連邦政府が保守派と左派の両方を架空のロシア人と勘違いし、ツイッターが書類上で検閲権限を「米国情報機関」に譲り渡していた事実も明らかに。"
 flags: ""
 ---
@@ -75,17 +75,17 @@ https://twitter.com/mtaibbi/status/1627098945359867904?ref\_src=twsrc%5Etfw%7Ctw
 
 **コミック劇の幕間： メディアの実験**
 
-**![](https://qryptraveller.com/wp-content/uploads/2023/02/1-1.jpg)**
+**![](/images/wp/wp-content/uploads/2023/02/1-1.jpg)**
 
 ツイッターファイルは、政府のあらゆるところから何千もの言論規制要請があり、連邦政府は保守派と左派の両方を架空のロシア人と勘違いし、ツイッターは言論規制の権限を「米国情報機関」に譲り渡すと書類上で決定していると言ったことまで、多くのことを明らかにしています。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/2a-1.jpg)
+![](/images/wp/wp-content/uploads/2023/02/2a-1.jpg)
 
 > 内部ガイダンス   
 >   
 > **米国情報機関によって**、米国またはその他の選挙に関連する標的に対してサイバー作戦を行う国家支援団体、またはそのような作戦に関連する団体と**特定されたユーザー**は、ツイッターで広告を出すことを許可されないものとします。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/2b-1.jpg)
+![](/images/wp/wp-content/uploads/2023/02/2b-1.jpg)
 
 > ヨエル・ロス   
 >   
@@ -97,7 +97,7 @@ https://twitter.com/mtaibbi/status/1627098945359867904?ref\_src=twsrc%5Etfw%7Ctw
 >   
 > ヨエル
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/2c.png)
+![](/images/wp/wp-content/uploads/2023/02/2c.png)
 
 > 皆さん、「ウラニア」と「ナチス」についてツイートしており、同一のイベントIPとユーザーエージェントによってクラスタリングされていたAR由来の12アカウント（873377）とVE由来の10アカウント（873378）をSafetygraph経由で停止しました。   
 >   
@@ -106,7 +106,7 @@ https://twitter.com/mtaibbi/status/1627098945359867904?ref\_src=twsrc%5Etfw%7Ctw
 > FBIは、このアカウントがロシアのアクターの代理人であると主張していますが、**私たちは、このアカウントがカタルーニャの海賊党やその他の左派の政治スペクトルの個人とつながっていることを示す証拠を発見しました。**  
 > また、Chalecosアカウントは、不思議なことに、自身のコンテンツをRTした後、すぐに削除しており、先週からだけでも3k以上の削除ツイートを積み重ねていることがわかりました。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/2d.jpg)
+![](/images/wp/wp-content/uploads/2023/02/2d.jpg)
 
 > ツイッターの皆さん。   
 >   
@@ -118,7 +118,7 @@ https://twitter.com/mtaibbi/status/1627098945359867904?ref\_src=twsrc%5Etfw%7Ctw
 
 この2ヶ月の間に、ツイッターファイルから多大なニュース価値のある暴露が出てきましたが、大手メディアは完全に無視しました。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/3-2.jpg)
+![](/images/wp/wp-content/uploads/2023/02/3-2.jpg)
 
 ## トランプ氏がツイート削除依頼した
 
@@ -126,7 +126,7 @@ https://twitter.com/mtaibbi/status/1627098945359867904?ref\_src=twsrc%5Etfw%7Ctw
 
 報道陣は「これはビッグニュースだ」と大喜びでした。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/4-2.jpg)
+![](/images/wp/wp-content/uploads/2023/02/4-2.jpg)
 
 > （訳注：各紙の見出しは共に同じような内容）   
 >   
@@ -138,7 +138,7 @@ https://twitter.com/mtaibbi/status/1627098945359867904?ref\_src=twsrc%5Etfw%7Ctw
 
 大統領が一人のツィッターに熱狂するのがニュースなら、きっと上院議員も300人以上の有権者に熱狂しているに違いないでしょう？
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/6-4.jpg)
+![](/images/wp/wp-content/uploads/2023/02/6-4.jpg)
 
 > ケビン・ケイン   
 >   
@@ -152,19 +152,19 @@ https://twitter.com/mtaibbi/status/1627098945359867904?ref\_src=twsrc%5Etfw%7Ctw
 
 あるいは、個人的に好きなのは 「移民について言及」
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/7a-3.png)
+![](/images/wp/wp-content/uploads/2023/02/7a-3.png)
 
 ランド・ポール訪問の興奮
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/7b.png)
+![](/images/wp/wp-content/uploads/2023/02/7b.png)
 
 ブレイキーにフォローされている
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/7c.png)
+![](/images/wp/wp-content/uploads/2023/02/7c.png)
 
 ボット（1日平均20ツイート）
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/7d.png)
+![](/images/wp/wp-content/uploads/2023/02/7d.png)
 
 移民について言及
 
@@ -180,7 +180,7 @@ https://twitter.com/mtaibbi/status/1627098945359867904?ref\_src=twsrc%5Etfw%7Ctw
 
 この国務省職員は、ハバナ症候群にかかったと主張した後、科学に自分の脳を提供することを申し出たことで最も有名です。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/9-2.jpg)
+![](/images/wp/wp-content/uploads/2023/02/9-2.jpg)
 
 > 中国駐在中に謎の負傷をした米外交官マーク・レンツィ氏、科学への脳提供を誓う
 
@@ -188,7 +188,7 @@ https://twitter.com/mtaibbi/status/1627098945359867904?ref\_src=twsrc%5Etfw%7Ctw
 
 「以下は、あなたが調べて削除したいと思うような、ロシアに支配されたアカウントです。」
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/10.jpg)
+![](/images/wp/wp-content/uploads/2023/02/10.jpg)
 
 > こんにちはリサ。   
 >   
@@ -230,7 +230,7 @@ https://twitter.com/mtaibbi/status/1627098945359867904?ref\_src=twsrc%5Etfw%7Ctw
 
 カリフォルニア州のアダム・シフ氏が記者を追放し、ある職員に関する「あらゆる検索結果」を停止しようとしたことは、アンガス・キングのスプレッドシートの作戦を手抜きに見せています。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/12-5.jpg)
+![](/images/wp/wp-content/uploads/2023/02/12-5.jpg)
 
 > こんにちは、XXXさん   
 >   

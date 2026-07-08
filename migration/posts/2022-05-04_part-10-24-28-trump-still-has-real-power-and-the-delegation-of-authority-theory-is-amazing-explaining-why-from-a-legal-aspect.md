@@ -22,8 +22,8 @@ tags:
   - "中国"
   - "技術流出"
 images:
-  - "https://qryptraveller.com/wp-content/uploads/2022/04/２.webp"
-  - "https://qryptraveller.com/wp-content/uploads/2022/04/３.webp"
+  - "/images/wp/wp-content/uploads/2022/04/２.webp"
+  - "/images/wp/wp-content/uploads/2022/04/３.webp"
 excerpt: "アメリカの軍事技術は中国へ流出している——ハンター氏の関わる投資会社ボハイ・ハーベストRSTは、中国の電気自動車用電池の世界最大級メーカーへ投資。バイデン政権が成立しクリーンエネルギーに注力したことで、その株価は三倍に成長した。オバマ政権が中国への技術移転規制を緩めた帰結を追う。"
 flags: ""
 ---
@@ -64,7 +64,7 @@ flags: ""
 
 現代アンペレックス技術有限公司（CATL）は、["電気自動車用電池の世界最大のメーカー "](https://www.ft.com/content/2aeda1da-c652-405c-9ecd-efd8ed8c8ed5)です。
 
-![](https://qryptraveller.com/wp-content/uploads/2022/04/２.webp)
+![](/images/wp/wp-content/uploads/2022/04/２.webp)
 
 > CATLは、ニッケルやコバルトといった高価な金属ではなく、鉄とリン酸塩を使用するリン酸鉄リチウム電池の生産で世界を席巻しています。これらの電池は、テスラが上海で製造する短距離・中距離用電気自動車に使用されており、その一部はヨーロッパに輸出されている。CATLの充電状況 乗用車用EVの新車販売台数における電池容量（GWh）の推移（2021年第1四半期）
 
@@ -80,7 +80,7 @@ flags: ""
 
 過去1年間のCATLの株価について、何か面白いことに気づきましたか？
 
-![](https://qryptraveller.com/wp-content/uploads/2022/04/３.webp)
+![](/images/wp/wp-content/uploads/2022/04/３.webp)
 
 ちょうど11月頃から、株価が3倍近くになっているんです。
 

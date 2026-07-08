@@ -19,8 +19,8 @@ tags:
   - "ハードコアテクノ"
   - "私小説"
 images:
-  - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog29-1.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog29-2.jpg"
+  - "/images/wp/wp-content/uploads/2021/11/Blog29-1.jpg"
+  - "/images/wp/wp-content/uploads/2021/11/Blog29-2.jpg"
 excerpt: "Atari Teenage Riotの『Fuck All』をテーマ曲に、フランス映画『La Haine（憎しみ）』の主人公に憧れて大晦日に丸坊主——12年間の宗教生活の反動が、遅れてやってきた反抗期として爆発。雑誌『危ない１号』に脳天を爆裂させられ、デジタル・ハードコア・レコーディングスのハードコアパンクテクノで心を癒した18歳の春。"
 flags: ""
 ---
@@ -39,7 +39,7 @@ flags: ""
 
 自分が社会から抜けられるわけでもなく、人や社会に頼らないと生きられないことは重々理解していたが、タブーや欺瞞や偽善や人々の上品な仮面に嫌気がさしていた。
 
-![Blog29-1](https://qryptraveller.com/wp-content/uploads/2021/11/Blog29-1.jpg)
+![Blog29-1](/images/wp/wp-content/uploads/2021/11/Blog29-1.jpg)
 
 生まれ育ちの抑圧具合や壊れ具合、病み具合に合わせてエホバの証人の規律から突然、自由になった十代の若者ということや、西成区在住などという条件が合わさっていただろう。
 
@@ -87,7 +87,7 @@ https://www.youtube.com/watch?v=o8Fkpbt82Dc
 
 パリのスラム街の公共団地にすむ若者たちが、暴動に巻き込まれる姿を描いた映画で自分が生まれ育った環境と被って来て、まるで自分が映画の主人公になったような気分だった。
 
-![Blog29-2](https://qryptraveller.com/wp-content/uploads/2021/11/Blog29-2.jpg)
+![Blog29-2](/images/wp/wp-content/uploads/2021/11/Blog29-2.jpg)
 
 この映画の主人公に憧れて気合いを入れるために、同じ髪型のスキンヘッドに近い丸坊主にした。
 

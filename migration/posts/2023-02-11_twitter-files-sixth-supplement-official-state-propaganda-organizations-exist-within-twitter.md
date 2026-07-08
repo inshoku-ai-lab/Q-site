@@ -18,11 +18,11 @@ tags:
   - "プロパガンダ"
   - "補足"
 images:
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/12-1.jpeg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/2.png"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/3.png"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/7.png"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/9-3.jpeg"
+  - "/images/wp/wp-content/uploads/2023/02/12-1.jpeg"
+  - "/images/wp/wp-content/uploads/2023/02/2.png"
+  - "/images/wp/wp-content/uploads/2023/02/3.png"
+  - "/images/wp/wp-content/uploads/2023/02/7.png"
+  - "/images/wp/wp-content/uploads/2023/02/9-3.jpeg"
 excerpt: "ツイッターファイル第六弾補足。二〇二〇年七月、ツイッター社が諜報機関共同体との会合で「公式プロパガンダ機関の活動はあまり見られない」と仄めかしたことで、FBIサイバー班のエルヴィス・チャンとFITF（海外影響力対策本部）の怒りを買う——ヨエル・ロスへの詰問書面、ツイッター内に公式国家プロパガンダが存在することの認知を巡る攻防を追う。"
 flags: ""
 ---
@@ -57,7 +57,7 @@ https://twitter.com/mtaibbi/status/1604613292491538432?s=20&t=4ueBdo0MgbuUROUE6L
 
 2020年7月、サンフランシスコのFBI捜査官エルヴィス・チャンは、ツイッターの幹部ヨエル・ロスに、サイバー脅威に対処する省庁間グループ「FITF（Foreign Influence Task Force）（海外影響力対策本部）」からの質問書が来ることを予期するように伝えました。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/2.png)
+![](/images/wp/wp-content/uploads/2023/02/2.png)
 
 > こんにちは、ヨエルさん。   
 >   
@@ -81,7 +81,7 @@ https://twitter.com/mtaibbi/status/1604613292491538432?s=20&t=4ueBdo0MgbuUROUE6L
 
 （訳注：会合で、諜報機関のプロパガンダ活動家が怠けているとツイッターが報告したことに不満を抱いている。）
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/3.png)
+![](/images/wp/wp-content/uploads/2023/02/3.png)
 
 > 2020年6月10日の選挙セキュリティに関するワーキンググループの会合で、あなたは、あなたのプラットフォームで公式宣伝機関の最近の活動をあまり観察していないことを指摘しました。   
 >   
@@ -140,7 +140,7 @@ https://twitter.com/mtaibbi/status/1604613292491538432?s=20&t=4ueBdo0MgbuUROUE6L
 
 質問を受けたヨエル・ロスは、それを他の会社の役員に回覧し、「率直に言って、官省の局というよりも議会の委員会から受けるような要求に当惑している」と不満を漏らしたといいます。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/7.png)
+![](/images/wp/wp-content/uploads/2023/02/7.png)
 
 > 機密事項   
 >   
@@ -172,7 +172,7 @@ https://twitter.com/mtaibbi/status/1604613292491538432?s=20&t=4ueBdo0MgbuUROUE6L
 
 強調のためのイタリックに注意。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/9-3.jpeg)
+![](/images/wp/wp-content/uploads/2023/02/9-3.jpeg)
 
 > 機密保持事項   
 >   
@@ -200,7 +200,7 @@ https://twitter.com/mtaibbi/status/1604613292491538432?s=20&t=4ueBdo0MgbuUROUE6L
 
 FBIは金曜日（２０２２年１２月１６日）の報告書（ツイッターファイル Part 6）に対して、「定期的に民間団体と関わり、特定された外国の悪意ある影響行為者の破壊活動、未申告、秘密活動、犯罪活動に特化した情報を提供している」と回答しています。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/12-1.jpeg)
+![](/images/wp/wp-content/uploads/2023/02/12-1.jpeg)
 
 > ジョン・ニコシア @NewsPolitics   
 >   

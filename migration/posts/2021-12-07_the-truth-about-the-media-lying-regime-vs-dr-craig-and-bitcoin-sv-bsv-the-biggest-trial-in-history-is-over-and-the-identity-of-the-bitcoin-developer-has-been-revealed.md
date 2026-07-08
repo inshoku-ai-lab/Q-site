@@ -20,7 +20,7 @@ tags:
   - "メディア"
   - "偏向報道"
 images:
-  - "https://qryptraveller.com/wp-content/uploads/2021/12/cointelegraph.jpg"
+  - "/images/wp/wp-content/uploads/2021/12/cointelegraph.jpg"
 excerpt: "二〇二一年一二月六日、四年・二〇億円を費やしたフロリダの裁判が結審——クレイグ・ライト博士が単独でビットコインを発明したサトシ・ナカモトだと公式に証明された。だが七兆円の争いで六〇〇分の一の一一三億円の支払い命令を「自称ビットコイン創設者が一億ドル支払い命令」とブルームバーグら大手メディアが偏向報道する醜態を実例で晒す。"
 flags: ""
 ---
@@ -105,7 +105,7 @@ https://coingeek.com/bitcoin-creator-craig-wright-100-satoshi-nakamoto-says-klei
 
 <https://cointelegraph.com/news/jury-in-craig-wright-lawsuit-cannot-all-agree-on-a-verdict>
 
-![craig wright](https://qryptraveller.com/wp-content/uploads/2021/12/cointelegraph.jpg)
+![craig wright](/images/wp/wp-content/uploads/2021/12/cointelegraph.jpg)
 
 これは１２月２日の判決が出される前の記事です。
 

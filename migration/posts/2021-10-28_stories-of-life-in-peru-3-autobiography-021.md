@@ -18,8 +18,8 @@ tags:
   - "エホバの証人"
   - "私小説"
 images:
-  - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog21-1.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog21-2.jpg"
+  - "/images/wp/wp-content/uploads/2021/11/Blog21-1.jpg"
+  - "/images/wp/wp-content/uploads/2021/11/Blog21-2.jpg"
 excerpt: "ペルー人エホバの証人のホームパーティーで、生まれて初めて『自分の意思で』音楽に合わせて踊った夜。日本では世俗の罪とされた踊りが、ここでは日常だった——カルチャーショックと、姉のペルー式結婚式の記録。"
 flags: ""
 ---
@@ -42,7 +42,7 @@ flags: ""
 
 学校の体育の授業で、踊らさせられたことは何度かあったが、この時は生まれて初めて自分の意思で音楽に合わせて踊った。
 
-![Blog21-1](https://qryptraveller.com/wp-content/uploads/2021/11/Blog21-1.jpg)
+![Blog21-1](/images/wp/wp-content/uploads/2021/11/Blog21-1.jpg)
 
 姿勢を低くして、膝をくねらせるツイストのような踊りだったと思う。  
 当時のペルーで、流行っていたものだ。
@@ -97,7 +97,7 @@ flags: ""
 
 叔母の日程が限られているため、予定はきっちりと詰まっていた。
 
-![Blog21-2](https://qryptraveller.com/wp-content/uploads/2021/11/Blog21-2.jpg)
+![Blog21-2](/images/wp/wp-content/uploads/2021/11/Blog21-2.jpg)
 
 姉の結婚式は、数日かけて行われた。  
 多分、ペルー式なんだと思う。

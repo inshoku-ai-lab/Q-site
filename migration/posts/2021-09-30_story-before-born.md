@@ -17,8 +17,8 @@ tags:
   - "幼少期"
   - "私小説"
 images:
-  - "https://qryptraveller.com/wp-content/uploads/2021/09/002guide-500x400.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2021/09/002stand.jpg"
+  - "/images/wp/wp-content/uploads/2021/09/002guide-500x400.jpg"
+  - "/images/wp/wp-content/uploads/2021/09/002stand.jpg"
 excerpt: "アフリカで太鼓を叩いた人生、ヒマラヤで高僧として生きた人生、キューバ革命で戦った人生——超強力なガイドスピリットに導かれて転生を繰り返してきた魂が、最後の旅としてこの肉体にやってきた話。クリプトラベラーの旅の起点となるスピリチュアルな前世譚。"
 flags: ""
 ---
@@ -31,7 +31,7 @@ flags: ""
 
 このような力を持ったもの同士は自然と出会うようになっているらしく、色々と不思議な出会いがある。
 
-![](https://qryptraveller.com/wp-content/uploads/2021/09/002stand.jpg)
+![](/images/wp/wp-content/uploads/2021/09/002stand.jpg)
 
 中には変わった能力を持った人が何人かいて、過去生やアカシックレコードを読める、魂の絵を描ける、ガイドスピリットや個別の魂と会話をする事ができる、などなど。
 
@@ -43,7 +43,7 @@ flags: ""
 
 # ガイドスピリット
 
-![guide spirit](https://qryptraveller.com/wp-content/uploads/2021/09/002guide-500x400.jpg)
+![guide spirit](/images/wp/wp-content/uploads/2021/09/002guide-500x400.jpg)
 
 僕の前世についてのそれぞれの話を合わせるとこんな感じ。
 

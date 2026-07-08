@@ -17,8 +17,8 @@ tags:
   - "バックパッカー"
   - "私小説"
 images:
-  - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog36-1.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog36-2.jpg"
+  - "/images/wp/wp-content/uploads/2021/11/Blog36-1.jpg"
+  - "/images/wp/wp-content/uploads/2021/11/Blog36-2.jpg"
 excerpt: "ジャングルとビーチ以外には何もないスリタヌの地区で、一泊300円のバンガロー暮らし。透明な水、真っ白な砂、降り注ぐ太陽。ハンモックで本を読み、海で泳ぎ、雑な造りのレストランで自分でフライドライスを作る先輩旅人——だが断髪式に失敗して頭皮を血まみれにし、怪物のような姿に。"
 flags: ""
 ---
@@ -55,7 +55,7 @@ flags: ""
 
 真っ白な砂浜と真っ青な空。
 
-![Blog36-1](https://qryptraveller.com/wp-content/uploads/2021/11/Blog36-1.jpg)
+![Blog36-1](/images/wp/wp-content/uploads/2021/11/Blog36-1.jpg)
 
 ３月といえども既に真夏で、海水は暖かかった。
 
@@ -81,7 +81,7 @@ flags: ""
 
 Tさん曰く、あとでメニュー通りの値段を払えば問題ないという。
 
-![Blog36-2](https://qryptraveller.com/wp-content/uploads/2021/11/Blog36-2.jpg)
+![Blog36-2](/images/wp/wp-content/uploads/2021/11/Blog36-2.jpg)
 
 手際よく作って美味しそうに食べている。
 

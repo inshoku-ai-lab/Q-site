@@ -22,10 +22,10 @@ tags:
   - "宇宙軍"
   - "大統領令13848"
 images:
-  - "https://qryptraveller.com/wp-content/uploads/2022/03/10.jpeg"
-  - "https://qryptraveller.com/wp-content/uploads/2022/03/11.jpeg"
-  - "https://qryptraveller.com/wp-content/uploads/2022/03/12-1.jpeg"
-  - "https://qryptraveller.com/wp-content/uploads/2022/03/9.jpeg"
+  - "/images/wp/wp-content/uploads/2022/03/10.jpeg"
+  - "/images/wp/wp-content/uploads/2022/03/11.jpeg"
+  - "/images/wp/wp-content/uploads/2022/03/12-1.jpeg"
+  - "/images/wp/wp-content/uploads/2022/03/9.jpeg"
 excerpt: "米軍は不正選挙の実態を知り行動を起こせたが、大統領令一三八四八に従いあえて情報機関に仕事を行わせた——二〇二〇年一二月一五日が、軍隊が権限委譲理論の「計画」から「実行」に移った日。トランプの状況はリンカーンやチャーチルの状況に似ている、と歴史的比較から論じる節目の記事。"
 flags: ""
 ---
@@ -62,15 +62,15 @@ flags: ""
 
 それが、私にとってこのツイートを「歴史的」なものにしているのは確かです。
 
-![](https://qryptraveller.com/wp-content/uploads/2022/03/9.jpeg)
+![](/images/wp/wp-content/uploads/2022/03/9.jpeg)
 
 スカヴィーノが自分のツイッターで何か大きなことをほのめかしたのは、これだけではないと思う。
 
 2020年12月19日、彼は3枚の連続写真をツイートした。
 
-![](https://qryptraveller.com/wp-content/uploads/2022/03/10.jpeg)![](https://qryptraveller.com/wp-content/uploads/2022/03/11.jpeg)
+![](/images/wp/wp-content/uploads/2022/03/10.jpeg)![](/images/wp/wp-content/uploads/2022/03/11.jpeg)
 
-![](https://qryptraveller.com/wp-content/uploads/2022/03/12-1.jpeg)
+![](/images/wp/wp-content/uploads/2022/03/12-1.jpeg)
 
 これらのツイートで描かれている歴史上の人物は、いずれも「戦時中」の指導者たちである。
 

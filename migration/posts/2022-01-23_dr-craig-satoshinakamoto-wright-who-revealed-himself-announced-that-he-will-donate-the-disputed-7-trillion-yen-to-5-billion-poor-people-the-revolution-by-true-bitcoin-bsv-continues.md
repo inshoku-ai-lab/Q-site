@@ -20,7 +20,7 @@ tags:
   - "革命"
   - "金融変革"
 images:
-  - "https://qryptraveller.com/wp-content/uploads/2022/01/craig-donation.png"
+  - "/images/wp/wp-content/uploads/2022/01/craig-donation.png"
 excerpt: "裁判で正体が証明されたクレイグ・サトシナカモト・ライト博士が、最初期にマイニングした一一〇万枚（七兆円相当）の九八%を、世界の最も貧しい一〇億人から始めて五〇億人へ寄付すると公式表明——BSV基盤で配布されるため、BTC売却・BSV購入が引き起こす投資家の大移動はBTCの完全崩壊を招きうる。真のビットコインによる革命のシナリオを描く。"
 flags: ""
 ---
@@ -43,7 +43,7 @@ https://qryptraveller.com/the-truth-about-the-media-lying-regime-vs-dr-craig-and
 
 以前から、クレイグ博士はビットコインの最初期にマイニング（ビットコインの発行）した110万枚のビットコインを慈善的なことに寄付すると言っていたんですが、今回その発言を明確化しました。
 
-![](https://qryptraveller.com/wp-content/uploads/2022/01/craig-donation.png)
+![](/images/wp/wp-content/uploads/2022/01/craig-donation.png)
 > 今やっと全てが済んだので、私は公式に表明します。
 >
 > 私と私の家族が持っているビットコイン（サトシコイン）の９８％は、５０億人の人々をデジタル経済の基盤に載せるために使います。

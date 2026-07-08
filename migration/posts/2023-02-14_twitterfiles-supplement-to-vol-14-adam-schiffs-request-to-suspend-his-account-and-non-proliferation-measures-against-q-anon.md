@@ -18,15 +18,15 @@ tags:
   - "言論統制"
   - "補足"
 images:
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/3a-2.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/4-1.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/5-2.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/6-1.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/6b-2.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/6c-2.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/6d-1.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/7-1.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/9.jpg"
+  - "/images/wp/wp-content/uploads/2023/02/3a-2.jpg"
+  - "/images/wp/wp-content/uploads/2023/02/4-1.jpg"
+  - "/images/wp/wp-content/uploads/2023/02/5-2.jpg"
+  - "/images/wp/wp-content/uploads/2023/02/6-1.jpg"
+  - "/images/wp/wp-content/uploads/2023/02/6b-2.jpg"
+  - "/images/wp/wp-content/uploads/2023/02/6c-2.jpg"
+  - "/images/wp/wp-content/uploads/2023/02/6d-1.jpg"
+  - "/images/wp/wp-content/uploads/2023/02/7-1.jpg"
+  - "/images/wp/wp-content/uploads/2023/02/9.jpg"
 excerpt: "ツイッターファイル第一四弾補足「アダム・シフのアカウント停止要請とQアノン拡散防止措置」。下院民主党議員シフのスタッフは、ジョー・バイデンの「Peter Douche」パロディ写真の削除をDNCと共に要請したが、ヨエル・ロスはユーモア意図ありと拒否した——一方Qアノン規制ではアカウントを停止せず「拡散防止」する手段が選ばれていた。"
 flags: ""
 ---
@@ -81,7 +81,7 @@ https://twitter.com/SilERabbit/status/1254551597465518082?ref\_src=twsrc%5Etfw%7
 >   
 > ジル・バイデンが庇わないので、深いフェイクだとわかります。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/3a-2.jpg)
+![](/images/wp/wp-content/uploads/2023/02/3a-2.jpg)
 
 > ステーシア・カーダイル   
 >   
@@ -97,7 +97,7 @@ https://twitter.com/SilERabbit/status/1254551597465518082?ref\_src=twsrc%5Etfw%7
 
 信頼と安全チームの責任者ヨエル・ロスは、明らかに「ユーモアの意図」があり、「合理的な観察者」（シフのスタッフではない）は、それが加工されたものだとわかると述べ、削除を拒否しました。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/3a-2.jpg)
+![](/images/wp/wp-content/uploads/2023/02/3a-2.jpg)
 
 > ヨエル・ロス   
 >   
@@ -123,7 +123,7 @@ https://twitter.com/SilERabbit/status/1254551597465518082?ref\_src=twsrc%5Etfw%7
 
 シフのスタッフであるジェフ・ローウェンスタインは、"slippery slope concern here "（ここで滑りやすい斜面の懸念）があると主張し、あきらめませんでした。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/4-1.jpg)
+![](/images/wp/wp-content/uploads/2023/02/4-1.jpg)
 
 > ジェフ・ローウェンスタイン   
 >   
@@ -157,7 +157,7 @@ https://twitter.com/SilERabbit/status/1254551597465518082?ref\_src=twsrc%5Etfw%7
 
 ツイッターは、これは 「考えられない」と言っています。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/5-2.jpg)
+![](/images/wp/wp-content/uploads/2023/02/5-2.jpg)
 
 > 添付のPDFに記載されている要求（要望？）については、その多くが引用されたポリシーの下で可能な是正措置の対象外となっています。   
 >   
@@ -169,7 +169,7 @@ https://twitter.com/SilERabbit/status/1254551597465518082?ref\_src=twsrc%5Etfw%7
 
 シフ氏の事務所は「Qアノン関連の活動」について繰り返し苦言を呈しましたが、それはウクライナの「内部告発者」の身元やスティール文書のような他の事柄に関するツイートであることが多かったようです。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/6-1.jpg)
+![](/images/wp/wp-content/uploads/2023/02/6-1.jpg)
 
 > Pat Read   
 >   
@@ -179,7 +179,7 @@ https://twitter.com/SilERabbit/status/1254551597465518082?ref\_src=twsrc%5Etfw%7
 >   
 > エリック・キアラメラとホワイトハウスでのバラク・オバマ 反トランプのCIA情報提供者、エリック・キアラメラは8月に内部告発を行った。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/6b-2.jpg)
+![](/images/wp/wp-content/uploads/2023/02/6b-2.jpg)
 
 > Randal Caledonai   
 >   
@@ -189,7 +189,7 @@ https://twitter.com/SilERabbit/status/1254551597465518082?ref\_src=twsrc%5Etfw%7
 >   
 > バイデンによる本当のQUID PRO QUO（キックバックの意味）を隠蔽するために。」
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/6c-2.jpg)
+![](/images/wp/wp-content/uploads/2023/02/6c-2.jpg)
 
 > M.Canahuate   
 >   
@@ -197,7 +197,7 @@ https://twitter.com/SilERabbit/status/1254551597465518082?ref\_src=twsrc%5Etfw%7
 >   
 > アメリカ国家安全保障会議（NSC）の元職員は、ミスコはトランプ・ホワイトハウスでキアラメラの最も近く、最も信頼できる同盟者であったと述べている。」
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/6d-1.jpg)
+![](/images/wp/wp-content/uploads/2023/02/6d-1.jpg)
 
 > The Goddess   
 >   
@@ -221,7 +221,7 @@ https://twitter.com/SilERabbit/status/1254551597465518082?ref\_src=twsrc%5Etfw%7
 
 上記のものを含む一括ツイートについて、ツイッターの幹部は、「フラグを立てた多くのアカウントがすでにこの拡散防止措置に含まれていることを内部で確認できる」と書いています。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/7-1.jpg)
+![](/images/wp/wp-content/uploads/2023/02/7-1.jpg)
 
 > 匿名人物   
 >   
@@ -247,7 +247,7 @@ https://twitter.com/SilERabbit/status/1254551597465518082?ref\_src=twsrc%5Etfw%7
 
 「ツイッターの執行チームが実施した消音対策（私たちは大いに評価しています）が、法執行機関がミスコや他のHPSCIスタッフに関する潜在的脅威をツイッターで検索する能力を阻害する可能性があるかどうかが気になります......」
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/9.jpg)
+![](/images/wp/wp-content/uploads/2023/02/9.jpg)
 
 > ・問題のあるツイートを報告するための別名   
 >   

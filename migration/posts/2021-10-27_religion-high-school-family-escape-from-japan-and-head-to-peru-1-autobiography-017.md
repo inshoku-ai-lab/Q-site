@@ -17,8 +17,8 @@ tags:
   - "17歳"
   - "私小説"
 images:
-  - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog17-1.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog17-2-1.jpg"
+  - "/images/wp/wp-content/uploads/2021/11/Blog17-1.jpg"
+  - "/images/wp/wp-content/uploads/2021/11/Blog17-2-1.jpg"
 excerpt: "12年間夢に見続けたエホバの証人からの自由を手に入れ、ついに高校も中退——『２週間前には考えてもいなかった』決断が、一瞬で実行された秋。家を追い出される覚悟をしていた17歳に訪れた、母の予想外に平和な反応と、突如手に入った無為の日々の記録。"
 flags: ""
 ---
@@ -71,7 +71,7 @@ flags: ""
 
 ストレスから解放されて、放心状態になっていた僕には、その社会からの押し付けも、もはや意味をなさなくなっていた。
 
-![Blog17-1](https://qryptraveller.com/wp-content/uploads/2021/11/Blog17-1.jpg)
+![Blog17-1](/images/wp/wp-content/uploads/2021/11/Blog17-1.jpg)
 
 家族の誰もが、”とりあえず高校だけは行っておけ”と言う。
 
@@ -105,7 +105,7 @@ flags: ""
 
 ホームレスとして犯罪者として暮らして行く予定が突然消えたので、家に居たとしてもやることがなかった。
 
-![Blog17-2](https://qryptraveller.com/wp-content/uploads/2021/11/Blog17-2-1.jpg)
+![Blog17-2](/images/wp/wp-content/uploads/2021/11/Blog17-2-1.jpg)
 
 それまでは、学校や宿題やエホバの証人の活動で、自分の時間は殆どなかったので突如、高校と宗教を辞めて大量の時間を手に入れても、その時間をどうやって使ったらいいかわからなかった。
 

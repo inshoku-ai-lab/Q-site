@@ -24,9 +24,9 @@ tags:
   - "ミラー"
   - "人事"
 images:
-  - "https://qryptraveller.com/wp-content/uploads/2022/02/https___bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com_public_images_c91ed18b-5064-4037-95aa-53e7e0f9c2d3_249x305.jpeg"
-  - "https://qryptraveller.com/wp-content/uploads/2022/02/https___bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com_public_images_cbdabbb8-e457-49ab-a2d3-5aac9ff215f3_243x307.jpeg"
-  - "https://qryptraveller.com/wp-content/uploads/2022/02/https___bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com_public_images_e7b325e4-c1ea-4285-b09e-2d1777953afc_244x306-1.jpeg"
+  - "/images/wp/wp-content/uploads/2022/02/https___bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com_public_images_c91ed18b-5064-4037-95aa-53e7e0f9c2d3_249x305.jpeg"
+  - "/images/wp/wp-content/uploads/2022/02/https___bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com_public_images_cbdabbb8-e457-49ab-a2d3-5aac9ff215f3_243x307.jpeg"
+  - "/images/wp/wp-content/uploads/2022/02/https___bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com_public_images_e7b325e4-c1ea-4285-b09e-2d1777953afc_244x306-1.jpeg"
 excerpt: "国防総省CFOのノーキスト氏（二・七兆ドル資産の史上初の全部門財務監査を監督）が権限委譲計画の秘密資金を動かせる位置に——カシュ・パテル氏がミラー長官代理の参謀本部長に昇進。エズラ・コーエン＝ワトニック氏は国防総省情報担当とASD(SO/LIC)を兼務、DIA局長を直属の部下に持つことで、権限委譲計画を実行する部隊の要職に就任した。"
 flags: ""
 ---
@@ -57,7 +57,7 @@ flags: ""
 
 ## ここからがオリジナルの記事の翻訳になります
 
-![](https://qryptraveller.com/wp-content/uploads/2022/02/https___bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com_public_images_e7b325e4-c1ea-4285-b09e-2d1777953afc_244x306-1.jpeg)
+![](/images/wp/wp-content/uploads/2022/02/https___bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com_public_images_e7b325e4-c1ea-4285-b09e-2d1777953afc_244x306-1.jpeg)
 
 デビッド・ノーキストは、すでに7月31日から2021年2月8日まで国防副長官を務めている。
 
@@ -75,7 +75,7 @@ flags: ""
 
 2020年11月11日には、さらに2人のトランプの盟友が昇進しました。カシュ・パテル（この記事の著者の偽名、パテル・パトリオット）と、エズラ・コーエン・ワトニックだ。それぞれが、この物語の中でそれぞれの章に値する。
 
-![](https://qryptraveller.com/wp-content/uploads/2022/02/https___bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com_public_images_c91ed18b-5064-4037-95aa-53e7e0f9c2d3_249x305.jpeg)
+![](/images/wp/wp-content/uploads/2022/02/https___bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com_public_images_c91ed18b-5064-4037-95aa-53e7e0f9c2d3_249x305.jpeg)
 
 カシュ・パテルは、ミラー国防長官代理の参謀長に昇進しました。
 
@@ -90,7 +90,7 @@ flags: ""
 また、パテルは国防総省のバイデン政権移行チームとの調整役にも指名されていた。  
 (この件については後ほど説明します。）
 
-![](https://qryptraveller.com/wp-content/uploads/2022/02/https___bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com_public_images_cbdabbb8-e457-49ab-a2d3-5aac9ff215f3_243x307.jpeg)
+![](/images/wp/wp-content/uploads/2022/02/https___bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com_public_images_cbdabbb8-e457-49ab-a2d3-5aac9ff215f3_243x307.jpeg)
 
 エズラ・コーエン＝ワトニックは、国防総省の情報担当次官（UDI）に昇格したが、これは国防総省の情報担当のトップである。
 

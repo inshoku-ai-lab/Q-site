@@ -17,8 +17,8 @@ tags:
   - "お笑い"
   - "私小説"
 images:
-  - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog90-1.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog90-2.jpg"
+  - "/images/wp/wp-content/uploads/2021/11/Blog90-1.jpg"
+  - "/images/wp/wp-content/uploads/2021/11/Blog90-2.jpg"
 excerpt: "見た目は100%インド人なのに完璧な関西弁としゃべくり文化を操る、お香の露天商サトシ。子供の頃に長期滞在した関西人の旅人から言葉を覚えたという。お笑いオタクの著者をも満足させる他人種間ノリツッコミを楽しんだ後、いよいよ一人でバラナシへ向かう寝台列車の切符を取る。"
 flags: ""
 ---
@@ -47,7 +47,7 @@ flags: ""
 
 なんと彼は通りの端っこで、お香の露天商を営む『サダルストリート』の住人だった。
 
-![Blog90-1](https://qryptraveller.com/wp-content/uploads/2021/11/Blog90-1.jpg)
+![Blog90-1](/images/wp/wp-content/uploads/2021/11/Blog90-1.jpg)
 
 彼が子どものときに長期滞在していた関西人の旅人と、ずっと一緒にいることで言葉を覚えたのだという。
 
@@ -73,7 +73,7 @@ flags: ""
 
 僕がインドに対して抱いていた恐怖は、見知らぬものに対する恐怖で、カルカッタの濃い部分を知ってしまった今となっては、恐れる事は無くなった。
 
-![Blog90-2](https://qryptraveller.com/wp-content/uploads/2021/11/Blog90-2.jpg)
+![Blog90-2](/images/wp/wp-content/uploads/2021/11/Blog90-2.jpg)
 
 心の準備が出来、旅への興奮に浮足立った僕は、その足で列車の駅まで向かい、バラナシへ向かう寝台列車の切符を予約した。
 

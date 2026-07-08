@@ -23,10 +23,10 @@ tags:
   - "スパイゲート"
   - "パーキンス・コーイ"
 images:
-  - "https://qryptraveller.com/wp-content/uploads/2022/04/００１-1400x314.png"
-  - "https://qryptraveller.com/wp-content/uploads/2022/04/００２-1400x193.png"
-  - "https://qryptraveller.com/wp-content/uploads/2022/04/００３.webp"
-  - "https://qryptraveller.com/wp-content/uploads/2022/04/００４.webp"
+  - "/images/wp/wp-content/uploads/2022/04/００１-1400x314.png"
+  - "/images/wp/wp-content/uploads/2022/04/００２-1400x193.png"
+  - "/images/wp/wp-content/uploads/2022/04/００３.webp"
+  - "/images/wp/wp-content/uploads/2022/04/００４.webp"
 excerpt: "二〇二一年九月、ダーラム特別検察官はマイケル・サスマン弁護士の虚偽陳述罪での起訴を大陪審に要請した——彼はトランプ組織とアルファ銀行が通信しているという信用できない説をFBIに手渡していた。フュージョンGPSとの共謀を示すメールも明るみに。スパイゲートの第二の捏造調査を追う。"
 flags: ""
 ---
@@ -71,10 +71,10 @@ flags: ""
 >
 > 私たちが調べた裁判記録は、フュージョンGPS社、グレン・シンプソン、そして彼らの仲間が、偽のアルファ銀行／トランプ組織のストーリーを起草・宣伝する際に行った度合いを示しているようです。
 
-![](https://qryptraveller.com/wp-content/uploads/2022/04/００１-1400x314.png)
+![](/images/wp/wp-content/uploads/2022/04/００１-1400x314.png)
 > 興味深い裁判資料の1つが、フュージョンGPS社 Co マイケル・サスマンからのこの2016年8月26日の電子メールである。
 
-![](https://qryptraveller.com/wp-content/uploads/2022/04/００２-1400x193.png)
+![](/images/wp/wp-content/uploads/2022/04/００２-1400x193.png)
 > この電子メールは、アルファ銀行・トランプ組織がメディアに露出するようになった日付に対応している。
 >
 > サスマンがフュージョンGPS社と他にどのようなやり取りをしていたのか気になるところである。
@@ -101,9 +101,9 @@ flags: ""
 
 これからショーン・ヘンリー氏とクラウドストライク社の両方を取り上げていきますが、さらに関連性を確立するために、ここにパーキンスコーイ法律事務所とクラウドストライク社と民主党全国委員会（DNC）を直接結びつける[契約書を掲載](https://www.scribd.com/document/427619989/DEMOCRATIC-NATIONAL-COMMITTEE-AND-dccc-S-NOTICE-REGARDING-FILING-OF-SUPPLEMENTAL-EXHIBITS)します。
 
-![](https://qryptraveller.com/wp-content/uploads/2022/04/００３.webp)
+![](/images/wp/wp-content/uploads/2022/04/００３.webp)
 
-![](https://qryptraveller.com/wp-content/uploads/2022/04/００４.webp)
+![](/images/wp/wp-content/uploads/2022/04/００４.webp)
 
 （訳注：この画像は非常に訳しにくいので日本語訳は飛ばします。）
 

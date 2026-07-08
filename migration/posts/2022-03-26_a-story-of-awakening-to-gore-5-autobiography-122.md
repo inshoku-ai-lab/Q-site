@@ -17,7 +17,7 @@ tags:
   - "旅仲間"
   - "私小説"
 images:
-  - "https://qryptraveller.com/wp-content/uploads/2022/02/toilet.jpeg"
+  - "/images/wp/wp-content/uploads/2022/02/toilet.jpeg"
 excerpt: "30時間眠って復活し、便を木の枝で突いてラップに包まれたままのエクスタシーを発見——8倍の過剰摂取を薬の助けなく乗り切った証。10日分の家賃に相当する貴重品ゆえ便から回収する。ロンドン帰りのTちゃん・Nちゃんら、その後何年も続く友情を結ぶ仲間が次々と現れる12月のゴア。"
 flags: ""
 ---
@@ -147,7 +147,7 @@ background-color: #587746;
 
 あまりにも汚くて下品な話だが、当時の僕には１０日分の家賃に相当するエクスタシーの錠剤は、便の中からでも取り出すほどの貴重品だった。
 
-![](https://qryptraveller.com/wp-content/uploads/2022/02/toilet.jpeg)
+![](/images/wp/wp-content/uploads/2022/02/toilet.jpeg)
 
 ## エクスタシーでのパーティー
 

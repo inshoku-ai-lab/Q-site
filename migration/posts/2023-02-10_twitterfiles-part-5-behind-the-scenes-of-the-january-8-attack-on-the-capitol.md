@@ -19,31 +19,31 @@ tags:
   - "検閲"
   - "言論統制"
 images:
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/10-1.jpeg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/14-2.jpeg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/15.png"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/16.png"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/18-1.jpeg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/2-1.jpeg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/20-2.jpeg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/21-1.jpeg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/23-2.jpeg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/24-1.png"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/26-2.jpeg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/27-1.jpeg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/28-1.jpeg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/3-2.jpeg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/30.jpeg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/31-1.jpeg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/33a.png"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/33b.png"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/34-1.png"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/35-1.png"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/36-1.png"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/37-1.jpeg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/37b.png"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/7-2.jpeg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/9-2.jpeg"
+  - "/images/wp/wp-content/uploads/2023/02/10-1.jpeg"
+  - "/images/wp/wp-content/uploads/2023/02/14-2.jpeg"
+  - "/images/wp/wp-content/uploads/2023/02/15.png"
+  - "/images/wp/wp-content/uploads/2023/02/16.png"
+  - "/images/wp/wp-content/uploads/2023/02/18-1.jpeg"
+  - "/images/wp/wp-content/uploads/2023/02/2-1.jpeg"
+  - "/images/wp/wp-content/uploads/2023/02/20-2.jpeg"
+  - "/images/wp/wp-content/uploads/2023/02/21-1.jpeg"
+  - "/images/wp/wp-content/uploads/2023/02/23-2.jpeg"
+  - "/images/wp/wp-content/uploads/2023/02/24-1.png"
+  - "/images/wp/wp-content/uploads/2023/02/26-2.jpeg"
+  - "/images/wp/wp-content/uploads/2023/02/27-1.jpeg"
+  - "/images/wp/wp-content/uploads/2023/02/28-1.jpeg"
+  - "/images/wp/wp-content/uploads/2023/02/3-2.jpeg"
+  - "/images/wp/wp-content/uploads/2023/02/30.jpeg"
+  - "/images/wp/wp-content/uploads/2023/02/31-1.jpeg"
+  - "/images/wp/wp-content/uploads/2023/02/33a.png"
+  - "/images/wp/wp-content/uploads/2023/02/33b.png"
+  - "/images/wp/wp-content/uploads/2023/02/34-1.png"
+  - "/images/wp/wp-content/uploads/2023/02/35-1.png"
+  - "/images/wp/wp-content/uploads/2023/02/36-1.png"
+  - "/images/wp/wp-content/uploads/2023/02/37-1.jpeg"
+  - "/images/wp/wp-content/uploads/2023/02/37b.png"
+  - "/images/wp/wp-content/uploads/2023/02/7-2.jpeg"
+  - "/images/wp/wp-content/uploads/2023/02/9-2.jpeg"
 excerpt: "ツイッターファイル第五弾「ツイッターからのトランプ排除」。一月八日朝、永久停止まで残り一回というカウントの中で大統領が放った二つのツイートを社員はルール違反でないと知りつつ追放した——他国の過激な指導者は放置しながら。検閲を義務と感じ、追放に喜びを見出した社員たちの姿が、内部メールから一日単位で明らかになる。"
 flags: ""
 ---
@@ -104,7 +104,7 @@ https://twitter.com/bariweiss/status/1602364197194432515?s=20&t=Pt5tzPmirzmwoJHo
 
 彼らは、どんな形であれ、軽視されたり、不当に扱われたりすることはありません!!!」
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/2-1.jpeg)
+![](/images/wp/wp-content/uploads/2023/02/2-1.jpeg)
 
 > ドナルド・J・トランプ @realDonaldTrump   
 >   
@@ -116,7 +116,7 @@ https://twitter.com/bariweiss/status/1602364197194432515?s=20&t=Pt5tzPmirzmwoJHo
 
 午前7時44分：「お問い合わせいただいた皆様へ、私は1月20日の就任式には行きません。」
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/3-2.jpeg)
+![](/images/wp/wp-content/uploads/2023/02/3-2.jpeg)
 
 > ドナルド・J・トランプ @realDonaldTrump   
 >   
@@ -140,7 +140,7 @@ https://twitter.com/bariweiss/status/1602364197194432515?s=20&t=Pt5tzPmirzmwoJHo
 
 「私が中国出身だからかもしれないが、検閲がいかに公共の会話を破壊するかを深く理解している。」と1月7日にある社員が言っています。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/7-2.jpeg)
+![](/images/wp/wp-content/uploads/2023/02/7-2.jpeg)
 
 > 2021年1月7日(木) 10.18.34 匿名   
 >   
@@ -180,7 +180,7 @@ https://twitter.com/bariweiss/status/1602364197194432515?s=20&t=Pt5tzPmirzmwoJHo
 
 1月6日以降、ツイッターの社員たちは、雇用主に対してトランプ氏を追放するよう要求するために組織化された「多くの従業員擁護が起こっている」と、あるツイッターの従業員は言いました。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/9-2.jpeg)
+![](/images/wp/wp-content/uploads/2023/02/9-2.jpeg)
 
 > 15:42:53 匿名   
 >   
@@ -236,7 +236,7 @@ https://twitter.com/bariweiss/status/1602364197194432515?s=20&t=Pt5tzPmirzmwoJHo
 
 「彼はルールに違反しないようにしながら、扇動という針に糸を通すように挑戦するつもりであることは明らかです。」と別の人は言いました。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/10-1.jpeg)
+![](/images/wp/wp-content/uploads/2023/02/10-1.jpeg)
 
 > 2021年1月8日(金) 07.49.24 匿名   
 >   
@@ -288,7 +288,7 @@ https://twitter.com/bariweiss/status/1602364197194432515?s=20&t=Pt5tzPmirzmwoJHo
 
 「ここでは扇動という観点は見られない。」
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/14-2.jpeg)
+![](/images/wp/wp-content/uploads/2023/02/14-2.jpeg)
 
 > アニカ・ナバロリ 07:30:58   
 >   
@@ -331,7 +331,7 @@ https://twitter.com/bariweiss/status/1602364197194432515?s=20&t=Pt5tzPmirzmwoJHo
 
 「私は選挙チャンネルで、我々のチームが評価した結果、トランプのツイートには違反行為はなかったと回答します。」
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/15.png)
+![](/images/wp/wp-content/uploads/2023/02/15.png)
 
 > アニカ・ナバロリ 07:33:20   
 >   
@@ -355,7 +355,7 @@ https://twitter.com/bariweiss/status/1602364197194432515?s=20&t=Pt5tzPmirzmwoJHo
 
 「参考までに、安全チームは上記のトランプのツイートを評価し、現時点では当社のポリシーに違反するものはないと判断しました。」
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/16.png)
+![](/images/wp/wp-content/uploads/2023/02/16.png)
 > 2021年1月8日(金) 07.17.51 匿名   
 >   
 > 申し訳ありません、しばらく席を外していました。   
@@ -378,7 +378,7 @@ https://twitter.com/bariweiss/status/1602364197194432515?s=20&t=Pt5tzPmirzmwoJHo
 
 「明確に違反なしです。就任式に出席しないと言っているだけです。」と。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/18-1.jpeg)
+![](/images/wp/wp-content/uploads/2023/02/18-1.jpeg)
 
 > 匿名 07:48:07   
 >   
@@ -414,7 +414,7 @@ https://twitter.com/bariweiss/status/1602364197194432515?s=20&t=Pt5tzPmirzmwoJHo
 
 ツイッターはこのツイートを削除することも、アヤトラのアカウントを停止することもしませんでした。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/20-2.jpeg)
+![](/images/wp/wp-content/uploads/2023/02/20-2.jpeg)
 
 > カメネイJr   
 >   
@@ -434,7 +434,7 @@ https://twitter.com/bariweiss/status/1602364197194432515?s=20&t=Pt5tzPmirzmwoJHo
 
 下のツイートはウェイバック・マシーンから取得したものです。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/21-1.jpeg)
+![](/images/wp/wp-content/uploads/2023/02/21-1.jpeg)
 
 > マハティール・モハマド博士 @chedetofficial   
 >   
@@ -450,7 +450,7 @@ https://twitter.com/bariweiss/status/1602364197194432515?s=20&t=Pt5tzPmirzmwoJHo
 
 ツイッターはこのツイートの投稿を許可し、同首相を追放しませんでした。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/23-2.jpeg)
+![](/images/wp/wp-content/uploads/2023/02/23-2.jpeg)
 
 > アビイ・アーメド・アリ   
 >   
@@ -460,7 +460,7 @@ https://twitter.com/bariweiss/status/1602364197194432515?s=20&t=Pt5tzPmirzmwoJHo
 
 ツイッターはモディを追放しませんでした。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/24-1.png)
+![](/images/wp/wp-content/uploads/2023/02/24-1.png)
 
 > 「モディ政権がソーシャルメディアに圧力をかけたことで、ツイッターがインドでアカウントブロックした」   
 >   
@@ -474,7 +474,7 @@ https://twitter.com/bariweiss/status/1602364197194432515?s=20&t=Pt5tzPmirzmwoJHo
 
 ツイッターの法務・ポリシー・信頼部門の責任者であるビジャヤ・ガッデは、それは本当のところは「暗号化された暴力の扇動」ではないか？と問いかけました。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/26-2.jpeg)
+![](/images/wp/wp-content/uploads/2023/02/26-2.jpeg)
 
 > ビジャヤ・ガッデ 09:11:01   
 >   
@@ -518,7 +518,7 @@ https://twitter.com/bariweiss/status/1602364197194432515?s=20&t=Pt5tzPmirzmwoJHo
 
 もし「アメリカの愛国者」というフレーズを暴徒を指すと解釈していたならばの話です。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/27-1.jpeg)
+![](/images/wp/wp-content/uploads/2023/02/27-1.jpeg)
 
 > 匿名 9:05:23   
 >   
@@ -568,7 +568,7 @@ https://twitter.com/bariweiss/status/1602364197194432515?s=20&t=Pt5tzPmirzmwoJHo
 
 そのチームのメンバーは、「彼をクライストチャーチの銃撃犯やヒトラーに匹敵する暴力・死者を出したテロ集団のリーダーとして捉え、その上で彼のツイートを総合的に判断すると、彼はプラットフォームから外すべきだ。」と考えるようになったのです。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/28-1.jpeg)
+![](/images/wp/wp-content/uploads/2023/02/28-1.jpeg)
 
 匿名 10:03:49   
   
@@ -592,7 +592,7 @@ https://twitter.com/bariweiss/status/1602364197194432515?s=20&t=Pt5tzPmirzmwoJHo
 
 （訳注：悪の凡庸性とは、思慮のなさゆえに悪事を犯してしまう人の危険さを指した言葉。参考文献：<https://aeon.co/ideas/what-did-hannah-arendt-really-mean-by-the-banality-of-evil>）
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/30.jpeg)
+![](/images/wp/wp-content/uploads/2023/02/30.jpeg)
 
 > 匿名 14:40:16   
 >   
@@ -622,7 +622,7 @@ https://twitter.com/bariweiss/status/1602364197194432515?s=20&t=Pt5tzPmirzmwoJHo
 
 ロスは、「神は私たちを助けてくれる、これを見ると、彼はそれを公に共有したいのだと思います。」と書きました。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/31-1.jpeg)
+![](/images/wp/wp-content/uploads/2023/02/31-1.jpeg)
 
 > 匿名 13:56:48   
 >   
@@ -652,7 +652,7 @@ https://twitter.com/bariweiss/status/1602364197194432515?s=20&t=Pt5tzPmirzmwoJHo
 
 そのとき、ツイッターでは多くの人が恍惚の表情を浮かべていました。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/33a.png)
+![](/images/wp/wp-content/uploads/2023/02/33a.png)
 
 > みんな、トランプがアカウント停止になった！   
 >   
@@ -662,7 +662,7 @@ https://twitter.com/bariweiss/status/1602364197194432515?s=20&t=Pt5tzPmirzmwoJHo
 >   
 > あああああ！！！！
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/33b.png)
+![](/images/wp/wp-content/uploads/2023/02/33b.png)
 
 > 歴史的な瞬間に感じます。   
 >   
@@ -680,7 +680,7 @@ https://twitter.com/bariweiss/status/1602364197194432515?s=20&t=Pt5tzPmirzmwoJHo
 
 「信頼と安全チーム」の担当者が、このトランプのアカウントをモグラ叩きしていることに大きな賛辞を送りたい。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/34-1.png)
+![](/images/wp/wp-content/uploads/2023/02/34-1.png)
 
 > 信頼と安全チームがそこに座って、これらのトランプのアカウントをモグラ叩きしていることに大感謝です。   
 >   
@@ -694,7 +694,7 @@ https://twitter.com/bariweiss/status/1602364197194432515?s=20&t=Pt5tzPmirzmwoJHo
 
 翌日には、社員が「医療誤報」に一刻も早く取り組みたいと意気込んでいます。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/35-1.png)
+![](/images/wp/wp-content/uploads/2023/02/35-1.png)
 
 > 匿名   
 >   
@@ -720,7 +720,7 @@ https://twitter.com/bariweiss/status/1602364197194432515?s=20&t=Pt5tzPmirzmwoJHo
 
 別の社員は、「それは尊重するけれど、決して温かい気持ちにさせてくれるものではありませんでした。」と書いています。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/36-1.png)
+![](/images/wp/wp-content/uploads/2023/02/36-1.png)
 
 > 2021年1月11日(月) 15.02.15 匿名   
 >   
@@ -742,7 +742,7 @@ https://twitter.com/bariweiss/status/1602364197194432515?s=20&t=Pt5tzPmirzmwoJHo
 
 アグラワルはさらに、「中央集権的なコンテンツ規制、私の見解では、今や限界点に達しています。」と述べています。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/37-1.jpeg)
+![](/images/wp/wp-content/uploads/2023/02/37-1.jpeg)
 
 > パラグ・アグラワル 16:08:43   
 >   
@@ -780,7 +780,7 @@ https://twitter.com/bariweiss/status/1602364197194432515?s=20&t=Pt5tzPmirzmwoJHo
 >   
 > 中央集権的なコンテンツ規制は、私の見解では今、限界点に達しています。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/37b.png)
+![](/images/wp/wp-content/uploads/2023/02/37b.png)
 
 > 匿名 6:15:13   
 >   

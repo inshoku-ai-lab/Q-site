@@ -19,9 +19,9 @@ tags:
   - "検閲"
   - "言論統制"
 images:
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/1-2.jpeg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/2-5.jpeg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/3-4.jpeg"
+  - "/images/wp/wp-content/uploads/2023/02/1-2.jpeg"
+  - "/images/wp/wp-content/uploads/2023/02/2-5.jpeg"
+  - "/images/wp/wp-content/uploads/2023/02/3-4.jpeg"
 excerpt: "ツイッターファイル第一三弾「ファイザー社取締役のスコット・ゴットリーブ博士」。元FDA長官で当時ファイザーから三六万五千ドルの報酬を得ていた彼は、コロナ自然免疫がワクチン防御に勝ると示唆したブレット・ジロワール元FDA長官代理のツイートまで検閲対象にさせていた——売上の半分をmRNAに依存する企業役員による干渉を暴く。"
 flags: ""
 ---
@@ -86,7 +86,7 @@ https://twitter.com/AlexBerenson/status/1612526697038897167?s=20&t=XbiBuzaZBonqf
 
 彼は、この投稿が「拡散されて、報道されることになるのではないか」と心配していました。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/1-2.jpeg)
+![](/images/wp/wp-content/uploads/2023/02/1-2.jpeg)
 
 > 過去にコロナに感染していた人の場合は、自然免疫の方が、ワクチン免疫より「遥かに」優れていることが明らかになりました。   
 >   
@@ -134,7 +134,7 @@ https://twitter.com/AlexBerenson/status/1612526697038897167?s=20&t=XbiBuzaZBonqf
 
 しかし、ツイッターはジロワール氏のツイートにフラグを立て、誤解を招くようなタグを付けて、ほとんど誰も見ることができないようにしたのです。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/2-5.jpeg)
+![](/images/wp/wp-content/uploads/2023/02/2-5.jpeg)
 
 > Brett Giroir：   
 >   
@@ -184,7 +184,7 @@ https://twitter.com/AlexBerenson/status/1612526697038897167?s=20&t=XbiBuzaZBonqf
 
 「これらのプラットフォームは、人々に対する直接的な脅威、物理的な脅威を取り締まることができないので、そのエコシステムで何が起こっているのか、それが私の懸念です」とゴットリーブは言いました。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/3-4.jpeg)
+![](/images/wp/wp-content/uploads/2023/02/3-4.jpeg)
 
 > @SquawkCNBC   
 >   

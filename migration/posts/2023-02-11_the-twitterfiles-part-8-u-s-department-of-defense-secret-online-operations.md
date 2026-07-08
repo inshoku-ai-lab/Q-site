@@ -18,18 +18,18 @@ tags:
   - "検閲"
   - "言論統制"
 images:
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/10-2.jpeg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/12-3.jpeg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/16a.jpeg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/16b.jpeg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/19a.jpeg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/2-3.jpeg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/4-3.jpeg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/6a.jpeg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/6b.jpeg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/6c.jpeg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/7a.jpeg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/7b.jpeg"
+  - "/images/wp/wp-content/uploads/2023/02/10-2.jpeg"
+  - "/images/wp/wp-content/uploads/2023/02/12-3.jpeg"
+  - "/images/wp/wp-content/uploads/2023/02/16a.jpeg"
+  - "/images/wp/wp-content/uploads/2023/02/16b.jpeg"
+  - "/images/wp/wp-content/uploads/2023/02/19a.jpeg"
+  - "/images/wp/wp-content/uploads/2023/02/2-3.jpeg"
+  - "/images/wp/wp-content/uploads/2023/02/4-3.jpeg"
+  - "/images/wp/wp-content/uploads/2023/02/6a.jpeg"
+  - "/images/wp/wp-content/uploads/2023/02/6b.jpeg"
+  - "/images/wp/wp-content/uploads/2023/02/6c.jpeg"
+  - "/images/wp/wp-content/uploads/2023/02/7a.jpeg"
+  - "/images/wp/wp-content/uploads/2023/02/7b.jpeg"
 excerpt: "ツイッターファイル第八弾「ツイッターはいかにして米国防総省の秘密オンライン作戦を助けたか？」。国家のプラットフォーム操作を停止すると議会で証言しながら、アメリカ中央軍が中東で運営する偽アカウント網に認証マークやホワイトリストを付与して便宜を図っていた——他国の同種アカウントは停止しながら。米軍プロパガンダの片棒を担いだ実態を暴く。"
 flags: ""
 ---
@@ -78,7 +78,7 @@ https://twitter.com/lhfang/status/1605292454261182464?s=20&t=7d0xMYxK8ue\_kF8o7X
 
 こちらは、国家に支援された秘密情報操作と欺瞞的プロパガンダを迅速に特定し、停止させるというツイッターの議会での証言です。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/2-3.jpeg)
+![](/images/wp/wp-content/uploads/2023/02/2-3.jpeg)
 
 > C. 国家に支援された情報操作   
 >   
@@ -106,7 +106,7 @@ https://twitter.com/lhfang/status/1605292454261182464?s=20&t=7d0xMYxK8ue\_kF8o7X
 
 この当局者は、6つのアカウントに優先サービス、1つに認証、他のアカウントに「ホワイトリスト」能力を要求しました。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/4-3.jpeg)
+![](/images/wp/wp-content/uploads/2023/02/4-3.jpeg)
 
 > ありがとうございます！ ツイートできないときにウェブオペをするのは確かに厳しいです。   
 >   
@@ -132,7 +132,7 @@ https://twitter.com/lhfang/status/1605292454261182464?s=20&t=7d0xMYxK8ue\_kF8o7X
 
 リストにあるアメリカ中央軍のアカウントは、反イランメッセージの促進、サウジアラビアと米国が支援するイエメン戦争の促進、テロリストのみを攻撃すると主張する「正確な」米国のドローン攻撃など、中東における米国の軍事的優先事項について頻繁にツイートしています。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/6a.jpeg)
+![](/images/wp/wp-content/uploads/2023/02/6a.jpeg)
 
 > イエメン・ジュブナイル   
 >   
@@ -146,13 +146,13 @@ https://twitter.com/lhfang/status/1605292454261182464?s=20&t=7d0xMYxK8ue\_kF8o7X
 >   
 > ハドラマウトの #アルアブリ地区
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/6b.jpeg)
+![](/images/wp/wp-content/uploads/2023/02/6b.jpeg)
 
 > サウジアラビア王国が率いるアラブ連合の戦闘機   
 >   
 > その空襲はサーダのフーシ派民兵の位置をターゲットにした。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/6c.jpeg)
+![](/images/wp/wp-content/uploads/2023/02/6c.jpeg)
 
 > 「アンサール」テロリストのグループを標的とした正確な空爆。   
 >   
@@ -164,7 +164,7 @@ https://twitter.com/lhfang/status/1605292454261182464?s=20&t=7d0xMYxK8ue\_kF8o7X
 
 ユーフラテス・パルス「別のものは、明らかに偽のプロフィール写真を使用し、イラクの意見の情報源であると主張した。」
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/7a.jpeg)
+![](/images/wp/wp-content/uploads/2023/02/7a.jpeg)
 
 > アルテグルの使者   
 >   
@@ -172,7 +172,7 @@ https://twitter.com/lhfang/status/1605292454261182464?s=20&t=7d0xMYxK8ue\_kF8o7X
 >   
 > テロとの戦い、過激派イデオロギーとの戦いを取材するためのものです。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/7b.jpeg)
+![](/images/wp/wp-content/uploads/2023/02/7b.jpeg)
 
 > ユーフラテス パルス
 
@@ -190,7 +190,7 @@ https://twitter.com/lhfang/status/1605292454261182464?s=20&t=7d0xMYxK8ue\_kF8o7X
 
 「この空間での活動を難解にするために、これは恥をかかないための過剰分類を表しているかもしれない」と言っています。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/10-2.jpeg)
+![](/images/wp/wp-content/uploads/2023/02/10-2.jpeg)
 
 > ステイシア・カーディル   
 >   
@@ -224,7 +224,7 @@ https://twitter.com/lhfang/status/1605292454261182464?s=20&t=7d0xMYxK8ue\_kF8o7X
 
 これらのアカウントは、シリア/ISISにおける米軍の問題についてロシア語やアラビア語でツイートしており、また多くは国防総省との関係を明らかにしていませんでした。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/12-3.jpeg)
+![](/images/wp/wp-content/uploads/2023/02/12-3.jpeg)
 
 > ビルさん、 昨日もお時間をいただきありがとうございました。   
 >   
@@ -254,13 +254,13 @@ https://twitter.com/lhfang/status/1605292454261182464?s=20&t=7d0xMYxK8ue\_kF8o7X
 
 このアカウントはAIが作成したディープフェイクの画像を使用していました。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/16a.jpeg)
+![](/images/wp/wp-content/uploads/2023/02/16a.jpeg)
 
 > 図 46: Facebookページの発見者と中東グループの他の2つのアカウントで使用されているプロフィール画像。   
 >   
 > 左耳と目の中央の配置に問題があることから、人工知能の技術を使って生成されたことがわかる。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/16b.jpeg)
+![](/images/wp/wp-content/uploads/2023/02/16b.jpeg)
 
 > 図 47: 左：発見者のツイッターアカウントのアーカイブ版。   
 >   
@@ -286,7 +286,7 @@ https://twitter.com/lhfang/status/1605292454261182464?s=20&t=7d0xMYxK8ue\_kF8o7X
 
 なぜなら、その記事はツイッターの職員には一切触れず、主に国防総省に焦点を当てていたからです。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/19a.jpeg)
+![](/images/wp/wp-content/uploads/2023/02/19a.jpeg)
 
 > お元気でしょうか。   
 >   

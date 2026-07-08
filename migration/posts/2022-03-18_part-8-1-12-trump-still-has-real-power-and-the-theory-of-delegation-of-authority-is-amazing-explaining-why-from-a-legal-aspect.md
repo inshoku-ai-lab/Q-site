@@ -20,8 +20,8 @@ tags:
   - "暗号"
   - "トランプ"
 images:
-  - "https://qryptraveller.com/wp-content/uploads/2022/03/1.jpeg"
-  - "https://qryptraveller.com/wp-content/uploads/2022/03/2.jpg"
+  - "/images/wp/wp-content/uploads/2022/03/1.jpeg"
+  - "/images/wp/wp-content/uploads/2022/03/2.jpg"
 excerpt: "トランプのソーシャルメディアディレクターのダン・スカヴィーノ氏は権限委譲計画に関わる大物——彼の歴代投稿には計画の各局面を匂わせるものが多く、「歴史的な瞬間があった」のツイートを含めて、その隠喩を追うパート８の幕開け。"
 flags: ""
 ---
@@ -52,7 +52,7 @@ flags: ""
 
 その確信は、この1枚の写真から得られている。
 
-![](https://qryptraveller.com/wp-content/uploads/2022/03/1.jpeg)
+![](/images/wp/wp-content/uploads/2022/03/1.jpeg)
 
 この写真は、2019/10/26に撮影されたものです。
 
@@ -72,7 +72,7 @@ flags: ""
 
 2020年12月15日、ダン・スカヴィーノは "ホワイトハウスでの歴史的な瞬間......それがどんなものだったか、いつか話せるようになったらお話しします" というキャプションとともに、この写真をツイートした。
 
-![](https://qryptraveller.com/wp-content/uploads/2022/03/2.jpg)
+![](/images/wp/wp-content/uploads/2022/03/2.jpg)
 
 この写真が出てきたとき、それが私にどのような影響を与えたか、はっきりと覚えています。
 

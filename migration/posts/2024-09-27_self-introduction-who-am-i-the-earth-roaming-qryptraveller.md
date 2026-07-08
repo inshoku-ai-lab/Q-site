@@ -18,7 +18,7 @@ tags:
   - "断捨離"
   - "旅人"
 images:
-  - "https://qryptraveller.com/wp-content/uploads/2024/09/IMG_20240731_170600-scaled.jpg"
+  - "/images/wp/wp-content/uploads/2024/09/IMG_20240731_170600-scaled.jpg"
 excerpt: "地球放浪クリプトラベラー自己紹介。基本は旅人、その延長線に覚醒系市民ジャーナリスト・音楽活動・自給自足生活が乗る——エホバの証人の母子家庭で五歳から抑圧、一七歳で宗教・高校・日本を抜け出し、一九歳で中国へ渡りチベットで二〇歳を迎えゴアでヒッピー・ノマドに目覚め、二五歳で全所有物処分・出家。「路上で野垂れ死ぬ」を目標にした人生の総括。"
 flags: ""
 ---
@@ -79,7 +79,7 @@ https://qryptraveller.com/a-story-of-more-than-20-years-of-wandering-around-the-
 
 標高２５００メートルの超山奥にあるメキシコ・ネイティブ・アメリカンのザポテック族の村に土地を買い、ティピーで野外生活をしています。
 
-![僕が今住んでいるティピー](https://qryptraveller.com/wp-content/uploads/2024/09/IMG_20240731_170600-scaled.jpg)
+![僕が今住んでいるティピー](/images/wp/wp-content/uploads/2024/09/IMG_20240731_170600-scaled.jpg)
 
 雨季対策のために色々な部分をグリーンハウス用のプラスチックで覆っていてあまり美しくはないのですが、リアルな野外暮らしが見て取れるかと思います。
 

@@ -20,9 +20,9 @@ tags:
   - "銀投資"
   - "世界経済"
 images:
-  - "https://qryptraveller.com/wp-content/uploads/2022/04/head-and-shoulder-2.png"
-  - "https://qryptraveller.com/wp-content/uploads/2022/04/qryp-coment1.jpeg"
-  - "https://qryptraveller.com/wp-content/uploads/2022/04/qryp-coment2.jpeg"
+  - "/images/wp/wp-content/uploads/2022/04/head-and-shoulder-2.png"
+  - "/images/wp/wp-content/uploads/2022/04/qryp-coment1.jpeg"
+  - "/images/wp/wp-content/uploads/2022/04/qryp-coment2.jpeg"
 excerpt: "ロシア中央銀行が「一グラム五〇〇〇ルーブルで金を買い取る」と発表しても、それはまだ金本位制ではない——だが世界経済への影響は出始めている。RT（ロシア・トゥデイ）に寄稿したブリオンスター・シンガポールの貴金属アナリスト、ローナン・マンリー氏のインタビューを翻訳し、ルーブルと金とエネルギーをリンクさせるパラダイムシフトの可能性を読み解く。"
 flags: ""
 ---
@@ -45,9 +45,9 @@ flags: ""
 
 [blogcard url="https://note.com/anko\_kumaow/n/n546083da7c80?scrollpos=comment"]
 
-![](https://qryptraveller.com/wp-content/uploads/2022/04/qryp-coment1.jpeg)
+![](/images/wp/wp-content/uploads/2022/04/qryp-coment1.jpeg)
 
-![](https://qryptraveller.com/wp-content/uploads/2022/04/qryp-coment2.jpeg)
+![](/images/wp/wp-content/uploads/2022/04/qryp-coment2.jpeg)
 
 ここまでは、「金本位制だー」　＞　「勘違いだった。。」という流れなのですが、この先の流れが絶妙なことになりそうです。
 
@@ -155,7 +155,7 @@ DeepLで翻訳して、人力修正しました。
 
 このパターンがチャートの底で現れると、そのパターンの幅の二倍の値動きをすると言われているものです。
 
-![](https://qryptraveller.com/wp-content/uploads/2022/04/head-and-shoulder-2.png)
+![](/images/wp/wp-content/uploads/2022/04/head-and-shoulder-2.png)
 
 仮にこの通常のパターン通りにチャートが進むと、１週間もしないうちに金１グラム＝５０００ルーブルのラインに到達しそうです。
 

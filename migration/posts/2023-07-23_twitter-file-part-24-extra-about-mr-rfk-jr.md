@@ -20,15 +20,15 @@ tags:
   - "検閲"
   - "言論統制"
 images:
-  - "https://qryptraveller.com/wp-content/uploads/2023/07/2.png"
-  - "https://qryptraveller.com/wp-content/uploads/2023/07/3.jpeg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/07/4.png"
-  - "https://qryptraveller.com/wp-content/uploads/2023/07/5.jpeg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/07/6a.jpeg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/07/6b.jpeg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/07/7.jpeg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/07/7a.jpeg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/07/7b.jpeg"
+  - "/images/wp/wp-content/uploads/2023/07/2.png"
+  - "/images/wp/wp-content/uploads/2023/07/3.jpeg"
+  - "/images/wp/wp-content/uploads/2023/07/4.png"
+  - "/images/wp/wp-content/uploads/2023/07/5.jpeg"
+  - "/images/wp/wp-content/uploads/2023/07/6a.jpeg"
+  - "/images/wp/wp-content/uploads/2023/07/6b.jpeg"
+  - "/images/wp/wp-content/uploads/2023/07/7.jpeg"
+  - "/images/wp/wp-content/uploads/2023/07/7a.jpeg"
+  - "/images/wp/wp-content/uploads/2023/07/7b.jpeg"
 excerpt: "ツイッターファイル第二四弾エクストラ「RFK Jr氏への言論統制」。バイデン就任翌日の二〇二一年一月二一日午後八時五分、ホワイトハウスのフラハティ補佐官が彼のツイート削除を要請、五分後にハワイのシャッツ上院議員の事務所も同じ要請を法律事務所経由で送っていた——CCDHの「一二人の偽情報拡散者」リストやVirality Projectの「常習犯」認定の実態も。"
 flags: ""
 ---
@@ -59,41 +59,41 @@ flags: ""
 
 公聴会では、民主党委員がRFK Jr氏に対して、『ワールド・ウォーZ』や『２８日後』の映画を彷彿とさせるような血みどろの攻撃を行いました。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/07/2.png)
+![](/images/wp/wp-content/uploads/2023/07/2.png)
 
 ジム・ジョーダン委員長は、バイデン・ホワイトハウスがRFK Jr氏のツイートを削除するようにツイッター社に依頼した手紙を読み上げました。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/07/3.jpeg)
+![](/images/wp/wp-content/uploads/2023/07/3.jpeg)
 
 ホワイトハウスのクラーク・ハンフリー補佐官からのこの手紙は、バイデン大統領就任式の翌日、2021年1月21日午後8時5分に送信されました。
 
 ツイッター社のデータには、その5分後に送られた同様の手紙がありました。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/07/4.png)
+![](/images/wp/wp-content/uploads/2023/07/4.png)
 
 ツイッター社は、ハワイの民主党上院議員ブライアン・シャッツ氏から法律事務所経由で送られてきたリクエストを処理しました。
 
 シャッツ氏の事務所も法律事務所もそのことに関してはコメントしていません。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/07/5.jpeg)
+![](/images/wp/wp-content/uploads/2023/07/5.jpeg)
 
 ツイッターファイルにはRFK Jr氏に関するトラフィックが多数あり、その多くは、12人の検事総長を動員してRFK Jr氏を「１ダースの偽情報」の1人として排除した、デジタルヘイト対策センターが関与しています。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/07/6a.jpeg)
+![](/images/wp/wp-content/uploads/2023/07/6a.jpeg)
 
-![](https://qryptraveller.com/wp-content/uploads/2023/07/6b.jpeg)
+![](/images/wp/wp-content/uploads/2023/07/6b.jpeg)
 
 ヴァイラリティ・プロジェクトは、RFK Jr氏を、投稿が「ほぼ常に報告可能」な「常習犯」と認定しています。
 
 これは、言論そのものではなく発言者を対象とする言論統制の新しいアプローチの典型的なものです。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/07/7.jpeg)
+![](/images/wp/wp-content/uploads/2023/07/7.jpeg)
 
 公表された週刊誌で、副社長は「フェイスブックで繰り返し反ワクチン・インフルエンサーから投稿されるコロナ関連の投稿の今週のトップ」は「大手製薬会社のCEOが得る給与パッケージを非難する」RFK Jr氏の記事であると指摘したことがあります。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/07/7a.jpeg)
+![](/images/wp/wp-content/uploads/2023/07/7a.jpeg)
 
-![](https://qryptraveller.com/wp-content/uploads/2023/07/7b.jpeg)
+![](/images/wp/wp-content/uploads/2023/07/7b.jpeg)
 
 ケネディ・キャンペーンのマネージャー、デニス・クシニッチ氏は、ホワイトハウスの対応には驚かなかったが、シャッツ氏には驚いたとコメントしました。
 

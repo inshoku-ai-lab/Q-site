@@ -17,7 +17,7 @@ tags:
   - "補足"
   - "暴露"
 images:
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/FjU2dhaVQAEXLdR.jpeg"
+  - "/images/wp/wp-content/uploads/2023/02/FjU2dhaVQAEXLdR.jpeg"
 excerpt: "ツイッターファイル第一弾補足。第二弾の公開が遅れた裏側——新経営陣の知らぬ間に元FBI法務担当のジム・ベーカー氏（スティール文書やアルファサーバー疑惑に関与）がファイルを監査していたことが発覚し、マスク氏が緊急解雇した。バリ・ウェイス記者が「あごが床に落ちるほど驚いた」と表現した発見の経緯を翻訳する。"
 flags: ""
 ---
@@ -70,7 +70,7 @@ https://twitter.com/mtaibbi/status/1600243405841666048?s=20&t=rJe9f5H2BtA0dyk4\_
 
 両記者（マット・タイッビ氏とバリ・ウェイス氏）が受け取った最初のファイルの束には、"Spectra Baker Emails "と書かれていました。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/FjU2dhaVQAEXLdR.jpeg)
+![](/images/wp/wp-content/uploads/2023/02/FjU2dhaVQAEXLdR.jpeg)
 
 （ベーカー氏のEメール群のような意味）
 

@@ -22,8 +22,8 @@ tags:
   - "トランプ"
   - "ツイッター"
 images:
-  - "https://qryptraveller.com/wp-content/uploads/2022/03/6-1-463x800.jpeg"
-  - "https://qryptraveller.com/wp-content/uploads/2022/03/7.jpeg"
+  - "/images/wp/wp-content/uploads/2022/03/6-1-463x800.jpeg"
+  - "/images/wp/wp-content/uploads/2022/03/7.jpeg"
 excerpt: "二〇二〇年一二月一二日にラトクリフ国家情報長官との長い対話をした翌日、トランプ大統領は不正選挙の詳細についてツイッターで公然と発言している——長官との会合の中身が選挙の具体的な不正の証拠を含んでいた可能性を、時系列で示す記事。"
 flags: ""
 ---
@@ -42,7 +42,7 @@ flags: ""
 
 2020年12月12日、ジョン・ラトクリフ国家情報長官がツイッターにこんな投稿をしました。
 
-![](https://qryptraveller.com/wp-content/uploads/2022/03/6-1-463x800.jpeg)
+![](/images/wp/wp-content/uploads/2022/03/6-1-463x800.jpeg)
 > ジョン・ラトクリフ (@JohnRatcliffe)
 >
 > トランプ大統領と共に、今日のカレッジフットボール最大のライバルである陸軍と海軍の試合でアメリカの軍隊を称えるために旅をしています。
@@ -53,7 +53,7 @@ flags: ""
 
 （これらはルアーハウンドとテレグラムのジョンが参照していたツイートです）
 
-![](https://qryptraveller.com/wp-content/uploads/2022/03/7.jpeg)
+![](/images/wp/wp-content/uploads/2022/03/7.jpeg)
 
 > ドナルド・J・トランプ@realDonaldTrump
 >

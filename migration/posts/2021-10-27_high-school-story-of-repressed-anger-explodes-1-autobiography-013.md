@@ -18,8 +18,8 @@ tags:
   - "スピリチュアル"
   - "私小説"
 images:
-  - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog13-1.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog13-2.jpg"
+  - "/images/wp/wp-content/uploads/2021/11/Blog13-1.jpg"
+  - "/images/wp/wp-content/uploads/2021/11/Blog13-2.jpg"
 excerpt: "卒業までに3分の1が中退する退廃的な工業高校で、立ち読みオッケーの本屋を友として漫画と映画にのめり込んでいく少年。そして、優しかった祖母の死——20年後のチャネリングで明かされる、葬式に行けなかった本当の理由。"
 flags: ""
 ---
@@ -66,7 +66,7 @@ flags: ""
 
 学校からの帰り道にある、駅前の本屋が立ち読みオッケーの本屋だったので、友達のいない僕は、ひたすら本屋で漫画を立ち読みして過ごすことになる。
 
-![Blog13-1](https://qryptraveller.com/wp-content/uploads/2021/11/Blog13-1.jpg)
+![Blog13-1](/images/wp/wp-content/uploads/2021/11/Blog13-1.jpg)
 
 あらゆる週刊漫画誌を立ち読みし、週あたり３０個の連載を追いかけていた。
 
@@ -98,7 +98,7 @@ flags: ""
 
 そして高一の夏に、おばあちゃんは他界した。
 
-![Blog13-2](https://qryptraveller.com/wp-content/uploads/2021/11/Blog13-2.jpg)
+![Blog13-2](/images/wp/wp-content/uploads/2021/11/Blog13-2.jpg)
 
 僕が初めて行く、家族の葬式。
 

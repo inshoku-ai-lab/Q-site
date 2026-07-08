@@ -18,8 +18,8 @@ tags:
   - "小学校"
   - "私小説"
 images:
-  - "https://qryptraveller.com/wp-content/uploads/2021/10/005_1-603x400.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2021/10/005_2-646x400.png"
+  - "/images/wp/wp-content/uploads/2021/10/005_1-603x400.jpg"
+  - "/images/wp/wp-content/uploads/2021/10/005_2-646x400.png"
 excerpt: "ネクタイ姿で奉仕活動に駆り出され、運動会のソフトボール練習にも出られない——エホバの証人の子供として小学校に入った瞬間、社会の階層構造の最下層に位置づけられた少年の記録。歪んだ自己防衛として、自分より弱い子をいじめてしまった懺悔も。"
 flags: ""
 ---
@@ -58,7 +58,7 @@ flags: ""
 
 思い込みも含めてこういった要素が重なり、クラスでは立場が弱く大人しい異端児になっていった。
 
-![](https://qryptraveller.com/wp-content/uploads/2021/10/005_1-603x400.jpg)
+![](/images/wp/wp-content/uploads/2021/10/005_1-603x400.jpg)
 
 # エホバの証人としての規制
 
@@ -100,7 +100,7 @@ flags: ""
 
 そんな階級社会の中で、僕の人生は最下層に位置していた。
 
-![](https://qryptraveller.com/wp-content/uploads/2021/10/005_2-646x400.png)
+![](/images/wp/wp-content/uploads/2021/10/005_2-646x400.png)
 
 つづく。。。
 

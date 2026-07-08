@@ -21,9 +21,9 @@ tags:
   - "利益相反"
   - "選挙設備"
 images:
-  - "https://qryptraveller.com/wp-content/uploads/2022/02/d5_18_b.png"
-  - "https://qryptraveller.com/wp-content/uploads/2022/02/d5_19_b.png"
-  - "https://qryptraveller.com/wp-content/uploads/2022/02/d5_20_b.png"
+  - "/images/wp/wp-content/uploads/2022/02/d5_18_b.png"
+  - "/images/wp/wp-content/uploads/2022/02/d5_19_b.png"
+  - "/images/wp/wp-content/uploads/2022/02/d5_20_b.png"
 excerpt: "米国の選挙を実質管理する民間企業（ドミニオン社・スマートマティック社など）が会員となる選挙設備下位部門政府調整会議（EISCC）は、金銭的利害による利益相反があると政府も認知している——にも関わらず監視なしの運営を許され、会員企業は権利放棄書への署名と引き換えに法的責任を免除される。利益相反の公認構造を解剖する記事。"
 flags: ""
 ---
@@ -52,7 +52,7 @@ flags: ""
 
 とんでもない情報なので、パンツにお漏らししないように気をつけてください。
 
-![](https://qryptraveller.com/wp-content/uploads/2022/02/d5_18_b.png)
+![](/images/wp/wp-content/uploads/2022/02/d5_18_b.png)
 > 1. 会員の所属
 >
 > 選挙設備下位部門政府調整会議（EISCC） の会員には、米国の選挙プロセスを管理するために州政府または地方政府によって (またはその代理として) 使用されるサービス、システム、製品、または技術を持つ事業体 (企業、組織、またはその構成要素) が含まれます。
@@ -88,8 +88,8 @@ flags: ""
 > Hart InterCivic.   
 > MicroVote General Corp.
 
-![](https://qryptraveller.com/wp-content/uploads/2022/02/d5_20_b.png)
-![](https://qryptraveller.com/wp-content/uploads/2022/02/d5_19_b.png)
+![](/images/wp/wp-content/uploads/2022/02/d5_20_b.png)
+![](/images/wp/wp-content/uploads/2022/02/d5_19_b.png)
 
 Dominion Voting Systems（ドミニオン投票システム）とSmartmatic（スマートマティック）は、「訓練、教育、実施を含む設備保護を支援する部門全体の計画、手順、効果的な実践を開発、推奨、検討するために国土安全保障省（DHS）と調整する」ことで、選挙の安全性について政府に「助言、支援」する選挙設備下位部門政府調整会議（EISCC）の会員である。
 

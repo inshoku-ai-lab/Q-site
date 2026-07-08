@@ -19,8 +19,8 @@ tags:
   - "毒親"
   - "私小説"
 images:
-  - "https://qryptraveller.com/wp-content/uploads/2021/10/002-1-604x400.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2021/10/002-2-671x400.jpg"
+  - "/images/wp/wp-content/uploads/2021/10/002-1-604x400.jpg"
+  - "/images/wp/wp-content/uploads/2021/10/002-2-671x400.jpg"
 excerpt: "父のギャンブル狂いと姑からの嫁いびり——逃げ場を求めた母がたどり着いたのは、姉が信仰するエホバの証人だった。家族崩壊から始まった母子家庭での暮らしと、宗教が生活の中心に据わるまでの幼少期の記録。"
 flags: ""
 ---
@@ -79,7 +79,7 @@ flags: ""
 
 それが上述の引っ越しだった。
 
-![子供が親に連れられている画像](https://qryptraveller.com/wp-content/uploads/2021/10/002-1-604x400.jpg)
+![子供が親に連れられている画像](/images/wp/wp-content/uploads/2021/10/002-1-604x400.jpg)
 
 # 幼稚園
 
@@ -123,7 +123,7 @@ flags: ""
 
 その後１７歳でエホバの証人を辞めるまでに、１２年もの間、宗教活動を続けることになる。
 
-![](https://qryptraveller.com/wp-content/uploads/2021/10/002-2-671x400.jpg)
+![](/images/wp/wp-content/uploads/2021/10/002-2-671x400.jpg)
 
 つづく。。。
 

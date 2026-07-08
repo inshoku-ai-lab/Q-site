@@ -17,8 +17,8 @@ tags:
   - "詩人魚武"
   - "私小説"
 images:
-  - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog26-1.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog26-2.jpg"
+  - "/images/wp/wp-content/uploads/2021/11/Blog26-1.jpg"
+  - "/images/wp/wp-content/uploads/2021/11/Blog26-2.jpg"
 excerpt: "雑誌『クイック・ジャパン』創刊号で出会ったサブカルチャーの世界。『二十歳までに行動を起こせ』と説く詩人・三代目魚武濱田成夫の言葉に心を鷲掴みにされる。そして実の兄の家を訪ねた夜、壁に掛けられた『魚武の詩』の額縁——14年離れて暮らした兄弟が、サブカル同志として再会した邂逅の日。"
 flags: ""
 ---
@@ -49,7 +49,7 @@ flags: ""
 
 後に大塚寧々と結婚して離婚した人と言う方が、知られているかも知れない。
 
-![Blog26-1](https://qryptraveller.com/wp-content/uploads/2021/11/Blog26-1.jpg)
+![Blog26-1](/images/wp/wp-content/uploads/2021/11/Blog26-1.jpg)
 
 彼は、とにかくカッコよく生き抜くことだけを目指し、自分を褒めたたえる詩しか作らない詩人。
 
@@ -95,7 +95,7 @@ flags: ""
 
 大好きな詩人の話で一気に意気投合した。
 
-![Blog26-2](https://qryptraveller.com/wp-content/uploads/2021/11/Blog26-2.jpg)
+![Blog26-2](/images/wp/wp-content/uploads/2021/11/Blog26-2.jpg)
 
 実は兄も人知れずサブカルチャーが好きで、クイックジャパンなども購入していた。
 

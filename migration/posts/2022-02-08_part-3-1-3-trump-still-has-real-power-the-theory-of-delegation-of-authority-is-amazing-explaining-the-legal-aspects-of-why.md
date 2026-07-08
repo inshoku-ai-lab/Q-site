@@ -24,8 +24,8 @@ tags:
   - "オバマ"
   - "レーガン"
 images:
-  - "https://qryptraveller.com/wp-content/uploads/2022/02/https___bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com_public_images_a4db892f-bffd-4a7b-8143-bc07921a57f2_624x780-320x400.jpeg"
-  - "https://qryptraveller.com/wp-content/uploads/2022/02/https___bucketeer-e05bbc84-baa3-437e-9518-adb32be77984_s3_amazonaws_com_public_images_1c1db56c-7322-4f02-970e-34c5e55e9f05_1376x849-618x400.png"
+  - "/images/wp/wp-content/uploads/2022/02/https___bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com_public_images_a4db892f-bffd-4a7b-8143-bc07921a57f2_624x780-320x400.jpeg"
+  - "/images/wp/wp-content/uploads/2022/02/https___bucketeer-e05bbc84-baa3-437e-9518-adb32be77984_s3_amazonaws_com_public_images_1c1db56c-7322-4f02-970e-34c5e55e9f05_1376x849-618x400.png"
 excerpt: "米国では冷戦時代から、核攻撃を受けても政府継続性（COG）を保つための運用継続性計画（COOP）が存在——大統領令一二六五六号が「国家安全保障上の緊急事態」を定義し、二〇一六年七月にオバマが署名した大統領政策指令四〇号（PPD-40）が各省庁に権限委譲ラインの維持を命じた。現在進行する秘密戦争（サイバー・情報・電子・諜報・宇宙・生物）への備えとして、二〇二〇年にミラーが国防総省トップに就任する。"
 flags: ""
 ---
@@ -92,13 +92,13 @@ flags: ""
 
 ここでは、米国の国家指揮権を簡略化して説明しています。
 
-![](https://qryptraveller.com/wp-content/uploads/2022/02/https___bucketeer-e05bbc84-baa3-437e-9518-adb32be77984_s3_amazonaws_com_public_images_1c1db56c-7322-4f02-970e-34c5e55e9f05_1376x849-618x400.png)
+![](/images/wp/wp-content/uploads/2022/02/https___bucketeer-e05bbc84-baa3-437e-9518-adb32be77984_s3_amazonaws_com_public_images_1c1db56c-7322-4f02-970e-34c5e55e9f05_1376x849-618x400.png)
 
 トランプ氏が軍隊を使ったデボリューションを成し遂げようとするならば、「食物連鎖」の頂点にふさわしい人物を国防長官として迎えなければならない。
 
 [AP通信がジョー・バイデンを2020年の大統領選挙の勝者と宣言した](https://apnews.com/article/joe-biden-wins-white-house-ap-fd58df73aa677acb74fce2a69adb71f9)わずか2日後、ドナルド・トランプはその男を昇進させた。
 
-![](https://qryptraveller.com/wp-content/uploads/2022/02/https___bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com_public_images_a4db892f-bffd-4a7b-8143-bc07921a57f2_624x780-320x400.jpeg)
+![](/images/wp/wp-content/uploads/2022/02/https___bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com_public_images_a4db892f-bffd-4a7b-8143-bc07921a57f2_624x780-320x400.jpeg)
 
 クリストファー・C・ミラーを紹介しよう。元国防長官代理（Sec Def Miller）は、2020年11月9日に[ドナルド・J・トランプ大統領によって昇進させられました](https://news.usni.org/2020/11/09/trump-removes-esper-christopher-miller-new-acting-secdef)。
 

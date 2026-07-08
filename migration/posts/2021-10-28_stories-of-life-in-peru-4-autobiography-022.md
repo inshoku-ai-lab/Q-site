@@ -17,8 +17,8 @@ tags:
   - "家族旅行"
   - "私小説"
 images:
-  - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog22-1.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog22-2.jpg"
+  - "/images/wp/wp-content/uploads/2021/11/Blog22-1.jpg"
+  - "/images/wp/wp-content/uploads/2021/11/Blog22-2.jpg"
 excerpt: "ナスカの地上絵かマチュピチュか——時間と予算の関係で選ばれたマチュピチュ。だが当時の少年に景色を感動する心はなく、ただ淡々と歩いた。麓に降りるバスを直線で追い抜き、何度も手を振りに現れる現地の浮浪児たちが印象的だった、家族みんなとの新婚旅行の記憶。"
 flags: ""
 ---
@@ -61,7 +61,7 @@ flags: ""
 
 マチュピチュの山の麓まで電車でいき、そこからはさらにバスで１時間ほど揺られて頂上へ向かう。
 
-![Blog22-1](https://qryptraveller.com/wp-content/uploads/2021/11/Blog22-1.jpg)
+![Blog22-1](/images/wp/wp-content/uploads/2021/11/Blog22-1.jpg)
 
 頂上までたどり着くと、あの有名なマチュピチュの絶景が広がっている。
 
@@ -89,7 +89,7 @@ flags: ""
 
 また、観光客は写真を撮る。
 
-![Blog22-2](https://qryptraveller.com/wp-content/uploads/2021/11/Blog22-2.jpg)
+![Blog22-2](/images/wp/wp-content/uploads/2021/11/Blog22-2.jpg)
 
 そしてまた曲がると、また子供たちがいる。
 

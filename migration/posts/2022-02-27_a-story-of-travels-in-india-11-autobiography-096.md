@@ -18,8 +18,8 @@ tags:
   - "Osho"
   - "私小説"
 images:
-  - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog96-1.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog96-2.jpg"
+  - "/images/wp/wp-content/uploads/2021/11/Blog96-1.jpg"
+  - "/images/wp/wp-content/uploads/2021/11/Blog96-2.jpg"
 excerpt: "バラナシの濃いインド色とは一転、近代化された都会プーナへ。Osho（和尚）のアシュラムは、臙脂色の僧衣購入とエイズ陰性の血液検査を経て入る楽園——花咲く庭で瞑想する小綺麗な西洋人たち。高額に落ち着けない貧乏旅行者は、無料の音楽瞑想ワークショップで70年代ドイツロックのような生演奏に身を委ねる。"
 flags: ""
 ---
@@ -54,7 +54,7 @@ flags: ""
 
 安い部屋が見つからない限り、この街には長居できないなと思いながら、ヨガを教えてくれる場所へ向かった。
 
-![Blog96-1](https://qryptraveller.com/wp-content/uploads/2021/11/Blog96-1.jpg)
+![Blog96-1](/images/wp/wp-content/uploads/2021/11/Blog96-1.jpg)
 
 そこは、Osho（和尚）と呼ばれる人が開設した『アシュラム』と呼ばれる修行所で、ヨガを教えていたり、色々なワークショップを開催しているらしい。
 
@@ -106,7 +106,7 @@ flags: ""
 
 その代わりに無料で開催していた、音楽に合わせて踊りながら瞑想すると言うワークショップに参加した。
 
-![Blog96-2](https://qryptraveller.com/wp-content/uploads/2021/11/Blog96-2.jpg)
+![Blog96-2](/images/wp/wp-content/uploads/2021/11/Blog96-2.jpg)
 
 小さな体育館のようなホールで、十人くらいで輪になって座り、目を閉じて座るところからワークショップは始まる。
 

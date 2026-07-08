@@ -21,8 +21,8 @@ tags:
   - "暗号"
   - "12月15日"
 images:
-  - "https://qryptraveller.com/wp-content/uploads/2022/03/2.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2022/03/3.jpg.jpeg"
+  - "/images/wp/wp-content/uploads/2022/03/2.jpg"
+  - "/images/wp/wp-content/uploads/2022/03/3.jpg.jpeg"
 excerpt: "スカヴィーノ氏が一二月一五日に投稿した写真は、六月一日に投稿した写真と同じもの——一方はアンティファに関する演説、もう一方は「歴史的な瞬間」だと指摘する。一二月半ばには大きな動きがあり、不正選挙に関する報告書の提出日（一二月一八日）が近い。隠喩を解読する記事。"
 flags: ""
 ---
@@ -51,7 +51,7 @@ flags: ""
 
 そこで、スカヴィーノのフェイスブックページを単純に探ってみたところ、ついに2020年6月1日のこの写真に行き当たりました。
 
-![](https://qryptraveller.com/wp-content/uploads/2022/03/3.jpg.jpeg)
+![](/images/wp/wp-content/uploads/2022/03/3.jpg.jpeg)
 
 この写真は、スカヴィーノが12月15日に発信したツイートと同じ会議のものであることは明らかです。
 
@@ -87,7 +87,7 @@ flags: ""
 
 さて、元のスカヴィーノのツイートに戻ろう。
 
-![](https://qryptraveller.com/wp-content/uploads/2022/03/2.jpg)
+![](/images/wp/wp-content/uploads/2022/03/2.jpg)
 
 6月1日にこの会議の写真を初めて公開したとき、なぜスカヴィーノは「歴史的瞬間」だと言わなかったのでしょうか？
 

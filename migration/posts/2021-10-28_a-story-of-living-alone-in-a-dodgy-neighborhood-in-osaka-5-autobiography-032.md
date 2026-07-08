@@ -20,8 +20,8 @@ tags:
   - "インターネット黎明期"
   - "私小説"
 images:
-  - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog32-1.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2021/11/Blog32-2.jpg"
+  - "/images/wp/wp-content/uploads/2021/11/Blog32-1.jpg"
+  - "/images/wp/wp-content/uploads/2021/11/Blog32-2.jpg"
 excerpt: "ISDNテレホーダイで深夜のインターネットに繋ぎ、マック専用のコミュニケーション・ソフト『HOTLINE』で違法ファイルを巡る裏ネット文化に深入りする。ソフトウェア・シンセサイザー『RB-338』のドラム音を違法改造する日々——DTM黎明期の興奮と、テクノ作曲家としての覚醒。"
 flags: ""
 ---
@@ -54,7 +54,7 @@ WEB 1.0の時代。
 
 これはマック専門のアプリで、今でいうチャットアプリみたいなものなのだが、データの送受信ができるので違法ファイルをやりとりしたいユーザーに重宝されていた。
 
-![](https://qryptraveller.com/wp-content/uploads/2021/11/Blog32-1.jpg)
+![](/images/wp/wp-content/uploads/2021/11/Blog32-1.jpg)
 
 当時は３分の曲をMP3に変換するのに２０分ほどかかっていたので、動画や音楽データをネットでやりとりするなんて考えも及ばない時代。
 
@@ -76,7 +76,7 @@ WEB 1.0の時代。
 
 兄との作曲活動のためにパソコンを買ったのだが、ソロの音楽活動に使うことが多く、かなりの時間を作曲作業に費やした。
 
-![Blog32-2](https://qryptraveller.com/wp-content/uploads/2021/11/Blog32-2.jpg)
+![Blog32-2](/images/wp/wp-content/uploads/2021/11/Blog32-2.jpg)
 
 当時パソコンでの作曲のDTM（デスクトップ・ミュージック）界に新風を吹き込んだのは、ソフトウェア・シンセサイザーという実際の機材を使わなくても、パソコン内で全てが完結するというものだ。
 

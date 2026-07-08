@@ -19,56 +19,56 @@ tags:
   - "検閲"
   - "言論統制"
 images:
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/10-3.png"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/11-3.jpeg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/12-4.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/13a.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/13b.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/13c.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/16-3.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/17-2.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/18-2.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/19-3.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/2-8.jpeg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/20-2.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/23-2.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/25.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/25b-2.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/26-2.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/27-2.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/28-1.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/29-3.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/29b.png"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/29c.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/29d.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/3-6.jpeg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/30a.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/30b.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/31-3.png"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/32a.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/32b.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/33a.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/33b.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/34-1.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/35-1.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/37-1.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/38a.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/38b.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/38c.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/38d.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/39b.jpg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/4-7.jpeg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/5-3.jpeg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/7a-2.png"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/7b-2.jpeg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/8a-1.jpeg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/8b-1.jpeg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/8c-1.jpeg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/8d.jpeg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/9a-scaled.jpeg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/9b.jpeg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/9c.jpeg"
-  - "https://qryptraveller.com/wp-content/uploads/2023/02/9d.jpeg"
+  - "/images/wp/wp-content/uploads/2023/02/10-3.png"
+  - "/images/wp/wp-content/uploads/2023/02/11-3.jpeg"
+  - "/images/wp/wp-content/uploads/2023/02/12-4.jpg"
+  - "/images/wp/wp-content/uploads/2023/02/13a.jpg"
+  - "/images/wp/wp-content/uploads/2023/02/13b.jpg"
+  - "/images/wp/wp-content/uploads/2023/02/13c.jpg"
+  - "/images/wp/wp-content/uploads/2023/02/16-3.jpg"
+  - "/images/wp/wp-content/uploads/2023/02/17-2.jpg"
+  - "/images/wp/wp-content/uploads/2023/02/18-2.jpg"
+  - "/images/wp/wp-content/uploads/2023/02/19-3.jpg"
+  - "/images/wp/wp-content/uploads/2023/02/2-8.jpeg"
+  - "/images/wp/wp-content/uploads/2023/02/20-2.jpg"
+  - "/images/wp/wp-content/uploads/2023/02/23-2.jpg"
+  - "/images/wp/wp-content/uploads/2023/02/25.jpg"
+  - "/images/wp/wp-content/uploads/2023/02/25b-2.jpg"
+  - "/images/wp/wp-content/uploads/2023/02/26-2.jpg"
+  - "/images/wp/wp-content/uploads/2023/02/27-2.jpg"
+  - "/images/wp/wp-content/uploads/2023/02/28-1.jpg"
+  - "/images/wp/wp-content/uploads/2023/02/29-3.jpg"
+  - "/images/wp/wp-content/uploads/2023/02/29b.png"
+  - "/images/wp/wp-content/uploads/2023/02/29c.jpg"
+  - "/images/wp/wp-content/uploads/2023/02/29d.jpg"
+  - "/images/wp/wp-content/uploads/2023/02/3-6.jpeg"
+  - "/images/wp/wp-content/uploads/2023/02/30a.jpg"
+  - "/images/wp/wp-content/uploads/2023/02/30b.jpg"
+  - "/images/wp/wp-content/uploads/2023/02/31-3.png"
+  - "/images/wp/wp-content/uploads/2023/02/32a.jpg"
+  - "/images/wp/wp-content/uploads/2023/02/32b.jpg"
+  - "/images/wp/wp-content/uploads/2023/02/33a.jpg"
+  - "/images/wp/wp-content/uploads/2023/02/33b.jpg"
+  - "/images/wp/wp-content/uploads/2023/02/34-1.jpg"
+  - "/images/wp/wp-content/uploads/2023/02/35-1.jpg"
+  - "/images/wp/wp-content/uploads/2023/02/37-1.jpg"
+  - "/images/wp/wp-content/uploads/2023/02/38a.jpg"
+  - "/images/wp/wp-content/uploads/2023/02/38b.jpg"
+  - "/images/wp/wp-content/uploads/2023/02/38c.jpg"
+  - "/images/wp/wp-content/uploads/2023/02/38d.jpg"
+  - "/images/wp/wp-content/uploads/2023/02/39b.jpg"
+  - "/images/wp/wp-content/uploads/2023/02/4-7.jpeg"
+  - "/images/wp/wp-content/uploads/2023/02/5-3.jpeg"
+  - "/images/wp/wp-content/uploads/2023/02/7a-2.png"
+  - "/images/wp/wp-content/uploads/2023/02/7b-2.jpeg"
+  - "/images/wp/wp-content/uploads/2023/02/8a-1.jpeg"
+  - "/images/wp/wp-content/uploads/2023/02/8b-1.jpeg"
+  - "/images/wp/wp-content/uploads/2023/02/8c-1.jpeg"
+  - "/images/wp/wp-content/uploads/2023/02/8d.jpeg"
+  - "/images/wp/wp-content/uploads/2023/02/9a-scaled.jpeg"
+  - "/images/wp/wp-content/uploads/2023/02/9b.jpeg"
+  - "/images/wp/wp-content/uploads/2023/02/9c.jpeg"
+  - "/images/wp/wp-content/uploads/2023/02/9d.jpeg"
 excerpt: "ツイッターファイル第一六弾（自称一五弾）「ハミルトン68の捏造」。元FBI防諜官率いる「民主主義確保同盟」が資金提供（ポデスタ、CIA・NSA・DHS元高官が参加）、「ディープステート」等のハッシュタグをロシアのボット発と決めつけた六〇〇アカウントのリストは秘匿——ツイッター幹部が独自に調査して全くロシアと無関係と結論づけたが反論できなかった。"
 flags: ""
 ---
@@ -149,7 +149,7 @@ https://twitter.com/mtaibbi/status/1619029772977455105?ref\_src=twsrc%5Etfw%7Ctw
 
 "私たちは、このデタラメを呼び出す必要があると思います"
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/2-8.jpeg)
+![](/images/wp/wp-content/uploads/2023/02/2-8.jpeg)
 
 > ヨエル・ロス   
 >   
@@ -159,7 +159,7 @@ https://twitter.com/mtaibbi/status/1619029772977455105?ref\_src=twsrc%5Etfw%7Ctw
 
 "正当な右寄りアカウントの数々をロシアのボットだと偽って非難"
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/3-6.jpeg)
+![](/images/wp/wp-content/uploads/2023/02/3-6.jpeg)
 
 > ヨエル・ロス   
 >   
@@ -177,7 +177,7 @@ https://twitter.com/mtaibbi/status/1619029772977455105?ref\_src=twsrc%5Etfw%7Ctw
 
 "事実上、そこから導き出される結論は、ツイッター上の保守界隈の会話を取り上げ、ロシア人であると非難するものである"
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/4-7.jpeg)
+![](/images/wp/wp-content/uploads/2023/02/4-7.jpeg)
 
 > ヨエル・ロス   
 >   
@@ -219,7 +219,7 @@ https://twitter.com/mtaibbi/status/1619029772977455105?ref\_src=twsrc%5Etfw%7Ctw
 
 これらは、ロシアの影響力を追跡すると主張し、トランプ時代に何千とは言わないまでも何百もの主要な印刷物やテレビのニュース記事の元となったデジタル「ダッシュボード」であるハミルトン68についてのツイッターの幹部による引用です。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/5-3.jpeg)
+![](/images/wp/wp-content/uploads/2023/02/5-3.jpeg)
 
 ## ハミルトン６８の裏側にいる民主主義確保同盟
 
@@ -227,7 +227,7 @@ https://twitter.com/mtaibbi/status/1619029772977455105?ref\_src=twsrc%5Etfw%7Ctw
 
 （訳注：下の画像は民主主義確保同盟の詰問委員会のメンバーですが、非常に長いので、忙しい方は太線の部分のみを確認すれば良いかと思います。）
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/7a-2.png)
+![](/images/wp/wp-content/uploads/2023/02/7a-2.png)
 
 > 民主主義確保同盟（ASD）   
 >   
@@ -275,7 +275,7 @@ https://twitter.com/mtaibbi/status/1619029772977455105?ref\_src=twsrc%5Etfw%7Ctw
 > クリストルは、新アメリカ世紀プロジェクト（1997～2005年）、外交政策イニシアチブ（2009～17年）の理事も務めている。  
 > 1985年にワシントンに来る前、クリストルはペンシルバニア大学とハーバード大学で政府を教えた。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/7b-2.jpeg)
+![](/images/wp/wp-content/uploads/2023/02/7b-2.jpeg)
 
 > マイク・マクフォール   
 >   
@@ -357,17 +357,17 @@ https://twitter.com/mtaibbi/status/1619029772977455105?ref\_src=twsrc%5Etfw%7Ctw
 
 ロシアのボットが、シリアへの攻撃反対、フォックスの司会者ローラ・イングラハムへの支援、ドナルド・トランプとバーニー・サンダースの両者のキャンペーンなど、ソーシャルメディア上の活動を延々と「増幅」していると主張する際、報道機関は長年にわたってクリント・ワッツ氏の発言とハミルトン68を引用しています。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/8a-1.jpeg)
+![](/images/wp/wp-content/uploads/2023/02/8a-1.jpeg)
 
 > 米国政府の小さな一角が、ロシアの偽情報を押し返す ロシアの偽情報に対抗するポリグラフ社   
 >   
 > ポリグラフは、ロシアのプロパガンダマシンに対抗するための米国政府の小さな取り組みの一部です。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/8b-1.jpeg)
+![](/images/wp/wp-content/uploads/2023/02/8b-1.jpeg)
 
 > ロシアに関連するアカウントが、Fox News の司会者であるローラ・イングラハムを支持するツイートをしている。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/8c-1.jpeg)
+![](/images/wp/wp-content/uploads/2023/02/8c-1.jpeg)
 
 > ロシアのボットがやってくる。   
 >   
@@ -377,7 +377,7 @@ https://twitter.com/mtaibbi/status/1619029772977455105?ref\_src=twsrc%5Etfw%7Ctw
 >   
 > 極右・極左のツィッターは、このことに満足していない。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/8d.jpeg)
+![](/images/wp/wp-content/uploads/2023/02/8d.jpeg)
 
 > 「民主主義を確保するための同盟」（ASD）派遣   
 >   
@@ -401,7 +401,7 @@ https://twitter.com/mtaibbi/status/1619029772977455105?ref\_src=twsrc%5Etfw%7Ctw
 
 ハミルトン68は、ロシアのボットが「ディープステート」のような言葉や、#FireMcMaster、#SchumerShutdown、#WalkAway、#ReleaseTheMemo、#AlabamaSenateRace、#ParklandShootingなどのハッシュタグを押し出したとする記事のソースでした。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/9a-scaled.jpeg)
+![](/images/wp/wp-content/uploads/2023/02/9a-scaled.jpeg)
 
 > ダモアではなく＃マクマスターを解雇しろ：   
 >   
@@ -409,15 +409,15 @@ https://twitter.com/mtaibbi/status/1619029772977455105?ref\_src=twsrc%5Etfw%7Ctw
 >   
 > ロシアと関係のある政治的なツイッターボットは、選挙後も消えずに、専門家によると、より巧妙になっている。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/9b.jpeg)
+![](/images/wp/wp-content/uploads/2023/02/9b.jpeg)
 
 > ロシアのボットは、#WalkAway を使って、中間選挙で民主党を苦しめようとしている。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/9c.jpeg)
+![](/images/wp/wp-content/uploads/2023/02/9c.jpeg)
 
 > ロシアはさらに「ディープ・ステート」のハッシュタグを推し進める
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/9d.jpeg)
+![](/images/wp/wp-content/uploads/2023/02/9d.jpeg)
 
 > ロシアの宣伝屋がロイ・ムーアの勝利を後押ししている。   
 >   
@@ -429,7 +429,7 @@ https://twitter.com/mtaibbi/status/1619029772977455105?ref\_src=twsrc%5Etfw%7Ctw
 
 "我々の分析では、600のツイッターアカウントをオンラインでのロシアの影響活動に結びつけている "というものが、サイト開設時の表現でした。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/10-3.png)
+![](/images/wp/wp-content/uploads/2023/02/10-3.png)
 
 > ハミルトン68ダッシュボードを本日より提供開始   
 >   
@@ -475,7 +475,7 @@ https://twitter.com/mtaibbi/status/1619029772977455105?ref\_src=twsrc%5Etfw%7Ctw
 
 「ロシアのボット」について主張する記者やテレビタレントたちは、自分たちが何を説明しているのか、実際にはわかっていなかったのです。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/11-3.jpeg)
+![](/images/wp/wp-content/uploads/2023/02/11-3.jpeg)
 
 > ちなみに、ローゼンバーガーとフライは、その方法論をウェブサイトで公開しており、彼らがフォローしている600のアカウントのリストを明らかにすることはできない、さもなければ、ロシアは単にそれらをシャットダウンするだろう、と言っている。   
 >   
@@ -491,7 +491,7 @@ https://twitter.com/mtaibbi/status/1619029772977455105?ref\_src=twsrc%5Etfw%7Ctw
 
 そして、彼らが見つけたものは彼らにショックを与えたのです。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/12-4.jpg)
+![](/images/wp/wp-content/uploads/2023/02/12-4.jpg)
 
 > ヨエル・ロス   
 >   
@@ -542,7 +542,7 @@ https://twitter.com/mtaibbi/status/1619029772977455105?ref\_src=twsrc%5Etfw%7Ctw
 
 "大規模な影響力作戦を照らし出すことは難しい"
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/13a.jpg)
+![](/images/wp/wp-content/uploads/2023/02/13a.jpg)
 
 > ヨエル・ロス   
 >   
@@ -574,7 +574,7 @@ https://twitter.com/mtaibbi/status/1619029772977455105?ref\_src=twsrc%5Etfw%7Ctw
 >   
 > ヨエル
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/13b.jpg)
+![](/images/wp/wp-content/uploads/2023/02/13b.jpg)
 
 > Re このツールの背景は？   
 >   
@@ -584,7 +584,7 @@ https://twitter.com/mtaibbi/status/1619029772977455105?ref\_src=twsrc%5Etfw%7Ctw
 >   
 > 最も共有されているドメインが48時間で138回、最も共有されているURLが48時間で38回しか共有されていないとしたら、大規模な影響力のあるオペレーションを示すものとは言い難いでしょう。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/13c.jpg)
+![](/images/wp/wp-content/uploads/2023/02/13c.jpg)
 
 > Re ビジネス・インサイダーでの「#ReleaseTheMemo」   
 >   
@@ -610,7 +610,7 @@ https://twitter.com/mtaibbi/status/1619029772977455105?ref\_src=twsrc%5Etfw%7Ctw
 
 「実在の人物は、証拠も手段もなく一方的にロシアの手先のレッテルを貼られたことを知る必要がある」とロスは書いています。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/16-3.jpg)
+![](/images/wp/wp-content/uploads/2023/02/16-3.jpg)
 
 > ヨエル・ロス   
 >   
@@ -642,7 +642,7 @@ https://twitter.com/mtaibbi/status/1619029772977455105?ref\_src=twsrc%5Etfw%7Ctw
 
 "なぜ我々は調査したと言うことができないのか...ハミルトン68を引き合いに出すのは、間違っていて、無責任で、偏っているのではないか？"
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/17-2.jpg)
+![](/images/wp/wp-content/uploads/2023/02/17-2.jpg)
 
 > ヨエル・ロス   
 >   
@@ -668,7 +668,7 @@ https://twitter.com/mtaibbi/status/1619029772977455105?ref\_src=twsrc%5Etfw%7Ctw
 
 しかし、政治的につながりのある「民主主義を確保するための同盟」（ASD）を相手にすることには、内部で懸念がありました。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/18-2.jpg)
+![](/images/wp/wp-content/uploads/2023/02/18-2.jpg)
 
 > （訳注：二つ前の画像と同じ内容だが、強調箇所が違うため、強調箇所のみ翻訳）   
 >   
@@ -676,7 +676,7 @@ https://twitter.com/mtaibbi/status/1619029772977455105?ref\_src=twsrc%5Etfw%7Ctw
 
 後のホワイトハウス・NSC報道官になるエミリー・ホーンの発言、「ASDを公的にどれだけ押し返すか、慎重にならざるを得ません。」
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/19-3.jpg)
+![](/images/wp/wp-content/uploads/2023/02/19-3.jpg)
 
 > 全員へ、   
 >   
@@ -688,7 +688,7 @@ https://twitter.com/mtaibbi/status/1619029772977455105?ref\_src=twsrc%5Etfw%7Ctw
 
 未来のピート・バッティギーグ運輸長官の上級顧問であるカルロス・モンジェは、「私もハミルトン68をもっと公に呼び出さないことに非常に不満を持っていましたが、ここでは長いゲームをしなければならないことを理解しています」と書いています。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/20-2.jpg)
+![](/images/wp/wp-content/uploads/2023/02/20-2.jpg)
 
 > カルロス・モンヘ   
 > Re: ハミルトン68   
@@ -710,7 +710,7 @@ https://twitter.com/mtaibbi/status/1619029772977455105?ref\_src=twsrc%5Etfw%7Ctw
 
 "どうしてこんなリストを作ったのか、私には信じられません。"
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/23-2.jpg)
+![](/images/wp/wp-content/uploads/2023/02/23-2.jpg)
 
 > フォートマイヤーズに最新のシェストーカスを!   
 > paper.li/DaveforFtMyers ….   
@@ -724,7 +724,7 @@ https://twitter.com/mtaibbi/status/1619029772977455105?ref\_src=twsrc%5Etfw%7Ctw
 
 「彼をフォローしているが、親ロシア派とは言えない。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/25.jpg)
+![](/images/wp/wp-content/uploads/2023/02/25.jpg)
 
 > ニック・ピクルス   
 >   
@@ -747,7 +747,7 @@ https://twitter.com/mtaibbi/status/1619029772977455105?ref\_src=twsrc%5Etfw%7Ctw
 >   
 > N
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/25b-2.jpg)
+![](/images/wp/wp-content/uploads/2023/02/25b-2.jpg)
 
 > オールド ホルボーン®   
 >   
@@ -759,7 +759,7 @@ https://twitter.com/mtaibbi/status/1619029772977455105?ref\_src=twsrc%5Etfw%7Ctw
 
 "税金を払っている誇り高い市民として、慈善的な家庭人として、そして米国海兵隊の正直な息子として、私はもっといい報いを受けるべきです。我々は皆そうだ！"
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/26-2.jpg)
+![](/images/wp/wp-content/uploads/2023/02/26-2.jpg)
 
 > デニス・マイケル・リンチ   
 >   
@@ -771,7 +771,7 @@ https://twitter.com/mtaibbi/status/1619029772977455105?ref\_src=twsrc%5Etfw%7Ctw
 
 "ハミルトン68のような組織は、公式の物語を強制することが仕事であり、それは、彼らが「誤報」と呼ぶ、都合の悪い事実を排除することを意味します"。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/27-2.jpg)
+![](/images/wp/wp-content/uploads/2023/02/27-2.jpg)
 
 > ジョー・ローリア@（  
 > Joe Lauria @unjoe がフォローする   
@@ -784,13 +784,13 @@ https://twitter.com/mtaibbi/status/1619029772977455105?ref\_src=twsrc%5Etfw%7Ctw
 
 見出しやテレビ・セグメントの量は、ジェーソン・ブレアやスティーブン・グラスのような個々の捏造主義者の影響力を凌駕しています。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/28-1.jpg)
+![](/images/wp/wp-content/uploads/2023/02/28-1.jpg)
 
 (ロシアの工作員に関する各記事の見出し)
 
 ハミルトン68は、ブレット・カヴァノーの支持やデヴィン・ヌネスのメモ、パークランド銃乱射事件、黒人有権者の操作、ミューラー調査への「攻撃」など、驚くほど多くのニュースでロシアの影響力を主張する材料として利用されていました。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/29-3.jpg)
+![](/images/wp/wp-content/uploads/2023/02/29-3.jpg)
 
 > ロシアは「進行中の攻撃」でミューラー捜査に影響を与えようとしている、と民主党が指摘   
 >   
@@ -798,11 +798,11 @@ https://twitter.com/mtaibbi/status/1619029772977455105?ref\_src=twsrc%5Etfw%7Ctw
 >   
 > ロシア関連のツイッターアカウントを監視するウェブサイトによると、彼らの#releasethememoの使用率はわずか数日で30万％近くも増加したという。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/29b.png)
+![](/images/wp/wp-content/uploads/2023/02/29b.png)
 
 > ロシアのプロパガンダがカバノー論争を利用し、オンライン上で分裂を引き起こす。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/29c.jpg)
+![](/images/wp/wp-content/uploads/2023/02/29c.jpg)
 
 > フロリダの学校での銃乱射事件後、ロシアの「ボット」軍が襲いかかる   
 >   
@@ -810,7 +810,7 @@ https://twitter.com/mtaibbi/status/1619029772977455105?ref\_src=twsrc%5Etfw%7Ctw
 >   
 > パークランド近郊で起きた学校銃乱射事件のニュースが広がってから1時間後、研究者がロシアと関連付けたツイッターのアカウントは、銃規制の議論に焦点を移した。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/29d.jpg)
+![](/images/wp/wp-content/uploads/2023/02/29d.jpg)
 
 > ハミルトン68ダッシュボード   
 >   
@@ -826,13 +826,13 @@ https://twitter.com/mtaibbi/status/1619029772977455105?ref\_src=twsrc%5Etfw%7Ctw
 
 これらのストーリーは国民の恐怖心を煽り、とりわけ陰湿なのは、トゥルシ・ギャバードのような人物を外国の「道具」として中傷したり、批判者をロシアと連携していると表現してジョー・バイデンのキャンペーンなどの政治活動に同調させるために使われたことです。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/30a.jpg)
+![](/images/wp/wp-content/uploads/2023/02/30a.jpg)
 
 > ロシアのウェブトロールはバイデンをブーイングし、しばしばガバードを後押ししていることが報告された。   
 >   
 > ロシアにとって、バイデンは2020年のヒラリー・クリントンのような存在であると、フォーリン・ポリシー研究所の研究者が新しい報告書で述べています。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/30b.jpg)
+![](/images/wp/wp-content/uploads/2023/02/30b.jpg)
 
 > ロシアのプロパガンダマシンが2020年民主党候補トゥルシ・ギャバードを発見   
 >   
@@ -840,7 +840,7 @@ https://twitter.com/mtaibbi/status/1619029772977455105?ref\_src=twsrc%5Etfw%7Ctw
 
 信じられないことに、皮肉にも、これらの記事はツイッターなどのサイトで「フェイクニュース」が広がっていることの証拠としても頻繁に使われていました。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/31-3.png)
+![](/images/wp/wp-content/uploads/2023/02/31-3.png)
 
 > トランプ支持者がソーシャルメディアで拡散するのは、大半がニセモノのニュース   
 >   
@@ -854,11 +854,11 @@ https://twitter.com/mtaibbi/status/1619029772977455105?ref\_src=twsrc%5Etfw%7Ctw
 
 事実上すべての主要なアメリカの報道機関がこれらの偽の物語を引用し、SnopesやPolitifactのようなファクトチェックサイトでさえもその情報を引用していました。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/32a.jpg)
+![](/images/wp/wp-content/uploads/2023/02/32a.jpg)
 
 > 2016年におけるロシアのソーシャルメディアへの取り組みは、虚偽だけでなく扇動的なものだった
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/32b.jpg)
+![](/images/wp/wp-content/uploads/2023/02/32b.jpg)
 
 > トロール、ボット、「有用な馬鹿」たちによる攻撃などのロシアのプロパガンダキャンペーンの手法を暴露することを目的とした新しい委員会
 
@@ -870,7 +870,7 @@ https://twitter.com/mtaibbi/status/1619029772977455105?ref\_src=twsrc%5Etfw%7Ctw
 
 "虚空に向かって叫んでいるようなものです。"
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/33a.jpg)
+![](/images/wp/wp-content/uploads/2023/02/33a.jpg)
 
 > Re ハミルトン68のシンクは来週   
 > To: ニック・ピクルス   
@@ -923,7 +923,7 @@ https://twitter.com/mtaibbi/status/1619029772977455105?ref\_src=twsrc%5Etfw%7Ctw
 >   
 > 私は何かスケジュールを立てるのは良いのですが、それはあなたに委ねます。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/33b.jpg)
+![](/images/wp/wp-content/uploads/2023/02/33b.jpg)
 
 > 私は、これを取材している個々の記者に連絡を取って、形を整えようとしていますが、現時点では、**虚空に向かって叫んでいる**ようなものです。
 
@@ -935,7 +935,7 @@ https://twitter.com/mtaibbi/status/1619029772977455105?ref\_src=twsrc%5Etfw%7Ctw
 
 こういうテーマについて話すなら、ロシアのプロパガンダに騙されたに違いない。"
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/34-1.jpg)
+![](/images/wp/wp-content/uploads/2023/02/34-1.jpg)
 
 > ヨエル・ロス   
 >   
@@ -968,7 +968,7 @@ https://twitter.com/mtaibbi/status/1619029772977455105?ref\_src=twsrc%5Etfw%7Ctw
 
 多くのツイッター幹部と同様、熱心な民主党党員であるロスでさえ、ハミルトン方式が「右寄りのコンテンツはロシアのボットによって伝播されたと主張する」ようになることを見抜いていました。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/35-1.jpg)
+![](/images/wp/wp-content/uploads/2023/02/35-1.jpg)
 
 > ヨエル・ロス   
 >   
@@ -992,7 +992,7 @@ MSNBC、ワッツ、ワシントンポスト、ポリティコ、マザージョ
 
 ただし、下のツイートは例外です。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/37-1.jpg)
+![](/images/wp/wp-content/uploads/2023/02/37-1.jpg)
 
 > マット・タイッビ   
 >   
@@ -1015,12 +1015,12 @@ MSNBC、ワッツ、ワシントンポスト、ポリティコ、マザージョ
 
 これは学術的なスキャンダルでもあり、ハーバード、プリンストン、テンプル、NYU、GWU、その他の大学がハミルトン68を情報源として宣伝していたのです。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/38a.jpg)
+![](/images/wp/wp-content/uploads/2023/02/38a.jpg)
 
 > 選挙をめぐるサイバー脅威   
 > クリントン・ワッツ 元FBI特別捜査官
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/38b.jpg)
+![](/images/wp/wp-content/uploads/2023/02/38b.jpg)
 
 > "2016年のロシアの偽情報攻撃は、米国政府を準備不足のまま捕らえた。   
 >   
@@ -1028,7 +1028,7 @@ MSNBC、ワッツ、ワシントンポスト、ポリティコ、マザージョ
 >   
 > 主要なソーシャルメディアプラットフォームは、その戦略が実行不可能になるまで、猛攻撃の深刻さを最小限に抑えた。"
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/38c.jpg)
+![](/images/wp/wp-content/uploads/2023/02/38c.jpg)
 
 > 大学図書館 2018年  
 > アメリカ合衆国選挙   
@@ -1043,7 +1043,7 @@ MSNBC、ワッツ、ワシントンポスト、ポリティコ、マザージョ
 
 ダイアン・ファインスタイン、ジェームズ・ランクフォード、リチャード・ブルメンタール、アダム・シフ、マーク・ワーナーなどが違反者でした。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/38d.jpg)
+![](/images/wp/wp-content/uploads/2023/02/38d.jpg)
 
 > 米国カリフォルニア州選出上院議員 ダイアナ・ファインスタイン   
 > プレスリリース   
@@ -1060,7 +1060,7 @@ MSNBC、ワッツ、ワシントンポスト、ポリティコ、マザージョ
 >   
 > このフォローアップレターで、FeinsteinとSchiffはFacebookとTwitterに追加の質問をし、要求された分析のためのフォローアップのための追加情報を提供しました。
 
-![](https://qryptraveller.com/wp-content/uploads/2023/02/39b.jpg)
+![](/images/wp/wp-content/uploads/2023/02/39b.jpg)
 
 > 元FBI捜査官がロシア探査で「死屍累々」と発言   
 >   
