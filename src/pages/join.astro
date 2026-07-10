@@ -1,0 +1,200 @@
+---
+export const prerender = true;
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout
+  title="旅路の証人になって記事の続きを読む"
+  description="旅路の証人になって、会員限定の記事を読む。"
+>
+  <div class="max-w-prose mx-auto px-4 md:px-0 py-16">
+    <header class="mb-10">
+      <div class="text-xs uppercase tracking-[0.3em] text-earth mb-3">Join</div>
+      <h1 class="font-serif text-3xl md:text-4xl font-semibold text-moss-dark leading-tight">
+        旅路の証人になって記事の続きを読む
+      </h1>
+    </header>
+
+    <section class="leading-loose text-ink space-y-4 mb-10">
+      <p>
+        この先の記事には、非常にプライベートで赤裸々な記述や、一般には公開しづらい内容、時に激しく批判されるような内容が含まれています。
+      </p>
+      <p>
+        ここに書かれている旅の在り方は、世間の常識から大きく外れています。人によっては、それに触れることで自分の生き方そのものを揺さぶられ、社会生活に影響が及ぶこともあります。
+      </p>
+      <p>
+        実際に、僕と出会ったことで、既存の枠組みから自由になり、新しい人生の段階に進んだ友人が大勢います。同時に、勤めていた会社を辞めたり、行き詰まった結婚生活から抜け出した人もいます。極度に自由に生きる人間と触れ合うというのは、それだけの衝撃を伴うということです。
+      </p>
+      <p>
+        もし今、あなたの人生が節目にあり、僕の歩んできた旅路に感化されるようなことがあるなら——この記事の続きは、あなたの人生に良くも悪くも大きな影響を与える可能性があります。
+      </p>
+      <p>
+        だからこの記事は、誰にでも開かれている訳ではありません。<br />
+        自己責任でリスクを背負って読み進めて欲しいのです。
+      </p>
+    </section>
+
+    <section class="mb-10">
+      <h2 class="font-serif text-xl text-moss-dark mb-4">「旅路の証人」という概念について</h2>
+      <div class="leading-loose text-ink space-y-4">
+        <p>
+          僕はエホバの証人の家庭で育ちました。その日々もまた、今のこの旅路の一部です。なので「証人」という言葉には、僕にとって特別な意味があります。
+        </p>
+        <p>
+          あの頃はまだ、自分で選んで「証人」という言葉を背負ったわけではありませんでしたが、いま僕はこの言葉を、初めて自分の意志で選び直しています。
+        </p>
+        <p>今回は、あなた自身の意志で、この旅路の証人になって欲しいと思っています。</p>
+      </div>
+    </section>
+
+    <section class="mb-10">
+      <h2 class="font-serif text-xl text-moss-dark mb-4">「旅路の証人」になる利点</h2>
+      <ul class="list-disc pl-6 space-y-2 text-ink">
+        <li>旅に人生を賭けた人間の、渾身の生き様に触れることができる</li>
+        <li>一般常識とは全く異なる生き方の実録を通して、世界観が広がる</li>
+        <li>数々の困難をくぐり抜けてきた記録を知ることで、人生にゆとりが生まれる</li>
+        <li>単純に、読み物として面白い</li>
+        <li>今後の更新を楽しみに待つことができる</li>
+        <li>いつかこの放浪記が日本人最長の旅行記としてギネス認定された時、ドヤ顔ができる</li>
+      </ul>
+    </section>
+
+    <section class="mb-10 bg-paper-100 border border-paper-300 rounded-lg p-6">
+      <h2 class="font-serif text-xl text-moss-dark mb-2">3つの条件</h2>
+      <p class="text-sm text-ink-muted mb-6">
+        「旅路の証人」になるには、以下の3つに同意していただく必要があります。
+      </p>
+
+      <div class="space-y-6">
+        <label class="flex items-start gap-3 cursor-pointer">
+          <input type="checkbox" id="cond1" class="mt-1 condition-checkbox" />
+          <span class="text-ink">
+            <strong class="block mb-1">一つ目:クリプトラベラーを応援していること</strong>
+            単純な話です。僕に敵意を持つ人に、自分の人生を賭けた経験を分け与えたくはありません。
+          </span>
+        </label>
+
+        <div>
+          <label class="flex items-start gap-3 cursor-pointer">
+            <input type="checkbox" id="cond2" class="mt-1 condition-checkbox" />
+            <span class="text-ink">
+              <strong class="block mb-1">二つ目:これまでに何らかの形で僕に利益をもたらしたこと</strong>
+              以下のいずれかに当てはまりますか?
+            </span>
+          </label>
+          <div class="pl-8 mt-3 space-y-2">
+            <label class="flex items-center gap-2 cursor-pointer">
+              <input type="radio" name="reason" value="financial" class="reason-radio" />
+              <span class="text-ink text-sm">何らかの形で僕に金銭的利益をもたらした</span>
+            </label>
+            <label class="flex items-center gap-2 cursor-pointer">
+              <input type="radio" name="reason" value="referral" class="reason-radio" />
+              <span class="text-ink text-sm">誰かにクリプトラベラーを薦めたことがある(オンライン・オフライン問わず)</span>
+            </label>
+            <label class="flex items-center gap-2 cursor-pointer">
+              <input type="radio" name="reason" value="other" class="reason-radio" />
+              <span class="text-ink text-sm">その他の形で応援している</span>
+            </label>
+          </div>
+        </div>
+
+        <label class="flex items-start gap-3 cursor-pointer">
+          <input type="checkbox" id="cond3" class="mt-1 condition-checkbox" />
+          <span class="text-ink">
+            <strong class="block mb-1">
+              三つ目:ここで読んだ内容を、許可なく公共の場で話さないこと。これに違反すると違約金1億円を支払うと同意すること。
+            </strong>
+            ここで共有される話は、あなたと僕との間の信頼の上に成り立っています。
+          </span>
+        </label>
+      </div>
+    </section>
+
+    <section class="text-center">
+      <p class="mb-6 text-ink">
+        以上に同意するなら、下のボタンからログインして「旅路の証人」になってください。
+      </p>
+      <div class="flex flex-col gap-3 max-w-xs mx-auto">
+        <button
+          type="button"
+          data-provider="google"
+          disabled
+          class="auth-btn px-5 py-3 rounded-md text-sm bg-moss-dark text-paper-100 hover:bg-moss disabled:opacity-40 disabled:cursor-not-allowed transition"
+        >
+          Googleでログインする
+        </button>
+        <button
+          type="button"
+          data-provider="facebook"
+          disabled
+          class="auth-btn px-5 py-3 rounded-md text-sm bg-moss-dark text-paper-100 hover:bg-moss disabled:opacity-40 disabled:cursor-not-allowed transition"
+        >
+          Facebookでログインする
+        </button>
+        <button
+          type="button"
+          data-provider="custom:line"
+          disabled
+          class="auth-btn px-5 py-3 rounded-md text-sm bg-moss-dark text-paper-100 hover:bg-moss disabled:opacity-40 disabled:cursor-not-allowed transition"
+        >
+          LINEでログインする
+        </button>
+      </div>
+      <p id="join-error" class="text-sm text-rust mt-4 hidden"></p>
+    </section>
+  </div>
+
+  <script>
+    import { createSupabaseBrowserClient } from "../lib/supabase/browser";
+
+    const supabase = createSupabaseBrowserClient();
+
+    const cond1 = document.getElementById("cond1");
+    const cond2 = document.getElementById("cond2");
+    const cond3 = document.getElementById("cond3");
+    const buttons = document.querySelectorAll(".auth-btn");
+    const errorEl = document.getElementById("join-error");
+
+    function getReason() {
+      const checked = document.querySelector('input[name="reason"]:checked');
+      return checked ? checked.value : null;
+    }
+
+    function updateButtons() {
+      const ok = cond1.checked && cond2.checked && !!getReason() && cond3.checked;
+      buttons.forEach((btn) => {
+        btn.disabled = !ok;
+      });
+    }
+
+    [cond1, cond2, cond3, ...document.querySelectorAll('input[name="reason"]')].forEach((el) =>
+      el.addEventListener("change", updateButtons)
+    );
+
+    const params = new URLSearchParams(window.location.search);
+    const referrer = params.get("ref") ?? "";
+
+    buttons.forEach((btn) => {
+      btn.addEventListener("click", async () => {
+        const reason = getReason();
+        if (!cond1.checked || !cond2.checked || !reason || !cond3.checked) return;
+
+        const provider = btn.dataset.provider;
+        const redirectParams = new URLSearchParams({ agreement_reason: reason });
+        if (referrer) redirectParams.set("ref", referrer);
+
+        const { error } = await supabase.auth.signInWithOAuth({
+          provider,
+          options: {
+            redirectTo: `${window.location.origin}/api/auth/callback?${redirectParams.toString()}`,
+          },
+        });
+
+        if (error) {
+          errorEl.textContent = "ログインに失敗しました。時間を置いて再度お試しください。";
+          errorEl.classList.remove("hidden");
+        }
+      });
+    });
+  </script>
+</Layout>
