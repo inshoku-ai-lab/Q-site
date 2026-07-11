@@ -1,0 +1,3 @@
+{
+  "buildCommand": "npm run build:from-md && npm run build"
+}
