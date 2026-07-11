@@ -130,6 +130,45 @@ Part 体裁で書く。テンプレートは `reference/part-template.md` を参
 
 ---
 
+## 6. Notion への保存（サブパート完成のたびに自動で行う）
+
+翻訳（1サブパート分）が完成するたびに、確認を挟まず Notion にも保存する。
+
+- 保存先データソース: **Blog Articles**（`collection://e4a8e303-8167-4425-82f4-65ea7cae4699`）。
+  既存デボリューション記事もすべてここに入っている（`notion-search` で
+  `"パートN　x/y　デボリューション理論"` を検索すれば実例を確認できる）。
+- `notion-create-pages` の `parent` は `{"type": "data_source_id", "data_source_id": "e4a8e303-8167-4425-82f4-65ea7cae4699"}`。
+- プロパティ（既存 Part と同じ形式に揃える）:
+  - `title`: `"パートN　x/y 　デボリューション理論"`（全角数字、既存表記に合わせる）
+  - `Series`: `"デボリューション理論"` ／ `Category`: `"思想・理論"`
+  - `Episode #`: N（数値） ／ `Sub Episode`: `"x/y"`（半角）
+  - `Slug`: 見込みスラッグ（例 `devolution-part-14-3-4`）
+  - `Excerpt`: 「今回の要点とまとめ」末尾の2〜3文まとめ段落を `<br><br>` でつないだもの
+  - `Tags`: 既存の select 選択肢からのみ選ぶ（スキーマ外の値は使えない）。
+    基本セット `["クーデター","トランプ","不正選挙","情報戦争","戦争"]` に
+    内容に応じて `"ディープステート"` 等を追加する程度でよい。
+  - `Status`: WordPress 未公開の間は `"Draft"`。公開後にユーザー側で `"Published"` に更新する。
+  - `Featured`: `"__NO__"`
+  - `Char Count` ／ `Image Count` ／ `Reading Time`: 本文から概算（画像・リンクURLを除いた
+    プレーンテキスト文字数 ÷ 500 が Reading Time の目安）。
+  - `Notes`: 原文URLと `migration/source/devolution/` 側のファイルパスを一言メモ。
+- 本文（content）は Notion-flavored Markdown で渡す。**通常の Markdown と異なる点に注意**:
+  - 複数段落にまたがる引用は、`>` を段落ごとに繰り返さず、**1つの `>` 行の中で
+    `<br><br>` を使って段落をつなぐ**（`notion://docs/enhanced-markdown-spec` 参照。
+    `ReadMcpResourceTool` で読める）。空行だけの `>` を挟む書き方は空の引用ブロックに
+    なるので使わない。
+  - 引用内の箇条書き（所属リストやメンバー一覧など）も、`- item` ではなく
+    `・item<br>・item…` のように `<br>` でつないで同じ引用ブロック内に収める。
+  - 画像は `![](画像URL)` のままでよい。
+  - 見出し `##`／`###`／`####`、太字 `**`、リンク `[text](url)` は通常どおり。
+- frontmatter やコメント行（`id/date/status/# 制作メモ` など）は Notion の properties 側に
+  吸収されるので、content には含めない（タイトルも properties の `title` のみでよく、
+  本文冒頭に重ねて書かない）。
+- 保存が終わったら、返ってきたページ URL をユーザーに一言報告する。承認待ちのために
+  止まる必要はない（ユーザーが「保存するたびに自動で」と明示している場合）。
+
+---
+
 ## チェックリスト（提出前）
 
 - [ ] 原文を verbatim 取得し末尾まで揃っている（WebFetch 要約を使っていない）
