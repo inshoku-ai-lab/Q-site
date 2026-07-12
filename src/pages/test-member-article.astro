@@ -2,6 +2,7 @@
 export const prerender = false;
 import Layout from "../layouts/Layout.astro";
 import { createSupabaseServerClient } from "../lib/supabase/server";
+import { isMember as checkIsMember } from "../lib/members";
 
 const supabase = createSupabaseServerClient(Astro.request, Astro.cookies);
 
@@ -9,15 +10,7 @@ const {
   data: { user },
 } = await supabase.auth.getUser();
 
-let isMember = false;
-if (user) {
-  const { data: memberRow } = await supabase
-    .from("members")
-    .select("id")
-    .eq("auth_user_id", user.id)
-    .maybeSingle();
-  isMember = !!memberRow;
-}
+const isMember = user ? await checkIsMember(supabase, user.id) : false;
 ---
 
 <Layout

@@ -51,6 +51,25 @@ export function getPostBySlug(slug: string): Post | undefined {
   return allPosts.find((p) => p.slug === slug);
 }
 
+// A callout block marks the boundary between free and member-only content
+// (see MEMBERSHIP_HANDOFF.md §1-9). The callout itself stays visible to
+// everyone as the "here's where it gets member-only" signpost.
+export function splitMemberContent(blocks: Block[]): {
+  freeBlocks: Block[];
+  memberBlocks: Block[];
+  hasMemberContent: boolean;
+} {
+  const idx = blocks.findIndex((b) => b.type === "callout");
+  if (idx === -1) {
+    return { freeBlocks: blocks, memberBlocks: [], hasMemberContent: false };
+  }
+  return {
+    freeBlocks: blocks.slice(0, idx + 1),
+    memberBlocks: blocks.slice(idx + 1),
+    hasMemberContent: blocks.length > idx + 1,
+  };
+}
+
 export function getPostsByCategory(category: string): Post[] {
   return getPublishedPosts().filter((p) => p.category === category);
 }

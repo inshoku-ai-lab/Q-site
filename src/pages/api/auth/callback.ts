@@ -2,6 +2,7 @@ export const prerender = false;
 
 import type { APIRoute } from "astro";
 import { createSupabaseServerClient } from "../../../lib/supabase/server";
+import { getMember } from "../../../lib/members";
 
 const VALID_REASONS = ["financial", "referral", "other"];
 
@@ -26,11 +27,7 @@ export const GET: APIRoute = async ({ request, cookies, redirect, url }) => {
   const provider = user.app_metadata?.provider ?? "google";
   const providerName = provider === "custom:line" ? "line" : provider;
 
-  const { data: existingMember } = await supabase
-    .from("members")
-    .select("id")
-    .eq("auth_user_id", user.id)
-    .maybeSingle();
+  const existingMember = await getMember(supabase, user.id);
 
   if (!existingMember) {
     if (!agreementReason || !VALID_REASONS.includes(agreementReason)) {

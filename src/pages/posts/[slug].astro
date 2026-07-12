@@ -10,6 +10,7 @@ import {
   getSeriesNavigator,
   getRelatedPosts,
   formatDate,
+  splitMemberContent,
 } from "../../lib/posts";
 
 export async function getStaticPaths() {
@@ -23,6 +24,7 @@ const { post } = Astro.props;
 const { prev, next } = getSeriesNavigator(post);
 const related = getRelatedPosts(post, 3);
 const description = post.seo_description || post.excerpt || `${post.category ?? "記事"} | ${post.title}`;
+const { freeBlocks, hasMemberContent } = splitMemberContent(post.blocks);
 ---
 
 <Layout
@@ -83,7 +85,23 @@ const description = post.seo_description || post.excerpt || `${post.category ?? 
       </figure>
     )}
 
-    <ArticleBody blocks={post.blocks} />
+    <ArticleBody blocks={freeBlocks} />
+
+    {hasMemberContent && (
+      <div id="member-gate" data-slug={post.slug} class="mt-6 border-t border-paper-300 pt-6 text-center">
+        <p class="text-ink-muted mb-4">この続きは「旅路の証人」限定です。</p>
+        <a
+          href={`/join?ref=${encodeURIComponent(`/posts/${post.slug}/`)}`}
+          class="inline-block px-6 py-3 bg-moss-dark text-paper-100 rounded-md text-sm no-underline hover:bg-moss"
+        >
+          旅路の証人になって続きを読む
+        </a>
+      </div>
+    )}
+
+    {hasMemberContent && (
+      <div id="member-content" class="prose-article hidden" />
+    )}
 
     {post.tags.length > 0 && (
       <div class="mt-12 pt-6 border-t border-paper-300">
@@ -113,3 +131,30 @@ const description = post.seo_description || post.excerpt || `${post.category ?? 
     )}
   </div>
 </Layout>
+
+{hasMemberContent && (
+  <script>
+    import { createSupabaseBrowserClient } from "../../lib/supabase/browser";
+
+    const gate = document.getElementById("member-gate");
+    const content = document.getElementById("member-content");
+    const slug = gate?.dataset.slug;
+
+    if (slug) {
+      const supabase = createSupabaseBrowserClient();
+      supabase.auth.getSession().then(async ({ data: { session } }) => {
+        if (!session) return;
+
+        const res = await fetch(`/api/posts/${encodeURIComponent(slug)}/member-content.json`);
+        if (!res.ok) return;
+
+        const { html } = await res.json();
+        if (content) {
+          content.innerHTML = html;
+          content.classList.remove("hidden");
+        }
+        gate?.remove();
+      });
+    }
+  </script>
+)}
