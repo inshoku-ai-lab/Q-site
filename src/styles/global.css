@@ -87,4 +87,20 @@
   .card-hover {
     @apply transition-all duration-200 hover:translate-y-[-2px] hover:shadow-md;
   }
+
+  /* Shimmer placeholder for lazy-loaded images */
+  .img-shimmer {
+    background: linear-gradient(90deg, theme("colors.paper.200") 25%, theme("colors.paper.100") 50%, theme("colors.paper.200") 75%);
+    background-size: 200% 100%;
+    animation: img-shimmer 1.5s ease-in-out infinite;
+  }
+  .img-shimmer.is-loaded {
+    animation: none;
+    background: none;
+  }
+}
+
+@keyframes img-shimmer {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
 }

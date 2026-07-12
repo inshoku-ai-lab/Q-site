@@ -5,6 +5,8 @@ import ArticleBody from "../../components/ArticleBody.astro";
 import SeriesNav from "../../components/SeriesNav.astro";
 import ArticleCard from "../../components/ArticleCard.astro";
 import CategoryBadge from "../../components/CategoryBadge.astro";
+import ReadingTimeBadge from "../../components/ReadingTimeBadge.astro";
+import TableOfContents from "../../components/TableOfContents.astro";
 import {
   getPublishedPosts,
   getSeriesNavigator,
@@ -12,6 +14,7 @@ import {
   formatDate,
   splitMemberContent,
 } from "../../lib/posts";
+import { extractToc } from "../../lib/toc";
 
 export async function getStaticPaths() {
   return getPublishedPosts().map((post) => ({
@@ -25,14 +28,18 @@ const { prev, next } = getSeriesNavigator(post);
 const related = getRelatedPosts(post, 3);
 const description = post.seo_description || post.excerpt || `${post.category ?? "記事"} | ${post.title}`;
 const { freeBlocks, hasMemberContent } = splitMemberContent(post.blocks);
+const toc = extractToc(freeBlocks);
+const hasToc = toc.length > 1;
+const ogImage = post.cover ?? `/og/${post.slug}.png`;
 ---
 
 <Layout
   title={post.title}
   description={description}
-  ogImage={post.cover ?? undefined}
+  ogImage={ogImage}
 >
-  <div class="max-w-prose mx-auto px-4 md:px-0 py-12 md:py-16">
+  <div class={`mx-auto px-4 md:px-0 py-12 md:py-16 ${hasToc ? "max-w-page lg:grid lg:grid-cols-[minmax(0,42rem)_240px] lg:gap-12 lg:justify-center" : "max-w-prose"}`}>
+  <div class={hasToc ? "max-w-prose w-full mx-auto lg:mx-0" : ""}>
     <!-- Breadcrumb / Meta -->
     <nav class="mb-6 flex flex-wrap items-center gap-3 text-xs text-ink-muted">
       <a href="/" class="no-underline hover:text-ink">ホーム</a>
@@ -69,7 +76,7 @@ const { freeBlocks, hasMemberContent } = splitMemberContent(post.blocks);
       <div class="flex flex-wrap items-center gap-4 text-sm text-ink-muted">
         <time>{formatDate(post.date)}</time>
         <span class="text-paper-300">|</span>
-        <span>読了 約{post.reading_time}分</span>
+        <ReadingTimeBadge minutes={post.reading_time} />
         {post.char_count > 0 && (
           <>
             <span class="text-paper-300">|</span>
@@ -84,6 +91,8 @@ const { freeBlocks, hasMemberContent } = splitMemberContent(post.blocks);
         <img src={post.cover} alt="" class="w-full rounded-md" loading="eager" />
       </figure>
     )}
+
+    {hasToc && <TableOfContents entries={toc} variant="mobile" />}
 
     <ArticleBody blocks={freeBlocks} />
 
@@ -100,7 +109,15 @@ const { freeBlocks, hasMemberContent } = splitMemberContent(post.blocks);
     )}
 
     {hasMemberContent && (
-      <div id="member-content" class="prose-article hidden" />
+      <div id="member-content" class="hidden">
+        <div id="member-content-skeleton" class="space-y-3 mt-6 animate-pulse" aria-hidden="true">
+          <div class="h-4 bg-paper-300 rounded w-full"></div>
+          <div class="h-4 bg-paper-300 rounded w-11/12"></div>
+          <div class="h-4 bg-paper-300 rounded w-full"></div>
+          <div class="h-4 bg-paper-300 rounded w-4/5"></div>
+        </div>
+        <div id="member-content-body" class="prose-article"></div>
+      </div>
     )}
 
     {post.tags.length > 0 && (
@@ -124,11 +141,13 @@ const { freeBlocks, hasMemberContent } = splitMemberContent(post.blocks);
     {related.length > 0 && (
       <section class="mt-16 pt-10 border-t border-paper-300">
         <h2 class="font-serif text-xl font-semibold text-moss-dark mb-6">関連する記事</h2>
-        <div class="space-y-1">
-          {related.map((p) => <ArticleCard post={p} variant="compact" />)}
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+          {related.map((p) => <ArticleCard post={p} variant="related" />)}
         </div>
       </section>
     )}
+  </div>
+  {hasToc && <TableOfContents entries={toc} variant="desktop" />}
   </div>
 </Layout>
 
@@ -138,6 +157,8 @@ const { freeBlocks, hasMemberContent } = splitMemberContent(post.blocks);
 
     const gate = document.getElementById("member-gate");
     const content = document.getElementById("member-content");
+    const skeleton = document.getElementById("member-content-skeleton");
+    const body = document.getElementById("member-content-body");
     const slug = gate?.dataset.slug;
 
     if (slug) {
@@ -145,14 +166,19 @@ const { freeBlocks, hasMemberContent } = splitMemberContent(post.blocks);
       supabase.auth.getSession().then(async ({ data: { session } }) => {
         if (!session) return;
 
+        gate?.classList.add("hidden");
+        content?.classList.remove("hidden");
+
         const res = await fetch(`/api/posts/${encodeURIComponent(slug)}/member-content.json`);
-        if (!res.ok) return;
+        if (!res.ok) {
+          content?.classList.add("hidden");
+          gate?.classList.remove("hidden");
+          return;
+        }
 
         const { html } = await res.json();
-        if (content) {
-          content.innerHTML = html;
-          content.classList.remove("hidden");
-        }
+        if (body) body.innerHTML = html;
+        skeleton?.remove();
         gate?.remove();
       });
     }

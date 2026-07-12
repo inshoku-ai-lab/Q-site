@@ -1,10 +1,11 @@
 ---
 import type { Post } from "../lib/posts";
 import { formatDateShort, categoryAccent } from "../lib/posts";
+import ReadingTimeBadge from "./ReadingTimeBadge.astro";
 
 interface Props {
   post: Post;
-  variant?: "default" | "compact" | "wide";
+  variant?: "default" | "compact" | "wide" | "related";
   showCategory?: boolean;
 }
 
@@ -32,6 +33,40 @@ const href = `/posts/${post.slug}/`;
       {post.title}
     </h3>
   </a>
+) : variant === "related" ? (
+  <a href={href} class="block group no-underline card-hover bg-paper-50 rounded-lg overflow-hidden border border-paper-200 h-full flex flex-col">
+    {post.cover ? (
+      <div class="aspect-[16/9] overflow-hidden bg-paper-200">
+        <img
+          src={post.cover}
+          alt=""
+          loading="lazy"
+          class="img-shimmer w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+          onload="this.classList.add('is-loaded')"
+        />
+      </div>
+    ) : (
+      <div class={`aspect-[16/9] bg-gradient-to-br from-${accent}/20 to-${accent}/5 flex items-center justify-center`}>
+        {post.category && (
+          <span class={`text-xs uppercase tracking-widest text-${accent}/70 font-medium`}>
+            {post.category}
+          </span>
+        )}
+      </div>
+    )}
+    <div class="p-4 flex-1 flex flex-col">
+      <div class="flex items-baseline gap-2 mb-2 flex-wrap">
+        <time class="text-xs text-ink-muted font-mono">{formatDateShort(post.date)}</time>
+        {post.series && post.episode != null && (
+          <span class="text-[10px] tracking-wider text-ink-muted">{post.series} #{post.episode}</span>
+        )}
+      </div>
+      <h3 class="font-serif text-base leading-snug text-ink group-hover:text-moss-dark transition-colors mb-2 flex-1">
+        {post.title}
+      </h3>
+      <ReadingTimeBadge minutes={post.reading_time} size="sm" />
+    </div>
+  </a>
 ) : variant === "wide" ? (
   <a href={href} class="block group no-underline card-hover bg-paper-50 rounded-lg overflow-hidden border border-paper-200">
     {post.cover && (
@@ -40,7 +75,8 @@ const href = `/posts/${post.slug}/`;
           src={post.cover}
           alt=""
           loading="lazy"
-          class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+          class="img-shimmer w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+          onload="this.classList.add('is-loaded')"
         />
       </div>
     )}
@@ -61,9 +97,9 @@ const href = `/posts/${post.slug}/`;
           {post.excerpt}
         </p>
       )}
-      <div class="mt-4 text-xs text-ink-muted flex items-center gap-3">
-        <span>読了 約{post.reading_time}分</span>
-        {post.series && <span>· {post.series}{post.episode != null ? ` #${post.episode}` : ""}</span>}
+      <div class="mt-4 flex items-center gap-3">
+        <ReadingTimeBadge minutes={post.reading_time} size="sm" />
+        {post.series && <span class="text-xs text-ink-muted">{post.series}{post.episode != null ? ` #${post.episode}` : ""}</span>}
       </div>
     </div>
   </a>
@@ -85,9 +121,9 @@ const href = `/posts/${post.slug}/`;
         {post.excerpt}
       </p>
     )}
-    <div class="mt-3 text-xs text-ink-muted">
-      読了 約{post.reading_time}分
-      {post.series && post.episode != null && <> · {post.series} #{post.episode}</>}
+    <div class="mt-3 flex items-center gap-3">
+      <ReadingTimeBadge minutes={post.reading_time} size="sm" />
+      {post.series && post.episode != null && <span class="text-xs text-ink-muted">{post.series} #{post.episode}</span>}
     </div>
   </a>
 )}

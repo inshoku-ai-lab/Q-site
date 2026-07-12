@@ -1,0 +1,66 @@
+---
+import type { TocEntry } from "../lib/toc";
+
+interface Props {
+  entries: TocEntry[];
+  variant: "mobile" | "desktop";
+}
+const { entries, variant } = Astro.props;
+---
+
+{entries.length > 1 && variant === "mobile" && (
+  <details class="toc lg:hidden border border-paper-300 rounded-md mb-8">
+    <summary class="cursor-pointer select-none px-4 py-3 text-sm font-medium text-moss-dark">目次</summary>
+    <ul class="px-4 pb-4 space-y-2 text-sm">
+      {entries.map((e) => (
+        <li class={e.level === 3 ? "pl-4" : ""}>
+          <a href={`#${e.id}`} class="text-ink-muted no-underline" data-toc-link data-target={e.id}>
+            {e.text}
+          </a>
+        </li>
+      ))}
+    </ul>
+  </details>
+)}
+
+{entries.length > 1 && variant === "desktop" && (
+  <nav class="toc hidden lg:block sticky top-8 max-h-[calc(100vh-4rem)] overflow-y-auto" aria-label="目次">
+    <div class="text-xs uppercase tracking-widest text-ink-muted mb-3">目次</div>
+    <ul class="space-y-2.5 text-sm">
+      {entries.map((e) => (
+        <li class={e.level === 3 ? "pl-4" : ""}>
+          <a href={`#${e.id}`} class="block text-ink-muted no-underline leading-snug" data-toc-link data-target={e.id}>
+            {e.text}
+          </a>
+        </li>
+      ))}
+    </ul>
+  </nav>
+)}
+
+<script>
+  const links = Array.from(document.querySelectorAll<HTMLAnchorElement>("[data-toc-link]"));
+  if (links.length) {
+    const targets = links
+      .map((l) => document.getElementById(l.dataset.target ?? ""))
+      .filter((el): el is HTMLElement => !!el);
+
+    function setActive(id: string | null) {
+      for (const l of links) {
+        const active = l.dataset.target === id;
+        l.classList.toggle("text-moss-dark", active);
+        l.classList.toggle("font-medium", active);
+        l.classList.toggle("text-ink-muted", !active);
+      }
+    }
+
+    const observer = new IntersectionObserver(
+      (observed) => {
+        const visible = observed.filter((e) => e.isIntersecting);
+        if (visible.length > 0) setActive(visible[0].target.id);
+      },
+      { rootMargin: "-10% 0px -70% 0px" }
+    );
+    targets.forEach((t) => observer.observe(t));
+  }
+</script>

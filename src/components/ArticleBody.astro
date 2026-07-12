@@ -1,10 +1,19 @@
 ---
 import type { Block } from "../lib/posts";
+import { slugifyHeading } from "../lib/toc";
 
 interface Props {
   blocks: Block[];
 }
 const { blocks } = Astro.props;
+
+let headingIndex = 0;
+function nextHeadingId(html: string): string {
+  const text = (html ?? "").replace(/<[^>]+>/g, "").trim();
+  const id = slugifyHeading(text, headingIndex);
+  headingIndex++;
+  return id;
+}
 
 // Group consecutive list items into <ul>/<ol>
 type Group = { type: "ul" | "ol" | "single"; items: Block[] };
@@ -56,11 +65,11 @@ const groups = groupBlocks(blocks);
           if (!b.html?.trim()) return null;
           return <p set:html={b.html} />;
         case "heading_1":
-          return <h2 set:html={b.html ?? ""} />;
+          return <h2 id={nextHeadingId(b.html ?? "")} set:html={b.html ?? ""} />;
         case "heading_2":
-          return <h2 set:html={b.html ?? ""} />;
+          return <h2 id={nextHeadingId(b.html ?? "")} set:html={b.html ?? ""} />;
         case "heading_3":
-          return <h3 set:html={b.html ?? ""} />;
+          return <h3 id={nextHeadingId(b.html ?? "")} set:html={b.html ?? ""} />;
         case "quote":
           return <blockquote set:html={b.html ?? ""} />;
         case "callout":
@@ -81,7 +90,13 @@ const groups = groupBlocks(blocks);
           if (!b.src) return null;
           return (
             <figure class="my-8">
-              <img src={b.src} alt={b.caption?.replace(/<[^>]+>/g, "") ?? ""} loading="lazy" />
+              <img
+                src={b.src}
+                alt={b.caption?.replace(/<[^>]+>/g, "") ?? ""}
+                loading="lazy"
+                class="img-shimmer"
+                onload="this.classList.add('is-loaded')"
+              />
               {b.caption && <figcaption class="text-xs text-ink-muted text-center mt-2" set:html={b.caption} />}
             </figure>
           );
