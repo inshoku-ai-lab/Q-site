@@ -1,0 +1,87 @@
+---
+export const prerender = false;
+import Layout from "../../../layouts/Layout.astro";
+import { requireAdmin, logAdminAccess } from "../../../lib/admin";
+import { formatDate } from "../../../lib/posts";
+
+const auth = await requireAdmin(Astro.request, Astro.cookies);
+if (!auth.ok) {
+  return Astro.redirect("/");
+}
+
+const { id } = Astro.params;
+const { data: member } = await auth.admin
+  .from("members")
+  .select("*")
+  .eq("id", id)
+  .maybeSingle();
+
+if (!member) {
+  return new Response("会員が見つかりません", { status: 404 });
+}
+
+await logAdminAccess(auth.admin, auth.email, `view_member:${member.id}`);
+
+const PROVIDER_LABELS: Record<string, string> = { google: "Google", facebook: "Facebook", line: "LINE" };
+const REASON_LABELS: Record<string, string> = {
+  financial: "金銭的利益をもたらした",
+  referral: "誰かに薦めたことがある",
+  other: "その他の形で応援",
+};
+---
+
+<Layout title={`会員詳細: ${member.display_name || member.email}`} description="旅路の証人 会員詳細" noIndex>
+  <div class="max-w-2xl mx-auto px-4 md:px-0 py-12">
+    <nav class="text-sm mb-6">
+      <a href="/admin/members" class="text-earth hover:text-ink underline">← 会員一覧へ</a>
+    </nav>
+
+    <h1 class="font-serif text-2xl font-semibold text-moss-dark mb-8">
+      {member.display_name || "(名前なし)"}
+    </h1>
+
+    <dl class="space-y-4 mb-10 border border-paper-300 rounded-md p-6 text-sm">
+      <div class="flex justify-between gap-4"><dt class="text-ink-muted">メールアドレス</dt><dd>{member.email}</dd></div>
+      <div class="flex justify-between gap-4"><dt class="text-ink-muted">プロバイダー</dt><dd>{PROVIDER_LABELS[member.provider] ?? member.provider}</dd></div>
+      <div class="flex justify-between gap-4"><dt class="text-ink-muted">同意理由</dt><dd>{REASON_LABELS[member.agreement_reason] ?? member.agreement_reason}</dd></div>
+      <div class="flex justify-between gap-4"><dt class="text-ink-muted">入会日</dt><dd>{formatDate(member.joined_at)}</dd></div>
+      <div class="flex justify-between gap-4"><dt class="text-ink-muted">流入元記事</dt><dd class="text-right break-all">{member.referrer_article_slug ?? "―"}</dd></div>
+      <div class="flex justify-between gap-4"><dt class="text-ink-muted">入会後最初に読んだ記事</dt><dd class="text-right break-all">{member.first_read_article_slug ?? "―"}</dd></div>
+    </dl>
+
+    <div class="border-t border-paper-300 pt-8">
+      <h2 class="font-serif text-lg font-semibold text-moss-dark mb-3">管理者メモ</h2>
+      <textarea
+        id="admin-note"
+        class="w-full border border-paper-300 rounded-md p-3 text-sm h-32"
+        placeholder="このメンバーについてのメモ(例: ◯◯さんの紹介で入会)"
+      >{member.admin_note ?? ""}</textarea>
+      <div class="mt-3 flex items-center gap-3">
+        <button id="save-note-btn" type="button" class="px-4 py-2 bg-moss-dark text-paper-100 rounded-md text-sm">
+          メモを保存
+        </button>
+        <span id="save-note-status" class="text-xs text-ink-muted"></span>
+      </div>
+    </div>
+  </div>
+</Layout>
+
+<script define:vars={{ memberId: member.id }}>
+  const btn = document.getElementById("save-note-btn");
+  const textarea = document.getElementById("admin-note");
+  const status = document.getElementById("save-note-status");
+
+  btn?.addEventListener("click", async () => {
+    btn.setAttribute("disabled", "true");
+    if (status) status.textContent = "保存中...";
+
+    const res = await fetch(`/api/admin/members/${memberId}/note`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ note: textarea.value }),
+    });
+
+    btn.removeAttribute("disabled");
+    if (status) status.textContent = res.ok ? "保存しました" : "保存に失敗しました";
+  });
+</script>
