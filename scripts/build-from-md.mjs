@@ -103,6 +103,7 @@ function mdToBlocks(md) {
     else if (line.startsWith("## ")) blocks.push({ type: "heading_2", html: richTextHtml(line.slice(3).trim()) });
     else if (line.startsWith("### ")) blocks.push({ type: "heading_3", html: richTextHtml(line.slice(4).trim()) });
     else if (/^####+\s/.test(line)) blocks.push({ type: "heading_3", html: richTextHtml(line.replace(/^#+\s/, "").trim()) });
+    else if (line.startsWith("> 🔒")) blocks.push({ type: "callout", html: richTextHtml(line.slice(2).trim().replace(/^🔒\s*/, "")) });
     else if (line.startsWith("> ")) blocks.push({ type: "quote", html: richTextHtml(line.slice(2).trim()) });
     else if (/^[-*+]\s+/.test(line)) blocks.push({ type: "bulleted_list_item", html: richTextHtml(line.replace(/^[-*+]\s+/, "")) });
     else if (/^\d+\.\s+/.test(line)) blocks.push({ type: "numbered_list_item", html: richTextHtml(line.replace(/^\d+\.\s+/, "")) });
