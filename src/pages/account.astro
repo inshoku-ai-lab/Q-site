@@ -1,0 +1,105 @@
+---
+export const prerender = false;
+import Layout from "../layouts/Layout.astro";
+import { createSupabaseServerClient } from "../lib/supabase/server";
+import { formatDate } from "../lib/posts";
+
+const supabase = createSupabaseServerClient(Astro.request, Astro.cookies);
+
+const {
+  data: { user },
+} = await supabase.auth.getUser();
+
+let member: { provider: string; joined_at: string } | null = null;
+if (user) {
+  const { data } = await supabase
+    .from("members")
+    .select("provider, joined_at")
+    .eq("auth_user_id", user.id)
+    .maybeSingle();
+  member = data;
+}
+
+const PROVIDER_LABELS: Record<string, string> = {
+  google: "Google",
+  facebook: "Facebook",
+  line: "LINE",
+};
+---
+
+<Layout title="アカウント設定" description="旅路の証人アカウントの設定ページです。" noIndex>
+  <div class="max-w-prose mx-auto px-4 md:px-0 py-16">
+    <h1 class="font-serif text-3xl font-semibold text-moss-dark mb-8">アカウント設定</h1>
+
+    {!user && (
+      <div class="text-center py-12">
+        <p class="text-ink-muted mb-4">ログインしていません。</p>
+        <a href="/join" class="text-earth hover:text-ink underline">「旅路の証人」になる</a>
+      </div>
+    )}
+
+    {user && !member && (
+      <p class="text-ink-muted">会員情報が見つかりませんでした。</p>
+    )}
+
+    {user && member && (
+      <>
+        <dl class="space-y-4 mb-12 border border-paper-300 rounded-md p-6">
+          <div class="flex justify-between gap-4">
+            <dt class="text-ink-muted text-sm">メールアドレス</dt>
+            <dd class="text-ink text-sm">{user.email}</dd>
+          </div>
+          <div class="flex justify-between gap-4">
+            <dt class="text-ink-muted text-sm">ログイン方法</dt>
+            <dd class="text-ink text-sm">{PROVIDER_LABELS[member.provider] ?? member.provider}</dd>
+          </div>
+          <div class="flex justify-between gap-4">
+            <dt class="text-ink-muted text-sm">「旅路の証人」になった日</dt>
+            <dd class="text-ink text-sm">{formatDate(member.joined_at)}</dd>
+          </div>
+        </dl>
+
+        <div class="border-t border-paper-300 pt-8">
+          <h2 class="font-serif text-lg font-semibold text-moss-dark mb-3">退会する</h2>
+          <p class="text-sm text-ink-muted mb-4">
+            退会すると、アカウントと会員情報は即座に完全に削除されます。この操作は元に戻せません。
+          </p>
+          <button
+            id="delete-account-btn"
+            type="button"
+            class="px-5 py-2.5 border border-rust text-rust rounded-md text-sm hover:bg-rust hover:text-paper-100"
+          >
+            退会する
+          </button>
+          <p id="delete-error" class="text-sm text-rust mt-4 hidden"></p>
+        </div>
+      </>
+    )}
+  </div>
+</Layout>
+
+{user && member && (
+  <script>
+    const btn = document.getElementById("delete-account-btn");
+    const errorEl = document.getElementById("delete-error");
+
+    btn?.addEventListener("click", async () => {
+      const confirmed = window.confirm("本当に退会しますか？この操作は元に戻せません。");
+      if (!confirmed) return;
+
+      btn.setAttribute("disabled", "true");
+      const res = await fetch("/api/account/delete", { method: "POST" });
+
+      if (res.ok) {
+        window.location.href = "/";
+        return;
+      }
+
+      btn.removeAttribute("disabled");
+      if (errorEl) {
+        errorEl.textContent = "退会処理に失敗しました。時間を置いて再度お試しください。";
+        errorEl.classList.remove("hidden");
+      }
+    });
+  </script>
+)}
