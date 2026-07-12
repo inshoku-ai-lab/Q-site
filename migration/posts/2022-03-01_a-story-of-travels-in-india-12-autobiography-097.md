@@ -104,28 +104,7 @@ flags: ""
 そうこうしている間に、一気に気分が悪くなって来て、トイレへ駆け込んだ。  
 量を多く取りすぎて、体が過剰反応してしまったらしい。
 
-[show\_for\_guests\_and\_members]
-
---- この記事の後半はプライベートな情報があるために完全版でのみ公開しています---
-
-[プレミアムアカウントにアップグレードして完全版を読む](https://qryptraveller.com/index1/travel-blog/membership-join/)
-
-.upgrade-button {
-display: inline-block;
-padding: 10px 20px;
-background-color: #6d8e5d;
-color: white;
-text-decoration: none;
-border-radius: 8px;
-font-weight: bold;
-transition: background-color 0.3s;
-}
-.upgrade-button:hover {
-background-color: #587746;
-}
-[前の記事](https://qryptraveller.com/a-story-of-travels-in-india-11-autobiography-096/)　｜　[次の記事](https://qryptraveller.com/the-story-of-meeting-gore-1-autobiography-098/)
-[/show\_for\_guests\_and\_members]
-[um\_show\_content roles='um\_custom\_role\_1']
+> 🔒 ここから会員限定
 
 （以下内容転載禁止、法的対処有。）
 
@@ -150,5 +129,3 @@ background-color: #587746;
 吐き気で体力が無くなり、どうしようもなかったのだ。
 
 列車では何も食べず、夕方から朝まで爆睡する事で何とかしのぐ事ができた。
-
-[/um\_show\_content]

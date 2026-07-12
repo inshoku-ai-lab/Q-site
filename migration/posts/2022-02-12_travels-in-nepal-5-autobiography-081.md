@@ -30,30 +30,7 @@ flags: "no-images"
 
 僕の友人たちは訝しがっていたのだが、彼は僕の注意をひく事に成功した。
 
-[show\_for\_guests\_and\_members]
-
---- この記事の後半はプライベートな情報があるために完全版でのみ公開しています---
-
-[プレミアムアカウントにアップグレードして完全版を読む](https://qryptraveller.com/index1/travel-blog/membership-join/)
-
-.upgrade-button {
-display: inline-block;
-padding: 10px 20px;
-background-color: #6d8e5d;
-color: white;
-text-decoration: none;
-border-radius: 8px;
-font-weight: bold;
-transition: background-color 0.3s;
-}
-.upgrade-button:hover {
-background-color: #587746;
-}
-
-[前の記事](https://qryptraveller.com/travels-in-nepal-4-autobiography-080/)　｜　[次の記事](https://qryptraveller.com/a-story-of-travel-in-nepal-6-autobiography-082/)
-
-[/show\_for\_guests\_and\_members]
-[um\_show\_content roles='um\_custom\_role\_1']
+> 🔒 ここから会員限定
 
 （以下内容転載禁止、法的対処有。）
 
@@ -124,7 +101,3 @@ background-color: #587746;
 この時に受けた氣づきの多くは、今までの日本での生活と旅ぐらしの違いについてだった。
 
 全く違う国で、全く違う時間間隔と価値観で生きるということを、全く違う意識感覚で体験することで、旅という体験が何倍にも深まっていた。
-
-
-
-[/um\_show\_content]

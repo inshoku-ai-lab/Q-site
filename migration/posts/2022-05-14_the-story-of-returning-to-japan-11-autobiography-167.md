@@ -54,27 +54,7 @@ flags: "no-images"
 
 大海を知ってしまった井の中の蛙は、もう二度と井の中に戻ることは出来ないのだ。
 
-[show\_for\_guests\_and\_members]
-
---- この記事の後半はプライベートな情報があるために完全版でのみ公開しています---
-
-[プレミアムアカウントにアップグレードして完全版を読む](https://qryptraveller.com/index1/travel-blog/membership-join/)
-
-.upgrade-button {
-display: inline-block;
-padding: 10px 20px;
-background-color: #6d8e5d;
-color: white;
-text-decoration: none;
-border-radius: 8px;
-font-weight: bold;
-transition: background-color 0.3s;
-}
-.upgrade-button:hover {
-background-color: #587746;
-}
-[前の記事](https://qryptraveller.com/the-story-of-returning-to-japan-10-autobiography-166/)　｜　[次の記事](https://qryptraveller.com/the-story-of-returning-to-japan-12-autobiography-168/)[/show\_for\_guests\_and\_members]
-[um\_show\_content roles='um\_custom\_role\_1']
+> 🔒 ここから会員限定
 
 （以下内容転載禁止、法的対処有。）
 
@@ -93,7 +73,3 @@ background-color: #587746;
 全くもって理不尽な怒りだが、それほどまでに日本社会とのギャップに苦しんでいた。
 
 だからと言って日本社会に合わせようと言う気などサラサラ無かったので仕方のないことだったが。
-
-
-
-[/um\_show\_content]

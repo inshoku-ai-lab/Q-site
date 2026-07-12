@@ -75,27 +75,7 @@ flags: "no-images"
 
 僕は、疲れなど気にせずに颯爽と歩を進めた。
 
-[show\_for\_guests\_and\_members]
-
---- この記事の後半はプライベートな情報があるために完全版でのみ公開しています---
-
-[プレミアムアカウントにアップグレードして完全版を読む](https://qryptraveller.com/index1/travel-blog/membership-join/)
-
-.upgrade-button {
-display: inline-block;
-padding: 10px 20px;
-background-color: #6d8e5d;
-color: white;
-text-decoration: none;
-border-radius: 8px;
-font-weight: bold;
-transition: background-color 0.3s;
-}
-.upgrade-button:hover {
-background-color: #587746;
-}
-[前の記事](https://qryptraveller.com/35-autobiography-475-the-story-of-working-in-a-mountain-lodge-in-the-northern-alps/)　｜　[次の記事](https://qryptraveller.com/37-autobiography-477-a-story-about-working-in-a-mountain-lodge-in-the-northern-alps/)[/show\_for\_guests\_and\_members]
-[um\_show\_content roles='um\_custom\_role\_1']
+> 🔒 ここから会員限定
 
 （以下内容転載禁止、法的対処有。）
 
@@ -110,5 +90,3 @@ background-color: #587746;
 危なくはないが意識の拡大をしっかりと楽しめる程度の量を摂取することにした。
 
 以降のこの日の分の記事は、LSDでトビながら登山行をしていると思って読んでください。
-
-[/um\_show\_content]

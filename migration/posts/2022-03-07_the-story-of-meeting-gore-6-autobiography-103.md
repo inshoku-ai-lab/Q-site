@@ -60,30 +60,7 @@ flags: "no-images"
 
 ここではインド人のみならず、数多くの外国人旅行者がお店を出していて、個性的な品揃えが溢れていた。
 
-[show\_for\_guests\_and\_members]
-
---- この記事の後半はプライベートな情報があるために完全版でのみ公開しています---
-
-[プレミアムアカウントにアップグレードして完全版を読む](https://qryptraveller.com/index1/travel-blog/membership-join/)
-
-.upgrade-button {
-display: inline-block;
-padding: 10px 20px;
-background-color: #6d8e5d;
-color: white;
-text-decoration: none;
-border-radius: 8px;
-font-weight: bold;
-transition: background-color 0.3s;
-}
-.upgrade-button:hover {
-background-color: #587746;
-}
-
-[前の記事](https://qryptraveller.com/the-story-of-meeting-gore-5-autobiography-102/)　｜　[次の記事](https://qryptraveller.com/the-story-of-meeting-gore-7-autobiography-104/)
-
-[/show\_for\_guests\_and\_members]
-[um\_show\_content roles='um\_custom\_role\_1']
+> 🔒 ここから会員限定
 
 （以下内容転載禁止、法的対処有。）
 
@@ -134,7 +111,3 @@ background-color: #587746;
 僕たちは大喝采で喜んだ。
 
 駐車場にバイクを止めてバーへと向かう間に すでに僕は盛り上がりきっていて、両手を上げて叫びながらバーへと走りだす。
-
-
-
-[/um\_show\_content]

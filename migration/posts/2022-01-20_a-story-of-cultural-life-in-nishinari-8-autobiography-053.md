@@ -38,27 +38,7 @@ CDを大量に借りて、それを全てMDにコピーする。
 
 今思うと相当ロクでもない奴だと感じるが、第３次反抗期の僕は音楽に貪欲な二重スパイ生活を楽しんでいた。
 
-[show\_for\_guests\_and\_members]
-
---- この記事の後半はプライベートな情報があるために完全版でのみ公開しています---
-
-[プレミアムアカウントにアップグレードして完全版を読む](https://qryptraveller.com/index1/travel-blog/membership-join/)
-
-.upgrade-button {
-display: inline-block;
-padding: 10px 20px;
-background-color: #6d8e5d;
-color: white;
-text-decoration: none;
-border-radius: 8px;
-font-weight: bold;
-transition: background-color 0.3s;
-}
-.upgrade-button:hover {
-background-color: #587746;
-}
-[前の記事](https://qryptraveller.com/a-story-of-cultural-life-in-nishinari-7-autobiography-052/)　｜　[次の記事](https://qryptraveller.com/a-story-of-cultural-life-in-nishinari-9-autobiography-054/)[/show\_for\_guests\_and\_members]
-[um\_show\_content roles='um\_custom\_role\_1']
+> 🔒 ここから会員限定
 
 （以下内容転載禁止、法的対処有。）
 
@@ -111,5 +91,3 @@ background-color: #587746;
 あとは数ヶ月待てば大きく成長する、らしい。。。
 
 つづく。。。
-
-[/um\_show\_content]

@@ -21,28 +21,7 @@ excerpt: "1万円を取られた怒りと自分の不甲斐なさにヤケ大麻
 flags: "no-images"
 ---
 
-[show\_for\_guests\_and\_members]
-
---- この記事の後半はプライベートな情報があるために完全版でのみ公開しています---
-
-[プレミアムアカウントにアップグレードして完全版を読む](https://qryptraveller.com/index1/travel-blog/membership-join/)
-
-.upgrade-button {
-display: inline-block;
-padding: 10px 20px;
-background-color: #6d8e5d;
-color: white;
-text-decoration: none;
-border-radius: 8px;
-font-weight: bold;
-transition: background-color 0.3s;
-}
-.upgrade-button:hover {
-background-color: #587746;
-}
-[前の記事](https://qryptraveller.com/a-story-of-travel-in-nepal-6-autobiography-082/)　｜　[次の記事](https://qryptraveller.com/travels-in-nepal-8-autobiography-084/)
-[/show\_for\_guests\_and\_members]
-[um\_show\_content roles='um\_custom\_role\_1']
+> 🔒 ここから会員限定
 
 （以下内容転載禁止、法的対処有。）
 
@@ -114,4 +93,4 @@ background-color: #587746;
 宿の主人から強く反省を促され、全ては一件落着した。
  
 全ては元の鞘に収まったが、僕のマヌケ具合も不甲斐なさも何も変わらず、旅の恥はかき捨てなんて言う言葉では補えないほどの恥を心に留めた。
-こうして僕の”四度目の正直”になるサイケデリック体験は大失敗で幕を閉じた。[/um\_show\_content]
+こうして僕の”四度目の正直”になるサイケデリック体験は大失敗で幕を閉じた。

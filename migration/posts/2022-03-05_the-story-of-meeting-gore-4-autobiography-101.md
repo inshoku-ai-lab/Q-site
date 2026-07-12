@@ -78,30 +78,7 @@ flags: "no-images"
 
 彼曰く雨季のオフ・シーズンの方が景色が緑に満ちて綺麗だし、人が少なくて静かで良いという。
 
-[show\_for\_guests\_and\_members]
-
---- この記事の後半はプライベートな情報があるために完全版でのみ公開しています---
-
-[プレミアムアカウントにアップグレードして完全版を読む](https://qryptraveller.com/index1/travel-blog/membership-join/)
-
-.upgrade-button {
-display: inline-block;
-padding: 10px 20px;
-background-color: #6d8e5d;
-color: white;
-text-decoration: none;
-border-radius: 8px;
-font-weight: bold;
-transition: background-color 0.3s;
-}
-.upgrade-button:hover {
-background-color: #587746;
-}
-
-[前の記事](https://qryptraveller.com/the-story-of-meeting-gore-3-autobiography-100/)　｜　[次の記事](https://qryptraveller.com/the-story-of-meeting-gore-5-autobiography-102/)
-
-[/show\_for\_guests\_and\_members]
-[um\_show\_content roles='um\_custom\_role\_1']
+> 🔒 ここから会員限定
 
 （以下内容転載禁止、法的対処有。）
 
@@ -132,7 +109,3 @@ Mさんは、レストランで無給で働いている。
 真似をしたいわけでも無いし、真似をすることもできないだろうが、こんな生き方があるんだ、と大きなカルチャーショックを受けた。
 
 だが、これはまだまだ序の口で、ゴアから受ける衝撃はこんなものでは無かった。
-
-
-
-[/um\_show\_content]

@@ -32,28 +32,7 @@ flags: "no-images"
 
 気が早い僕たちは、パーティーが始まる前のセットアップの段階から敷地内に入って待っていた。
 
-[show\_for\_guests\_and\_members]
-
---- この記事の後半はプライベートな情報があるために完全版でのみ公開しています---
-
-[プレミアムアカウントにアップグレードして完全版を読む](https://qryptraveller.com/index1/travel-blog/membership-join/)
-
-.upgrade-button {
-display: inline-block;
-padding: 10px 20px;
-background-color: #6d8e5d;
-color: white;
-text-decoration: none;
-border-radius: 8px;
-font-weight: bold;
-transition: background-color 0.3s;
-}
-.upgrade-button:hover {
-background-color: #587746;
-}
-[前の記事](https://qryptraveller.com/the-story-of-meeting-gore-20-autobiography-117/)　｜　[次の記事](https://qryptraveller.com/a-story-of-awakening-to-gore-2-autobiography-119/)
-[/show\_for\_guests\_and\_members]
-[um\_show\_content roles='um\_custom\_role\_1']
+> 🔒 ここから会員限定
 
 （以下内容転載禁止、法的対処有。）
 
@@ -124,5 +103,3 @@ background-color: #587746;
 １７歳の時に、目に見えて苦しすぎる家庭環境から脱出して以降は、全く悩みのない空っぽ頭の日々で、悩みが一切ないことが自慢だった。
 
 だが、ここへ来て大きな実存的命題が立ち上がって来た。
-
-[/um\_show\_content]

@@ -21,27 +21,7 @@ excerpt: "恋愛も人付き合いもほとんど初めての僕は、Iちゃん
 flags: "no-images"
 ---
 
-[show\_for\_guests\_and\_members]
-
---- この記事の後半はプライベートな情報があるために完全版でのみ公開しています---
-
-[プレミアムアカウントにアップグレードして完全版を読む](https://qryptraveller.com/index1/travel-blog/membership-join/)
-
-.upgrade-button {
-display: inline-block;
-padding: 10px 20px;
-background-color: #6d8e5d;
-color: white;
-text-decoration: none;
-border-radius: 8px;
-font-weight: bold;
-transition: background-color 0.3s;
-}
-.upgrade-button:hover {
-background-color: #587746;
-}
-[前の記事](https://qryptraveller.com/the-story-of-gore-in-his-second-term-8-autobiography-260/)　｜　[次の記事](https://qryptraveller.com/gores-story-of-his-second-term-10-autobiography-262/)[/show\_for\_guests\_and\_members]
-[um\_show\_content roles='um\_custom\_role\_1']
+> 🔒 ここから会員限定
 
 （以下内容転載禁止、法的対処有。）
 
@@ -84,5 +64,3 @@ Iちゃんには全く罪がないにも関わらず、僕はIちゃんの事を
 OLの仕事を経験して、上司とうまくやっていた事にも腹が立っていたし、目上の人に適度に媚びてうまくやり過ごす事にも腹が立っていた。
 
 そんな事は本当に濡れ衣でしかないし、無茶苦茶な八つ当たりだが、僕は一方的に自分勝手な理由で相手を責めていた。
-
-[/um\_show\_content]

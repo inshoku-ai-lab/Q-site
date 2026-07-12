@@ -78,30 +78,7 @@ CさんもFさんと同じく、何年もゴアにやって来ている古顔。
 
 ここで、彼氏のSくんも交えての人間ドラマが発展していく。
 
-[show\_for\_guests\_and\_members]
-
---- この記事の後半はプライベートな情報があるために完全版でのみ公開しています---
-
-[プレミアムアカウントにアップグレードして完全版を読む](https://qryptraveller.com/index1/travel-blog/membership-join/)
-
-.upgrade-button {
-display: inline-block;
-padding: 10px 20px;
-background-color: #6d8e5d;
-color: white;
-text-decoration: none;
-border-radius: 8px;
-font-weight: bold;
-transition: background-color 0.3s;
-}
-.upgrade-button:hover {
-background-color: #587746;
-}
-
-[前の記事](https://qryptraveller.com/the-story-of-meeting-gore-13-autobiography-110/)　｜　[次の記事](https://qryptraveller.com/the-story-of-meeting-gore-15-autobiography-112/)
-
-[/show\_for\_guests\_and\_members]
-[um\_show\_content roles='um\_custom\_role\_1']
+> 🔒 ここから会員限定
 
 （以下内容転載禁止、法的対処有。）
 
@@ -136,7 +113,3 @@ EちゃんはCさんとの距離を縮めていく。
 EちゃんとCさんに対する嫉妬心や理解できない状況に対する混乱、今後のカップルとしての成り行きに対する不安など、あらゆるネガティビティに苛まれていた。
 
 Sくんは日に日に焦燥し弱っていった。
-
-
-
-[/um\_show\_content]

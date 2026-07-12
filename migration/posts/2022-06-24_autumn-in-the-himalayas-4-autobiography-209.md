@@ -40,27 +40,7 @@ flags: "no-images"
 
 皆で温泉に行ったり、食事に行ったり、滝に行ったりと毎日色々と遊んで楽しく過ごしていたが、あるとき事件が起こる。
 
-[show\_for\_guests\_and\_members]
-
---- この記事の後半はプライベートな情報があるために完全版でのみ公開しています---
-
-[プレミアムアカウントにアップグレードして完全版を読む](https://qryptraveller.com/index1/travel-blog/membership-join/)
-
-.upgrade-button {
-display: inline-block;
-padding: 10px 20px;
-background-color: #6d8e5d;
-color: white;
-text-decoration: none;
-border-radius: 8px;
-font-weight: bold;
-transition: background-color 0.3s;
-}
-.upgrade-button:hover {
-background-color: #587746;
-}
-[前の記事](https://qryptraveller.com/autumn-in-the-himalayas-3-autobiography-208/)　｜　[次の記事](https://qryptraveller.com/autumn-in-the-himalayas-5-autobiography-210/)[/show\_for\_guests\_and\_members]
-[um\_show\_content roles='um\_custom\_role\_1']
+> 🔒 ここから会員限定
 
 （以下内容転載禁止、法的対処有。）
 
@@ -89,5 +69,3 @@ background-color: #587746;
 インドでのゴアトランスのパーティーは、お金目的で作られるものは殆どなく、その殆どが自分たちが楽しんで、仲間たちを楽しませたいと言う純粋なコミュニティへの奉仕の精神から出来ていた。
 
 このパーティーも同じように、奉仕の精神から出来ており、お金を稼いでやろうと言う搾取の精神から出来ているパーティーとは全く異なる愛の波動に満ちていた。
-
-[/um\_show\_content]

@@ -21,27 +21,7 @@ excerpt: "約束の朝、Sさんが我が家へ来る。数日前から肉を断
 flags: "no-images"
 ---
 
-[show\_for\_guests\_and\_members]
-
---- この記事の後半はプライベートな情報があるために完全版でのみ公開しています---
-
-[プレミアムアカウントにアップグレードして完全版を読む](https://qryptraveller.com/index1/travel-blog/membership-join/)
-
-.upgrade-button {
-display: inline-block;
-padding: 10px 20px;
-background-color: #6d8e5d;
-color: white;
-text-decoration: none;
-border-radius: 8px;
-font-weight: bold;
-transition: background-color 0.3s;
-}
-.upgrade-button:hover {
-background-color: #587746;
-}
-[前の記事](https://qryptraveller.com/gores-story-of-his-second-term-26-autobiography-279/)　｜　[次の記事](https://qryptraveller.com/gores-story-of-his-second-term-29-autobiography-281/)[/show\_for\_guests\_and\_members]
-[um\_show\_content roles='um\_custom\_role\_1']
+> 🔒 ここから会員限定
 
 （以下内容転載禁止、法的対処有。）
 
@@ -96,5 +76,3 @@ Sさんは「しっかりと止めて」と繰り返している。
 その姿を確認したSさんが、僕を仰向けに寝かしつける。
 
 この頃にはもう僕の意識は異次元へと向かい始めていた。
-
-[/um\_show\_content]

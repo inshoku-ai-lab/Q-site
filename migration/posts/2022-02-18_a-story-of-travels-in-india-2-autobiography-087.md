@@ -90,30 +90,7 @@ flags: ""
 
 僕はインドへ来たばかりだが、インドを横断してきた先輩旅人のアドバイスは参考になる事が多かった。
 
-[show\_for\_guests\_and\_members]
-
---- この記事の後半はプライベートな情報があるために完全版でのみ公開しています---
-
-[プレミアムアカウントにアップグレードして完全版を読む](https://qryptraveller.com/index1/travel-blog/membership-join/)
-
-.upgrade-button {
-display: inline-block;
-padding: 10px 20px;
-background-color: #6d8e5d;
-color: white;
-text-decoration: none;
-border-radius: 8px;
-font-weight: bold;
-transition: background-color 0.3s;
-}
-.upgrade-button:hover {
-background-color: #587746;
-}
-
-[前の記事](https://qryptraveller.com/a-story-of-travels-in-india-1-autobiography-086/)　｜　[次の記事](https://qryptraveller.com/a-story-of-travels-in-india-3-autobiography-088/)
-
-[/show\_for\_guests\_and\_members]
-[um\_show\_content roles='um\_custom\_role\_1']
+> 🔒 ここから会員限定
 
 （以下内容転載禁止、法的対処有。）
 
@@ -132,7 +109,3 @@ background-color: #587746;
 皆で吸うことで一体感が増し、大麻の効果で気分が良くなり、馬鹿なことでゲラゲラと笑いあっていた。
 
 大麻を一緒に吸って馬鹿笑いすることがこんなにも楽しいとは想像を遥かに超えていて、僕は一気に大麻の友好的な雰囲気の虜になった。
-
-
-
-[/um\_show\_content]

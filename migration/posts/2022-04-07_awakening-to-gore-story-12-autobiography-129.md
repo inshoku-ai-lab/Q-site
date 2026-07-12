@@ -67,28 +67,7 @@ flags: "no-images"
 
 レストランオーナーは、隣人関係もありハッキリとその理由は述べないが、知っている事が色々とあるのだろう。
 
-[show\_for\_guests\_and\_members]
-
---- この記事の後半はプライベートな情報があるために完全版でのみ公開しています---
-
-[プレミアムアカウントにアップグレードして完全版を読む](https://qryptraveller.com/index1/travel-blog/membership-join/)
-
-.upgrade-button {
-display: inline-block;
-padding: 10px 20px;
-background-color: #6d8e5d;
-color: white;
-text-decoration: none;
-border-radius: 8px;
-font-weight: bold;
-transition: background-color 0.3s;
-}
-.upgrade-button:hover {
-background-color: #587746;
-}
-[前の記事](https://qryptraveller.com/a-story-of-awakening-to-gore-11-autobiography-128/)　｜　[次の記事](https://qryptraveller.com/awakening-to-gore-13-autobiography-130/)
-[/show\_for\_guests\_and\_members]
-[um\_show\_content roles='um\_custom\_role\_1']
+> 🔒 ここから会員限定
 
 （以下内容転載禁止、法的対処有。）
 
@@ -117,7 +96,3 @@ RさんとNちゃんは標準的だが、痩せていて体力の無い芸術肌
 そして逆にYさんはムキムキの格闘家で、肝臓も鍛えられていて、一枚LSDを取ったくらいではケロッとしていた。
 
 僕たちは試行錯誤をしながら最大限に楽しめるように準備を整えて、野外のパーティーに望んだ。
-
-
-
-[/um\_show\_content]

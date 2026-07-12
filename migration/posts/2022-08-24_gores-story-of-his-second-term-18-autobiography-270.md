@@ -43,27 +43,7 @@ flags: "no-images"
 
 楽しく豊かな日々だが、ある意味ありきたりな話なので、特に旅行記に書くほどの事でもない。
 
-[show\_for\_guests\_and\_members]
-
---- この記事の後半はプライベートな情報があるために完全版でのみ公開しています---
-
-[プレミアムアカウントにアップグレードして完全版を読む](https://qryptraveller.com/index1/travel-blog/membership-join/)
-
-.upgrade-button {
-display: inline-block;
-padding: 10px 20px;
-background-color: #6d8e5d;
-color: white;
-text-decoration: none;
-border-radius: 8px;
-font-weight: bold;
-transition: background-color 0.3s;
-}
-.upgrade-button:hover {
-background-color: #587746;
-}
-[前の記事](https://qryptraveller.com/gores-story-of-his-second-term-17-autobiography-269/)　｜　[次の記事](https://qryptraveller.com/gores-story-of-his-second-term-19-autobiography-271/)[/show\_for\_guests\_and\_members]
-[um\_show\_content roles='um\_custom\_role\_1']
+> 🔒 ここから会員限定
 
 （以下内容転載禁止、法的対処有。）
 
@@ -84,5 +64,3 @@ background-color: #587746;
 旅人にとって、インドは何回も帰ってくるホームのようなものであり、中でもゴアは社会からはみ出しまくった旅人たちが自分自身でいることの出来る数少ないホームの一つだからだ。
 
 一度ゴアを深く経験した旅人はゴアの自由度に合わせて自身の意識を拡大するために、ゴア以外の場所にいると、刑務所の中にいるかのような窮屈さを感じることになる。
-
-[/um\_show\_content]

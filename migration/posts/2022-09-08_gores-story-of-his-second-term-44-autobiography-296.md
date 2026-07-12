@@ -21,27 +21,7 @@ excerpt: "映画の夢を放り投げたYさんが次に掴んだのは、ゴア
 flags: "no-images"
 ---
 
-[show\_for\_guests\_and\_members]
-
---- この記事の後半はプライベートな情報があるために完全版でのみ公開しています---
-
-[プレミアムアカウントにアップグレードして完全版を読む](https://qryptraveller.com/index1/travel-blog/membership-join/)
-
-.upgrade-button {
-display: inline-block;
-padding: 10px 20px;
-background-color: #6d8e5d;
-color: white;
-text-decoration: none;
-border-radius: 8px;
-font-weight: bold;
-transition: background-color 0.3s;
-}
-.upgrade-button:hover {
-background-color: #587746;
-}
-[前の記事](https://qryptraveller.com/gores-story-43-autobiography-295-of-his-second-term/)　｜　[次の記事](https://qryptraveller.com/gores-story-of-his-second-term-45-autobiography-297/)[/show\_for\_guests\_and\_members]
-[um\_show\_content roles='um\_custom\_role\_1']
+> 🔒 ここから会員限定
 
 （以下内容転載禁止、法的対処有。）
 
@@ -84,5 +64,3 @@ DJの練習を数ヶ月かけてこなした彼は、自分でパーティーを
 そんな場所で、ぽっと出の半年しか経験のないDJがプレイするなど夢のまた夢の話なのだが、そういった無茶を実現するのがYさんだった。
 
 彼は、無理と思われるような目標を達成することに恍惚感を感じていた。
-
-[/um\_show\_content]

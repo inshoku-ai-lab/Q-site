@@ -47,27 +47,7 @@ flags: "no-images"
 
 なんとなく違和感を感じながらもフロアの盛り上がりに引っ張られて楽しみ続ける。
 
-[show\_for\_guests\_and\_members]
-
---- この記事の後半はプライベートな情報があるために完全版でのみ公開しています---
-
-[プレミアムアカウントにアップグレードして完全版を読む](https://qryptraveller.com/index1/travel-blog/membership-join/)
-
-.upgrade-button {
-display: inline-block;
-padding: 10px 20px;
-background-color: #6d8e5d;
-color: white;
-text-decoration: none;
-border-radius: 8px;
-font-weight: bold;
-transition: background-color 0.3s;
-}
-.upgrade-button:hover {
-background-color: #587746;
-}
-[前の記事](https://qryptraveller.com/the-story-of-living-in-london-23-autobiography-327/)　｜　[次の記事](https://qryptraveller.com/the-story-of-living-in-london-25-autobiography-329/)[/show\_for\_guests\_and\_members]
-[um\_show\_content roles='um\_custom\_role\_1']
+> 🔒 ここから会員限定
 
 （以下内容転載禁止、法的対処有。）
 
@@ -86,5 +66,3 @@ background-color: #587746;
 少し話して、お互いに気持ちよくトンで踊っていることを確認しては、また音楽の中へと入り込んでいく。
 
 みんなそれぞれが、なぜサイトランスが流れないんだろうと不思議に思いながらも、十分に楽しみきっているので、あまり深く考えずに踊り続けた。
-
-[/um\_show\_content]

@@ -55,27 +55,7 @@ Tちゃんは物音に気づかず眠ったままだったが、Rさんは敏感
 
 その判断がどれほど正しかったのかは分からないが、命の危険には晒されずに済んだ。
 
-[show\_for\_guests\_and\_members]
-
---- この記事の後半はプライベートな情報があるために完全版でのみ公開しています---
-
-[プレミアムアカウントにアップグレードして完全版を読む](https://qryptraveller.com/index1/travel-blog/membership-join/)
-
-.upgrade-button {
-display: inline-block;
-padding: 10px 20px;
-background-color: #6d8e5d;
-color: white;
-text-decoration: none;
-border-radius: 8px;
-font-weight: bold;
-transition: background-color 0.3s;
-}
-.upgrade-button:hover {
-background-color: #587746;
-}
-[前の記事](https://qryptraveller.com/gores-story-of-his-second-term-23-autobiography-275/)　｜　[次の記事](https://qryptraveller.com/gores-story-of-his-second-term-25-autobiography-277/)[/show\_for\_guests\_and\_members]
-[um\_show\_content roles='um\_custom\_role\_1']
+> 🔒 ここから会員限定
 
 （以下内容転載禁止、法的対処有。）
 
@@ -88,5 +68,3 @@ background-color: #587746;
 日本人の友人たちで、〇〇（東京の高級住宅地の地名）軍団と呼ばれるグループがいたのだが、彼らは皆が大金持ちの子息たちで、派手に勢いよく遊んでいた。
 
 なんとか省庁の長官の息子や、世界的に有名なカメラ関係の会社の息子や、有名なブランド服の一族や、テレビ業界関係者などで、自由で優雅な生まれ育ちゆえに、遊ぶこととなると留まることを知らずに突き詰めていた。
-
-[/um\_show\_content]

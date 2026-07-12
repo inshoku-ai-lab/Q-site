@@ -47,28 +47,7 @@ flags: "no-images"
 
 それが実際にはどういうものだったのかは想像も出来ないが、ものすごく刺激的な体験だっただろうということは想像に難くない。
 
-[show\_for\_guests\_and\_members]
-
---- この記事の後半はプライベートな情報があるために完全版でのみ公開しています---
-
-[プレミアムアカウントにアップグレードして完全版を読む](https://qryptraveller.com/index1/travel-blog/membership-join/)
-
-.upgrade-button {
-display: inline-block;
-padding: 10px 20px;
-background-color: #6d8e5d;
-color: white;
-text-decoration: none;
-border-radius: 8px;
-font-weight: bold;
-transition: background-color 0.3s;
-}
-.upgrade-button:hover {
-background-color: #587746;
-}
-[前の記事](https://qryptraveller.com/story-of-returning-to-japan-1an-autobiography-157/)　｜　[次の記事](https://qryptraveller.com/story-of-returning-to-japan-3-autobiography-159/)
-[/show\_for\_guests\_and\_members]
-[um\_show\_content roles='um\_custom\_role\_1']
+> 🔒 ここから会員限定
 
 （以下内容転載禁止、法的対処有。）
 
@@ -107,7 +86,3 @@ background-color: #587746;
 別の日にもう一度体験したが、結局同じようなもので、大したことが無かった。
 
 好きな人は好きらしいが、僕には何の興味も喚び起さなかった。
-
-
-
-[/um\_show\_content]

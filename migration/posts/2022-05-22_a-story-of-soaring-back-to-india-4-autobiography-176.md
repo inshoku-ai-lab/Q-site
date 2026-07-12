@@ -67,27 +67,7 @@ flags: "no-images"
 
 僕は日本を出た直後だったので、日本食に対しての欠乏感は持っていなかったが、しばらく旅している日本人たちにとっては、オアシスのようなメニューだった。
 
-[show\_for\_guests\_and\_members]
-
---- この記事の後半はプライベートな情報があるために完全版でのみ公開しています---
-
-[プレミアムアカウントにアップグレードして完全版を読む](https://qryptraveller.com/index1/travel-blog/membership-join/)
-
-.upgrade-button {
-display: inline-block;
-padding: 10px 20px;
-background-color: #6d8e5d;
-color: white;
-text-decoration: none;
-border-radius: 8px;
-font-weight: bold;
-transition: background-color 0.3s;
-}
-.upgrade-button:hover {
-background-color: #587746;
-}
-[前の記事](https://qryptraveller.com/a-story-of-soaring-back-to-india-3-autobiography-175/)　｜　[次の記事](https://qryptraveller.com/a-story-of-soaring-back-to-india-5-autobiography-177/)[/show\_for\_guests\_and\_members]
-[um\_show\_content roles='um\_custom\_role\_1']
+> 🔒 ここから会員限定
 
 （以下内容転載禁止、法的対処有。）
 
@@ -104,7 +84,3 @@ background-color: #587746;
 日本から飛んで来た緊張感が一気に解れて、より一層インドに馴染めたような気分になる。
 
 緩んだ心身は宇宙の流れに乗り、これからの旅に思いを馳せるだけで、胸がいっぱいに満たされた。
-
-
-
-[/um\_show\_content]
