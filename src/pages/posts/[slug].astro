@@ -31,12 +31,30 @@ const { freeBlocks, hasMemberContent } = splitMemberContent(post.blocks);
 const toc = extractToc(freeBlocks);
 const hasToc = toc.length > 1;
 const ogImage = post.cover ?? `/og/${post.slug}.png`;
+const publishedTime = post.date ? new Date(post.date).toISOString() : undefined;
+const canonicalUrl = new URL(`/posts/${post.slug}/`, Astro.site ?? "https://qryptraveller.com").toString();
+const absoluteOgImage = new URL(ogImage, Astro.site ?? "https://qryptraveller.com").toString();
+const structuredData = {
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  headline: post.title,
+  ...(publishedTime && { datePublished: publishedTime }),
+  image: [absoluteOgImage],
+  author: { "@type": "Person", name: "Qryptraveller" },
+  publisher: { "@type": "Organization", name: "Qryptraveller.com" },
+  mainEntityOfPage: canonicalUrl,
+};
 ---
 
 <Layout
   title={post.title}
   description={description}
   ogImage={ogImage}
+  ogImageAlt={`${post.title} のサムネイル`}
+  ogType="article"
+  publishedTime={publishedTime}
+  articleSection={post.category ?? undefined}
+  structuredData={structuredData}
 >
   <div class={`mx-auto px-4 md:px-0 py-12 md:py-16 ${hasToc ? "max-w-page lg:grid lg:grid-cols-[minmax(0,42rem)_240px] lg:gap-12 lg:justify-center" : "max-w-prose"}`}>
   <div class={hasToc ? "max-w-prose w-full mx-auto lg:mx-0" : ""}>

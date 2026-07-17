@@ -7,17 +7,36 @@ interface Props {
   title: string;
   description?: string;
   ogImage?: string;
+  ogImageAlt?: string;
+  ogType?: "website" | "article";
+  publishedTime?: string;
+  articleSection?: string;
   noIndex?: boolean;
   bodyClass?: string;
+  structuredData?: Record<string, unknown>;
 }
 
-const { title, description, ogImage, noIndex, bodyClass = "" } = Astro.props;
+const {
+  title,
+  description,
+  ogImage,
+  ogImageAlt,
+  ogType = "website",
+  publishedTime,
+  articleSection,
+  noIndex,
+  bodyClass = "",
+  structuredData,
+} = Astro.props;
 const siteName = "Qryptraveller's Notes";
 const fullTitle = title === siteName ? title : `${title} | ${siteName}`;
 const defaultDesc =
   "地球放浪２０年以上の旅人クリプトラベラーによる、旅の記録と思索のアーカイブ。放浪記、思想・理論、時事考察、エッセイ。";
 const desc = description ?? defaultDesc;
 const canonical = new URL(Astro.url.pathname, Astro.site ?? "https://qryptraveller.com").toString();
+const absoluteOgImage = ogImage
+  ? new URL(ogImage, Astro.site ?? "https://qryptraveller.com").toString()
+  : undefined;
 ---
 
 <!doctype html>
@@ -29,21 +48,34 @@ const canonical = new URL(Astro.url.pathname, Astro.site ?? "https://qryptravell
     <title>{fullTitle}</title>
     <meta name="description" content={desc} />
     {noIndex && <meta name="robots" content="noindex,nofollow" />}
+    {!noIndex && <meta name="robots" content="index,follow,max-image-preview:large" />}
     <link rel="canonical" href={canonical} />
 
     <!-- Open Graph -->
-    <meta property="og:type" content="website" />
+    <meta property="og:type" content={ogType} />
     <meta property="og:title" content={fullTitle} />
     <meta property="og:description" content={desc} />
     <meta property="og:url" content={canonical} />
     <meta property="og:site_name" content={siteName} />
-    {ogImage && <meta property="og:image" content={ogImage} />}
+    <meta property="og:locale" content="ja_JP" />
+    {absoluteOgImage && <meta property="og:image" content={absoluteOgImage} />}
+    {absoluteOgImage && <meta property="og:image:width" content="1200" />}
+    {absoluteOgImage && <meta property="og:image:height" content="630" />}
+    {absoluteOgImage && ogImageAlt && <meta property="og:image:alt" content={ogImageAlt} />}
+    {ogType === "article" && publishedTime && <meta property="article:published_time" content={publishedTime} />}
+    {ogType === "article" && articleSection && <meta property="article:section" content={articleSection} />}
 
     <!-- Twitter -->
-    <meta name="twitter:card" content={ogImage ? "summary_large_image" : "summary"} />
+    <meta name="twitter:card" content={absoluteOgImage ? "summary_large_image" : "summary"} />
     <meta name="twitter:title" content={fullTitle} />
     <meta name="twitter:description" content={desc} />
-    {ogImage && <meta name="twitter:image" content={ogImage} />}
+    {absoluteOgImage && <meta name="twitter:image" content={absoluteOgImage} />}
+
+    <!-- Icons -->
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/png" href="/favicon-512.png" sizes="512x512" />
+    <meta name="theme-color" content="#2C3A2E" />
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -55,6 +87,10 @@ const canonical = new URL(Astro.url.pathname, Astro.site ?? "https://qryptravell
 
     <!-- RSS -->
     <link rel="alternate" type="application/rss+xml" title={siteName} href="/rss.xml" />
+
+    {structuredData && (
+      <script type="application/ld+json" set:html={JSON.stringify(structuredData)} />
+    )}
   </head>
 
   <body class={`min-h-screen flex flex-col bg-paper-100 text-ink ${bodyClass}`}>

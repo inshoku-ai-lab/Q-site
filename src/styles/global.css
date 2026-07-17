@@ -27,6 +27,23 @@
   a {
     @apply text-moss underline decoration-moss/30 underline-offset-4 transition-colors hover:text-moss-dark hover:decoration-moss-dark;
   }
+
+  /* Visited (already-read) article links get an earth tone -- "walked this
+     path before" per the design system's link-state spec. Scoped to
+     internal article links only, not nav/UI chrome. */
+  a[href^="/posts/"]:visited {
+    @apply text-earth decoration-earth/40;
+  }
+
+  /* Keyboard-only focus ring (mouse clicks don't trigger :focus-visible) */
+  a:focus-visible,
+  button:focus-visible,
+  input:focus-visible,
+  textarea:focus-visible,
+  select:focus-visible,
+  summary:focus-visible {
+    @apply outline outline-2 outline-offset-2 outline-moss;
+  }
 }
 
 @layer components {

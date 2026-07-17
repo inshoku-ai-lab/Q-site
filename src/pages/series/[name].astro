@@ -33,7 +33,7 @@ const hasEpisodes = posts.some((p) => p.episode != null);
     <div class="bg-paper-50 rounded-lg border border-paper-200 divide-y divide-paper-200">
       {posts.map((post) => (
         <div class="px-5">
-          <ArticleCard post={post} variant="compact" showCategory={false} />
+          <ArticleCard post={post} variant="compact" showCategory={false} headingLevel="h2" />
         </div>
       ))}
     </div>

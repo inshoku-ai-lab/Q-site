@@ -25,7 +25,7 @@ const accent = categoryAccent(name);
     </header>
 
     <div class="grid md:grid-cols-2 gap-5">
-      {posts.map((post) => <ArticleCard post={post} variant="default" showCategory={false} />)}
+      {posts.map((post) => <ArticleCard post={post} variant="default" showCategory={false} headingLevel="h2" />)}
     </div>
   </div>
 </Layout>

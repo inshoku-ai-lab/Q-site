@@ -26,7 +26,7 @@ const posts = getPostsByTag(name).sort((a, b) => (b.date ?? "").localeCompare(a.
     </header>
 
     <div class="space-y-1 bg-paper-50 rounded-lg border border-paper-200 px-5">
-      {posts.map((post) => <ArticleCard post={post} variant="compact" />)}
+      {posts.map((post) => <ArticleCard post={post} variant="compact" headingLevel="h2" />)}
     </div>
   </div>
 </Layout>
