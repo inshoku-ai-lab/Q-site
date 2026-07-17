@@ -1,0 +1,75 @@
+---
+export const prerender = true;
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout title="サイト内検索" description="Qryptraveller's Notesの記事を検索します。" noIndex>
+  <div class="max-w-page mx-auto px-4 md:px-8 py-16">
+    <header class="mb-10 max-w-prose">
+      <div class="text-xs uppercase tracking-[0.3em] text-earth mb-3">Search</div>
+      <h1 class="font-serif text-3xl md:text-4xl font-semibold text-moss-dark leading-tight">サイト内検索</h1>
+    </header>
+
+    <div id="search" class="max-w-page"></div>
+    <p id="search-fallback" class="hidden text-sm text-ink-muted">
+      検索インデックスの読み込みに失敗しました。ページを再読み込みしてお試しください。
+    </p>
+  </div>
+</Layout>
+
+<link rel="stylesheet" href="/pagefind/pagefind-ui.css" />
+
+<style>
+  #search :global(.pagefind-ui) {
+    --pagefind-ui-primary: #2c3a2e;
+    --pagefind-ui-text: #1f1b16;
+    --pagefind-ui-background: #f5f1e8;
+    --pagefind-ui-border: #ddd3bb;
+    --pagefind-ui-tag: #ede7d7;
+    --pagefind-ui-border-width: 1px;
+    --pagefind-ui-border-radius: 8px;
+    --pagefind-ui-font: "Noto Sans JP", sans-serif;
+  }
+  #search :global(.pagefind-ui__form) {
+    max-width: 640px;
+  }
+  #search :global(.pagefind-ui__result) {
+    border-bottom: 1px solid #ddd3bb;
+    padding: 16px 0;
+  }
+  #search :global(.pagefind-ui__result-link) {
+    font-family: "Noto Serif JP", serif;
+    color: #1f1b16;
+  }
+  #search :global(mark) {
+    background: rgba(139, 94, 60, 0.18);
+    color: #8b5e3c;
+    padding: 0 2px;
+  }
+</style>
+
+<script is:inline src="/pagefind/pagefind-ui.js" onerror="document.getElementById('search').classList.add('hidden'); document.getElementById('search-fallback').classList.remove('hidden');"></script>
+<script is:inline>
+  if (typeof PagefindUI !== "undefined") {
+    new PagefindUI({
+      element: "#search",
+      showSubResults: false,
+      resetStyles: false,
+      showImages: false,
+      translations: {
+        placeholder: "記事を検索…",
+        clear_search: "クリア",
+        load_more: "もっと見る",
+        search_label: "サイト内検索",
+        filters_label: "絞り込み",
+        zero_results: "「[SEARCH_TERM]」に該当する記事が見つかりませんでした。別のキーワードでお試しください。",
+        many_results: "「[SEARCH_TERM]」の検索結果: [COUNT]件",
+        one_result: "「[SEARCH_TERM]」の検索結果: 1件",
+        searching: "「[SEARCH_TERM]」を検索中…",
+      },
+    });
+  } else {
+    document.getElementById("search")?.classList.add("hidden");
+    document.getElementById("search-fallback")?.classList.remove("hidden");
+  }
+</script>

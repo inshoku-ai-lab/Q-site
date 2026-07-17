@@ -171,6 +171,11 @@ export function getSeriesNavigator(post: Post): { prev: Post | null; next: Post 
   };
 }
 
+export function getMemberOnlyPosts(limit?: number): Post[] {
+  const list = getPublishedPosts().filter((p) => splitMemberContent(p.blocks).hasMemberContent);
+  return limit ? list.slice(0, limit) : list;
+}
+
 export function getRelatedPosts(post: Post, limit = 3): Post[] {
   // Same series posts first, then same category
   const sameSeries = post.series

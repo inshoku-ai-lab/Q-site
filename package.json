@@ -7,12 +7,12 @@
   },
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build && node scripts/generate-redirects.mjs",
+    "build": "astro build && node scripts/generate-redirects.mjs && npm run search:build",
     "preview": "astro preview",
     "astro": "astro",
     "sync": "node scripts/sync-notion.mjs",
     "build:from-md": "node scripts/build-from-md.mjs",
-    "search:build": "pagefind --site dist"
+    "search:build": "pagefind --site .vercel/output/static"
   },
   "dependencies": {
     "@astrojs/rss": "^4.0.12",

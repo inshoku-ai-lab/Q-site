@@ -2,7 +2,7 @@
 export const prerender = false;
 import Layout from "../layouts/Layout.astro";
 import { createSupabaseServerClient } from "../lib/supabase/server";
-import { formatDate } from "../lib/posts";
+import { formatDate, formatDateShort, getMemberOnlyPosts, categoryAccentHex } from "../lib/posts";
 
 const supabase = createSupabaseServerClient(Astro.request, Astro.cookies);
 
@@ -20,6 +20,8 @@ if (user) {
   member = data;
 }
 
+const memberPosts = user && member ? getMemberOnlyPosts(6) : [];
+
 const PROVIDER_LABELS: Record<string, string> = {
   google: "Google",
   facebook: "Facebook",
@@ -29,10 +31,9 @@ const PROVIDER_LABELS: Record<string, string> = {
 
 <Layout title="アカウント設定" description="旅路の証人アカウントの設定ページです。" noIndex>
   <div class="max-w-prose mx-auto px-4 md:px-0 py-16">
-    <h1 class="font-serif text-3xl font-semibold text-moss-dark mb-8">アカウント設定</h1>
-
     {!user && (
       <div class="text-center py-12">
+        <h1 class="font-serif text-2xl font-semibold text-moss-dark mb-4">アカウント設定</h1>
         <p class="text-ink-muted mb-4">ログインしていません。</p>
         <a href="/join" class="text-earth hover:text-ink underline">「旅路の証人」になる</a>
       </div>
@@ -44,23 +45,65 @@ const PROVIDER_LABELS: Record<string, string> = {
 
     {user && member && (
       <>
-        <dl class="space-y-4 mb-12 border border-paper-300 rounded-md p-6">
-          <div class="flex justify-between gap-4">
-            <dt class="text-ink-muted text-sm">メールアドレス</dt>
-            <dd class="text-ink text-sm">{user.email}</dd>
+        <header class="flex items-center gap-5 mb-10 pb-7 border-b border-paper-300">
+          <div class="w-[60px] h-[60px] rounded-full bg-gradient-to-br from-wandering/30 to-earth/15 flex-shrink-0"></div>
+          <div>
+            <h1 class="font-serif text-xl font-semibold text-ink mb-2">おかえりなさい、旅人さん</h1>
+            <span class="inline-flex items-center gap-1.5 text-xs px-3 py-1 rounded-full bg-earth/10 text-earth font-medium">
+              🧭 旅路の証人
+            </span>
           </div>
-          <div class="flex justify-between gap-4">
-            <dt class="text-ink-muted text-sm">ログイン方法</dt>
-            <dd class="text-ink text-sm">{PROVIDER_LABELS[member.provider] ?? member.provider}</dd>
+        </header>
+
+        {memberPosts.length > 0 && (
+          <div class="mb-9">
+            <h2 class="font-serif text-base text-moss-dark mb-4">会員限定記事</h2>
+            <div class="flex flex-col">
+              {memberPosts.map((p) => {
+                const hex = categoryAccentHex(p.category);
+                return (
+                  <a href={`/posts/${p.slug}/`} class="flex gap-3.5 items-center py-3.5 border-b border-paper-300 last:border-0 no-underline text-inherit group">
+                    {p.cover ? (
+                      <img src={p.cover} alt="" loading="lazy" class="w-20 aspect-video rounded object-cover flex-shrink-0" />
+                    ) : (
+                      <div class="w-20 aspect-video rounded flex-shrink-0" style={`background:linear-gradient(135deg, ${hex}38, ${hex}0d)`} />
+                    )}
+                    <div>
+                      <div class="text-[10.5px] mb-0.5" style={`color:${hex}`}>{p.category}</div>
+                      <div class="font-serif text-sm text-ink group-hover:text-moss-dark leading-snug">{p.title}</div>
+                      <div class="text-[11px] text-ink-muted font-mono mt-0.5">{formatDateShort(p.date)}</div>
+                    </div>
+                  </a>
+                );
+              })}
+            </div>
           </div>
-          <div class="flex justify-between gap-4">
-            <dt class="text-ink-muted text-sm">「旅路の証人」になった日</dt>
-            <dd class="text-ink text-sm">{formatDate(member.joined_at)}</dd>
+        )}
+
+        <div class="mb-9">
+          <h2 class="font-serif text-base text-moss-dark mb-4">アカウント</h2>
+          <div class="flex flex-col">
+            <div class="flex justify-between py-3.5 border-b border-paper-300 text-sm">
+              <span class="text-ink">メールアドレス</span>
+              <span class="text-ink-muted">{user.email}</span>
+            </div>
+            <div class="flex justify-between py-3.5 border-b border-paper-300 text-sm">
+              <span class="text-ink">ログイン方法</span>
+              <span class="text-ink-muted">{PROVIDER_LABELS[member.provider] ?? member.provider}</span>
+            </div>
+            <div class="flex justify-between py-3.5 border-b border-paper-300 text-sm">
+              <span class="text-ink">「旅路の証人」になった日</span>
+              <span class="text-ink-muted">{formatDate(member.joined_at)}</span>
+            </div>
+            <a href="/api/auth/logout" class="flex justify-between py-3.5 border-b border-paper-300 text-sm no-underline text-ink hover:text-moss-dark">
+              <span>ログアウト</span>
+              <span class="text-ink-muted">→</span>
+            </a>
           </div>
-        </dl>
+        </div>
 
         <div class="border-t border-paper-300 pt-8">
-          <h2 class="font-serif text-lg font-semibold text-moss-dark mb-3">退会する</h2>
+          <h2 class="font-serif text-base font-semibold text-moss-dark mb-3">退会する</h2>
           <p class="text-sm text-ink-muted mb-4">
             退会すると、アカウントと会員情報は即座に完全に削除されます。この操作は元に戻せません。
           </p>

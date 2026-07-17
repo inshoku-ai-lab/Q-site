@@ -134,3 +134,42 @@
   0% { background-position: 200% 0; }
   100% { background-position: -200% 0; }
 }
+
+/* Print: strip chrome, optimize for monochrome paper output */
+@media print {
+  #site-header,
+  #mobile-menu,
+  footer,
+  #article-side,
+  .toc,
+  nav,
+  #member-gate,
+  .card-hover,
+  a[href="/search/"] {
+    display: none !important;
+  }
+
+  body {
+    background: #fff;
+    color: #111;
+  }
+
+  a {
+    color: #111;
+    text-decoration: underline;
+  }
+
+  .prose-article img {
+    max-width: 100%;
+    box-shadow: none;
+  }
+
+  .print-footer {
+    display: block !important;
+    margin-top: 2rem;
+    padding-top: 0.75rem;
+    border-top: 1px solid #ccc;
+    font-size: 10px;
+    color: #555;
+  }
+}

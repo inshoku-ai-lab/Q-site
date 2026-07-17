@@ -1,22 +1,91 @@
 ---
 export const prerender = true;
 import Layout from "../layouts/Layout.astro";
-import { getPublishedPosts, getSeriesIndex } from "../lib/posts";
+import { getPublishedPosts, getSeriesIndex, getCategoryIndex, categoryAccentHex } from "../lib/posts";
 
 const total = getPublishedPosts().length;
 const series = getSeriesIndex();
 const yearStart = 2021;
 const yearNow = new Date().getFullYear();
+const wanderingCount = getCategoryIndex().find((c) => c.name === "放浪記")?.count ?? 0;
+const categoryCount = getCategoryIndex().length;
+const recent = getPublishedPosts().slice(0, 3);
+
+const structuredData = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  name: "Qryptraveller",
+  alternateName: "クリプトラベラー",
+  description: "地球放浪20年以上の旅人による、旅と思索の記録サイト運営者。",
+  url: new URL("/about/", Astro.site ?? "https://qryptraveller.com").toString(),
+  sameAs: ["https://x.com/qryptraveller", "https://note.com/qryp"],
+};
 ---
 
-<Layout title="About" description="このサイトについて - クリプトラベラーの自己紹介。">
+<Layout title="About" description="このサイトについて - クリプトラベラーの自己紹介。" structuredData={structuredData}>
   <article class="max-w-prose mx-auto px-4 md:px-0 py-16">
-    <header class="mb-12">
-      <div class="text-xs uppercase tracking-[0.3em] text-earth mb-3">About</div>
-      <h1 class="font-serif text-4xl md:text-5xl font-semibold text-moss-dark leading-tight">
-        クリプトラベラーと<br />このサイトについて
-      </h1>
+    <header class="flex gap-5 items-start mb-8 pb-8 border-b border-paper-300">
+      <div class="w-[76px] h-[76px] rounded-full bg-gradient-to-br from-wandering/30 to-earth/15 flex-shrink-0"></div>
+      <div>
+        <h1 class="font-serif text-2xl font-semibold text-ink leading-tight">Qryptraveller</h1>
+        <div class="text-sm text-wandering mt-1 mb-3">放浪記の記録者 / 運営者</div>
+        <p class="text-sm text-ink-muted leading-relaxed">
+          スナフキンを心の師として生きている、ノマド20年以上の吟遊詩人。
+          17歳で宗教家庭と日本社会を離れ、以来ノンストップで世界中を放浪しています。
+        </p>
+        <div class="flex flex-wrap gap-3 mt-4">
+          <a href="https://x.com/qryptraveller" rel="noopener" target="_blank" class="text-xs px-3 py-1.5 rounded-full border border-paper-300 text-ink-muted no-underline hover:border-moss hover:text-moss">
+            X (Twitter)
+          </a>
+          <a href="https://note.com/qryp" rel="noopener" target="_blank" class="text-xs px-3 py-1.5 rounded-full border border-paper-300 text-ink-muted no-underline hover:border-moss hover:text-moss">
+            note
+          </a>
+        </div>
+      </div>
     </header>
+
+    <div class="flex flex-wrap gap-8 mb-10 pb-6 border-b border-paper-300">
+      <div>
+        <div class="font-serif text-xl text-moss-dark">{wanderingCount}</div>
+        <div class="text-[11px] text-ink-muted">放浪記 記事数</div>
+      </div>
+      <div>
+        <div class="font-serif text-xl text-moss-dark">{yearStart}〜</div>
+        <div class="text-[11px] text-ink-muted">執筆開始</div>
+      </div>
+      <div>
+        <div class="font-serif text-xl text-moss-dark">{categoryCount}</div>
+        <div class="text-[11px] text-ink-muted">カテゴリ</div>
+      </div>
+      <div>
+        <div class="font-serif text-xl text-moss-dark">{total.toLocaleString()}</div>
+        <div class="text-[11px] text-ink-muted">総記事数</div>
+      </div>
+    </div>
+
+    {recent.length > 0 && (
+      <div class="mb-12 pb-4 border-b border-paper-300">
+        <h2 class="font-serif text-base text-moss-dark mb-3">最近の記事</h2>
+        <div class="flex flex-col">
+          {recent.map((p) => {
+            const hex = categoryAccentHex(p.category);
+            return (
+              <a href={`/posts/${p.slug}/`} class="flex gap-3.5 items-center py-3 border-b border-paper-300 last:border-0 no-underline text-inherit group">
+                {p.cover ? (
+                  <img src={p.cover} alt="" loading="lazy" class="w-20 aspect-video rounded object-cover flex-shrink-0" />
+                ) : (
+                  <div class="w-20 aspect-video rounded flex-shrink-0" style={`background:linear-gradient(135deg, ${hex}38, ${hex}0d)`} />
+                )}
+                <div>
+                  <div class="text-[10.5px]" style={`color:${hex}`}>{p.category}</div>
+                  <div class="font-serif text-sm text-ink group-hover:text-moss-dark">{p.title}</div>
+                </div>
+              </a>
+            );
+          })}
+        </div>
+      </div>
+    )}
 
     <div class="prose-article">
       <p>

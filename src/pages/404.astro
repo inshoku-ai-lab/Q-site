@@ -4,19 +4,23 @@ import Layout from "../layouts/Layout.astro";
 ---
 
 <Layout title="404 - ページが見つかりません" noIndex>
-  <div class="max-w-prose mx-auto px-4 py-32 text-center">
-    <div class="font-mono text-9xl text-paper-300 mb-4">404</div>
-    <h1 class="font-serif text-3xl text-moss-dark mb-4">道に迷いましたか?</h1>
-    <p class="text-ink-muted mb-8">
-      お探しのページは存在しないか、移動した可能性があります。
-    </p>
-    <div class="flex flex-wrap gap-3 justify-center">
-      <a href="/" class="px-5 py-3 bg-moss-dark text-paper-100 rounded-md text-sm no-underline hover:bg-moss">
-        ホームへ戻る
-      </a>
-      <a href="/archive/" class="px-5 py-3 border border-moss-dark text-moss-dark rounded-md text-sm no-underline hover:bg-moss-dark hover:text-paper-100">
-        アーカイブを見る
-      </a>
+  <div class="max-w-prose mx-auto px-4 py-24">
+    <div class="border border-paper-300 rounded-lg bg-paper-50 py-16 px-8 text-center">
+      <div class="relative w-14 h-14 rounded-full border-[1.5px] border-dashed border-earth mx-auto mb-6" aria-hidden="true">
+        <span class="absolute left-1/2 top-1/2 w-[1.5px] h-4 bg-earth -translate-x-1/2 -translate-y-[85%]"></span>
+      </div>
+      <h1 class="font-serif font-black text-5xl md:text-6xl text-moss-dark mb-2">404</h1>
+      <p class="text-ink-muted mb-8">
+        お探しのページは見つかりませんでした。道に迷ってしまったようです。
+      </p>
+      <div class="flex flex-wrap gap-3 justify-center">
+        <a href="/" class="px-5 py-3 bg-moss-dark text-paper-100 rounded-md text-sm no-underline hover:bg-moss">
+          ホームに戻る
+        </a>
+        <a href="/archive/" class="px-5 py-3 border border-moss-dark text-moss-dark rounded-md text-sm no-underline hover:bg-moss-dark hover:text-paper-100">
+          アーカイブを見る
+        </a>
+      </div>
     </div>
   </div>
 </Layout>
