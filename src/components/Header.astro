@@ -11,13 +11,13 @@ const nav = [
 ];
 ---
 
-<header class="border-b border-paper-300 bg-paper-100/90 backdrop-blur sticky top-0 z-20">
-  <div class="max-w-page mx-auto px-4 md:px-8 py-4 flex items-center justify-between gap-6">
+<header id="site-header" class="border-b border-paper-300 bg-paper-100/90 backdrop-blur sticky top-0 z-20">
+  <div id="header-inner" class="max-w-page mx-auto px-4 md:px-8 py-4 flex items-center justify-between gap-6 transition-[padding] duration-200">
     <a href="/" class="no-underline flex flex-col leading-none">
-      <span class="font-serif font-semibold text-lg md:text-xl text-moss-dark tracking-wide">
+      <span id="header-logo" class="font-serif font-semibold text-lg md:text-xl text-moss-dark tracking-wide transition-[font-size] duration-200">
         Qryptraveller's Notes
       </span>
-      <span class="text-[10px] uppercase tracking-widest text-ink-muted mt-0.5">
+      <span id="header-tagline" class="text-[10px] uppercase tracking-widest text-ink-muted mt-0.5 transition-[opacity,max-height] duration-200 overflow-hidden">
         Records of a Roaming Mind
       </span>
     </a>
@@ -72,10 +72,32 @@ const nav = [
   </nav>
 </header>
 
+<style>
+  #site-header.is-scrolled #header-inner {
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem;
+  }
+  #site-header.is-scrolled #header-logo {
+    font-size: 1rem;
+  }
+  #site-header.is-scrolled #header-tagline {
+    opacity: 0;
+    max-height: 0;
+    margin-top: 0;
+  }
+</style>
+
 <script>
   const toggle = document.getElementById("menu-toggle");
   const menu = document.getElementById("mobile-menu");
   toggle?.addEventListener("click", () => {
     menu?.classList.toggle("hidden");
   });
+
+  const siteHeader = document.getElementById("site-header");
+  function updateHeaderScroll() {
+    siteHeader?.classList.toggle("is-scrolled", window.scrollY > 20);
+  }
+  window.addEventListener("scroll", updateHeaderScroll, { passive: true });
+  updateHeaderScroll();
 </script>
