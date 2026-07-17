@@ -165,10 +165,7 @@ const structuredData = {
           <div class="text-xs uppercase tracking-widest text-ink-muted mb-3">タグ</div>
           <div class="flex flex-wrap gap-2">
             {post.tags.map((tag) => (
-              <a
-                href={`/tag/${encodeURIComponent(tag)}/`}
-                class="text-xs px-2.5 py-1 rounded-full bg-paper-50 border border-paper-300 text-ink-muted no-underline hover:bg-paper-200 hover:text-ink"
-              >
+              <a href={`/tag/${encodeURIComponent(tag)}/`} class="tag-pill">
                 {tag}
               </a>
             ))}

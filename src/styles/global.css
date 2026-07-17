@@ -105,6 +105,19 @@
     @apply transition-all duration-200 hover:translate-y-[-2px] hover:shadow-md;
   }
 
+  /* Tag pill: rounded-md badge with a decorative "#" prefix, used in the
+     tag cloud and end-of-article tag rows */
+  .tag-pill {
+    @apply inline-flex items-baseline gap-1 text-xs px-3 py-1.5 rounded-md bg-paper-50 border border-paper-300 text-ink-muted no-underline transition-colors;
+  }
+  .tag-pill:hover {
+    @apply border-moss text-moss;
+  }
+  .tag-pill::before {
+    content: "#";
+    opacity: 0.6;
+  }
+
   /* Shimmer placeholder for lazy-loaded images */
   .img-shimmer {
     background: linear-gradient(90deg, theme("colors.paper.200") 25%, theme("colors.paper.100") 50%, theme("colors.paper.200") 75%);

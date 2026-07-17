@@ -17,6 +17,14 @@ const posts = getPostsByTag(name).sort((a, b) => (b.date ?? "").localeCompare(a.
 
 <Layout title={`#${name} - タグ`}>
   <div class="max-w-page mx-auto px-4 md:px-8 py-16">
+    <nav class="mb-6 flex items-center gap-2 text-xs text-ink-muted">
+      <a href="/" class="no-underline hover:text-ink">ホーム</a>
+      <span class="text-wandering/60">〜</span>
+      <a href="/tag/" class="no-underline hover:text-ink">タグ</a>
+      <span class="text-wandering/60">〜</span>
+      <span>#{name}</span>
+    </nav>
+
     <header class="mb-12 max-w-prose">
       <div class="text-xs uppercase tracking-[0.3em] text-earth mb-3">Tag</div>
       <h1 class="font-serif text-3xl md:text-5xl font-semibold text-moss-dark leading-tight">

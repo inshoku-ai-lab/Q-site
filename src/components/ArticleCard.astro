@@ -1,17 +1,18 @@
 ---
 import type { Post } from "../lib/posts";
-import { formatDateShort, categoryAccent } from "../lib/posts";
+import { formatDateShort, categoryAccent, categoryAccentHex } from "../lib/posts";
 import ReadingTimeBadge from "./ReadingTimeBadge.astro";
 
 interface Props {
   post: Post;
-  variant?: "default" | "compact" | "wide" | "related";
+  variant?: "default" | "compact" | "wide" | "related" | "scroll";
   showCategory?: boolean;
   headingLevel?: "h2" | "h3";
 }
 
 const { post, variant = "default", showCategory = true, headingLevel = "h3" } = Astro.props;
 const accent = categoryAccent(post.category);
+const accentHex = categoryAccentHex(post.category);
 const href = `/posts/${post.slug}/`;
 const Title = headingLevel;
 ---
@@ -103,6 +104,37 @@ const Title = headingLevel;
         <ReadingTimeBadge minutes={post.reading_time} size="sm" />
         {post.series && <span class="text-xs text-ink-muted">{post.series}{post.episode != null ? ` #${post.episode}` : ""}</span>}
       </div>
+    </div>
+  </a>
+) : variant === "scroll" ? (
+  <a href={href} class="flex-none w-60 snap-start block group no-underline card-hover bg-paper-50 rounded-lg overflow-hidden border border-paper-200">
+    {post.cover ? (
+      <div class="aspect-[16/9] overflow-hidden bg-paper-200">
+        <img
+          src={post.cover}
+          alt=""
+          loading="lazy"
+          class="img-shimmer w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+          onload="this.classList.add('is-loaded')"
+        />
+      </div>
+    ) : (
+      <div
+        class="aspect-[16/9] flex items-center justify-center"
+        style={`background:linear-gradient(135deg, ${accentHex}38, ${accentHex}0d)`}
+      >
+        {post.category && (
+          <span class="text-[11px] uppercase tracking-widest font-medium" style={`color:${accentHex}`}>
+            {post.category}
+          </span>
+        )}
+      </div>
+    )}
+    <div class="p-3.5">
+      <div class="text-[11px] text-ink-muted font-mono mb-1.5">{formatDateShort(post.date)}</div>
+      <Title class="font-serif text-sm leading-snug text-ink group-hover:text-moss-dark transition-colors line-clamp-2">
+        {post.title}
+      </Title>
     </div>
   </a>
 ) : (

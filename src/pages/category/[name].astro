@@ -2,7 +2,14 @@
 export const prerender = true;
 import Layout from "../../layouts/Layout.astro";
 import ArticleCard from "../../components/ArticleCard.astro";
-import { getCategoryIndex, getPostsByCategory, categoryAccent } from "../../lib/posts";
+import { getCategoryIndex, getPostsByCategory, categoryAccentHex } from "../../lib/posts";
+
+const catDescriptions: Record<string, string> = {
+  "放浪記": "20年以上の世界放浪を綴った自伝的連載。各地での出会いと別れ、日々の断片を残しています。",
+  "思想・理論": "デボリューション理論、意識論、覚醒についての考察と検証。",
+  "時事・情報戦": "メディアが報じない情報戦争・選挙・ビットコインの真実。",
+  "エッセイ・その他": "単発の随筆・観察・雑記。",
+};
 
 export async function getStaticPaths() {
   return getCategoryIndex().map((c) => ({
@@ -13,18 +20,29 @@ export async function getStaticPaths() {
 
 const { name, count } = Astro.props;
 const posts = getPostsByCategory(name).sort((a, b) => (b.date ?? "").localeCompare(a.date ?? ""));
-const accent = categoryAccent(name);
+const accentHex = categoryAccentHex(name);
 ---
 
 <Layout title={`${name} - カテゴリ`} description={`「${name}」カテゴリの全${count}記事。`}>
   <div class="max-w-page mx-auto px-4 md:px-8 py-16">
-    <header class="mb-12 max-w-prose">
-      <div class={`text-xs uppercase tracking-[0.3em] text-${accent} mb-3`}>Category</div>
-      <h1 class="font-serif text-3xl md:text-5xl font-semibold text-moss-dark leading-tight">{name}</h1>
-      <p class="mt-4 text-ink-muted">{count}本の記事 (新しい順)</p>
+    <nav class="mb-6 flex items-center gap-2 text-xs text-ink-muted">
+      <a href="/" class="no-underline hover:text-ink">ホーム</a>
+      <span class="text-wandering/60">〜</span>
+      <span>{name}</span>
+    </nav>
+
+    <header
+      class="mb-10 p-8 rounded-lg border max-w-prose"
+      style={`background:linear-gradient(135deg, ${accentHex}24, ${accentHex}0a); border-color:${accentHex}33`}
+    >
+      <h1 class="font-serif text-2xl md:text-4xl font-bold leading-tight" style={`color:${accentHex}`}>{name}</h1>
+      {catDescriptions[name] && (
+        <p class="mt-3 text-sm text-ink-muted leading-relaxed">{catDescriptions[name]}</p>
+      )}
+      <p class="mt-3 text-xs font-mono text-ink-muted">{count}件の記事</p>
     </header>
 
-    <div class="grid md:grid-cols-2 gap-5">
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
       {posts.map((post) => <ArticleCard post={post} variant="default" showCategory={false} headingLevel="h2" />)}
     </div>
   </div>

@@ -4,16 +4,30 @@ import Layout from "../layouts/Layout.astro";
 import ArticleCard from "../components/ArticleCard.astro";
 import SeriesCard from "../components/SeriesCard.astro";
 import {
-  getLatestPosts,
   getFeaturedPosts,
   getSeriesIndex,
   getPublishedPosts,
+  getPostsByCategory,
+  getCategoryIndex,
+  categoryAccentHex,
 } from "../lib/posts";
 
 const featured = getFeaturedPosts(3);
-const latest = getLatestPosts(8);
 const seriesList = getSeriesIndex();
 const totalPosts = getPublishedPosts().length;
+
+// Curated category order for the homepage's horizontal-scroll sections
+const categoryOrder = ["放浪記", "思想・理論", "時事・情報戦", "エッセイ・その他"];
+const categoryNames = new Set(getCategoryIndex().map((c) => c.name));
+const categorySections = categoryOrder
+  .filter((name) => categoryNames.has(name))
+  .map((name) => ({
+    name,
+    accentHex: categoryAccentHex(name),
+    posts: getPostsByCategory(name)
+      .sort((a, b) => (b.date ?? "").localeCompare(a.date ?? ""))
+      .slice(0, 8),
+  }));
 
 // Curated series order for homepage
 const seriesOrder = [
@@ -123,13 +137,27 @@ const seriesDescriptions: Record<string, string> = {
     </div>
   </section>
 
-  <section class="max-w-page mx-auto px-4 md:px-8 py-16">
-    <div class="flex items-baseline justify-between mb-8">
-      <h2 class="font-serif text-2xl md:text-3xl font-semibold text-moss-dark">最新の記事</h2>
-      <a href="/archive/" class="text-sm text-moss no-underline hover:text-moss-dark">アーカイブを見る →</a>
-    </div>
-    <div class="grid md:grid-cols-2 gap-5">
-      {latest.map((post) => <ArticleCard post={post} variant="default" />)}
-    </div>
+  {categorySections.map((section) => (
+    <section class="max-w-page mx-auto px-4 md:px-8 py-10">
+      <div class="flex items-baseline justify-between mb-5">
+        <h2 class="font-serif text-xl md:text-2xl font-semibold text-ink flex items-center gap-2.5">
+          <span class="w-2.5 h-2.5 rounded-full inline-block" style={`background:${section.accentHex}`} />
+          {section.name}
+        </h2>
+        <a
+          href={`/category/${encodeURIComponent(section.name)}/`}
+          class="text-sm text-moss no-underline hover:text-moss-dark whitespace-nowrap"
+        >
+          すべて見る →
+        </a>
+      </div>
+      <div class="flex gap-4 overflow-x-auto snap-x snap-mandatory pb-2 -mx-4 px-4 md:mx-0 md:px-0">
+        {section.posts.map((post) => <ArticleCard post={post} variant="scroll" headingLevel="h3" />)}
+      </div>
+    </section>
+  ))}
+
+  <section class="max-w-page mx-auto px-4 md:px-8 pb-16 text-center">
+    <a href="/archive/" class="text-sm text-moss no-underline hover:text-moss-dark">全記事のアーカイブを見る →</a>
   </section>
 </Layout>

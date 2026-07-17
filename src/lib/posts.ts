@@ -206,6 +206,19 @@ export function categoryAccent(category: string | null): string {
   }
 }
 
+// Hex equivalents of the tailwind.config.mjs accent colors, for dynamic
+// inline-style gradients/dots where Tailwind's static class scanner can't
+// see the template-literal class name (e.g. `bg-${accent}`).
+export function categoryAccentHex(category: string | null): string {
+  switch (category) {
+    case "放浪記": return "#A6845F";
+    case "思想・理論": return "#4A5E66";
+    case "時事・情報戦": return "#9C5642";
+    case "エッセイ・その他": return "#7A7060";
+    default: return "#1F1B16";
+  }
+}
+
 export function formatDate(iso: string | null): string {
   if (!iso) return "";
   const d = new Date(iso);

@@ -21,11 +21,11 @@ const maxCount = Math.max(...tags.map((t) => t.count), 1);
         return (
           <a
             href={`/tag/${encodeURIComponent(t.name)}/`}
-            class="inline-flex items-baseline gap-1.5 px-3 py-1.5 rounded-full bg-paper-50 border border-paper-300 text-ink-light no-underline hover:bg-moss/10 hover:border-moss hover:text-moss-dark"
+            class="tag-pill"
             style={`font-size: ${scale}rem;`}
           >
             <span>{t.name}</span>
-            <span class="text-xs text-ink-muted font-mono">{t.count}</span>
+            <span class="text-[0.7em] text-ink-muted/70 font-mono">{t.count}</span>
           </a>
         );
       })}
