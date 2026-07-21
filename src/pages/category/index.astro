@@ -24,7 +24,7 @@ const catAccent: Record<string, string> = {
   <div class="max-w-page mx-auto px-4 md:px-8 py-16">
     <header class="mb-12">
       <div class="text-xs uppercase tracking-[0.3em] text-earth mb-3">Categories</div>
-      <h1 class="font-serif text-3xl md:text-4xl font-semibold text-moss-dark">カテゴリで読む</h1>
+      <h1 class="font-serif text-3xl md:text-4xl font-semibold text-ink">カテゴリで読む</h1>
     </header>
 
     <div class="grid sm:grid-cols-2 gap-5">
@@ -36,7 +36,7 @@ const catAccent: Record<string, string> = {
             class={`block p-6 rounded-lg bg-paper-50 border border-paper-200 no-underline card-hover border-l-4 border-l-${accent}`}
           >
             <div class={`text-[10px] uppercase tracking-widest text-${accent} mb-2`}>Category</div>
-            <h2 class="font-serif text-2xl font-semibold text-moss-dark mb-2">{c.name}</h2>
+            <h2 class="font-serif text-2xl font-semibold text-ink mb-2">{c.name}</h2>
             <p class="text-sm text-ink-muted mb-3">{catDesc[c.name]}</p>
             <div class="text-xs text-ink-muted font-mono">{c.count}本の記事</div>
           </a>

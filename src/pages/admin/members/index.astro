@@ -49,7 +49,7 @@ const csvParams = new URLSearchParams(url.search);
 <Layout title="会員一覧" description="旅路の証人 会員一覧" noIndex>
   <div class="max-w-5xl mx-auto px-4 md:px-0 py-12">
     <div class="flex items-center justify-between mb-6">
-      <h1 class="font-serif text-2xl font-semibold text-moss-dark">会員一覧({members.length}人)</h1>
+      <h1 class="font-serif text-2xl font-semibold text-ink">会員一覧({members.length}人)</h1>
       <nav class="text-sm flex gap-4">
         <a href="/admin" class="text-earth hover:text-ink underline">ダッシュボードへ</a>
         <a href={`/api/admin/members.csv?${csvParams.toString()}`} class="text-earth hover:text-ink underline">CSVエクスポート</a>
@@ -72,7 +72,7 @@ const csvParams = new URLSearchParams(url.search);
       </select>
       <input type="date" name="from" value={fromFilter} class="border border-paper-300 rounded px-3 py-1.5" />
       <input type="date" name="to" value={toFilter} class="border border-paper-300 rounded px-3 py-1.5" />
-      <button type="submit" class="px-4 py-1.5 bg-moss-dark text-paper-100 rounded">絞り込む</button>
+      <button type="submit" class="px-4 py-1.5 bg-moss-light text-paper-100 rounded">絞り込む</button>
       <a href="/admin/members" class="px-4 py-1.5 border border-paper-300 rounded text-ink-muted">リセット</a>
     </form>
 

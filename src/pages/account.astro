@@ -33,7 +33,7 @@ const PROVIDER_LABELS: Record<string, string> = {
   <div class="max-w-prose mx-auto px-4 md:px-0 py-16">
     {!user && (
       <div class="text-center py-12">
-        <h1 class="font-serif text-2xl font-semibold text-moss-dark mb-4">アカウント設定</h1>
+        <h1 class="font-serif text-2xl font-semibold text-ink mb-4">アカウント設定</h1>
         <p class="text-ink-muted mb-4">ログインしていません。</p>
         <a href="/join" class="text-earth hover:text-ink underline">「旅路の証人」になる</a>
       </div>
@@ -57,7 +57,7 @@ const PROVIDER_LABELS: Record<string, string> = {
 
         {memberPosts.length > 0 && (
           <div class="mb-9">
-            <h2 class="font-serif text-base text-moss-dark mb-4">会員限定記事</h2>
+            <h2 class="font-serif text-base text-ink mb-4">会員限定記事</h2>
             <div class="flex flex-col">
               {memberPosts.map((p) => {
                 const hex = categoryAccentHex(p.category);
@@ -81,7 +81,7 @@ const PROVIDER_LABELS: Record<string, string> = {
         )}
 
         <div class="mb-9">
-          <h2 class="font-serif text-base text-moss-dark mb-4">アカウント</h2>
+          <h2 class="font-serif text-base text-ink mb-4">アカウント</h2>
           <div class="flex flex-col">
             <div class="flex justify-between py-3.5 border-b border-paper-300 text-sm">
               <span class="text-ink">メールアドレス</span>
@@ -103,7 +103,7 @@ const PROVIDER_LABELS: Record<string, string> = {
         </div>
 
         <div class="border-t border-paper-300 pt-8">
-          <h2 class="font-serif text-base font-semibold text-moss-dark mb-3">退会する</h2>
+          <h2 class="font-serif text-base font-semibold text-ink mb-3">退会する</h2>
           <p class="text-sm text-ink-muted mb-4">
             退会すると、アカウントと会員情報は即座に完全に削除されます。この操作は元に戻せません。
           </p>

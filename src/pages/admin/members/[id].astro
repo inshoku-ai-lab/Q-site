@@ -36,7 +36,7 @@ const REASON_LABELS: Record<string, string> = {
       <a href="/admin/members" class="text-earth hover:text-ink underline">← 会員一覧へ</a>
     </nav>
 
-    <h1 class="font-serif text-2xl font-semibold text-moss-dark mb-8">
+    <h1 class="font-serif text-2xl font-semibold text-ink mb-8">
       {member.display_name || "(名前なし)"}
     </h1>
 
@@ -50,14 +50,14 @@ const REASON_LABELS: Record<string, string> = {
     </dl>
 
     <div class="border-t border-paper-300 pt-8">
-      <h2 class="font-serif text-lg font-semibold text-moss-dark mb-3">管理者メモ</h2>
+      <h2 class="font-serif text-lg font-semibold text-ink mb-3">管理者メモ</h2>
       <textarea
         id="admin-note"
         class="w-full border border-paper-300 rounded-md p-3 text-sm h-32"
         placeholder="このメンバーについてのメモ(例: ◯◯さんの紹介で入会)"
       >{member.admin_note ?? ""}</textarea>
       <div class="mt-3 flex items-center gap-3">
-        <button id="save-note-btn" type="button" class="px-4 py-2 bg-moss-dark text-paper-100 rounded-md text-sm">
+        <button id="save-note-btn" type="button" class="px-4 py-2 bg-moss-light text-paper-100 rounded-md text-sm">
           メモを保存
         </button>
         <span id="save-note-status" class="text-xs text-ink-muted"></span>

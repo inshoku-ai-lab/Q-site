@@ -18,7 +18,7 @@ const ACCENT_HEX: Record<string, string> = {
   thought: "#4A5E66",
   current: "#9C5642",
   essay: "#7A7060",
-  ink: "#5B7553",
+  ink: "#4F6B43",
 };
 
 let fontPromise: Promise<ArrayBuffer> | null = null;
@@ -30,7 +30,7 @@ async function loadFont(): Promise<ArrayBuffer> {
   if (!fontPromise) {
     fontPromise = (async () => {
       const cssRes = await fetch(
-        "https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700&display=swap",
+        "https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@700&display=swap",
         { headers: { "User-Agent": "Mozilla/5.0 (Windows NT 6.1)" } }
       );
       const css = await cssRes.text();
@@ -61,8 +61,8 @@ export const GET: APIRoute = async ({ params }) => {
           flexDirection: "column",
           justifyContent: "space-between",
           padding: "80px",
-          backgroundColor: "#F5F1E8",
-          fontFamily: "Noto Sans JP",
+          backgroundColor: "#F6EFDC",
+          fontFamily: "Zen Kaku Gothic New",
         },
         children: [
           post.category
@@ -87,7 +87,7 @@ export const GET: APIRoute = async ({ params }) => {
                 display: "flex",
                 fontSize: "64px",
                 lineHeight: 1.4,
-                color: "#2C3A2E",
+                color: "#2A1F11",
                 fontWeight: 700,
               },
               children: post.title,
@@ -101,7 +101,7 @@ export const GET: APIRoute = async ({ params }) => {
                 alignItems: "center",
                 justifyContent: "space-between",
                 fontSize: "28px",
-                color: "#6B6359",
+                color: "#79694F",
               },
               children: [
                 { type: "div", props: { style: { display: "flex" }, children: "Qryptraveller's Notes" } },
@@ -121,7 +121,7 @@ export const GET: APIRoute = async ({ params }) => {
     {
       width: 1200,
       height: 630,
-      fonts: [{ name: "Noto Sans JP", data: fontData, weight: 700, style: "normal" }],
+      fonts: [{ name: "Zen Kaku Gothic New", data: fontData, weight: 700, style: "normal" }],
     }
   );
 };

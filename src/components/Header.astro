@@ -12,9 +12,9 @@ const nav = [
 ---
 
 <header id="site-header" class="border-b border-paper-300 bg-paper-100/90 backdrop-blur sticky top-0 z-20">
-  <div id="header-inner" class="max-w-page mx-auto px-4 md:px-8 py-4 flex items-center justify-between gap-6 transition-[padding] duration-200">
+  <div id="header-inner" class="max-w-page mx-auto px-4 md:px-10 py-3.5 flex items-center justify-between gap-6 transition-[padding] duration-200">
     <a href="/" class="no-underline flex flex-col leading-none">
-      <span id="header-logo" class="font-serif font-semibold text-lg md:text-xl text-moss-dark tracking-wide transition-[font-size] duration-200">
+      <span id="header-logo" class="font-serif font-extrabold text-lg md:text-xl text-ink tracking-wide transition-[font-size] duration-200">
         Qryptraveller's Notes
       </span>
       <span id="header-tagline" class="text-[10px] uppercase tracking-widest text-ink-muted mt-0.5 transition-[opacity,max-height] duration-200 overflow-hidden">
@@ -22,15 +22,15 @@ const nav = [
       </span>
     </a>
 
-    <div class="flex items-center gap-6">
-      <nav class="hidden md:flex items-center gap-6 text-sm">
+    <div class="flex items-center gap-7">
+      <nav class="hidden md:flex items-center gap-7 text-sm">
         {
           nav.map((n) => (
             <a
               href={n.href}
               class={`no-underline transition-colors ${
                 isActive(n.href)
-                  ? "text-moss-dark font-medium"
+                  ? "text-ink font-medium"
                   : "text-ink-muted hover:text-ink"
               }`}
             >
@@ -76,7 +76,7 @@ const nav = [
           <a
             href={n.href}
             class={`no-underline py-3 border-b border-paper-200 last:border-0 transition-colors ${
-              isActive(n.href) ? "text-moss-dark font-medium" : "text-ink-muted"
+              isActive(n.href) ? "text-ink font-medium" : "text-ink-muted"
             }`}
           >
             {n.label}
@@ -86,7 +86,7 @@ const nav = [
       <a
         href="/search/"
         class={`no-underline py-3 transition-colors ${
-          isActive("/search/") ? "text-moss-dark font-medium" : "text-ink-muted"
+          isActive("/search/") ? "text-ink font-medium" : "text-ink-muted"
         }`}
       >
         検索

@@ -15,27 +15,27 @@ export default {
   theme: {
     extend: {
       colors: {
-        // Natural / earthy palette
+        // Natural / earthy palette (v2 — Claude Design homepage handoff)
         paper: {
-          50: "#FBF8F1",  // lightest paper
-          100: "#F5F1E8", // main background (washi)
-          200: "#EDE7D7",
-          300: "#DDD3BB",
+          50: "#F4DCB2",  // card / raised-surface background (warm amber)
+          100: "#F6EFDC", // main background (washi)
+          200: "#F5E5C7",
+          300: "#D9D2C0",
         },
         ink: {
-          DEFAULT: "#1F1B16", // body text - deep sumi
-          light: "#3A352D",
-          muted: "#6B6359",
+          DEFAULT: "#2A1F11", // body text
+          light: "#4A3A22",
+          muted: "#79694F",
         },
         moss: {
-          DEFAULT: "#5B7553", // links - moss green
-          dark: "#2C3A2E",    // headings - forest shadow
-          light: "#8FA888",
+          DEFAULT: "#4F6B43", // links, inline accent
+          dark: "#3D5434",    // hover / emphasis
+          light: "#6D8E5D",   // primary buttons, dots
         },
         earth: {
-          DEFAULT: "#8B5E3C", // accent - earth/bark
-          light: "#B58968",
-          dark: "#5C3E27",
+          DEFAULT: "#8A3D1F", // accent - warm orange
+          light: "#B5602E",
+          dark: "#5C2814",
         },
         wandering: {
           DEFAULT: "#A6845F",  // 放浪記 accent (warm tan)
@@ -55,8 +55,8 @@ export default {
         },
       },
       fontFamily: {
-        serif: ['"Noto Serif JP"', '"Newsreader"', "Georgia", "serif"],
-        sans: ['"Noto Sans JP"', "Inter", "system-ui", "sans-serif"],
+        serif: ['"Shippori Mincho B1"', '"Noto Serif JP"', "Georgia", "serif"],
+        sans: ['"Zen Kaku Gothic New"', '"Noto Sans JP"', "Inter", "system-ui", "sans-serif"],
       },
       fontSize: {
         // Reading-friendly sizes for Japanese long-form
@@ -69,6 +69,10 @@ export default {
       },
       letterSpacing: {
         wider: "0.05em",
+      },
+      borderRadius: {
+        lg: "1rem",    // 16px — cards (was 8px)
+        xl: "1.5rem",  // 24px — hero imagery (was 12px)
       },
     },
   },

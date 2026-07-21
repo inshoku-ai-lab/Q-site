@@ -19,7 +19,7 @@
 
   /* Headings */
   h1, h2, h3, h4, h5, h6 {
-    @apply font-serif text-moss-dark;
+    @apply font-serif text-ink;
     font-feature-settings: "palt" 1;
   }
 
@@ -52,16 +52,16 @@
     @apply text-ink;
   }
   .prose-article h1 {
-    @apply text-3xl md:text-4xl font-serif font-semibold text-moss-dark mt-12 mb-6 leading-tight;
+    @apply text-3xl md:text-4xl font-serif font-semibold text-ink mt-12 mb-6 leading-tight;
   }
   .prose-article h2 {
-    @apply text-2xl md:text-[1.6rem] font-serif font-semibold text-moss-dark mt-12 mb-5 leading-snug border-b border-paper-300 pb-2;
+    @apply text-2xl md:text-[1.6rem] font-serif font-semibold text-ink mt-12 mb-5 leading-snug border-b border-paper-300 pb-2;
   }
   .prose-article h3 {
-    @apply text-xl md:text-[1.35rem] font-serif font-semibold text-moss-dark mt-10 mb-4;
+    @apply text-xl md:text-[1.35rem] font-serif font-semibold text-ink mt-10 mb-4;
   }
   .prose-article h4 {
-    @apply text-lg font-serif font-semibold text-moss-dark mt-8 mb-3;
+    @apply text-lg font-serif font-semibold text-ink mt-8 mb-3;
   }
   .prose-article p {
     @apply text-body md:text-body-lg my-5 leading-[1.95];

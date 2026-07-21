@@ -220,7 +220,7 @@ export function categoryAccentHex(category: string | null): string {
     case "思想・理論": return "#4A5E66";
     case "時事・情報戦": return "#9C5642";
     case "エッセイ・その他": return "#7A7060";
-    default: return "#1F1B16";
+    default: return "#2A1F11";
   }
 }
 

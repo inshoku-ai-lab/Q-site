@@ -10,7 +10,7 @@ const { entries, variant } = Astro.props;
 
 {entries.length > 1 && variant === "mobile" && (
   <details class="toc lg:hidden border border-paper-300 rounded-md mb-8">
-    <summary class="cursor-pointer select-none px-4 py-3 text-sm font-medium text-moss-dark">目次</summary>
+    <summary class="cursor-pointer select-none px-4 py-3 text-sm font-medium text-ink">目次</summary>
     <ul class="px-4 pb-4 space-y-2 text-sm">
       {entries.map((e) => (
         <li class={e.level === 3 ? "pl-4" : ""}>
@@ -48,7 +48,7 @@ const { entries, variant } = Astro.props;
     function setActive(id: string | null) {
       for (const l of links) {
         const active = l.dataset.target === id;
-        l.classList.toggle("text-moss-dark", active);
+        l.classList.toggle("text-ink", active);
         l.classList.toggle("font-medium", active);
         l.classList.toggle("text-ink-muted", !active);
       }

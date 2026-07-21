@@ -14,7 +14,7 @@ const { series, prev, next } = Astro.props;
     prev ? (
       <a href={`/posts/${prev.slug}/`} class="group block p-4 bg-paper-50 rounded-md border border-paper-200 hover:border-moss no-underline">
         <div class="text-[10px] uppercase tracking-widest text-ink-muted mb-1">← 前の話</div>
-        <div class="font-serif text-moss-dark group-hover:text-ink line-clamp-2">{prev.title}</div>
+        <div class="font-serif text-ink group-hover:text-moss-dark line-clamp-2">{prev.title}</div>
       </a>
     ) : (
       <div />
@@ -24,7 +24,7 @@ const { series, prev, next } = Astro.props;
     next ? (
       <a href={`/posts/${next.slug}/`} class="group block p-4 bg-paper-50 rounded-md border border-paper-200 hover:border-moss no-underline text-right">
         <div class="text-[10px] uppercase tracking-widest text-ink-muted mb-1">次の話 →</div>
-        <div class="font-serif text-moss-dark group-hover:text-ink line-clamp-2">{next.title}</div>
+        <div class="font-serif text-ink group-hover:text-moss-dark line-clamp-2">{next.title}</div>
       </a>
     ) : (
       <div />

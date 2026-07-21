@@ -46,26 +46,26 @@ const structuredData = {
 
     <div class="flex flex-wrap gap-8 mb-10 pb-6 border-b border-paper-300">
       <div>
-        <div class="font-serif text-xl text-moss-dark">{wanderingCount}</div>
+        <div class="font-serif text-xl text-ink">{wanderingCount}</div>
         <div class="text-[11px] text-ink-muted">放浪記 記事数</div>
       </div>
       <div>
-        <div class="font-serif text-xl text-moss-dark">{yearStart}〜</div>
+        <div class="font-serif text-xl text-ink">{yearStart}〜</div>
         <div class="text-[11px] text-ink-muted">執筆開始</div>
       </div>
       <div>
-        <div class="font-serif text-xl text-moss-dark">{categoryCount}</div>
+        <div class="font-serif text-xl text-ink">{categoryCount}</div>
         <div class="text-[11px] text-ink-muted">カテゴリ</div>
       </div>
       <div>
-        <div class="font-serif text-xl text-moss-dark">{total.toLocaleString()}</div>
+        <div class="font-serif text-xl text-ink">{total.toLocaleString()}</div>
         <div class="text-[11px] text-ink-muted">総記事数</div>
       </div>
     </div>
 
     {recent.length > 0 && (
       <div class="mb-12 pb-4 border-b border-paper-300">
-        <h2 class="font-serif text-base text-moss-dark mb-3">最近の記事</h2>
+        <h2 class="font-serif text-base text-ink mb-3">最近の記事</h2>
         <div class="flex flex-col">
           {recent.map((p) => {
             const hex = categoryAccentHex(p.category);

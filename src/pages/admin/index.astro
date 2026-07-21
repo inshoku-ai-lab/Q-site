@@ -30,14 +30,14 @@ const maxTimeSeriesValue = Math.max(1, ...stats.timeSeries.map((t) => Math.max(t
 <Layout title="管理ダッシュボード" description="旅路の証人 管理ダッシュボード" noIndex>
   <div class="max-w-5xl mx-auto px-4 md:px-0 py-12">
     <div class="flex items-center justify-between mb-8">
-      <h1 class="font-serif text-2xl font-semibold text-moss-dark">管理ダッシュボード</h1>
+      <h1 class="font-serif text-2xl font-semibold text-ink">管理ダッシュボード</h1>
       <nav class="text-sm">
         <a href="/admin/members" class="text-earth hover:text-ink underline">会員一覧へ</a>
       </nav>
     </div>
 
     {stats.recentlyPassedMilestone && (
-      <div class="mb-8 p-4 rounded-md bg-moss/10 border border-moss text-moss-dark text-sm">
+      <div class="mb-8 p-4 rounded-md bg-moss/10 border border-moss text-ink text-sm">
         🎉 「旅路の証人」が {stats.recentlyPassedMilestone}人 に到達しました！
       </div>
     )}
@@ -46,15 +46,15 @@ const maxTimeSeriesValue = Math.max(1, ...stats.timeSeries.map((t) => Math.max(t
     <div class="grid grid-cols-2 md:grid-cols-3 gap-4 mb-12">
       <div class="border border-paper-300 rounded-md p-4">
         <div class="text-xs text-ink-muted mb-1">現在の会員数</div>
-        <div class="text-2xl font-semibold text-moss-dark">{stats.currentCount}</div>
+        <div class="text-2xl font-semibold text-ink">{stats.currentCount}</div>
       </div>
       <div class="border border-paper-300 rounded-md p-4">
         <div class="text-xs text-ink-muted mb-1">累計入会者数</div>
-        <div class="text-2xl font-semibold text-moss-dark">{stats.cumulativeJoins}</div>
+        <div class="text-2xl font-semibold text-ink">{stats.cumulativeJoins}</div>
       </div>
       <div class="border border-paper-300 rounded-md p-4">
         <div class="text-xs text-ink-muted mb-1">退会者数</div>
-        <div class="text-2xl font-semibold text-moss-dark">{stats.churnCount}</div>
+        <div class="text-2xl font-semibold text-ink">{stats.churnCount}</div>
       </div>
       {stats.nextMilestone && (
         <div class="border border-paper-300 rounded-md p-4 col-span-2 md:col-span-3">
@@ -65,7 +65,7 @@ const maxTimeSeriesValue = Math.max(1, ...stats.timeSeries.map((t) => Math.max(t
 
     <!-- Time series -->
     <section class="mb-12">
-      <h2 class="font-serif text-lg font-semibold text-moss-dark mb-4">入会・退会の推移(月別)</h2>
+      <h2 class="font-serif text-lg font-semibold text-ink mb-4">入会・退会の推移(月別)</h2>
       {stats.timeSeries.length === 0 ? (
         <p class="text-sm text-ink-muted">データがありません。</p>
       ) : (
@@ -102,7 +102,7 @@ const maxTimeSeriesValue = Math.max(1, ...stats.timeSeries.map((t) => Math.max(t
     <!-- Provider / reason breakdown -->
     <div class="grid md:grid-cols-2 gap-8 mb-12">
       <section>
-        <h2 class="font-serif text-lg font-semibold text-moss-dark mb-4">プロバイダー別内訳</h2>
+        <h2 class="font-serif text-lg font-semibold text-ink mb-4">プロバイダー別内訳</h2>
         <ul class="space-y-2 text-sm">
           {stats.providerBreakdown.map((p) => (
             <li class="flex justify-between border-b border-paper-200 py-1.5">
@@ -114,7 +114,7 @@ const maxTimeSeriesValue = Math.max(1, ...stats.timeSeries.map((t) => Math.max(t
       </section>
 
       <section>
-        <h2 class="font-serif text-lg font-semibold text-moss-dark mb-4">理由別内訳・継続率</h2>
+        <h2 class="font-serif text-lg font-semibold text-ink mb-4">理由別内訳・継続率</h2>
         <ul class="space-y-2 text-sm">
           {stats.reasonBreakdown.map((r) => (
             <li class="flex justify-between border-b border-paper-200 py-1.5">
@@ -128,7 +128,7 @@ const maxTimeSeriesValue = Math.max(1, ...stats.timeSeries.map((t) => Math.max(t
 
     <!-- Cohort retention -->
     <section class="mb-12">
-      <h2 class="font-serif text-lg font-semibold text-moss-dark mb-4">コホート分析(入会月別 継続率)</h2>
+      <h2 class="font-serif text-lg font-semibold text-ink mb-4">コホート分析(入会月別 継続率)</h2>
       {stats.cohorts.length === 0 ? (
         <p class="text-sm text-ink-muted">データがありません。</p>
       ) : (
@@ -161,7 +161,7 @@ const maxTimeSeriesValue = Math.max(1, ...stats.timeSeries.map((t) => Math.max(t
 
     <!-- Heatmap -->
     <section class="mb-12">
-      <h2 class="font-serif text-lg font-semibold text-moss-dark mb-4">入会の曜日・時間帯ヒートマップ</h2>
+      <h2 class="font-serif text-lg font-semibold text-ink mb-4">入会の曜日・時間帯ヒートマップ</h2>
       <div class="overflow-x-auto">
         <table class="text-xs border-collapse">
           <thead>
@@ -192,7 +192,7 @@ const maxTimeSeriesValue = Math.max(1, ...stats.timeSeries.map((t) => Math.max(t
 
     <!-- Referral tracking -->
     <section class="mb-12">
-      <h2 class="font-serif text-lg font-semibold text-moss-dark mb-4">流入経路(現会員のみ)</h2>
+      <h2 class="font-serif text-lg font-semibold text-ink mb-4">流入経路(現会員のみ)</h2>
       {stats.topReferrers.length === 0 ? (
         <p class="text-sm text-ink-muted">データがありません。</p>
       ) : (
