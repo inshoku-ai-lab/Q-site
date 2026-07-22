@@ -93,16 +93,6 @@ export function getPostsByTag(tag: string): Post[] {
   return getPublishedPosts().filter((p) => p.tags.includes(tag));
 }
 
-export function getFeaturedPosts(limit = 3): Post[] {
-  const featured = getPublishedPosts().filter((p) => p.featured);
-  if (featured.length >= limit) return featured.slice(0, limit);
-  // Fall back to longest/most-imaged "essay-like" posts if no featured
-  const fallback = getPublishedPosts()
-    .filter((p) => p.category === "エッセイ・その他" || p.category === "思想・理論")
-    .sort((a, b) => b.char_count - a.char_count);
-  return [...featured, ...fallback].slice(0, limit);
-}
-
 export function getLatestPosts(limit = 10): Post[] {
   return getPublishedPosts().slice(0, limit);
 }

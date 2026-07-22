@@ -4,15 +4,25 @@ import Layout from "../layouts/Layout.astro";
 import ArticleCard from "../components/ArticleCard.astro";
 import SeriesCard from "../components/SeriesCard.astro";
 import {
-  getFeaturedPosts,
+  getPostBySlug,
   getSeriesIndex,
   getPublishedPosts,
   getPostsByCategory,
   getCategoryIndex,
   categoryAccentHex,
 } from "../lib/posts";
+import type { Post } from "../lib/posts";
 
-const featured = getFeaturedPosts(3);
+// Curated homepage picks: one Devolution Theory intro, one Teal Swan piece,
+// one Bitcoin/BSV piece.
+const featuredSlugs = [
+  "devolution-theory-an-introduction",
+  "satanic-ritual-survivor-turned-genius-trauma-therapist-teal-swans-story",
+  "the-truth-about-the-media-lying-regime-vs-dr-craig-and-bitcoin-sv-bsv-the-biggest-trial-in-history-is-over-and-the-identity-of-the-bitcoin-developer-has-been-revealed",
+];
+const featured = featuredSlugs
+  .map((slug) => getPostBySlug(slug))
+  .filter((p): p is Post => Boolean(p));
 const seriesList = getSeriesIndex();
 const totalPosts = getPublishedPosts().length;
 
