@@ -11,6 +11,7 @@
     "preview": "astro preview",
     "astro": "astro",
     "sync": "node scripts/sync-notion.mjs",
+    "fetch-ogp": "node scripts/fetch-ogp.mjs",
     "build:from-md": "node scripts/build-from-md.mjs",
     "search:build": "pagefind --site .vercel/output/static"
   },

@@ -37,7 +37,24 @@ export type Post = {
   blocks: Block[];
 };
 
-const allPosts = postsData as unknown as Post[];
+// Excerpt/SEO-description are plain-text Notion properties (used for
+// <meta description>, OG/Twitter tags, RSS, and listing-page blurbs) that
+// can carry the same WP "blogcard" shortcode artifact as body paragraphs
+// (see preprocessBlocks below) -- strip it out here so it never leaks
+// into a page's meta tags or a card's excerpt text.
+function cleanExcerptText(text: string): string {
+  if (!text || !/\[{1,2}blogcard url="/i.test(text)) return text;
+  return text
+    .replace(/\[{1,2}blogcard url="[^"]*"?\]{0,2}/gi, "")
+    .replace(/\s{2,}/g, " ")
+    .trim();
+}
+
+const allPosts = (postsData as unknown as Post[]).map((p) => ({
+  ...p,
+  excerpt: cleanExcerptText(p.excerpt),
+  seo_description: cleanExcerptText(p.seo_description),
+}));
 
 export function getAllPosts(): Post[] {
   return allPosts;
@@ -107,54 +124,110 @@ export function rewriteInternalLinks(html: string): string {
 // from markdown-link auto-wrapping (`[[blogcard url="..."]](url)`), and
 // paragraphs containing more than one shortcode and/or leading prose text
 // before the shortcode. This pattern matches all of those variants; the
-// captured group is the raw URL, which still needs cleanBlogcardUrl().
+// captured group is the raw URL, which still needs cleanUrl().
 const BLOGCARD_RE =
   /\[{1,2}blogcard url="(?:&lt;)?([^"]*)"?(?:&gt;)?\]{0,2}(?:&gt;)?(?:(?!\[{1,2}blogcard)[[\]) "])*(?:\(https?:\/\/[^)]*\))?/gi;
 
-function cleanBlogcardUrl(raw: string): string {
+// A bare http(s) URL sitting as plain, unlinked text -- the other common
+// migration artifact. WordPress auto-linked (or auto-embedded) plain URLs
+// on the fly; Notion's import just kept the literal text.
+const BARE_URL_RE = /https?:\/\/[^\s<>"]+/gi;
+
+function cleanUrl(raw: string): string {
   return raw.replace(/\\_/g, "_").replace(/&amp;/g, "&").trim();
+}
+
+function isValidUrl(s: string): boolean {
+  try {
+    new URL(s);
+    return true;
+  } catch {
+    return false;
+  }
+}
+
+function escapeHtmlAttr(s: string): string {
+  return s.replace(/&/g, "&amp;").replace(/"/g, "&quot;");
+}
+
+// `&lt;https://...&gt;` is the auto-link syntax `<https://...>` surviving
+// as literal, HTML-entity-escaped text -- strip the escaped brackets so
+// the URL underneath can be detected/linkified normally.
+function stripEntityAngleBrackets(html: string): string {
+  return html.replace(/&lt;(https?:\/\/[^\s&]+?)&gt;/gi, "$1");
+}
+
+// Turn any bare (not already inside an <a>) URL in a text chunk into a
+// real link. Skips chunks that already contain an <a> tag entirely, to
+// avoid ever wrapping an already-linked URL a second time.
+function linkifyBareUrls(html: string): string {
+  if (/<a[\s>]/i.test(html)) return html;
+  return html.replace(BARE_URL_RE, (raw) => {
+    const trimmed = raw.replace(/[)\].,;:!?、。」]+$/, "");
+    const url = cleanUrl(trimmed);
+    if (!isValidUrl(url)) return raw;
+    const trailing = raw.slice(trimmed.length);
+    return `<a href="${escapeHtmlAttr(url)}" target="_blank" rel="noopener">${trimmed}</a>${trailing}`;
+  });
+}
+
+// A chunk of paragraph text (either the whole paragraph, or the prose
+// before/between/after a blogcard shortcode). If it's nothing but a bare
+// URL, promote it to its own "blogcard" block instead of a plain link --
+// mirroring how the shortcode form is handled -- otherwise just linkify
+// any bare URLs and rewrite internal links within the remaining prose.
+function textChunkToBlocks(b: Block, rawText: string): Block[] {
+  if (!rawText.trim()) return [];
+  const text = stripEntityAngleBrackets(rawText);
+  const tagless = text.replace(/<[^>]+>/g, "").trim();
+  if (/^https?:\/\/\S+$/i.test(tagless)) {
+    const url = cleanUrl(tagless);
+    if (isValidUrl(url)) return [{ type: "blogcard", url }];
+  }
+  return [{ ...b, html: rewriteInternalLinks(linkifyBareUrls(text)) }];
 }
 
 // Split a paragraph block's html on any embedded blogcard shortcode(s),
 // turning prose before/between/after the shortcode(s) into paragraph
-// block(s) and each shortcode into its own "blogcard" block. A paragraph
-// with no shortcode (the common case) just gets its internal links
-// rewritten and is returned unchanged as a single-element array.
-function splitParagraphBlogcards(b: Block): Block[] {
+// block(s) (with any bare URLs in that prose linkified) and each
+// shortcode into its own "blogcard" block. A paragraph with no shortcode
+// (the common case) just goes straight through textChunkToBlocks.
+function paragraphBlocks(b: Block): Block[] {
   const html = b.html ?? "";
   if (!/\[{1,2}blogcard url="/i.test(html)) {
-    return html ? [{ ...b, html: rewriteInternalLinks(html) }] : [b];
+    return textChunkToBlocks(b, html);
   }
   const out: Block[] = [];
   let lastIndex = 0;
   BLOGCARD_RE.lastIndex = 0;
   let match: RegExpExecArray | null;
   while ((match = BLOGCARD_RE.exec(html))) {
-    const before = html.slice(lastIndex, match.index);
-    if (before.trim()) out.push({ ...b, html: rewriteInternalLinks(before) });
-    const url = cleanBlogcardUrl(match[1] ?? "");
+    out.push(...textChunkToBlocks(b, html.slice(lastIndex, match.index)));
+    const url = cleanUrl(match[1] ?? "");
     if (url) out.push({ type: "blogcard", url });
     lastIndex = match.index + match[0].length;
   }
-  const after = html.slice(lastIndex);
-  if (after.trim()) out.push({ ...b, html: rewriteInternalLinks(after) });
+  out.push(...textChunkToBlocks(b, html.slice(lastIndex)));
   return out;
 }
 
-// Convert blogcard-shortcode paragraphs into dedicated "blogcard" blocks,
-// and rewrite internal-site links (both inline and on bookmark/embed
-// blocks) to point at this site instead of the old WordPress domain.
+// Convert blogcard-shortcode paragraphs (and bare-URL-only paragraphs)
+// into dedicated "blogcard" blocks, linkify remaining bare URLs, and
+// rewrite internal-site links (both inline and on bookmark/embed blocks)
+// to point at this site instead of the old WordPress domain.
 export function preprocessBlocks(blocks: Block[]): Block[] {
   return blocks.flatMap((b) => {
     if (b.type === "paragraph") {
-      return splitParagraphBlogcards(b);
+      return paragraphBlocks(b);
     }
     // Notion's native bookmark/embed blocks are the same "link preview"
     // concept as the blogcard shortcode -- render them the same way.
     if ((b.type === "bookmark" || b.type === "embed") && b.url) {
       return [{ type: "blogcard", url: b.url }];
     }
-    if (b.html) return [{ ...b, html: rewriteInternalLinks(b.html) }];
+    if (b.html) {
+      return [{ ...b, html: rewriteInternalLinks(linkifyBareUrls(stripEntityAngleBrackets(b.html))) }];
+    }
     return [b];
   });
 }

@@ -1,5 +1,6 @@
 import type { Block } from "./posts";
 import { resolveInternalPost, domainOf, categoryAccentHex, formatDateShort } from "./posts";
+import { getOgp } from "./ogp";
 
 // Server-side mirror of components/ArticleBody.astro's block rendering,
 // used to render the member-only tail of an article as an HTML string for
@@ -31,7 +32,18 @@ function renderBlogCard(url: string): string {
       post.date ? `<div class="text-[11px] text-ink-muted font-mono mt-1">${escapeHtml(formatDateShort(post.date))}</div>` : ""
     }</div></a>`;
   }
-  return `<a href="${escapeAttr(url)}" target="_blank" rel="noopener" class="my-6 flex items-center gap-3 no-underline group bg-paper-50 border border-paper-200 rounded-lg px-4 py-3.5 card-hover"><span class="w-8 h-8 rounded-full border border-paper-300 flex items-center justify-center flex-shrink-0 text-ink-muted group-hover:border-moss group-hover:text-moss transition-colors"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" /><path d="M15 3h6v6" /><path d="M10 14L21 3" /></svg></span><div class="min-w-0"><div class="text-sm text-ink group-hover:text-moss-dark truncate">${escapeHtml(domainOf(url))}</div><div class="text-[11px] text-ink-muted truncate">${escapeAttr(url)}</div></div></a>`;
+
+  const ogp = getOgp(url);
+  const externalIcon = `<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" /><path d="M15 3h6v6" /><path d="M10 14L21 3" /></svg>`;
+
+  if (ogp) {
+    const thumb = ogp.image
+      ? `<img src="${escapeAttr(ogp.image)}" alt="" loading="lazy" referrerpolicy="no-referrer" class="w-28 md:w-36 aspect-[4/3] object-cover flex-shrink-0" onerror="this.style.display='none'" />`
+      : `<div class="w-28 md:w-36 aspect-[4/3] flex-shrink-0 flex items-center justify-center bg-paper-200 text-ink-muted">${externalIcon}</div>`;
+    return `<a href="${escapeAttr(url)}" target="_blank" rel="noopener" class="my-6 flex gap-3.5 items-center no-underline group bg-paper-50 border border-paper-200 rounded-lg overflow-hidden card-hover">${thumb}<div class="py-3 pr-4 min-w-0"><div class="text-[10px] uppercase tracking-widest text-ink-muted mb-1">${escapeHtml(ogp.siteName || domainOf(url))}</div><div class="font-serif text-sm md:text-base leading-snug text-ink group-hover:text-moss-dark line-clamp-2">${escapeHtml(ogp.title || domainOf(url))}</div><div class="text-[11px] text-ink-muted truncate mt-1">${escapeHtml(domainOf(url))}</div></div></a>`;
+  }
+
+  return `<a href="${escapeAttr(url)}" target="_blank" rel="noopener" class="my-6 flex items-center gap-3 no-underline group bg-paper-50 border border-paper-200 rounded-lg px-4 py-3.5 card-hover"><span class="w-8 h-8 rounded-full border border-paper-300 flex items-center justify-center flex-shrink-0 text-ink-muted group-hover:border-moss group-hover:text-moss transition-colors">${externalIcon}</span><div class="min-w-0"><div class="text-sm text-ink group-hover:text-moss-dark truncate">${escapeHtml(domainOf(url))}</div><div class="text-[11px] text-ink-muted truncate">${escapeAttr(url)}</div></div></a>`;
 }
 
 type Group = { type: "ul" | "ol" | "single"; items: Block[] };

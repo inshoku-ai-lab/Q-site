@@ -1,5 +1,6 @@
 ---
 import { resolveInternalPost, domainOf, categoryAccentHex, formatDateShort } from "../lib/posts";
+import { getOgp } from "../lib/ogp";
 
 interface Props {
   url: string;
@@ -8,6 +9,7 @@ interface Props {
 const { url } = Astro.props;
 const post = resolveInternalPost(url);
 const accentHex = post ? categoryAccentHex(post.category) : null;
+const ogp = post ? null : getOgp(url);
 ---
 
 {post ? (
@@ -41,6 +43,40 @@ const accentHex = post ? categoryAccentHex(post.category) : null;
         {post.title}
       </div>
       {post.date && <div class="text-[11px] text-ink-muted font-mono mt-1">{formatDateShort(post.date)}</div>}
+    </div>
+  </a>
+) : ogp ? (
+  <a
+    href={url}
+    target="_blank"
+    rel="noopener"
+    class="my-6 flex gap-3.5 items-center no-underline group bg-paper-50 border border-paper-200 rounded-lg overflow-hidden card-hover"
+  >
+    {ogp.image ? (
+      <img
+        src={ogp.image}
+        alt=""
+        loading="lazy"
+        referrerpolicy="no-referrer"
+        class="img-shimmer w-28 md:w-36 aspect-[4/3] object-cover flex-shrink-0"
+        onload="this.classList.add('is-loaded')"
+        onerror="this.style.display='none'"
+      />
+    ) : (
+      <div class="w-28 md:w-36 aspect-[4/3] flex-shrink-0 flex items-center justify-center bg-paper-200">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="text-ink-muted">
+          <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+          <path d="M15 3h6v6" />
+          <path d="M10 14L21 3" />
+        </svg>
+      </div>
+    )}
+    <div class="py-3 pr-4 min-w-0">
+      <div class="text-[10px] uppercase tracking-widest text-ink-muted mb-1">{ogp.siteName || domainOf(url)}</div>
+      <div class="font-serif text-sm md:text-base leading-snug text-ink group-hover:text-moss-dark line-clamp-2">
+        {ogp.title || domainOf(url)}
+      </div>
+      <div class="text-[11px] text-ink-muted truncate mt-1">{domainOf(url)}</div>
     </div>
   </a>
 ) : (
