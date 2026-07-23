@@ -7,17 +7,47 @@ interface Props {
   accent?: string;
 }
 
-const { name, count, description } = Astro.props;
+const ACCENT_HEX: Record<string, string> = {
+  wandering: "#A6845F",
+  thought: "#4A5E66",
+  current: "#9C5642",
+  essay: "#7A7060",
+  bitcoin: "#A67C1E",
+  moss: "#4F6B43",
+};
+
+const { name, count, description, cover, accent = "moss" } = Astro.props;
 const href = `/series/${encodeURIComponent(name)}/`;
+const accentHex = ACCENT_HEX[accent] ?? ACCENT_HEX.moss;
 ---
 
-<a href={href} class="block group no-underline card-hover bg-paper-50 rounded-lg p-[18px] border border-paper-200 h-full flex flex-col">
-  <span class="inline-flex self-start text-[10px] uppercase tracking-wider font-medium px-2.5 py-1 rounded-full bg-earth text-paper-100 mb-2.5">
-    Series
-  </span>
-  <h3 class="font-serif text-base font-semibold text-ink leading-tight mb-1.5 group-hover:text-moss-dark">
-    {name}
-  </h3>
-  {description && <p class="text-[13px] text-ink-muted leading-snug line-clamp-2 mb-2.5 flex-1">{description}</p>}
-  <div class="text-xs text-ink-muted">全 {count} 話</div>
+<a href={href} class="block group no-underline card-hover bg-paper-50 rounded-lg overflow-hidden border border-paper-200 h-full flex flex-col">
+  {cover ? (
+    <div class="aspect-[16/9] overflow-hidden bg-paper-200">
+      <img
+        src={cover}
+        alt=""
+        loading="lazy"
+        class="img-shimmer w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+        onload="this.classList.add('is-loaded')"
+      />
+    </div>
+  ) : (
+    <div
+      class="aspect-[16/9] flex items-center justify-center"
+      style={`background:linear-gradient(135deg, ${accentHex}38, ${accentHex}0d)`}
+    >
+      <span class="font-serif text-3xl font-bold" style={`color:${accentHex}66`}>{name.charAt(0)}</span>
+    </div>
+  )}
+  <div class="p-[18px] flex-1 flex flex-col">
+    <span class="inline-flex self-start text-[10px] uppercase tracking-wider font-medium px-2.5 py-1 rounded-full bg-earth text-paper-100 mb-2.5">
+      Series
+    </span>
+    <h3 class="font-serif text-base font-semibold text-ink leading-tight mb-1.5 group-hover:text-moss-dark">
+      {name}
+    </h3>
+    {description && <p class="text-[13px] text-ink-muted leading-snug line-clamp-2 mb-2.5 flex-1">{description}</p>}
+    <div class="text-xs text-ink-muted">全 {count} 話</div>
+  </div>
 </a>
