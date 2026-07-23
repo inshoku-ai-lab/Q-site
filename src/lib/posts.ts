@@ -207,11 +207,11 @@ export function categoryAccent(category: string | null): string {
 // see the template-literal class name (e.g. `bg-${accent}`).
 export function categoryAccentHex(category: string | null): string {
   switch (category) {
-    case "放浪記": return "#A6845F";
+    case "放浪記": return "#846849";
     case "思想・理論": return "#4A5E66";
     case "時事・情報戦": return "#9C5642";
-    case "エッセイ・その他": return "#7A7060";
-    case "ビットコインの真実": return "#A67C1E";
+    case "エッセイ・その他": return "#746B5C";
+    case "ビットコインの真実": return "#8A6719";
     default: return "#2A1F11";
   }
 }

@@ -25,12 +25,12 @@ export default {
         ink: {
           DEFAULT: "#2A1F11", // body text
           light: "#4A3A22",
-          muted: "#79694F",
+          muted: "#6E6048",   // darkened from #79694F for WCAG AA on card backgrounds
         },
         moss: {
           DEFAULT: "#4F6B43", // links, inline accent
           dark: "#3D5434",    // hover / emphasis
-          light: "#6D8E5D",   // primary buttons, dots
+          light: "#59744C",   // primary buttons, dots (darkened from #6D8E5D for AA button-text contrast)
         },
         earth: {
           DEFAULT: "#8A3D1F", // accent - warm orange
@@ -38,7 +38,7 @@ export default {
           dark: "#5C2814",
         },
         wandering: {
-          DEFAULT: "#A6845F",  // 放浪記 accent (warm tan)
+          DEFAULT: "#846849",  // 放浪記 accent (warm tan, darkened from #A6845F for AA)
           dark: "#6D5036",
         },
         thought: {
@@ -50,11 +50,11 @@ export default {
           dark: "#6B3A2C",
         },
         essay: {
-          DEFAULT: "#7A7060",  // エッセイ accent (warm gray)
+          DEFAULT: "#746B5C",  // エッセイ accent (warm gray, darkened from #7A7060 for AA)
           dark: "#4F4738",
         },
         bitcoin: {
-          DEFAULT: "#A67C1E",  // ビットコインの真実 accent (gold)
+          DEFAULT: "#8A6719",  // ビットコインの真実 accent (gold, darkened from #A67C1E for AA)
           dark: "#6B5414",
         },
       },

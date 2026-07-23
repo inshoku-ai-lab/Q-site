@@ -14,10 +14,11 @@ export async function getStaticPaths() {
 }
 
 const ACCENT_HEX: Record<string, string> = {
-  wandering: "#A6845F",
+  wandering: "#846849",
   thought: "#4A5E66",
   current: "#9C5642",
-  essay: "#7A7060",
+  essay: "#746B5C",
+  bitcoin: "#8A6719",
   ink: "#4F6B43",
 };
 

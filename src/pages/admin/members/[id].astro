@@ -57,7 +57,7 @@ const REASON_LABELS: Record<string, string> = {
         placeholder="このメンバーについてのメモ(例: ◯◯さんの紹介で入会)"
       >{member.admin_note ?? ""}</textarea>
       <div class="mt-3 flex items-center gap-3">
-        <button id="save-note-btn" type="button" class="px-4 py-2 bg-moss-light text-paper-100 rounded-md text-sm">
+        <button id="save-note-btn" type="button" class="px-4 py-2 bg-moss-light text-paper-100 rounded-full text-sm">
           メモを保存
         </button>
         <span id="save-note-status" class="text-xs text-ink-muted"></span>
