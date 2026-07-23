@@ -98,35 +98,64 @@ export function rewriteInternalLinks(html: string): string {
 }
 
 // The WordPress "blogcard" shortcode -- `[blogcard url="..."]` -- was
-// carried over as literal text into a paragraph block during the WP ->
-// Notion migration and was never converted to a real link. Detect a
-// paragraph block that consists of nothing but this shortcode and pull
-// out its URL (unescaping the `\_` markdown-escape artifacts Notion's
-// export adds).
-export function extractBlogcardUrl(html: string | undefined): string | null {
-  if (!html) return null;
-  const m = html.trim().match(/^\[blogcard url="([^"]+)"\]$/);
-  return m ? m[1].replace(/\\_/g, "_") : null;
+// carried over as literal text into paragraph blocks during the WP ->
+// Notion migration and was never converted to a real link. The migration
+// left behind several malformed variants of this shortcode, not just the
+// clean form: URLs wrapped in HTML-entity-escaped angle brackets
+// (`[blogcard url="&lt;https://...&gt;"]`), a missing closing `"]` where
+// the shortcode runs to the end of the paragraph, doubled/nested brackets
+// from markdown-link auto-wrapping (`[[blogcard url="..."]](url)`), and
+// paragraphs containing more than one shortcode and/or leading prose text
+// before the shortcode. This pattern matches all of those variants; the
+// captured group is the raw URL, which still needs cleanBlogcardUrl().
+const BLOGCARD_RE =
+  /\[{1,2}blogcard url="(?:&lt;)?([^"]*)"?(?:&gt;)?\]{0,2}(?:&gt;)?(?:(?!\[{1,2}blogcard)[[\]) "])*(?:\(https?:\/\/[^)]*\))?/gi;
+
+function cleanBlogcardUrl(raw: string): string {
+  return raw.replace(/\\_/g, "_").replace(/&amp;/g, "&").trim();
 }
 
-// Convert blogcard-shortcode paragraphs into a dedicated "blogcard" block
-// type, and rewrite internal-site links (both inline and on bookmark/embed
+// Split a paragraph block's html on any embedded blogcard shortcode(s),
+// turning prose before/between/after the shortcode(s) into paragraph
+// block(s) and each shortcode into its own "blogcard" block. A paragraph
+// with no shortcode (the common case) just gets its internal links
+// rewritten and is returned unchanged as a single-element array.
+function splitParagraphBlogcards(b: Block): Block[] {
+  const html = b.html ?? "";
+  if (!/\[{1,2}blogcard url="/i.test(html)) {
+    return html ? [{ ...b, html: rewriteInternalLinks(html) }] : [b];
+  }
+  const out: Block[] = [];
+  let lastIndex = 0;
+  BLOGCARD_RE.lastIndex = 0;
+  let match: RegExpExecArray | null;
+  while ((match = BLOGCARD_RE.exec(html))) {
+    const before = html.slice(lastIndex, match.index);
+    if (before.trim()) out.push({ ...b, html: rewriteInternalLinks(before) });
+    const url = cleanBlogcardUrl(match[1] ?? "");
+    if (url) out.push({ type: "blogcard", url });
+    lastIndex = match.index + match[0].length;
+  }
+  const after = html.slice(lastIndex);
+  if (after.trim()) out.push({ ...b, html: rewriteInternalLinks(after) });
+  return out;
+}
+
+// Convert blogcard-shortcode paragraphs into dedicated "blogcard" blocks,
+// and rewrite internal-site links (both inline and on bookmark/embed
 // blocks) to point at this site instead of the old WordPress domain.
 export function preprocessBlocks(blocks: Block[]): Block[] {
-  return blocks.map((b) => {
+  return blocks.flatMap((b) => {
     if (b.type === "paragraph") {
-      const url = extractBlogcardUrl(b.html);
-      if (url) return { type: "blogcard", url };
-      if (b.html) return { ...b, html: rewriteInternalLinks(b.html) };
-      return b;
+      return splitParagraphBlogcards(b);
     }
     // Notion's native bookmark/embed blocks are the same "link preview"
     // concept as the blogcard shortcode -- render them the same way.
     if ((b.type === "bookmark" || b.type === "embed") && b.url) {
-      return { type: "blogcard", url: b.url };
+      return [{ type: "blogcard", url: b.url }];
     }
-    if (b.html) return { ...b, html: rewriteInternalLinks(b.html) };
-    return b;
+    if (b.html) return [{ ...b, html: rewriteInternalLinks(b.html) }];
+    return [b];
   });
 }
 
