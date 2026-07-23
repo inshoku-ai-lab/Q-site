@@ -51,6 +51,85 @@ export function getPostBySlug(slug: string): Post | undefined {
   return allPosts.find((p) => p.slug === slug);
 }
 
+// Path segments on the old qryptraveller.com (WordPress) that are site
+// structure, not article slugs -- never rewrite links to these into
+// /posts/<slug>/, and never treat them as a "blogcard" article link.
+const RESERVED_SLUGS = new Set([
+  "about", "archive", "series", "category", "tag", "posts", "rss.xml",
+  "sitemap-index.xml", "sitemap-0.xml", "_astro", "favicon.ico", "favicon.svg", "404",
+]);
+
+// If `url` points at a single-segment path on qryptraveller.com that
+// matches one of our own posts (the old WP site's flat slug structure),
+// return that post. Anything else (external sites, the old site's shop/
+// category pages, unmigrated slugs) returns null.
+export function resolveInternalPost(url: string): Post | null {
+  let u: URL;
+  try {
+    u = new URL(url);
+  } catch {
+    return null;
+  }
+  if (!/^(www\.)?qryptraveller\.com$/i.test(u.hostname)) return null;
+  const segments = u.pathname.split("/").filter(Boolean);
+  if (segments.length !== 1) return null;
+  const slug = decodeURIComponent(segments[0]);
+  if (RESERVED_SLUGS.has(slug)) return null;
+  return getPostBySlug(slug) ?? null;
+}
+
+export function domainOf(url: string): string {
+  try {
+    return new URL(url).hostname.replace(/^www\./, "");
+  } catch {
+    return url;
+  }
+}
+
+// Rewrite any inline `href="https://qryptraveller.com/<slug>/"` that
+// resolves to one of our own posts into a same-site /posts/<slug>/ link,
+// so cross-references keep working once qryptraveller.com stops pointing
+// at the old WordPress site. Links we can't resolve are left untouched.
+export function rewriteInternalLinks(html: string): string {
+  return html.replace(/href="([^"]*qryptraveller\.com[^"]*)"/gi, (match, url) => {
+    const post = resolveInternalPost(url.replace(/&amp;/g, "&"));
+    return post ? `href="/posts/${post.slug}/"` : match;
+  });
+}
+
+// The WordPress "blogcard" shortcode -- `[blogcard url="..."]` -- was
+// carried over as literal text into a paragraph block during the WP ->
+// Notion migration and was never converted to a real link. Detect a
+// paragraph block that consists of nothing but this shortcode and pull
+// out its URL (unescaping the `\_` markdown-escape artifacts Notion's
+// export adds).
+export function extractBlogcardUrl(html: string | undefined): string | null {
+  if (!html) return null;
+  const m = html.trim().match(/^\[blogcard url="([^"]+)"\]$/);
+  return m ? m[1].replace(/\\_/g, "_") : null;
+}
+
+// Convert blogcard-shortcode paragraphs into a dedicated "blogcard" block
+// type, and rewrite internal-site links (both inline and on bookmark/embed
+// blocks) to point at this site instead of the old WordPress domain.
+export function preprocessBlocks(blocks: Block[]): Block[] {
+  return blocks.map((b) => {
+    if (b.type === "paragraph") {
+      const url = extractBlogcardUrl(b.html);
+      if (url) return { type: "blogcard", url };
+      if (b.html) return { ...b, html: rewriteInternalLinks(b.html) };
+      return b;
+    }
+    // Notion's native bookmark/embed blocks are the same "link preview"
+    // concept as the blogcard shortcode -- render them the same way.
+    if ((b.type === "bookmark" || b.type === "embed") && b.url) {
+      return { type: "blogcard", url: b.url };
+    }
+    if (b.html) return { ...b, html: rewriteInternalLinks(b.html) };
+    return b;
+  });
+}
+
 // A callout block marks the boundary between free and member-only content
 // (see MEMBERSHIP_HANDOFF.md §1-9). The callout itself stays visible to
 // everyone as the "here's where it gets member-only" signpost.

@@ -1,11 +1,14 @@
 ---
 import type { Block } from "../lib/posts";
+import { preprocessBlocks } from "../lib/posts";
 import { slugifyHeading } from "../lib/toc";
+import BlogCard from "./BlogCard.astro";
 
 interface Props {
   blocks: Block[];
 }
-const { blocks } = Astro.props;
+const { blocks: rawBlocks } = Astro.props;
+const blocks = preprocessBlocks(rawBlocks);
 
 let headingIndex = 0;
 function nextHeadingId(html: string): string {
@@ -100,16 +103,11 @@ const groups = groupBlocks(blocks);
               {b.caption && <figcaption class="text-xs text-ink-muted text-center mt-2" set:html={b.caption} />}
             </figure>
           );
+        case "blogcard":
         case "bookmark":
         case "embed":
           if (!b.url) return null;
-          return (
-            <div class="my-6">
-              <a href={b.url} target="_blank" rel="noopener" class="block p-4 bg-paper-50 border border-paper-300 rounded-md text-sm break-all hover:bg-paper-200">
-                {b.url}
-              </a>
-            </div>
-          );
+          return <BlogCard url={b.url} />;
         case "video":
           if (!b.url) return null;
           return (

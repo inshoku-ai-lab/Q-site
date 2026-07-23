@@ -3,7 +3,7 @@ export const prerender = false;
 import type { APIRoute } from "astro";
 import { createSupabaseServerClient } from "../../../../lib/supabase/server";
 import { isMember } from "../../../../lib/members";
-import { getPostBySlug, splitMemberContent } from "../../../../lib/posts";
+import { getPostBySlug, splitMemberContent, preprocessBlocks } from "../../../../lib/posts";
 import { renderBlocksToHtml } from "../../../../lib/renderBlocksToHtml";
 
 export const GET: APIRoute = async ({ params, request, cookies }) => {
@@ -35,7 +35,7 @@ export const GET: APIRoute = async ({ params, request, cookies }) => {
   }
 
   const { memberBlocks } = splitMemberContent(post.blocks);
-  const html = renderBlocksToHtml(memberBlocks);
+  const html = renderBlocksToHtml(preprocessBlocks(memberBlocks));
 
   return new Response(JSON.stringify({ html }), {
     status: 200,

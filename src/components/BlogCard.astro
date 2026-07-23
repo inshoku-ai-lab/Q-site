@@ -1,0 +1,65 @@
+---
+import { resolveInternalPost, domainOf, categoryAccentHex, formatDateShort } from "../lib/posts";
+
+interface Props {
+  url: string;
+}
+
+const { url } = Astro.props;
+const post = resolveInternalPost(url);
+const accentHex = post ? categoryAccentHex(post.category) : null;
+---
+
+{post ? (
+  <a
+    href={`/posts/${post.slug}/`}
+    class="my-6 flex gap-3.5 items-center no-underline group bg-paper-50 border border-paper-200 rounded-lg overflow-hidden card-hover"
+  >
+    {post.cover ? (
+      <img
+        src={post.cover}
+        alt=""
+        loading="lazy"
+        class="img-shimmer w-28 md:w-36 aspect-[4/3] object-cover flex-shrink-0"
+        onload="this.classList.add('is-loaded')"
+      />
+    ) : (
+      <div
+        class="w-28 md:w-36 aspect-[4/3] flex-shrink-0 flex items-center justify-center"
+        style={`background:linear-gradient(135deg, ${accentHex}38, ${accentHex}0d)`}
+      >
+        {post.category && (
+          <span class="text-[10px] uppercase tracking-widest font-medium text-center px-1" style={`color:${accentHex}`}>
+            {post.category}
+          </span>
+        )}
+      </div>
+    )}
+    <div class="py-3 pr-4 min-w-0">
+      <div class="text-[10px] uppercase tracking-widest text-ink-muted mb-1">Qryptraveller's Notes</div>
+      <div class="font-serif text-sm md:text-base leading-snug text-ink group-hover:text-moss-dark line-clamp-2">
+        {post.title}
+      </div>
+      {post.date && <div class="text-[11px] text-ink-muted font-mono mt-1">{formatDateShort(post.date)}</div>}
+    </div>
+  </a>
+) : (
+  <a
+    href={url}
+    target="_blank"
+    rel="noopener"
+    class="my-6 flex items-center gap-3 no-underline group bg-paper-50 border border-paper-200 rounded-lg px-4 py-3.5 card-hover"
+  >
+    <span class="w-8 h-8 rounded-full border border-paper-300 flex items-center justify-center flex-shrink-0 text-ink-muted group-hover:border-moss group-hover:text-moss transition-colors">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+        <path d="M15 3h6v6" />
+        <path d="M10 14L21 3" />
+      </svg>
+    </span>
+    <div class="min-w-0">
+      <div class="text-sm text-ink group-hover:text-moss-dark truncate">{domainOf(url)}</div>
+      <div class="text-[11px] text-ink-muted truncate">{url}</div>
+    </div>
+  </a>
+)}
