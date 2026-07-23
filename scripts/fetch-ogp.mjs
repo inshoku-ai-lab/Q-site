@@ -120,7 +120,16 @@ function decodeEntities(s) {
 const REQUEST_TIMEOUT_MS = 6000;
 const MAX_BYTES = 300_000;
 
-async function fetchOgp(url) {
+// Sites that actively block/challenge generic scraper traffic (Cloudflare
+// or similar) but reliably allowlist well-known search-engine crawlers to
+// keep their social/SEO previews working. Retrying as Googlebot after a
+// normal-browser UA fails recovers a meaningful chunk of these.
+const UA_CANDIDATES = [
+  "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
+  "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
+];
+
+async function fetchHtml(url, userAgent) {
   const controller = new AbortController();
   const timer = setTimeout(() => controller.abort(), REQUEST_TIMEOUT_MS);
   try {
@@ -128,12 +137,12 @@ async function fetchOgp(url) {
       signal: controller.signal,
       redirect: "follow",
       headers: {
-        "User-Agent":
-          "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
+        "User-Agent": userAgent,
         Accept: "text/html,application/xhtml+xml",
+        "Accept-Language": "ja,en-US;q=0.9,en;q=0.8",
       },
     });
-    if (!res.ok || !res.body) return { failed: true };
+    if (!res.ok || !res.body) return null;
 
     const reader = res.body.getReader();
     const decoder = new TextDecoder();
@@ -147,28 +156,78 @@ async function fetchOgp(url) {
       if (/<\/head>/i.test(html)) break;
     }
     reader.cancel().catch(() => {});
-
-    const rawTitle = matchMeta(html, "og:title") || matchTitleTag(html);
-    let image = matchMeta(html, "og:image") || matchMeta(html, "twitter:image");
-    if (image) {
-      try {
-        image = new URL(image, res.url || url).href;
-      } catch {
-        image = null;
-      }
-    }
-    const siteName = matchMeta(html, "og:site_name");
-    if (!rawTitle && !image) return { failed: true };
-    return {
-      title: rawTitle ? decodeEntities(rawTitle).slice(0, 200) : null,
-      image: image || null,
-      siteName: siteName ? decodeEntities(siteName).slice(0, 100) : null,
-    };
+    return { html, finalUrl: res.url || url };
   } catch {
-    return { failed: true };
+    return null;
   } finally {
     clearTimeout(timer);
   }
+}
+
+function parseOgp(html, finalUrl) {
+  const rawTitle = matchMeta(html, "og:title") || matchTitleTag(html);
+  let image = matchMeta(html, "og:image") || matchMeta(html, "twitter:image");
+  if (image) {
+    try {
+      image = new URL(image, finalUrl).href;
+    } catch {
+      image = null;
+    }
+  }
+  const siteName = matchMeta(html, "og:site_name");
+  if (!rawTitle && !image) return null;
+  return {
+    title: rawTitle ? decodeEntities(rawTitle).slice(0, 200) : null,
+    image: image || null,
+    siteName: siteName ? decodeEntities(siteName).slice(0, 100) : null,
+  };
+}
+
+// YouTube actively blocks/consent-walls plain scraper requests, but
+// publishes exactly this data through its official, unauthenticated
+// oEmbed endpoint -- use that directly instead of fetching the page.
+const YOUTUBE_HOST_RE = /(^|\.)youtube\.com$|(^|\.)youtu\.be$/i;
+
+async function fetchYouTubeOgp(url) {
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), REQUEST_TIMEOUT_MS);
+  try {
+    const oembedUrl = `https://www.youtube.com/oembed?url=${encodeURIComponent(url)}&format=json`;
+    const res = await fetch(oembedUrl, { signal: controller.signal });
+    if (!res.ok) return null;
+    const data = await res.json();
+    if (!data.title && !data.thumbnail_url) return null;
+    return {
+      title: data.title ? String(data.title).slice(0, 200) : null,
+      image: data.thumbnail_url || null,
+      siteName: "YouTube",
+    };
+  } catch {
+    return null;
+  } finally {
+    clearTimeout(timer);
+  }
+}
+
+async function fetchOgp(url) {
+  let isYouTube = false;
+  try {
+    isYouTube = YOUTUBE_HOST_RE.test(new URL(url).hostname);
+  } catch {
+    return { failed: true };
+  }
+  if (isYouTube) {
+    const ogp = await fetchYouTubeOgp(url);
+    if (ogp) return ogp;
+  }
+
+  for (const ua of UA_CANDIDATES) {
+    const fetched = await fetchHtml(url, ua);
+    if (!fetched) continue;
+    const ogp = parseOgp(fetched.html, fetched.finalUrl);
+    if (ogp) return ogp;
+  }
+  return { failed: true };
 }
 
 const CONCURRENCY = 8;
