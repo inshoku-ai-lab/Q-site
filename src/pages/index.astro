@@ -27,7 +27,7 @@ const seriesList = getSeriesIndex();
 const totalPosts = getPublishedPosts().length;
 
 // Curated category order for the homepage's horizontal-scroll sections
-const categoryOrder = ["放浪記", "思想・理論", "時事・情報戦", "エッセイ・その他"];
+const categoryOrder = ["放浪記", "思想・理論", "時事・情報戦", "エッセイ・その他", "ビットコインの真実"];
 const categoryNames = new Set(getCategoryIndex().map((c) => c.name));
 const categorySections = categoryOrder
   .filter((name) => categoryNames.has(name))

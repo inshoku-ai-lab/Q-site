@@ -3,14 +3,14 @@ export default {
   content: ["./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}"],
   safelist: [
     // Dynamic category accent classes
-    "text-wandering", "text-thought", "text-current", "text-essay", "text-moss", "text-ink",
-    "bg-wandering/10", "bg-thought/10", "bg-current/10", "bg-essay/10", "bg-moss/10",
-    "bg-wandering/20", "bg-thought/20", "bg-current/20", "bg-essay/20", "bg-moss/20",
-    "from-wandering/20", "from-thought/20", "from-current/20", "from-essay/20", "from-moss/20",
-    "to-wandering/20", "to-thought/20", "to-current/20", "to-essay/20",
-    "border-wandering", "border-thought", "border-current", "border-essay", "border-moss",
-    "border-l-wandering", "border-l-thought", "border-l-current", "border-l-essay", "border-l-moss",
-    "text-wandering-dark", "text-thought-dark", "text-current-dark", "text-essay-dark",
+    "text-wandering", "text-thought", "text-current", "text-essay", "text-bitcoin", "text-moss", "text-ink",
+    "bg-wandering/10", "bg-thought/10", "bg-current/10", "bg-essay/10", "bg-bitcoin/10", "bg-moss/10",
+    "bg-wandering/20", "bg-thought/20", "bg-current/20", "bg-essay/20", "bg-bitcoin/20", "bg-moss/20",
+    "from-wandering/20", "from-thought/20", "from-current/20", "from-essay/20", "from-bitcoin/20", "from-moss/20",
+    "to-wandering/20", "to-thought/20", "to-current/20", "to-essay/20", "to-bitcoin/20",
+    "border-wandering", "border-thought", "border-current", "border-essay", "border-bitcoin", "border-moss",
+    "border-l-wandering", "border-l-thought", "border-l-current", "border-l-essay", "border-l-bitcoin", "border-l-moss",
+    "text-wandering-dark", "text-thought-dark", "text-current-dark", "text-essay-dark", "text-bitcoin-dark",
   ],
   theme: {
     extend: {
@@ -52,6 +52,10 @@ export default {
         essay: {
           DEFAULT: "#7A7060",  // エッセイ accent (warm gray)
           dark: "#4F4738",
+        },
+        bitcoin: {
+          DEFAULT: "#A67C1E",  // ビットコインの真実 accent (gold)
+          dark: "#6B5414",
         },
       },
       fontFamily: {

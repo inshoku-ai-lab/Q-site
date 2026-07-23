@@ -197,6 +197,7 @@ export function categoryAccent(category: string | null): string {
     case "思想・理論": return "thought";
     case "時事・情報戦": return "current";
     case "エッセイ・その他": return "essay";
+    case "ビットコインの真実": return "bitcoin";
     default: return "ink";
   }
 }
@@ -210,6 +211,7 @@ export function categoryAccentHex(category: string | null): string {
     case "思想・理論": return "#4A5E66";
     case "時事・情報戦": return "#9C5642";
     case "エッセイ・その他": return "#7A7060";
+    case "ビットコインの真実": return "#A67C1E";
     default: return "#2A1F11";
   }
 }
