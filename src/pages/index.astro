@@ -71,7 +71,7 @@ const seriesDescriptions: Record<string, string> = {
         <h1 class="font-serif text-3xl md:text-5xl lg:text-6xl font-extrabold text-ink leading-[1.25] mb-6">
           地球放浪
           <span class="text-moss-light">20年以上</span>
-          の<br />旅人/市民ジャーナリストによる<br />思索のアーカイブ
+          の<br />旅人/<span class="whitespace-nowrap">市民ジャーナリスト</span>による<br />思索のアーカイブ
         </h1>
         <p class="text-ink-muted leading-relaxed mb-8 max-w-prose">
           スナフキンを心の師として、住所も保険証も持たずに世界中を旅し続ける。
@@ -95,15 +95,13 @@ const seriesDescriptions: Record<string, string> = {
       </div>
 
       <div class="hidden md:block">
-        <div class="relative aspect-[16/11] rounded-xl overflow-hidden bg-gradient-to-br from-wandering/30 to-thought/20 border border-paper-300">
-          <div class="absolute inset-0 flex items-center justify-center">
-            <svg viewBox="0 0 200 130" class="w-3/5 h-3/5 text-ink/30">
-              <path d="M10 110 L55 45 L85 80 L120 30 L190 110 Z" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
-              <circle cx="130" cy="25" r="10" fill="currentColor" opacity="0.5" />
-              <path d="M5 118 Q 100 108 195 118" fill="none" stroke="currentColor" stroke-width="1.5" stroke-dasharray="4 4" opacity="0.4" />
-            </svg>
-          </div>
-          <div class="absolute bottom-6 left-6 right-6 text-xs font-serif italic text-ink/60">
+        <div class="relative aspect-[16/11] rounded-xl overflow-hidden border border-paper-300">
+          <img
+            src="/images/hero-wanderer.webp"
+            alt="旅装の人物が海を見つめる水彩画"
+            class="absolute inset-0 w-full h-full object-cover"
+          />
+          <div class="absolute bottom-6 left-6 right-6 text-xs font-serif italic text-paper-50 drop-shadow">
             "Travel light, observe deeply."
           </div>
         </div>
