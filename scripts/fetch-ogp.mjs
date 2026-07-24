@@ -63,22 +63,34 @@ function extractCandidateUrls(html) {
   return out;
 }
 
-function isInternal(url, knownSlugs) {
+function decodeSlugSafe(s) {
+  try {
+    return decodeURIComponent(s);
+  } catch {
+    return s;
+  }
+}
+
+// Mirrors src/lib/posts.ts's resolveInternalPost: some slugs are still
+// percent-encoded (non-romanized WP permalinks), so knownSlugs must be
+// keyed by decoded form too, or these posts' internal links get treated
+// as external and needlessly queued for an OGP fetch.
+function isInternal(url, knownSlugsDecoded) {
   try {
     const u = new URL(url);
     if (!/^(www\.)?qryptraveller\.com$/i.test(u.hostname)) return false;
     const segments = u.pathname.split("/").filter(Boolean);
     if (segments.length !== 1) return false;
-    const slug = decodeURIComponent(segments[0]);
+    const slug = decodeSlugSafe(segments[0]);
     if (RESERVED_SLUGS.has(slug)) return false;
-    return knownSlugs.has(slug);
+    return knownSlugsDecoded.has(slug);
   } catch {
     return false;
   }
 }
 
 function collectExternalUrls(posts) {
-  const knownSlugs = new Set(posts.map((p) => p.slug));
+  const knownSlugs = new Set(posts.map((p) => decodeSlugSafe(p.slug)));
   const urls = new Set();
   for (const p of posts) {
     if (p.status !== "Published" && p.status !== "Review") continue;

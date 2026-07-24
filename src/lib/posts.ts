@@ -37,17 +37,27 @@ export type Post = {
   blocks: Block[];
 };
 
+// Notion's markdown export backslash-escapes underscores and asterisks
+// (so they survive round-tripping without being read as emphasis
+// markup) -- e.g. a tweeted @handle like "@paulsperry_" comes through as
+// "@paulsperry\_". That backslash was never meant to be visible; strip it
+// wherever it shows up, in block text as well as excerpt/description text.
+function unescapeMarkdown(text: string): string {
+  return text.replace(/\\([_*])/g, "$1");
+}
+
 // Excerpt/SEO-description are plain-text Notion properties (used for
 // <meta description>, OG/Twitter tags, RSS, and listing-page blurbs) that
 // can carry the same WP "blogcard" shortcode artifact as body paragraphs
 // (see preprocessBlocks below) -- strip it out here so it never leaks
 // into a page's meta tags or a card's excerpt text.
 function cleanExcerptText(text: string): string {
-  if (!text || !/\[{1,2}blogcard url="/i.test(text)) return text;
-  return text
-    .replace(/\[{1,2}blogcard url="[^"]*"?\]{0,2}/gi, "")
-    .replace(/\s{2,}/g, " ")
-    .trim();
+  if (!text) return text;
+  let out = text;
+  if (/\[{1,2}blogcard url="/i.test(out)) {
+    out = out.replace(/\[{1,2}blogcard url="[^"]*"?\]{0,2}/gi, "").replace(/\s{2,}/g, " ").trim();
+  }
+  return unescapeMarkdown(out);
 }
 
 const allPosts = (postsData as unknown as Post[]).map((p) => ({
@@ -76,6 +86,23 @@ const RESERVED_SLUGS = new Set([
   "sitemap-index.xml", "sitemap-0.xml", "_astro", "favicon.ico", "favicon.svg", "404",
 ]);
 
+function decodeSlugSafe(s: string): string {
+  try {
+    return decodeURIComponent(s);
+  } catch {
+    return s;
+  }
+}
+
+// A handful of migrated posts kept their original WordPress permalink,
+// which for a non-ASCII (Japanese) title was never romanized and is
+// still percent-encoded in `slug` (e.g. "%e7%9f%b3%e5%9e%a3..."), unlike
+// the rest of the corpus where `slug` is a plain ASCII string. Index by
+// the *decoded* form of every slug once so a decoded incoming URL segment
+// matches regardless of which form the stored slug happens to be in --
+// decoding an ASCII slug is a no-op, so this doesn't affect the majority.
+const postsByDecodedSlug = new Map<string, Post>(allPosts.map((p) => [decodeSlugSafe(p.slug), p]));
+
 // If `url` points at a single-segment path on qryptraveller.com that
 // matches one of our own posts (the old WP site's flat slug structure),
 // return that post. Anything else (external sites, the old site's shop/
@@ -90,9 +117,9 @@ export function resolveInternalPost(url: string): Post | null {
   if (!/^(www\.)?qryptraveller\.com$/i.test(u.hostname)) return null;
   const segments = u.pathname.split("/").filter(Boolean);
   if (segments.length !== 1) return null;
-  const slug = decodeURIComponent(segments[0]);
+  const slug = decodeSlugSafe(segments[0]);
   if (RESERVED_SLUGS.has(slug)) return null;
-  return getPostBySlug(slug) ?? null;
+  return postsByDecodedSlug.get(slug) ?? null;
 }
 
 export function domainOf(url: string): string {
@@ -216,7 +243,8 @@ function paragraphBlocks(b: Block): Block[] {
 // rewrite internal-site links (both inline and on bookmark/embed blocks)
 // to point at this site instead of the old WordPress domain.
 export function preprocessBlocks(blocks: Block[]): Block[] {
-  return blocks.flatMap((b) => {
+  return blocks.flatMap((rawBlock) => {
+    const b = rawBlock.html ? { ...rawBlock, html: unescapeMarkdown(rawBlock.html) } : rawBlock;
     if (b.type === "paragraph") {
       return paragraphBlocks(b);
     }
