@@ -7,7 +7,7 @@
   },
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build && node scripts/generate-redirects.mjs && npm run search:build",
+    "build": "astro build && npm run search:build",
     "preview": "astro preview",
     "astro": "astro",
     "sync": "node scripts/sync-notion.mjs",
