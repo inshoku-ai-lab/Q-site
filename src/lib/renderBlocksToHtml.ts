@@ -46,7 +46,10 @@ function renderBlogCard(url: string): string {
   return `<a href="${escapeAttr(url)}" target="_blank" rel="noopener" class="my-6 flex items-center gap-3 no-underline group bg-paper-50 border border-paper-200 rounded-lg px-4 py-3.5 card-hover"><span class="w-8 h-8 rounded-full border border-paper-300 flex items-center justify-center flex-shrink-0 text-ink-muted group-hover:border-moss group-hover:text-moss transition-colors">${externalIcon}</span><div class="min-w-0"><div class="text-sm text-ink group-hover:text-moss-dark truncate">${escapeHtml(domainOf(url))}</div><div class="text-[11px] text-ink-muted truncate">${escapeAttr(url)}</div></div></a>`;
 }
 
-type Group = { type: "ul" | "ol" | "single"; items: Block[] };
+// Mirrors ArticleBody.astro's groupBlocks: consecutive quote blocks (the
+// WP -> Notion migration split one multi-line WordPress blockquote into
+// several separate "quote" blocks) get merged into a single <blockquote>.
+type Group = { type: "ul" | "ol" | "quote" | "single"; items: Block[] };
 
 function groupBlocks(blocks: Block[]): Group[] {
   const out: Group[] = [];
@@ -59,6 +62,10 @@ function groupBlocks(blocks: Block[]): Group[] {
       const last = out[out.length - 1];
       if (last?.type === "ol") last.items.push(b);
       else out.push({ type: "ol", items: [b] });
+    } else if (b.type === "quote") {
+      const last = out[out.length - 1];
+      if (last?.type === "quote") last.items.push(b);
+      else out.push({ type: "quote", items: [b] });
     } else {
       out.push({ type: "single", items: [b] });
     }
@@ -78,6 +85,10 @@ export function renderBlocksToHtml(blocks: Block[]): string {
       parts.push(`<ol>${g.items.map((b) => `<li>${b.html ?? ""}</li>`).join("")}</ol>`);
       continue;
     }
+    if (g.type === "quote") {
+      parts.push(`<blockquote>${g.items.map((b) => b.html ?? "").join("<br />")}</blockquote>`);
+      continue;
+    }
 
     const b = g.items[0];
     switch (b.type) {
@@ -90,9 +101,6 @@ export function renderBlocksToHtml(blocks: Block[]): string {
         break;
       case "heading_3":
         parts.push(`<h3>${b.html ?? ""}</h3>`);
-        break;
-      case "quote":
-        parts.push(`<blockquote>${b.html ?? ""}</blockquote>`);
         break;
       case "callout":
         parts.push(

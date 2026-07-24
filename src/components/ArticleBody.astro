@@ -18,8 +18,12 @@ function nextHeadingId(html: string): string {
   return id;
 }
 
-// Group consecutive list items into <ul>/<ol>
-type Group = { type: "ul" | "ol" | "single"; items: Block[] };
+// Group consecutive list items into <ul>/<ol>, and consecutive quote
+// blocks into a single <blockquote>. WordPress rendered one multi-line
+// quote as a single block; the WP -> Notion migration split each line
+// into its own separate "quote" block, which without this grouping
+// renders as several disconnected boxes instead of one.
+type Group = { type: "ul" | "ol" | "quote" | "single"; items: Block[] };
 function groupBlocks(blocks: Block[]): Group[] {
   const out: Group[] = [];
   for (const b of blocks) {
@@ -31,6 +35,10 @@ function groupBlocks(blocks: Block[]): Group[] {
       const last = out[out.length - 1];
       if (last?.type === "ol") last.items.push(b);
       else out.push({ type: "ol", items: [b] });
+    } else if (b.type === "quote") {
+      const last = out[out.length - 1];
+      if (last?.type === "quote") last.items.push(b);
+      else out.push({ type: "quote", items: [b] });
     } else {
       out.push({ type: "single", items: [b] });
     }
@@ -62,6 +70,9 @@ const groups = groupBlocks(blocks);
           </ol>
         );
       }
+      if (g.type === "quote") {
+        return <blockquote set:html={g.items.map((b) => b.html ?? "").join("<br />")} />;
+      }
       const b = g.items[0];
       switch (b.type) {
         case "paragraph":
@@ -73,8 +84,6 @@ const groups = groupBlocks(blocks);
           return <h2 id={nextHeadingId(b.html ?? "")} set:html={b.html ?? ""} />;
         case "heading_3":
           return <h3 id={nextHeadingId(b.html ?? "")} set:html={b.html ?? ""} />;
-        case "quote":
-          return <blockquote set:html={b.html ?? ""} />;
         case "callout":
           return (
             <div class="my-6 p-4 rounded-md bg-earth/10 border-l-4 border-earth">
