@@ -27,7 +27,7 @@ const seriesList = getSeriesIndex();
 const totalPosts = getPublishedPosts().length;
 
 // Curated category order for the homepage's horizontal-scroll sections
-const categoryOrder = ["放浪記", "思想・理論", "時事・情報戦", "エッセイ・その他", "ビットコインの真実"];
+const categoryOrder = ["放浪記", "思想・理論", "時事・情報戦", "エッセイ・その他", "スピリチュアリティ", "ビットコインの真実"];
 const categoryNames = new Set(getCategoryIndex().map((c) => c.name));
 const categorySections = categoryOrder
   .filter((name) => categoryNames.has(name))
@@ -134,7 +134,8 @@ const seriesDescriptions: Record<string, string> = {
             cover={s.representative?.cover ?? null}
             accent={
               s.name === "放浪記" ? "wandering"
-              : s.name === "デボリューション理論" || s.name === "ティール・スワン" ? "thought"
+              : s.name === "デボリューション理論" ? "thought"
+              : s.name === "ティール・スワン" ? "spirituality"
               : "current"
             }
           />
