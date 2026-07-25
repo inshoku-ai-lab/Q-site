@@ -5,6 +5,42 @@ import { createSupabaseAdminClient } from "../../lib/supabase/admin";
 
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 const MAX_LEN = { name: 100, email: 200, message: 5000 };
+const MIN_FILL_TIME_MS = 2000;
+const RATE_LIMIT_WINDOW_MIN = 15;
+const RATE_LIMIT_MAX = 3;
+
+function getClientIp(request: Request): string | null {
+  const forwardedFor = request.headers.get("x-forwarded-for");
+  if (!forwardedFor) return null;
+  return forwardedFor.split(",")[0].trim() || null;
+}
+
+// Skips (returns true) until TURNSTILE_SECRET_KEY is configured in Vercel,
+// so the form works before Turnstile is set up and starts enforcing it the
+// moment both the site key (client) and secret key (server) are present.
+async function verifyTurnstile(token: string, ip: string | null): Promise<boolean> {
+  const secret = import.meta.env.TURNSTILE_SECRET_KEY;
+  if (!secret) return true;
+  if (!token) return false;
+
+  try {
+    const params = new URLSearchParams({ secret, response: token });
+    if (ip) params.set("remoteip", ip);
+    const res = await fetch("https://challenges.cloudflare.com/turnstile/v0/siteverify", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: params,
+    });
+    const data = await res.json();
+    if (!data.success) {
+      console.error("contact turnstile: verification failed", data["error-codes"]);
+    }
+    return data.success === true;
+  } catch (err) {
+    console.error("contact turnstile: verification request failed", err);
+    return false;
+  }
+}
 
 // Best-effort notification via Resend -- the submission is already saved in
 // contact_messages regardless of whether this succeeds, so failures here
@@ -57,6 +93,17 @@ export const POST: APIRoute = async ({ request }) => {
     });
   }
 
+  // Bots that fetch the page and POST immediately submit faster than any
+  // human can fill a 3-field form. Report success without saving anything,
+  // so scripted submitters get no signal that they were filtered.
+  const elapsedMs = typeof body.elapsedMs === "number" ? body.elapsedMs : 0;
+  if (elapsedMs < MIN_FILL_TIME_MS) {
+    return new Response(JSON.stringify({ ok: true }), {
+      status: 200,
+      headers: { "Content-Type": "application/json" },
+    });
+  }
+
   const name = typeof body.name === "string" ? body.name.trim() : "";
   const email = typeof body.email === "string" ? body.email.trim() : "";
   const message = typeof body.message === "string" ? body.message.trim() : "";
@@ -71,8 +118,27 @@ export const POST: APIRoute = async ({ request }) => {
     return new Response(JSON.stringify({ error: "too_long" }), { status: 400 });
   }
 
+  const ip = getClientIp(request);
+  const turnstileToken = typeof body.turnstileToken === "string" ? body.turnstileToken : "";
+  if (!(await verifyTurnstile(turnstileToken, ip))) {
+    return new Response(JSON.stringify({ error: "verification_failed" }), { status: 400 });
+  }
+
   const admin = createSupabaseAdminClient();
-  const { error } = await admin.from("contact_messages").insert({ name, email, message });
+
+  if (ip) {
+    const since = new Date(Date.now() - RATE_LIMIT_WINDOW_MIN * 60 * 1000).toISOString();
+    const { count } = await admin
+      .from("contact_messages")
+      .select("id", { count: "exact", head: true })
+      .eq("ip_address", ip)
+      .gte("created_at", since);
+    if ((count ?? 0) >= RATE_LIMIT_MAX) {
+      return new Response(JSON.stringify({ error: "rate_limited" }), { status: 429 });
+    }
+  }
+
+  const { error } = await admin.from("contact_messages").insert({ name, email, message, ip_address: ip });
   if (error) {
     return new Response(JSON.stringify({ error: "insert_failed" }), { status: 500 });
   }

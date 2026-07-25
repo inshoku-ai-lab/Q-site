@@ -1,6 +1,8 @@
 ---
 export const prerender = true;
 import Layout from "../layouts/Layout.astro";
+
+const turnstileSiteKey = import.meta.env.PUBLIC_TURNSTILE_SITE_KEY ?? "";
 ---
 
 <Layout title="お問い合わせ" description="クリプトラベラーへのお問い合わせフォーム。">
@@ -57,6 +59,8 @@ import Layout from "../layouts/Layout.astro";
         <input type="text" id="website" name="website" tabindex="-1" autocomplete="off" />
       </div>
 
+      {turnstileSiteKey && <div id="turnstile-container" data-sitekey={turnstileSiteKey}></div>}
+
       <div>
         <button
           type="submit"
@@ -71,9 +75,49 @@ import Layout from "../layouts/Layout.astro";
   </div>
 
   <script>
+    const pageLoadedAt = Date.now();
+
     const form = document.getElementById("contact-form") as HTMLFormElement;
     const statusEl = document.getElementById("contact-status") as HTMLParagraphElement;
     const submitBtn = form.querySelector('button[type="submit"]') as HTMLButtonElement;
+    const turnstileContainer = document.getElementById("turnstile-container") as HTMLDivElement | null;
+
+    let turnstileWidgetId: string | null = null;
+
+    function loadTurnstileScript(): Promise<void> {
+      return new Promise((resolve, reject) => {
+        if ((window as any).turnstile) return resolve();
+        const s = document.createElement("script");
+        s.src = "https://challenges.cloudflare.com/turnstile/v0/api.js";
+        s.async = true;
+        s.defer = true;
+        s.onload = () => resolve();
+        s.onerror = () => reject(new Error("turnstile script failed to load"));
+        document.head.appendChild(s);
+      });
+    }
+
+    if (turnstileContainer?.dataset.sitekey) {
+      loadTurnstileScript()
+        .then(() => {
+          turnstileWidgetId = (window as any).turnstile.render(turnstileContainer, {
+            sitekey: turnstileContainer.dataset.sitekey,
+          });
+        })
+        .catch(() => {
+          // If Cloudflare's script fails to load (network issue, blocker),
+          // just submit without a token -- the server treats a missing
+          // token as a failed verification and returns a clear error.
+        });
+    }
+
+    const ERROR_MESSAGES: Record<string, string> = {
+      rate_limited: "短時間に送信が集中しています。しばらく時間を置いてから再度お試しください。",
+      verification_failed: "スパム確認に失敗しました。ページを再読み込みしてからもう一度お試しください。",
+      missing_fields: "すべての項目を入力してください。",
+      invalid_email: "メールアドレスの形式が正しくありません。",
+      too_long: "入力内容が長すぎます。",
+    };
 
     function showStatus(message: string, isError: boolean) {
       statusEl.textContent = message;
@@ -91,6 +135,9 @@ import Layout from "../layouts/Layout.astro";
         email: String(formData.get("email") ?? "").trim(),
         message: String(formData.get("message") ?? "").trim(),
         website: String(formData.get("website") ?? ""),
+        elapsedMs: Date.now() - pageLoadedAt,
+        turnstileToken:
+          turnstileWidgetId !== null ? (window as any).turnstile?.getResponse(turnstileWidgetId) ?? "" : "",
       };
 
       try {
@@ -104,8 +151,10 @@ import Layout from "../layouts/Layout.astro";
           showStatus("送信しました。ありがとうございます。", false);
           form.reset();
         } else {
-          showStatus("送信に失敗しました。時間を置いて再度お試しください。", true);
+          const data = await res.json().catch(() => ({}));
+          showStatus(ERROR_MESSAGES[data.error] ?? "送信に失敗しました。時間を置いて再度お試しください。", true);
           submitBtn.disabled = false;
+          if (turnstileWidgetId !== null) (window as any).turnstile?.reset(turnstileWidgetId);
         }
       } catch {
         showStatus("送信に失敗しました。時間を置いて再度お試しください。", true);
