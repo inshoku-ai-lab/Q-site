@@ -226,12 +226,6 @@ async function fetchOembed(oembedUrl, siteNameFallback) {
   }
 }
 
-// note.com articles AND magazines ("/m/" URLs) reliably return an OGP-less
-// or bot-challenged page to a plain scrape -- possibly because magazine
-// pages render more of their content client-side. note.com exposes a
-// public oEmbed endpoint for both; try that first.
-const NOTE_HOST_RE = /(^|\.)note\.com$/i;
-
 async function fetchOgp(url) {
   let hostname;
   try {
@@ -249,12 +243,13 @@ async function fetchOgp(url) {
     // fall through to the generic scrape below as a backstop
   }
 
-  if (NOTE_HOST_RE.test(hostname)) {
-    const oembedUrl = `https://note.com/api/oembed?url=${encodeURIComponent(url)}&format=json`;
-    const result = await fetchOembed(oembedUrl, "note");
-    if (!result.error) return result;
-    trail.push(`note oEmbed: ${result.error}`);
-  }
+  // note.com magazine pages ("/m/") were tried against a guessed
+  // note.com/api/oembed endpoint -- it doesn't exist (uniform 404 across
+  // every note.com URL tested). Their HTML also has no og:title/og:image
+  // at all when fetched without executing JS (same ~16KB shell regardless
+  // of which magazine), which a plain scrape fundamentally can't recover.
+  // See src/data/ogp-cache.json for a hand-curated entry covering the one
+  // magazine link referenced across most articles.
 
   for (const ua of UA_CANDIDATES) {
     const uaLabel = ua.includes("Googlebot") ? "Googlebot" : "browser";
