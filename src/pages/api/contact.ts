@@ -23,7 +23,7 @@ async function notifyByEmail(name: string, email: string, message: string) {
         "Content-Type": "application/json",
       },
       body: JSON.stringify({
-        from: "Qryptraveller's Notes <onboarding@resend.dev>",
+        from: "Qryptraveller's Notes <contact@qryptraveller.com>",
         to: notifyEmail,
         reply_to: email,
         subject: `【お問い合わせ】${name}様より`,
