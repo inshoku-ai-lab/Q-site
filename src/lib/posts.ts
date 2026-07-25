@@ -46,6 +46,28 @@ function unescapeMarkdown(text: string): string {
   return text.replace(/\\([_*])/g, "$1");
 }
 
+// One-off content bugs found in specific articles' source content, not
+// systemic enough to warrant a general rule -- keyed by the exact broken
+// substring so a fix is a no-op (not a silent wrong-match) once the
+// underlying Notion content is corrected upstream.
+const CONTENT_FIXUPS: Record<string, string> = {
+  // A duplicated/interleaved copy of the same RedState URL landed in the
+  // <a> href (the correct URL is visible in the plain text right before
+  // it in the source), producing a non-existent path.
+  "https://redstate.com/bonchie/2020/02/10/the-boom-is-lowered-as-trump-cuts-70-positiohttps://redstate.com/bonchie/2020/02/10/the-boom-is-lowered-as-trump-cuts-70-positions-from-the-nsc-n128173ns-from-the-nsc-n128173":
+    "https://redstate.com/bonchie/2020/02/10/the-boom-is-lowered-as-trump-cuts-70-positions-from-the-nsc-n128173",
+  // "Twitter" was typed in Japanese katakana instead of the actual domain.
+  "https://ツイッター.com/tracybeanz/status/13269816006896": "https://twitter.com/tracybeanz/status/13269816006896",
+};
+
+function applyContentFixups(text: string): string {
+  let out = text;
+  for (const [broken, fixed] of Object.entries(CONTENT_FIXUPS)) {
+    if (out.includes(broken)) out = out.split(broken).join(fixed);
+  }
+  return out;
+}
+
 // Excerpt/SEO-description are plain-text Notion properties (used for
 // <meta description>, OG/Twitter tags, RSS, and listing-page blurbs) that
 // can carry the same WP "blogcard" shortcode artifact as body paragraphs
@@ -130,13 +152,39 @@ export function domainOf(url: string): string {
   }
 }
 
+// The old WordPress site's taxonomy pages have no direct route on this
+// site -- map the handful that are actually linked from article content
+// to their closest modern equivalent (a series index page).
+const LEGACY_CATEGORY_LINKS: Record<string, string> = {
+  "/category/information-blog/twitterfiles": "/series/ツイッターファイル/",
+  "/category/information-blog/tealswan": "/series/ティール・スワン/",
+  "/category/information-blog/devolution": "/series/デボリューション理論/",
+};
+
+// Shared by rewriteInternalLinks (inline <a> tags) and BlogCard.astro
+// (bare-URL blogcard blocks) -- both need to catch a qryptraveller.com
+// link to an old taxonomy page before falling back to treating it as an
+// unresolvable/external URL.
+export function resolveLegacyCategoryLink(url: string): string | null {
+  try {
+    const pathname = new URL(url).pathname.replace(/\/$/, "");
+    return LEGACY_CATEGORY_LINKS[pathname] ?? null;
+  } catch {
+    return null;
+  }
+}
+
 // Rewrite any inline `href="https://qryptraveller.com/<slug>/"` that
 // resolves to one of our own posts into a same-site /posts/<slug>/ link,
 // so cross-references keep working once qryptraveller.com stops pointing
-// at the old WordPress site. Links we can't resolve are left untouched.
+// at the old WordPress site. Also rewrites known old-taxonomy-page links
+// (see LEGACY_CATEGORY_LINKS). Links we can't resolve are left untouched.
 export function rewriteInternalLinks(html: string): string {
-  return html.replace(/href="([^"]*qryptraveller\.com[^"]*)"/gi, (match, url) => {
-    const post = resolveInternalPost(url.replace(/&amp;/g, "&"));
+  return html.replace(/href="([^"]*qryptraveller\.com[^"]*)"/gi, (match, rawUrl) => {
+    const url = rawUrl.replace(/&amp;/g, "&");
+    const legacyTarget = resolveLegacyCategoryLink(url);
+    if (legacyTarget) return `href="${legacyTarget}"`;
+    const post = resolveInternalPost(url);
     return post ? `href="/posts/${post.slug}/"` : match;
   });
 }
@@ -160,8 +208,24 @@ const BLOGCARD_RE =
 // on the fly; Notion's import just kept the literal text.
 const BARE_URL_RE = /https?:\/\/[^\s<>"]+/gi;
 
+// Japanese prose butting directly against a URL with no separating space
+// (Japanese doesn't put spaces between words) or a literal "(LINK)" marker
+// sometimes survives migration glued onto the end of it -- a real URL is
+// plain ASCII (any non-ASCII content in it is percent-encoded), so
+// anything from the first such character onward was never part of the URL.
+function truncateAtProse(s: string): string {
+  const idx = s.search(/\(LINK\)|[぀-ヿ一-鿿]/);
+  return idx === -1 ? s : s.slice(0, idx);
+}
+
+// A URL immediately followed by `<...>` autolink syntax in the original
+// markdown sometimes survives migration with only the closing bracket --
+// as the HTML entity `&gt;` -- still attached, since BARE_URL_RE doesn't
+// treat `&`/`;` as URL-terminating characters. Strip it here, the one
+// place both the blogcard and bare-link paths funnel every extracted URL
+// through.
 function cleanUrl(raw: string): string {
-  return raw.replace(/\\_/g, "_").replace(/&amp;/g, "&").trim();
+  return truncateAtProse(raw).replace(/\\_/g, "_").replace(/&amp;/g, "&").replace(/&gt;$/, "").trim();
 }
 
 function isValidUrl(s: string): boolean {
@@ -190,9 +254,13 @@ function stripEntityAngleBrackets(html: string): string {
 function linkifyBareUrls(html: string): string {
   if (/<a[\s>]/i.test(html)) return html;
   return html.replace(BARE_URL_RE, (raw) => {
-    const trimmed = raw.replace(/[)\].,;:!?、。」]+$/, "");
+    const trimmed = truncateAtProse(raw).replace(/[)\].,;:!?、。」]+$/, "");
     const url = cleanUrl(trimmed);
     if (!isValidUrl(url)) return raw;
+    // `raw.slice(trimmed.length)` -- not just the punctuation stripped
+    // above but also any glued-on prose truncateAtProse cut off -- stays
+    // as plain text right after the link instead of being swallowed into
+    // the href or the visible link text.
     const trailing = raw.slice(trimmed.length);
     return `<a href="${escapeHtmlAttr(url)}" target="_blank" rel="noopener">${trimmed}</a>${trailing}`;
   });
@@ -207,7 +275,11 @@ function textChunkToBlocks(b: Block, rawText: string): Block[] {
   if (!rawText.trim()) return [];
   const text = stripEntityAngleBrackets(rawText);
   const tagless = text.replace(/<[^>]+>/g, "").trim();
-  if (/^https?:\/\/\S+$/i.test(tagless)) {
+  // Only promote to a standalone blogcard if the chunk is truly nothing
+  // but a URL -- if truncateAtProse would cut something off, this is a
+  // URL with glued-on prose, not a bare link, and needs the mixed-content
+  // path below so the prose doesn't get silently discarded.
+  if (/^https?:\/\/\S+$/i.test(tagless) && truncateAtProse(tagless) === tagless) {
     const url = cleanUrl(tagless);
     if (isValidUrl(url)) return [{ type: "blogcard", url }];
   }
@@ -244,7 +316,7 @@ function paragraphBlocks(b: Block): Block[] {
 // to point at this site instead of the old WordPress domain.
 export function preprocessBlocks(blocks: Block[]): Block[] {
   return blocks.flatMap((rawBlock) => {
-    const b = rawBlock.html ? { ...rawBlock, html: unescapeMarkdown(rawBlock.html) } : rawBlock;
+    const b = rawBlock.html ? { ...rawBlock, html: applyContentFixups(unescapeMarkdown(rawBlock.html)) } : rawBlock;
     if (b.type === "paragraph") {
       return paragraphBlocks(b);
     }

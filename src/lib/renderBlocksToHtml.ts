@@ -1,5 +1,5 @@
 import type { Block } from "./posts";
-import { resolveInternalPost, domainOf, categoryAccentHex, formatDateShort } from "./posts";
+import { resolveInternalPost, resolveLegacyCategoryLink, domainOf, categoryAccentHex, formatDateShort } from "./posts";
 import { getOgp } from "./ogp";
 
 // Server-side mirror of components/ArticleBody.astro's block rendering,
@@ -33,8 +33,15 @@ function renderBlogCard(url: string): string {
     }</div></a>`;
   }
 
-  const ogp = getOgp(url);
+  const legacyCategoryLink = resolveLegacyCategoryLink(url);
   const externalIcon = `<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" /><path d="M15 3h6v6" /><path d="M10 14L21 3" /></svg>`;
+
+  if (legacyCategoryLink) {
+    const folderIcon = `<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" /><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z" /></svg>`;
+    return `<a href="${escapeAttr(legacyCategoryLink)}" class="my-6 flex items-center gap-3 no-underline group bg-paper-50 border border-paper-200 rounded-lg px-4 py-3.5 card-hover"><span class="w-8 h-8 rounded-full border border-paper-300 flex items-center justify-center flex-shrink-0 text-ink-muted group-hover:border-moss group-hover:text-moss transition-colors">${folderIcon}</span><div class="min-w-0"><div class="text-sm text-ink group-hover:text-moss-dark truncate">Qryptraveller's Notes</div><div class="text-[11px] text-ink-muted truncate">${escapeHtml(legacyCategoryLink)}</div></div></a>`;
+  }
+
+  const ogp = getOgp(url);
 
   if (ogp) {
     const thumb = ogp.image

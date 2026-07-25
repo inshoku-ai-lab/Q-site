@@ -1,5 +1,5 @@
 ---
-import { resolveInternalPost, domainOf, categoryAccentHex, formatDateShort } from "../lib/posts";
+import { resolveInternalPost, resolveLegacyCategoryLink, domainOf, categoryAccentHex, formatDateShort } from "../lib/posts";
 import { getOgp } from "../lib/ogp";
 
 interface Props {
@@ -8,11 +8,28 @@ interface Props {
 
 const { url } = Astro.props;
 const post = resolveInternalPost(url);
+const legacyCategoryLink = post ? null : resolveLegacyCategoryLink(url);
 const accentHex = post ? categoryAccentHex(post.category) : null;
-const ogp = post ? null : getOgp(url);
+const ogp = post || legacyCategoryLink ? null : getOgp(url);
 ---
 
-{post ? (
+{legacyCategoryLink ? (
+  <a
+    href={legacyCategoryLink}
+    class="my-6 flex items-center gap-3 no-underline group bg-paper-50 border border-paper-200 rounded-lg px-4 py-3.5 card-hover"
+  >
+    <span class="w-8 h-8 rounded-full border border-paper-300 flex items-center justify-center flex-shrink-0 text-ink-muted group-hover:border-moss group-hover:text-moss transition-colors">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" />
+        <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z" />
+      </svg>
+    </span>
+    <div class="min-w-0">
+      <div class="text-sm text-ink group-hover:text-moss-dark truncate">Qryptraveller's Notes</div>
+      <div class="text-[11px] text-ink-muted truncate">{legacyCategoryLink}</div>
+    </div>
+  </a>
+) : post ? (
   <a
     href={`/posts/${post.slug}/`}
     class="my-6 flex gap-3.5 items-center no-underline group bg-paper-50 border border-paper-200 rounded-lg overflow-hidden card-hover"
