@@ -152,9 +152,14 @@ async function fetchHtml(url, userAgent) {
         "User-Agent": userAgent,
         Accept: "text/html,application/xhtml+xml",
         "Accept-Language": "ja,en-US;q=0.9,en;q=0.8",
+        "Accept-Encoding": "gzip, deflate, br",
+        Referer: "https://www.google.com/",
+        "Sec-Fetch-Mode": "navigate",
+        "Sec-Fetch-Site": "cross-site",
+        "Sec-Fetch-Dest": "document",
       },
     });
-    if (!res.ok || !res.body) return null;
+    if (!res.ok || !res.body) return { error: `HTTP ${res.status}` };
 
     const reader = res.body.getReader();
     const decoder = new TextDecoder();
@@ -169,8 +174,8 @@ async function fetchHtml(url, userAgent) {
     }
     reader.cancel().catch(() => {});
     return { html, finalUrl: res.url || url };
-  } catch {
-    return null;
+  } catch (err) {
+    return { error: err?.message || String(err) };
   } finally {
     clearTimeout(timer);
   }
@@ -200,46 +205,66 @@ function parseOgp(html, finalUrl) {
 // oEmbed endpoint -- use that directly instead of fetching the page.
 const YOUTUBE_HOST_RE = /(^|\.)youtube\.com$|(^|\.)youtu\.be$/i;
 
-async function fetchYouTubeOgp(url) {
+async function fetchOembed(oembedUrl, siteNameFallback) {
   const controller = new AbortController();
   const timer = setTimeout(() => controller.abort(), REQUEST_TIMEOUT_MS);
   try {
-    const oembedUrl = `https://www.youtube.com/oembed?url=${encodeURIComponent(url)}&format=json`;
     const res = await fetch(oembedUrl, { signal: controller.signal });
-    if (!res.ok) return null;
+    if (!res.ok) return { error: `oEmbed HTTP ${res.status}` };
     const data = await res.json();
-    if (!data.title && !data.thumbnail_url) return null;
+    const image = data.thumbnail_url || null;
+    if (!data.title && !image) return { error: "oEmbed returned no title/thumbnail" };
     return {
       title: data.title ? String(data.title).slice(0, 200) : null,
-      image: data.thumbnail_url || null,
-      siteName: "YouTube",
+      image,
+      siteName: data.provider_name || siteNameFallback || null,
     };
-  } catch {
-    return null;
+  } catch (err) {
+    return { error: err?.message || String(err) };
   } finally {
     clearTimeout(timer);
   }
 }
 
+// note.com articles AND magazines ("/m/" URLs) reliably return an OGP-less
+// or bot-challenged page to a plain scrape -- possibly because magazine
+// pages render more of their content client-side. note.com exposes a
+// public oEmbed endpoint for both; try that first.
+const NOTE_HOST_RE = /(^|\.)note\.com$/i;
+
 async function fetchOgp(url) {
-  let isYouTube = false;
+  let hostname;
   try {
-    isYouTube = YOUTUBE_HOST_RE.test(new URL(url).hostname);
+    hostname = new URL(url).hostname;
   } catch {
-    return { failed: true };
-  }
-  if (isYouTube) {
-    const ogp = await fetchYouTubeOgp(url);
-    if (ogp) return ogp;
+    return { failed: true, reason: "invalid URL" };
   }
 
+  if (YOUTUBE_HOST_RE.test(hostname)) {
+    const oembedUrl = `https://www.youtube.com/oembed?url=${encodeURIComponent(url)}&format=json`;
+    const result = await fetchOembed(oembedUrl, "YouTube");
+    if (!result.error) return result;
+    // fall through to the generic scrape below as a backstop
+  }
+
+  if (NOTE_HOST_RE.test(hostname)) {
+    const oembedUrl = `https://note.com/api/oembed?url=${encodeURIComponent(url)}&format=json`;
+    const result = await fetchOembed(oembedUrl, "note");
+    if (!result.error) return result;
+  }
+
+  let lastError = null;
   for (const ua of UA_CANDIDATES) {
     const fetched = await fetchHtml(url, ua);
-    if (!fetched) continue;
+    if (fetched.error) {
+      lastError = fetched.error;
+      continue;
+    }
     const ogp = parseOgp(fetched.html, fetched.finalUrl);
     if (ogp) return ogp;
+    lastError = "fetched HTML but found no og:title/og:image/<title>";
   }
-  return { failed: true };
+  return { failed: true, reason: lastError || "unknown" };
 }
 
 const CONCURRENCY = 8;
@@ -278,8 +303,12 @@ async function main() {
       const url = toFetch[idx++];
       const result = await fetchOgp(url);
       cache[url] = { ...result, fetchedAt: new Date().toISOString() };
-      if (result.failed) failed++;
-      else fetched++;
+      if (result.failed) {
+        failed++;
+        console.log(`fetch-ogp: FAILED ${url} -- ${result.reason ?? "unknown"}`);
+      } else {
+        fetched++;
+      }
     }
   }
   await Promise.all(Array.from({ length: Math.min(CONCURRENCY, toFetch.length) }, worker));

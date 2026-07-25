@@ -5,6 +5,7 @@ export type OgpEntry = {
   image?: string | null;
   siteName?: string | null;
   failed?: boolean;
+  reason?: string;
 };
 
 const ogpCache = ogpCacheData as unknown as Record<string, OgpEntry>;
