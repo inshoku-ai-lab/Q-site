@@ -6,6 +6,35 @@ import { createSupabaseAdminClient } from "../../lib/supabase/admin";
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 const MAX_LEN = { name: 100, email: 200, message: 5000 };
 
+// Best-effort notification via Resend -- the submission is already saved in
+// contact_messages regardless of whether this succeeds, so failures here are
+// swallowed rather than surfaced to the visitor. Skips silently until
+// RESEND_API_KEY and CONTACT_NOTIFY_EMAIL are configured in Vercel.
+async function notifyByEmail(name: string, email: string, message: string) {
+  const apiKey = import.meta.env.RESEND_API_KEY;
+  const notifyEmail = import.meta.env.CONTACT_NOTIFY_EMAIL;
+  if (!apiKey || !notifyEmail) return;
+
+  try {
+    await fetch("https://api.resend.com/emails", {
+      method: "POST",
+      headers: {
+        Authorization: `Bearer ${apiKey}`,
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        from: "Qryptraveller's Notes <onboarding@resend.dev>",
+        to: notifyEmail,
+        reply_to: email,
+        subject: `【お問い合わせ】${name}様より`,
+        text: `お名前: ${name}\nメール: ${email}\n\n${message}`,
+      }),
+    });
+  } catch {
+    // Network/API failure -- nothing to do; message is already in the DB.
+  }
+}
+
 export const POST: APIRoute = async ({ request }) => {
   let body: Record<string, unknown>;
   try {
@@ -41,6 +70,8 @@ export const POST: APIRoute = async ({ request }) => {
   if (error) {
     return new Response(JSON.stringify({ error: "insert_failed" }), { status: 500 });
   }
+
+  await notifyByEmail(name, email, message);
 
   return new Response(JSON.stringify({ ok: true }), {
     status: 200,
