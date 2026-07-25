@@ -1,0 +1,116 @@
+---
+export const prerender = true;
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout title="お問い合わせ" description="クリプトラベラーへのお問い合わせフォーム。">
+  <div class="max-w-prose mx-auto px-4 md:px-0 py-16">
+    <header class="mb-10">
+      <div class="text-xs uppercase tracking-[0.3em] text-earth mb-3">Contact</div>
+      <h1 class="font-serif text-3xl md:text-4xl font-semibold text-ink leading-tight">お問い合わせ</h1>
+      <p class="text-ink-muted leading-relaxed mt-4">
+        記事の内容や取材、その他ご連絡は以下のフォームからお願いします。
+        内容を確認の上、必要に応じてご記入いただいたメールアドレスへ返信します。
+      </p>
+    </header>
+
+    <form id="contact-form" class="space-y-6">
+      <div>
+        <label for="name" class="block text-sm text-ink mb-1.5">お名前</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          required
+          maxlength="100"
+          class="w-full border border-paper-300 rounded-md px-4 py-2.5 text-ink bg-paper-50 focus:outline-none focus:border-moss"
+        />
+      </div>
+
+      <div>
+        <label for="email" class="block text-sm text-ink mb-1.5">メールアドレス</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          required
+          maxlength="200"
+          class="w-full border border-paper-300 rounded-md px-4 py-2.5 text-ink bg-paper-50 focus:outline-none focus:border-moss"
+        />
+      </div>
+
+      <div>
+        <label for="message" class="block text-sm text-ink mb-1.5">お問い合わせ内容</label>
+        <textarea
+          id="message"
+          name="message"
+          required
+          maxlength="5000"
+          rows="8"
+          class="w-full border border-paper-300 rounded-md px-4 py-2.5 text-ink bg-paper-50 focus:outline-none focus:border-moss resize-y"
+        ></textarea>
+      </div>
+
+      <!-- Honeypot field: hidden from real users via CSS, filled by bots. -->
+      <div class="absolute -left-[9999px]" aria-hidden="true">
+        <label for="website">Website</label>
+        <input type="text" id="website" name="website" tabindex="-1" autocomplete="off" />
+      </div>
+
+      <div>
+        <button
+          type="submit"
+          class="px-6 py-3 bg-moss-light text-paper-100 rounded-full font-serif font-extrabold text-sm hover:bg-moss-dark disabled:opacity-40 disabled:cursor-not-allowed transition"
+        >
+          送信する
+        </button>
+      </div>
+
+      <p id="contact-status" class="text-sm mt-2 hidden" role="status"></p>
+    </form>
+  </div>
+
+  <script>
+    const form = document.getElementById("contact-form") as HTMLFormElement;
+    const statusEl = document.getElementById("contact-status") as HTMLParagraphElement;
+    const submitBtn = form.querySelector('button[type="submit"]') as HTMLButtonElement;
+
+    function showStatus(message: string, isError: boolean) {
+      statusEl.textContent = message;
+      statusEl.classList.remove("hidden", "text-rust", "text-moss-dark");
+      statusEl.classList.add(isError ? "text-rust" : "text-moss-dark");
+    }
+
+    form.addEventListener("submit", async (e) => {
+      e.preventDefault();
+      submitBtn.disabled = true;
+
+      const formData = new FormData(form);
+      const payload = {
+        name: String(formData.get("name") ?? "").trim(),
+        email: String(formData.get("email") ?? "").trim(),
+        message: String(formData.get("message") ?? "").trim(),
+        website: String(formData.get("website") ?? ""),
+      };
+
+      try {
+        const res = await fetch("/api/contact", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(payload),
+        });
+
+        if (res.ok) {
+          showStatus("送信しました。ありがとうございます。", false);
+          form.reset();
+        } else {
+          showStatus("送信に失敗しました。時間を置いて再度お試しください。", true);
+          submitBtn.disabled = false;
+        }
+      } catch {
+        showStatus("送信に失敗しました。時間を置いて再度お試しください。", true);
+        submitBtn.disabled = false;
+      }
+    });
+  </script>
+</Layout>

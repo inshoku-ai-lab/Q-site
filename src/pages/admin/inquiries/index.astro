@@ -1,0 +1,103 @@
+---
+export const prerender = false;
+import Layout from "../../../layouts/Layout.astro";
+import { requireAdmin, logAdminAccess } from "../../../lib/admin";
+import { formatDate } from "../../../lib/posts";
+
+const auth = await requireAdmin(Astro.request, Astro.cookies);
+if (!auth.ok) {
+  return Astro.redirect("/");
+}
+await logAdminAccess(auth.admin, auth.email, "view_inquiries");
+
+const { data } = await auth.admin
+  .from("contact_messages")
+  .select("id, name, email, message, status, created_at")
+  .order("created_at", { ascending: false });
+const inquiries = data ?? [];
+
+const STATUS_LABELS: Record<string, string> = { new: "未対応", read: "既読", replied: "返信済" };
+const STATUS_STYLES: Record<string, string> = {
+  new: "bg-rust/10 text-rust",
+  read: "bg-earth/10 text-earth",
+  replied: "bg-moss/10 text-moss-dark",
+};
+---
+
+<Layout title="お問い合わせ一覧" description="旅路の証人 お問い合わせ一覧" noIndex>
+  <div class="max-w-5xl mx-auto px-4 md:px-0 py-12">
+    <div class="flex items-center justify-between mb-6">
+      <h1 class="font-serif text-2xl font-semibold text-ink">お問い合わせ一覧({inquiries.length}件)</h1>
+      <nav class="text-sm">
+        <a href="/admin" class="text-earth hover:text-ink underline">ダッシュボードへ</a>
+      </nav>
+    </div>
+
+    <div class="space-y-4">
+      {inquiries.map((inq) => (
+        <div class="border border-paper-300 rounded-md p-4" data-inquiry-id={inq.id}>
+          <div class="flex flex-wrap items-center justify-between gap-2 mb-2">
+            <div class="text-sm">
+              <span class="text-ink font-semibold">{inq.name}</span>
+              <span class="text-ink-muted ml-2">{inq.email}</span>
+            </div>
+            <div class="flex items-center gap-2">
+              <span class={`text-xs px-2 py-0.5 rounded-full status-badge ${STATUS_STYLES[inq.status] ?? ""}`}>
+                {STATUS_LABELS[inq.status] ?? inq.status}
+              </span>
+              <span class="text-xs text-ink-muted font-mono">{formatDate(inq.created_at)}</span>
+            </div>
+          </div>
+          <p class="text-sm text-ink whitespace-pre-wrap leading-relaxed mb-3">{inq.message}</p>
+          <div class="flex gap-2">
+            {["new", "read", "replied"].map((s) => (
+              <button
+                type="button"
+                class="status-btn text-xs px-3 py-1 rounded-full border border-paper-300 text-ink-muted hover:border-moss hover:text-moss-dark disabled:opacity-30"
+                data-status={s}
+                disabled={inq.status === s}
+              >
+                {STATUS_LABELS[s]}にする
+              </button>
+            ))}
+          </div>
+        </div>
+      ))}
+      {inquiries.length === 0 && <p class="text-sm text-ink-muted py-8 text-center">お問い合わせはまだありません。</p>}
+    </div>
+  </div>
+
+  <script>
+    const STATUS_LABELS: Record<string, string> = { new: "未対応", read: "既読", replied: "返信済" };
+    const STATUS_STYLES: Record<string, string> = {
+      new: "bg-rust/10 text-rust",
+      read: "bg-earth/10 text-earth",
+      replied: "bg-moss/10 text-moss-dark",
+    };
+
+    document.querySelectorAll<HTMLElement>("[data-inquiry-id]").forEach((card) => {
+      const id = card.dataset.inquiryId;
+      const badge = card.querySelector(".status-badge") as HTMLElement;
+      card.querySelectorAll<HTMLButtonElement>(".status-btn").forEach((btn) => {
+        btn.addEventListener("click", async () => {
+          const status = btn.dataset.status!;
+          btn.disabled = true;
+          const res = await fetch(`/api/admin/inquiries/${id}/status`, {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ status }),
+          });
+          if (res.ok) {
+            badge.textContent = STATUS_LABELS[status];
+            badge.className = `text-xs px-2 py-0.5 rounded-full status-badge ${STATUS_STYLES[status] ?? ""}`;
+            card.querySelectorAll<HTMLButtonElement>(".status-btn").forEach((b) => {
+              b.disabled = b.dataset.status === status;
+            });
+          } else {
+            btn.disabled = false;
+          }
+        });
+      });
+    });
+  </script>
+</Layout>
