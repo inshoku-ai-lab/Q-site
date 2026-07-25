@@ -7,16 +7,19 @@ const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 const MAX_LEN = { name: 100, email: 200, message: 5000 };
 
 // Best-effort notification via Resend -- the submission is already saved in
-// contact_messages regardless of whether this succeeds, so failures here are
-// swallowed rather than surfaced to the visitor. Skips silently until
-// RESEND_API_KEY and CONTACT_NOTIFY_EMAIL are configured in Vercel.
+// contact_messages regardless of whether this succeeds, so failures here
+// never fail the request. They ARE logged (visible in Vercel's function
+// logs) so a silent delivery gap is diagnosable instead of invisible.
 async function notifyByEmail(name: string, email: string, message: string) {
   const apiKey = import.meta.env.RESEND_API_KEY;
   const notifyEmail = import.meta.env.CONTACT_NOTIFY_EMAIL;
-  if (!apiKey || !notifyEmail) return;
+  if (!apiKey || !notifyEmail) {
+    console.error("contact notify: RESEND_API_KEY or CONTACT_NOTIFY_EMAIL is not set");
+    return;
+  }
 
   try {
-    await fetch("https://api.resend.com/emails", {
+    const res = await fetch("https://api.resend.com/emails", {
       method: "POST",
       headers: {
         Authorization: `Bearer ${apiKey}`,
@@ -30,8 +33,11 @@ async function notifyByEmail(name: string, email: string, message: string) {
         text: `お名前: ${name}\nメール: ${email}\n\n${message}`,
       }),
     });
-  } catch {
-    // Network/API failure -- nothing to do; message is already in the DB.
+    if (!res.ok) {
+      console.error(`contact notify: Resend API returned ${res.status}: ${await res.text()}`);
+    }
+  } catch (err) {
+    console.error("contact notify: failed to reach Resend API", err);
   }
 }
 
