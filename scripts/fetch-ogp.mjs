@@ -239,11 +239,13 @@ async function fetchOgp(url) {
   } catch {
     return { failed: true, reason: "invalid URL" };
   }
+  const trail = [];
 
   if (YOUTUBE_HOST_RE.test(hostname)) {
     const oembedUrl = `https://www.youtube.com/oembed?url=${encodeURIComponent(url)}&format=json`;
     const result = await fetchOembed(oembedUrl, "YouTube");
     if (!result.error) return result;
+    trail.push(`oEmbed: ${result.error}`);
     // fall through to the generic scrape below as a backstop
   }
 
@@ -251,20 +253,22 @@ async function fetchOgp(url) {
     const oembedUrl = `https://note.com/api/oembed?url=${encodeURIComponent(url)}&format=json`;
     const result = await fetchOembed(oembedUrl, "note");
     if (!result.error) return result;
+    trail.push(`note oEmbed: ${result.error}`);
   }
 
-  let lastError = null;
   for (const ua of UA_CANDIDATES) {
+    const uaLabel = ua.includes("Googlebot") ? "Googlebot" : "browser";
     const fetched = await fetchHtml(url, ua);
     if (fetched.error) {
-      lastError = fetched.error;
+      trail.push(`scrape(${uaLabel}): ${fetched.error}`);
       continue;
     }
     const ogp = parseOgp(fetched.html, fetched.finalUrl);
     if (ogp) return ogp;
-    lastError = "fetched HTML but found no og:title/og:image/<title>";
+    const redirectedNote = fetched.finalUrl !== url ? ` redirected-to=${fetched.finalUrl}` : "";
+    trail.push(`scrape(${uaLabel}): 200 OK but no og:title/og:image/<title>, ${fetched.html.length} bytes${redirectedNote}`);
   }
-  return { failed: true, reason: lastError || "unknown" };
+  return { failed: true, reason: trail.join(" | ") || "unknown" };
 }
 
 const CONCURRENCY = 8;
