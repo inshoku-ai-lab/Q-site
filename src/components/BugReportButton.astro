@@ -1,0 +1,156 @@
+---
+// Global bug-report widget -- included once in Layout.astro so it floats
+// over every page.
+---
+
+<button
+  type="button"
+  id="bug-report-fab"
+  aria-label="バグを報告する"
+  class="fixed bottom-5 right-5 z-40 w-12 h-12 rounded-full bg-moss-light text-paper-100 shadow-lg flex items-center justify-center hover:bg-moss-dark transition-colors"
+>
+  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="8" y="6" width="8" height="12" rx="4" />
+    <path d="M12 2v4M12 18v4M4 10h4M16 10h4M4 16h4M16 16h4M6 6l2 2M18 6l-2 2" />
+  </svg>
+</button>
+
+<div id="bug-report-overlay" class="fixed inset-0 z-50 bg-ink/40 hidden items-center justify-center p-4">
+  <div class="bg-paper-100 rounded-lg shadow-xl w-full max-w-md max-h-[90vh] overflow-y-auto p-6">
+    <div class="flex items-center justify-between mb-4">
+      <h2 class="font-serif text-lg font-semibold text-ink">バグを報告する</h2>
+      <button type="button" id="bug-report-close" aria-label="閉じる" class="text-ink-muted hover:text-ink text-xl leading-none">×</button>
+    </div>
+
+    <form id="bug-report-form" class="space-y-4">
+      <div>
+        <label for="bug-description" class="block text-sm text-ink mb-1.5">何が起きましたか？</label>
+        <textarea
+          id="bug-description"
+          name="description"
+          required
+          maxlength="3000"
+          rows="5"
+          placeholder="どのページで、何をしたときに、何が起きたかを教えてください"
+          class="w-full border border-paper-300 rounded-md px-3 py-2 text-sm text-ink bg-paper-50 focus:outline-none focus:border-moss"
+        ></textarea>
+      </div>
+
+      <div>
+        <label for="bug-email" class="block text-sm text-ink mb-1.5">メールアドレス(任意・返信が必要な場合)</label>
+        <input
+          type="email"
+          id="bug-email"
+          name="email"
+          maxlength="200"
+          class="w-full border border-paper-300 rounded-md px-3 py-2 text-sm text-ink bg-paper-50 focus:outline-none focus:border-moss"
+        />
+      </div>
+
+      <p id="bug-report-env-summary" class="text-[11px] text-ink-muted leading-relaxed"></p>
+
+      <!-- Honeypot -->
+      <div class="absolute -left-[9999px]" aria-hidden="true">
+        <label for="bug-website">Website</label>
+        <input type="text" id="bug-website" name="website" tabindex="-1" autocomplete="off" />
+      </div>
+
+      <div class="flex items-center gap-3">
+        <button
+          type="submit"
+          class="px-5 py-2.5 bg-moss-light text-paper-100 rounded-full font-serif font-extrabold text-sm hover:bg-moss-dark disabled:opacity-40 disabled:cursor-not-allowed transition"
+        >
+          送信する
+        </button>
+        <p id="bug-report-status" class="text-sm hidden" role="status"></p>
+      </div>
+    </form>
+  </div>
+</div>
+
+<script>
+  import { parseUserAgent } from "../lib/userAgent";
+
+  const pageLoadedAt = Date.now();
+
+  const fab = document.getElementById("bug-report-fab") as HTMLButtonElement;
+  const overlay = document.getElementById("bug-report-overlay") as HTMLDivElement;
+  const closeBtn = document.getElementById("bug-report-close") as HTMLButtonElement;
+  const form = document.getElementById("bug-report-form") as HTMLFormElement;
+  const statusEl = document.getElementById("bug-report-status") as HTMLParagraphElement;
+  const envSummaryEl = document.getElementById("bug-report-env-summary") as HTMLParagraphElement;
+  const submitBtn = form.querySelector('button[type="submit"]') as HTMLButtonElement;
+
+  const ua = parseUserAgent(navigator.userAgent);
+  const deviceLabel = { mobile: "スマートフォン", tablet: "タブレット", desktop: "パソコン" }[ua.deviceType];
+  envSummaryEl.textContent = `自動で送信される情報: ${deviceLabel} / ${ua.browser} / ${ua.os} / このページのURL`;
+
+  function openModal() {
+    overlay.classList.remove("hidden");
+    overlay.classList.add("flex");
+    document.getElementById("bug-description")?.focus();
+  }
+  function closeModal() {
+    overlay.classList.add("hidden");
+    overlay.classList.remove("flex");
+  }
+
+  fab.addEventListener("click", openModal);
+  closeBtn.addEventListener("click", closeModal);
+  overlay.addEventListener("click", (e) => {
+    if (e.target === overlay) closeModal();
+  });
+
+  function showStatus(message: string, isError: boolean) {
+    statusEl.textContent = message;
+    statusEl.classList.remove("hidden", "text-rust", "text-moss-dark");
+    statusEl.classList.add(isError ? "text-rust" : "text-moss-dark");
+  }
+
+  const ERROR_MESSAGES: Record<string, string> = {
+    rate_limited: "短時間に送信が集中しています。しばらく時間を置いてから再度お試しください。",
+    missing_fields: "内容を入力してください。",
+    too_long: "入力内容が長すぎます。",
+  };
+
+  form.addEventListener("submit", async (e) => {
+    e.preventDefault();
+    submitBtn.disabled = true;
+
+    const formData = new FormData(form);
+    const payload = {
+      description: String(formData.get("description") ?? "").trim(),
+      email: String(formData.get("email") ?? "").trim(),
+      website: String(formData.get("website") ?? ""),
+      elapsedMs: Date.now() - pageLoadedAt,
+      pageUrl: window.location.href,
+      deviceType: ua.deviceType,
+      browser: ua.browser,
+      os: ua.os,
+      userAgent: navigator.userAgent,
+      viewportWidth: window.innerWidth,
+      viewportHeight: window.innerHeight,
+    };
+
+    try {
+      const res = await fetch("/api/bug-report", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload),
+      });
+
+      if (res.ok) {
+        showStatus("報告ありがとうございます。", false);
+        form.reset();
+        setTimeout(closeModal, 1500);
+      } else {
+        const data = await res.json().catch(() => ({}));
+        showStatus(ERROR_MESSAGES[data.error] ?? "送信に失敗しました。時間を置いて再度お試しください。", true);
+        submitBtn.disabled = false;
+      }
+    } catch {
+      showStatus("送信に失敗しました。時間を置いて再度お試しください。", true);
+      submitBtn.disabled = false;
+    }
+  });
+</script>
