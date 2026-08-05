@@ -7,6 +7,7 @@ interface ImportMetaEnv {
   readonly CONTACT_NOTIFY_EMAIL?: string;
   readonly PUBLIC_TURNSTILE_SITE_KEY?: string;
   readonly TURNSTILE_SECRET_KEY?: string;
+  readonly AIRTABLE_API_KEY?: string;
 }
 
 interface ImportMeta {
