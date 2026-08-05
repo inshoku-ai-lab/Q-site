@@ -20,6 +20,7 @@ export const GET: APIRoute = async ({ request, cookies, redirect, url }) => {
   const { data, error } = await supabase.auth.exchangeCodeForSession(code);
 
   if (error || !data.session) {
+    console.error("auth callback: exchangeCodeForSession failed", error);
     return redirect("/join?error=auth_failed");
   }
 
@@ -28,9 +29,11 @@ export const GET: APIRoute = async ({ request, cookies, redirect, url }) => {
   const providerName = provider === "custom:line" ? "line" : provider;
 
   const existingMember = await getMember(supabase, user.id);
+  console.log(`auth callback: user=${user.id} provider=${providerName} existingMember=${!!existingMember}`);
 
   if (!existingMember) {
     if (!agreementReason || !VALID_REASONS.includes(agreementReason)) {
+      console.error(`auth callback: missing/invalid agreement_reason="${agreementReason}" for user ${user.id}`);
       return redirect("/join?error=missing_agreement");
     }
 
@@ -45,8 +48,10 @@ export const GET: APIRoute = async ({ request, cookies, redirect, url }) => {
     });
 
     if (insertError) {
+      console.error(`auth callback: members insert failed for user ${user.id}`, insertError);
       return redirect("/join?error=registration_failed");
     }
+    console.log(`auth callback: created member row for user ${user.id}`);
   }
 
   return redirect(referrer || "/");
