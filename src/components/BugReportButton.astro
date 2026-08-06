@@ -7,13 +7,34 @@
   type="button"
   id="bug-report-fab"
   aria-label="バグを報告する"
-  class="fixed bottom-5 right-5 z-40 w-12 h-12 rounded-full bg-moss-light text-paper-100 shadow-lg flex items-center justify-center hover:bg-moss-dark transition-colors"
+  class="fixed bottom-5 right-5 z-40 w-14 h-14 rounded-2xl flex items-center justify-center text-2xl transition-transform duration-150 ease-out hover:-translate-y-0.5 active:translate-y-0"
 >
-  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-    <rect x="8" y="6" width="8" height="12" rx="4" />
-    <path d="M12 2v4M12 18v4M4 10h4M16 10h4M4 16h4M16 16h4M6 6l2 2M18 6l-2 2" />
-  </svg>
+  <span aria-hidden="true">🐛</span>
 </button>
+
+<style>
+  #bug-report-fab {
+    background: linear-gradient(180deg, #fbf3e4 0%, #f4dcb2 100%);
+    box-shadow:
+      inset 0 1px 0 rgba(255, 255, 255, 0.75),
+      inset 0 -2px 3px rgba(138, 61, 31, 0.14),
+      0 2px 4px rgba(42, 31, 17, 0.14),
+      0 10px 18px rgba(42, 31, 17, 0.18);
+  }
+  #bug-report-fab:hover {
+    box-shadow:
+      inset 0 1px 0 rgba(255, 255, 255, 0.75),
+      inset 0 -2px 3px rgba(138, 61, 31, 0.14),
+      0 3px 6px rgba(42, 31, 17, 0.16),
+      0 14px 22px rgba(42, 31, 17, 0.22);
+  }
+  #bug-report-fab:active {
+    box-shadow:
+      inset 0 2px 3px rgba(42, 31, 17, 0.2),
+      inset 0 -1px 2px rgba(255, 255, 255, 0.4),
+      0 1px 2px rgba(42, 31, 17, 0.14);
+  }
+</style>
 
 <div id="bug-report-overlay" class="fixed inset-0 z-50 bg-ink/40 hidden items-center justify-center p-4">
   <div class="bg-paper-100 rounded-lg shadow-xl w-full max-w-md max-h-[90vh] overflow-y-auto p-6">
