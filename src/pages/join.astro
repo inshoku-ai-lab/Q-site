@@ -15,6 +15,15 @@ import Layout from "../layouts/Layout.astro";
       </h1>
     </header>
 
+    <section class="mb-10 bg-rust/10 border border-rust/30 rounded-lg p-5">
+      <p class="text-ink font-semibold">
+        「旅路の証人」は18歳以上の方のみご登録いただけます。
+      </p>
+      <p class="text-sm text-ink-muted mt-1">
+        会員限定コンテンツには、非常にプライベートで踏み込んだ内容が含まれます。18歳未満の方はご登録いただけません。
+      </p>
+    </section>
+
     <section class="leading-loose text-ink space-y-4 mb-10">
       <p>
         この先の記事には、非常にプライベートで赤裸々な記述や、一般には公開しづらい内容、時に激しく批判されるような内容が含まれています。
@@ -60,16 +69,24 @@ import Layout from "../layouts/Layout.astro";
     </section>
 
     <section class="mb-10 bg-paper-100 border border-paper-300 rounded-lg p-6">
-      <h2 class="font-serif text-xl text-ink mb-2">3つの条件</h2>
+      <h2 class="font-serif text-xl text-ink mb-2">4つの条件</h2>
       <p class="text-sm text-ink-muted mb-6">
-        「旅路の証人」になるには、以下の3つに同意していただく必要があります。
+        「旅路の証人」になるには、以下の4つに同意していただく必要があります。
       </p>
 
       <div class="space-y-6">
         <label class="flex items-start gap-3 cursor-pointer">
+          <input type="checkbox" id="cond0" class="mt-1 condition-checkbox" />
+          <span class="text-ink">
+            <strong class="block mb-1">一つ目:私は18歳以上です</strong>
+            会員限定コンテンツには、18歳未満の方には適さない内容が含まれます。
+          </span>
+        </label>
+
+        <label class="flex items-start gap-3 cursor-pointer">
           <input type="checkbox" id="cond1" class="mt-1 condition-checkbox" />
           <span class="text-ink">
-            <strong class="block mb-1">一つ目:クリプトラベラーを応援していること</strong>
+            <strong class="block mb-1">二つ目:クリプトラベラーを応援していること</strong>
             単純な話です。僕に敵意を持つ人に、自分の人生を賭けた経験を分け与えたくはありません。
           </span>
         </label>
@@ -78,7 +95,7 @@ import Layout from "../layouts/Layout.astro";
           <label class="flex items-start gap-3 cursor-pointer">
             <input type="checkbox" id="cond2" class="mt-1 condition-checkbox" />
             <span class="text-ink">
-              <strong class="block mb-1">二つ目:これまでに何らかの形で僕に利益をもたらしたこと</strong>
+              <strong class="block mb-1">三つ目:これまでに何らかの形で僕に利益をもたらしたこと</strong>
               以下のいずれかに当てはまりますか?
             </span>
           </label>
@@ -102,7 +119,7 @@ import Layout from "../layouts/Layout.astro";
           <input type="checkbox" id="cond3" class="mt-1 condition-checkbox" />
           <span class="text-ink">
             <strong class="block mb-1">
-              三つ目:ここで読んだ内容を、許可なく公共の場で話さないこと。これに違反すると違約金1億円を支払うと同意すること。
+              四つ目:ここで読んだ内容を、許可なく公共の場で話さないこと。これに違反すると違約金1億円を支払うと同意すること。
             </strong>
             ここで共有される話は、あなたと僕との間の信頼の上に成り立っています。
           </span>
@@ -149,6 +166,7 @@ import Layout from "../layouts/Layout.astro";
 
     const supabase = createSupabaseBrowserClient();
 
+    const cond0 = document.getElementById("cond0");
     const cond1 = document.getElementById("cond1");
     const cond2 = document.getElementById("cond2");
     const cond3 = document.getElementById("cond3");
@@ -161,13 +179,13 @@ import Layout from "../layouts/Layout.astro";
     }
 
     function updateButtons() {
-      const ok = cond1.checked && cond2.checked && !!getReason() && cond3.checked;
+      const ok = cond0.checked && cond1.checked && cond2.checked && !!getReason() && cond3.checked;
       buttons.forEach((btn) => {
         btn.disabled = !ok;
       });
     }
 
-    [cond1, cond2, cond3, ...document.querySelectorAll('input[name="reason"]')].forEach((el) =>
+    [cond0, cond1, cond2, cond3, ...document.querySelectorAll('input[name="reason"]')].forEach((el) =>
       el.addEventListener("change", updateButtons)
     );
 
@@ -177,7 +195,7 @@ import Layout from "../layouts/Layout.astro";
     const ERROR_MESSAGES = {
       missing_code: "ログイン情報を受け取れませんでした。もう一度お試しください。",
       auth_failed: "ログインに失敗しました。時間を置いて再度お試しください。",
-      missing_agreement: "同意条件の情報が失われました。3つの条件に再度チェックしてからログインしてください。",
+      missing_agreement: "同意条件の情報が失われました。4つの条件に再度チェックしてからログインしてください。",
       registration_failed: "会員登録の処理に失敗しました。時間を置いて再度お試しください。",
     };
 
@@ -190,7 +208,7 @@ import Layout from "../layouts/Layout.astro";
     buttons.forEach((btn) => {
       btn.addEventListener("click", async () => {
         const reason = getReason();
-        if (!cond1.checked || !cond2.checked || !reason || !cond3.checked) return;
+        if (!cond0.checked || !cond1.checked || !cond2.checked || !reason || !cond3.checked) return;
 
         const provider = btn.dataset.provider;
         const redirectParams = new URLSearchParams({ agreement_reason: reason });
