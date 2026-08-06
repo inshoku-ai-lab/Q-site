@@ -53,6 +53,20 @@ const nav = [
         </svg>
       </a>
 
+      <a
+        id="account-link"
+        href="/account"
+        aria-label="アカウント"
+        class={`hidden w-8 h-8 rounded-full border flex items-center justify-center text-ink-muted no-underline hover:text-moss hover:border-moss transition-colors ${
+          isActive("/account") ? "border-moss text-moss" : "border-paper-300"
+        }`}
+      >
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+          <circle cx="12" cy="7" r="4"></circle>
+        </svg>
+      </a>
+
       <!-- Mobile menu toggle -->
       <button
         id="menu-toggle"
@@ -91,6 +105,15 @@ const nav = [
       >
         検索
       </a>
+      <a
+        id="account-link-mobile"
+        href="/account"
+        class={`hidden no-underline py-3 transition-colors ${
+          isActive("/account") ? "text-ink font-medium" : "text-ink-muted"
+        }`}
+      >
+        アカウント
+      </a>
     </div>
   </nav>
 </header>
@@ -111,6 +134,8 @@ const nav = [
 </style>
 
 <script>
+  import { createSupabaseBrowserClient } from "../lib/supabase/browser";
+
   const toggle = document.getElementById("menu-toggle");
   const menu = document.getElementById("mobile-menu");
   toggle?.addEventListener("click", () => {
@@ -123,4 +148,11 @@ const nav = [
   }
   window.addEventListener("scroll", updateHeaderScroll, { passive: true });
   updateHeaderScroll();
+
+  const supabase = createSupabaseBrowserClient();
+  supabase.auth.getSession().then(({ data: { session } }) => {
+    if (!session) return;
+    document.getElementById("account-link")?.classList.remove("hidden");
+    document.getElementById("account-link-mobile")?.classList.remove("hidden");
+  });
 </script>
