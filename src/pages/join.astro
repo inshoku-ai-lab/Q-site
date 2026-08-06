@@ -196,6 +196,12 @@ import Layout from "../layouts/Layout.astro";
         const redirectParams = new URLSearchParams({ agreement_reason: reason });
         if (referrer) redirectParams.set("ref", referrer);
 
+        // Belt-and-suspenders alongside the "ref" query param above: some
+        // OAuth providers' redirect chains don't reliably preserve a query
+        // param all the way through provider -> Supabase -> our callback.
+        // A cookie survives that round-trip regardless of provider.
+        document.cookie = `post_login_redirect=${encodeURIComponent(referrer || "/")}; path=/; max-age=600; SameSite=Lax`;
+
         const { error } = await supabase.auth.signInWithOAuth({
           provider,
           options: {

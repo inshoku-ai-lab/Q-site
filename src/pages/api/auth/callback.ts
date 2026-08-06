@@ -54,5 +54,13 @@ export const GET: APIRoute = async ({ request, cookies, redirect, url }) => {
     console.log(`auth callback: created member row for user ${user.id}`);
   }
 
-  return redirect(referrer || "/");
+  // Prefer the cookie set right before the OAuth redirect over the "ref"
+  // query param -- some providers' redirect chains don't reliably carry a
+  // query param all the way through provider -> Supabase -> here, but the
+  // cookie survives regardless of provider.
+  const cookieRedirect = cookies.get("post_login_redirect")?.value;
+  cookies.delete("post_login_redirect", { path: "/" });
+  const redirectTarget = (cookieRedirect ? decodeURIComponent(cookieRedirect) : referrer) || "/";
+
+  return redirect(redirectTarget);
 };
