@@ -1,0 +1,94 @@
+---
+export const prerender = true;
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout title="プライバシーポリシー" description="Qryptraveller's Notesのプライバシーポリシー。">
+  <article class="max-w-prose mx-auto px-4 md:px-0 py-16">
+    <header class="mb-10">
+      <div class="text-xs uppercase tracking-[0.3em] text-earth mb-3">Privacy Policy</div>
+      <h1 class="font-serif text-3xl md:text-4xl font-semibold text-ink leading-tight">プライバシーポリシー</h1>
+      <p class="text-sm text-ink-muted mt-3">制定日: 2026年8月6日</p>
+    </header>
+
+    <div class="prose-article">
+      <p>
+        Qryptraveller's Notes(qryptraveller.com、以下「当サイト」)は、訪問者および会員(以下「ユーザー」)の個人情報を、
+        以下の方針に基づいて取り扱います。
+      </p>
+
+      <h2>1. 取得する情報</h2>
+      <p><strong>会員登録(「旅路の証人」)について</strong></p>
+      <p>
+        Google・Facebook・LINEのいずれかでログインいただく際、各プロバイダから提供されるメールアドレス・表示名などの
+        基本情報を取得します。加えて、会員登録時にご入力いただく応援理由、登録のきっかけとなった記事の情報を保存します。
+      </p>
+      <p><strong>お問い合わせフォーム</strong></p>
+      <p>
+        お名前、メールアドレス、お問い合わせ内容、および送信元IPアドレス(スパム対策のため)を取得します。
+      </p>
+      <p><strong>バグ報告フォーム</strong></p>
+      <p>
+        不具合の内容、任意でご入力いただくメールアドレス、発生したページのURL、お使いの端末・ブラウザ・OSの情報、
+        画面サイズ、送信元IPアドレスを取得します。
+      </p>
+
+      <h2>2. 利用目的</h2>
+      <ul>
+        <li>会員限定コンテンツの提供、ログイン状態の維持</li>
+        <li>お問い合わせ・バグ報告への対応</li>
+        <li>不正利用・スパム行為の防止</li>
+        <li>サイトの改善(不具合の修正など)</li>
+      </ul>
+      <p>
+        広告配信や第三者へのデータ提供を目的とした利用は行っていません。当サイトはGoogle Analyticsなどの
+        アクセス解析・広告用トラッキングツールを使用していません。
+      </p>
+
+      <h2>3. Cookieについて</h2>
+      <p>当サイトでは、以下の目的でCookieを使用しています。</p>
+      <ul>
+        <li>ログイン状態を維持するための認証用Cookie(必須)</li>
+        <li>ログイン前に読んでいた記事に戻るための一時的なCookie(有効期限10分)</li>
+      </ul>
+      <p>広告目的のCookieは使用していません。</p>
+
+      <h2>4. データの保存先(委託先)</h2>
+      <p>取得した情報は、以下の外部サービスを通じて保存・処理されます。</p>
+      <ul>
+        <li><strong>Supabase</strong>(会員データベース・ログイン認証)</li>
+        <li><strong>Airtable</strong>(バグ報告の記録)</li>
+        <li><strong>Resend</strong>(メール送信)</li>
+        <li><strong>Cloudflare Turnstile</strong>(お問い合わせフォームのスパム対策)</li>
+        <li><strong>Vercel</strong>(サイトのホスティング)</li>
+      </ul>
+      <p>これらのサービスは、それぞれのプライバシーポリシーに基づいて運営されています。</p>
+
+      <h2>5. 退会時の取り扱い</h2>
+      <p>
+        会員が退会した場合、氏名・メールアドレスなど個人を特定できる情報は削除されます。統計目的で、
+        個人を特定できない形式(登録方法・応援理由・在籍期間のみ)のデータを匿名化して保持することがあります。
+      </p>
+
+      <h2>6. 情報の開示・削除</h2>
+      <p>
+        ご自身の登録情報の確認・削除をご希望の場合は、<a href="/contact/">お問い合わせフォーム</a>よりご連絡ください。
+        合理的な期間内に対応します。
+      </p>
+
+      <h2>7. 未成年者の利用について</h2>
+      <p>
+        当サイトの会員登録には年齢制限を設けていませんが、未成年の方は保護者の同意を得た上でご利用ください。
+      </p>
+
+      <h2>8. 本ポリシーの変更</h2>
+      <p>
+        本ポリシーの内容は、必要に応じて予告なく変更することがあります。変更後の内容は、
+        本ページに掲載した時点で効力を生じるものとします。
+      </p>
+
+      <h2>9. お問い合わせ</h2>
+      <p>本ポリシーに関するお問い合わせは、<a href="/contact/">お問い合わせフォーム</a>よりお願いします。</p>
+    </div>
+  </article>
+</Layout>
