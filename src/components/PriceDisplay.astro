@@ -1,0 +1,67 @@
+---
+import type { SilverPriceBreakdown } from "../lib/silverPrice";
+
+interface Props {
+  ok: boolean;
+  breakdown?: SilverPriceBreakdown;
+}
+
+const { ok, breakdown } = Astro.props;
+
+const yen = new Intl.NumberFormat("ja-JP", { style: "currency", currency: "JPY", maximumFractionDigits: 0 });
+const usd = new Intl.NumberFormat("en-US", { style: "currency", currency: "USD", maximumFractionDigits: 2 });
+
+const updatedLabel = breakdown
+  ? new Date(breakdown.fetchedAt).toLocaleTimeString("ja-JP", {
+      hour: "2-digit",
+      minute: "2-digit",
+      timeZone: "Asia/Tokyo",
+    })
+  : null;
+---
+
+{
+  ok && breakdown ? (
+    <div class="bg-paper-50 border border-paper-300 rounded-lg p-6 md:p-8">
+      <p class="text-xs text-ink-muted mb-1">1オンス銀貨 1枚あたり(デザインはランダム)</p>
+      <p class="font-serif text-4xl md:text-5xl font-bold text-ink mb-1">{yen.format(breakdown.finalJpy)}</p>
+      <p class="text-xs text-ink-muted mb-6">最終更新: {updatedLabel}(JST)</p>
+
+      <details class="text-sm text-ink-muted">
+        <summary class="cursor-pointer text-moss hover:text-moss-dark select-none">価格の内訳を見る</summary>
+        <dl class="mt-3 space-y-1.5 border-t border-paper-300 pt-3">
+          <div class="flex justify-between">
+            <dt>銀スポット価格</dt>
+            <dd>{usd.format(breakdown.spotUsd)} / oz</dd>
+          </div>
+          <div class="flex justify-between">
+            <dt>業者手数料 {breakdown.settings.dealerFeePct}%</dt>
+            <dd>{usd.format(breakdown.afterDealerUsd)} / oz</dd>
+          </div>
+          <div class="flex justify-between">
+            <dt>為替レート</dt>
+            <dd>{breakdown.usdJpyRate.toFixed(2)} 円/ドル</dd>
+          </div>
+          <div class="flex justify-between">
+            <dt>為替手数料 {breakdown.settings.fxFeePct}%</dt>
+            <dd>{yen.format(breakdown.afterFxFeeJpy)}</dd>
+          </div>
+          <div class="flex justify-between">
+            <dt>消費税 {breakdown.settings.consumptionTaxPct}%</dt>
+            <dd>{yen.format(breakdown.afterTaxJpy)}</dd>
+          </div>
+          <div class="flex justify-between font-semibold text-ink">
+            <dt>手数料(GS) {breakdown.settings.gsFeePct}%</dt>
+            <dd>{yen.format(breakdown.finalJpy)}</dd>
+          </div>
+        </dl>
+      </details>
+    </div>
+  ) : (
+    <div class="bg-paper-50 border border-paper-300 rounded-lg p-6 md:p-8 text-center">
+      <p class="text-ink-muted text-sm">
+        現在価格を取得できません。時間をおいて再度お試しいただくか、お問い合わせください。
+      </p>
+    </div>
+  )
+}

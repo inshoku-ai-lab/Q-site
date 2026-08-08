@@ -1,0 +1,100 @@
+---
+export const prerender = false;
+import Layout from "../../../layouts/Layout.astro";
+import { requireAdmin, logAdminAccess } from "../../../lib/admin";
+import { getSilverPriceSettings } from "../../../lib/silverPrice";
+
+const auth = await requireAdmin(Astro.request, Astro.cookies);
+if (!auth.ok) {
+  return Astro.redirect("/");
+}
+await logAdminAccess(auth.admin, auth.email, "view_silver_settings");
+
+const settings = await getSilverPriceSettings(auth.admin);
+
+const FIELDS = [
+  { name: "dealer_fee_pct", label: "業者手数料 (%)", value: settings.dealerFeePct, note: "仕入れ先の在庫状況に応じて変動" },
+  { name: "fx_fee_pct", label: "為替手数料 (%)", value: settings.fxFeePct, note: "送金会社の手数料に応じて変動" },
+  { name: "consumption_tax_pct", label: "消費税 (%)", value: settings.consumptionTaxPct, note: "税制改定時に変更" },
+  { name: "gs_fee_pct", label: "GS手数料 (%)", value: settings.gsFeePct, note: "GSの意向で随時変更" },
+] as const;
+---
+
+<Layout title="銀価格設定" description="銀の購入代行 手数料設定" noIndex>
+  <div class="max-w-xl mx-auto px-4 md:px-0 py-12">
+    <div class="flex items-center justify-between mb-6">
+      <h1 class="font-serif text-2xl font-semibold text-ink">銀価格設定</h1>
+      <nav class="text-sm">
+        <a href="/admin" class="text-earth hover:text-ink underline">ダッシュボードへ</a>
+      </nav>
+    </div>
+
+    <p class="text-sm text-ink-muted mb-6">
+      ここで変更した手数料は、<a href="/silver" class="text-earth underline" target="_blank" rel="noopener">/silver</a>
+      の価格表示に(エッジキャッシュのため最大30分後に)反映されます。
+    </p>
+
+    <form id="silver-settings-form" class="space-y-5">
+      {FIELDS.map((f) => (
+        <label class="block">
+          <span class="text-sm text-ink font-medium">{f.label}</span>
+          <input
+            type="number"
+            step="0.01"
+            min="0"
+            max="100"
+            name={f.name}
+            value={f.value}
+            required
+            class="mt-1 w-full border border-paper-300 rounded-md px-3 py-2 text-ink bg-white"
+          />
+          <span class="block text-xs text-ink-muted mt-1">{f.note}</span>
+        </label>
+      ))}
+
+      <div class="flex items-center gap-3">
+        <button
+          type="submit"
+          class="bg-moss-light hover:bg-moss text-white px-5 py-2 rounded-md text-sm font-medium"
+        >
+          保存
+        </button>
+        <p id="save-status" class="text-sm"></p>
+      </div>
+    </form>
+  </div>
+
+  <script>
+    const form = document.getElementById("silver-settings-form") as HTMLFormElement;
+    const status = document.getElementById("save-status") as HTMLElement;
+    const submitBtn = form.querySelector('button[type="submit"]') as HTMLButtonElement;
+
+    form.addEventListener("submit", async (e) => {
+      e.preventDefault();
+      status.textContent = "";
+      const fd = new FormData(form);
+      const body = {
+        dealer_fee_pct: parseFloat(fd.get("dealer_fee_pct") as string),
+        fx_fee_pct: parseFloat(fd.get("fx_fee_pct") as string),
+        consumption_tax_pct: parseFloat(fd.get("consumption_tax_pct") as string),
+        gs_fee_pct: parseFloat(fd.get("gs_fee_pct") as string),
+      };
+
+      submitBtn.disabled = true;
+      try {
+        const res = await fetch("/api/admin/silver-settings", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(body),
+        });
+        status.textContent = res.ok ? "保存しました。" : "保存に失敗しました。入力値をご確認ください。";
+        status.className = res.ok ? "text-sm text-moss-dark" : "text-sm text-earth";
+      } catch {
+        status.textContent = "保存に失敗しました。通信をご確認ください。";
+        status.className = "text-sm text-earth";
+      } finally {
+        submitBtn.disabled = false;
+      }
+    });
+  </script>
+</Layout>

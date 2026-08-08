@@ -1,0 +1,29 @@
+---
+export const prerender = false;
+import Layout from "../../layouts/Layout.astro";
+import PriceDisplay from "../../components/PriceDisplay.astro";
+import { createSupabaseAdminClient } from "../../lib/supabase/admin";
+import { getSilverPriceData } from "../../lib/silverPrice";
+
+// Free spot-price feed changes gradually enough that a 30-min edge cache is
+// fine, and stale-while-revalidate means a feed outage still serves the last
+// good render (up to 24h) instead of the fallback message in PriceDisplay.
+Astro.response.headers.set("Cache-Control", "public, s-maxage=1800, stale-while-revalidate=86400");
+
+const admin = createSupabaseAdminClient();
+const priceData = await getSilverPriceData(admin);
+---
+
+<Layout
+  title="銀の購入代行"
+  description="1オンス銀貨の購入代行。現在価格を時価連動で表示。"
+>
+  <div class="max-w-prose mx-auto px-4 md:px-0 py-12 md:py-16">
+    <h1 class="font-serif text-2xl md:text-3xl font-bold text-ink mb-4">銀の購入代行</h1>
+    <p class="text-ink leading-relaxed mb-8">
+      1オンス銀貨(デザインはランダム)の購入を代行しています。現在の価格は以下の通りです。
+    </p>
+
+    <PriceDisplay ok={priceData.ok} breakdown={priceData.ok ? priceData.breakdown : undefined} />
+  </div>
+</Layout>
