@@ -2,6 +2,7 @@
 export const prerender = false;
 import Layout from "../../layouts/Layout.astro";
 import PriceDisplay from "../../components/PriceDisplay.astro";
+import ContactForm from "../../components/ContactForm.astro";
 import { createSupabaseAdminClient } from "../../lib/supabase/admin";
 import { getSilverPriceData } from "../../lib/silverPrice";
 
@@ -25,5 +26,34 @@ const priceData = await getSilverPriceData(admin);
     </p>
 
     <PriceDisplay ok={priceData.ok} breakdown={priceData.ok ? priceData.breakdown : undefined} />
+
+    <ol class="grid grid-cols-1 sm:grid-cols-4 gap-4 my-10 text-sm">
+      {[
+        "フォームを送信(お名前・メールアドレス・簡単なご希望)",
+        "担当より折り返しご連絡(本名・お届け先などを確認)",
+        "お見積り確定・お支払い方法のご案内",
+        "ご入金確認後、発送",
+      ].map((step, i) => (
+        <li class="flex gap-3 sm:flex-col sm:gap-1.5">
+          <span class="font-serif font-bold text-earth text-lg leading-none">{i + 1}</span>
+          <span class="text-ink-muted leading-snug">{step}</span>
+        </li>
+      ))}
+    </ol>
+
+    <section class="border-t border-paper-300 pt-10">
+      <h2 class="font-serif text-xl font-semibold text-ink mb-2">購入のお問い合わせ</h2>
+      <p class="text-ink-muted text-sm leading-relaxed mb-6">
+        本名やお届け先住所は、この時点では不要です。お名前(本名でなくて構いません)・メールアドレスと、分かる範囲でのご希望をお送りください。詳細は追ってメールでお伺いします。
+      </p>
+      <ContactForm
+        source="silver"
+        messageLabel="ご希望枚数・お届け先地域など"
+        messageHelp="分かる範囲で構いません。ご不明な点はここにお書きください。"
+        messagePlaceholder="例:2枚、東京都内 など"
+        submitLabel="購入について問い合わせる"
+        successMessage="送信しました。内容を確認の上、通常2〜3営業日以内に担当よりご連絡いたします。"
+      />
+    </section>
   </div>
 </Layout>

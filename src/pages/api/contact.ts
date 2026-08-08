@@ -9,6 +9,15 @@ const MIN_FILL_TIME_MS = 2000;
 const RATE_LIMIT_WINDOW_MIN = 15;
 const RATE_LIMIT_MAX = 3;
 
+// Which form this submission came from -- shared mechanism, see
+// src/components/ContactForm.astro. Unrecognized values fall back to
+// "general" rather than rejecting the request.
+const SOURCES = new Set(["general", "silver"]);
+const SOURCE_SUBJECTS: Record<string, string> = {
+  general: "【お問い合わせ】",
+  silver: "【銀のご購入お問い合わせ】",
+};
+
 function getClientIp(request: Request): string | null {
   const forwardedFor = request.headers.get("x-forwarded-for");
   if (!forwardedFor) return null;
@@ -46,7 +55,7 @@ async function verifyTurnstile(token: string, ip: string | null): Promise<boolea
 // contact_messages regardless of whether this succeeds, so failures here
 // never fail the request. They ARE logged (visible in Vercel's function
 // logs) so a silent delivery gap is diagnosable instead of invisible.
-async function notifyByEmail(name: string, email: string, message: string) {
+async function notifyByEmail(name: string, email: string, message: string, source: string) {
   const apiKey = import.meta.env.RESEND_API_KEY;
   const notifyEmail = import.meta.env.CONTACT_NOTIFY_EMAIL;
   if (!apiKey || !notifyEmail) {
@@ -54,6 +63,7 @@ async function notifyByEmail(name: string, email: string, message: string) {
     return;
   }
 
+  const subjectPrefix = SOURCE_SUBJECTS[source] ?? SOURCE_SUBJECTS.general;
   try {
     const res = await fetch("https://api.resend.com/emails", {
       method: "POST",
@@ -65,7 +75,7 @@ async function notifyByEmail(name: string, email: string, message: string) {
         from: "Qryptraveller's Notes <contact@qryptraveller.com>",
         to: notifyEmail,
         reply_to: email,
-        subject: `【お問い合わせ】${name}様より`,
+        subject: `${subjectPrefix}${name}様より`,
         text: `お名前: ${name}\nメール: ${email}\n\n${message}`,
       }),
     });
@@ -107,6 +117,7 @@ export const POST: APIRoute = async ({ request }) => {
   const name = typeof body.name === "string" ? body.name.trim() : "";
   const email = typeof body.email === "string" ? body.email.trim() : "";
   const message = typeof body.message === "string" ? body.message.trim() : "";
+  const source = typeof body.source === "string" && SOURCES.has(body.source) ? body.source : "general";
 
   if (!name || !email || !message) {
     return new Response(JSON.stringify({ error: "missing_fields" }), { status: 400 });
@@ -138,12 +149,12 @@ export const POST: APIRoute = async ({ request }) => {
     }
   }
 
-  const { error } = await admin.from("contact_messages").insert({ name, email, message, ip_address: ip });
+  const { error } = await admin.from("contact_messages").insert({ name, email, message, ip_address: ip, source });
   if (error) {
     return new Response(JSON.stringify({ error: "insert_failed" }), { status: 500 });
   }
 
-  await notifyByEmail(name, email, message);
+  await notifyByEmail(name, email, message, source);
 
   return new Response(JSON.stringify({ ok: true }), {
     status: 200,

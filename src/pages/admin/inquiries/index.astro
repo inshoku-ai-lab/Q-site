@@ -12,7 +12,7 @@ await logAdminAccess(auth.admin, auth.email, "view_inquiries");
 
 const { data } = await auth.admin
   .from("contact_messages")
-  .select("id, name, email, message, status, created_at")
+  .select("id, name, email, message, status, source, created_at")
   .order("created_at", { ascending: false });
 const inquiries = data ?? [];
 
@@ -22,6 +22,7 @@ const STATUS_STYLES: Record<string, string> = {
   read: "bg-earth/10 text-earth",
   replied: "bg-moss/10 text-moss-dark",
 };
+const SOURCE_LABELS: Record<string, string> = { general: "一般", silver: "銀" };
 ---
 
 <Layout title="お問い合わせ一覧" description="旅路の証人 お問い合わせ一覧" noIndex>
@@ -38,6 +39,9 @@ const STATUS_STYLES: Record<string, string> = {
         <div class="border border-paper-300 rounded-md p-4" data-inquiry-id={inq.id}>
           <div class="flex flex-wrap items-center justify-between gap-2 mb-2">
             <div class="text-sm">
+              <span class="text-xs px-2 py-0.5 rounded-full bg-thought/10 text-thought-dark mr-2">
+                {SOURCE_LABELS[inq.source] ?? inq.source}
+              </span>
               <span class="text-ink font-semibold">{inq.name}</span>
               <span class="text-ink-muted ml-2">{inq.email}</span>
             </div>
