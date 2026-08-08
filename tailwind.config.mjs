@@ -3,14 +3,14 @@ export default {
   content: ["./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}"],
   safelist: [
     // Dynamic category accent classes
-    "text-wandering", "text-thought", "text-current", "text-essay", "text-bitcoin", "text-spirituality", "text-moss", "text-ink",
-    "bg-wandering/10", "bg-thought/10", "bg-current/10", "bg-essay/10", "bg-bitcoin/10", "bg-spirituality/10", "bg-moss/10",
-    "bg-wandering/20", "bg-thought/20", "bg-current/20", "bg-essay/20", "bg-bitcoin/20", "bg-spirituality/20", "bg-moss/20",
-    "from-wandering/20", "from-thought/20", "from-current/20", "from-essay/20", "from-bitcoin/20", "from-spirituality/20", "from-moss/20",
-    "to-wandering/20", "to-thought/20", "to-current/20", "to-essay/20", "to-bitcoin/20", "to-spirituality/20",
-    "border-wandering", "border-thought", "border-current", "border-essay", "border-bitcoin", "border-spirituality", "border-moss",
-    "border-l-wandering", "border-l-thought", "border-l-current", "border-l-essay", "border-l-bitcoin", "border-l-spirituality", "border-l-moss",
-    "text-wandering-dark", "text-thought-dark", "text-current-dark", "text-essay-dark", "text-bitcoin-dark", "text-spirituality-dark",
+    "text-wandering", "text-thought", "text-current", "text-essay", "text-bitcoin", "text-spirituality", "text-silver", "text-moss", "text-ink",
+    "bg-wandering/10", "bg-thought/10", "bg-current/10", "bg-essay/10", "bg-bitcoin/10", "bg-spirituality/10", "bg-silver/10", "bg-moss/10",
+    "bg-wandering/20", "bg-thought/20", "bg-current/20", "bg-essay/20", "bg-bitcoin/20", "bg-spirituality/20", "bg-silver/20", "bg-moss/20",
+    "from-wandering/20", "from-thought/20", "from-current/20", "from-essay/20", "from-bitcoin/20", "from-spirituality/20", "from-silver/20", "from-moss/20",
+    "to-wandering/20", "to-thought/20", "to-current/20", "to-essay/20", "to-bitcoin/20", "to-spirituality/20", "to-silver/20",
+    "border-wandering", "border-thought", "border-current", "border-essay", "border-bitcoin", "border-spirituality", "border-silver", "border-moss",
+    "border-l-wandering", "border-l-thought", "border-l-current", "border-l-essay", "border-l-bitcoin", "border-l-spirituality", "border-l-silver", "border-l-moss",
+    "text-wandering-dark", "text-thought-dark", "text-current-dark", "text-essay-dark", "text-bitcoin-dark", "text-spirituality-dark", "text-silver-dark",
   ],
   theme: {
     extend: {
@@ -60,6 +60,10 @@ export default {
         spirituality: {
           DEFAULT: "#6F5791",  // スピリチュアリティ accent (muted violet)
           dark: "#4F3E68",
+        },
+        silver: {
+          DEFAULT: "#5C6670",  // 資産防衛 accent (cool steel/pewter, distinct from thought's blue-gray and essay's warm gray)
+          dark: "#3E464D",
         },
       },
       fontFamily: {

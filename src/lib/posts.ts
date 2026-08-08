@@ -480,6 +480,7 @@ export function categoryAccent(category: string | null): string {
     case "エッセイ・その他": return "essay";
     case "ビットコインの真実": return "bitcoin";
     case "スピリチュアリティ": return "spirituality";
+    case "資産防衛": return "silver";
     default: return "ink";
   }
 }
@@ -495,6 +496,7 @@ export function categoryAccentHex(category: string | null): string {
     case "エッセイ・その他": return "#746B5C";
     case "ビットコインの真実": return "#8A6719";
     case "スピリチュアリティ": return "#6F5791";
+    case "資産防衛": return "#5C6670";
     default: return "#2A1F11";
   }
 }
