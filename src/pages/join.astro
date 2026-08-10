@@ -163,6 +163,7 @@ import Layout from "../layouts/Layout.astro";
 
   <script>
     import { createSupabaseBrowserClient } from "../lib/supabase/browser";
+    import { safeRedirectPath } from "../lib/http";
 
     const supabase = createSupabaseBrowserClient();
 
@@ -190,7 +191,11 @@ import Layout from "../layouts/Layout.astro";
     );
 
     const params = new URLSearchParams(window.location.search);
-    const referrer = params.get("ref") ?? "";
+    // `?ref=` is whatever the inbound link put there. Normalise it to a
+    // same-site path here so an off-site value is never echoed into the
+    // OAuth redirect URL or the post-login cookie in the first place --
+    // the callback validates it again server-side.
+    const referrer = safeRedirectPath(params.get("ref"), "");
 
     const ERROR_MESSAGES = {
       missing_code: "ログイン情報を受け取れませんでした。もう一度お試しください。",
@@ -218,7 +223,8 @@ import Layout from "../layouts/Layout.astro";
         // OAuth providers' redirect chains don't reliably preserve a query
         // param all the way through provider -> Supabase -> our callback.
         // A cookie survives that round-trip regardless of provider.
-        document.cookie = `post_login_redirect=${encodeURIComponent(referrer || "/")}; path=/; max-age=600; SameSite=Lax`;
+        const secureFlag = window.location.protocol === "https:" ? "; Secure" : "";
+        document.cookie = `post_login_redirect=${encodeURIComponent(referrer || "/")}; path=/; max-age=600; SameSite=Lax${secureFlag}`;
 
         const { error } = await supabase.auth.signInWithOAuth({
           provider,

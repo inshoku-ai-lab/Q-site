@@ -2,6 +2,7 @@ export const prerender = false;
 
 import type { APIRoute } from "astro";
 import { createSupabaseAdminClient } from "../../lib/supabase/admin";
+import { getClientIp, isJsonRequest, isSameOrigin, jsonResponse } from "../../lib/http";
 
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 const MAX_LEN = { name: 100, email: 200, message: 5000 };
@@ -9,18 +10,23 @@ const MIN_FILL_TIME_MS = 2000;
 const RATE_LIMIT_WINDOW_MIN = 15;
 const RATE_LIMIT_MAX = 3;
 
-function getClientIp(request: Request): string | null {
-  const forwardedFor = request.headers.get("x-forwarded-for");
-  if (!forwardedFor) return null;
-  return forwardedFor.split(",")[0].trim() || null;
-}
-
-// Skips (returns true) until TURNSTILE_SECRET_KEY is configured in Vercel,
-// so the form works before Turnstile is set up and starts enforcing it the
-// moment both the site key (client) and secret key (server) are present.
+// Enforcement depends on how Turnstile is configured:
+//   - no site key and no secret  -> Turnstile isn't set up at all; the
+//     honeypot, the fill-time check and the IP rate limit carry the form.
+//   - site key set (widget renders) -> the secret MUST be present, and a
+//     token MUST verify. Anything else is a misconfiguration that would
+//     otherwise silently downgrade the form to no bot protection.
 async function verifyTurnstile(token: string, ip: string | null): Promise<boolean> {
   const secret = import.meta.env.TURNSTILE_SECRET_KEY;
-  if (!secret) return true;
+  const siteKey = import.meta.env.PUBLIC_TURNSTILE_SITE_KEY;
+
+  if (!secret) {
+    if (siteKey) {
+      console.error("contact turnstile: PUBLIC_TURNSTILE_SITE_KEY is set but TURNSTILE_SECRET_KEY is not -- rejecting");
+      return false;
+    }
+    return true;
+  }
   if (!token) return false;
 
   try {
@@ -78,19 +84,23 @@ async function notifyByEmail(name: string, email: string, message: string) {
 }
 
 export const POST: APIRoute = async ({ request }) => {
+  // Cross-site form posts can't set Content-Type: application/json, and a
+  // browser always labels a cross-origin fetch with an Origin header --
+  // together these keep this endpoint reachable only from our own pages.
+  if (!isSameOrigin(request) || !isJsonRequest(request)) {
+    return jsonResponse({ error: "forbidden" }, 403);
+  }
+
   let body: Record<string, unknown>;
   try {
     body = await request.json();
   } catch {
-    return new Response(JSON.stringify({ error: "invalid_body" }), { status: 400 });
+    return jsonResponse({ error: "invalid_body" }, 400);
   }
 
   // Honeypot: legitimate users never fill this hidden field.
   if (typeof body.website === "string" && body.website.trim() !== "") {
-    return new Response(JSON.stringify({ ok: true }), {
-      status: 200,
-      headers: { "Content-Type": "application/json" },
-    });
+    return jsonResponse({ ok: true }, 200);
   }
 
   // Bots that fetch the page and POST immediately submit faster than any
@@ -98,10 +108,7 @@ export const POST: APIRoute = async ({ request }) => {
   // so scripted submitters get no signal that they were filtered.
   const elapsedMs = typeof body.elapsedMs === "number" ? body.elapsedMs : 0;
   if (elapsedMs < MIN_FILL_TIME_MS) {
-    return new Response(JSON.stringify({ ok: true }), {
-      status: 200,
-      headers: { "Content-Type": "application/json" },
-    });
+    return jsonResponse({ ok: true }, 200);
   }
 
   const name = typeof body.name === "string" ? body.name.trim() : "";
@@ -109,19 +116,19 @@ export const POST: APIRoute = async ({ request }) => {
   const message = typeof body.message === "string" ? body.message.trim() : "";
 
   if (!name || !email || !message) {
-    return new Response(JSON.stringify({ error: "missing_fields" }), { status: 400 });
+    return jsonResponse({ error: "missing_fields" }, 400);
   }
   if (!EMAIL_RE.test(email)) {
-    return new Response(JSON.stringify({ error: "invalid_email" }), { status: 400 });
+    return jsonResponse({ error: "invalid_email" }, 400);
   }
   if (name.length > MAX_LEN.name || email.length > MAX_LEN.email || message.length > MAX_LEN.message) {
-    return new Response(JSON.stringify({ error: "too_long" }), { status: 400 });
+    return jsonResponse({ error: "too_long" }, 400);
   }
 
   const ip = getClientIp(request);
   const turnstileToken = typeof body.turnstileToken === "string" ? body.turnstileToken : "";
   if (!(await verifyTurnstile(turnstileToken, ip))) {
-    return new Response(JSON.stringify({ error: "verification_failed" }), { status: 400 });
+    return jsonResponse({ error: "verification_failed" }, 400);
   }
 
   const admin = createSupabaseAdminClient();
@@ -134,19 +141,16 @@ export const POST: APIRoute = async ({ request }) => {
       .eq("ip_address", ip)
       .gte("created_at", since);
     if ((count ?? 0) >= RATE_LIMIT_MAX) {
-      return new Response(JSON.stringify({ error: "rate_limited" }), { status: 429 });
+      return jsonResponse({ error: "rate_limited" }, 429);
     }
   }
 
   const { error } = await admin.from("contact_messages").insert({ name, email, message, ip_address: ip });
   if (error) {
-    return new Response(JSON.stringify({ error: "insert_failed" }), { status: 500 });
+    return jsonResponse({ error: "insert_failed" }, 500);
   }
 
   await notifyByEmail(name, email, message);
 
-  return new Response(JSON.stringify({ ok: true }), {
-    status: 200,
-    headers: { "Content-Type": "application/json" },
-  });
+  return jsonResponse({ ok: true }, 200);
 };

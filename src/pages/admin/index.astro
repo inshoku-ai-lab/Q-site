@@ -22,6 +22,14 @@ const members = (membersData ?? []) as MemberRow[];
 const archive = (archiveData ?? []) as ArchiveRow[];
 const stats = buildDashboardStats(members, archive);
 
+// `referrer_article_slug` is written from the `?ref=` value the /join
+// link carries, which is a full path ("/posts/<slug>/"), not a bare slug
+// -- interpolating it into `/posts/${slug}/` produced "/posts//posts/x//".
+// Accept either shape so old and new rows both link correctly.
+function referrerHref(slug: string): string {
+  return slug.startsWith("/") ? slug : `/posts/${slug}/`;
+}
+
 const DOW_LABELS = ["日", "月", "火", "水", "木", "金", "土"];
 const maxHeatmapValue = Math.max(1, ...stats.heatmap.flat());
 const maxTimeSeriesValue = Math.max(1, ...stats.timeSeries.map((t) => Math.max(t.joins, t.leaves)));
@@ -201,7 +209,7 @@ const maxTimeSeriesValue = Math.max(1, ...stats.timeSeries.map((t) => Math.max(t
         <ul class="space-y-2 text-sm">
           {stats.topReferrers.map((r) => (
             <li class="flex justify-between border-b border-paper-200 py-1.5">
-              <a href={`/posts/${r.slug}/`} class="text-earth hover:text-ink underline break-all">{r.slug}</a>
+              <a href={referrerHref(r.slug)} class="text-earth hover:text-ink underline break-all">{r.slug}</a>
               <span class="text-ink-muted whitespace-nowrap ml-4">{r.count}人</span>
             </li>
           ))}

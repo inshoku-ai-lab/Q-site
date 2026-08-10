@@ -46,7 +46,16 @@ export default defineConfig({
   adapter: vercel(),
   integrations: [
     tailwind({ applyBaseStyles: false }),
-    sitemap(),
+    sitemap({
+      // Pages that carry <meta name="robots" content="noindex"> must not
+      // be advertised in the sitemap -- submitting a URL for indexing and
+      // then telling the crawler not to index it is a contradiction
+      // Search Console reports as an error.
+      filter: (page) => {
+        const { pathname } = new URL(page);
+        return !/^\/(search|account|admin)(\/|$)/.test(pathname);
+      },
+    }),
   ],
   redirects: legacyPostRedirects(),
   build: {

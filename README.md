@@ -92,7 +92,7 @@ npm run preview
 │   │   ├── series/index.astro
 │   │   ├── series/[name].astro  # シリーズ目次
 │   │   ├── category/index.astro
-│   │   ├── category/[name].astro
+│   │   ├── category/[name]/[...page].astro  # カテゴリ別 (24件ごとにページ送り)
 │   │   ├── tag/index.astro
 │   │   └── tag/[name].astro
 │   ├── lib/posts.ts             # データクエリヘルパー
@@ -166,6 +166,63 @@ cp -r ~/Desktop/qryp-images/images/wp/* public/images/wp/
 2. ローカルで `npm run sync` (または GitHub Actions で自動)
 3. `git commit` & `git push`
 4. Cloudflare Pages が自動ビルド & デプロイ
+
+## セキュリティ設計と運用チェックリスト
+
+コード側の防御はリポジトリ内で完結していますが、**コードからは検証できない設定が3つ**あります。
+デプロイ環境を触るときは、まずここを確認してください。
+
+### 1. Supabase の RLS (最重要・要手動確認)
+
+ブラウザには anon (publishable) キーが渡ります。したがって
+`members` / `contact_messages` / `admin_allowlist` / `member_stats_archive` / `admin_access_log`
+の各テーブルで **RLS が有効で、かつ適切なポリシーが設定されていること**が、
+会員のメールアドレスが外部から読まれないための最後の砦です。
+
+- `members`: 本人の行のみ `select` 可 (`auth.uid() = auth_user_id`)。`insert` は本人分のみ。
+- `contact_messages` / `admin_access_log` / `member_stats_archive` / `admin_allowlist`:
+  anon・authenticated からのポリシーを一切与えない (service role 専用)。
+
+サイト側は管理系の読み書きをすべて service role クライアント経由で行うため、
+上記を締めてもアプリの機能は落ちません。
+
+### 2. Turnstile
+
+`PUBLIC_TURNSTILE_SITE_KEY` を設定した場合、`TURNSTILE_SECRET_KEY` も**必ず**設定してください。
+サイトキーだけが設定されている状態は、サーバー側で検証不能な誤設定として
+お問い合わせ送信が拒否されます (`src/pages/api/contact.ts`)。
+両方とも未設定の場合のみ、Turnstile 検証をスキップします。
+
+### 3. セキュリティヘッダーの配信経路
+
+Vercel アダプタは `.vercel/output/config.json` を自前で生成するため、
+**`vercel.json` の `headers` は無視されます**。そのため以下の二段構えです。
+
+| 対象 | 経路 | 内容 |
+|---|---|---|
+| 全ページ (静的含む) | `Layout.astro` の `<meta http-equiv>` | CSP |
+| SSR (`/admin/*`, `/account`, `/api/*`) | `src/middleware.ts` | CSP + `frame-ancestors` + `X-Frame-Options` ほか |
+
+CSP の定義は `src/lib/csp.ts` に集約されています。`connect-src` は
+`PUBLIC_SUPABASE_URL` からビルド時に自動導出するので、Supabase をカスタムドメインに
+移しても壊れません。**外部スクリプト・外部フォントを新たに追加する場合は
+`src/lib/csp.ts` の更新が必要**です。
+
+### 実装済みの防御 (参考)
+
+- 会員限定本文は静的HTMLに含めず、認証済みリクエストにのみ API から配信
+- OAuth コールバックのリダイレクト先は同一サイトの相対パスのみ許可 (`safeRedirectPath`)
+- 状態変更API は Origin/Referer 検証 + `Content-Type: application/json` 必須 (CSRF対策)
+- クライアントIPは `x-vercel-forwarded-for` / `x-real-ip` から取得 (偽装不可)
+- お問い合わせ・バグ報告ともに IP 単位のレート制限あり
+- CSV エクスポートは数式インジェクション対策済み
+- 移行コンテンツ由来の `javascript:` 等のURLスキームは描画時に無害化
+
+## 既知の運用判断事項
+
+- **`Status = "Review"` の記事も公開されます** (`src/lib/posts.ts` の `getPublishedPosts`)。
+  校正中の記事を公開したくない場合は `"Published"` のみに絞ってください。
+  該当記事数によっては公開範囲が大きく変わるため、意図的に現状維持としています。
 
 ## ライセンス
 

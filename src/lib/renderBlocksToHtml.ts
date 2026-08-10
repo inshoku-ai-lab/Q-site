@@ -1,6 +1,7 @@
 import type { Block } from "./posts";
 import { resolveInternalPost, resolveLegacyCategoryLink, domainOf, categoryAccentHex, formatDateShort } from "./posts";
 import { getOgp } from "./ogp";
+import { isSafeHttpUrl } from "./http";
 
 // Server-side mirror of components/ArticleBody.astro's block rendering,
 // used to render the member-only tail of an article as an HTML string for
@@ -136,12 +137,14 @@ export function renderBlocksToHtml(blocks: Block[]): string {
       case "blogcard":
       case "bookmark":
       case "embed":
-        if (b.url) parts.push(renderBlogCard(b.url));
+        // preprocessBlocks already drops non-http(s) URLs; re-checked here
+        // because this renderer is also reachable with hand-built blocks.
+        if (b.url && isSafeHttpUrl(b.url)) parts.push(renderBlogCard(b.url));
         break;
       case "video":
-        if (b.url) {
+        if (b.url && isSafeHttpUrl(b.url)) {
           parts.push(
-            `<div class="my-6 aspect-video"><iframe src="${escapeAttr(b.url)}" class="w-full h-full rounded-md" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>`
+            `<div class="my-6 aspect-video"><iframe src="${escapeAttr(b.url)}" class="w-full h-full rounded-md" loading="lazy" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>`
           );
         }
         break;

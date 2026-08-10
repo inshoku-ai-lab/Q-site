@@ -72,6 +72,8 @@ const nav = [
         id="menu-toggle"
         class="md:hidden p-2 text-ink-muted"
         aria-label="メニュー"
+        aria-expanded="false"
+        aria-controls="mobile-menu"
       >
         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
           <line x1="3" y1="6" x2="21" y2="6"></line>
@@ -139,7 +141,8 @@ const nav = [
   const toggle = document.getElementById("menu-toggle");
   const menu = document.getElementById("mobile-menu");
   toggle?.addEventListener("click", () => {
-    menu?.classList.toggle("hidden");
+    const isOpen = menu?.classList.toggle("hidden") === false;
+    toggle.setAttribute("aria-expanded", String(isOpen));
   });
 
   const siteHeader = document.getElementById("site-header");

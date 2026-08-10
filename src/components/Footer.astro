@@ -34,8 +34,10 @@ const year = new Date().getFullYear();
     </div>
   </div>
 
+  <!-- pb-24 on small screens keeps the last row clear of the floating
+       bug-report button, which sits at bottom-5 right-5 over the page. -->
   <div class="border-t border-paper-300">
-    <div class="max-w-page mx-auto px-4 md:px-8 py-5 flex flex-col md:flex-row justify-between items-center gap-3 text-xs text-ink-muted">
+    <div class="max-w-page mx-auto px-4 md:px-8 py-5 pb-24 md:pb-5 flex flex-col md:flex-row justify-between items-center gap-3 text-xs text-ink-muted">
       <span>© {year} Qryptraveller</span>
       <span class="italic font-serif">"Travel light, observe deeply."</span>
     </div>

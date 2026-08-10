@@ -1,4 +1,11 @@
 User-agent: *
 Allow: /
 
+# Admin dashboard, per-account pages and the JSON API have nothing
+# crawlable in them (and are access-controlled server-side regardless).
+Disallow: /admin
+Disallow: /account
+Disallow: /api/
+Disallow: /search
+
 Sitemap: https://qryptraveller.com/sitemap-index.xml

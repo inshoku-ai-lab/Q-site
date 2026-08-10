@@ -1,0 +1,111 @@
+---
+export const prerender = true;
+import type { GetStaticPathsOptions } from "astro";
+import Layout from "../../../layouts/Layout.astro";
+import ArticleCard from "../../../components/ArticleCard.astro";
+import { getCategoryIndex, getPostsByCategory, categoryAccentHex } from "../../../lib/posts";
+
+const catDescriptions: Record<string, string> = {
+  "放浪記": "20年以上の世界放浪を綴った自伝的連載。各地での出会いと別れ、日々の断片を残しています。",
+  "思想・理論": "デボリューション理論、意識論、覚醒についての考察と検証。",
+  "時事・情報戦": "メディアが報じない情報戦争・選挙の真実。",
+  "エッセイ・その他": "単発の随筆・観察・雑記。",
+  "スピリチュアリティ": "意識、トラウマ、自己と魂の探求。ティール・スワンの解説を中心に。",
+  "ビットコインの真実": "真のビットコイン(BSV)、サトシ・ナカモトの正体、暗号通貨を巡る情報戦。",
+};
+
+// The largest category (放浪記) holds 500+ posts. Rendering them as one
+// page meant 500 image cards in a single document -- slow to parse and
+// slow to scroll on a phone even with lazy loading. `paginate` keeps page
+// 1 on the original /category/<name>/ URL (so nothing that is already
+// linked or indexed breaks) and puts the rest on /category/<name>/2/ etc.
+//
+// Astro evaluates getStaticPaths in its own scope, so the page size lives
+// inside it rather than as a frontmatter const.
+export async function getStaticPaths({ paginate }: GetStaticPathsOptions) {
+  const PAGE_SIZE = 24;
+  return getCategoryIndex().flatMap((c) => {
+    const posts = getPostsByCategory(c.name).sort((a, b) => (b.date ?? "").localeCompare(a.date ?? ""));
+    return paginate(posts, {
+      params: { name: c.name },
+      props: { count: c.count },
+      pageSize: PAGE_SIZE,
+    });
+  });
+}
+
+const { page, count } = Astro.props;
+const name = Astro.params.name as string;
+const accentHex = categoryAccentHex(name);
+
+const basePath = `/category/${encodeURIComponent(name)}/`;
+const pageLabel = page.lastPage > 1 ? ` (${page.currentPage}/${page.lastPage}ページ)` : "";
+---
+
+<Layout
+  title={`${name} - カテゴリ${pageLabel}`}
+  description={`「${name}」カテゴリの全${count}記事。`}
+>
+  <div class="max-w-page mx-auto px-4 md:px-8 py-16">
+    <nav class="mb-6 flex items-center gap-2 text-xs text-ink-muted">
+      <a href="/" class="no-underline hover:text-ink">ホーム</a>
+      <span class="text-wandering/60">〜</span>
+      <a href="/category/" class="no-underline hover:text-ink">カテゴリ</a>
+      <span class="text-wandering/60">〜</span>
+      <span>{name}</span>
+    </nav>
+
+    <header
+      class="mb-10 p-8 rounded-lg border max-w-prose"
+      style={`background:linear-gradient(135deg, ${accentHex}24, ${accentHex}0a); border-color:${accentHex}33`}
+    >
+      <h1 class="font-serif text-2xl md:text-4xl font-bold leading-tight" style={`color:${accentHex}`}>{name}</h1>
+      {catDescriptions[name] && (
+        <p class="mt-3 text-sm text-ink-muted leading-relaxed">{catDescriptions[name]}</p>
+      )}
+      <p class="mt-3 text-xs font-mono text-ink-muted">
+        {count}件の記事{page.lastPage > 1 && ` ・ ${page.currentPage} / ${page.lastPage} ページ`}
+      </p>
+    </header>
+
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+      {page.data.map((post) => <ArticleCard post={post} variant="default" showCategory={false} headingLevel="h2" />)}
+    </div>
+
+    {page.lastPage > 1 && (
+      <nav class="mt-12 flex items-center justify-between gap-4" aria-label="ページ送り">
+        {page.url.prev ? (
+          <a
+            href={page.url.prev}
+            rel="prev"
+            class="px-5 py-2.5 border-[1.5px] border-ink/20 text-ink rounded-full text-sm no-underline hover:bg-moss-dark hover:text-paper-100 hover:border-moss-dark"
+          >
+            ← 前のページ
+          </a>
+        ) : (
+          <span></span>
+        )}
+
+        <span class="text-xs font-mono text-ink-muted">{page.currentPage} / {page.lastPage}</span>
+
+        {page.url.next ? (
+          <a
+            href={page.url.next}
+            rel="next"
+            class="px-5 py-2.5 bg-moss-light text-paper-100 rounded-full text-sm no-underline hover:bg-moss-dark"
+          >
+            次のページ →
+          </a>
+        ) : (
+          <span></span>
+        )}
+      </nav>
+    )}
+
+    {page.lastPage > 1 && (
+      <div class="mt-6 text-center text-sm">
+        <a href={basePath} class="text-moss no-underline hover:text-moss-dark">最初のページに戻る</a>
+      </div>
+    )}
+  </div>
+</Layout>

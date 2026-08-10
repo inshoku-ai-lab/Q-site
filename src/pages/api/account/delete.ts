@@ -4,8 +4,15 @@ import type { APIRoute } from "astro";
 import { createSupabaseServerClient } from "../../../lib/supabase/server";
 import { createSupabaseAdminClient } from "../../../lib/supabase/admin";
 import { getMember } from "../../../lib/members";
+import { forbiddenResponse, isSameOrigin } from "../../../lib/http";
 
 export const POST: APIRoute = async ({ request, cookies }) => {
+  // This endpoint irreversibly deletes the caller's account, so it must
+  // not be triggerable by a form on someone else's page.
+  if (!isSameOrigin(request)) {
+    return forbiddenResponse();
+  }
+
   const supabase = createSupabaseServerClient(request, cookies);
   const {
     data: { user },

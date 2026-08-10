@@ -95,10 +95,15 @@ const PROVIDER_LABELS: Record<string, string> = {
               <span class="text-ink">「旅路の証人」になった日</span>
               <span class="text-ink-muted">{formatDate(member.joined_at)}</span>
             </div>
-            <a href="/api/auth/logout" class="flex justify-between py-3.5 border-b border-paper-300 text-sm no-underline text-ink hover:text-moss-dark">
-              <span>ログアウト</span>
-              <span class="text-ink-muted">→</span>
-            </a>
+            <form method="post" action="/api/auth/logout" class="contents">
+              <button
+                type="submit"
+                class="flex w-full justify-between items-center py-3.5 border-b border-paper-300 text-sm text-ink hover:text-moss-dark text-left"
+              >
+                <span>ログアウト</span>
+                <span class="text-ink-muted">→</span>
+              </button>
+            </form>
           </div>
         </div>
 

@@ -1,6 +1,7 @@
 ---
 import type { Block } from "../lib/posts";
 import { preprocessBlocks } from "../lib/posts";
+import { isSafeHttpUrl } from "../lib/http";
 import { slugifyHeading } from "../lib/toc";
 import BlogCard from "./BlogCard.astro";
 
@@ -115,13 +116,20 @@ const groups = groupBlocks(blocks);
         case "blogcard":
         case "bookmark":
         case "embed":
-          if (!b.url) return null;
+          if (!b.url || !isSafeHttpUrl(b.url)) return null;
           return <BlogCard url={b.url} />;
         case "video":
-          if (!b.url) return null;
+          if (!b.url || !isSafeHttpUrl(b.url)) return null;
           return (
             <div class="my-6 aspect-video">
-              <iframe src={b.url} class="w-full h-full rounded-md" allow="autoplay; encrypted-media" allowfullscreen />
+              <iframe
+                src={b.url}
+                class="w-full h-full rounded-md"
+                title="埋め込み動画"
+                loading="lazy"
+                allow="autoplay; encrypted-media"
+                allowfullscreen
+              />
             </div>
           );
         default:

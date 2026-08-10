@@ -3,9 +3,18 @@ export const prerender = false;
 import type { APIRoute } from "astro";
 import { requireAdmin, logAdminAccess } from "../../../lib/admin";
 
+// `display_name` comes straight from the OAuth provider, so a member can
+// choose it. Excel/Sheets treat a leading =, +, - or @ as the start of a
+// formula, which turns an exported member list into code that runs on the
+// admin's machine when opened -- prefix those with a single quote so they
+// stay inert text. The quote is stripped by the spreadsheet on display.
+function neutralizeFormula(s: string): string {
+  return /^[=+\-@\t\r]/.test(s) ? `'${s}` : s;
+}
+
 function csvEscape(value: unknown): string {
-  const s = value === null || value === undefined ? "" : String(value);
-  if (/[",\n]/.test(s)) return `"${s.replace(/"/g, '""')}"`;
+  const s = neutralizeFormula(value === null || value === undefined ? "" : String(value));
+  if (/[",\n\r]/.test(s)) return `"${s.replace(/"/g, '""')}"`;
   return s;
 }
 

@@ -38,14 +38,17 @@ const ogImage = post.cover ?? `/og/${post.slug}.png`;
 const publishedTime = post.date ? new Date(post.date).toISOString() : undefined;
 const canonicalUrl = new URL(`/posts/${post.slug}/`, Astro.site ?? "https://qryptraveller.com").toString();
 const absoluteOgImage = new URL(ogImage, Astro.site ?? "https://qryptraveller.com").toString();
+const authorUrl = new URL("/about/", Astro.site ?? "https://qryptraveller.com").toString();
 const structuredData = {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
   headline: post.title,
-  ...(publishedTime && { datePublished: publishedTime }),
+  ...(publishedTime && { datePublished: publishedTime, dateModified: publishedTime }),
+  ...(description && { description }),
   image: [absoluteOgImage],
-  author: { "@type": "Person", name: "Qryptraveller" },
-  publisher: { "@type": "Organization", name: "Qryptraveller.com" },
+  author: { "@type": "Person", name: "Qryptraveller", url: authorUrl },
+  publisher: { "@type": "Organization", name: "Qryptraveller's Notes", url: Astro.site?.toString() ?? "https://qryptraveller.com" },
+  inLanguage: "ja",
   mainEntityOfPage: canonicalUrl,
 };
 ---
