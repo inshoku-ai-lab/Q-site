@@ -40,6 +40,33 @@ const accentHex = categoryAccentHex(name);
 
 const basePath = `/category/${encodeURIComponent(name)}/`;
 const pageLabel = page.lastPage > 1 ? ` (${page.currentPage}/${page.lastPage}ページ)` : "";
+
+// Matches Astro's own paginate() URL convention: page 1 has no numeric
+// suffix, page N>1 is `${basePath}${N}/`.
+function pageHref(n: number): string {
+  return n === 1 ? basePath : `${basePath}${n}/`;
+}
+
+// Prev/next alone meant reaching page 21 of 放浪記 took 20 clicks. Build a
+// windowed page-number list (first, last, and a few pages either side of
+// the current one, with "…" filling any gap) so any page is reachable in
+// one click -- the standard pagination pattern for a run this long.
+type PageLink = { n: number } | { ellipsis: true };
+function buildPageLinks(current: number, last: number): PageLink[] {
+  const windowSize = 2;
+  const shown = new Set<number>([1, last]);
+  for (let n = current - windowSize; n <= current + windowSize; n++) {
+    if (n >= 1 && n <= last) shown.add(n);
+  }
+  const sorted = [...shown].sort((a, b) => a - b);
+  const links: PageLink[] = [];
+  for (let i = 0; i < sorted.length; i++) {
+    if (i > 0 && sorted[i] - sorted[i - 1] > 1) links.push({ ellipsis: true });
+    links.push({ n: sorted[i] });
+  }
+  return links;
+}
+const pageLinks = page.lastPage > 1 ? buildPageLinks(page.currentPage, page.lastPage) : [];
 ---
 
 <Layout
@@ -73,39 +100,61 @@ const pageLabel = page.lastPage > 1 ? ` (${page.currentPage}/${page.lastPage}ペ
     </div>
 
     {page.lastPage > 1 && (
-      <nav class="mt-12 flex items-center justify-between gap-4" aria-label="ページ送り">
-        {page.url.prev ? (
-          <a
-            href={page.url.prev}
-            rel="prev"
-            class="px-5 py-2.5 border-[1.5px] border-ink/20 text-ink rounded-full text-sm no-underline hover:bg-moss-dark hover:text-paper-100 hover:border-moss-dark"
-          >
-            ← 前のページ
-          </a>
-        ) : (
-          <span></span>
-        )}
+      <nav class="mt-12 flex flex-col items-center gap-4" aria-label="ページ送り">
+        <div class="flex flex-wrap items-center justify-center gap-1.5">
+          {page.url.prev ? (
+            <a
+              href={page.url.prev}
+              rel="prev"
+              aria-label="前のページ"
+              class="w-9 h-9 flex items-center justify-center border-[1.5px] border-ink/20 text-ink rounded-full text-sm no-underline hover:bg-moss-dark hover:text-paper-100 hover:border-moss-dark"
+            >
+              ←
+            </a>
+          ) : (
+            <span class="w-9 h-9" aria-hidden="true"></span>
+          )}
 
-        <span class="text-xs font-mono text-ink-muted">{page.currentPage} / {page.lastPage}</span>
+          {pageLinks.map((link) =>
+            "ellipsis" in link ? (
+              <span class="w-9 h-9 flex items-center justify-center text-ink-muted text-sm" aria-hidden="true">
+                …
+              </span>
+            ) : (
+              <a
+                href={pageHref(link.n)}
+                aria-current={link.n === page.currentPage ? "page" : undefined}
+                class={`w-9 h-9 flex items-center justify-center rounded-full text-sm no-underline font-mono ${
+                  link.n === page.currentPage
+                    ? "bg-moss-light text-paper-100"
+                    : "border-[1.5px] border-ink/20 text-ink hover:bg-moss-dark hover:text-paper-100 hover:border-moss-dark"
+                }`}
+              >
+                {link.n}
+              </a>
+            )
+          )}
 
-        {page.url.next ? (
-          <a
-            href={page.url.next}
-            rel="next"
-            class="px-5 py-2.5 bg-moss-light text-paper-100 rounded-full text-sm no-underline hover:bg-moss-dark"
-          >
-            次のページ →
-          </a>
-        ) : (
-          <span></span>
-        )}
+          {page.url.next ? (
+            <a
+              href={page.url.next}
+              rel="next"
+              aria-label="次のページ"
+              class="w-9 h-9 flex items-center justify-center border-[1.5px] border-ink/20 text-ink rounded-full text-sm no-underline hover:bg-moss-dark hover:text-paper-100 hover:border-moss-dark"
+            >
+              →
+            </a>
+          ) : (
+            <span class="w-9 h-9" aria-hidden="true"></span>
+          )}
+        </div>
+
+        <div class="flex items-center gap-4 text-sm">
+          <a href={pageHref(1)} class="text-moss no-underline hover:text-moss-dark">最初のページへ</a>
+          <span class="text-ink-muted font-mono text-xs">{page.currentPage} / {page.lastPage}</span>
+          <a href={pageHref(page.lastPage)} class="text-moss no-underline hover:text-moss-dark">最後のページへ</a>
+        </div>
       </nav>
-    )}
-
-    {page.lastPage > 1 && (
-      <div class="mt-6 text-center text-sm">
-        <a href={basePath} class="text-moss no-underline hover:text-moss-dark">最初のページに戻る</a>
-      </div>
     )}
   </div>
 </Layout>

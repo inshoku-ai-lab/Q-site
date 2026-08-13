@@ -137,7 +137,12 @@ const structuredData = {
       <ArticleBody blocks={freeBlocks} />
 
       {hasMemberContent && (
-        <div id="member-gate" data-slug={post.slug} class="mt-6 border-t border-paper-300 pt-6 text-center">
+        <div
+          id="member-gate"
+          data-slug={post.slug}
+          class="mt-6 border-t border-paper-300 pt-6 text-center"
+          data-pagefind-ignore
+        >
           <p class="text-ink-muted mb-4">この続きは特別会員の「旅路の証人」限定です。</p>
           <a
             href={`/join?ref=${encodeURIComponent(`/posts/${post.slug}/`)}`}
@@ -149,7 +154,12 @@ const structuredData = {
       )}
 
       {hasMemberContent && (
-        <div id="member-content" class="hidden">
+        <!-- Empty at build time -- member-content-body is filled by client-side
+             JS only for a logged-in member, after Pagefind has already indexed
+             this static HTML, so there is nothing here for it to pick up. The
+             ignore attribute is defense-in-depth: it also keeps the "旅路の証人
+             限定" gate copy above out of every locked article's search snippet. -->
+        <div id="member-content" class="hidden" data-pagefind-ignore>
           <div id="member-content-skeleton" class="space-y-3 mt-6 animate-pulse" aria-hidden="true">
             <div class="h-4 bg-paper-300 rounded w-full"></div>
             <div class="h-4 bg-paper-300 rounded w-11/12"></div>

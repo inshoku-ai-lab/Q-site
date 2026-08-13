@@ -41,16 +41,33 @@ export function isPlainIp(ip: string): boolean {
 // a forged request. `Referer` is the fallback for the rare client that
 // omits Origin; a request with neither is not a browser form/fetch and is
 // rejected.
+//
+// Deliberately does NOT compare against `new URL(request.url).origin`:
+// behind Vercel's proxy, the scheme/host Astro sees on the internal
+// request can differ from the public host the browser actually connected
+// to (this broke every POST endpoint in production -- Turnstile would
+// verify client-side, then the very first line of the handler 403'd the
+// request before ever looking at the token). `Host` / `X-Forwarded-Host`
+// reflects what the browser dialed regardless of internal routing, so
+// comparing the Origin/Referer's *host* against that is the proxy-safe
+// version of the same check.
 export function isSameOrigin(request: Request): boolean {
-  const selfOrigin = new URL(request.url).origin;
+  const host = request.headers.get("x-forwarded-host") ?? request.headers.get("host");
+  if (!host) return false;
 
   const origin = request.headers.get("origin");
-  if (origin) return origin === selfOrigin;
+  if (origin) {
+    try {
+      return new URL(origin).host === host;
+    } catch {
+      return false;
+    }
+  }
 
   const referer = request.headers.get("referer");
   if (referer) {
     try {
-      return new URL(referer).origin === selfOrigin;
+      return new URL(referer).host === host;
     } catch {
       return false;
     }
