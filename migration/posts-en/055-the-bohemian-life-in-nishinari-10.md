@@ -18,33 +18,34 @@ tags:
 excerpt: "Twelve years of Jehovah's Witness childhood left something in him that had nowhere to go. Then he found violent, blasphemous films and hardcore techno, and the poison started moving — Lynch, Burton, Jeunet, and a Blue Hearts lyric about punk rock being gentle."
 member_paywall_after_paragraph: null
 qa:
-  blind_review_rounds: 0
-  mechanical_qa: "pending"
+  blind_review_rounds: 1
+  blind_review_protocol: "v2 (3 reviewers, majority)"
+  mechanical_qa: "pass"
 ---
 
 # How Film Built Me
 
-Films were as good as God to me.
+Films might as well have been God to me.
 
-I think I took the message of a film I loved more or less straight to heart.
+I took the message of a film I loved more or less straight to heart.
 
-All kinds of films worked on me, but the ones called artistic — the ones I felt were artistic — hit me full in the face.
+All kinds of films worked on me, but the ones called artistic — the ones I felt were artistic — hit me square in the face.
 
-What I counted as artistic ran wide, from the lyrical and pastoral to the inflammatory and provocative.
+What I counted as artistic ranged widely, from the lyrical and pastoral to the inflammatory and provocative.
 
 But what actually got into me was never the quiet, poetic kind. It was the violent, blasphemous kind.
 
-Films heavy with cruelty and violence were the ones that held me, and that kind of film was what I thought stylish looked like.
+Films heavy with cruelty and violence were the ones that held me, and that kind of film was my whole idea of what stylish looked like.
 
-Every type of film exists, and I understood what was good about every type — and still it was the antisocial ones that pulled at me. I think that was because of how much psychic poison I had inside me.
+Every type of film exists, and I understood what was good about each one — and still it was the antisocial ones that pulled at me. I think that was because of how much poison I had inside me.
 
-Growing up in a Jehovah's Witness household, culturally shut in and disciplined with a whip, I had built up a store of rage at how unfair all of it was, with nowhere for it to go. It sat there and turned to poison.
+Growing up in a Jehovah's Witness household, cut off from the culture around me and disciplined with a whip, I had built up a store of rage at how unfair all of it was, and nowhere to put it. It sat there and turned to poison.
 
-Years of it, piling up — and I think in my teens, the rebellious years, rebellious films and rebellious music worked as the catalyst that let it drain out.
+Years of it, piling up — and I think in my teens, the rebellious years, films and music of that same temper worked as the catalyst that let it drain out.
 
 That is exactly why hardcore techno worked on me as medicine, why music that raked violently through my brain settled it.
 
-Maybe films about rebellion and violence, films about young lives falling apart, felt like they were taking my side about being alive at all.
+Maybe films about rebellion and violence, films about young lives falling apart, felt like they were on my side about being alive at all.
 
 There's a band called The Blue Hearts, and a song of theirs called "Punk Rock" has a line:
 
@@ -57,11 +58,11 @@ Anyone with a wound understands that lyric.
 
 # The Poison
 
-The poison in me had accumulated across the twelve years I spent as a Jehovah's Witness, and it was not the kind of thing you could drain in a hurry — but once it found an outlet in music and film, it started to leak away.
+The poison in me had built up over the twelve years I spent as a Jehovah's Witness, and it was not the kind of thing you could drain in a hurry — but once it found an outlet in music and film, it started to leak away.
 
-Thoughts that had been shut in with nowhere to go were maybe finding somewhere to belong, and being laid to rest a little at a time.
+Maybe thoughts that had been shut in with nowhere to go were finding somewhere to belong, and being laid to rest a little at a time.
 
-I wanted to throw away the self I had been before seventeen, the one with nothing good in it, and build a new one — and the worlds films showed me were irresistible for that.
+I wanted to throw away the self I had been before seventeen, the one with nothing good in it, and build a new one — and for that, the worlds films showed me were impossible to resist.
 
 I emptied myself out, threw away my whole personality, my whole life, my values and everything I had learned, and packed the space with what the films gave me.
 
@@ -69,28 +70,28 @@ I emptied myself out, threw away my whole personality, my whole life, my values 
 
 The poison in me resonated with certain films in particular.
 
-Hollywood's underground has always had plenty of the hallucinatory, the perverse, the devil-worshipping, and the antenna the poison had grown in me picked those up sharply.
+Hollywood's underground has always had plenty of the hallucinatory, the perverse, the devil-worshipping, and the poison had grown an antenna in me that picked those up sharply.
 
 David Lynch and his decayed, psychotic world.
 
 I fell all the way into *Twin Peaks*, pulled into a story of suggestion and implication that opens on the butchered body of a schoolgirl.
 
-Tim Burton and his feeling for the misshapen, the ones on the outside.
+Tim Burton and his feeling for the misshapen, for the ones on the outside.
 
 I recognized myself in the tenderness *The Nightmare Before Christmas* has for its sweet little demons.
 
-Jean-Pierre Jeunet and his hallucinatory, devil-worshipping eye.
+Jean-Pierre Jeunet and the hallucinatory, devil-worshipping beauty of his images.
 
-*The City of Lost Children* makes a story about kidnapping children into something dreamlike and beautiful, and it became one of my favorite films.
+*The City of Lost Children* turns a story about kidnapped children into something dreamlike and beautiful, and it became one of my favorite films.
 
 Something in these decayed, demonic films caught me from the first glimpse — some matching of frequencies.
 
 Probably those directors carry childhood damage of their own.
 
-That has to be why they reacted with the poison in me.
+That has to be why their work set off a reaction with the poison in me.
 
-Distortion, darkness, perversity, the sinister and the suspect had become, for me, one of the marks of artistic beauty.
+Distortion, darkness, perversity, the sinister, the dubious — for me all of that had become one of the marks of artistic beauty.
 
-Setting off what was in me and running it through film was, I think, how I worked out the balance between my inside world and the one outside.
+I think setting off what was in me and running it through film was how I worked out the balance between my inside world and the one outside.
 
 To be continued.

@@ -17,43 +17,44 @@ tags:
 excerpt: "Pumping water up seven hundred meters of mountain takes pipe strong enough to hold the pressure, which means sixty kilos of it coiled on your back. The manager of a rival hut walks over to help carry it, for nothing."
 member_paywall_after_paragraph: null
 qa:
-  blind_review_rounds: 0
-  mechanical_qa: "pending"
+  blind_review_rounds: 1
+  blind_review_protocol: "v2 (3 reviewers, majority)"
+  mechanical_qa: "pass"
 ---
 
 ## Drawing Water
 
-The Japanese phrase for this job, *mizuage*, carries a whole range of meanings — unloading cargo from a boat, the size of a fishing catch, a term in flower arranging, a term in the world of geisha.
+The Japanese word for this job, *mizuage*, carries a whole range of meanings — unloading cargo from a boat, the size of a fishing catch, a term in flower arranging, a term in the world of geisha.
 
 At a mountain hut it means what it says: bringing water up.
 
 In the old days, apparently, people carried the water up on their backs to supply the hut. Now an engine and a pump push it up from the stream at the foot of the mountain.
 
-Gasoline does the pushing, but laying the pipe is a serious piece of work.
+Gasoline does the pushing, but running the pipe is a serious piece of work.
 
-## Laying Pipe
+## Running the Pipe
 
-N came over from a neighboring hut to help us lay it.
+N came over from a neighboring hut to help us run it.
 
-The pump drives the water up seven hundred meters of elevation, so the plastic pipe has to be strong enough to take that pressure.
+The pump drives the water up seven hundred vertical meters, so the plastic pipe has to be strong enough to take that pressure.
 
 All that strength adds weight, and the pipe alone comes to nearly sixty kilos.
 
 It isn't only heavy. It's big and it's awkward.
 
-Coiled as tight as we could get it, it still made a loop about a meter and a half across, and carrying it on your back, between the weight and the size, you feel like you're going over.
+Coiled as tight as we could get it, it still made a loop about a meter and a half across, and carrying it on your back, between the weight and the size, you feel like you're about to topple over backward.
 
-So J and I and N, our hired gun, shouldered that pipe and started down the mountain.
+So J and I and N, our ringer, shouldered that pipe and started down the mountain.
 
-## The Hired Gun
+## The Ringer
 
-N manages another mountain hut about five hundred meters from the one I work at.
+N manages another mountain hut about five hundred meters away from the one I work at.
 
-Their hut belongs to a different company, and the two owners can't stand each other — but none of that touches the staff, who help each other out for free whenever help is needed.
+His hut belongs to a different company, and the two owners can't stand each other — but none of that touches the staff, who help each other out for free whenever it's needed.
 
 This job was big enough to need someone with real experience, so N came in to help.
 
-Their hut gets water off a rock face and has no need for pipe like this. He was helping purely for nothing.
+His hut gets its water from a rock face and has no need for pipe like this. He was doing it for nothing at all.
 
 ## The Valley
 
@@ -63,4 +64,4 @@ Here we set the load down, because now we had to climb the slope on the other si
 
 The source is on the far side of the valley. You bring that water down to the valley floor, and from there the pump drives it up the mountain on our side.
 
-It is not easy work by any measure. But set against carrying the water up on your back the way they used to, we have it enormously easy.
+It is not easy work by any measure. But set against carrying the water up on your back the way they used to, we have it incredibly easy.
