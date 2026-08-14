@@ -58,6 +58,41 @@ check(
   "linkified",
 );
 
+// "Continue reading" links are navigation too, but only when the block is
+// nothing but a link to another article.
+const A = (href, label) => `<a href="${href}" rel="noopener" target="_blank">${label}</a>`;
+const ART = "https://qryptraveller.com/story-before-born/";
+
+check(
+  "continuation-ep0",
+  isNavBlock({ type: "paragraph", html: A(ART, "続き、、、第一話、生まれて来る前の話。") }),
+  true,
+  "続き link",
+);
+check(
+  "continuation-devolution",
+  isNavBlock({ type: "paragraph", html: A(ART, "この記事の続きはこちらになります。") }),
+  true,
+  "続きはこちら link",
+);
+// The author closes sections with a bare "つづく。。。" in his own voice. No
+// link on it, so it is prose and must survive.
+check("tsuzuku-prose", isNavBlock({ type: "paragraph", html: "つづく。。。" }), false, "つづく。。。");
+// A sentence that merely contains a continuation link is body text.
+check(
+  "sentence-with-link",
+  isNavBlock({ type: "paragraph", html: `この件については${A(ART, "続きはこちら")}を見てください。` }),
+  false,
+  "sentence containing a link",
+);
+// A continuation-looking link pointing somewhere else is not our navigation.
+check(
+  "foreign-continuation",
+  isNavBlock({ type: "paragraph", html: A("https://example.com/x/", "続きはこちら") }),
+  false,
+  "off-site link",
+);
+
 // A bare article URL trailing the nav line goes with it, and nothing else does.
 {
   const blocks = [
@@ -82,4 +117,4 @@ if (failures) {
   console.error(`\n${failures} 件失敗`);
   process.exit(1);
 }
-console.log(`OK — ${DELETE.length + KEEP.length + 7} 件すべて期待どおり`);
+console.log(`OK — ${DELETE.length + KEEP.length + 12} 件すべて期待どおり`);

@@ -73,7 +73,52 @@ export function htmlToPlain(html) {
  */
 export function isNavBlock(node) {
   if (!node || node.type !== "paragraph") return false;
-  return isNavOnlyText(htmlToPlain(node.html));
+  const plain = htmlToPlain(node.html);
+  if (isNavOnlyText(plain)) return true;
+  return isContinuationNav(plain, linksFromHtml(node.html));
+}
+
+// Some articles close with a "continue reading" link instead of the
+// prev/next pair -- episode 0 ends with "続き、、、第一話、生まれて来る前の
+// 話。" and the Devolution series with "この記事の続きはこちらになります。".
+// Same duplication of the site's own next-article control, so same fate.
+const CONTINUATION_LABEL = /^(?:続き|つづき)|続きは?こちら/;
+
+/**
+ * True when a block is nothing but a single link to another article whose
+ * label reads as "continue reading".
+ *
+ * Being an actual article link is the load-bearing half of this test. The
+ * author writes a bare "つづく。。。" as a closing line in his own voice,
+ * with no link on it -- that is prose and stays. Only the linked form is
+ * navigation.
+ *
+ * @param {string} text  plain text of the block
+ * @param {string[]} hrefs  every href the block links to
+ */
+export function isContinuationNav(text, links) {
+  const plain = (text ?? "").trim();
+  if (!plain) return false;
+
+  // Exactly one link, and it has to point at another article.
+  if (!Array.isArray(links) || links.length !== 1) return false;
+  const [link] = links;
+  if (!ARTICLE_URL.test((link.href ?? "").trim())) return false;
+
+  const label = (link.label ?? "").trim();
+  if (!CONTINUATION_LABEL.test(label)) return false;
+
+  // The block must BE the link, not a sentence containing one. Otherwise
+  // "この件については[続きはこちら](url)を見てください。" would qualify.
+  return plain.replace(label, "").replace(NAV_SEPARATORS, "").length === 0;
+}
+
+/** Every link (href + visible label) in a block's rendered HTML. */
+export function linksFromHtml(html) {
+  return [...(html ?? "").matchAll(/<a\s[^>]*href="([^"]*)"[^>]*>(.*?)<\/a>/gis)].map((m) => ({
+    href: m[1].replace(/&amp;/g, "&"),
+    label: htmlToPlain(m[2]),
+  }));
 }
 
 /**

@@ -21,7 +21,7 @@ import { Client } from "@notionhq/client";
 import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { isNavOnlyText, isBareArticleUrlBlock } from "./lib/nav-links.mjs";
+import { isNavOnlyText, isContinuationNav, isBareArticleUrlBlock } from "./lib/nav-links.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
@@ -55,6 +55,30 @@ function asNode(block) {
     return { type: block.type, url: block[block.type]?.url ?? "" };
   }
   return { type: block.type, html: plainOf(block) };
+}
+
+/**
+ * Links in a Notion block, as {href, label}. Notion splits a single link
+ * across several rich_text runs when the label carries mixed formatting,
+ * so consecutive runs sharing an href are joined back into one link.
+ */
+function linksOf(block) {
+  const runs = block[block.type]?.rich_text ?? [];
+  const out = [];
+  for (const r of runs) {
+    if (!r.href) continue;
+    const prev = out[out.length - 1];
+    if (prev && prev.href === r.href) prev.label += r.plain_text ?? "";
+    else out.push({ href: r.href, label: r.plain_text ?? "" });
+  }
+  return out;
+}
+
+/** True when a raw Notion paragraph is in-body navigation of any form. */
+function isNavParagraph(block) {
+  if (block.type !== "paragraph") return false;
+  const plain = plainOf(block);
+  return isNavOnlyText(plain) || isContinuationNav(plain, linksOf(block));
 }
 
 async function listChildren(blockId) {
@@ -108,7 +132,7 @@ async function survey(pages) {
         .replace(/https?:\/\/\S+/g, "URL")
         .replace(/[0-9０-９]+/g, "N")
         .slice(0, 80);
-      if (!shapes.has(key)) shapes.set(key, { count: 0, matched: isNavOnlyText(plainOf(b)), example: title });
+      if (!shapes.has(key)) shapes.set(key, { count: 0, matched: isNavParagraph(b), example: title });
       shapes.get(key).count++;
     }
   }
@@ -182,8 +206,7 @@ async function main() {
 
     for (let i = 0; i < children.length; i++) {
       const b = children[i];
-      if (b.type !== "paragraph") continue;
-      if (!isNavOnlyText(plainOf(b))) continue;
+      if (!isNavParagraph(b)) continue;
 
       const group = [b];
       // A bare article URL right after the nav line is part of the same
