@@ -16,6 +16,7 @@
 | 放浪記 | The Vagabond Chronicles | シリーズ名。全話で統一 |
 | クリプトラベラー | Qryptraveller | 著者のハンドル。綴りを変えない |
 | 放浪記◯◯◯ | #◯◯◯ | タイトル内の話数表記 |
+| 吟遊詩人 | **traveling troubadour** | ⚠️ **"minstrel" は絶対に使わない。** 米国英語で "minstrel" は<br>黒塗り芸（blackface minstrel show）を第一に連想させる語であり、<br>中立ではない。"bard" もファンタジー小説の語感が強い |
 
 ## 2. 人物
 

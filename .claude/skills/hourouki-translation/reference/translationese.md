@@ -71,11 +71,57 @@
 
 ---
 
+## 2-7. 「持っていたもの」の列挙に「持っていなかったもの」を混ぜる
+
+日本語は自然にできるが、**英語では論理が壊れる**。Ep 000 の実例：
+
+```
+原文：僕にあったのは、少しの貯金と小さなバックパック、爆発しそうな好奇心と
+      それによって完全に麻痺した恐怖心、そして自由への強烈な渇望だけでした。
+
+✗ What I had was ... curiosity ready to burst, a sense of danger that the curiosity
+  had burned away to nothing, and a raw thirst for freedom.
+  → 「持っていたもの」のリストの中に「もう無いもの」が入る。英語読者は3回読み返す。
+     ブラインド査読2名が独立に「この箇所で詰まる」と指摘した。
+
+✓ What I had was ... curiosity ready to burst, no sense of danger left at all
+  — the curiosity had burned it away to nothing — and a raw thirst for freedom.
+  → 「無い」ことを明示し、理由を挿入句に逃がす。
+```
+
+**列挙の途中で肯定→否定が反転していないかを必ず確認する。**
+
+---
+
+## 2-8. 英国英語の混入
+
+日本語話者の英作文は**英国寄りの語彙・綴りに流れやすい**。アメリカ人読者には
+「どこか外国で編集された文章」に読める。Ep 000 で実際に出たもの：
+
+| 出たもの | 米国英語 |
+|---|---|
+| qualifications（資格） | credentials |
+| doing circus（サーカスをする） | performing circus shows |
+| covid | Covid / COVID |
+| a twenty-six-**strong** caravan | a twenty-six-**person** caravan |
+| fit to burst | ready to burst |
+| has got you assuming | has you thinking |
+
+---
+
 ## 3. この作品で特に注意する語
 
 | 原文 | 誤りやすい訳 | 正しい扱い |
 |---|---|---|
 | 僕 | I（連発） | §2-1 参照。主語を減らす工夫が要る |
+| 吟遊詩人 | ~~minstrel~~ | **troubadour**。minstrel は黒塗り芸を連想させる語（`glossary.md` 参照） |
+| 心の師 | teacher in spirit | the closest thing I have to a teacher |
+| 居場所がなかった | had never held a place in the world | had never belonged anywhere |
+| 爆発しそうな好奇心 | curiosity about to blow | curiosity ready to burst（blow は補語が要る） |
+| 自分自身を世界に共有する | share myself with the world | put my own life out into the world<br>（"share myself" は米国英語で性的／自己啓発的な含みを持つ） |
+| 遊んで暮らす | living and **playing** | 「音楽を演奏する」と誤読される。本作は路上音楽家の話なので特に危険。<br>living for the fun of it / roaming and having fun |
+| この旅（20年の放浪） | this **trip** | trip は米国英語で「2週間の旅行」。this / this life on the road |
+| 世界中（何度も出る） | around the world ×6 | 日本語は「世界中」を繰り返せるが英語は繰り返せない。<br>2回までに抑え、残りは具体地名や別表現に散らす |
 | Ｍさん、Ｃさん | Mr. M, Mr. C | **"M", "C"**。イニシャル匿名なので敬称は付けない |
 | 〜おじさん | uncle | **血縁ではない**。"the old guy"／"the older guy" |
 | ぶっ飛ぶ | fly away | **be high／be wrecked**（薬物の文脈） |
