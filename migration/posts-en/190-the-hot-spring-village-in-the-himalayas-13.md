@@ -17,8 +17,9 @@ tags:
 excerpt: "Two hours uphill to a farmhouse with no neighbors to complain, speakers and a generator hauled in by hand, entry free. While the rig gets set up, the chillum goes around — and what it is, how it's packed, and why Manali smokes it instead of joints."
 member_paywall_after_paragraph: 0
 qa:
-  blind_review_rounds: 0
-  mechanical_qa: "pending"
+  blind_review_rounds: 1
+  blind_review_protocol: "v2 (3 reviewers, majority)"
+  mechanical_qa: "pass"
 ---
 
 <callout icon="🔒">Members only from here</callout>
@@ -33,7 +34,7 @@ It was being held at a farmhouse far up in the hills.
 
 No houses around it, no people, so noise was never going to be a problem.
 
-The range of mountains off in the distance was beautiful. This was going to be a good one.
+The mountain range off in the distance was beautiful. This was going to be a good one.
 
 I was grateful to whoever had carried the enormous speakers and the generator and the rest of the gear up here.
 
@@ -43,30 +44,30 @@ That sense of sharing among friends is a wonderful thing.
 
 ## Chillum Culture
 
-Getting the rig set up and running smoothly was taking a while, and the party showed no sign of starting.
+Getting the sound system set up and running smoothly was taking a while, and the party showed no sign of starting.
 
 We sat down in the grass and passed a chillum around.
 
-A chillum is a fired clay tube about fifteen centimeters long, the thing the sadhus — the wandering holy men of Shiva-worshipping Hinduism — use to smoke cannabis.
+A chillum is a fired clay tube about six inches long, the pipe the sadhus — the wandering holy men of Shiva-worshipping Hinduism — use to smoke cannabis.
 
-The usual mix is charas, cannabis resin, blended with tobacco leaf.
+The usual mix is charas — cannabis resin — blended with tobacco leaf.
 
-Goa trance culture draws heavily on European techno culture and Indian sadhu culture both, and people who fall for Goa trance tend to take on the sadhu influence too.
+Goa trance draws heavily on both European techno and Indian sadhu culture, and people who fall in love with Goa trance tend to pick up the sadhu influence too.
 
-In Goa the European side is stronger and a rolled joint is the normal way to smoke, but Manali is overwhelmingly more Indian than Goa, and there the culture held that smoking a chillum was the cool thing to do.
+In Goa the European side is stronger and a rolled joint is the normal way to smoke, but Manali is far more Indian than Goa, and there the cool thing to do was smoke a chillum.
 
-You toast the tobacco to drive off the nicotine and make it burn easier.
+You toast the tobacco to drive off the nicotine and make it burn more easily.
 
 Then you crumble the charas fine and mix it with the toasted tobacco.
 
 Pressing and kneading it against your palm as you mix is supposed to make it taste better.
 
-Inside the chillum sits a stone of the right size, so that what you've packed doesn't come through into your mouth.
+Inside the chillum sits a stone of the right size, so that what you've packed doesn't get pulled into your mouth.
 
 At the mouth end there's a damp cloth that cools the smoke and works as a filter.
 
-The chillum represents the phallus of Shiva, and the point of smoking one is to receive, through the ritual, the energy of Shiva that is everywhere in the universe.
+The chillum represents the phallus of Shiva, and the point of smoking one is to receive, through the ritual, the energy of Shiva that fills the whole universe.
 
-Smoking cannabis in a joint you take in slowly, a little at a time, so the high is loose and relaxed. With a chillum the whole load burns at high heat and you pull it down in one go, so it hits hard and the high is active.
+With a joint you take the smoke in slowly, a little at a time, so the high is loose and relaxed. With a chillum the whole load burns at high heat and you pull it down in one hit, so it lands hard and the high is energetic.
 
-Which is what makes it such a good fit with trance culture and its hunger for the dancing high.
+Which is what makes it such a good fit with trance culture and its hunger for a high you can dance to.

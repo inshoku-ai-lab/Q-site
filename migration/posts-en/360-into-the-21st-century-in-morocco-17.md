@@ -17,8 +17,10 @@ excerpt: "Out of the Moroccan desert and into a European mansion with a buffet �
 member_paywall_after_paragraph: null
 notes: "原文の見出しは「Rくん」だが本文はJ君の話。原文のままにしてある（§ソースの誤りは修正しない）。"
 qa:
-  blind_review_rounds: 0
-  mechanical_qa: "pending"
+  blind_review_rounds: 1
+  blind_review_protocol: "v2 (3 reviewers, majority)"
+  mechanical_qa: "pass"
+  escalated_to_author: "見出し「Rくん」が本文のJ君/Iちゃんと一致しない（原文の誤り）"
 ---
 
 ## Dinner
@@ -27,7 +29,7 @@ Before long the food was ready and everyone gathered in the dining hall.
 
 Dishes were laid out on the table and you took what you wanted — buffet style.
 
-We had been living inside the reality of the Moroccan desert for a long stretch, so this European way of living came as a shock.
+We had been living the reality of the Moroccan desert for a long stretch, so this European way of life came as a shock.
 
 Life in a desert town, then life in a grand Western house.
 
@@ -39,24 +41,24 @@ Almost everyone here had come to work as a volunteer in exchange for a ticket, m
 
 Some of them, apparently, go from festival to festival living like this.
 
-One festival takes about a month, so you turn up early and live there helping out.
+One festival takes about a month to put on, so you show up early and live there helping out.
 
 By the time it starts you're friendly with all sorts of people, and you get to enjoy the festival properly.
 
-You don't earn money, but you don't spend any either, you get to live without working some stiff job, and you meet interesting, exciting people.
+You don't earn money, but you don't spend any either; you get to live without working some straight job, and you meet interesting, exciting people.
 
 It might not be a bad way to travel at all.
 
 ## R
 
-Mostly they were white Europeans, with some Moroccans mixed in.
+Mostly they were white Europeans, with some Moroccans among them.
 
-I got talking with J, a French artist who was sitting next to me at dinner, and we warmed to each other.
+I got talking with J, a French artist who was sitting next to me at dinner, and we hit it off.
 
 Nearly everyone here had come for the festival — music people rather than travelers — but J had arrived as a traveler.
 
 He'd been traveling through Morocco, met someone involved with the festival, and started helping put it on.
 
-Talking is a generous word for it, since I could barely manage more than broken fragments, so mostly I was listening to I-chan talk. What surprised me was that I could follow what was being said.
+Talking is a generous word for it — I could barely manage more than broken fragments, so mostly I was listening to I-chan talk. What surprised me was that I could follow what was being said.
 
 Living in London had, at some point along the way, tuned my ears to English, and a language that had been unknown to me was turning into ordinary sound that carried meaning.
