@@ -13,6 +13,7 @@ import { Client } from "@notionhq/client";
 import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { stripNavBlocks } from "./lib/nav-links.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
@@ -257,6 +258,7 @@ async function main() {
 
   const posts = [];
   let i = 0;
+  let navBlocksStripped = 0;
   for (const page of publishable) {
     i++;
     const props = page.properties;
@@ -269,6 +271,12 @@ async function main() {
       const raw = await fetchChildren(page.id);
       for (const b of raw) blocks.push(await blockToNode(b));
       rewriteBlocks(blocks);
+      // The bodies carry their own "前の記事 ｜ 次の記事" footer inherited
+      // from WordPress, but the site renders that navigation itself from
+      // series/episode metadata -- keeping both shows the reader the same
+      // links twice. Drop it here so it never reaches posts.json, and with
+      // it the RSS feed, the search index, and the translation pipeline.
+      navBlocksStripped += stripNavBlocks(blocks);
     } catch (e) {
       console.error(`\nWP${wpId} の本文取得に失敗:`, e.message);
     }
@@ -298,6 +306,7 @@ async function main() {
     });
   }
   console.log("");
+  console.log(`前後記事ナビリンクを除去: ${navBlocksStripped} ブロック`);
 
   // Sort final output newest-first
   posts.sort((a, b) => (b.date ?? "").localeCompare(a.date ?? ""));
