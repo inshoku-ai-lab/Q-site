@@ -73,6 +73,35 @@ def fm_value(fm, key):
     return m.group(1) if m else None
 
 
+# The Japanese sources still carry their "前の記事 ｜ 次の記事" footer until the
+# Notion cleanup runs (scripts/strip-nav-links.mjs). It is never translated, so
+# leaving it in would make every article look short and would report the
+# neighbouring episode numbers as dropped. Mirrors scripts/lib/nav-links.mjs --
+# narrow on purpose, so prose that merely mentions another episode survives.
+NAV_TOKEN = re.compile(r"(?:前|次)の記事(?:[0-9０-９]+)?(?:に続く|へ続く|はこちら(?:です)?|へ)?")
+NAV_SEPARATORS = re.compile(r"[\s　｜|│￨/／・、,．.。\-–—←→⇦⇨<>《》「」【】()（）]")
+MD_LINK = re.compile(r"\\?\[([^\]]*)\\?\]\([^)]*\)")
+CONTINUATION = re.compile(r"^(?:続き|つづき)|続きは?こちら")
+
+
+def is_nav_line(line):
+    """True when a source line is nothing but prev/next or continue navigation."""
+    plain = MD_LINK.sub(r"\1", line).replace("\\", "").strip()
+    if not plain:
+        return False
+    if re.search(r"(?:前|次)の記事", plain):
+        return not NAV_SEPARATORS.sub("", NAV_TOKEN.sub("", plain))
+    # A continue-reading link: the line must BE the link, so that the author's
+    # unlinked "つづく。。。" closing line is kept as the prose it is.
+    if CONTINUATION.search(plain) and re.search(r"\]\(https?://", line):
+        return not NAV_SEPARATORS.sub("", CONTINUATION.sub("", plain))
+    return False
+
+
+def strip_nav(body):
+    return "\n".join(l for l in body.split("\n") if not is_nav_line(l))
+
+
 def paragraphs(body):
     """空行区切りの段落。見出しと callout も1段落として数える。"""
     return [p.strip() for p in re.split(r"\n\s*\n", body) if p.strip()]
@@ -137,6 +166,7 @@ def check(path, source_path):
     if source_path and os.path.exists(source_path):
         src = open(source_path, encoding="utf-8").read()
         _, src_body = split_front_matter(src)
+        src_body = strip_nav(src_body)
         src_paras = paragraphs(src_body)
         src_chars = len(re.sub(r"\s", "", src_body))
 

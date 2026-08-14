@@ -54,7 +54,45 @@
 
 ---
 
-## パス③ ブラインド査読（Blind Native-Reader Review）★最重要
+## パス③ ブラインド査読 v2（合議制）★最重要
+
+### なぜ v2 か — 単独査読者は信用できない
+
+Ep 000 で単独査読者を4ラウンド回した結果、以下が観測された：
+
+| 失敗モード | 実測 |
+|---|---|
+| **捏造の誘導** | 「金額に実感を持たせる一句を足せ」→ 原文にない文が2件混入 |
+| **削除の誘導** | 「箇条書き22項目を12項目に減らせ」 |
+| **振動** | ラウンド3のP1 3件すべてがラウンド2の修正が生んだもの |
+| **問題の捏造** | ラウンド4が問題視した3箇所は、前ラウンドの査読者が「最高の一文」と褒めた箇所 |
+
+原因は明白で、**「問題を探せ」と指示された査読者は、綺麗な文章にも問題を見つける**。
+単独意見を無検証で採用すると、良い訳文が悪化する。
+
+### v2 の中核：同一ラウンドで3人並列 → 2人以上の一致のみ採用
+
+```
+      ┌─ 査読者A ─┐
+訳文 ─┼─ 査読者B ─┼→ 指摘を突き合わせ →  2人以上が同じ箇所 → 【採用】
+      └─ 査読者C ─┘                        1人だけ        → 【保留リスト】
+```
+
+- **3人は同じ訳文を、互いを知らずに読む。** 直列に回してはいけない。
+- **採用条件：同一スパンに対し2人以上がP1またはP2を出したもの。**
+- **1人だけの指摘は「保留リスト」**に落とす。直さない。ただし次ラウンドで
+  別の査読者が同じ箇所を指摘したら、その時点で採用に格上げする。
+- **例外（1人でも即採用）**：事実誤り・文法エラー・**意図しない含意を持つ語**
+  （`minstrel` の黒塗り連想のような、知らないと踏む地雷）。これらは多数決に馴染まない。
+  ただし④が「本当に地雷か」を判断する。
+- **褒められた箇所は保護する。** あるラウンドで「良い」と評価された文は、
+  次ラウンドで1人が問題視しても**動かさない**。2人以上が問題視して初めて再検討。
+
+### 停止条件
+
+- **採用対象のP1がゼロになったラウンドで終了。**
+- P1件数が減らなくなったら、部分修正をやめてその段落を全面的に書き直す。
+- **最大5ラウンド。** それを超えたら訳文ではなく原文の解釈に問題がある。
 
 ### 起動条件（絶対厳守）
 
@@ -70,35 +108,58 @@
 > 「これは翻訳だ」と知っているだけでも同じ緩みが起きる。
 > 純粋な読者として読ませて初めて「これは訳文くさい」が拾える。
 
-### プロンプト文面
+### プロンプト文面（3人全員に同じものを渡す）
 
-> You are an American reader with a good ear for prose. You have picked up a
-> travel memoir written by a long-term wanderer. Read the passage below as a
-> reader, not as an editor of a translation.
+> You are an American reader with a good ear for prose. Below is an entry from
+> a travel memoir on a personal blog. Read it as a reader.
 >
-> Your job is to flag anything that would make you stumble, reread a sentence,
-> or feel that the writing is off. Specifically:
+> Do NOT use any tools. Judge only the text pasted below.
 >
+> Flag anything that would make you stumble, reread a sentence, or feel the
+> writing is off:
 > 1. **Unnatural phrasing** — sentences no native writer would produce.
->    Stiffness, odd word choice, wrong idiom, wrong register.
-> 2. **Confusion** — anything you cannot follow, or where you lose track of who
->    is doing what, or where you are.
-> 3. **Rhythm** — read it aloud in your head. Where does it thud? Where do
->    sentences pile up in the same shape?
-> 4. **Cultural opacity** — references you cannot parse with no knowledge of
->    Japan or India, and which the text does not explain.
-> 5. **Repetition** — the same word, image, or sentence shape used too often.
+> 2. **Confusion** — anything you cannot follow.
+> 3. **Rhythm** — read it aloud in your head. Where does it thud?
+> 4. **Cultural opacity** — references unparseable with no knowledge of Japan
+>    or India, which the text does not explain.
+> 5. **Repetition** — the same word, image, or sentence shape overused.
+> 6. **Loaded words** — any word carrying an association an American audience
+>    would read that the writer probably did not intend.
 >
-> Classify every finding:
-> - **P1** — reads as translated, is wrong English, or cannot be understood.
+> **Constraints — these are absolute:**
+> - Do NOT suggest cutting, shortening, reordering, or adding to the author's
+>   material. Every fact and every list item stays exactly where it is. Judge
+>   only HOW it is written, never WHAT is said.
+> - Do NOT suggest adding detail, color, scenes, or explanation that is not
+>   already in the text.
+> - Do not comment on content, subject matter, drug references, religion, or
+>   the author's life choices.
+> - **Do not invent problems.** If a sentence is good, say nothing about it.
+>   `NO FINDINGS` is a perfectly good answer and is expected on clean prose. A
+>   short honest report is more useful than a long one. You are not being
+>   measured on how many findings you produce.
+>
+> **Output format — one finding per line, nothing else. No preamble, no essay,
+> no summary.**
+>
+> ```
+> P1 | "exact quoted span" | what is wrong, max 15 words | proposed rewrite
+> ```
+>
+> - **P1** — reads as non-native, is wrong English, or cannot be understood.
 > - **P2** — understandable but stiff, wordy, or badly paced.
-> - **P3** — personal preference.
+> - **P3** — preference. Use sparingly.
 >
-> For each finding, quote the exact text, say what is wrong, and propose a
-> concrete rewrite.
+> The quoted span must be copied character-for-character from the text so it
+> can be matched automatically. Then, on a final separate line, list any
+> sentence you thought was genuinely well written:
 >
-> Do not comment on content, subject matter, or the author's choices — only on
-> the writing. Output `NO FINDINGS` if you have none.
+> ```
+> GOOD | "exact quoted span"
+> ```
+
+`GOOD` 行が保護リストになる。これがあるおかげで、次ラウンドの査読者が
+良い文を壊しにきたときに検出できる。
 
 ---
 
@@ -120,6 +181,20 @@
 > 出力：
 > 1. 最終稿（英語本文のみ）
 > 2. 採否メモ（`採用/却下 | 指摘の要約 | 理由`）
+
+### ④-b 捏造ゲート（採用した修正だけを対象に）
+
+**査読者の提案を採用した箇所は、必ず原文に遡って照合する。** Ep 000 では
+採用した提案経由で原文にない一句が2件入り込み、査読も機械QAも検出できなかった。
+
+採用した各修正について、次を確認する：
+
+1. 修正後の英文が主張する内容は、**原文のどの語句に対応するか**。指させないなら捏造。
+2. 形容詞・副詞・比較・数量が**増えていないか**（「原文にない強調」が最も混入しやすい）。
+3. 固有名詞・地名・数字が**具体化されていないか**
+   （例：原文「世界各地」→ 訳「from Portugal to Thailand」は捏造）。
+
+照合できない修正は**採用を取り消し、別の言い回しで自然さだけを回復する**。
 
 ---
 

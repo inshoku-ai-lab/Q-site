@@ -26,6 +26,7 @@
 |---|---|---|
 | ガンドルフ (134) | Gandalf | 長期滞在のヒッピー。複数アークに再登場する主要人物 |
 | Ｍさん / Ｃさん / Ｆさん / Ｇくん | M / C / F / G | 敬称なし。初出で誰かを一言添える |
+| **Ｉちゃん / Ｉさん** | **I-chan / I-san**（例外） | ⚠️ **"I" は英語の一人称と衝突する。**<br>"I was listening to I talk" は意味不明になる。<br>**Iだけは敬称を残して固有名詞と分かる形にする。**<br>同じ理由で **A**（冠詞）も要注意 → A-san |
 | 〜おじさん | the old guy / the older guy | **血縁ではない**。"uncle" は誤訳 |
 | 母 | my mother | 「お母さん」でも英語は my mother で統一 |
 | エホバの証人 (153) | Jehovah's Witnesses | 教団名。個人は "a Jehovah's Witness" |
