@@ -48,7 +48,7 @@ Getting the sound system set up and running smoothly was taking a while, and the
 
 We sat down in the grass and passed a chillum around.
 
-A chillum is a fired clay tube about six inches long, the pipe the sadhus — the wandering holy men of Shiva-worshipping Hinduism — use to smoke cannabis.
+A chillum is a fired clay tube about fifteen centimeters (six inches) long, the pipe the sadhus — the wandering holy men of Shiva-worshipping Hinduism — use to smoke cannabis.
 
 The usual mix is charas — cannabis resin — blended with tobacco leaf.
 

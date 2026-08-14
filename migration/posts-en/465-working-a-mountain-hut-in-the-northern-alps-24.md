@@ -36,19 +36,19 @@ Gasoline does the pushing, but running the pipe is a serious piece of work.
 
 N came over from a neighboring hut to help us run it.
 
-The pump drives the water up seven hundred vertical meters, so the plastic pipe has to be strong enough to take that pressure.
+The pump drives the water up seven hundred vertical meters (2,300 feet), so the plastic pipe has to be strong enough to take that pressure.
 
-All that strength adds weight, and the pipe alone comes to nearly sixty kilos.
+All that strength adds weight, and the pipe alone comes to nearly sixty kilos (130 pounds).
 
 It isn't only heavy. It's big and it's awkward.
 
-Coiled as tight as we could get it, it still made a loop about a meter and a half across, and carrying it on your back, between the weight and the size, you feel like you're about to topple over backward.
+Coiled as tight as we could get it, it still made a loop about a meter and a half (five feet) across, and carrying it on your back, between the weight and the size, you feel like you're about to topple over backward.
 
 So J and I and N, our ringer, shouldered that pipe and started down the mountain.
 
 ## The Ringer
 
-N manages another mountain hut about five hundred meters away from the one I work at.
+N manages another mountain hut about five hundred meters (a third of a mile) away from the one I work at.
 
 His hut belongs to a different company, and the two owners can't stand each other — but none of that touches the staff, who help each other out for free whenever it's needed.
 
