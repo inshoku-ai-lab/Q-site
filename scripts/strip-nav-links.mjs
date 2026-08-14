@@ -30,8 +30,10 @@ const DATABASE_ID = "8ec5cc48-52a5-492e-9d0b-377bc4ff3c82";
 
 const args = process.argv.slice(2);
 const APPLY = args.includes("--apply");
+const SURVEY = args.includes("--survey");
 const seriesIdx = args.indexOf("--series");
 const SERIES = seriesIdx !== -1 ? args[seriesIdx + 1] : null;
+const SURVEY_OUT = path.join(ROOT, "migration/reports/nav-link-survey.md");
 
 const token = process.env.NOTION_TOKEN;
 if (!token) {
@@ -70,8 +72,77 @@ async function listChildren(blockId) {
   return out;
 }
 
+/**
+ * Read-only pass that reports the shape of every article's closing blocks.
+ *
+ * The exported markdown under migration/posts/ turned out not to match what
+ * is actually in Notion -- episode 0 ends with a "続き、、、第一話" link that
+ * the export does not have, and episode 520 ends with a next-link whose URL
+ * is empty. A matcher tuned on the export therefore cannot be trusted to
+ * have seen every form. This enumerates the real ones so the matcher can be
+ * checked against them before anything is deleted.
+ */
+async function survey(pages) {
+  const shapes = new Map();
+  let scanned = 0;
+
+  for (const page of pages) {
+    scanned++;
+    const title = (page.properties?.Title?.title ?? []).map((t) => t.plain_text).join("");
+    process.stdout.write(`\r  調査 [${scanned}/${pages.length}]      `);
+
+    let children;
+    try {
+      children = await listChildren(page.id);
+    } catch (e) {
+      console.error(`\n  ${title}: 本文取得に失敗 — ${e.message}`);
+      continue;
+    }
+
+    const meaningful = children.filter((b) => plainOf(b).trim() || b.type === "bookmark" || b.type === "embed");
+    for (const b of meaningful.slice(-2)) {
+      const text = plainOf(b).trim() || (b[b.type]?.url ?? "");
+      if (!text) continue;
+      // Collapse episode numbers and URLs so variants of one form group.
+      const key = text
+        .replace(/https?:\/\/\S+/g, "URL")
+        .replace(/[0-9０-９]+/g, "N")
+        .slice(0, 80);
+      if (!shapes.has(key)) shapes.set(key, { count: 0, matched: isNavOnlyText(plainOf(b)), example: title });
+      shapes.get(key).count++;
+    }
+  }
+  console.log("");
+
+  const sorted = [...shapes.entries()].sort((a, b) => b[1].count - a[1].count);
+  const lines = [
+    "# 末尾ブロックの実態調査（Notion）",
+    "",
+    `対象 ${pages.length} ページ / 検出された形 ${sorted.length} 種`,
+    "",
+    "`判定` は現在のマッチャーがナビと認識するか。**`—` の行に本来ナビであるものが",
+    "混ざっていないかを必ず目視で確認すること。**",
+    "",
+    "| 件数 | 判定 | 末尾ブロックの形 |",
+    "|---|---|---|",
+  ];
+  for (const [key, v] of sorted) {
+    lines.push(`| ${v.count} | ${v.matched ? "削除" : "—"} | \`${key.replace(/\|/g, "\\|")}\` |`);
+  }
+  await fs.mkdir(path.dirname(SURVEY_OUT), { recursive: true });
+  await fs.writeFile(SURVEY_OUT, lines.join("\n") + "\n", "utf-8");
+
+  console.log(`調査結果: ${path.relative(ROOT, SURVEY_OUT)}`);
+  console.log(`\n検出された形 ${sorted.length} 種のうち、マッチャーがナビと判定したもの:`);
+  for (const [key, v] of sorted.filter(([, v]) => v.matched)) console.log(`  ${v.count.toString().padStart(4)} 削除  ${key}`);
+  console.log("\nナビと判定されなかったもの（上位20件・要目視確認）:");
+  for (const [key, v] of sorted.filter(([, v]) => !v.matched).slice(0, 20)) {
+    console.log(`  ${v.count.toString().padStart(4)}   —   ${key}`);
+  }
+}
+
 async function main() {
-  console.log(`モード: ${APPLY ? "APPLY (実削除)" : "DRY RUN (削除しません)"}`);
+  console.log(`モード: ${SURVEY ? "SURVEY (調査のみ)" : APPLY ? "APPLY (実削除)" : "DRY RUN (削除しません)"}`);
   if (SERIES) console.log(`対象シリーズ: ${SERIES}`);
 
   const pages = [];
@@ -88,6 +159,11 @@ async function main() {
     process.stdout.write(`\r  ページ取得: ${pages.length}件`);
   } while (cursor);
   console.log(`\n計 ${pages.length} ページを走査します。`);
+
+  if (SURVEY) {
+    await survey(pages);
+    return;
+  }
 
   const removals = [];
   let scanned = 0;
