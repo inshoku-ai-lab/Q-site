@@ -130,16 +130,42 @@
 
 ---
 
-## 4. 承認済み実例（Phase 0 で埋める）
+## 4. 実例（Ep 000 より。ユーザー承認待ち）
 
-> **このセクションは Phase 0 完了まで空。**
-> アンカー5本が承認されたら、そこから最も特徴的な Before/After を10〜20組抜き出して
-> ここに貼る。以降の521話はこの実例に照らして書く。
-> 汎用の翻訳論より、**この作品の実物1組**のほうが効く。
+> アンカー5本が承認され次第、残り4本の実例も追加する。
 
-| # | 日本語原文 | 英訳（承認版） | なぜこう訳したか |
+### 4-1. 語り口の基調
+
+Ep 000 は読者への自己紹介なので**です・ます調**。Ep 103 以降の本編は**だ・である調**の
+語りに変わる。英語では両方とも一人称の口語だが、**Ep 000 系は読者に語りかける温度**、
+**本編は独白の温度**で書き分ける。
+
+| # | 日本語原文 | 英訳 | なぜこう訳したか |
 |---|---|---|---|
-| | | | |
+| 1 | そんじょそこらの映画には負けないと自負しています。 | I'd stack it up against most movies. | 「自負しています」を "I am confident that" と訳すと硬い。英語の慣用句1つで自信と軽さを同時に出す |
+| 2 | 全てがぶっつけ本番で、のたうちまわって苦労したけど | I made all of it up as I went, and I floundered, and it hurt. | and を3回重ねる（polysyndeton）。畳みかけが原文のリズムに一致し、査読3名全員が「ここは良い」と評価 |
+| 3 | ……自由への強烈な渇望**だけ**でした。 | ...and a raw thirst for freedom. **That was the whole inventory.** | 「だけ」を副詞で訳さず、**短い一文を足して**限定を作る。英語は only を置くより効く |
+| 4 | こんな人間がいてもいいんだって知ってほしい | I want you to know that a person like me is allowed to exist. | 直訳に近いが、査読2名が「この文章で唯一心が動いた」と評価。**素直な直訳が最良のこともある** |
+| 5 | 世間一般の常識では〜と思うのが普通ですよね。 | That's the usual guess, isn't it? | 「世間一般の常識では」を丸ごと "isn't it?" の一語に畳む。日本語の前置きは英語では削れる |
+
+### 4-2. 逆に「直訳してはいけない」実例
+
+| # | 日本語原文 | ✗ 直訳 | ✓ 採用訳 |
+|---|---|---|---|
+| 6 | 吟遊詩人 | minstrel | **troubadour**（minstrelは黒塗り芸を連想させる） |
+| 7 | スナフキンを心の師として | my teacher in spirit is Snufkin | The closest thing I have to a teacher is Snufkin |
+| 8 | 自分自身を世界に共有しています | I share myself with the world | I'm putting my own life in front of the world |
+| 9 | 遊んで暮らす | living and playing | living for the fun of it（"playing"は「演奏」と誤読される） |
+| 10 | 爆発しそうな好奇心と…麻痺した恐怖心 | curiosity about to blow, a sense of danger it had numbed out | curiosity about to boil over, **no sense of danger left at all**<br>— curiosity had burned it clean out of me —<br>（「持っていたもの」の列挙に「無いもの」を混ぜると英語は壊れる） |
+
+### 4-3. 説明を織り込んだ箇所（軽いグロス）
+
+| 原文 | 英訳 | 判断 |
+|---|---|---|
+| スナフキン | Snufkin — the wanderer from the Moomin books, who travels light and leaves town every autumn without telling anyone | 米国でムーミンの認知度は低い。無説明では「心の師」の意味が消える |
+| 住民票 | the resident registry — the official register of residents every Japanese adult is supposed to be on | 米国に対応制度が無い。無説明では「無い」ことの異常さが伝わらない |
+| インドのゴア | Goa on India's west coast | Goa 単独では米国読者に位置が伝わらない |
+| ２００万円 | two million yen in bank debt — about eighteen thousand dollars | 当時のレート（¥110–120/$）で概算 |
 
 ---
 
