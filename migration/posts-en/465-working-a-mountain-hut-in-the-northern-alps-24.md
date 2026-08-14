@@ -17,8 +17,8 @@ tags:
 excerpt: "Pumping water up seven hundred meters of mountain takes pipe strong enough to hold the pressure, which means sixty kilos of it coiled on your back. The manager of a rival hut walks over to help carry it, for nothing."
 member_paywall_after_paragraph: null
 qa:
-  blind_review_rounds: 1
-  blind_review_protocol: "v2 (3 reviewers, majority)"
+  blind_review_rounds: 2
+  blind_review_protocol: "v2 mixed panel (US / UK / non-native, majority)"
   mechanical_qa: "pass"
 ---
 
@@ -44,11 +44,11 @@ It isn't only heavy. It's big and it's awkward.
 
 Coiled as tight as we could get it, it still made a loop about a meter and a half (five feet) across, and carrying it on your back, between the weight and the size, you feel like you're about to topple over backward.
 
-So J and I and N, our ringer, shouldered that pipe and started down the mountain.
+So J and I and N, our old hand, shouldered that pipe and started down the mountain.
 
-## The Ringer
+## The Old Hand
 
-N manages another mountain hut about five hundred meters (a third of a mile) away from the one I work at.
+N manages another mountain hut about five hundred meters (1,600 feet) away from the one I work at.
 
 His hut belongs to a different company, and the two owners can't stand each other — but none of that touches the staff, who help each other out for free whenever it's needed.
 

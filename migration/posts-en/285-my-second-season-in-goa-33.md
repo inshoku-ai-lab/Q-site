@@ -17,8 +17,8 @@ tags:
 excerpt: "A party deep in a bamboo forest, late in the season, nobody there but Goa lifers. Twenty minutes in, eight times the normal dose is already bending the music — and his body still won't dance, so he adds another eight."
 member_paywall_after_paragraph: 0
 qa:
-  blind_review_rounds: 1
-  blind_review_protocol: "v2 (3 reviewers, majority)"
+  blind_review_rounds: 2
+  blind_review_protocol: "v2 mixed panel (US / UK / non-native, majority)"
   mechanical_qa: "pass"
 ---
 
@@ -56,7 +56,7 @@ But that night my body wasn't going with it.
 
 I was wound as tight as I could get and wanted to be dancing that second, but my body wouldn't follow.
 
-So I decided to add half a tab of Hofmann on top.
+So I decided to add half a tab of Hofmann acid on top.
 
 I wasn't going to waste my last chance at a party. I meant to go all the way out.
 
@@ -66,4 +66,4 @@ It was absurd, and the risk I was taking was enormous, the kind where your mind 
 
 Don't waste the last chance. Enjoy it right to the limit.
 
-That was all of it, and I went in full speed.
+That was all of it, and I went in at full speed.

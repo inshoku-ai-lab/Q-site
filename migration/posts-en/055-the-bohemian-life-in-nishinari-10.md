@@ -18,8 +18,8 @@ tags:
 excerpt: "Twelve years of Jehovah's Witness childhood left something in him that had nowhere to go. Then he found violent, blasphemous films and hardcore techno, and the poison started moving — Lynch, Burton, Jeunet, and a Blue Hearts lyric about punk rock being gentle."
 member_paywall_after_paragraph: null
 qa:
-  blind_review_rounds: 1
-  blind_review_protocol: "v2 (3 reviewers, majority)"
+  blind_review_rounds: 2
+  blind_review_protocol: "v2 mixed panel (US / UK / non-native, majority)"
   mechanical_qa: "pass"
 ---
 
@@ -35,9 +35,9 @@ What I counted as artistic ranged widely, from the lyrical and pastoral to the i
 
 But what actually got into me was never the quiet, poetic kind. It was the violent, blasphemous kind.
 
-Films heavy with cruelty and violence were the ones that held me, and that kind of film was my whole idea of what stylish looked like.
+Films heavy with cruelty and violence were the ones that held me, and that kind of film was my whole idea of what cool looked like.
 
-Every type of film exists, and I understood what was good about each one — and still it was the antisocial ones that pulled at me. I think that was because of how much poison I had inside me.
+Films come in every kind, and I understood what was good about each one — and still it was the antisocial ones that pulled at me. I think that was because of how much poison I had inside me.
 
 Growing up in a Jehovah's Witness household, cut off from the culture around me and disciplined with a whip, I had built up a store of rage at how unfair all of it was, and nowhere to put it. It sat there and turned to poison.
 
@@ -45,7 +45,7 @@ Years of it, piling up — and I think in my teens, the rebellious years, films 
 
 That is exactly why hardcore techno worked on me as medicine, why music that raked violently through my brain settled it.
 
-Maybe films about rebellion and violence, films about young lives falling apart, felt like they were on my side about being alive at all.
+Maybe films about rebellion and violence, films about young lives falling apart, felt like they were on my side about the whole business of being alive.
 
 There's a band called The Blue Hearts, and a song of theirs called "Punk Rock" has a line:
 
@@ -88,7 +88,7 @@ Something in these decayed, demonic films caught me from the first glimpse — s
 
 Probably those directors carry childhood damage of their own.
 
-That has to be why their work set off a reaction with the poison in me.
+That has to be why their work reacted with the poison in me.
 
 Distortion, darkness, perversity, the sinister, the dubious — for me all of that had become one of the marks of artistic beauty.
 

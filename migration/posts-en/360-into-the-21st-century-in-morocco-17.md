@@ -15,12 +15,11 @@ tags:
   - "旅行"
 excerpt: "Out of the Moroccan desert and into a European mansion with a buffet — volunteers who follow festivals from one to the next, working a month for a ticket and a bed. And over dinner, he realizes he can suddenly follow the English."
 member_paywall_after_paragraph: null
-notes: "原文の見出しは「Rくん」だが本文はJ君の話。原文のままにしてある（§ソースの誤りは修正しない）。"
 qa:
   blind_review_rounds: 1
   blind_review_protocol: "v2 (3 reviewers, majority)"
   mechanical_qa: "pass"
-  escalated_to_author: "見出し「Rくん」が本文のJ君/Iちゃんと一致しない（原文の誤り）"
+  author_resolved: "見出し「Rくん」→「J君」に修正（著者確認済み・2026-08-14）。日本語原文も同時に修正。"
 ---
 
 ## Dinner
@@ -49,7 +48,7 @@ You don't earn money, but you don't spend any either; you get to live without wo
 
 It might not be a bad way to travel at all.
 
-## R
+## J
 
 Mostly they were white Europeans, with some Moroccans among them.
 

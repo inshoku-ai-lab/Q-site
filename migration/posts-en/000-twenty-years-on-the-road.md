@@ -18,8 +18,8 @@ tags:
 excerpt: "No residence registration, no health insurance, no driver's license, no savings — and more than twenty years on the road without a break. The opening entry, and the inventory of a life spent proving that none of it was ever required."
 member_paywall_after_paragraph: null
 qa:
-  blind_review_rounds: 4
-  blind_review_p1_remaining: "pending round 5 verification"
+  blind_review_rounds: 5
+  blind_review_protocol: "rounds 1-4 single reviewer; round 5 mixed panel (US / UK / non-native)"
   mechanical_qa: "pass"
 ---
 
@@ -57,7 +57,7 @@ I'd stack it up against most movies.
 - Traveled like a king for six months with nothing in my pockets
 - Became one with the universe in Jerusalem
 - Designed organic hemp clothing and sold it at festivals
-- Someone I knew conned me into taking on two million yen in bank debt — about eighteen thousand dollars — and clawed my way out
+- Someone I knew conned me into taking on two million yen in bank debt — about eighteen thousand dollars — and I clawed my way out
 - Accepted bitcoin at my own online shop in 2011
 - Led sound-healing workshops at psytrance festivals in country after country
 - Rode a bicycle around the world for two and a half years
@@ -73,7 +73,7 @@ And that's just the tip of the iceberg. I have more stories than I could tell in
 I'll set them down here, one at a time.
 
 - **I want you to know that a person like me is allowed to exist.**
-- **I want to prove that you can spend your whole life on the move and living for the fun of it with no money, no knowledge, no experience, no schooling, and nobody behind you.**
+- **I want to prove that you can spend your whole life on the move, living for the fun of it, with no money, no knowledge, no experience, no schooling, and nobody behind you.**
 - **I want you to see that we are free, all of us, and that whatever we can picture, we can make real.**
 
 That's what drives me to write this.
