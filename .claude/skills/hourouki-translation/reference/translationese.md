@@ -1,0 +1,93 @@
+# 訳文くささ（translationese）のパターン集
+
+日本語話者が英訳するときに必ず出る癖。**機械QAの検出語リストの根拠**でもある
+（`scripts/qa_check.py` の `TRANSLATIONESE` を参照）。
+
+ここに挙がった表現は「常に禁止」ではなく、**出たら必ず疑う**という位置づけ。
+本当にその語が最適なこともある。ただし1記事に何度も出るなら、ほぼ確実に直訳の癖。
+
+---
+
+## 1. 直訳されやすい定型表現
+
+| 日本語 | ありがちな直訳 ✗ | 自然な英語 ✓ |
+|---|---|---|
+| 〜と思う | I thought that ... | （多くは断定でよい）"It was going to be a long night." |
+| 〜のだ / 〜んだ | It was that ... | （訳出しない。強調なら語順や短文で出す） |
+| なんとなく | somehow | for some reason／（訳さない） |
+| やっぱり | as expected | sure enough／of course／（訳さない） |
+| 結局 | after all | in the end／eventually |
+| とりあえず | for the time being | for now／anyway／first |
+| ちなみに | by the way | （多くは削る。英語では話が逸れて聞こえる） |
+| 〜ことができる | was able to | could／（動詞だけで足りる） |
+| 〜てしまう | ended up ~ing | （多くは単なる過去形で足りる） |
+| 〜ような気がする | I felt like that ... | It felt like ...／I had a feeling |
+| 〜に関して | regarding／as for | about／on／（前置詞で足りる） |
+| という | called／that is | （ほぼ削れる。最頻出の直訳癖） |
+| 実は | actually | （多くは削る） |
+| そして／それから | And then, ... And then, ... | 接続を変える／文を繋ぐ／削る |
+| 非常に／とても | very very | 強い形容詞1語に置き換える |
+| 〜的には | ~ically speaking | （削る） |
+| 〜させていただく | let me have you ... | （英語に敬語階層はない。普通に書く） |
+
+## 2. 構造レベルの癖
+
+### 2-1. 主語の氾濫
+日本語は主語を省く。逐語訳すると "I" が刺さるほど並ぶ。
+**1段落に "I" が4回以上出たら書き直し。**
+
+### 2-2. 説明過多
+日本語は文脈で通じることを、英語で全部言語化してしまう。
+
+```
+✗ Because it was India, and because in India things like this happen often,
+  I was not particularly surprised by it.
+✓ It was India. I wasn't surprised.
+```
+
+### 2-3. 受動態への逃避
+```
+✗ The party was being held at a bar near the flea market.
+✓ The party was at a bar near the flea market.
+```
+
+### 2-4. 名詞化（nominalization）
+日本語の漢語表現を名詞のまま英訳すると硬くなる。
+```
+✗ My decision was the continuation of the journey.
+✓ I decided to keep going.
+```
+
+### 2-5. 副詞で感情を指示する
+原文が淡々としているのに、英語で "amazingly", "hilariously", "shockingly" を足す。
+**原文にない感情の指示は追加禁止**（`voice-bible.md` §3-4）。
+
+### 2-6. 慣用句の直訳
+```
+✗ five times honest        （五度目の正直）
+✓ fifth time lucky         （"third time lucky" の型を数字だけ変える）
+```
+慣用句は**意味ではなく機能**を訳す。笑いのための言い回しなら、英語で笑える言い回しにする。
+
+---
+
+## 3. この作品で特に注意する語
+
+| 原文 | 誤りやすい訳 | 正しい扱い |
+|---|---|---|
+| 僕 | I（連発） | §2-1 参照。主語を減らす工夫が要る |
+| Ｍさん、Ｃさん | Mr. M, Mr. C | **"M", "C"**。イニシャル匿名なので敬称は付けない |
+| 〜おじさん | uncle | **血縁ではない**。"the old guy"／"the older guy" |
+| ぶっ飛ぶ | fly away | **be high／be wrecked**（薬物の文脈） |
+| 盛り上がる | swell up | 文脈次第：the party picked up／I was hyped |
+| 半端ない | not half | insane／unreal（ただし多用しない） |
+| 自分探し | searching for myself | （そのままだと陳腐。文脈で具体化する） |
+
+---
+
+## 4. 検出の運用
+
+- 機械QA（`qa_check.py`）が上記の語を検出して**警告**を出す。エラーではない。
+- 警告が出たら、その箇所が本当にその語でなければならないかを1件ずつ判断する。
+- **ブラインド査読で新しい癖が見つかったら、必ずこのファイルと `qa_check.py` に追記する。**
+  これをやらないと522話ずっと同じ癖が出続ける。
