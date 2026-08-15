@@ -1,7 +1,8 @@
 # Voice Bible — The Vagabond Chronicles
 
-英語版の「声」の定義。**Phase 0（アンカー5本の承認）が終わるまでは暫定版**であり、
-承認された訳文から抜いた実例で必ず書き換えること。
+英語版の「声」の定義。**Phase 0（アンカー5本：Ep 000, 003, 017, 103, 450）完了により確定版。**
+全アンカーは4パス＋混成3人ブラインド査読を通過済み。以降の量産はこの版に従う。
+新たな訳語判断・査読指摘は §5 に追記し続けること（このファイルは常に成長する）。
 
 ---
 
@@ -145,9 +146,17 @@
 
 ---
 
-## 4. 実例（Ep 000 より。ユーザー承認待ち）
+## 4. 実例（アンカー5本より確定）
 
-> アンカー5本が承認され次第、残り4本の実例も追加する。
+### 4-0. アンカー5本の役割分担
+
+| Ep | 文体 | 検証したこと |
+|---|---|---|
+| 000 | です・ます調（読者への自己紹介） | 声の基調そのものを確立 |
+| 003 | だ・である調・独白 | 宗教教義の引用的パロディ、体罰描写の非婉曲化 |
+| 017 | だ・である調・内省 | 短文の連打（フラグメント）の英訳、家族との緊張関係 |
+| 103 | だ・である調・疾走感 | ドラッグ描写、会員限定マーカーの位置精度 |
+| 450 | だ・である調・淡々とした観察 | 人物紹介、山小屋という特殊環境の説明 |
 
 ### 4-1. 語り口の基調
 
@@ -181,6 +190,76 @@ Ep 000 は読者への自己紹介なので**です・ます調**。Ep 103 以�
 | 住民票 | the resident registry — the official register of residents every Japanese adult is supposed to be on | 米国に対応制度が無い。無説明では「無い」ことの異常さが伝わらない |
 | インドのゴア | Goa on India's west coast | Goa 単独では米国読者に位置が伝わらない |
 | ２００万円 | two million yen in bank debt — about eighteen thousand dollars | 当時のレート（¥110–120/$）で概算 |
+
+### 4-4. Ep 003/017/103/450 からの追加実例
+
+**教義の引用的パロディ（Ep 003）** — 原文は「エホバの証人の教義」を、著者自身の言葉ではなく、
+**教団側の説教口調をそのまま模倣した文体**で書いている（皮肉のための擬態）。
+
+```
+原文：だから、この腐った世界で唯一、欲望に惑わされず聖書を正しく解釈しているエホバの証人の
+      教義を信じなさい。
+
+✓ So believe the teachings of Jehovah's Witnesses — the only ones in this rotten world
+  who interpret the Bible correctly, not misled by desire.
+```
+
+命令形 "believe" をそのまま残し、著者の一人称が消える段落だと分かるようにする。
+直後で "My mother believed..." と一人称の語りに戻ることで、**教義の声と著者の声の切り替え**が
+英語でも明確に伝わる。
+
+**体罰描写は婉曲化しない（Ep 003）**
+
+```
+原文：それは手でお尻ペンペンされるような生易しいものではなくて、車のエンジンに使われる
+      ゴムのベルトに、持ち手を付けて叩きやすくした手作りの鞭でミミズ腫れが出来るまで
+      叩かれていた。
+
+✓ It wasn't anything as gentle as a hand swat on the bottom — it was a homemade rod,
+  a rubber belt of the kind used in car engines with a handle attached to make it
+  easier to swing, and you'd be hit with it until you had welts.
+```
+
+"welts"（ミミズ腫れ）を弱い語に置き換えない。原文の具体性をそのまま持ち込む。
+
+**フラグメント（体言止め・単語だけの段落）はフラグメントのまま訳す（Ep 017）**
+
+```
+原文：フワフワとした、虚ろな気分。
+✓ A floaty, hollow feeling.
+
+原文：当たり前すぎる心の声。
+✓ A too-obvious voice inside me.
+```
+
+主語・動詞を補って完全文にしない。原文が体言止めで作る「思考の断片」感を、
+英語でも名詞句だけの独立行として再現する。
+
+**「〜ことができた」の連続は変化をつける（Ep 000/003 共通の癖）**
+
+```
+✗ was able to survive without her sense of self falling apart
+✓ survived without her sense of self falling apart
+```
+
+`was able to` は「能力があったから出来た」の含みが強すぎる場面がある。
+文脈が単なる結果を述べているなら、素の過去形の方が原文の淡々とした調子に合う。
+
+**「〜ようだ」の伝聞推量は "seem/apparently" で吸収し、"it was that" 構文を避ける（Ep 450）**
+
+```
+原文：個性の強い人が集まってくると言うこともあるが、どちらかと言うと個性の強い人が
+      山での暮らしと言う特殊な環境になじみやすく、何年も働き続けることになっている
+      ようだ。
+
+✗ Part of it was that such people tended to gather here, but... they seemed to
+  adapt easily... and so ended up working there year after year.
+  （"it was that" は のだ の直訳。"ended up" も てしまう の直訳で余分な含みを足す）
+
+✓ Maybe strong personalities are simply drawn here, but more likely, they adapt
+  easily to the unusual environment of mountain life, which is why so many of
+  them keep working here year after year.
+```
 
 ---
 
