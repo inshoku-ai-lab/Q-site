@@ -17,6 +17,7 @@ import {
   categoryAccent,
 } from "../../lib/posts";
 import { extractToc } from "../../lib/toc";
+import { getImageDimensions } from "../../lib/imageDimensions";
 
 export async function getStaticPaths() {
   return getPublishedPosts().map((post) => ({
@@ -124,7 +125,14 @@ const structuredData = {
 
       {post.cover && (
         <figure class="mb-10 -mx-4 md:mx-0">
-          <img src={post.cover} alt="" class="w-full rounded-md" loading="eager" />
+          <img
+            src={post.cover}
+            width={getImageDimensions(post.cover)?.width}
+            height={getImageDimensions(post.cover)?.height}
+            alt=""
+            class="w-full rounded-md"
+            loading="eager"
+          />
         </figure>
       )}
 

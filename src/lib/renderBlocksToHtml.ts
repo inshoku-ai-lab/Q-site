@@ -2,6 +2,7 @@ import type { Block } from "./posts";
 import { resolveInternalPost, resolveLegacyCategoryLink, domainOf, categoryAccentHex, formatDateShort } from "./posts";
 import { getOgp } from "./ogp";
 import { isSafeHttpUrl } from "./http";
+import { getImageDimensions } from "./imageDimensions";
 
 // Server-side mirror of components/ArticleBody.astro's block rendering,
 // used to render the member-only tail of an article as an HTML string for
@@ -129,8 +130,10 @@ export function renderBlocksToHtml(blocks: Block[]): string {
           const caption = b.caption
             ? `<figcaption class="text-xs text-ink-muted text-center mt-2">${b.caption}</figcaption>`
             : "";
+          const dim = getImageDimensions(b.src);
+          const dimAttrs = dim ? ` width="${dim.width}" height="${dim.height}"` : "";
           parts.push(
-            `<figure class="my-8"><img src="${escapeAttr(b.src)}" alt="${alt}" loading="lazy" />${caption}</figure>`
+            `<figure class="my-8"><img src="${escapeAttr(b.src)}"${dimAttrs} alt="${alt}" loading="lazy" />${caption}</figure>`
           );
         }
         break;

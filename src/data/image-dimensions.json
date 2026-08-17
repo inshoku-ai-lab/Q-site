@@ -1,0 +1,7734 @@
+{
+ "/images/wp/wp-content/uploads/2016/08/dummy-1.jpg": {
+  "width": 400,
+  "height": 260
+ },
+ "/images/wp/wp-content/uploads/2016/08/dummy-2.jpg": {
+  "width": 1000,
+  "height": 650
+ },
+ "/images/wp/wp-content/uploads/2016/08/dummy-prod-1.jpg": {
+  "width": 500,
+  "height": 600
+ },
+ "/images/wp/wp-content/uploads/2020/09/footer-bg.png": {
+  "width": 1600,
+  "height": 439
+ },
+ "/images/wp/wp-content/uploads/2021/08/Qryptraveler-LTD.jpg": {
+  "width": 1600,
+  "height": 860
+ },
+ "/images/wp/wp-content/uploads/2021/08/cropped-favicon.png": {
+  "width": 512,
+  "height": 512
+ },
+ "/images/wp/wp-content/uploads/2021/08/favicon.png": {
+  "width": 512,
+  "height": 512
+ },
+ "/images/wp/wp-content/uploads/2021/08/footer-bg.png": {
+  "width": 1600,
+  "height": 439
+ },
+ "/images/wp/wp-content/uploads/2021/08/silver-coins-high.jpg": {
+  "width": 480,
+  "height": 320
+ },
+ "/images/wp/wp-content/uploads/2021/08/silver-ingot.jpg": {
+  "width": 360,
+  "height": 240
+ },
+ "/images/wp/wp-content/uploads/2021/09/002guide-500x400.jpg": {
+  "width": 500,
+  "height": 400
+ },
+ "/images/wp/wp-content/uploads/2021/09/002guide.jpg": {
+  "width": 800,
+  "height": 640
+ },
+ "/images/wp/wp-content/uploads/2021/09/002stand.jpg": {
+  "width": 170,
+  "height": 294
+ },
+ "/images/wp/wp-content/uploads/2021/09/Q.jpg": {
+  "width": 1600,
+  "height": 860
+ },
+ "/images/wp/wp-content/uploads/2021/09/Qアノン関連.jpg": {
+  "width": 1600,
+  "height": 860
+ },
+ "/images/wp/wp-content/uploads/2021/09/kangaru-S2.jpg": {
+  "width": 360,
+  "height": 343
+ },
+ "/images/wp/wp-content/uploads/2021/09/lakota.jpg": {
+  "width": 360,
+  "height": 352
+ },
+ "/images/wp/wp-content/uploads/2021/09/pickup.jpg": {
+  "width": 1600,
+  "height": 860
+ },
+ "/images/wp/wp-content/uploads/2021/09/queen-kangaru.jpg": {
+  "width": 360,
+  "height": 362
+ },
+ "/images/wp/wp-content/uploads/2021/09/sizen-1-1.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2021/09/sizen-1-2.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2021/09/sizen-1-3.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2021/09/sizen-1.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2021/09/その他.jpg": {
+  "width": 1600,
+  "height": 860
+ },
+ "/images/wp/wp-content/uploads/2021/09/コロナ関連.jpg": {
+  "width": 1600,
+  "height": 860
+ },
+ "/images/wp/wp-content/uploads/2021/09/コロナ関連情報.jpg": {
+  "width": 1600,
+  "height": 860
+ },
+ "/images/wp/wp-content/uploads/2021/09/傑作集.jpg": {
+  "width": 1600,
+  "height": 860
+ },
+ "/images/wp/wp-content/uploads/2021/09/定期時事ニュース.jpg": {
+  "width": 1600,
+  "height": 860
+ },
+ "/images/wp/wp-content/uploads/2021/09/最新記事.jpg": {
+  "width": 1600,
+  "height": 860
+ },
+ "/images/wp/wp-content/uploads/2021/09/翻訳.jpg": {
+  "width": 1600,
+  "height": 860
+ },
+ "/images/wp/wp-content/uploads/2021/09/週２.jpg": {
+  "width": 1600,
+  "height": 860
+ },
+ "/images/wp/wp-content/uploads/2021/10/000.jpg": {
+  "width": 360,
+  "height": 188
+ },
+ "/images/wp/wp-content/uploads/2021/10/001.jpg": {
+  "width": 360,
+  "height": 189
+ },
+ "/images/wp/wp-content/uploads/2021/10/002-0.jpg": {
+  "width": 800,
+  "height": 419
+ },
+ "/images/wp/wp-content/uploads/2021/10/002-1-1.jpg": {
+  "width": 800,
+  "height": 530
+ },
+ "/images/wp/wp-content/uploads/2021/10/002-1-604x400.jpg": {
+  "width": 604,
+  "height": 400
+ },
+ "/images/wp/wp-content/uploads/2021/10/002-1.jpg": {
+  "width": 800,
+  "height": 530
+ },
+ "/images/wp/wp-content/uploads/2021/10/002-2-671x400.jpg": {
+  "width": 671,
+  "height": 400
+ },
+ "/images/wp/wp-content/uploads/2021/10/002-2.jpg": {
+  "width": 800,
+  "height": 477
+ },
+ "/images/wp/wp-content/uploads/2021/10/003-0.jpg": {
+  "width": 800,
+  "height": 419
+ },
+ "/images/wp/wp-content/uploads/2021/10/003-1-600x400.jpg": {
+  "width": 600,
+  "height": 400
+ },
+ "/images/wp/wp-content/uploads/2021/10/003-1.jpg": {
+  "width": 800,
+  "height": 533
+ },
+ "/images/wp/wp-content/uploads/2021/10/003-2-350x400.png": {
+  "width": 350,
+  "height": 400
+ },
+ "/images/wp/wp-content/uploads/2021/10/003-2.png": {
+  "width": 800,
+  "height": 914
+ },
+ "/images/wp/wp-content/uploads/2021/10/005_0.jpg": {
+  "width": 800,
+  "height": 419
+ },
+ "/images/wp/wp-content/uploads/2021/10/005_1-603x400.jpg": {
+  "width": 603,
+  "height": 400
+ },
+ "/images/wp/wp-content/uploads/2021/10/005_1.jpg": {
+  "width": 800,
+  "height": 531
+ },
+ "/images/wp/wp-content/uploads/2021/10/005_2-646x400.png": {
+  "width": 646,
+  "height": 400
+ },
+ "/images/wp/wp-content/uploads/2021/10/005_2.png": {
+  "width": 800,
+  "height": 495
+ },
+ "/images/wp/wp-content/uploads/2021/10/023_1.jpg": {
+  "width": 1000,
+  "height": 666
+ },
+ "/images/wp/wp-content/uploads/2021/10/IMG_20200731_184449-1.jpg": {
+  "width": 360,
+  "height": 270
+ },
+ "/images/wp/wp-content/uploads/2021/10/IMG_20200731_184449-scaled.jpg": {
+  "width": 1600,
+  "height": 1200
+ },
+ "/images/wp/wp-content/uploads/2021/10/IMG_20200731_184740-scaled.jpg": {
+  "width": 1600,
+  "height": 1200
+ },
+ "/images/wp/wp-content/uploads/2021/10/IMG_20200731_184942-scaled.jpg": {
+  "width": 1600,
+  "height": 1200
+ },
+ "/images/wp/wp-content/uploads/2021/10/IMG_20200731_184945-scaled.jpg": {
+  "width": 1600,
+  "height": 1200
+ },
+ "/images/wp/wp-content/uploads/2021/10/IMG_20200731_184948-1.jpg": {
+  "width": 360,
+  "height": 270
+ },
+ "/images/wp/wp-content/uploads/2021/10/IMG_20200731_184948-scaled.jpg": {
+  "width": 1600,
+  "height": 1200
+ },
+ "/images/wp/wp-content/uploads/2021/10/IMG_20200731_185130-scaled.jpg": {
+  "width": 1600,
+  "height": 1200
+ },
+ "/images/wp/wp-content/uploads/2021/10/Lakota360.jpg": {
+  "width": 360,
+  "height": 353
+ },
+ "/images/wp/wp-content/uploads/2021/10/Qryptraveler2.png": {
+  "width": 300,
+  "height": 50
+ },
+ "/images/wp/wp-content/uploads/2021/10/cropped-unnamed-file.png": {
+  "width": 512,
+  "height": 512
+ },
+ "/images/wp/wp-content/uploads/2021/10/jacket2.jpg": {
+  "width": 360,
+  "height": 360
+ },
+ "/images/wp/wp-content/uploads/2021/10/lakota-transparent.png": {
+  "width": 400,
+  "height": 391
+ },
+ "/images/wp/wp-content/uploads/2021/10/lakota3.jpg": {
+  "width": 360,
+  "height": 359
+ },
+ "/images/wp/wp-content/uploads/2021/10/prayer-without-text-small-800.jpeg": {
+  "width": 800,
+  "height": 400
+ },
+ "/images/wp/wp-content/uploads/2021/10/prayer-without-text-small3.jpeg": {
+  "width": 360,
+  "height": 180
+ },
+ "/images/wp/wp-content/uploads/2021/10/qanon.jpg": {
+  "width": 800,
+  "height": 419
+ },
+ "/images/wp/wp-content/uploads/2021/10/ritual.jpg": {
+  "width": 475,
+  "height": 380
+ },
+ "/images/wp/wp-content/uploads/2021/10/sadhu-601x400.jpg": {
+  "width": 601,
+  "height": 400
+ },
+ "/images/wp/wp-content/uploads/2021/10/sadhu.jpg": {
+  "width": 640,
+  "height": 426
+ },
+ "/images/wp/wp-content/uploads/2021/10/search-Q-info.jpeg": {
+  "width": 840,
+  "height": 475
+ },
+ "/images/wp/wp-content/uploads/2021/10/silver-1072324_640-low3.jpg": {
+  "width": 360,
+  "height": 240
+ },
+ "/images/wp/wp-content/uploads/2021/10/sizen-10.jpg": {
+  "width": 840,
+  "height": 472
+ },
+ "/images/wp/wp-content/uploads/2021/10/sizen-11.jpg": {
+  "width": 840,
+  "height": 472
+ },
+ "/images/wp/wp-content/uploads/2021/10/sizen-12.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2021/10/sizen-13.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2021/10/sizen-14.jpg": {
+  "width": 840,
+  "height": 472
+ },
+ "/images/wp/wp-content/uploads/2021/10/sizen-15.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2021/10/sizen-16.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2021/10/sizen-17.jpg": {
+  "width": 840,
+  "height": 472
+ },
+ "/images/wp/wp-content/uploads/2021/10/sizen-18.jpg": {
+  "width": 840,
+  "height": 472
+ },
+ "/images/wp/wp-content/uploads/2021/10/sizen-19.jpg": {
+  "width": 840,
+  "height": 472
+ },
+ "/images/wp/wp-content/uploads/2021/10/sizen-2-1.jpg": {
+  "width": 840,
+  "height": 472
+ },
+ "/images/wp/wp-content/uploads/2021/10/sizen-2.jpg": {
+  "width": 840,
+  "height": 472
+ },
+ "/images/wp/wp-content/uploads/2021/10/sizen-20.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2021/10/sizen-21.jpg": {
+  "width": 840,
+  "height": 472
+ },
+ "/images/wp/wp-content/uploads/2021/10/sizen-22.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2021/10/sizen-23.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2021/10/sizen-24.jpg": {
+  "width": 840,
+  "height": 472
+ },
+ "/images/wp/wp-content/uploads/2021/10/sizen-25.jpg": {
+  "width": 840,
+  "height": 472
+ },
+ "/images/wp/wp-content/uploads/2021/10/sizen-26.jpg": {
+  "width": 840,
+  "height": 472
+ },
+ "/images/wp/wp-content/uploads/2021/10/sizen-27.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2021/10/sizen-28.jpg": {
+  "width": 840,
+  "height": 472
+ },
+ "/images/wp/wp-content/uploads/2021/10/sizen-29.jpg": {
+  "width": 840,
+  "height": 472
+ },
+ "/images/wp/wp-content/uploads/2021/10/sizen-3.jpg": {
+  "width": 840,
+  "height": 472
+ },
+ "/images/wp/wp-content/uploads/2021/10/sizen-30.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2021/10/sizen-31.jpg": {
+  "width": 840,
+  "height": 472
+ },
+ "/images/wp/wp-content/uploads/2021/10/sizen-32.jpg": {
+  "width": 840,
+  "height": 472
+ },
+ "/images/wp/wp-content/uploads/2021/10/sizen-33.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2021/10/sizen-34.jpg": {
+  "width": 840,
+  "height": 472
+ },
+ "/images/wp/wp-content/uploads/2021/10/sizen-4.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2021/10/sizen-5.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2021/10/sizen-6.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2021/10/sizen-7.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2021/10/sizen-8.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2021/10/sizen-9.jpg": {
+  "width": 840,
+  "height": 472
+ },
+ "/images/wp/wp-content/uploads/2021/10/tibet-small-3.jpg": {
+  "width": 360,
+  "height": 269
+ },
+ "/images/wp/wp-content/uploads/2021/10/tibet1.jpg": {
+  "width": 640,
+  "height": 479
+ },
+ "/images/wp/wp-content/uploads/2021/10/unnamed-file.png": {
+  "width": 256,
+  "height": 256
+ },
+ "/images/wp/wp-content/uploads/2021/10/woman-600x400.jpg": {
+  "width": 600,
+  "height": 400
+ },
+ "/images/wp/wp-content/uploads/2021/10/woman.jpg": {
+  "width": 640,
+  "height": 427
+ },
+ "/images/wp/wp-content/uploads/2021/10/wormhole-gd1ef89070_360.jpg": {
+  "width": 360,
+  "height": 203
+ },
+ "/images/wp/wp-content/uploads/2021/10/旅行記-004-2-437x400.jpg": {
+  "width": 437,
+  "height": 400
+ },
+ "/images/wp/wp-content/uploads/2021/10/旅行記-004-2.jpg": {
+  "width": 800,
+  "height": 733
+ },
+ "/images/wp/wp-content/uploads/2021/10/旅行記004-0.jpg": {
+  "width": 800,
+  "height": 419
+ },
+ "/images/wp/wp-content/uploads/2021/10/旅行記004-1.jpg": {
+  "width": 800,
+  "height": 359
+ },
+ "/images/wp/wp-content/uploads/2021/10/調べ始め.jpg": {
+  "width": 800,
+  "height": 419
+ },
+ "/images/wp/wp-content/uploads/2021/10/送料表２.jpg": {
+  "width": 360,
+  "height": 581
+ },
+ "/images/wp/wp-content/uploads/2021/11/043.jpg": {
+  "width": 360,
+  "height": 270
+ },
+ "/images/wp/wp-content/uploads/2021/11/048.jpg": {
+  "width": 360,
+  "height": 270
+ },
+ "/images/wp/wp-content/uploads/2021/11/051.jpg": {
+  "width": 360,
+  "height": 270
+ },
+ "/images/wp/wp-content/uploads/2021/11/060.jpg": {
+  "width": 360,
+  "height": 270
+ },
+ "/images/wp/wp-content/uploads/2021/11/062-1.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2021/11/063-1.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2021/11/064-1.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2021/11/065-1.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2021/11/066-1.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2021/11/067-1.jpg": {
+  "width": 840,
+  "height": 472
+ },
+ "/images/wp/wp-content/uploads/2021/11/068-1.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2021/11/069-1.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2021/11/070.jpg": {
+  "width": 360,
+  "height": 270
+ },
+ "/images/wp/wp-content/uploads/2021/11/071.jpg": {
+  "width": 360,
+  "height": 270
+ },
+ "/images/wp/wp-content/uploads/2021/11/072.jpg": {
+  "width": 360,
+  "height": 270
+ },
+ "/images/wp/wp-content/uploads/2021/11/073.jpg": {
+  "width": 360,
+  "height": 270
+ },
+ "/images/wp/wp-content/uploads/2021/11/074.jpg": {
+  "width": 360,
+  "height": 270
+ },
+ "/images/wp/wp-content/uploads/2021/11/075.jpg": {
+  "width": 360,
+  "height": 270
+ },
+ "/images/wp/wp-content/uploads/2021/11/076.jpg": {
+  "width": 360,
+  "height": 270
+ },
+ "/images/wp/wp-content/uploads/2021/11/077.jpg": {
+  "width": 360,
+  "height": 270
+ },
+ "/images/wp/wp-content/uploads/2021/11/078.jpg": {
+  "width": 360,
+  "height": 270
+ },
+ "/images/wp/wp-content/uploads/2021/11/079.jpg": {
+  "width": 360,
+  "height": 270
+ },
+ "/images/wp/wp-content/uploads/2021/11/080.jpg": {
+  "width": 360,
+  "height": 270
+ },
+ "/images/wp/wp-content/uploads/2021/11/081.jpg": {
+  "width": 360,
+  "height": 270
+ },
+ "/images/wp/wp-content/uploads/2021/11/10-days-of-darkness-min.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/17.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/2012-min.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/20150929_123923.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2021/11/20150929_131256.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2021/11/20150929_131338.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2021/11/20150929_131347.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2021/11/20150929_134237.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2021/11/3S-policy-min.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/4-channels.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/4D-chess-min.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/5G-min.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/666-min.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/Adrenochrome-1.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/AirQ-min.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/Anglo-Saxon-Mission-min.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/Armageddon-min.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/Artificial-earthquake-min.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/Artificial-typhoon-min.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/Awakening.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/Basic-income.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/Blog10-1-1.jpg": {
+  "width": 640,
+  "height": 300
+ },
+ "/images/wp/wp-content/uploads/2021/11/Blog10-2-1.jpg": {
+  "width": 640,
+  "height": 300
+ },
+ "/images/wp/wp-content/uploads/2021/11/Blog100-1.jpg": {
+  "width": 640,
+  "height": 300
+ },
+ "/images/wp/wp-content/uploads/2021/11/Blog11-1.jpg": {
+  "width": 640,
+  "height": 300
+ },
+ "/images/wp/wp-content/uploads/2021/11/Blog11-2.jpg": {
+  "width": 640,
+  "height": 300
+ },
+ "/images/wp/wp-content/uploads/2021/11/Blog12-1.jpg": {
+  "width": 640,
+  "height": 300
+ },
+ "/images/wp/wp-content/uploads/2021/11/Blog12-2.jpg": {
+  "width": 640,
+  "height": 300
+ },
+ "/images/wp/wp-content/uploads/2021/11/Blog13-1.jpg": {
+  "width": 640,
+  "height": 300
+ },
+ "/images/wp/wp-content/uploads/2021/11/Blog13-2.jpg": {
+  "width": 640,
+  "height": 300
+ },
+ "/images/wp/wp-content/uploads/2021/11/Blog14-1.jpg": {
+  "width": 640,
+  "height": 300
+ },
+ "/images/wp/wp-content/uploads/2021/11/Blog14-2.jpg": {
+  "width": 640,
+  "height": 300
+ },
+ "/images/wp/wp-content/uploads/2021/11/Blog15-1.jpg": {
+  "width": 640,
+  "height": 300
+ },
+ "/images/wp/wp-content/uploads/2021/11/Blog15-2.jpg": {
+  "width": 640,
+  "height": 300
+ },
+ "/images/wp/wp-content/uploads/2021/11/Blog16-1.jpg": {
+  "width": 640,
+  "height": 300
+ },
+ "/images/wp/wp-content/uploads/2021/11/Blog16-2.jpg": {
+  "width": 640,
+  "height": 300
+ },
+ "/images/wp/wp-content/uploads/2021/11/Blog17-1.jpg": {
+  "width": 640,
+  "height": 300
+ },
+ "/images/wp/wp-content/uploads/2021/11/Blog17-2-1.jpg": {
+  "width": 640,
+  "height": 300
+ },
+ "/images/wp/wp-content/uploads/2021/11/Blog18-1.jpg": {
+  "width": 640,
+  "height": 300
+ },
+ "/images/wp/wp-content/uploads/2021/11/Blog18-2.jpg": {
+  "width": 640,
+  "height": 300
+ },
+ "/images/wp/wp-content/uploads/2021/11/Blog19-1.jpg": {
+  "width": 640,
+  "height": 300
+ },
+ "/images/wp/wp-content/uploads/2021/11/Blog19-2.jpg": {
+  "width": 640,
+  "height": 300
+ },
+ "/images/wp/wp-content/uploads/2021/11/Blog20-1.jpg": {
+  "width": 640,
+  "height": 300
+ },
+ "/images/wp/wp-content/uploads/2021/11/Blog20-2.jpg": {
+  "width": 640,
+  "height": 300
+ },
+ "/images/wp/wp-content/uploads/2021/11/Blog21-1.jpg": {
+  "width": 640,
+  "height": 300
+ },
+ "/images/wp/wp-content/uploads/2021/11/Blog21-2.jpg": {
+  "width": 640,
+  "height": 300
+ },
+ "/images/wp/wp-content/uploads/2021/11/Blog22-1.jpg": {
+  "width": 640,
+  "height": 300
+ },
+ "/images/wp/wp-content/uploads/2021/11/Blog22-2.jpg": {
+  "width": 640,
+  "height": 300
+ },
+ "/images/wp/wp-content/uploads/2021/11/Blog23-1.jpg": {
+  "width": 640,
+  "height": 300
+ },
+ "/images/wp/wp-content/uploads/2021/11/Blog23-2.jpg": {
+  "width": 640,
+  "height": 300
+ },
+ "/images/wp/wp-content/uploads/2021/11/Blog24-1.jpg": {
+  "width": 640,
+  "height": 300
+ },
+ "/images/wp/wp-content/uploads/2021/11/Blog24-2.jpg": {
+  "width": 640,
+  "height": 300
+ },
+ "/images/wp/wp-content/uploads/2021/11/Blog25-1.jpg": {
+  "width": 640,
+  "height": 300
+ },
+ "/images/wp/wp-content/uploads/2021/11/Blog25-2.jpg": {
+  "width": 640,
+  "height": 300
+ },
+ "/images/wp/wp-content/uploads/2021/11/Blog26-1.jpg": {
+  "width": 640,
+  "height": 300
+ },
+ "/images/wp/wp-content/uploads/2021/11/Blog26-2.jpg": {
+  "width": 640,
+  "height": 300
+ },
+ "/images/wp/wp-content/uploads/2021/11/Blog27-1.jpg": {
+  "width": 640,
+  "height": 300
+ },
+ "/images/wp/wp-content/uploads/2021/11/Blog27-2.jpg": {
+  "width": 640,
+  "height": 300
+ },
+ "/images/wp/wp-content/uploads/2021/11/Blog28-1.jpg": {
+  "width": 640,
+  "height": 300
+ },
+ "/images/wp/wp-content/uploads/2021/11/Blog28-2.jpg": {
+  "width": 640,
+  "height": 300
+ },
+ "/images/wp/wp-content/uploads/2021/11/Blog29-1.jpg": {
+  "width": 640,
+  "height": 300
+ },
+ "/images/wp/wp-content/uploads/2021/11/Blog29-2.jpg": {
+  "width": 640,
+  "height": 300
+ },
+ "/images/wp/wp-content/uploads/2021/11/Blog30-1.jpg": {
+  "width": 640,
+  "height": 300
+ },
+ "/images/wp/wp-content/uploads/2021/11/Blog30-2.jpg": {
+  "width": 640,
+  "height": 300
+ },
+ "/images/wp/wp-content/uploads/2021/11/Blog31-1.jpg": {
+  "width": 640,
+  "height": 300
+ },
+ "/images/wp/wp-content/uploads/2021/11/Blog31-2.jpg": {
+  "width": 640,
+  "height": 300
+ },
+ "/images/wp/wp-content/uploads/2021/11/Blog32-1.jpg": {
+  "width": 640,
+  "height": 300
+ },
+ "/images/wp/wp-content/uploads/2021/11/Blog32-2.jpg": {
+  "width": 640,
+  "height": 300
+ },
+ "/images/wp/wp-content/uploads/2021/11/Blog33-1.jpg": {
+  "width": 640,
+  "height": 300
+ },
+ "/images/wp/wp-content/uploads/2021/11/Blog33-2.jpg": {
+  "width": 640,
+  "height": 300
+ },
+ "/images/wp/wp-content/uploads/2021/11/Blog34-1.jpg": {
+  "width": 640,
+  "height": 300
+ },
+ "/images/wp/wp-content/uploads/2021/11/Blog34-2.jpg": {
+  "width": 640,
+  "height": 300
+ },
+ "/images/wp/wp-content/uploads/2021/11/Blog35-1.jpg": {
+  "width": 640,
+  "height": 300
+ },
+ "/images/wp/wp-content/uploads/2021/11/Blog35-2.jpg": {
+  "width": 640,
+  "height": 300
+ },
+ "/images/wp/wp-content/uploads/2021/11/Blog36-1.jpg": {
+  "width": 640,
+  "height": 300
+ },
+ "/images/wp/wp-content/uploads/2021/11/Blog36-2.jpg": {
+  "width": 640,
+  "height": 300
+ },
+ "/images/wp/wp-content/uploads/2021/11/Blog37-1.jpg": {
+  "width": 640,
+  "height": 300
+ },
+ "/images/wp/wp-content/uploads/2021/11/Blog37-2.jpg": {
+  "width": 640,
+  "height": 300
+ },
+ "/images/wp/wp-content/uploads/2021/11/Blog6-2-1.jpg": {
+  "width": 640,
+  "height": 300
+ },
+ "/images/wp/wp-content/uploads/2021/11/Blog7-1-1.jpg": {
+  "width": 640,
+  "height": 300
+ },
+ "/images/wp/wp-content/uploads/2021/11/Blog7-2.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/Blog8-1-1.jpg": {
+  "width": 640,
+  "height": 300
+ },
+ "/images/wp/wp-content/uploads/2021/11/Blog8-2-1.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/Blog80-1.jpg": {
+  "width": 640,
+  "height": 300
+ },
+ "/images/wp/wp-content/uploads/2021/11/Blog80-2.jpg": {
+  "width": 640,
+  "height": 300
+ },
+ "/images/wp/wp-content/uploads/2021/11/Blog84-1.jpg": {
+  "width": 640,
+  "height": 300
+ },
+ "/images/wp/wp-content/uploads/2021/11/Blog84-2.jpg": {
+  "width": 640,
+  "height": 300
+ },
+ "/images/wp/wp-content/uploads/2021/11/Blog85-1.jpg": {
+  "width": 640,
+  "height": 300
+ },
+ "/images/wp/wp-content/uploads/2021/11/Blog85-2.jpg": {
+  "width": 640,
+  "height": 300
+ },
+ "/images/wp/wp-content/uploads/2021/11/Blog86-1.jpg": {
+  "width": 640,
+  "height": 300
+ },
+ "/images/wp/wp-content/uploads/2021/11/Blog86-2.jpg": {
+  "width": 640,
+  "height": 300
+ },
+ "/images/wp/wp-content/uploads/2021/11/Blog87-1.jpg": {
+  "width": 640,
+  "height": 300
+ },
+ "/images/wp/wp-content/uploads/2021/11/Blog87-2.jpg": {
+  "width": 640,
+  "height": 300
+ },
+ "/images/wp/wp-content/uploads/2021/11/Blog88-1.jpg": {
+  "width": 640,
+  "height": 300
+ },
+ "/images/wp/wp-content/uploads/2021/11/Blog88-2.jpg": {
+  "width": 640,
+  "height": 300
+ },
+ "/images/wp/wp-content/uploads/2021/11/Blog89-1.jpg": {
+  "width": 640,
+  "height": 300
+ },
+ "/images/wp/wp-content/uploads/2021/11/Blog89-2.jpg": {
+  "width": 640,
+  "height": 300
+ },
+ "/images/wp/wp-content/uploads/2021/11/Blog9-1-1.jpg": {
+  "width": 640,
+  "height": 300
+ },
+ "/images/wp/wp-content/uploads/2021/11/Blog9-2-1.jpg": {
+  "width": 640,
+  "height": 300
+ },
+ "/images/wp/wp-content/uploads/2021/11/Blog90-1.jpg": {
+  "width": 640,
+  "height": 300
+ },
+ "/images/wp/wp-content/uploads/2021/11/Blog90-2.jpg": {
+  "width": 640,
+  "height": 300
+ },
+ "/images/wp/wp-content/uploads/2021/11/Blog91-1.jpg": {
+  "width": 640,
+  "height": 300
+ },
+ "/images/wp/wp-content/uploads/2021/11/Blog91-2.jpg": {
+  "width": 640,
+  "height": 300
+ },
+ "/images/wp/wp-content/uploads/2021/11/Blog92-1.jpg": {
+  "width": 640,
+  "height": 300
+ },
+ "/images/wp/wp-content/uploads/2021/11/Blog92-2.jpg": {
+  "width": 640,
+  "height": 300
+ },
+ "/images/wp/wp-content/uploads/2021/11/Blog93-1.jpg": {
+  "width": 640,
+  "height": 300
+ },
+ "/images/wp/wp-content/uploads/2021/11/Blog93-2.jpg": {
+  "width": 640,
+  "height": 300
+ },
+ "/images/wp/wp-content/uploads/2021/11/Blog94-1.jpg": {
+  "width": 640,
+  "height": 300
+ },
+ "/images/wp/wp-content/uploads/2021/11/Blog94-2.jpg": {
+  "width": 640,
+  "height": 300
+ },
+ "/images/wp/wp-content/uploads/2021/11/Blog95-1.jpg": {
+  "width": 640,
+  "height": 300
+ },
+ "/images/wp/wp-content/uploads/2021/11/Blog95-2.jpg": {
+  "width": 640,
+  "height": 300
+ },
+ "/images/wp/wp-content/uploads/2021/11/Blog96-1.jpg": {
+  "width": 640,
+  "height": 300
+ },
+ "/images/wp/wp-content/uploads/2021/11/Blog96-2.jpg": {
+  "width": 640,
+  "height": 300
+ },
+ "/images/wp/wp-content/uploads/2021/11/Blog97-1.jpg": {
+  "width": 640,
+  "height": 300
+ },
+ "/images/wp/wp-content/uploads/2021/11/Blog97-2.jpg": {
+  "width": 640,
+  "height": 300
+ },
+ "/images/wp/wp-content/uploads/2021/11/Blog98-1.jpg": {
+  "width": 640,
+  "height": 300
+ },
+ "/images/wp/wp-content/uploads/2021/11/Blog98-2.jpg": {
+  "width": 640,
+  "height": 300
+ },
+ "/images/wp/wp-content/uploads/2021/11/Blog99-1.jpg": {
+  "width": 640,
+  "height": 300
+ },
+ "/images/wp/wp-content/uploads/2021/11/Blog99-2.jpg": {
+  "width": 640,
+  "height": 300
+ },
+ "/images/wp/wp-content/uploads/2021/11/Bruise-on-the-face-min.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/CG.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/CIA-min.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/Cabal.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/Chemtrail-.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/Crisis-actor-min.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/DJT-min.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/Dark-To-Light-min.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/Deepfake.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/Dominion-min.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/Drain-The-Swamp-min.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/Eat-The-Pain-min.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/Epstein-Island.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/Eye-of-Providence.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/FISA-report.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/FLOTUS.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/FRB-min.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/Fake-MAGA-min-1.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/Fake-news-min.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/False-Jewish-1-min.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/False-Jewish-2-min.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/False-Jewish-3-min.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/False-Jewish-4-1.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/False-Jewish-5-min.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/False-Jewish-6-min.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/False-Jewish-7-1.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/False-Jewish-8-min.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/False-Jewish-9-min.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/False-Jewish-min.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/Finger-injury.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/GITMO-min.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/Gematria.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/Georgia-Guidestone-min.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/Gold-standard-min.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/Goyim.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/Great-Awakening-min.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/Great-Awakening2-min.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/HAARP.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/Hand-sign-min.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/Hillarys-email.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/Information-diffusion.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/Information-warfare-min.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/John-F.-Kennedy.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/Kennedy-Jr.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/Kuru-disease-min.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/Layer-B-min.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/Lolita-Express-min.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/Lommel-death-min.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/Looking-glasses.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/MAGA-min.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/MSM-min.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/Mass-arrest-min.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/Media-blackout-min.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/Mockingbird-bird-min.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/Mockingbird.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/NSA-min.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/New-World-Order-min.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/Obamagate-min.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/Olympic-min.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/One-blindfold-min.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/Patriot-min.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/Pedophile-jargon.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/Pedophilia-min.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/Pizzagate-min.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/Popcorn.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/Population-reduction-plan-min.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/Pyramid-and-eyes-min.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/Q-anon-min.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/Q-army-Japan-Flynn-min.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/Q-min.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/Q-proof.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/Q2.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/Qarmy-1.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/Qdrop.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/Red-shoes.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/Reverse-playback.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/Rockefeller-min.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/Rothschild-min.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/Ruby-min.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/Russian-gate-min.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/SDGs-min.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/Satan-min.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/Satan-worshiper-min.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/Self-made-self-performance.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/Shadow-van-min.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/Shock-doctrine-min.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/Single-eye-min.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/Spin-news.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/Symbolism-min.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/Team-A.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/ThumsUp.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/Transgender-min.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/Transhumanism-min.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/Underground-facility-min.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/Vincent-Huska.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/WWG1WGA.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/We-are-the-news.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/White-Rabbit.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/White-Squall.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/White-hat-2.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/Zion-Protocol-min.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/bitcoin11.jpeg": {
+  "width": 1600,
+  "height": 838
+ },
+ "/images/wp/wp-content/uploads/2021/11/bitcoin9.jpg": {
+  "width": 1600,
+  "height": 838
+ },
+ "/images/wp/wp-content/uploads/2021/11/book-gc4e29ad4f_640.jpg": {
+  "width": 360,
+  "height": 270
+ },
+ "/images/wp/wp-content/uploads/2021/11/book-gfcc97c844_1920.jpg": {
+  "width": 360,
+  "height": 241
+ },
+ "/images/wp/wp-content/uploads/2021/11/britania-back-2022-540.jpg": {
+  "width": 540,
+  "height": 544
+ },
+ "/images/wp/wp-content/uploads/2021/11/britania-front-2022-540.jpg": {
+  "width": 540,
+  "height": 542
+ },
+ "/images/wp/wp-content/uploads/2021/11/clone-min.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/coronavirus-min.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/coruption-534x400.jpg": {
+  "width": 534,
+  "height": 400
+ },
+ "/images/wp/wp-content/uploads/2021/11/coruption.jpg": {
+  "width": 640,
+  "height": 479
+ },
+ "/images/wp/wp-content/uploads/2021/11/cropped-hat2.png": {
+  "width": 512,
+  "height": 512
+ },
+ "/images/wp/wp-content/uploads/2021/11/cruger-back-2021-540.png": {
+  "width": 818,
+  "height": 812
+ },
+ "/images/wp/wp-content/uploads/2021/11/cruger-front-2021-540.jpg": {
+  "width": 540,
+  "height": 534
+ },
+ "/images/wp/wp-content/uploads/2021/11/default-point-type.png": {
+  "width": 129,
+  "height": 129
+ },
+ "/images/wp/wp-content/uploads/2021/11/delta-min.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/door-600x400.jpg": {
+  "width": 600,
+  "height": 400
+ },
+ "/images/wp/wp-content/uploads/2021/11/door.jpg": {
+  "width": 640,
+  "height": 427
+ },
+ "/images/wp/wp-content/uploads/2021/11/hat2.png": {
+  "width": 256,
+  "height": 256
+ },
+ "/images/wp/wp-content/uploads/2021/11/herareus-540.jpg": {
+  "width": 540,
+  "height": 540
+ },
+ "/images/wp/wp-content/uploads/2021/11/hold-min.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/independent-601x400.jpg": {
+  "width": 601,
+  "height": 400
+ },
+ "/images/wp/wp-content/uploads/2021/11/independent.jpg": {
+  "width": 640,
+  "height": 426
+ },
+ "/images/wp/wp-content/uploads/2021/11/meditation-g82eb3fc61_640.jpg": {
+  "width": 640,
+  "height": 302
+ },
+ "/images/wp/wp-content/uploads/2021/11/morning-2264051_640-601x400.jpg": {
+  "width": 601,
+  "height": 400
+ },
+ "/images/wp/wp-content/uploads/2021/11/morning-2264051_640.jpg": {
+  "width": 640,
+  "height": 426
+ },
+ "/images/wp/wp-content/uploads/2021/11/old-money-623x400.jpg": {
+  "width": 623,
+  "height": 400
+ },
+ "/images/wp/wp-content/uploads/2021/11/old-money.jpg": {
+  "width": 640,
+  "height": 411
+ },
+ "/images/wp/wp-content/uploads/2021/11/panic-min.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/payment-explain.jpg": {
+  "width": 540,
+  "height": 185
+ },
+ "/images/wp/wp-content/uploads/2021/11/prayer.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/propaganda-min.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/qanon-words.jpg": {
+  "width": 768,
+  "height": 512
+ },
+ "/images/wp/wp-content/uploads/2021/11/qmap640.jpg": {
+  "width": 640,
+  "height": 306
+ },
+ "/images/wp/wp-content/uploads/2021/11/rabbit-600x400.jpg": {
+  "width": 600,
+  "height": 400
+ },
+ "/images/wp/wp-content/uploads/2021/11/rabbit.jpg": {
+  "width": 640,
+  "height": 427
+ },
+ "/images/wp/wp-content/uploads/2021/11/silver-100oz-ingot.jpg": {
+  "width": 340,
+  "height": 340
+ },
+ "/images/wp/wp-content/uploads/2021/11/silver-category.jpg": {
+  "width": 340,
+  "height": 340
+ },
+ "/images/wp/wp-content/uploads/2021/11/silver-coins-high.jpg": {
+  "width": 480,
+  "height": 320
+ },
+ "/images/wp/wp-content/uploads/2021/11/silver-ingot.jpg": {
+  "width": 360,
+  "height": 240
+ },
+ "/images/wp/wp-content/uploads/2021/11/sizen-037.jpg": {
+  "width": 840,
+  "height": 472
+ },
+ "/images/wp/wp-content/uploads/2021/11/sizen-040.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2021/11/sizen-042.jpg": {
+  "width": 840,
+  "height": 472
+ },
+ "/images/wp/wp-content/uploads/2021/11/sizen-35.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2021/11/sizen-36.jpg": {
+  "width": 840,
+  "height": 472
+ },
+ "/images/wp/wp-content/uploads/2021/11/sizen-38.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2021/11/sizen-39.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2021/11/sizen-41.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2021/11/sizen-44.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2021/11/sizen-45.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2021/11/sizen-46.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2021/11/sizen-47.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2021/11/sizen-49.jpg": {
+  "width": 840,
+  "height": 472
+ },
+ "/images/wp/wp-content/uploads/2021/11/sizen-50.jpg": {
+  "width": 840,
+  "height": 472
+ },
+ "/images/wp/wp-content/uploads/2021/11/sizen-51.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2021/11/sizen-52.jpg": {
+  "width": 840,
+  "height": 472
+ },
+ "/images/wp/wp-content/uploads/2021/11/sizen-53.jpg": {
+  "width": 840,
+  "height": 472
+ },
+ "/images/wp/wp-content/uploads/2021/11/sizen-54-1.jpg": {
+  "width": 840,
+  "height": 472
+ },
+ "/images/wp/wp-content/uploads/2021/11/sizen-54.jpg": {
+  "width": 840,
+  "height": 472
+ },
+ "/images/wp/wp-content/uploads/2021/11/sizen-55.jpg": {
+  "width": 840,
+  "height": 472
+ },
+ "/images/wp/wp-content/uploads/2021/11/sizen-56.jpg": {
+  "width": 840,
+  "height": 472
+ },
+ "/images/wp/wp-content/uploads/2021/11/sizen-57.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2021/11/sizen-58-1.jpg": {
+  "width": 840,
+  "height": 472
+ },
+ "/images/wp/wp-content/uploads/2021/11/sizen-58.jpg": {
+  "width": 840,
+  "height": 472
+ },
+ "/images/wp/wp-content/uploads/2021/11/sizen-59.jpg": {
+  "width": 840,
+  "height": 472
+ },
+ "/images/wp/wp-content/uploads/2021/11/sizen-61.jpg": {
+  "width": 840,
+  "height": 472
+ },
+ "/images/wp/wp-content/uploads/2021/11/snafkin270.jpg": {
+  "width": 270,
+  "height": 270
+ },
+ "/images/wp/wp-content/uploads/2021/11/storm-1.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/suspend-479x400.jpg": {
+  "width": 479,
+  "height": 400
+ },
+ "/images/wp/wp-content/uploads/2021/11/suspend.jpg": {
+  "width": 640,
+  "height": 535
+ },
+ "/images/wp/wp-content/uploads/2021/11/thinker-1294491_640-601x400.jpg": {
+  "width": 601,
+  "height": 400
+ },
+ "/images/wp/wp-content/uploads/2021/11/thinker-1294491_640.jpg": {
+  "width": 640,
+  "height": 426
+ },
+ "/images/wp/wp-content/uploads/2021/11/twitter.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/typewriter-min.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/vaccination.jpg": {
+  "width": 540,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2021/11/valcambi-2.jpeg": {
+  "width": 380,
+  "height": 380
+ },
+ "/images/wp/wp-content/uploads/2021/11/スクリーンショット-2024-05-21-午前9.11.38.png": {
+  "width": 868,
+  "height": 858
+ },
+ "/images/wp/wp-content/uploads/2021/12/100gramgold.jpg": {
+  "width": 540,
+  "height": 338
+ },
+ "/images/wp/wp-content/uploads/2021/12/adrenochrome.jpg": {
+  "width": 633,
+  "height": 380
+ },
+ "/images/wp/wp-content/uploads/2021/12/cointelegraph.jpg": {
+  "width": 1434,
+  "height": 955
+ },
+ "/images/wp/wp-content/uploads/2021/12/craig-wright-1.jpg": {
+  "width": 654,
+  "height": 432
+ },
+ "/images/wp/wp-content/uploads/2021/12/digital-soldier.jpg": {
+  "width": 676,
+  "height": 380
+ },
+ "/images/wp/wp-content/uploads/2021/12/donation-1.jpg": {
+  "width": 840,
+  "height": 524
+ },
+ "/images/wp/wp-content/uploads/2021/12/gold-coins-small.jpg": {
+  "width": 540,
+  "height": 324
+ },
+ "/images/wp/wp-content/uploads/2021/12/gold-ingot540.jpg": {
+  "width": 540,
+  "height": 304
+ },
+ "/images/wp/wp-content/uploads/2021/12/gold-random.jpg": {
+  "width": 540,
+  "height": 275
+ },
+ "/images/wp/wp-content/uploads/2021/12/paradium-bar.png": {
+  "width": 916,
+  "height": 898
+ },
+ "/images/wp/wp-content/uploads/2021/12/paradium-coin-back.jpg": {
+  "width": 540,
+  "height": 490
+ },
+ "/images/wp/wp-content/uploads/2021/12/paradium-coin-front.jpg": {
+  "width": 540,
+  "height": 481
+ },
+ "/images/wp/wp-content/uploads/2021/12/platinum-100g-back.jpg": {
+  "width": 540,
+  "height": 544
+ },
+ "/images/wp/wp-content/uploads/2021/12/platinum-100g.jpg": {
+  "width": 540,
+  "height": 540
+ },
+ "/images/wp/wp-content/uploads/2021/12/platinum-1oz-back.jpg": {
+  "width": 540,
+  "height": 516
+ },
+ "/images/wp/wp-content/uploads/2021/12/platinum-1oz.jpg": {
+  "width": 540,
+  "height": 533
+ },
+ "/images/wp/wp-content/uploads/2021/12/platinum-category.jpg": {
+  "width": 340,
+  "height": 340
+ },
+ "/images/wp/wp-content/uploads/2021/12/スクリーンショット-2021-12-07-23.55.52.png": {
+  "width": 1434,
+  "height": 1040
+ },
+ "/images/wp/wp-content/uploads/2022/01/2014-10-02-13.15.12.jpg": {
+  "width": 840,
+  "height": 474
+ },
+ "/images/wp/wp-content/uploads/2022/01/2014-10-08-12.02.19.jpg": {
+  "width": 840,
+  "height": 474
+ },
+ "/images/wp/wp-content/uploads/2022/01/2014-10-08-15.22.38.jpg": {
+  "width": 840,
+  "height": 474
+ },
+ "/images/wp/wp-content/uploads/2022/01/2014-10-09-08.24.19.jpg": {
+  "width": 840,
+  "height": 474
+ },
+ "/images/wp/wp-content/uploads/2022/01/2014-10-09-08.24.30.jpg": {
+  "width": 840,
+  "height": 474
+ },
+ "/images/wp/wp-content/uploads/2022/01/2014-10-09-08.24.47.jpg": {
+  "width": 840,
+  "height": 474
+ },
+ "/images/wp/wp-content/uploads/2022/01/20150902_122509-rotated.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/01/20150902_122746.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/01/20150929_122046.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/01/Cosmic-Flow-Front-Jacket-Final-Edition-200.png": {
+  "width": 200,
+  "height": 200
+ },
+ "/images/wp/wp-content/uploads/2022/01/Devolution-Theory.jpg": {
+  "width": 1600,
+  "height": 900
+ },
+ "/images/wp/wp-content/uploads/2022/01/MMS.jpg": {
+  "width": 800,
+  "height": 597
+ },
+ "/images/wp/wp-content/uploads/2022/01/craig-donation.png": {
+  "width": 800,
+  "height": 580
+ },
+ "/images/wp/wp-content/uploads/2022/01/cyber-security.jpeg": {
+  "width": 863,
+  "height": 241
+ },
+ "/images/wp/wp-content/uploads/2022/01/d2_1.jpeg": {
+  "width": 750,
+  "height": 408
+ },
+ "/images/wp/wp-content/uploads/2022/01/d2_2.jpeg": {
+  "width": 631,
+  "height": 396
+ },
+ "/images/wp/wp-content/uploads/2022/01/devolution2.jpg": {
+  "width": 1298,
+  "height": 666
+ },
+ "/images/wp/wp-content/uploads/2022/01/donation.jpg": {
+  "width": 840,
+  "height": 524
+ },
+ "/images/wp/wp-content/uploads/2022/01/donation1-970x800.png": {
+  "width": 970,
+  "height": 800
+ },
+ "/images/wp/wp-content/uploads/2022/01/donation1.png": {
+  "width": 1332,
+  "height": 1098
+ },
+ "/images/wp/wp-content/uploads/2022/01/fakejew840.jpeg": {
+  "width": 840,
+  "height": 440
+ },
+ "/images/wp/wp-content/uploads/2022/01/jesus-christ-898330_640.jpg": {
+  "width": 360,
+  "height": 240
+ },
+ "/images/wp/wp-content/uploads/2022/01/login.png": {
+  "width": 400,
+  "height": 269
+ },
+ "/images/wp/wp-content/uploads/2022/01/premium-account.png": {
+  "width": 400,
+  "height": 292
+ },
+ "/images/wp/wp-content/uploads/2022/01/premium2.png": {
+  "width": 320,
+  "height": 320
+ },
+ "/images/wp/wp-content/uploads/2022/01/shilvercoin4.jpeg": {
+  "width": 1600,
+  "height": 900
+ },
+ "/images/wp/wp-content/uploads/2022/01/shipping-fee-2022-1.png": {
+  "width": 640,
+  "height": 912
+ },
+ "/images/wp/wp-content/uploads/2022/01/shipping-fee-2022FEB.png": {
+  "width": 640,
+  "height": 912
+ },
+ "/images/wp/wp-content/uploads/2022/01/silvershop.png": {
+  "width": 800,
+  "height": 150
+ },
+ "/images/wp/wp-content/uploads/2022/01/site-logo1-Qryptraveller.png": {
+  "width": 300,
+  "height": 50
+ },
+ "/images/wp/wp-content/uploads/2022/01/sizen-43.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/01/subscribe1.png": {
+  "width": 866,
+  "height": 500
+ },
+ "/images/wp/wp-content/uploads/2022/01/trump-tweet.jpeg": {
+  "width": 532,
+  "height": 249
+ },
+ "/images/wp/wp-content/uploads/2022/02/002_10-674x800.jpeg": {
+  "width": 674,
+  "height": 800
+ },
+ "/images/wp/wp-content/uploads/2022/02/002_10.jpeg": {
+  "width": 692,
+  "height": 821
+ },
+ "/images/wp/wp-content/uploads/2022/02/20150929_134606.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/02/20151010_135014.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/02/20151010_135043.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/02/20151010_135108.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/02/20151015_144340.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/02/20151016_143304.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/02/20160325_192837.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/02/20160325_192902.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/02/20160325_192907.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/02/20160325_192919.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/02/20160325_193016.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/02/20160325_193140.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/02/20160331_190406.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/02/20160402_172245.jpg": {
+  "width": 840,
+  "height": 1493
+ },
+ "/images/wp/wp-content/uploads/2022/02/20160409_115442.jpg": {
+  "width": 840,
+  "height": 630
+ },
+ "/images/wp/wp-content/uploads/2022/02/20160409_115502.jpg": {
+  "width": 840,
+  "height": 630
+ },
+ "/images/wp/wp-content/uploads/2022/02/20160409_115508.jpg": {
+  "width": 840,
+  "height": 630
+ },
+ "/images/wp/wp-content/uploads/2022/02/20160409_115523.jpg": {
+  "width": 840,
+  "height": 1120
+ },
+ "/images/wp/wp-content/uploads/2022/02/20160409_115554.jpg": {
+  "width": 840,
+  "height": 630
+ },
+ "/images/wp/wp-content/uploads/2022/02/20160409_115559.jpg": {
+  "width": 840,
+  "height": 630
+ },
+ "/images/wp/wp-content/uploads/2022/02/20160409_115632.jpg": {
+  "width": 840,
+  "height": 630
+ },
+ "/images/wp/wp-content/uploads/2022/02/20160409_115740.jpg": {
+  "width": 840,
+  "height": 1120
+ },
+ "/images/wp/wp-content/uploads/2022/02/20160409_115903.jpg": {
+  "width": 840,
+  "height": 1120
+ },
+ "/images/wp/wp-content/uploads/2022/02/20160409_115915.jpg": {
+  "width": 840,
+  "height": 1120
+ },
+ "/images/wp/wp-content/uploads/2022/02/20160409_115932.jpg": {
+  "width": 840,
+  "height": 1120
+ },
+ "/images/wp/wp-content/uploads/2022/02/d4_13_z.jpeg": {
+  "width": 451,
+  "height": 353
+ },
+ "/images/wp/wp-content/uploads/2022/02/d5_13_b.png": {
+  "width": 584,
+  "height": 117
+ },
+ "/images/wp/wp-content/uploads/2022/02/d5_18_b.png": {
+  "width": 508,
+  "height": 557
+ },
+ "/images/wp/wp-content/uploads/2022/02/d5_19_b.png": {
+  "width": 517,
+  "height": 66
+ },
+ "/images/wp/wp-content/uploads/2022/02/d5_20_b.png": {
+  "width": 226,
+  "height": 65
+ },
+ "/images/wp/wp-content/uploads/2022/02/d5_6_b.png": {
+  "width": 1040,
+  "height": 312
+ },
+ "/images/wp/wp-content/uploads/2022/02/d6-3-7_1-600x400.jpeg": {
+  "width": 600,
+  "height": 400
+ },
+ "/images/wp/wp-content/uploads/2022/02/d6-3-7_1.jpeg": {
+  "width": 1456,
+  "height": 971
+ },
+ "/images/wp/wp-content/uploads/2022/02/date.jpeg": {
+  "width": 751,
+  "height": 395
+ },
+ "/images/wp/wp-content/uploads/2022/02/guevara.jpeg": {
+  "width": 675,
+  "height": 380
+ },
+ "/images/wp/wp-content/uploads/2022/02/https___bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com_public_images_1a2d0db6-84fa-48c2-8610-8d97fcaee579_692x821.jpg": {
+  "width": 692,
+  "height": 821
+ },
+ "/images/wp/wp-content/uploads/2022/02/https___bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com_public_images_1c1db56c-7322-4f02-970e-34c5e55e9f05_1376x849.png": {
+  "width": 1376,
+  "height": 849
+ },
+ "/images/wp/wp-content/uploads/2022/02/https___bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com_public_images_a4db892f-bffd-4a7b-8143-bc07921a57f2_624x780-320x400.jpeg": {
+  "width": 320,
+  "height": 400
+ },
+ "/images/wp/wp-content/uploads/2022/02/https___bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com_public_images_a4db892f-bffd-4a7b-8143-bc07921a57f2_624x780.jpeg": {
+  "width": 624,
+  "height": 780
+ },
+ "/images/wp/wp-content/uploads/2022/02/https___bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com_public_images_c91ed18b-5064-4037-95aa-53e7e0f9c2d3_249x305.jpeg": {
+  "width": 249,
+  "height": 305
+ },
+ "/images/wp/wp-content/uploads/2022/02/https___bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com_public_images_cbdabbb8-e457-49ab-a2d3-5aac9ff215f3_243x307.jpeg": {
+  "width": 243,
+  "height": 307
+ },
+ "/images/wp/wp-content/uploads/2022/02/https___bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com_public_images_e7b325e4-c1ea-4285-b09e-2d1777953afc_244x306-1.jpeg": {
+  "width": 244,
+  "height": 306
+ },
+ "/images/wp/wp-content/uploads/2022/02/https___bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com_public_images_e7b325e4-c1ea-4285-b09e-2d1777953afc_244x306.jpeg": {
+  "width": 244,
+  "height": 306
+ },
+ "/images/wp/wp-content/uploads/2022/02/https___bucketeer-e05bbc84-baa3-437e-9518-adb32be77984_s3_amazonaws_com_public_images_1c1db56c-7322-4f02-970e-34c5e55e9f05_1376x849-618x400.png": {
+  "width": 618,
+  "height": 400
+ },
+ "/images/wp/wp-content/uploads/2022/02/https___bucketeer-e05bbc84-baa3-437e-9518-adb32be77984_s3_amazonaws_com_public_images_1c1db56c-7322-4f02-970e-34c5e55e9f05_1376x849.png": {
+  "width": 1376,
+  "height": 890
+ },
+ "/images/wp/wp-content/uploads/2022/02/tero.jpg": {
+  "width": 440,
+  "height": 682
+ },
+ "/images/wp/wp-content/uploads/2022/02/toilet.jpeg": {
+  "width": 570,
+  "height": 380
+ },
+ "/images/wp/wp-content/uploads/2022/02/スクリーンショット-2022-02-07-17.41.57-264x400.png": {
+  "width": 264,
+  "height": 400
+ },
+ "/images/wp/wp-content/uploads/2022/02/スクリーンショット-2022-02-07-17.41.57.png": {
+  "width": 518,
+  "height": 786
+ },
+ "/images/wp/wp-content/uploads/2022/02/スクリーンショット-2022-02-26-13.22.16.png": {
+  "width": 430,
+  "height": 230
+ },
+ "/images/wp/wp-content/uploads/2022/03/002_10.jpeg": {
+  "width": 692,
+  "height": 821
+ },
+ "/images/wp/wp-content/uploads/2022/03/1.jpeg": {
+  "width": 590,
+  "height": 723
+ },
+ "/images/wp/wp-content/uploads/2022/03/10.jpeg": {
+  "width": 591,
+  "height": 416
+ },
+ "/images/wp/wp-content/uploads/2022/03/11.jpeg": {
+  "width": 590,
+  "height": 667
+ },
+ "/images/wp/wp-content/uploads/2022/03/12-1.jpeg": {
+  "width": 590,
+  "height": 670
+ },
+ "/images/wp/wp-content/uploads/2022/03/12.jpeg": {
+  "width": 757,
+  "height": 453
+ },
+ "/images/wp/wp-content/uploads/2022/03/2.jpg": {
+  "width": 585,
+  "height": 763
+ },
+ "/images/wp/wp-content/uploads/2022/03/3.jpg.jpeg": {
+  "width": 591,
+  "height": 725
+ },
+ "/images/wp/wp-content/uploads/2022/03/6-1-463x800.jpeg": {
+  "width": 463,
+  "height": 800
+ },
+ "/images/wp/wp-content/uploads/2022/03/6-1.jpeg": {
+  "width": 585,
+  "height": 1011
+ },
+ "/images/wp/wp-content/uploads/2022/03/6.jpeg": {
+  "width": 585,
+  "height": 1011
+ },
+ "/images/wp/wp-content/uploads/2022/03/7.jpeg": {
+  "width": 668,
+  "height": 963
+ },
+ "/images/wp/wp-content/uploads/2022/03/8.jpeg": {
+  "width": 780,
+  "height": 520
+ },
+ "/images/wp/wp-content/uploads/2022/03/9.jpeg": {
+  "width": 585,
+  "height": 763
+ },
+ "/images/wp/wp-content/uploads/2022/03/BitcoinSV.jpeg": {
+  "width": 960,
+  "height": 503
+ },
+ "/images/wp/wp-content/uploads/2022/03/gold.jpeg": {
+  "width": 700,
+  "height": 505
+ },
+ "/images/wp/wp-content/uploads/2022/03/shipping-fee-2022-mar.png": {
+  "width": 1450,
+  "height": 756
+ },
+ "/images/wp/wp-content/uploads/2022/04/1.jpg": {
+  "width": 560,
+  "height": 571
+ },
+ "/images/wp/wp-content/uploads/2022/04/10.jpeg": {
+  "width": 425,
+  "height": 153
+ },
+ "/images/wp/wp-content/uploads/2022/04/11.jpeg": {
+  "width": 399,
+  "height": 129
+ },
+ "/images/wp/wp-content/uploads/2022/04/11.jpg": {
+  "width": 905,
+  "height": 411
+ },
+ "/images/wp/wp-content/uploads/2022/04/12.jpeg": {
+  "width": 349,
+  "height": 130
+ },
+ "/images/wp/wp-content/uploads/2022/04/13.jpeg": {
+  "width": 383,
+  "height": 128
+ },
+ "/images/wp/wp-content/uploads/2022/04/14.jpeg": {
+  "width": 413,
+  "height": 127
+ },
+ "/images/wp/wp-content/uploads/2022/04/20160409_115953.jpg": {
+  "width": 840,
+  "height": 1120
+ },
+ "/images/wp/wp-content/uploads/2022/04/20160409_120007.jpg": {
+  "width": 840,
+  "height": 1120
+ },
+ "/images/wp/wp-content/uploads/2022/04/20160409_171728.jpg": {
+  "width": 840,
+  "height": 630
+ },
+ "/images/wp/wp-content/uploads/2022/04/20160416_194324.jpg": {
+  "width": 840,
+  "height": 518
+ },
+ "/images/wp/wp-content/uploads/2022/04/20160420_185601.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/04/20160420_190310.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/04/20160421_150051.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/04/20160516_141821.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/04/20160519_115530.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/04/20160613_110130.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/04/20160613_110146.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/04/20161113_104831.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/04/20161113_140834.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/04/20161116_152039.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/04/20161116_153231.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/04/20161116_153239.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/04/20161116_153437.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/04/20161230_180859.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/04/20170125_171151.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/04/20170125_171155.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/04/20170211_064708.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/04/20170217_101510.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/04/20170217_101729.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/04/20170217_102221.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/04/20170217_102443.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/04/20170217_102533.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/04/20170227_125856.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/04/20170227_143252.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/04/20170227_143308.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/04/20170301_160208.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/04/20170306_084117.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/04/20170320_061035.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/04/20170320_061040.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/04/20170320_061053.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/04/20170320_061056.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/04/20170320_061148.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/04/20170412_145642.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/04/20170412_145830.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/04/20170412_153820.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/04/20170412_162746.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/04/20170412_164125.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/04/20170412_164539.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/04/20170413_104804.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/04/20170413_104852.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/04/20170413_104858.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/04/20170417_063127.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/04/20170417_063355.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/04/20170429_095826.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/04/20170429_095837.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/04/20170608_111821.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/04/20170608_111827.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/04/20170610_083549.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/04/20170610_083831.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/04/20170610_085712.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/04/20170610_085722.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/04/20170610_090301.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/04/20170610_090305.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/04/20170610_090343.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/04/20170610_090359.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/04/6.jpeg": {
+  "width": 392,
+  "height": 129
+ },
+ "/images/wp/wp-content/uploads/2022/04/7.jpeg": {
+  "width": 384,
+  "height": 129
+ },
+ "/images/wp/wp-content/uploads/2022/04/8.jpeg": {
+  "width": 412,
+  "height": 129
+ },
+ "/images/wp/wp-content/uploads/2022/04/9.jpeg": {
+  "width": 411,
+  "height": 130
+ },
+ "/images/wp/wp-content/uploads/2022/04/Starlinq３.jpeg": {
+  "width": 1000,
+  "height": 588
+ },
+ "/images/wp/wp-content/uploads/2022/04/head-and-shoulder-2.png": {
+  "width": 1600,
+  "height": 1280
+ },
+ "/images/wp/wp-content/uploads/2022/04/image-1.png": {
+  "width": 908,
+  "height": 569
+ },
+ "/images/wp/wp-content/uploads/2022/04/maye-musk-666.jpeg": {
+  "width": 600,
+  "height": 726
+ },
+ "/images/wp/wp-content/uploads/2022/04/morocco.jpeg": {
+  "width": 640,
+  "height": 480
+ },
+ "/images/wp/wp-content/uploads/2022/04/qryp-coment1.jpeg": {
+  "width": 828,
+  "height": 1240
+ },
+ "/images/wp/wp-content/uploads/2022/04/qryp-coment2.jpeg": {
+  "width": 828,
+  "height": 949
+ },
+ "/images/wp/wp-content/uploads/2022/04/tfL-Notting-Hill-Carnival-map-1-2.png": {
+  "width": 1358,
+  "height": 959
+ },
+ "/images/wp/wp-content/uploads/2022/04/スクリーンショット-2022-04-20-13.42.40.png": {
+  "width": 1600,
+  "height": 1071
+ },
+ "/images/wp/wp-content/uploads/2022/04/スクリーンショット-2022-04-24-16.32.24.png": {
+  "width": 894,
+  "height": 716
+ },
+ "/images/wp/wp-content/uploads/2022/04/私は素手でイルミナティを潰す.jpg": {
+  "width": 1600,
+  "height": 838
+ },
+ "/images/wp/wp-content/uploads/2022/04/００１-1400x314.png": {
+  "width": 1400,
+  "height": 314
+ },
+ "/images/wp/wp-content/uploads/2022/04/００１.png": {
+  "width": 1478,
+  "height": 332
+ },
+ "/images/wp/wp-content/uploads/2022/04/００２-1400x193.png": {
+  "width": 1400,
+  "height": 193
+ },
+ "/images/wp/wp-content/uploads/2022/04/００２.png": {
+  "width": 1468,
+  "height": 202
+ },
+ "/images/wp/wp-content/uploads/2022/04/２.jpg": {
+  "width": 970,
+  "height": 554
+ },
+ "/images/wp/wp-content/uploads/2022/04/３-3.png": {
+  "width": 1456,
+  "height": 794
+ },
+ "/images/wp/wp-content/uploads/2022/04/４.jpeg": {
+  "width": 427,
+  "height": 128
+ },
+ "/images/wp/wp-content/uploads/2022/04/５.jpeg": {
+  "width": 418,
+  "height": 133
+ },
+ "/images/wp/wp-content/uploads/2022/05/1.png": {
+  "width": 800,
+  "height": 450
+ },
+ "/images/wp/wp-content/uploads/2022/05/2.png": {
+  "width": 800,
+  "height": 450
+ },
+ "/images/wp/wp-content/uploads/2022/05/20170610_091012.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/05/20170610_102137.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/05/20170610_102141.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/05/20170610_102143.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/05/20170610_102915.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/05/20170610_141344.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/05/20170610_141401.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/05/20170610_141405.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/05/20170610_141423.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/05/20170610_141434.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/05/20170610_141437.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/05/20170610_142621.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/05/20170610_142627.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/05/20170610_142629.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/05/20170610_142640.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/05/20170610_142645.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/05/20170610_143040.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/05/20170610_144153.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/05/20170610_145218.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/05/20170610_145230.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/05/20170610_145236.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/05/20170610_145246.jpg": {
+  "width": 840,
+  "height": 1493
+ },
+ "/images/wp/wp-content/uploads/2022/05/20170610_150322.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/05/20170610_151944.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/05/20170610_151950.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/05/3-1.png": {
+  "width": 800,
+  "height": 450
+ },
+ "/images/wp/wp-content/uploads/2022/05/3.png": {
+  "width": 1600,
+  "height": 1021
+ },
+ "/images/wp/wp-content/uploads/2022/05/4-1.png": {
+  "width": 433,
+  "height": 957
+ },
+ "/images/wp/wp-content/uploads/2022/05/4.png": {
+  "width": 1600,
+  "height": 1200
+ },
+ "/images/wp/wp-content/uploads/2022/05/5-1.png": {
+  "width": 636,
+  "height": 403
+ },
+ "/images/wp/wp-content/uploads/2022/05/5.png": {
+  "width": 1600,
+  "height": 1039
+ },
+ "/images/wp/wp-content/uploads/2022/05/6.png": {
+  "width": 1600,
+  "height": 991
+ },
+ "/images/wp/wp-content/uploads/2022/05/7.png": {
+  "width": 1600,
+  "height": 368
+ },
+ "/images/wp/wp-content/uploads/2022/05/8.png": {
+  "width": 1532,
+  "height": 836
+ },
+ "/images/wp/wp-content/uploads/2022/05/covid_children_death_rate2.jpg": {
+  "width": 1024,
+  "height": 731
+ },
+ "/images/wp/wp-content/uploads/2022/05/image-210.jpeg": {
+  "width": 1256,
+  "height": 899
+ },
+ "/images/wp/wp-content/uploads/2022/05/image-211.jpeg": {
+  "width": 1257,
+  "height": 897
+ },
+ "/images/wp/wp-content/uploads/2022/05/image-212.jpeg": {
+  "width": 1256,
+  "height": 898
+ },
+ "/images/wp/wp-content/uploads/2022/05/image-213.jpeg": {
+  "width": 1256,
+  "height": 897
+ },
+ "/images/wp/wp-content/uploads/2022/05/image-216-scaled.jpeg": {
+  "width": 1600,
+  "height": 746
+ },
+ "/images/wp/wp-content/uploads/2022/05/image-217.jpeg": {
+  "width": 1600,
+  "height": 729
+ },
+ "/images/wp/wp-content/uploads/2022/05/image-218.jpeg": {
+  "width": 1600,
+  "height": 728
+ },
+ "/images/wp/wp-content/uploads/2022/05/image-219.jpeg": {
+  "width": 1600,
+  "height": 1129
+ },
+ "/images/wp/wp-content/uploads/2022/05/taco1-scaled.jpeg": {
+  "width": 1600,
+  "height": 800
+ },
+ "/images/wp/wp-content/uploads/2022/05/taco2-scaled.jpeg": {
+  "width": 1600,
+  "height": 800
+ },
+ "/images/wp/wp-content/uploads/2022/05/trap222.png": {
+  "width": 1600,
+  "height": 838
+ },
+ "/images/wp/wp-content/uploads/2022/05/１.png": {
+  "width": 1600,
+  "height": 315
+ },
+ "/images/wp/wp-content/uploads/2022/05/１２.png": {
+  "width": 1600,
+  "height": 343
+ },
+ "/images/wp/wp-content/uploads/2022/05/２.png": {
+  "width": 1600,
+  "height": 1164
+ },
+ "/images/wp/wp-content/uploads/2022/06/1.png": {
+  "width": 405,
+  "height": 443
+ },
+ "/images/wp/wp-content/uploads/2022/06/20170611_053911.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/06/20170611_053927.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/06/20170611_053941.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/06/20170611_054006.jpg": {
+  "width": 840,
+  "height": 1493
+ },
+ "/images/wp/wp-content/uploads/2022/06/20170611_054041.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/06/20170611_054112.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/06/20170611_054119.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/06/20170611_054129.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/06/20170611_054239.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/06/20170611_073031.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/06/20170611_073126.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/06/20170611_073133.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/06/20170611_073141.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/06/20170612_145817.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/06/20170612_145819.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/06/20170612_145851.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/06/20170612_154204.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/06/20171024_114948.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/06/20171024_114951.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/06/20171024_121014.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/06/20171225_085821.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/06/20171230_113216.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/06/20171230_113527.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/06/20171230_113530.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/06/20171230_113541.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/06/スクリーンショット-2022-06-09-17.06.50.png": {
+  "width": 1384,
+  "height": 602
+ },
+ "/images/wp/wp-content/uploads/2022/07/20180107_170318.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/07/20180107_170322.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/07/20180107_170325.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/07/20180107_171005.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/07/20180107_171102.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/07/20180107_171506.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/07/20180107_171627.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/07/20180115_153737.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/07/20180115_153741.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/07/20180115_153744.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/07/20180115_180402.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/07/20180227_065031.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/07/20180227_065035.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/07/20180227_065037.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/07/20180310_162806.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/07/20180314_183214.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/07/20180314_183224.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/07/20180316_104204.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/07/20180412_190910.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/08/20180417_122958.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/08/20180417_123005.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/08/20180417_180544.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/08/20180417_180603.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/08/20180417_181108.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/08/20180417_181121.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/08/20180417_181145.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/08/20180417_181611.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/08/20180427_110537.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/08/20180506_121330.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/08/20180507_092250.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/08/20180520_123911.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/08/20180520_123919.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/08/20180616_114637.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/08/20180622_075859.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/08/20180622_075906.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/08/IMAG0049.jpg": {
+  "width": 840,
+  "height": 474
+ },
+ "/images/wp/wp-content/uploads/2022/08/IMAG0050.jpg": {
+  "width": 840,
+  "height": 474
+ },
+ "/images/wp/wp-content/uploads/2022/08/IMAG0051.jpg": {
+  "width": 840,
+  "height": 474
+ },
+ "/images/wp/wp-content/uploads/2022/08/IMAG0170.jpg": {
+  "width": 840,
+  "height": 474
+ },
+ "/images/wp/wp-content/uploads/2022/08/IMAG0193.jpg": {
+  "width": 840,
+  "height": 1461
+ },
+ "/images/wp/wp-content/uploads/2022/08/IMAG0194.jpg": {
+  "width": 840,
+  "height": 483
+ },
+ "/images/wp/wp-content/uploads/2022/08/IMAG0195.jpg": {
+  "width": 840,
+  "height": 483
+ },
+ "/images/wp/wp-content/uploads/2022/08/IMG_20150729_174256.jpg": {
+  "width": 840,
+  "height": 630
+ },
+ "/images/wp/wp-content/uploads/2022/08/IMG_20151031_134836412.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/08/IMG_20151101_114633495-01.jpg": {
+  "width": 840,
+  "height": 1493
+ },
+ "/images/wp/wp-content/uploads/2022/08/IMG_20151110_113347289.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/08/IMG_20151110_113415140.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/08/IMG_20151110_113512811.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/08/IMG_20151110_180131010.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/08/IMG_20151110_180246160.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/08/IMG_20151110_180522747.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/08/IMG_20151111_181120558.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/08/IMG_20151111_181552248.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/08/IMG_20151112_175835147.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/08/IMG_20151112_175839848.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/08/IMG_20151123_181127322.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/08/IMG_2189.jpg": {
+  "width": 840,
+  "height": 472
+ },
+ "/images/wp/wp-content/uploads/2022/08/IMG_2191.jpg": {
+  "width": 840,
+  "height": 472
+ },
+ "/images/wp/wp-content/uploads/2022/08/trumpandQ.jpg": {
+  "width": 1200,
+  "height": 600
+ },
+ "/images/wp/wp-content/uploads/2022/09/20180703_185420.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/09/20180703_185433.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/09/20180703_190113.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/09/20180703_191044.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/09/20180703_191548.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/09/20180703_191748.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/09/20180703_191822.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/09/20180703_191828.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/09/20180703_192045.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/09/20180703_192050.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/09/20180703_193053.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/09/20180703_193057.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/09/20180703_193100.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/09/20180703_193103.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/09/20180703_193105.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/09/20180703_193112.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/09/20180704_112322.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/09/20180704_113424.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/09/20180704_114303.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/09/20180704_114306.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/09/20180704_120512.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/09/20180704_120517.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/09/20180704_124220.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/09/20180704_124223.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/09/20180704_125413.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/09/20180704_130916.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/09/20180704_132605.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/09/20180704_132611.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/09/20180704_132620.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/09/20180704_133231.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/09/20180704_135816.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/09/20180704_135818.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/09/20180704_135820.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/09/20180704_141206.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/09/20180704_141208.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/09/20180704_141212.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/09/20180704_141215.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/09/20180704_141218.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/09/20180704_142321.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/09/20180704_142331.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/09/20180704_142335.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/09/20180704_142337.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/09/20180704_150032.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/09/20180704_150035.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/09/20180704_150038.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/09/20180704_150050.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/09/20180704_150054.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/09/20180704_150105.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/09/20180704_150107.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/09/20180704_155724.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/09/20180704_155731.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/09/20180704_160222.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/09/20180704_161940.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/09/20180708_201924-EFFECTS.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/09/20180815_111045.jpg": {
+  "width": 840,
+  "height": 630
+ },
+ "/images/wp/wp-content/uploads/2022/09/20180815_111053.jpg": {
+  "width": 840,
+  "height": 630
+ },
+ "/images/wp/wp-content/uploads/2022/09/20180815_111120.jpg": {
+  "width": 840,
+  "height": 630
+ },
+ "/images/wp/wp-content/uploads/2022/09/20180815_111123.jpg": {
+  "width": 840,
+  "height": 630
+ },
+ "/images/wp/wp-content/uploads/2022/09/20180815_121155.jpg": {
+  "width": 840,
+  "height": 630
+ },
+ "/images/wp/wp-content/uploads/2022/09/20180815_124427.jpg": {
+  "width": 840,
+  "height": 630
+ },
+ "/images/wp/wp-content/uploads/2022/09/20180815_155247.jpg": {
+  "width": 840,
+  "height": 630
+ },
+ "/images/wp/wp-content/uploads/2022/09/20180815_160243.jpg": {
+  "width": 840,
+  "height": 630
+ },
+ "/images/wp/wp-content/uploads/2022/09/20180815_174851.jpg": {
+  "width": 840,
+  "height": 630
+ },
+ "/images/wp/wp-content/uploads/2022/09/20180826_115500.jpg": {
+  "width": 840,
+  "height": 630
+ },
+ "/images/wp/wp-content/uploads/2022/09/20180826_152631.jpg": {
+  "width": 840,
+  "height": 630
+ },
+ "/images/wp/wp-content/uploads/2022/09/20180831_171625.jpg": {
+  "width": 840,
+  "height": 630
+ },
+ "/images/wp/wp-content/uploads/2022/09/20180831_171632.jpg": {
+  "width": 840,
+  "height": 630
+ },
+ "/images/wp/wp-content/uploads/2022/09/20180903_160825.jpg": {
+  "width": 840,
+  "height": 630
+ },
+ "/images/wp/wp-content/uploads/2022/09/20180919_104544.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/09/20180919_104628.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/09/20180919_104631.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/09/20180919_104829.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/09/20180919_104916.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/09/20180919_112645.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/09/20180919_114400.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/09/20180919_114543.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/09/20180919_114548.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/09/20180919_115635.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/09/20180919_115639.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/09/20180919_120334.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/09/20180919_120344.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/09/20180919_120628.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/09/20180919_120634.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/09/20180919_120642.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/09/20180919_120955.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/09/20180919_121435.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/09/20180919_121601.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/09/20180919_123846.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/09/20180919_123853.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/09/20180919_124415.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/09/20180919_124426.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/09/20180919_124640.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/09/20180919_130346.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/09/20180919_130947.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/09/20180919_130951.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/09/20180919_131209.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/09/20180919_131747.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/09/20180919_132746.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/09/20180919_152933.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/09/20180919_152936.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/09/20180919_153057.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/09/20180919_153221.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/09/20180919_153224.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/09/20180919_153227.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/09/20180919_153304.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/09/20180919_153548.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/09/20180919_154042.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/09/20180919_154100.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/09/20180919_154220.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/09/20180919_154224-EFFECTS.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/09/20180919_154224.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/09/20180919_154306.jpg": {
+  "width": 840,
+  "height": 1493
+ },
+ "/images/wp/wp-content/uploads/2022/09/craig-Wright1.jpg": {
+  "width": 749,
+  "height": 499
+ },
+ "/images/wp/wp-content/uploads/2022/09/pic1.jpg": {
+  "width": 1600,
+  "height": 903
+ },
+ "/images/wp/wp-content/uploads/2022/09/pic2.jpeg": {
+  "width": 792,
+  "height": 759
+ },
+ "/images/wp/wp-content/uploads/2022/09/pic3.jpeg": {
+  "width": 1247,
+  "height": 682
+ },
+ "/images/wp/wp-content/uploads/2022/09/pic4.png": {
+  "width": 742,
+  "height": 424
+ },
+ "/images/wp/wp-content/uploads/2022/09/pic5.jpg": {
+  "width": 800,
+  "height": 800
+ },
+ "/images/wp/wp-content/uploads/2022/10/1.jpg": {
+  "width": 1154,
+  "height": 1280
+ },
+ "/images/wp/wp-content/uploads/2022/10/2.jpg": {
+  "width": 1223,
+  "height": 1244
+ },
+ "/images/wp/wp-content/uploads/2022/10/20180417_122958.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/10/20180417_123005.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/10/20180417_180544.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/10/20180417_180603.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/10/20180417_181108.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/10/20180417_181121.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/10/20180417_181145.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/10/20180417_181611.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/10/20180427_110537.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/10/20180506_121330.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/10/20180507_092250.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/10/20180520_123911.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/10/20180520_123919.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/10/20180616_114637.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/10/20180622_075859.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/10/20180622_075906.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/10/20180703_185420.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/10/20180703_185433.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/10/20180703_190113.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/10/20180703_191044.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/10/20180703_191548.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/10/20180703_191748.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/10/20180703_191822.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/10/20180703_191828.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/10/20180703_192045.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/10/20180703_192050.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/10/20180703_193053.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/10/20180703_193057.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/10/20180703_193100.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/10/20180703_193103.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/10/20180703_193105.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/10/20180703_193112.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/10/20180924_193051.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/10/20180924_193143.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/10/20181010_133539.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/10/20181104_153434.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/10/20181129_165305.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/10/20190110_160807.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/10/20190111_102628-EFFECTS.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/10/20190118_151051.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/10/20190118_151951.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/10/20190205_131446.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/10/20190205_131449-EFFECTS.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/10/20190205_131449.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/10/20190205_131807.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/10/20190205_135359.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/10/20190205_143341.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/10/20190205_150824.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/10/20190205_150833.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/10/20190205_150842.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/10/20190205_150904.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/10/20190205_150922.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/10/20190205_150931-EFFECTS.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/10/20190205_150931.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/10/20190205_151157.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/10/20190205_154445.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/10/20190205_154451.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/10/20190205_154455.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/10/20190205_154457.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/10/20190205_160947.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/10/20190205_161000.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/10/20190205_164904.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/10/20190205_171821.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/10/20190205_171828.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/10/20190205_171830.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/10/20190205_171835.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/10/20190205_171839.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/10/20190205_171855.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/10/20190205_172325.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/10/20190205_172856.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/10/20190205_172905.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/10/3.jpg": {
+  "width": 839,
+  "height": 762
+ },
+ "/images/wp/wp-content/uploads/2022/10/4.jpg": {
+  "width": 816,
+  "height": 785
+ },
+ "/images/wp/wp-content/uploads/2022/10/5.jpg": {
+  "width": 868,
+  "height": 737
+ },
+ "/images/wp/wp-content/uploads/2022/10/6.jpg": {
+  "width": 1080,
+  "height": 1392
+ },
+ "/images/wp/wp-content/uploads/2022/10/7.jpg": {
+  "width": 1080,
+  "height": 1093
+ },
+ "/images/wp/wp-content/uploads/2022/10/8.jpg": {
+  "width": 1080,
+  "height": 775
+ },
+ "/images/wp/wp-content/uploads/2022/10/bitcoin-bildeerburg1-.jpg": {
+  "width": 1280,
+  "height": 720
+ },
+ "/images/wp/wp-content/uploads/2022/10/konnech.jpg": {
+  "width": 592,
+  "height": 266
+ },
+ "/images/wp/wp-content/uploads/2022/10/pic1.png": {
+  "width": 1057,
+  "height": 703
+ },
+ "/images/wp/wp-content/uploads/2022/10/人造.jpg": {
+  "width": 800,
+  "height": 417
+ },
+ "/images/wp/wp-content/uploads/2022/11/2.jpg": {
+  "width": 1600,
+  "height": 1200
+ },
+ "/images/wp/wp-content/uploads/2022/11/20180704_112322.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/11/20180704_113424.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/11/20180704_114303.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/11/20180704_114306.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/11/20180704_120512.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/11/20180704_120517.jpg": {
+  "width": 840,
+  "height": 473
+ },
+ "/images/wp/wp-content/uploads/2022/11/3.png": {
+  "width": 1057,
+  "height": 703
+ },
+ "/images/wp/wp-content/uploads/2022/11/4.jpeg": {
+  "width": 1536,
+  "height": 925
+ },
+ "/images/wp/wp-content/uploads/2022/11/5-1.jpeg": {
+  "width": 1026,
+  "height": 756
+ },
+ "/images/wp/wp-content/uploads/2022/11/5.jpeg": {
+  "width": 1600,
+  "height": 1066
+ },
+ "/images/wp/wp-content/uploads/2022/11/6.png": {
+  "width": 1600,
+  "height": 892
+ },
+ "/images/wp/wp-content/uploads/2022/11/Elephant_Donkey.jpg": {
+  "width": 676,
+  "height": 380
+ },
+ "/images/wp/wp-content/uploads/2022/11/Trump-Announce.jpg": {
+  "width": 1040,
+  "height": 585
+ },
+ "/images/wp/wp-content/uploads/2022/11/died-suddenly.png": {
+  "width": 1280,
+  "height": 720
+ },
+ "/images/wp/wp-content/uploads/2022/11/ftx.jpg": {
+  "width": 1000,
+  "height": 605
+ },
+ "/images/wp/wp-content/uploads/2022/11/ぬるい２.jpg": {
+  "width": 1318,
+  "height": 744
+ },
+ "/images/wp/wp-content/uploads/2022/12/trump-announcement２.png": {
+  "width": 800,
+  "height": 447
+ },
+ "/images/wp/wp-content/uploads/2022/12/スクリーンショット-2022-12-18-14.06.39.png": {
+  "width": 1044,
+  "height": 622
+ },
+ "/images/wp/wp-content/uploads/2022/12/１.jpeg": {
+  "width": 1080,
+  "height": 1751
+ },
+ "/images/wp/wp-content/uploads/2022/12/１０.jpeg": {
+  "width": 900,
+  "height": 685
+ },
+ "/images/wp/wp-content/uploads/2022/12/１１.jpeg": {
+  "width": 900,
+  "height": 685
+ },
+ "/images/wp/wp-content/uploads/2022/12/１２.jpeg": {
+  "width": 900,
+  "height": 685
+ },
+ "/images/wp/wp-content/uploads/2022/12/１３.jpeg": {
+  "width": 1080,
+  "height": 1805
+ },
+ "/images/wp/wp-content/uploads/2022/12/１４.jpeg": {
+  "width": 915,
+  "height": 1200
+ },
+ "/images/wp/wp-content/uploads/2022/12/１５.jpeg": {
+  "width": 1080,
+  "height": 2040
+ },
+ "/images/wp/wp-content/uploads/2022/12/２.jpeg": {
+  "width": 956,
+  "height": 1200
+ },
+ "/images/wp/wp-content/uploads/2022/12/３.jpeg": {
+  "width": 1080,
+  "height": 1640
+ },
+ "/images/wp/wp-content/uploads/2022/12/４.jpeg": {
+  "width": 610,
+  "height": 680
+ },
+ "/images/wp/wp-content/uploads/2022/12/５.jpeg": {
+  "width": 638,
+  "height": 680
+ },
+ "/images/wp/wp-content/uploads/2022/12/６.jpeg": {
+  "width": 557,
+  "height": 680
+ },
+ "/images/wp/wp-content/uploads/2022/12/７.jpeg": {
+  "width": 680,
+  "height": 566
+ },
+ "/images/wp/wp-content/uploads/2022/12/８.jpeg": {
+  "width": 674,
+  "height": 680
+ },
+ "/images/wp/wp-content/uploads/2022/12/９.jpeg": {
+  "width": 680,
+  "height": 677
+ },
+ "/images/wp/wp-content/uploads/2023/02/1-1.jpeg": {
+  "width": 442,
+  "height": 589
+ },
+ "/images/wp/wp-content/uploads/2023/02/1-1.jpg": {
+  "width": 1200,
+  "height": 840
+ },
+ "/images/wp/wp-content/uploads/2023/02/1-2.jpeg": {
+  "width": 1170,
+  "height": 798
+ },
+ "/images/wp/wp-content/uploads/2023/02/1-2.jpg": {
+  "width": 1200,
+  "height": 675
+ },
+ "/images/wp/wp-content/uploads/2023/02/1-3.jpeg": {
+  "width": 727,
+  "height": 863
+ },
+ "/images/wp/wp-content/uploads/2023/02/1.jpeg": {
+  "width": 584,
+  "height": 679
+ },
+ "/images/wp/wp-content/uploads/2023/02/1.jpg": {
+  "width": 1200,
+  "height": 799
+ },
+ "/images/wp/wp-content/uploads/2023/02/10-1.jpeg": {
+  "width": 836,
+  "height": 968
+ },
+ "/images/wp/wp-content/uploads/2023/02/10-1.png": {
+  "width": 733,
+  "height": 546
+ },
+ "/images/wp/wp-content/uploads/2023/02/10-2.jpeg": {
+  "width": 1542,
+  "height": 326
+ },
+ "/images/wp/wp-content/uploads/2023/02/10-2.png": {
+  "width": 700,
+  "height": 426
+ },
+ "/images/wp/wp-content/uploads/2023/02/10-3.png": {
+  "width": 398,
+  "height": 686
+ },
+ "/images/wp/wp-content/uploads/2023/02/10.jpeg": {
+  "width": 1194,
+  "height": 562
+ },
+ "/images/wp/wp-content/uploads/2023/02/10.jpg": {
+  "width": 1200,
+  "height": 718
+ },
+ "/images/wp/wp-content/uploads/2023/02/10.png": {
+  "width": 516,
+  "height": 730
+ },
+ "/images/wp/wp-content/uploads/2023/02/10a.jpg": {
+  "width": 1200,
+  "height": 773
+ },
+ "/images/wp/wp-content/uploads/2023/02/10a.png": {
+  "width": 764,
+  "height": 580
+ },
+ "/images/wp/wp-content/uploads/2023/02/10b-1.jpg": {
+  "width": 1200,
+  "height": 1098
+ },
+ "/images/wp/wp-content/uploads/2023/02/10b.jpg": {
+  "width": 1198,
+  "height": 237
+ },
+ "/images/wp/wp-content/uploads/2023/02/11-1.jpeg": {
+  "width": 1206,
+  "height": 178
+ },
+ "/images/wp/wp-content/uploads/2023/02/11-1.jpg": {
+  "width": 1200,
+  "height": 886
+ },
+ "/images/wp/wp-content/uploads/2023/02/11-1.png": {
+  "width": 508,
+  "height": 752
+ },
+ "/images/wp/wp-content/uploads/2023/02/11-2.jpeg": {
+  "width": 1050,
+  "height": 1200
+ },
+ "/images/wp/wp-content/uploads/2023/02/11-2.jpg": {
+  "width": 1200,
+  "height": 886
+ },
+ "/images/wp/wp-content/uploads/2023/02/11-2.png": {
+  "width": 316,
+  "height": 372
+ },
+ "/images/wp/wp-content/uploads/2023/02/11-3.jpeg": {
+  "width": 1600,
+  "height": 387
+ },
+ "/images/wp/wp-content/uploads/2023/02/11.jpeg": {
+  "width": 804,
+  "height": 1284
+ },
+ "/images/wp/wp-content/uploads/2023/02/11.jpg": {
+  "width": 1200,
+  "height": 729
+ },
+ "/images/wp/wp-content/uploads/2023/02/11.png": {
+  "width": 1600,
+  "height": 689
+ },
+ "/images/wp/wp-content/uploads/2023/02/11a-1.jpg": {
+  "width": 1073,
+  "height": 1200
+ },
+ "/images/wp/wp-content/uploads/2023/02/11a.jpg": {
+  "width": 1196,
+  "height": 102
+ },
+ "/images/wp/wp-content/uploads/2023/02/11b-1.jpg": {
+  "width": 1200,
+  "height": 303
+ },
+ "/images/wp/wp-content/uploads/2023/02/11b-2.jpg": {
+  "width": 1200,
+  "height": 681
+ },
+ "/images/wp/wp-content/uploads/2023/02/11b.jpg": {
+  "width": 1196,
+  "height": 232
+ },
+ "/images/wp/wp-content/uploads/2023/02/11c-1.jpg": {
+  "width": 1200,
+  "height": 335
+ },
+ "/images/wp/wp-content/uploads/2023/02/11c.jpg": {
+  "width": 1200,
+  "height": 450
+ },
+ "/images/wp/wp-content/uploads/2023/02/11d.jpg": {
+  "width": 1200,
+  "height": 342
+ },
+ "/images/wp/wp-content/uploads/2023/02/12-1.jpeg": {
+  "width": 1086,
+  "height": 698
+ },
+ "/images/wp/wp-content/uploads/2023/02/12-1.jpg": {
+  "width": 1200,
+  "height": 395
+ },
+ "/images/wp/wp-content/uploads/2023/02/12-2.jpeg": {
+  "width": 900,
+  "height": 519
+ },
+ "/images/wp/wp-content/uploads/2023/02/12-2.jpg": {
+  "width": 1199,
+  "height": 395
+ },
+ "/images/wp/wp-content/uploads/2023/02/12-3.jpeg": {
+  "width": 900,
+  "height": 720
+ },
+ "/images/wp/wp-content/uploads/2023/02/12-3.jpg": {
+  "width": 1200,
+  "height": 811
+ },
+ "/images/wp/wp-content/uploads/2023/02/12-4.jpeg": {
+  "width": 1498,
+  "height": 300
+ },
+ "/images/wp/wp-content/uploads/2023/02/12-4.jpg": {
+  "width": 1200,
+  "height": 523
+ },
+ "/images/wp/wp-content/uploads/2023/02/12-5.jpg": {
+  "width": 1200,
+  "height": 1027
+ },
+ "/images/wp/wp-content/uploads/2023/02/12-paper-textures-600２.jpg": {
+  "width": 450,
+  "height": 600
+ },
+ "/images/wp/wp-content/uploads/2023/02/12.jpeg": {
+  "width": 1104,
+  "height": 102
+ },
+ "/images/wp/wp-content/uploads/2023/02/12.jpg": {
+  "width": 1200,
+  "height": 326
+ },
+ "/images/wp/wp-content/uploads/2023/02/12.png": {
+  "width": 531,
+  "height": 248
+ },
+ "/images/wp/wp-content/uploads/2023/02/13-1.jpeg": {
+  "width": 900,
+  "height": 534
+ },
+ "/images/wp/wp-content/uploads/2023/02/13-1.jpg": {
+  "width": 1178,
+  "height": 308
+ },
+ "/images/wp/wp-content/uploads/2023/02/13-2.jpeg": {
+  "width": 1480,
+  "height": 282
+ },
+ "/images/wp/wp-content/uploads/2023/02/13.jpeg": {
+  "width": 1600,
+  "height": 332
+ },
+ "/images/wp/wp-content/uploads/2023/02/13.jpg": {
+  "width": 1199,
+  "height": 334
+ },
+ "/images/wp/wp-content/uploads/2023/02/13.png": {
+  "width": 656,
+  "height": 679
+ },
+ "/images/wp/wp-content/uploads/2023/02/13a.jpg": {
+  "width": 1210,
+  "height": 575
+ },
+ "/images/wp/wp-content/uploads/2023/02/13b.jpg": {
+  "width": 1200,
+  "height": 334
+ },
+ "/images/wp/wp-content/uploads/2023/02/13c.jpg": {
+  "width": 1203,
+  "height": 341
+ },
+ "/images/wp/wp-content/uploads/2023/02/14-1.jpeg": {
+  "width": 1600,
+  "height": 332
+ },
+ "/images/wp/wp-content/uploads/2023/02/14-1.jpg": {
+  "width": 1200,
+  "height": 318
+ },
+ "/images/wp/wp-content/uploads/2023/02/14-2.jpeg": {
+  "width": 839,
+  "height": 931
+ },
+ "/images/wp/wp-content/uploads/2023/02/14-2.jpg": {
+  "width": 1198,
+  "height": 182
+ },
+ "/images/wp/wp-content/uploads/2023/02/14-3.jpeg": {
+  "width": 1078,
+  "height": 516
+ },
+ "/images/wp/wp-content/uploads/2023/02/14-3.jpg": {
+  "width": 1024,
+  "height": 768
+ },
+ "/images/wp/wp-content/uploads/2023/02/14.jpeg": {
+  "width": 1052,
+  "height": 1200
+ },
+ "/images/wp/wp-content/uploads/2023/02/14.jpg": {
+  "width": 1199,
+  "height": 274
+ },
+ "/images/wp/wp-content/uploads/2023/02/14.png": {
+  "width": 627,
+  "height": 680
+ },
+ "/images/wp/wp-content/uploads/2023/02/14a.jpeg": {
+  "width": 1200,
+  "height": 498
+ },
+ "/images/wp/wp-content/uploads/2023/02/14b-1.jpg": {
+  "width": 1200,
+  "height": 386
+ },
+ "/images/wp/wp-content/uploads/2023/02/14b.jpeg": {
+  "width": 1200,
+  "height": 260
+ },
+ "/images/wp/wp-content/uploads/2023/02/14b.jpg": {
+  "width": 1200,
+  "height": 489
+ },
+ "/images/wp/wp-content/uploads/2023/02/14c.jpeg": {
+  "width": 679,
+  "height": 567
+ },
+ "/images/wp/wp-content/uploads/2023/02/15-1.jpeg": {
+  "width": 1600,
+  "height": 1002
+ },
+ "/images/wp/wp-content/uploads/2023/02/15-1.jpg": {
+  "width": 1200,
+  "height": 299
+ },
+ "/images/wp/wp-content/uploads/2023/02/15-2.jpg": {
+  "width": 1198,
+  "height": 321
+ },
+ "/images/wp/wp-content/uploads/2023/02/15.jpeg": {
+  "width": 1306,
+  "height": 216
+ },
+ "/images/wp/wp-content/uploads/2023/02/15.jpg": {
+  "width": 1196,
+  "height": 118
+ },
+ "/images/wp/wp-content/uploads/2023/02/15.png": {
+  "width": 851,
+  "height": 580
+ },
+ "/images/wp/wp-content/uploads/2023/02/15a.jpg": {
+  "width": 1024,
+  "height": 768
+ },
+ "/images/wp/wp-content/uploads/2023/02/15a.png": {
+  "width": 900,
+  "height": 515
+ },
+ "/images/wp/wp-content/uploads/2023/02/15b.jpeg": {
+  "width": 1200,
+  "height": 517
+ },
+ "/images/wp/wp-content/uploads/2023/02/15b.png": {
+  "width": 522,
+  "height": 387
+ },
+ "/images/wp/wp-content/uploads/2023/02/15c.png": {
+  "width": 524,
+  "height": 387
+ },
+ "/images/wp/wp-content/uploads/2023/02/16-1.jpeg": {
+  "width": 640,
+  "height": 1286
+ },
+ "/images/wp/wp-content/uploads/2023/02/16-1.jpg": {
+  "width": 1200,
+  "height": 941
+ },
+ "/images/wp/wp-content/uploads/2023/02/16-1.png": {
+  "width": 512,
+  "height": 640
+ },
+ "/images/wp/wp-content/uploads/2023/02/16-2.jpeg": {
+  "width": 1146,
+  "height": 362
+ },
+ "/images/wp/wp-content/uploads/2023/02/16-2.jpg": {
+  "width": 1200,
+  "height": 245
+ },
+ "/images/wp/wp-content/uploads/2023/02/16-3.jpeg": {
+  "width": 512,
+  "height": 231
+ },
+ "/images/wp/wp-content/uploads/2023/02/16-3.jpg": {
+  "width": 1205,
+  "height": 257
+ },
+ "/images/wp/wp-content/uploads/2023/02/16.jpeg": {
+  "width": 562,
+  "height": 523
+ },
+ "/images/wp/wp-content/uploads/2023/02/16.jpg": {
+  "width": 1200,
+  "height": 307
+ },
+ "/images/wp/wp-content/uploads/2023/02/16.png": {
+  "width": 854,
+  "height": 319
+ },
+ "/images/wp/wp-content/uploads/2023/02/1674321496974-DHecnept39-1.jpeg": {
+  "width": 617,
+  "height": 1280
+ },
+ "/images/wp/wp-content/uploads/2023/02/1674321496974-DHecnept39.jpeg": {
+  "width": 617,
+  "height": 1280
+ },
+ "/images/wp/wp-content/uploads/2023/02/16a.jpeg": {
+  "width": 900,
+  "height": 621
+ },
+ "/images/wp/wp-content/uploads/2023/02/16a.jpg": {
+  "width": 1059,
+  "height": 594
+ },
+ "/images/wp/wp-content/uploads/2023/02/16b.jpeg": {
+  "width": 900,
+  "height": 648
+ },
+ "/images/wp/wp-content/uploads/2023/02/16b.jpg": {
+  "width": 1199,
+  "height": 673
+ },
+ "/images/wp/wp-content/uploads/2023/02/17-1.jpg": {
+  "width": 1200,
+  "height": 94
+ },
+ "/images/wp/wp-content/uploads/2023/02/17-1.png": {
+  "width": 788,
+  "height": 794
+ },
+ "/images/wp/wp-content/uploads/2023/02/17-2.jpg": {
+  "width": 1134,
+  "height": 212
+ },
+ "/images/wp/wp-content/uploads/2023/02/17.jpeg": {
+  "width": 623,
+  "height": 680
+ },
+ "/images/wp/wp-content/uploads/2023/02/17.jpg": {
+  "width": 1200,
+  "height": 663
+ },
+ "/images/wp/wp-content/uploads/2023/02/17.png": {
+  "width": 679,
+  "height": 561
+ },
+ "/images/wp/wp-content/uploads/2023/02/171.jpg": {
+  "width": 1204,
+  "height": 224
+ },
+ "/images/wp/wp-content/uploads/2023/02/17a.jpg": {
+  "width": 1199,
+  "height": 674
+ },
+ "/images/wp/wp-content/uploads/2023/02/17b.jpg": {
+  "width": 1104,
+  "height": 854
+ },
+ "/images/wp/wp-content/uploads/2023/02/17c.png": {
+  "width": 389,
+  "height": 320
+ },
+ "/images/wp/wp-content/uploads/2023/02/18-1.jpeg": {
+  "width": 900,
+  "height": 750
+ },
+ "/images/wp/wp-content/uploads/2023/02/18-1.jpg": {
+  "width": 1200,
+  "height": 228
+ },
+ "/images/wp/wp-content/uploads/2023/02/18-2.jpeg": {
+  "width": 900,
+  "height": 874
+ },
+ "/images/wp/wp-content/uploads/2023/02/18-2.jpg": {
+  "width": 1205,
+  "height": 272
+ },
+ "/images/wp/wp-content/uploads/2023/02/18-3.jpeg": {
+  "width": 1199,
+  "height": 552
+ },
+ "/images/wp/wp-content/uploads/2023/02/18-3.jpg": {
+  "width": 887,
+  "height": 1051
+ },
+ "/images/wp/wp-content/uploads/2023/02/18.jpeg": {
+  "width": 504,
+  "height": 680
+ },
+ "/images/wp/wp-content/uploads/2023/02/18.jpg": {
+  "width": 1200,
+  "height": 401
+ },
+ "/images/wp/wp-content/uploads/2023/02/18.png": {
+  "width": 680,
+  "height": 616
+ },
+ "/images/wp/wp-content/uploads/2023/02/18a.jpeg": {
+  "width": 1246,
+  "height": 944
+ },
+ "/images/wp/wp-content/uploads/2023/02/18b.jpeg": {
+  "width": 1246,
+  "height": 730
+ },
+ "/images/wp/wp-content/uploads/2023/02/19-1.jpeg": {
+  "width": 900,
+  "height": 527
+ },
+ "/images/wp/wp-content/uploads/2023/02/19-1.jpg": {
+  "width": 1200,
+  "height": 583
+ },
+ "/images/wp/wp-content/uploads/2023/02/19-1.png": {
+  "width": 878,
+  "height": 657
+ },
+ "/images/wp/wp-content/uploads/2023/02/19-2.jpeg": {
+  "width": 1114,
+  "height": 1200
+ },
+ "/images/wp/wp-content/uploads/2023/02/19-2.jpg": {
+  "width": 1200,
+  "height": 438
+ },
+ "/images/wp/wp-content/uploads/2023/02/19-2.png": {
+  "width": 720,
+  "height": 405
+ },
+ "/images/wp/wp-content/uploads/2023/02/19-3.jpeg": {
+  "width": 1188,
+  "height": 544
+ },
+ "/images/wp/wp-content/uploads/2023/02/19-3.jpg": {
+  "width": 1199,
+  "height": 348
+ },
+ "/images/wp/wp-content/uploads/2023/02/19-4.jpeg": {
+  "width": 550,
+  "height": 679
+ },
+ "/images/wp/wp-content/uploads/2023/02/19-scaled.jpeg": {
+  "width": 1600,
+  "height": 755
+ },
+ "/images/wp/wp-content/uploads/2023/02/19.jpg": {
+  "width": 938,
+  "height": 146
+ },
+ "/images/wp/wp-content/uploads/2023/02/19.png": {
+  "width": 1600,
+  "height": 875
+ },
+ "/images/wp/wp-content/uploads/2023/02/19a.jpeg": {
+  "width": 900,
+  "height": 548
+ },
+ "/images/wp/wp-content/uploads/2023/02/19b-1.jpeg": {
+  "width": 680,
+  "height": 528
+ },
+ "/images/wp/wp-content/uploads/2023/02/19b.jpeg": {
+  "width": 1205,
+  "height": 471
+ },
+ "/images/wp/wp-content/uploads/2023/02/19c.jpeg": {
+  "width": 528,
+  "height": 679
+ },
+ "/images/wp/wp-content/uploads/2023/02/2-1.jpeg": {
+  "width": 900,
+  "height": 556
+ },
+ "/images/wp/wp-content/uploads/2023/02/2-2.jpeg": {
+  "width": 442,
+  "height": 589
+ },
+ "/images/wp/wp-content/uploads/2023/02/2-3.jpeg": {
+  "width": 900,
+  "height": 512
+ },
+ "/images/wp/wp-content/uploads/2023/02/2-4.jpeg": {
+  "width": 1600,
+  "height": 231
+ },
+ "/images/wp/wp-content/uploads/2023/02/2-5.jpeg": {
+  "width": 1170,
+  "height": 1531
+ },
+ "/images/wp/wp-content/uploads/2023/02/2-6.jpeg": {
+  "width": 1170,
+  "height": 1627
+ },
+ "/images/wp/wp-content/uploads/2023/02/2-7.jpeg": {
+  "width": 1314,
+  "height": 216
+ },
+ "/images/wp/wp-content/uploads/2023/02/2-8.jpeg": {
+  "width": 1314,
+  "height": 216
+ },
+ "/images/wp/wp-content/uploads/2023/02/2.jpeg": {
+  "width": 680,
+  "height": 576
+ },
+ "/images/wp/wp-content/uploads/2023/02/2.jpg": {
+  "width": 1200,
+  "height": 677
+ },
+ "/images/wp/wp-content/uploads/2023/02/2.png": {
+  "width": 1600,
+  "height": 456
+ },
+ "/images/wp/wp-content/uploads/2023/02/20-1.jpeg": {
+  "width": 900,
+  "height": 803
+ },
+ "/images/wp/wp-content/uploads/2023/02/20-1.jpg": {
+  "width": 1200,
+  "height": 377
+ },
+ "/images/wp/wp-content/uploads/2023/02/20-1.png": {
+  "width": 1067,
+  "height": 1200
+ },
+ "/images/wp/wp-content/uploads/2023/02/20-2.jpeg": {
+  "width": 900,
+  "height": 483
+ },
+ "/images/wp/wp-content/uploads/2023/02/20-2.jpg": {
+  "width": 1198,
+  "height": 278
+ },
+ "/images/wp/wp-content/uploads/2023/02/20-2.png": {
+  "width": 764,
+  "height": 508
+ },
+ "/images/wp/wp-content/uploads/2023/02/20-3.jpeg": {
+  "width": 900,
+  "height": 763
+ },
+ "/images/wp/wp-content/uploads/2023/02/20-3.png": {
+  "width": 896,
+  "height": 146
+ },
+ "/images/wp/wp-content/uploads/2023/02/20-4.jpeg": {
+  "width": 512,
+  "height": 268
+ },
+ "/images/wp/wp-content/uploads/2023/02/20.jpeg": {
+  "width": 1600,
+  "height": 358
+ },
+ "/images/wp/wp-content/uploads/2023/02/20.jpg": {
+  "width": 1200,
+  "height": 583
+ },
+ "/images/wp/wp-content/uploads/2023/02/20.png": {
+  "width": 601,
+  "height": 540
+ },
+ "/images/wp/wp-content/uploads/2023/02/21-1.jpeg": {
+  "width": 900,
+  "height": 446
+ },
+ "/images/wp/wp-content/uploads/2023/02/21-1.jpg": {
+  "width": 1200,
+  "height": 207
+ },
+ "/images/wp/wp-content/uploads/2023/02/21-1.png": {
+  "width": 491,
+  "height": 706
+ },
+ "/images/wp/wp-content/uploads/2023/02/21-2.jpeg": {
+  "width": 1057,
+  "height": 537
+ },
+ "/images/wp/wp-content/uploads/2023/02/21-3.jpeg": {
+  "width": 1148,
+  "height": 370
+ },
+ "/images/wp/wp-content/uploads/2023/02/21-4.jpeg": {
+  "width": 441,
+  "height": 512
+ },
+ "/images/wp/wp-content/uploads/2023/02/21.jpeg": {
+  "width": 900,
+  "height": 803
+ },
+ "/images/wp/wp-content/uploads/2023/02/21.jpg": {
+  "width": 1200,
+  "height": 326
+ },
+ "/images/wp/wp-content/uploads/2023/02/21.png": {
+  "width": 1600,
+  "height": 540
+ },
+ "/images/wp/wp-content/uploads/2023/02/21a.jpeg": {
+  "width": 638,
+  "height": 680
+ },
+ "/images/wp/wp-content/uploads/2023/02/21b.jpeg": {
+  "width": 398,
+  "height": 1034
+ },
+ "/images/wp/wp-content/uploads/2023/02/22-1.jpg": {
+  "width": 1200,
+  "height": 276
+ },
+ "/images/wp/wp-content/uploads/2023/02/22-1.png": {
+  "width": 900,
+  "height": 586
+ },
+ "/images/wp/wp-content/uploads/2023/02/22-2.png": {
+  "width": 854,
+  "height": 498
+ },
+ "/images/wp/wp-content/uploads/2023/02/22-3.png": {
+  "width": 640,
+  "height": 480
+ },
+ "/images/wp/wp-content/uploads/2023/02/22.jpeg": {
+  "width": 1482,
+  "height": 218
+ },
+ "/images/wp/wp-content/uploads/2023/02/22.jpg": {
+  "width": 1200,
+  "height": 1029
+ },
+ "/images/wp/wp-content/uploads/2023/02/22.png": {
+  "width": 445,
+  "height": 719
+ },
+ "/images/wp/wp-content/uploads/2023/02/22a.jpeg": {
+  "width": 1092,
+  "height": 456
+ },
+ "/images/wp/wp-content/uploads/2023/02/22b.png": {
+  "width": 663,
+  "height": 680
+ },
+ "/images/wp/wp-content/uploads/2023/02/22c.jpeg": {
+  "width": 679,
+  "height": 347
+ },
+ "/images/wp/wp-content/uploads/2023/02/23-1.jpeg": {
+  "width": 762,
+  "height": 1274
+ },
+ "/images/wp/wp-content/uploads/2023/02/23-1.jpg": {
+  "width": 1186,
+  "height": 1144
+ },
+ "/images/wp/wp-content/uploads/2023/02/23-1.png": {
+  "width": 838,
+  "height": 888
+ },
+ "/images/wp/wp-content/uploads/2023/02/23-2.jpeg": {
+  "width": 900,
+  "height": 827
+ },
+ "/images/wp/wp-content/uploads/2023/02/23-2.jpg": {
+  "width": 1200,
+  "height": 1086
+ },
+ "/images/wp/wp-content/uploads/2023/02/23-2.png": {
+  "width": 476,
+  "height": 512
+ },
+ "/images/wp/wp-content/uploads/2023/02/23-3.jpeg": {
+  "width": 900,
+  "height": 562
+ },
+ "/images/wp/wp-content/uploads/2023/02/23-3.jpg": {
+  "width": 1200,
+  "height": 675
+ },
+ "/images/wp/wp-content/uploads/2023/02/23.jpeg": {
+  "width": 934,
+  "height": 300
+ },
+ "/images/wp/wp-content/uploads/2023/02/23.jpg": {
+  "width": 938,
+  "height": 86
+ },
+ "/images/wp/wp-content/uploads/2023/02/23.png": {
+  "width": 468,
+  "height": 787
+ },
+ "/images/wp/wp-content/uploads/2023/02/23b.jpg": {
+  "width": 936,
+  "height": 94
+ },
+ "/images/wp/wp-content/uploads/2023/02/24-1.jpeg": {
+  "width": 900,
+  "height": 600
+ },
+ "/images/wp/wp-content/uploads/2023/02/24-1.jpg": {
+  "width": 1200,
+  "height": 894
+ },
+ "/images/wp/wp-content/uploads/2023/02/24-1.png": {
+  "width": 1377,
+  "height": 493
+ },
+ "/images/wp/wp-content/uploads/2023/02/24-2.jpeg": {
+  "width": 900,
+  "height": 671
+ },
+ "/images/wp/wp-content/uploads/2023/02/24-3.jpeg": {
+  "width": 900,
+  "height": 705
+ },
+ "/images/wp/wp-content/uploads/2023/02/24.jpeg": {
+  "width": 940,
+  "height": 440
+ },
+ "/images/wp/wp-content/uploads/2023/02/24.jpg": {
+  "width": 936,
+  "height": 94
+ },
+ "/images/wp/wp-content/uploads/2023/02/24.png": {
+  "width": 383,
+  "height": 358
+ },
+ "/images/wp/wp-content/uploads/2023/02/24a.jpeg": {
+  "width": 900,
+  "height": 633
+ },
+ "/images/wp/wp-content/uploads/2023/02/24b.jpeg": {
+  "width": 992,
+  "height": 1074
+ },
+ "/images/wp/wp-content/uploads/2023/02/25-1.jpeg": {
+  "width": 478,
+  "height": 1199
+ },
+ "/images/wp/wp-content/uploads/2023/02/25-1.png": {
+  "width": 381,
+  "height": 333
+ },
+ "/images/wp/wp-content/uploads/2023/02/25-2.png": {
+  "width": 582,
+  "height": 84
+ },
+ "/images/wp/wp-content/uploads/2023/02/25-3.png": {
+  "width": 336,
+  "height": 512
+ },
+ "/images/wp/wp-content/uploads/2023/02/25-4.png": {
+  "width": 790,
+  "height": 600
+ },
+ "/images/wp/wp-content/uploads/2023/02/25.jpeg": {
+  "width": 900,
+  "height": 600
+ },
+ "/images/wp/wp-content/uploads/2023/02/25.jpg": {
+  "width": 1200,
+  "height": 358
+ },
+ "/images/wp/wp-content/uploads/2023/02/25.png": {
+  "width": 1600,
+  "height": 660
+ },
+ "/images/wp/wp-content/uploads/2023/02/25a-1.jpg": {
+  "width": 1200,
+  "height": 245
+ },
+ "/images/wp/wp-content/uploads/2023/02/25a.jpg": {
+  "width": 1166,
+  "height": 848
+ },
+ "/images/wp/wp-content/uploads/2023/02/25b-1.jpg": {
+  "width": 1199,
+  "height": 440
+ },
+ "/images/wp/wp-content/uploads/2023/02/25b-2.jpg": {
+  "width": 998,
+  "height": 928
+ },
+ "/images/wp/wp-content/uploads/2023/02/25b.jpg": {
+  "width": 1174,
+  "height": 768
+ },
+ "/images/wp/wp-content/uploads/2023/02/25c.jpg": {
+  "width": 1200,
+  "height": 562
+ },
+ "/images/wp/wp-content/uploads/2023/02/25d.jpg": {
+  "width": 1182,
+  "height": 1040
+ },
+ "/images/wp/wp-content/uploads/2023/02/26-1.jpeg": {
+  "width": 1240,
+  "height": 296
+ },
+ "/images/wp/wp-content/uploads/2023/02/26-1.jpg": {
+  "width": 1199,
+  "height": 237
+ },
+ "/images/wp/wp-content/uploads/2023/02/26-1.png": {
+  "width": 482,
+  "height": 680
+ },
+ "/images/wp/wp-content/uploads/2023/02/26-2.jpeg": {
+  "width": 881,
+  "height": 1260
+ },
+ "/images/wp/wp-content/uploads/2023/02/26-2.jpg": {
+  "width": 954,
+  "height": 938
+ },
+ "/images/wp/wp-content/uploads/2023/02/26-scaled.jpeg": {
+  "width": 1600,
+  "height": 742
+ },
+ "/images/wp/wp-content/uploads/2023/02/26.jpg": {
+  "width": 922,
+  "height": 176
+ },
+ "/images/wp/wp-content/uploads/2023/02/26.png": {
+  "width": 1522,
+  "height": 190
+ },
+ "/images/wp/wp-content/uploads/2023/02/26a.jpg": {
+  "width": 1200,
+  "height": 1097
+ },
+ "/images/wp/wp-content/uploads/2023/02/26b.jpg": {
+  "width": 1130,
+  "height": 586
+ },
+ "/images/wp/wp-content/uploads/2023/02/26c.jpg": {
+  "width": 1186,
+  "height": 690
+ },
+ "/images/wp/wp-content/uploads/2023/02/26d.jpg": {
+  "width": 1144,
+  "height": 850
+ },
+ "/images/wp/wp-content/uploads/2023/02/27-1.jpeg": {
+  "width": 896,
+  "height": 1199
+ },
+ "/images/wp/wp-content/uploads/2023/02/27-1.jpg": {
+  "width": 1200,
+  "height": 304
+ },
+ "/images/wp/wp-content/uploads/2023/02/27-1.png": {
+  "width": 507,
+  "height": 696
+ },
+ "/images/wp/wp-content/uploads/2023/02/27-2.jpeg": {
+  "width": 1072,
+  "height": 416
+ },
+ "/images/wp/wp-content/uploads/2023/02/27-2.jpg": {
+  "width": 968,
+  "height": 844
+ },
+ "/images/wp/wp-content/uploads/2023/02/27-2.png": {
+  "width": 355,
+  "height": 641
+ },
+ "/images/wp/wp-content/uploads/2023/02/27-3.png": {
+  "width": 308,
+  "height": 338
+ },
+ "/images/wp/wp-content/uploads/2023/02/27.jpeg": {
+  "width": 846,
+  "height": 1270
+ },
+ "/images/wp/wp-content/uploads/2023/02/27.jpg": {
+  "width": 1200,
+  "height": 1029
+ },
+ "/images/wp/wp-content/uploads/2023/02/27.png": {
+  "width": 1600,
+  "height": 280
+ },
+ "/images/wp/wp-content/uploads/2023/02/28-1.jpeg": {
+  "width": 937,
+  "height": 271
+ },
+ "/images/wp/wp-content/uploads/2023/02/28-1.jpg": {
+  "width": 1200,
+  "height": 668
+ },
+ "/images/wp/wp-content/uploads/2023/02/28-1.png": {
+  "width": 521,
+  "height": 728
+ },
+ "/images/wp/wp-content/uploads/2023/02/28-2.jpeg": {
+  "width": 1600,
+  "height": 383
+ },
+ "/images/wp/wp-content/uploads/2023/02/28-2.png": {
+  "width": 472,
+  "height": 607
+ },
+ "/images/wp/wp-content/uploads/2023/02/28-3.png": {
+  "width": 368,
+  "height": 562
+ },
+ "/images/wp/wp-content/uploads/2023/02/28-4.png": {
+  "width": 552,
+  "height": 804
+ },
+ "/images/wp/wp-content/uploads/2023/02/28.jpeg": {
+  "width": 1600,
+  "height": 416
+ },
+ "/images/wp/wp-content/uploads/2023/02/28.jpg": {
+  "width": 1199,
+  "height": 958
+ },
+ "/images/wp/wp-content/uploads/2023/02/28.png": {
+  "width": 784,
+  "height": 574
+ },
+ "/images/wp/wp-content/uploads/2023/02/28b.jpg": {
+  "width": 1193,
+  "height": 87
+ },
+ "/images/wp/wp-content/uploads/2023/02/28b.png": {
+  "width": 466,
+  "height": 640
+ },
+ "/images/wp/wp-content/uploads/2023/02/28c.jpg": {
+  "width": 1198,
+  "height": 87
+ },
+ "/images/wp/wp-content/uploads/2023/02/29-1.jpeg": {
+  "width": 519,
+  "height": 680
+ },
+ "/images/wp/wp-content/uploads/2023/02/29-1.jpg": {
+  "width": 1200,
+  "height": 530
+ },
+ "/images/wp/wp-content/uploads/2023/02/29-1.png": {
+  "width": 520,
+  "height": 703
+ },
+ "/images/wp/wp-content/uploads/2023/02/29-2.jpg": {
+  "width": 1199,
+  "height": 802
+ },
+ "/images/wp/wp-content/uploads/2023/02/29-2.png": {
+  "width": 438,
+  "height": 361
+ },
+ "/images/wp/wp-content/uploads/2023/02/29-3.jpg": {
+  "width": 1200,
+  "height": 710
+ },
+ "/images/wp/wp-content/uploads/2023/02/29.jpeg": {
+  "width": 1200,
+  "height": 548
+ },
+ "/images/wp/wp-content/uploads/2023/02/29.jpg": {
+  "width": 918,
+  "height": 306
+ },
+ "/images/wp/wp-content/uploads/2023/02/29.png": {
+  "width": 750,
+  "height": 452
+ },
+ "/images/wp/wp-content/uploads/2023/02/29b.jpeg": {
+  "width": 1066,
+  "height": 274
+ },
+ "/images/wp/wp-content/uploads/2023/02/29b.jpg": {
+  "width": 1004,
+  "height": 416
+ },
+ "/images/wp/wp-content/uploads/2023/02/29b.png": {
+  "width": 1200,
+  "height": 735
+ },
+ "/images/wp/wp-content/uploads/2023/02/29c.jpeg": {
+  "width": 1066,
+  "height": 274
+ },
+ "/images/wp/wp-content/uploads/2023/02/29c.jpg": {
+  "width": 1120,
+  "height": 1200
+ },
+ "/images/wp/wp-content/uploads/2023/02/29d.jpg": {
+  "width": 1200,
+  "height": 203
+ },
+ "/images/wp/wp-content/uploads/2023/02/2a-1.jpg": {
+  "width": 1198,
+  "height": 145
+ },
+ "/images/wp/wp-content/uploads/2023/02/2a.jpg": {
+  "width": 779,
+  "height": 1200
+ },
+ "/images/wp/wp-content/uploads/2023/02/2al.jpeg": {
+  "width": 400,
+  "height": 1592
+ },
+ "/images/wp/wp-content/uploads/2023/02/2b-1.jpg": {
+  "width": 1199,
+  "height": 440
+ },
+ "/images/wp/wp-content/uploads/2023/02/2b.jpg": {
+  "width": 1200,
+  "height": 890
+ },
+ "/images/wp/wp-content/uploads/2023/02/2c.png": {
+  "width": 1200,
+  "height": 494
+ },
+ "/images/wp/wp-content/uploads/2023/02/2d.jpg": {
+  "width": 302,
+  "height": 1200
+ },
+ "/images/wp/wp-content/uploads/2023/02/3-1-scaled.jpeg": {
+  "width": 1600,
+  "height": 753
+ },
+ "/images/wp/wp-content/uploads/2023/02/3-1.jpg": {
+  "width": 1200,
+  "height": 899
+ },
+ "/images/wp/wp-content/uploads/2023/02/3-1.png": {
+  "width": 803,
+  "height": 1200
+ },
+ "/images/wp/wp-content/uploads/2023/02/3-2.jpeg": {
+  "width": 1200,
+  "height": 490
+ },
+ "/images/wp/wp-content/uploads/2023/02/3-2.jpg": {
+  "width": 1199,
+  "height": 793
+ },
+ "/images/wp/wp-content/uploads/2023/02/3-3.jpeg": {
+  "width": 442,
+  "height": 589
+ },
+ "/images/wp/wp-content/uploads/2023/02/3-3.jpg": {
+  "width": 1200,
+  "height": 899
+ },
+ "/images/wp/wp-content/uploads/2023/02/3-4.jpeg": {
+  "width": 1170,
+  "height": 1733
+ },
+ "/images/wp/wp-content/uploads/2023/02/3-5.jpeg": {
+  "width": 1274,
+  "height": 402
+ },
+ "/images/wp/wp-content/uploads/2023/02/3-6.jpeg": {
+  "width": 1274,
+  "height": 402
+ },
+ "/images/wp/wp-content/uploads/2023/02/3.jpeg": {
+  "width": 1170,
+  "height": 1752
+ },
+ "/images/wp/wp-content/uploads/2023/02/3.jpg": {
+  "width": 942,
+  "height": 840
+ },
+ "/images/wp/wp-content/uploads/2023/02/3.png": {
+  "width": 950,
+  "height": 1192
+ },
+ "/images/wp/wp-content/uploads/2023/02/30-1.jpeg": {
+  "width": 846,
+  "height": 1116
+ },
+ "/images/wp/wp-content/uploads/2023/02/30-1.jpg": {
+  "width": 1198,
+  "height": 798
+ },
+ "/images/wp/wp-content/uploads/2023/02/30-1.png": {
+  "width": 820,
+  "height": 592
+ },
+ "/images/wp/wp-content/uploads/2023/02/30-2.jpeg": {
+  "width": 592,
+  "height": 956
+ },
+ "/images/wp/wp-content/uploads/2023/02/30-2.png": {
+  "width": 424,
+  "height": 825
+ },
+ "/images/wp/wp-content/uploads/2023/02/30-3.png": {
+  "width": 628,
+  "height": 318
+ },
+ "/images/wp/wp-content/uploads/2023/02/30.jpeg": {
+  "width": 900,
+  "height": 586
+ },
+ "/images/wp/wp-content/uploads/2023/02/30.jpg": {
+  "width": 994,
+  "height": 456
+ },
+ "/images/wp/wp-content/uploads/2023/02/30.png": {
+  "width": 1600,
+  "height": 467
+ },
+ "/images/wp/wp-content/uploads/2023/02/30a.jpg": {
+  "width": 1200,
+  "height": 1006
+ },
+ "/images/wp/wp-content/uploads/2023/02/30b.jpg": {
+  "width": 1200,
+  "height": 1054
+ },
+ "/images/wp/wp-content/uploads/2023/02/31-1.jpeg": {
+  "width": 900,
+  "height": 842
+ },
+ "/images/wp/wp-content/uploads/2023/02/31-1.jpg": {
+  "width": 1078,
+  "height": 318
+ },
+ "/images/wp/wp-content/uploads/2023/02/31-1.png": {
+  "width": 750,
+  "height": 268
+ },
+ "/images/wp/wp-content/uploads/2023/02/31-2.jpeg": {
+  "width": 1200,
+  "height": 505
+ },
+ "/images/wp/wp-content/uploads/2023/02/31-2.jpg": {
+  "width": 1200,
+  "height": 393
+ },
+ "/images/wp/wp-content/uploads/2023/02/31-2.png": {
+  "width": 411,
+  "height": 468
+ },
+ "/images/wp/wp-content/uploads/2023/02/31-3.jpeg": {
+  "width": 900,
+  "height": 527
+ },
+ "/images/wp/wp-content/uploads/2023/02/31-3.png": {
+  "width": 1199,
+  "height": 594
+ },
+ "/images/wp/wp-content/uploads/2023/02/31-4.jpeg": {
+  "width": 900,
+  "height": 487
+ },
+ "/images/wp/wp-content/uploads/2023/02/31.jpeg": {
+  "width": 622,
+  "height": 1270
+ },
+ "/images/wp/wp-content/uploads/2023/02/31.jpg": {
+  "width": 1044,
+  "height": 296
+ },
+ "/images/wp/wp-content/uploads/2023/02/31.png": {
+  "width": 1600,
+  "height": 643
+ },
+ "/images/wp/wp-content/uploads/2023/02/32-1.jpeg": {
+  "width": 1600,
+  "height": 481
+ },
+ "/images/wp/wp-content/uploads/2023/02/32-1.jpg": {
+  "width": 1200,
+  "height": 1113
+ },
+ "/images/wp/wp-content/uploads/2023/02/32-1.png": {
+  "width": 1276,
+  "height": 420
+ },
+ "/images/wp/wp-content/uploads/2023/02/32.jpeg": {
+  "width": 750,
+  "height": 1086
+ },
+ "/images/wp/wp-content/uploads/2023/02/32.jpg": {
+  "width": 1014,
+  "height": 120
+ },
+ "/images/wp/wp-content/uploads/2023/02/32.png": {
+  "width": 1600,
+  "height": 781
+ },
+ "/images/wp/wp-content/uploads/2023/02/32a.jpg": {
+  "width": 1200,
+  "height": 446
+ },
+ "/images/wp/wp-content/uploads/2023/02/32a.png": {
+  "width": 662,
+  "height": 378
+ },
+ "/images/wp/wp-content/uploads/2023/02/32b-1.png": {
+  "width": 334,
+  "height": 376
+ },
+ "/images/wp/wp-content/uploads/2023/02/32b.jpg": {
+  "width": 1199,
+  "height": 459
+ },
+ "/images/wp/wp-content/uploads/2023/02/32b.png": {
+  "width": 722,
+  "height": 812
+ },
+ "/images/wp/wp-content/uploads/2023/02/32c.jpg": {
+  "width": 1200,
+  "height": 880
+ },
+ "/images/wp/wp-content/uploads/2023/02/32c.png": {
+  "width": 1106,
+  "height": 1074
+ },
+ "/images/wp/wp-content/uploads/2023/02/32d.jpg": {
+  "width": 1200,
+  "height": 1098
+ },
+ "/images/wp/wp-content/uploads/2023/02/33-1.jpeg": {
+  "width": 900,
+  "height": 474
+ },
+ "/images/wp/wp-content/uploads/2023/02/33-1.jpg": {
+  "width": 1200,
+  "height": 1164
+ },
+ "/images/wp/wp-content/uploads/2023/02/33-1.png": {
+  "width": 398,
+  "height": 316
+ },
+ "/images/wp/wp-content/uploads/2023/02/33-2.jpeg": {
+  "width": 798,
+  "height": 992
+ },
+ "/images/wp/wp-content/uploads/2023/02/33.jpeg": {
+  "width": 410,
+  "height": 1276
+ },
+ "/images/wp/wp-content/uploads/2023/02/33.jpg": {
+  "width": 1200,
+  "height": 787
+ },
+ "/images/wp/wp-content/uploads/2023/02/33.png": {
+  "width": 1600,
+  "height": 627
+ },
+ "/images/wp/wp-content/uploads/2023/02/33a.jpg": {
+  "width": 1200,
+  "height": 814
+ },
+ "/images/wp/wp-content/uploads/2023/02/33a.png": {
+  "width": 597,
+  "height": 642
+ },
+ "/images/wp/wp-content/uploads/2023/02/33b.jpeg": {
+  "width": 900,
+  "height": 521
+ },
+ "/images/wp/wp-content/uploads/2023/02/33b.jpg": {
+  "width": 1199,
+  "height": 206
+ },
+ "/images/wp/wp-content/uploads/2023/02/33b.png": {
+  "width": 680,
+  "height": 566
+ },
+ "/images/wp/wp-content/uploads/2023/02/34-1.jpeg": {
+  "width": 780,
+  "height": 1058
+ },
+ "/images/wp/wp-content/uploads/2023/02/34-1.jpg": {
+  "width": 1200,
+  "height": 562
+ },
+ "/images/wp/wp-content/uploads/2023/02/34-1.png": {
+  "width": 873,
+  "height": 689
+ },
+ "/images/wp/wp-content/uploads/2023/02/34-2.jpeg": {
+  "width": 1200,
+  "height": 552
+ },
+ "/images/wp/wp-content/uploads/2023/02/34-3.jpeg": {
+  "width": 512,
+  "height": 298
+ },
+ "/images/wp/wp-content/uploads/2023/02/34.jpeg": {
+  "width": 1600,
+  "height": 323
+ },
+ "/images/wp/wp-content/uploads/2023/02/34.jpg": {
+  "width": 1200,
+  "height": 170
+ },
+ "/images/wp/wp-content/uploads/2023/02/34.png": {
+  "width": 1600,
+  "height": 167
+ },
+ "/images/wp/wp-content/uploads/2023/02/34a.png": {
+  "width": 1172,
+  "height": 268
+ },
+ "/images/wp/wp-content/uploads/2023/02/34b.jpg": {
+  "width": 1199,
+  "height": 512
+ },
+ "/images/wp/wp-content/uploads/2023/02/35-1.jpeg": {
+  "width": 1112,
+  "height": 1200
+ },
+ "/images/wp/wp-content/uploads/2023/02/35-1.jpg": {
+  "width": 1199,
+  "height": 348
+ },
+ "/images/wp/wp-content/uploads/2023/02/35-1.png": {
+  "width": 804,
+  "height": 421
+ },
+ "/images/wp/wp-content/uploads/2023/02/35-2.png": {
+  "width": 786,
+  "height": 972
+ },
+ "/images/wp/wp-content/uploads/2023/02/35.jpeg": {
+  "width": 1600,
+  "height": 389
+ },
+ "/images/wp/wp-content/uploads/2023/02/35.jpg": {
+  "width": 1156,
+  "height": 492
+ },
+ "/images/wp/wp-content/uploads/2023/02/35.png": {
+  "width": 1600,
+  "height": 226
+ },
+ "/images/wp/wp-content/uploads/2023/02/35a-1.jpeg": {
+  "width": 900,
+  "height": 586
+ },
+ "/images/wp/wp-content/uploads/2023/02/35a.jpeg": {
+  "width": 1078,
+  "height": 1278
+ },
+ "/images/wp/wp-content/uploads/2023/02/35b-1.jpeg": {
+  "width": 944,
+  "height": 312
+ },
+ "/images/wp/wp-content/uploads/2023/02/35b.jpeg": {
+  "width": 668,
+  "height": 1278
+ },
+ "/images/wp/wp-content/uploads/2023/02/36-1.jpeg": {
+  "width": 1200,
+  "height": 455
+ },
+ "/images/wp/wp-content/uploads/2023/02/36-1.png": {
+  "width": 803,
+  "height": 331
+ },
+ "/images/wp/wp-content/uploads/2023/02/36-2.png": {
+  "width": 867,
+  "height": 143
+ },
+ "/images/wp/wp-content/uploads/2023/02/36-3.png": {
+  "width": 1200,
+  "height": 1077
+ },
+ "/images/wp/wp-content/uploads/2023/02/36.jpeg": {
+  "width": 900,
+  "height": 710
+ },
+ "/images/wp/wp-content/uploads/2023/02/36.jpg": {
+  "width": 1200,
+  "height": 1142
+ },
+ "/images/wp/wp-content/uploads/2023/02/36.png": {
+  "width": 1600,
+  "height": 611
+ },
+ "/images/wp/wp-content/uploads/2023/02/36a.jpeg": {
+  "width": 1244,
+  "height": 802
+ },
+ "/images/wp/wp-content/uploads/2023/02/36b.jpeg": {
+  "width": 720,
+  "height": 1276
+ },
+ "/images/wp/wp-content/uploads/2023/02/37-1.jpeg": {
+  "width": 550,
+  "height": 679
+ },
+ "/images/wp/wp-content/uploads/2023/02/37-1.jpg": {
+  "width": 980,
+  "height": 842
+ },
+ "/images/wp/wp-content/uploads/2023/02/37-2.jpeg": {
+  "width": 900,
+  "height": 567
+ },
+ "/images/wp/wp-content/uploads/2023/02/37-3.jpeg": {
+  "width": 956,
+  "height": 1136
+ },
+ "/images/wp/wp-content/uploads/2023/02/37.jpeg": {
+  "width": 684,
+  "height": 1282
+ },
+ "/images/wp/wp-content/uploads/2023/02/37.jpg": {
+  "width": 1200,
+  "height": 736
+ },
+ "/images/wp/wp-content/uploads/2023/02/37.png": {
+  "width": 804,
+  "height": 360
+ },
+ "/images/wp/wp-content/uploads/2023/02/37b.jpeg": {
+  "width": 1200,
+  "height": 1058
+ },
+ "/images/wp/wp-content/uploads/2023/02/37b.png": {
+  "width": 862,
+  "height": 614
+ },
+ "/images/wp/wp-content/uploads/2023/02/38.jpeg": {
+  "width": 900,
+  "height": 626
+ },
+ "/images/wp/wp-content/uploads/2023/02/38.jpg": {
+  "width": 1200,
+  "height": 319
+ },
+ "/images/wp/wp-content/uploads/2023/02/38.png": {
+  "width": 676,
+  "height": 490
+ },
+ "/images/wp/wp-content/uploads/2023/02/38a.jpg": {
+  "width": 1200,
+  "height": 618
+ },
+ "/images/wp/wp-content/uploads/2023/02/38b.jpg": {
+  "width": 1200,
+  "height": 783
+ },
+ "/images/wp/wp-content/uploads/2023/02/38c.jpg": {
+  "width": 1200,
+  "height": 492
+ },
+ "/images/wp/wp-content/uploads/2023/02/38d.jpg": {
+  "width": 1200,
+  "height": 908
+ },
+ "/images/wp/wp-content/uploads/2023/02/39-1.png": {
+  "width": 843,
+  "height": 286
+ },
+ "/images/wp/wp-content/uploads/2023/02/39.png": {
+  "width": 806,
+  "height": 486
+ },
+ "/images/wp/wp-content/uploads/2023/02/39a.jpg": {
+  "width": 1200,
+  "height": 1050
+ },
+ "/images/wp/wp-content/uploads/2023/02/39b.jpg": {
+  "width": 1200,
+  "height": 664
+ },
+ "/images/wp/wp-content/uploads/2023/02/3a-1.jpg": {
+  "width": 1190,
+  "height": 1200
+ },
+ "/images/wp/wp-content/uploads/2023/02/3a-2.jpg": {
+  "width": 1200,
+  "height": 268
+ },
+ "/images/wp/wp-content/uploads/2023/02/3a.jpg": {
+  "width": 904,
+  "height": 92
+ },
+ "/images/wp/wp-content/uploads/2023/02/3b.jpg": {
+  "width": 1200,
+  "height": 348
+ },
+ "/images/wp/wp-content/uploads/2023/02/3b.png": {
+  "width": 750,
+  "height": 466
+ },
+ "/images/wp/wp-content/uploads/2023/02/3c-1.jpg": {
+  "width": 1090,
+  "height": 234
+ },
+ "/images/wp/wp-content/uploads/2023/02/3c.jpg": {
+  "width": 1200,
+  "height": 282
+ },
+ "/images/wp/wp-content/uploads/2023/02/4-1.jpeg": {
+  "width": 608,
+  "height": 1154
+ },
+ "/images/wp/wp-content/uploads/2023/02/4-1.jpg": {
+  "width": 1170,
+  "height": 690
+ },
+ "/images/wp/wp-content/uploads/2023/02/4-2.jpeg": {
+  "width": 1163,
+  "height": 2010
+ },
+ "/images/wp/wp-content/uploads/2023/02/4-2.jpg": {
+  "width": 1200,
+  "height": 824
+ },
+ "/images/wp/wp-content/uploads/2023/02/4-3.jpeg": {
+  "width": 900,
+  "height": 565
+ },
+ "/images/wp/wp-content/uploads/2023/02/4-4.jpeg": {
+  "width": 1170,
+  "height": 1524
+ },
+ "/images/wp/wp-content/uploads/2023/02/4-5.jpeg": {
+  "width": 1170,
+  "height": 1524
+ },
+ "/images/wp/wp-content/uploads/2023/02/4-6.jpeg": {
+  "width": 1212,
+  "height": 569
+ },
+ "/images/wp/wp-content/uploads/2023/02/4-7.jpeg": {
+  "width": 1212,
+  "height": 569
+ },
+ "/images/wp/wp-content/uploads/2023/02/4.jpeg": {
+  "width": 1379,
+  "height": 1999
+ },
+ "/images/wp/wp-content/uploads/2023/02/4.jpg": {
+  "width": 868,
+  "height": 1199
+ },
+ "/images/wp/wp-content/uploads/2023/02/40-1.jpeg": {
+  "width": 569,
+  "height": 1199
+ },
+ "/images/wp/wp-content/uploads/2023/02/40-2.jpeg": {
+  "width": 900,
+  "height": 463
+ },
+ "/images/wp/wp-content/uploads/2023/02/40.jpeg": {
+  "width": 768,
+  "height": 1278
+ },
+ "/images/wp/wp-content/uploads/2023/02/40.png": {
+  "width": 687,
+  "height": 433
+ },
+ "/images/wp/wp-content/uploads/2023/02/40a.jpeg": {
+  "width": 680,
+  "height": 521
+ },
+ "/images/wp/wp-content/uploads/2023/02/41.jpeg": {
+  "width": 576,
+  "height": 1010
+ },
+ "/images/wp/wp-content/uploads/2023/02/41.png": {
+  "width": 846,
+  "height": 238
+ },
+ "/images/wp/wp-content/uploads/2023/02/41a.jpeg": {
+  "width": 488,
+  "height": 680
+ },
+ "/images/wp/wp-content/uploads/2023/02/41b.jpeg": {
+  "width": 616,
+  "height": 680
+ },
+ "/images/wp/wp-content/uploads/2023/02/42-1.jpeg": {
+  "width": 728,
+  "height": 1618
+ },
+ "/images/wp/wp-content/uploads/2023/02/42-2.jpeg": {
+  "width": 919,
+  "height": 1200
+ },
+ "/images/wp/wp-content/uploads/2023/02/42.jpeg": {
+  "width": 900,
+  "height": 584
+ },
+ "/images/wp/wp-content/uploads/2023/02/42a.jpeg": {
+  "width": 900,
+  "height": 617
+ },
+ "/images/wp/wp-content/uploads/2023/02/42b.jpeg": {
+  "width": 456,
+  "height": 900
+ },
+ "/images/wp/wp-content/uploads/2023/02/43.jpeg": {
+  "width": 1600,
+  "height": 609
+ },
+ "/images/wp/wp-content/uploads/2023/02/43a.jpeg": {
+  "width": 900,
+  "height": 504
+ },
+ "/images/wp/wp-content/uploads/2023/02/43b.jpeg": {
+  "width": 488,
+  "height": 680
+ },
+ "/images/wp/wp-content/uploads/2023/02/44-1.jpeg": {
+  "width": 442,
+  "height": 589
+ },
+ "/images/wp/wp-content/uploads/2023/02/44.jpeg": {
+  "width": 900,
+  "height": 776
+ },
+ "/images/wp/wp-content/uploads/2023/02/45-1.jpeg": {
+  "width": 442,
+  "height": 589
+ },
+ "/images/wp/wp-content/uploads/2023/02/45.jpeg": {
+  "width": 900,
+  "height": 891
+ },
+ "/images/wp/wp-content/uploads/2023/02/46.jpeg": {
+  "width": 442,
+  "height": 589
+ },
+ "/images/wp/wp-content/uploads/2023/02/46.png": {
+  "width": 578,
+  "height": 646
+ },
+ "/images/wp/wp-content/uploads/2023/02/47.jpeg": {
+  "width": 680,
+  "height": 510
+ },
+ "/images/wp/wp-content/uploads/2023/02/47.png": {
+  "width": 687,
+  "height": 859
+ },
+ "/images/wp/wp-content/uploads/2023/02/47a.jpeg": {
+  "width": 510,
+  "height": 680
+ },
+ "/images/wp/wp-content/uploads/2023/02/47b-1.jpeg": {
+  "width": 680,
+  "height": 510
+ },
+ "/images/wp/wp-content/uploads/2023/02/47b.jpeg": {
+  "width": 900,
+  "height": 532
+ },
+ "/images/wp/wp-content/uploads/2023/02/48.jpeg": {
+  "width": 1200,
+  "height": 540
+ },
+ "/images/wp/wp-content/uploads/2023/02/48.png": {
+  "width": 654,
+  "height": 222
+ },
+ "/images/wp/wp-content/uploads/2023/02/49-1.jpeg": {
+  "width": 525,
+  "height": 679
+ },
+ "/images/wp/wp-content/uploads/2023/02/49-2.jpeg": {
+  "width": 784,
+  "height": 1980
+ },
+ "/images/wp/wp-content/uploads/2023/02/49.jpeg": {
+  "width": 956,
+  "height": 266
+ },
+ "/images/wp/wp-content/uploads/2023/02/49a.jpeg": {
+  "width": 612,
+  "height": 792
+ },
+ "/images/wp/wp-content/uploads/2023/02/4a.jpg": {
+  "width": 1200,
+  "height": 132
+ },
+ "/images/wp/wp-content/uploads/2023/02/4b.jpg": {
+  "width": 1200,
+  "height": 132
+ },
+ "/images/wp/wp-content/uploads/2023/02/5-1.jpeg": {
+  "width": 900,
+  "height": 695
+ },
+ "/images/wp/wp-content/uploads/2023/02/5-1.jpg": {
+  "width": 920,
+  "height": 870
+ },
+ "/images/wp/wp-content/uploads/2023/02/5-1.png": {
+  "width": 500,
+  "height": 295
+ },
+ "/images/wp/wp-content/uploads/2023/02/5-2.jpeg": {
+  "width": 900,
+  "height": 492
+ },
+ "/images/wp/wp-content/uploads/2023/02/5-2.jpg": {
+  "width": 1195,
+  "height": 105
+ },
+ "/images/wp/wp-content/uploads/2023/02/5-2.png": {
+  "width": 945,
+  "height": 1200
+ },
+ "/images/wp/wp-content/uploads/2023/02/5-3.jpeg": {
+  "width": 900,
+  "height": 492
+ },
+ "/images/wp/wp-content/uploads/2023/02/5-3.jpg": {
+  "width": 1200,
+  "height": 631
+ },
+ "/images/wp/wp-content/uploads/2023/02/5.jpeg": {
+  "width": 1141,
+  "height": 1637
+ },
+ "/images/wp/wp-content/uploads/2023/02/5.jpg": {
+  "width": 1200,
+  "height": 751
+ },
+ "/images/wp/wp-content/uploads/2023/02/5.png": {
+  "width": 786,
+  "height": 304
+ },
+ "/images/wp/wp-content/uploads/2023/02/50-1.jpeg": {
+  "width": 900,
+  "height": 811
+ },
+ "/images/wp/wp-content/uploads/2023/02/50.jpeg": {
+  "width": 680,
+  "height": 454
+ },
+ "/images/wp/wp-content/uploads/2023/02/50a.jpeg": {
+  "width": 603,
+  "height": 680
+ },
+ "/images/wp/wp-content/uploads/2023/02/50b.png": {
+  "width": 612,
+  "height": 656
+ },
+ "/images/wp/wp-content/uploads/2023/02/51.png": {
+  "width": 567,
+  "height": 599
+ },
+ "/images/wp/wp-content/uploads/2023/02/52.jpeg": {
+  "width": 900,
+  "height": 465
+ },
+ "/images/wp/wp-content/uploads/2023/02/52.png": {
+  "width": 499,
+  "height": 662
+ },
+ "/images/wp/wp-content/uploads/2023/02/52a.jpeg": {
+  "width": 509,
+  "height": 680
+ },
+ "/images/wp/wp-content/uploads/2023/02/53.png": {
+  "width": 486,
+  "height": 697
+ },
+ "/images/wp/wp-content/uploads/2023/02/53b.jpeg": {
+  "width": 528,
+  "height": 680
+ },
+ "/images/wp/wp-content/uploads/2023/02/53c.jpeg": {
+  "width": 590,
+  "height": 680
+ },
+ "/images/wp/wp-content/uploads/2023/02/54-1.png": {
+  "width": 1050,
+  "height": 436
+ },
+ "/images/wp/wp-content/uploads/2023/02/54.jpeg": {
+  "width": 976,
+  "height": 404
+ },
+ "/images/wp/wp-content/uploads/2023/02/54.png": {
+  "width": 481,
+  "height": 700
+ },
+ "/images/wp/wp-content/uploads/2023/02/55.png": {
+  "width": 493,
+  "height": 476
+ },
+ "/images/wp/wp-content/uploads/2023/02/56.jpeg": {
+  "width": 1600,
+  "height": 746
+ },
+ "/images/wp/wp-content/uploads/2023/02/56b.jpeg": {
+  "width": 900,
+  "height": 802
+ },
+ "/images/wp/wp-content/uploads/2023/02/57.png": {
+  "width": 736,
+  "height": 502
+ },
+ "/images/wp/wp-content/uploads/2023/02/57b.jpeg": {
+  "width": 900,
+  "height": 592
+ },
+ "/images/wp/wp-content/uploads/2023/02/58-1.jpeg": {
+  "width": 612,
+  "height": 792
+ },
+ "/images/wp/wp-content/uploads/2023/02/58.jpeg": {
+  "width": 1008,
+  "height": 1200
+ },
+ "/images/wp/wp-content/uploads/2023/02/59.jpeg": {
+  "width": 982,
+  "height": 1114
+ },
+ "/images/wp/wp-content/uploads/2023/02/6-1.jpeg": {
+  "width": 744,
+  "height": 495
+ },
+ "/images/wp/wp-content/uploads/2023/02/6-1.jpg": {
+  "width": 735,
+  "height": 1200
+ },
+ "/images/wp/wp-content/uploads/2023/02/6-1.png": {
+  "width": 540,
+  "height": 274
+ },
+ "/images/wp/wp-content/uploads/2023/02/6-2.jpeg": {
+  "width": 900,
+  "height": 630
+ },
+ "/images/wp/wp-content/uploads/2023/02/6-2.jpg": {
+  "width": 1199,
+  "height": 455
+ },
+ "/images/wp/wp-content/uploads/2023/02/6-3.jpeg": {
+  "width": 900,
+  "height": 630
+ },
+ "/images/wp/wp-content/uploads/2023/02/6-3.jpg": {
+  "width": 1200,
+  "height": 643
+ },
+ "/images/wp/wp-content/uploads/2023/02/6-4.jpg": {
+  "width": 1199,
+  "height": 649
+ },
+ "/images/wp/wp-content/uploads/2023/02/6-5.jpg": {
+  "width": 1200,
+  "height": 643
+ },
+ "/images/wp/wp-content/uploads/2023/02/6-6.jpg": {
+  "width": 1005,
+  "height": 742
+ },
+ "/images/wp/wp-content/uploads/2023/02/6.jpeg": {
+  "width": 1190,
+  "height": 302
+ },
+ "/images/wp/wp-content/uploads/2023/02/6.jpg": {
+  "width": 914,
+  "height": 1200
+ },
+ "/images/wp/wp-content/uploads/2023/02/6.png": {
+  "width": 616,
+  "height": 516
+ },
+ "/images/wp/wp-content/uploads/2023/02/60.jpeg": {
+  "width": 688,
+  "height": 1030
+ },
+ "/images/wp/wp-content/uploads/2023/02/60b.jpeg": {
+  "width": 896,
+  "height": 1200
+ },
+ "/images/wp/wp-content/uploads/2023/02/61.jpeg": {
+  "width": 1136,
+  "height": 730
+ },
+ "/images/wp/wp-content/uploads/2023/02/62.png": {
+  "width": 756,
+  "height": 436
+ },
+ "/images/wp/wp-content/uploads/2023/02/62b.jpeg": {
+  "width": 564,
+  "height": 900
+ },
+ "/images/wp/wp-content/uploads/2023/02/63.jpeg": {
+  "width": 900,
+  "height": 772
+ },
+ "/images/wp/wp-content/uploads/2023/02/6a-1.jpeg": {
+  "width": 1110,
+  "height": 262
+ },
+ "/images/wp/wp-content/uploads/2023/02/6a.jpeg": {
+  "width": 487,
+  "height": 680
+ },
+ "/images/wp/wp-content/uploads/2023/02/6a.jpg": {
+  "width": 1066,
+  "height": 360
+ },
+ "/images/wp/wp-content/uploads/2023/02/6b-1.jpeg": {
+  "width": 1014,
+  "height": 232
+ },
+ "/images/wp/wp-content/uploads/2023/02/6b-1.jpg": {
+  "width": 910,
+  "height": 1200
+ },
+ "/images/wp/wp-content/uploads/2023/02/6b-2.jpg": {
+  "width": 1012,
+  "height": 644
+ },
+ "/images/wp/wp-content/uploads/2023/02/6b.jpeg": {
+  "width": 680,
+  "height": 635
+ },
+ "/images/wp/wp-content/uploads/2023/02/6b.jpg": {
+  "width": 1014,
+  "height": 628
+ },
+ "/images/wp/wp-content/uploads/2023/02/6c-1.jpg": {
+  "width": 917,
+  "height": 1200
+ },
+ "/images/wp/wp-content/uploads/2023/02/6c-2.jpg": {
+  "width": 964,
+  "height": 488
+ },
+ "/images/wp/wp-content/uploads/2023/02/6c.jpeg": {
+  "width": 680,
+  "height": 300
+ },
+ "/images/wp/wp-content/uploads/2023/02/6c.jpg": {
+  "width": 1044,
+  "height": 194
+ },
+ "/images/wp/wp-content/uploads/2023/02/6d-1.jpg": {
+  "width": 964,
+  "height": 936
+ },
+ "/images/wp/wp-content/uploads/2023/02/6d.jpg": {
+  "width": 1004,
+  "height": 570
+ },
+ "/images/wp/wp-content/uploads/2023/02/7-1.jpeg": {
+  "width": 772,
+  "height": 1310
+ },
+ "/images/wp/wp-content/uploads/2023/02/7-1.jpg": {
+  "width": 1200,
+  "height": 294
+ },
+ "/images/wp/wp-content/uploads/2023/02/7-1.png": {
+  "width": 1032,
+  "height": 1114
+ },
+ "/images/wp/wp-content/uploads/2023/02/7-2.jpeg": {
+  "width": 812,
+  "height": 906
+ },
+ "/images/wp/wp-content/uploads/2023/02/7-2.jpg": {
+  "width": 1200,
+  "height": 644
+ },
+ "/images/wp/wp-content/uploads/2023/02/7-2.png": {
+  "width": 439,
+  "height": 255
+ },
+ "/images/wp/wp-content/uploads/2023/02/7-3.jpg": {
+  "width": 1200,
+  "height": 644
+ },
+ "/images/wp/wp-content/uploads/2023/02/7.jpeg": {
+  "width": 844,
+  "height": 1348
+ },
+ "/images/wp/wp-content/uploads/2023/02/7.jpg": {
+  "width": 1200,
+  "height": 1043
+ },
+ "/images/wp/wp-content/uploads/2023/02/7.png": {
+  "width": 1600,
+  "height": 425
+ },
+ "/images/wp/wp-content/uploads/2023/02/7a-1.jpg": {
+  "width": 1200,
+  "height": 1162
+ },
+ "/images/wp/wp-content/uploads/2023/02/7a-1.png": {
+  "width": 644,
+  "height": 892
+ },
+ "/images/wp/wp-content/uploads/2023/02/7a-2.png": {
+  "width": 644,
+  "height": 892
+ },
+ "/images/wp/wp-content/uploads/2023/02/7a-3.png": {
+  "width": 286,
+  "height": 50
+ },
+ "/images/wp/wp-content/uploads/2023/02/7a.jpeg": {
+  "width": 573,
+  "height": 680
+ },
+ "/images/wp/wp-content/uploads/2023/02/7a.jpg": {
+  "width": 1199,
+  "height": 464
+ },
+ "/images/wp/wp-content/uploads/2023/02/7a.png": {
+  "width": 336,
+  "height": 868
+ },
+ "/images/wp/wp-content/uploads/2023/02/7b-1.jpeg": {
+  "width": 640,
+  "height": 1176
+ },
+ "/images/wp/wp-content/uploads/2023/02/7b-1.jpg": {
+  "width": 1176,
+  "height": 316
+ },
+ "/images/wp/wp-content/uploads/2023/02/7b-2.jpeg": {
+  "width": 640,
+  "height": 1176
+ },
+ "/images/wp/wp-content/uploads/2023/02/7b-2.jpg": {
+  "width": 1199,
+  "height": 735
+ },
+ "/images/wp/wp-content/uploads/2023/02/7b.jpeg": {
+  "width": 580,
+  "height": 680
+ },
+ "/images/wp/wp-content/uploads/2023/02/7b.jpg": {
+  "width": 1199,
+  "height": 295
+ },
+ "/images/wp/wp-content/uploads/2023/02/7b.png": {
+  "width": 286,
+  "height": 338
+ },
+ "/images/wp/wp-content/uploads/2023/02/7c.jpg": {
+  "width": 1200,
+  "height": 1026
+ },
+ "/images/wp/wp-content/uploads/2023/02/7c.png": {
+  "width": 326,
+  "height": 42
+ },
+ "/images/wp/wp-content/uploads/2023/02/7d.jpg": {
+  "width": 1199,
+  "height": 494
+ },
+ "/images/wp/wp-content/uploads/2023/02/7d.png": {
+  "width": 224,
+  "height": 44
+ },
+ "/images/wp/wp-content/uploads/2023/02/8-1.jpeg": {
+  "width": 900,
+  "height": 705
+ },
+ "/images/wp/wp-content/uploads/2023/02/8-1.jpg": {
+  "width": 1110,
+  "height": 706
+ },
+ "/images/wp/wp-content/uploads/2023/02/8-1.png": {
+  "width": 529,
+  "height": 247
+ },
+ "/images/wp/wp-content/uploads/2023/02/8-2.jpeg": {
+  "width": 1200,
+  "height": 561
+ },
+ "/images/wp/wp-content/uploads/2023/02/8.jpeg": {
+  "width": 952,
+  "height": 508
+ },
+ "/images/wp/wp-content/uploads/2023/02/8.jpg": {
+  "width": 1042,
+  "height": 1178
+ },
+ "/images/wp/wp-content/uploads/2023/02/8.png": {
+  "width": 584,
+  "height": 779
+ },
+ "/images/wp/wp-content/uploads/2023/02/8a-1.jpeg": {
+  "width": 680,
+  "height": 503
+ },
+ "/images/wp/wp-content/uploads/2023/02/8a.jpeg": {
+  "width": 680,
+  "height": 503
+ },
+ "/images/wp/wp-content/uploads/2023/02/8b-1.jpeg": {
+  "width": 1600,
+  "height": 691
+ },
+ "/images/wp/wp-content/uploads/2023/02/8b.jpeg": {
+  "width": 1600,
+  "height": 691
+ },
+ "/images/wp/wp-content/uploads/2023/02/8c-1.jpeg": {
+  "width": 1600,
+  "height": 1150
+ },
+ "/images/wp/wp-content/uploads/2023/02/8c.jpeg": {
+  "width": 1600,
+  "height": 1150
+ },
+ "/images/wp/wp-content/uploads/2023/02/8d.jpeg": {
+  "width": 1600,
+  "height": 852
+ },
+ "/images/wp/wp-content/uploads/2023/02/9-1.jpeg": {
+  "width": 900,
+  "height": 651
+ },
+ "/images/wp/wp-content/uploads/2023/02/9-1.jpg": {
+  "width": 1200,
+  "height": 372
+ },
+ "/images/wp/wp-content/uploads/2023/02/9-1.png": {
+  "width": 768,
+  "height": 584
+ },
+ "/images/wp/wp-content/uploads/2023/02/9-2.jpeg": {
+  "width": 934,
+  "height": 1354
+ },
+ "/images/wp/wp-content/uploads/2023/02/9-2.jpg": {
+  "width": 1200,
+  "height": 308
+ },
+ "/images/wp/wp-content/uploads/2023/02/9-2.png": {
+  "width": 1182,
+  "height": 134
+ },
+ "/images/wp/wp-content/uploads/2023/02/9-3.jpeg": {
+  "width": 1600,
+  "height": 498
+ },
+ "/images/wp/wp-content/uploads/2023/02/9-3.jpg": {
+  "width": 1200,
+  "height": 372
+ },
+ "/images/wp/wp-content/uploads/2023/02/9-4.jpg": {
+  "width": 1107,
+  "height": 817
+ },
+ "/images/wp/wp-content/uploads/2023/02/9.jpeg": {
+  "width": 932,
+  "height": 342
+ },
+ "/images/wp/wp-content/uploads/2023/02/9.jpg": {
+  "width": 1199,
+  "height": 779
+ },
+ "/images/wp/wp-content/uploads/2023/02/9.png": {
+  "width": 543,
+  "height": 736
+ },
+ "/images/wp/wp-content/uploads/2023/02/9a-scaled.jpeg": {
+  "width": 1600,
+  "height": 576
+ },
+ "/images/wp/wp-content/uploads/2023/02/9b.jpeg": {
+  "width": 1590,
+  "height": 552
+ },
+ "/images/wp/wp-content/uploads/2023/02/9b.png": {
+  "width": 1199,
+  "height": 208
+ },
+ "/images/wp/wp-content/uploads/2023/02/9c.jpeg": {
+  "width": 1504,
+  "height": 1520
+ },
+ "/images/wp/wp-content/uploads/2023/02/9d.jpeg": {
+  "width": 1600,
+  "height": 989
+ },
+ "/images/wp/wp-content/uploads/2023/02/FjU2dhaVQAEXLdR.jpeg": {
+  "width": 1600,
+  "height": 524
+ },
+ "/images/wp/wp-content/uploads/2023/02/Twitter-Elon-Musk1.png": {
+  "width": 1199,
+  "height": 621
+ },
+ "/images/wp/wp-content/uploads/2023/02/Twitter-Elon-Musk11a.jpg": {
+  "width": 1199,
+  "height": 621
+ },
+ "/images/wp/wp-content/uploads/2023/02/Twitter-Elon-Musk12a.jpg": {
+  "width": 1199,
+  "height": 621
+ },
+ "/images/wp/wp-content/uploads/2023/02/Twitter-Elon-Musk13.jpg": {
+  "width": 1199,
+  "height": 621
+ },
+ "/images/wp/wp-content/uploads/2023/02/Twitter-Elon-Musk135.jpg": {
+  "width": 1199,
+  "height": 621
+ },
+ "/images/wp/wp-content/uploads/2023/02/Twitter-Elon-Musk14.jpg": {
+  "width": 1199,
+  "height": 621
+ },
+ "/images/wp/wp-content/uploads/2023/02/Twitter-Elon-Musk145.jpg": {
+  "width": 1199,
+  "height": 621
+ },
+ "/images/wp/wp-content/uploads/2023/02/Twitter-Elon-Musk15.jpg": {
+  "width": 1199,
+  "height": 621
+ },
+ "/images/wp/wp-content/uploads/2023/02/Twitter-Elon-Musk15a.jpg": {
+  "width": 1199,
+  "height": 621
+ },
+ "/images/wp/wp-content/uploads/2023/02/Twitter-Elon-Musk16.png": {
+  "width": 1199,
+  "height": 621
+ },
+ "/images/wp/wp-content/uploads/2023/02/Twitter-Elon-Musk1h.png": {
+  "width": 1199,
+  "height": 621
+ },
+ "/images/wp/wp-content/uploads/2023/02/Twitter-Elon-Musk3.jpg": {
+  "width": 1199,
+  "height": 621
+ },
+ "/images/wp/wp-content/uploads/2023/02/Twitter-Elon-Musk4.jpg": {
+  "width": 1199,
+  "height": 621
+ },
+ "/images/wp/wp-content/uploads/2023/02/Twitter-Elon-Musk6.jpg": {
+  "width": 1199,
+  "height": 621
+ },
+ "/images/wp/wp-content/uploads/2023/02/Twitter-Elon-Musk6h.jpg": {
+  "width": 1199,
+  "height": 621
+ },
+ "/images/wp/wp-content/uploads/2023/02/Twitter-Elon-Musk7.jpg": {
+  "width": 1199,
+  "height": 621
+ },
+ "/images/wp/wp-content/uploads/2023/02/Twitter-Elon-Musk7h.jpg": {
+  "width": 1199,
+  "height": 621
+ },
+ "/images/wp/wp-content/uploads/2023/02/Twitter-Elon-Musk8.jpg": {
+  "width": 1199,
+  "height": 621
+ },
+ "/images/wp/wp-content/uploads/2023/02/Twitter-Elon-Musk9.jpg": {
+  "width": 1199,
+  "height": 621
+ },
+ "/images/wp/wp-content/uploads/2023/02/Twitter-Elon-MuskMagazine.jpg": {
+  "width": 1199,
+  "height": 621
+ },
+ "/images/wp/wp-content/uploads/2023/02/Twitter-Elon-Musk２.png": {
+  "width": 1199,
+  "height": 621
+ },
+ "/images/wp/wp-content/uploads/2023/02/Twitter-Elon-Musk５.jpg": {
+  "width": 1199,
+  "height": 621
+ },
+ "/images/wp/wp-content/uploads/2023/02/Twitter-Elon3.png": {
+  "width": 1199,
+  "height": 621
+ },
+ "/images/wp/wp-content/uploads/2023/02/bike-trip-3.jpg": {
+  "width": 800,
+  "height": 447
+ },
+ "/images/wp/wp-content/uploads/2023/02/ohiotrain.jpg": {
+  "width": 1200,
+  "height": 675
+ },
+ "/images/wp/wp-content/uploads/2023/02/photo_2023-02-14-21.58.36.jpeg": {
+  "width": 1280,
+  "height": 536
+ },
+ "/images/wp/wp-content/uploads/2023/02/title.jpg": {
+  "width": 1200,
+  "height": 675
+ },
+ "/images/wp/wp-content/uploads/2023/02/わし２.jpeg": {
+  "width": 800,
+  "height": 565
+ },
+ "/images/wp/wp-content/uploads/2023/02/わし３.jpeg": {
+  "width": 565,
+  "height": 800
+ },
+ "/images/wp/wp-content/uploads/2023/02/わし６.jpeg": {
+  "width": 565,
+  "height": 800
+ },
+ "/images/wp/wp-content/uploads/2023/02/わし７.jpeg": {
+  "width": 565,
+  "height": 800
+ },
+ "/images/wp/wp-content/uploads/2023/02/スクリーンショット-2023-02-07-16.35.42.png": {
+  "width": 1214,
+  "height": 344
+ },
+ "/images/wp/wp-content/uploads/2023/02/スクリーンショット-2023-02-13-21.48.28.png": {
+  "width": 780,
+  "height": 488
+ },
+ "/images/wp/wp-content/uploads/2023/02/スクリーンショット-2023-02-13-22.31.51.png": {
+  "width": 780,
+  "height": 488
+ },
+ "/images/wp/wp-content/uploads/2023/02/スクリーンショット-2023-02-13-22.36.02.png": {
+  "width": 780,
+  "height": 488
+ },
+ "/images/wp/wp-content/uploads/2023/02/スクリーンショット-2023-02-13-22.37.16.png": {
+  "width": 780,
+  "height": 488
+ },
+ "/images/wp/wp-content/uploads/2023/02/スクリーンショット-2023-02-13-22.59.00.png": {
+  "width": 780,
+  "height": 488
+ },
+ "/images/wp/wp-content/uploads/2023/02/スクリーンショット-2023-02-14-0.22.28.png": {
+  "width": 780,
+  "height": 488
+ },
+ "/images/wp/wp-content/uploads/2023/02/ツイッターファイル１０.jpg": {
+  "width": 1280,
+  "height": 670
+ },
+ "/images/wp/wp-content/uploads/2023/02/フェイスブックファイル-1.png": {
+  "width": 1004,
+  "height": 618
+ },
+ "/images/wp/wp-content/uploads/2023/02/フェイスブックファイル.png": {
+  "width": 1004,
+  "height": 618
+ },
+ "/images/wp/wp-content/uploads/2023/02/和紙.jpg": {
+  "width": 400,
+  "height": 400
+ },
+ "/images/wp/wp-content/uploads/2023/02/和紙暖.jpg": {
+  "width": 400,
+  "height": 400
+ },
+ "/images/wp/wp-content/uploads/2023/04/10a.jpg": {
+  "width": 1199,
+  "height": 479
+ },
+ "/images/wp/wp-content/uploads/2023/04/11a.jpg": {
+  "width": 1200,
+  "height": 407
+ },
+ "/images/wp/wp-content/uploads/2023/04/11b.jpg": {
+  "width": 1199,
+  "height": 271
+ },
+ "/images/wp/wp-content/uploads/2023/04/12a.png": {
+  "width": 690,
+  "height": 693
+ },
+ "/images/wp/wp-content/uploads/2023/04/13a.png": {
+  "width": 803,
+  "height": 329
+ },
+ "/images/wp/wp-content/uploads/2023/04/13b.jpg": {
+  "width": 1198,
+  "height": 252
+ },
+ "/images/wp/wp-content/uploads/2023/04/14a.jpg": {
+  "width": 931,
+  "height": 1200
+ },
+ "/images/wp/wp-content/uploads/2023/04/14b.jpg": {
+  "width": 921,
+  "height": 1200
+ },
+ "/images/wp/wp-content/uploads/2023/04/14c.jpg": {
+  "width": 922,
+  "height": 1200
+ },
+ "/images/wp/wp-content/uploads/2023/04/14d.jpg": {
+  "width": 979,
+  "height": 1200
+ },
+ "/images/wp/wp-content/uploads/2023/04/15a.jpg": {
+  "width": 1199,
+  "height": 470
+ },
+ "/images/wp/wp-content/uploads/2023/04/16a.jpg": {
+  "width": 1200,
+  "height": 812
+ },
+ "/images/wp/wp-content/uploads/2023/04/17.jpg": {
+  "width": 1600,
+  "height": 839
+ },
+ "/images/wp/wp-content/uploads/2023/04/17a.png": {
+  "width": 693,
+  "height": 394
+ },
+ "/images/wp/wp-content/uploads/2023/04/18.jpg": {
+  "width": 1600,
+  "height": 836
+ },
+ "/images/wp/wp-content/uploads/2023/04/18a.jpg": {
+  "width": 640,
+  "height": 480
+ },
+ "/images/wp/wp-content/uploads/2023/04/19.jpg": {
+  "width": 1238,
+  "height": 696
+ },
+ "/images/wp/wp-content/uploads/2023/04/1920px-Ru1_modi.jpg": {
+  "width": 1600,
+  "height": 1067
+ },
+ "/images/wp/wp-content/uploads/2023/04/1a.jpg": {
+  "width": 1200,
+  "height": 394
+ },
+ "/images/wp/wp-content/uploads/2023/04/1b.png": {
+  "width": 681,
+  "height": 888
+ },
+ "/images/wp/wp-content/uploads/2023/04/1c.jpg": {
+  "width": 1199,
+  "height": 470
+ },
+ "/images/wp/wp-content/uploads/2023/04/20a.jpg": {
+  "width": 1200,
+  "height": 153
+ },
+ "/images/wp/wp-content/uploads/2023/04/20b.jpg": {
+  "width": 1200,
+  "height": 581
+ },
+ "/images/wp/wp-content/uploads/2023/04/20c.jpg": {
+  "width": 895,
+  "height": 1200
+ },
+ "/images/wp/wp-content/uploads/2023/04/20d.jpg": {
+  "width": 1194,
+  "height": 380
+ },
+ "/images/wp/wp-content/uploads/2023/04/21a.png": {
+  "width": 800,
+  "height": 450
+ },
+ "/images/wp/wp-content/uploads/2023/04/21ajp.png": {
+  "width": 1600,
+  "height": 910
+ },
+ "/images/wp/wp-content/uploads/2023/04/21b.jpg": {
+  "width": 1200,
+  "height": 394
+ },
+ "/images/wp/wp-content/uploads/2023/04/22a.jpg": {
+  "width": 1200,
+  "height": 666
+ },
+ "/images/wp/wp-content/uploads/2023/04/22b.jpg": {
+  "width": 1199,
+  "height": 234
+ },
+ "/images/wp/wp-content/uploads/2023/04/23a.jpg": {
+  "width": 1138,
+  "height": 457
+ },
+ "/images/wp/wp-content/uploads/2023/04/23b.jpg": {
+  "width": 1200,
+  "height": 768
+ },
+ "/images/wp/wp-content/uploads/2023/04/23c.jpg": {
+  "width": 1200,
+  "height": 883
+ },
+ "/images/wp/wp-content/uploads/2023/04/23cjp.jpg": {
+  "width": 1200,
+  "height": 883
+ },
+ "/images/wp/wp-content/uploads/2023/04/23d.png": {
+  "width": 482,
+  "height": 322
+ },
+ "/images/wp/wp-content/uploads/2023/04/24a.jpg": {
+  "width": 898,
+  "height": 1200
+ },
+ "/images/wp/wp-content/uploads/2023/04/24ajp.jpeg": {
+  "width": 898,
+  "height": 1200
+ },
+ "/images/wp/wp-content/uploads/2023/04/24b.jpg": {
+  "width": 918,
+  "height": 1199
+ },
+ "/images/wp/wp-content/uploads/2023/04/24c.png": {
+  "width": 1200,
+  "height": 722
+ },
+ "/images/wp/wp-content/uploads/2023/04/25a.jpg": {
+  "width": 1199,
+  "height": 467
+ },
+ "/images/wp/wp-content/uploads/2023/04/25b.jpg": {
+  "width": 1136,
+  "height": 838
+ },
+ "/images/wp/wp-content/uploads/2023/04/25c.jpg": {
+  "width": 898,
+  "height": 1200
+ },
+ "/images/wp/wp-content/uploads/2023/04/26a.jpg": {
+  "width": 746,
+  "height": 1074
+ },
+ "/images/wp/wp-content/uploads/2023/04/26b.jpg": {
+  "width": 939,
+  "height": 1200
+ },
+ "/images/wp/wp-content/uploads/2023/04/27a.jpg": {
+  "width": 921,
+  "height": 1200
+ },
+ "/images/wp/wp-content/uploads/2023/04/27b.jpg": {
+  "width": 927,
+  "height": 1200
+ },
+ "/images/wp/wp-content/uploads/2023/04/27c.jpg": {
+  "width": 922,
+  "height": 1200
+ },
+ "/images/wp/wp-content/uploads/2023/04/27d.jpg": {
+  "width": 922,
+  "height": 1200
+ },
+ "/images/wp/wp-content/uploads/2023/04/28a.jpg": {
+  "width": 1134,
+  "height": 932
+ },
+ "/images/wp/wp-content/uploads/2023/04/29a.jpg": {
+  "width": 1200,
+  "height": 564
+ },
+ "/images/wp/wp-content/uploads/2023/04/29b.png": {
+  "width": 1200,
+  "height": 299
+ },
+ "/images/wp/wp-content/uploads/2023/04/30a.jpg": {
+  "width": 1200,
+  "height": 354
+ },
+ "/images/wp/wp-content/uploads/2023/04/31a.jpg": {
+  "width": 1200,
+  "height": 430
+ },
+ "/images/wp/wp-content/uploads/2023/04/31b.jpg": {
+  "width": 1199,
+  "height": 479
+ },
+ "/images/wp/wp-content/uploads/2023/04/33a.jpg": {
+  "width": 586,
+  "height": 710
+ },
+ "/images/wp/wp-content/uploads/2023/04/33b.jpg": {
+  "width": 930,
+  "height": 1200
+ },
+ "/images/wp/wp-content/uploads/2023/04/3a.jpg": {
+  "width": 927,
+  "height": 1200
+ },
+ "/images/wp/wp-content/uploads/2023/04/4a.png": {
+  "width": 681,
+  "height": 888
+ },
+ "/images/wp/wp-content/uploads/2023/04/4b.png": {
+  "width": 580,
+  "height": 807
+ },
+ "/images/wp/wp-content/uploads/2023/04/4c.jpg": {
+  "width": 1200,
+  "height": 857
+ },
+ "/images/wp/wp-content/uploads/2023/04/5a.jpg": {
+  "width": 1200,
+  "height": 792
+ },
+ "/images/wp/wp-content/uploads/2023/04/6a.png": {
+  "width": 1199,
+  "height": 730
+ },
+ "/images/wp/wp-content/uploads/2023/04/6b.jpg": {
+  "width": 1199,
+  "height": 536
+ },
+ "/images/wp/wp-content/uploads/2023/04/7a.png": {
+  "width": 516,
+  "height": 805
+ },
+ "/images/wp/wp-content/uploads/2023/04/8a.png": {
+  "width": 587,
+  "height": 545
+ },
+ "/images/wp/wp-content/uploads/2023/04/8b.jpg": {
+  "width": 1094,
+  "height": 358
+ },
+ "/images/wp/wp-content/uploads/2023/04/8c.png": {
+  "width": 584,
+  "height": 693
+ },
+ "/images/wp/wp-content/uploads/2023/04/8d.jpg": {
+  "width": 1158,
+  "height": 764
+ },
+ "/images/wp/wp-content/uploads/2023/04/9a.jpg": {
+  "width": 1166,
+  "height": 1194
+ },
+ "/images/wp/wp-content/uploads/2023/04/9b.jpg": {
+  "width": 1144,
+  "height": 820
+ },
+ "/images/wp/wp-content/uploads/2023/04/9c.jpg": {
+  "width": 1104,
+  "height": 886
+ },
+ "/images/wp/wp-content/uploads/2023/04/Twitter-Elon-Musk20.jpg": {
+  "width": 1199,
+  "height": 621
+ },
+ "/images/wp/wp-content/uploads/2023/04/businessman-3042272_1280.jpg": {
+  "width": 1280,
+  "height": 853
+ },
+ "/images/wp/wp-content/uploads/2023/04/bust-2794420_1280.jpg": {
+  "width": 1280,
+  "height": 673
+ },
+ "/images/wp/wp-content/uploads/2023/04/campfire-896196_1280.jpg": {
+  "width": 1280,
+  "height": 855
+ },
+ "/images/wp/wp-content/uploads/2023/04/climate-change-1325882_1280.jpg": {
+  "width": 1280,
+  "height": 850
+ },
+ "/images/wp/wp-content/uploads/2023/04/clock-2883626_1280.jpg": {
+  "width": 1280,
+  "height": 537
+ },
+ "/images/wp/wp-content/uploads/2023/04/coins-1015125_1280.jpg": {
+  "width": 1280,
+  "height": 853
+ },
+ "/images/wp/wp-content/uploads/2023/04/cows-4708901_1280.jpg": {
+  "width": 1280,
+  "height": 853
+ },
+ "/images/wp/wp-content/uploads/2023/04/elontucker1.jpg": {
+  "width": 1600,
+  "height": 898
+ },
+ "/images/wp/wp-content/uploads/2023/04/elontucker2.jpg": {
+  "width": 1600,
+  "height": 898
+ },
+ "/images/wp/wp-content/uploads/2023/04/gold-bullion-163553_1280.jpg": {
+  "width": 1280,
+  "height": 853
+ },
+ "/images/wp/wp-content/uploads/2023/04/great-reset-solution-crisis-chance.jpg": {
+  "width": 1280,
+  "height": 853
+ },
+ "/images/wp/wp-content/uploads/2023/04/hyper.jpg": {
+  "width": 1600,
+  "height": 894
+ },
+ "/images/wp/wp-content/uploads/2023/04/library-869061_1280.jpg": {
+  "width": 1280,
+  "height": 853
+ },
+ "/images/wp/wp-content/uploads/2023/04/light-bulb-1042480_1280.jpg": {
+  "width": 1280,
+  "height": 848
+ },
+ "/images/wp/wp-content/uploads/2023/04/lockdown-5038830_1280.jpg": {
+  "width": 1280,
+  "height": 853
+ },
+ "/images/wp/wp-content/uploads/2023/04/people-2591874_1280.jpg": {
+  "width": 1280,
+  "height": 853
+ },
+ "/images/wp/wp-content/uploads/2023/04/pharmacy-3377670_1280.jpg": {
+  "width": 1280,
+  "height": 773
+ },
+ "/images/wp/wp-content/uploads/2023/04/purchasing-4981245_1280.jpg": {
+  "width": 1280,
+  "height": 853
+ },
+ "/images/wp/wp-content/uploads/2023/04/silver-702537_1280.jpg": {
+  "width": 1280,
+  "height": 933
+ },
+ "/images/wp/wp-content/uploads/2023/04/vip-edited.jpg": {
+  "width": 1600,
+  "height": 836
+ },
+ "/images/wp/wp-content/uploads/2023/04/web-3963945_1280.jpg": {
+  "width": 1280,
+  "height": 675
+ },
+ "/images/wp/wp-content/uploads/2023/04/スクリーンショット-2023-04-02-21.09.59.png": {
+  "width": 648,
+  "height": 730
+ },
+ "/images/wp/wp-content/uploads/2023/04/スクリーンショット-2023-04-02-21.10.07.png": {
+  "width": 590,
+  "height": 710
+ },
+ "/images/wp/wp-content/uploads/2023/04/スクリーンショット-2023-04-02-21.32.14.png": {
+  "width": 640,
+  "height": 730
+ },
+ "/images/wp/wp-content/uploads/2023/04/スクリーンショット-2023-04-02-21.32.43.png": {
+  "width": 608,
+  "height": 698
+ },
+ "/images/wp/wp-content/uploads/2023/04/スクリーンショット-2023-04-04-23.50.15.png": {
+  "width": 1600,
+  "height": 752
+ },
+ "/images/wp/wp-content/uploads/2023/04/スクリーンショット-2023-04-12-10.41.27.png": {
+  "width": 784,
+  "height": 728
+ },
+ "/images/wp/wp-content/uploads/2023/04/スクリーンショット-2023-04-12-10.41.46.png": {
+  "width": 792,
+  "height": 746
+ },
+ "/images/wp/wp-content/uploads/2023/04/スクリーンショット-2023-04-12-11.30.15.png": {
+  "width": 616,
+  "height": 630
+ },
+ "/images/wp/wp-content/uploads/2023/04/スクリーンショット-2023-04-12-12.00.44.png": {
+  "width": 702,
+  "height": 536
+ },
+ "/images/wp/wp-content/uploads/2023/05/choice.jpg": {
+  "width": 1280,
+  "height": 853
+ },
+ "/images/wp/wp-content/uploads/2023/05/compas.jpg": {
+  "width": 1280,
+  "height": 853
+ },
+ "/images/wp/wp-content/uploads/2023/05/distrust.jpg": {
+  "width": 1280,
+  "height": 851
+ },
+ "/images/wp/wp-content/uploads/2023/05/trade.jpg": {
+  "width": 1280,
+  "height": 905
+ },
+ "/images/wp/wp-content/uploads/2023/05/trap.jpg": {
+  "width": 1280,
+  "height": 855
+ },
+ "/images/wp/wp-content/uploads/2023/05/travel.jpg": {
+  "width": 1280,
+  "height": 851
+ },
+ "/images/wp/wp-content/uploads/2023/05/trust.jpg": {
+  "width": 1280,
+  "height": 855
+ },
+ "/images/wp/wp-content/uploads/2023/05/universe-flow.jpg": {
+  "width": 1280,
+  "height": 989
+ },
+ "/images/wp/wp-content/uploads/2023/05/スクリーンショット-2023-05-09-14.06.37.png": {
+  "width": 1600,
+  "height": 836
+ },
+ "/images/wp/wp-content/uploads/2023/05/直感.jpg": {
+  "width": 1280,
+  "height": 785
+ },
+ "/images/wp/wp-content/uploads/2023/06/1.jpg": {
+  "width": 1200,
+  "height": 459
+ },
+ "/images/wp/wp-content/uploads/2023/06/20171230_113530.jpg": {
+  "width": 640,
+  "height": 360
+ },
+ "/images/wp/wp-content/uploads/2023/06/20180107_170318.jpg": {
+  "width": 640,
+  "height": 360
+ },
+ "/images/wp/wp-content/uploads/2023/06/20180107_170325.jpg": {
+  "width": 640,
+  "height": 360
+ },
+ "/images/wp/wp-content/uploads/2023/06/20180107_171005.jpg": {
+  "width": 640,
+  "height": 360
+ },
+ "/images/wp/wp-content/uploads/2023/06/20180107_171054.jpg": {
+  "width": 640,
+  "height": 360
+ },
+ "/images/wp/wp-content/uploads/2023/06/20180107_171102.jpg": {
+  "width": 640,
+  "height": 360
+ },
+ "/images/wp/wp-content/uploads/2023/06/20180107_171506.jpg": {
+  "width": 640,
+  "height": 360
+ },
+ "/images/wp/wp-content/uploads/2023/06/20180107_171510.jpg": {
+  "width": 640,
+  "height": 360
+ },
+ "/images/wp/wp-content/uploads/2023/06/20180107_171627.jpg": {
+  "width": 640,
+  "height": 360
+ },
+ "/images/wp/wp-content/uploads/2023/06/20180107_171653.jpg": {
+  "width": 640,
+  "height": 360
+ },
+ "/images/wp/wp-content/uploads/2023/06/20180107_171657.jpg": {
+  "width": 640,
+  "height": 360
+ },
+ "/images/wp/wp-content/uploads/2023/06/20180115_153737.jpg": {
+  "width": 640,
+  "height": 360
+ },
+ "/images/wp/wp-content/uploads/2023/06/20180115_153755.jpg": {
+  "width": 640,
+  "height": 360
+ },
+ "/images/wp/wp-content/uploads/2023/06/20180115_180402.jpg": {
+  "width": 640,
+  "height": 360
+ },
+ "/images/wp/wp-content/uploads/2023/06/20180116_062532.jpg": {
+  "width": 640,
+  "height": 360
+ },
+ "/images/wp/wp-content/uploads/2023/06/20180128_101046.jpg": {
+  "width": 640,
+  "height": 360
+ },
+ "/images/wp/wp-content/uploads/2023/06/20180227_065031.jpg": {
+  "width": 640,
+  "height": 360
+ },
+ "/images/wp/wp-content/uploads/2023/06/20180227_065035.jpg": {
+  "width": 640,
+  "height": 360
+ },
+ "/images/wp/wp-content/uploads/2023/06/20180227_065037.jpg": {
+  "width": 640,
+  "height": 360
+ },
+ "/images/wp/wp-content/uploads/2023/06/20180314_183214.jpg": {
+  "width": 640,
+  "height": 360
+ },
+ "/images/wp/wp-content/uploads/2023/06/20180316_104204.jpg": {
+  "width": 640,
+  "height": 360
+ },
+ "/images/wp/wp-content/uploads/2023/06/20180417_180544.jpg": {
+  "width": 640,
+  "height": 360
+ },
+ "/images/wp/wp-content/uploads/2023/06/20180417_180548.jpg": {
+  "width": 640,
+  "height": 360
+ },
+ "/images/wp/wp-content/uploads/2023/06/20180417_181108.jpg": {
+  "width": 640,
+  "height": 360
+ },
+ "/images/wp/wp-content/uploads/2023/06/20180417_181121.jpg": {
+  "width": 640,
+  "height": 360
+ },
+ "/images/wp/wp-content/uploads/2023/06/20180417_181611.jpg": {
+  "width": 640,
+  "height": 360
+ },
+ "/images/wp/wp-content/uploads/2023/06/20180427_110537.jpg": {
+  "width": 640,
+  "height": 360
+ },
+ "/images/wp/wp-content/uploads/2023/06/20180427_110556.jpg": {
+  "width": 640,
+  "height": 360
+ },
+ "/images/wp/wp-content/uploads/2023/06/4.png": {
+  "width": 1200,
+  "height": 163
+ },
+ "/images/wp/wp-content/uploads/2023/06/5.jpg": {
+  "width": 1200,
+  "height": 576
+ },
+ "/images/wp/wp-content/uploads/2023/06/BR1-scaled.jpg": {
+  "width": 1600,
+  "height": 658
+ },
+ "/images/wp/wp-content/uploads/2023/06/Twitter-Elon-Musk23.jpg": {
+  "width": 1199,
+  "height": 621
+ },
+ "/images/wp/wp-content/uploads/2023/06/spy4.jpg": {
+  "width": 1600,
+  "height": 838
+ },
+ "/images/wp/wp-content/uploads/2023/06/spy5.jpg": {
+  "width": 1400,
+  "height": 800
+ },
+ "/images/wp/wp-content/uploads/2023/06/spy6.jpg": {
+  "width": 1200,
+  "height": 800
+ },
+ "/images/wp/wp-content/uploads/2023/06/step3.png": {
+  "width": 1270,
+  "height": 958
+ },
+ "/images/wp/wp-content/uploads/2023/06/step44.png": {
+  "width": 1286,
+  "height": 956
+ },
+ "/images/wp/wp-content/uploads/2023/06/step55.png": {
+  "width": 1226,
+  "height": 914
+ },
+ "/images/wp/wp-content/uploads/2023/06/teal-enmashment.jpg": {
+  "width": 1600,
+  "height": 804
+ },
+ "/images/wp/wp-content/uploads/2023/06/teal-title2.jpg": {
+  "width": 1024,
+  "height": 537
+ },
+ "/images/wp/wp-content/uploads/2023/06/teal-title3.jpg": {
+  "width": 800,
+  "height": 537
+ },
+ "/images/wp/wp-content/uploads/2023/06/スクリーンショット-2023-06-10-14.31.56.png": {
+  "width": 1600,
+  "height": 834
+ },
+ "/images/wp/wp-content/uploads/2023/06/２.png": {
+  "width": 1200,
+  "height": 296
+ },
+ "/images/wp/wp-content/uploads/2023/06/３.png": {
+  "width": 1200,
+  "height": 194
+ },
+ "/images/wp/wp-content/uploads/2023/07/2.png": {
+  "width": 579,
+  "height": 347
+ },
+ "/images/wp/wp-content/uploads/2023/07/3.jpeg": {
+  "width": 1200,
+  "height": 648
+ },
+ "/images/wp/wp-content/uploads/2023/07/4.jpeg": {
+  "width": 1576,
+  "height": 1216
+ },
+ "/images/wp/wp-content/uploads/2023/07/4.png": {
+  "width": 650,
+  "height": 68
+ },
+ "/images/wp/wp-content/uploads/2023/07/5.jpeg": {
+  "width": 1200,
+  "height": 773
+ },
+ "/images/wp/wp-content/uploads/2023/07/6a.jpeg": {
+  "width": 1258,
+  "height": 1660
+ },
+ "/images/wp/wp-content/uploads/2023/07/6b.jpeg": {
+  "width": 1260,
+  "height": 1650
+ },
+ "/images/wp/wp-content/uploads/2023/07/7.jpeg": {
+  "width": 1600,
+  "height": 220
+ },
+ "/images/wp/wp-content/uploads/2023/07/7a.jpeg": {
+  "width": 1600,
+  "height": 932
+ },
+ "/images/wp/wp-content/uploads/2023/07/7b.jpeg": {
+  "width": 1502,
+  "height": 1322
+ },
+ "/images/wp/wp-content/uploads/2023/07/Cobalt.png": {
+  "width": 686,
+  "height": 524
+ },
+ "/images/wp/wp-content/uploads/2023/07/Dysprosium.png": {
+  "width": 552,
+  "height": 506
+ },
+ "/images/wp/wp-content/uploads/2023/07/Neodymium.png": {
+  "width": 618,
+  "height": 514
+ },
+ "/images/wp/wp-content/uploads/2023/07/Ruthenium.png": {
+  "width": 686,
+  "height": 502
+ },
+ "/images/wp/wp-content/uploads/2023/07/Tellurium.png": {
+  "width": 702,
+  "height": 530
+ },
+ "/images/wp/wp-content/uploads/2023/07/Twitter-Elon-Musk24extra.jpeg": {
+  "width": 1199,
+  "height": 621
+ },
+ "/images/wp/wp-content/uploads/2023/07/bismuth.png": {
+  "width": 704,
+  "height": 524
+ },
+ "/images/wp/wp-content/uploads/2023/07/fox.png": {
+  "width": 884,
+  "height": 798
+ },
+ "/images/wp/wp-content/uploads/2023/07/fragmentation-teal.png": {
+  "width": 892,
+  "height": 472
+ },
+ "/images/wp/wp-content/uploads/2023/07/gallium.png": {
+  "width": 706,
+  "height": 540
+ },
+ "/images/wp/wp-content/uploads/2023/07/indium.png": {
+  "width": 712,
+  "height": 534
+ },
+ "/images/wp/wp-content/uploads/2023/07/rhenium.png": {
+  "width": 706,
+  "height": 466
+ },
+ "/images/wp/wp-content/uploads/2023/07/teal-boundary.png": {
+  "width": 832,
+  "height": 430
+ },
+ "/images/wp/wp-content/uploads/2023/07/teal-parts-work.png": {
+  "width": 864,
+  "height": 450
+ },
+ "/images/wp/wp-content/uploads/2023/07/title.png": {
+  "width": 1034,
+  "height": 534
+ },
+ "/images/wp/wp-content/uploads/2023/07/trust.png": {
+  "width": 860,
+  "height": 432
+ },
+ "/images/wp/wp-content/uploads/2023/08/20180520_123911.jpg": {
+  "width": 800,
+  "height": 450
+ },
+ "/images/wp/wp-content/uploads/2023/08/20180520_123916.jpg": {
+  "width": 800,
+  "height": 450
+ },
+ "/images/wp/wp-content/uploads/2023/08/25th1.jpg": {
+  "width": 890,
+  "height": 460
+ },
+ "/images/wp/wp-content/uploads/2023/08/Hereus-100-oz.png": {
+  "width": 678,
+  "height": 742
+ },
+ "/images/wp/wp-content/uploads/2023/08/JBR-100oz-silver-ingot.jpg": {
+  "width": 540,
+  "height": 540
+ },
+ "/images/wp/wp-content/uploads/2023/08/bulldozer.png": {
+  "width": 906,
+  "height": 502
+ },
+ "/images/wp/wp-content/uploads/2023/08/fbfile2.png": {
+  "width": 1232,
+  "height": 642
+ },
+ "/images/wp/wp-content/uploads/2023/08/fbfiles1.png": {
+  "width": 1600,
+  "height": 837
+ },
+ "/images/wp/wp-content/uploads/2023/08/fbfiles3.png": {
+  "width": 1224,
+  "height": 642
+ },
+ "/images/wp/wp-content/uploads/2023/08/fbfiles4.png": {
+  "width": 1230,
+  "height": 642
+ },
+ "/images/wp/wp-content/uploads/2023/08/maple-back.jpg": {
+  "width": 774,
+  "height": 696
+ },
+ "/images/wp/wp-content/uploads/2023/08/maple-front.jpg": {
+  "width": 812,
+  "height": 720
+ },
+ "/images/wp/wp-content/uploads/2023/08/maui-fire-hawaii.jpg": {
+  "width": 1000,
+  "height": 520
+ },
+ "/images/wp/wp-content/uploads/2023/08/maui-fire-hawaii2.jpg": {
+  "width": 1200,
+  "height": 800
+ },
+ "/images/wp/wp-content/uploads/2023/08/perthmint.jpg": {
+  "width": 742,
+  "height": 706
+ },
+ "/images/wp/wp-content/uploads/2023/09/4368.png": {
+  "width": 818,
+  "height": 542
+ },
+ "/images/wp/wp-content/uploads/2023/09/buckel3.png": {
+  "width": 844,
+  "height": 534
+ },
+ "/images/wp/wp-content/uploads/2023/09/toc.png": {
+  "width": 1006,
+  "height": 478
+ },
+ "/images/wp/wp-content/uploads/2023/09/toc2.jpg": {
+  "width": 1000,
+  "height": 565
+ },
+ "/images/wp/wp-content/uploads/2023/09/スクリーンショット-2023-09-08-17.14.50.png": {
+  "width": 1600,
+  "height": 834
+ },
+ "/images/wp/wp-content/uploads/2023/09/スクリーンショット-2023-09-19-13.04.00.png": {
+  "width": 834,
+  "height": 550
+ },
+ "/images/wp/wp-content/uploads/2023/09/スクリーンショット-2023-09-19-13.38.18.png": {
+  "width": 864,
+  "height": 1384
+ },
+ "/images/wp/wp-content/uploads/2023/09/スクリーンショット-2023-09-19-16.45.14.png": {
+  "width": 878,
+  "height": 392
+ },
+ "/images/wp/wp-content/uploads/2023/09/スクリーンショット-2023-09-19-16.50.47.png": {
+  "width": 1138,
+  "height": 1336
+ },
+ "/images/wp/wp-content/uploads/2023/09/スクリーンショット-2023-09-19-17.14.57.png": {
+  "width": 1146,
+  "height": 1112
+ },
+ "/images/wp/wp-content/uploads/2023/09/スクリーンショット-2023-09-19-17.31.45.png": {
+  "width": 1168,
+  "height": 1254
+ },
+ "/images/wp/wp-content/uploads/2023/09/抵抗感.png": {
+  "width": 980,
+  "height": 490
+ },
+ "/images/wp/wp-content/uploads/2023/10/1.jpeg": {
+  "width": 435,
+  "height": 259
+ },
+ "/images/wp/wp-content/uploads/2023/10/10.jpeg": {
+  "width": 643,
+  "height": 376
+ },
+ "/images/wp/wp-content/uploads/2023/10/11.jpeg": {
+  "width": 633,
+  "height": 228
+ },
+ "/images/wp/wp-content/uploads/2023/10/12.jpeg": {
+  "width": 578,
+  "height": 122
+ },
+ "/images/wp/wp-content/uploads/2023/10/13.jpeg": {
+  "width": 623,
+  "height": 162
+ },
+ "/images/wp/wp-content/uploads/2023/10/14.jpeg": {
+  "width": 650,
+  "height": 208
+ },
+ "/images/wp/wp-content/uploads/2023/10/15.jpeg": {
+  "width": 545,
+  "height": 137
+ },
+ "/images/wp/wp-content/uploads/2023/10/16.jpeg": {
+  "width": 633,
+  "height": 85
+ },
+ "/images/wp/wp-content/uploads/2023/10/17.jpeg": {
+  "width": 670,
+  "height": 122
+ },
+ "/images/wp/wp-content/uploads/2023/10/18.jpeg": {
+  "width": 816,
+  "height": 118
+ },
+ "/images/wp/wp-content/uploads/2023/10/19.jpeg": {
+  "width": 455,
+  "height": 105
+ },
+ "/images/wp/wp-content/uploads/2023/10/2.jpeg": {
+  "width": 661,
+  "height": 295
+ },
+ "/images/wp/wp-content/uploads/2023/10/20.jpeg": {
+  "width": 447,
+  "height": 201
+ },
+ "/images/wp/wp-content/uploads/2023/10/21.jpeg": {
+  "width": 829,
+  "height": 470
+ },
+ "/images/wp/wp-content/uploads/2023/10/22.jpeg": {
+  "width": 1234,
+  "height": 741
+ },
+ "/images/wp/wp-content/uploads/2023/10/23.jpeg": {
+  "width": 698,
+  "height": 274
+ },
+ "/images/wp/wp-content/uploads/2023/10/23a.jpeg": {
+  "width": 1280,
+  "height": 1272
+ },
+ "/images/wp/wp-content/uploads/2023/10/24.jpeg": {
+  "width": 1280,
+  "height": 444
+ },
+ "/images/wp/wp-content/uploads/2023/10/25.jpeg": {
+  "width": 1456,
+  "height": 674
+ },
+ "/images/wp/wp-content/uploads/2023/10/26.jpeg": {
+  "width": 729,
+  "height": 960
+ },
+ "/images/wp/wp-content/uploads/2023/10/3.jpeg": {
+  "width": 739,
+  "height": 206
+ },
+ "/images/wp/wp-content/uploads/2023/10/4.jpeg": {
+  "width": 506,
+  "height": 230
+ },
+ "/images/wp/wp-content/uploads/2023/10/5.jpeg": {
+  "width": 795,
+  "height": 191
+ },
+ "/images/wp/wp-content/uploads/2023/10/6.jpeg": {
+  "width": 689,
+  "height": 140
+ },
+ "/images/wp/wp-content/uploads/2023/10/7.jpeg": {
+  "width": 594,
+  "height": 222
+ },
+ "/images/wp/wp-content/uploads/2023/10/8.jpeg": {
+  "width": 527,
+  "height": 55
+ },
+ "/images/wp/wp-content/uploads/2023/10/81.jpeg": {
+  "width": 559,
+  "height": 119
+ },
+ "/images/wp/wp-content/uploads/2023/10/82.jpeg": {
+  "width": 632,
+  "height": 123
+ },
+ "/images/wp/wp-content/uploads/2023/10/9.jpeg": {
+  "width": 670,
+  "height": 226
+ },
+ "/images/wp/wp-content/uploads/2023/10/916.png": {
+  "width": 1258,
+  "height": 2488
+ },
+ "/images/wp/wp-content/uploads/2023/10/devo4steps.png": {
+  "width": 1308,
+  "height": 1372
+ },
+ "/images/wp/wp-content/uploads/2023/10/intro.jpg": {
+  "width": 960,
+  "height": 540
+ },
+ "/images/wp/wp-content/uploads/2023/10/israel-last.jpg": {
+  "width": 1100,
+  "height": 616
+ },
+ "/images/wp/wp-content/uploads/2023/10/th.jpg": {
+  "width": 474,
+  "height": 321
+ },
+ "/images/wp/wp-content/uploads/2023/11/devo-8min.jpg": {
+  "width": 1600,
+  "height": 938
+ },
+ "/images/wp/wp-content/uploads/2023/11/spiritual-bipas-jpg.jpg": {
+  "width": 1000,
+  "height": 543
+ },
+ "/images/wp/wp-content/uploads/2023/12/1.png": {
+  "width": 936,
+  "height": 682
+ },
+ "/images/wp/wp-content/uploads/2023/12/pic2.png": {
+  "width": 936,
+  "height": 606
+ },
+ "/images/wp/wp-content/uploads/2023/12/pic3.png": {
+  "width": 936,
+  "height": 518
+ },
+ "/images/wp/wp-content/uploads/2023/12/pic4.png": {
+  "width": 936,
+  "height": 518
+ },
+ "/images/wp/wp-content/uploads/2023/12/pic5.png": {
+  "width": 936,
+  "height": 290
+ },
+ "/images/wp/wp-content/uploads/2023/12/pic6.png": {
+  "width": 936,
+  "height": 730
+ },
+ "/images/wp/wp-content/uploads/2023/12/pic7.png": {
+  "width": 936,
+  "height": 278
+ },
+ "/images/wp/wp-content/uploads/2023/12/youtube-file.jpg": {
+  "width": 1440,
+  "height": 810
+ },
+ "/images/wp/wp-content/uploads/2024/02/4dqsのコピー.jpg": {
+  "width": 1600,
+  "height": 832
+ },
+ "/images/wp/wp-content/uploads/2024/02/5dqs.jpg": {
+  "width": 1600,
+  "height": 1042
+ },
+ "/images/wp/wp-content/uploads/2024/02/economist-global-currency-1.jpg": {
+  "width": 1223,
+  "height": 1600
+ },
+ "/images/wp/wp-content/uploads/2024/04/nothing.jpeg": {
+  "width": 800,
+  "height": 662
+ },
+ "/images/wp/wp-content/uploads/2024/04/silver-protection1.jpg": {
+  "width": 1600,
+  "height": 837
+ },
+ "/images/wp/wp-content/uploads/2024/04/スクリーンショット-2025-01-21-午前7.44.27.png": {
+  "width": 1600,
+  "height": 953
+ },
+ "/images/wp/wp-content/uploads/2024/05/5tu.jpg": {
+  "width": 1280,
+  "height": 960
+ },
+ "/images/wp/wp-content/uploads/2024/06/alexander.jpg": {
+  "width": 1600,
+  "height": 807
+ },
+ "/images/wp/wp-content/uploads/2024/07/COG.jpg": {
+  "width": 1146,
+  "height": 748
+ },
+ "/images/wp/wp-content/uploads/2024/07/What-has-become-clear-by-examining-the-facts-of-the-attempted-assassination-of-Trump.jpg": {
+  "width": 1600,
+  "height": 1066
+ },
+ "/images/wp/wp-content/uploads/2024/07/golgo-13.jpg": {
+  "width": 1200,
+  "height": 675
+ },
+ "/images/wp/wp-content/uploads/2024/07/フスカ.png": {
+  "width": 868,
+  "height": 506
+ },
+ "/images/wp/wp-content/uploads/2024/07/弾丸通貨.jpg": {
+  "width": 1600,
+  "height": 973
+ },
+ "/images/wp/wp-content/uploads/2024/09/IMG_20240731_170600-scaled.jpg": {
+  "width": 1600,
+  "height": 800
+ },
+ "/images/wp/wp-content/uploads/2024/09/qryptraveller.jpg": {
+  "width": 1280,
+  "height": 670
+ },
+ "/images/wp/wp-content/uploads/2024/09/valenciaga.png": {
+  "width": 1052,
+  "height": 1370
+ },
+ "/images/wp/wp-content/uploads/2024/09/スクリーンショット-2024-09-25-午後10.00.22.png": {
+  "width": 1600,
+  "height": 760
+ },
+ "/images/wp/wp-content/uploads/2024/10/1.png": {
+  "width": 1238,
+  "height": 726
+ },
+ "/images/wp/wp-content/uploads/2024/10/10.png": {
+  "width": 1338,
+  "height": 602
+ },
+ "/images/wp/wp-content/uploads/2024/10/11.png": {
+  "width": 1114,
+  "height": 572
+ },
+ "/images/wp/wp-content/uploads/2024/10/12.png": {
+  "width": 1090,
+  "height": 758
+ },
+ "/images/wp/wp-content/uploads/2024/10/13.png": {
+  "width": 1396,
+  "height": 704
+ },
+ "/images/wp/wp-content/uploads/2024/10/2.png": {
+  "width": 1218,
+  "height": 658
+ },
+ "/images/wp/wp-content/uploads/2024/10/3.png": {
+  "width": 1242,
+  "height": 652
+ },
+ "/images/wp/wp-content/uploads/2024/10/4.png": {
+  "width": 1274,
+  "height": 814
+ },
+ "/images/wp/wp-content/uploads/2024/10/5.png": {
+  "width": 1416,
+  "height": 788
+ },
+ "/images/wp/wp-content/uploads/2024/10/6.png": {
+  "width": 1348,
+  "height": 714
+ },
+ "/images/wp/wp-content/uploads/2024/10/7.png": {
+  "width": 1394,
+  "height": 776
+ },
+ "/images/wp/wp-content/uploads/2024/10/8.png": {
+  "width": 1414,
+  "height": 782
+ },
+ "/images/wp/wp-content/uploads/2024/10/9.png": {
+  "width": 1410,
+  "height": 780
+ },
+ "/images/wp/wp-content/uploads/2024/10/name-Q.jpg": {
+  "width": 1366,
+  "height": 652
+ },
+ "/images/wp/wp-content/uploads/2024/10/vem-miller-doc３.jpg": {
+  "width": 1600,
+  "height": 900
+ },
+ "/images/wp/wp-content/uploads/2024/10/vem-miller-truth.jpg": {
+  "width": 1038,
+  "height": 608
+ },
+ "/images/wp/wp-content/uploads/2024/11/q-win.png": {
+  "width": 800,
+  "height": 398
+ },
+ "/images/wp/wp-content/uploads/2024/11/title.jpg": {
+  "width": 1080,
+  "height": 676
+ },
+ "/images/wp/wp-content/uploads/2024/11/スクリーンショット-2024-11-02-午後11.13.16-1.png": {
+  "width": 1068,
+  "height": 508
+ },
+ "/images/wp/wp-content/uploads/2024/11/スクリーンショット-2024-11-02-午後11.13.16.png": {
+  "width": 1068,
+  "height": 508
+ },
+ "/images/wp/wp-content/uploads/2024/11/スクリーンショット-2024-11-11-午後5.49.49.png": {
+  "width": 804,
+  "height": 400
+ },
+ "/images/wp/wp-content/uploads/2024/11/スクリーンショット-2024-11-11-午後5.51.50.png": {
+  "width": 666,
+  "height": 442
+ },
+ "/images/wp/wp-content/uploads/2024/11/スクリーンショット-2024-11-11-午後5.53.20.png": {
+  "width": 800,
+  "height": 398
+ },
+ "/images/wp/wp-content/uploads/2024/12/スクリーンショット-2024-12-26-午後4.21.44.png": {
+  "width": 1338,
+  "height": 738
+ },
+ "/images/wp/wp-content/uploads/2024/12/スクリーンショット-2024-12-26-午後4.44.39.png": {
+  "width": 1368,
+  "height": 564
+ },
+ "/images/wp/wp-content/uploads/2025/01/スクリーンショット_2025-01-24_午後9_25_40.png": {
+  "width": 1074,
+  "height": 566
+ },
+ "/images/wp/wp-content/uploads/2025/01/政府1.jpg": {
+  "width": 1024,
+  "height": 559
+ },
+ "/images/wp/wp-content/uploads/2025/02/1485482196-line_78675.png": {
+  "width": 512,
+  "height": 512
+ },
+ "/images/wp/wp-content/uploads/2025/02/Facebook_icon-icons.com_66805.png": {
+  "width": 512,
+  "height": 512
+ },
+ "/images/wp/wp-content/uploads/2025/02/copyfile_85799.png": {
+  "width": 512,
+  "height": 512
+ },
+ "/images/wp/wp-content/uploads/2025/02/telegram_icon_130816.png": {
+  "width": 512,
+  "height": 512
+ },
+ "/images/wp/wp-content/uploads/2025/02/twitter_x_new_logo_square_x_icon_256075.png": {
+  "width": 512,
+  "height": 374
+ },
+ "/images/wp/wp-content/uploads/woocommerce-placeholder.png": {
+  "width": 1200,
+  "height": 1200
+ }
+}
