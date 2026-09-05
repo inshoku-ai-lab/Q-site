@@ -49,7 +49,7 @@ He hadn't come to work for the money, apparently, but for the experience of ordi
 
 So that was where the manners came from, I thought, and why he worked as seriously as he did.
 
-The boss had been a delinquent himself and probably had ties to the yakuza, so it may have been through that channel that he was asked to keep an eye on R.
+The boss had been a yankee himself and probably had ties to the yakuza, so it may have been through that channel that he was asked to keep an eye on R.
 
 Which also explained why the boss had come to me in person and told me to look after him.
 
