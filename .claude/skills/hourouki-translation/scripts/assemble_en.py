@@ -137,7 +137,13 @@ def main():
         fm += [f"title: {y(title)}", f"slug: {y(slug)}", f'source_slug: {y(meta.get("slug",""))}',
                f'source_notion_id: {y(meta.get("notion_id",""))}', f'date: {y(date or "")}',
                'status: "draft"', "tags:"] + [f"  - {y(t)}" for t in tags]
-        fm += [f"excerpt: {y(excerpt)}", "member_paywall_after_paragraph: null", "qa:",
+        # 会員限定マーカーの前に何ブロックあるかを記録する。サイト側が無料部分を
+        # 切り出すのに使う。**本文中の callout が正**で、この値は索引にすぎない。
+        # callout の0始まり添字が、そのまま「前にあるブロック数」になる
+        # （添字 4 なら 0〜3 の4ブロックが前にある）。
+        pw = next((i for i, l in enumerate(lines) if "Members only" in l), None)
+        fm += [f"excerpt: {y(excerpt)}",
+               f"member_paywall_after_paragraph: {pw if pw is not None else 'null'}", "qa:",
                "  blind_review_rounds: 1",
                '  blind_review_protocol: "v2 mixed panel (US / UK / non-native, majority) -- single-agent path"',
                '  mechanical_qa: "pending"', "---", ""]

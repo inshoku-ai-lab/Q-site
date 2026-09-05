@@ -22,7 +22,7 @@ tags:
   - "ドラッグ体験"
   - "私小説"
 excerpt: "On the second day of the hill tribe trek, a boy in worn-out flip-flops outpaces everyone in hiking shoes, an elephant carries the group toward the next village, and a last quiet day in Chiang Mai turns into a first encounter with an unfamiliar feeling."
-member_paywall_after_paragraph: null
+member_paywall_after_paragraph: 34
 qa:
   blind_review_rounds: 1
   blind_review_protocol: "v2 mixed panel (US / UK / non-native, majority) -- single-agent path"

@@ -22,7 +22,7 @@ tags:
   - "通過儀礼"
   - "私小説"
 excerpt: "Back in Bangkok after the islands: a barber to fix the shave he botched on Koh Phangan, a temple where you can get traditional Thai massage, and a blond University of Tokyo student at the guesthouse who calls himself a strip club researcher and offers to show him Patpong."
-member_paywall_after_paragraph: null
+member_paywall_after_paragraph: 26
 qa:
   blind_review_rounds: 1
   blind_review_protocol: "v2 mixed panel (US / UK / non-native, majority) -- single-agent path"

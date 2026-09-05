@@ -22,7 +22,7 @@ tags:
   - "マジックマッシュルーム"
   - "私小説"
 excerpt: "A hunger for collecting music turns into copying borrowed CDs onto MiniDisc during shifts at a video store the rental chain is putting out of business. Then an internet rumor about mail-order magic mushroom spores leads to a plastic tub, a bag of leaf mold, and a long wait."
-member_paywall_after_paragraph: null
+member_paywall_after_paragraph: 8
 qa:
   blind_review_rounds: 1
   blind_review_protocol: "v2 mixed panel (US / UK / non-native, majority) -- single-agent path"

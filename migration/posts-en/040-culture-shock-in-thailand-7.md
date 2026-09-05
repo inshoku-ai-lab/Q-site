@@ -21,7 +21,7 @@ tags:
   - "ドラッグ体験"
   - "私小説"
 excerpt: "The Full Moon Party is finally here, and there is a cannabis cake, an ecstasy tablet from a traveler next door, and a taxi ride south across the island. Somewhere in the jungle, the cake begins to work rather differently than planned."
-member_paywall_after_paragraph: null
+member_paywall_after_paragraph: 4
 qa:
   blind_review_rounds: 1
   blind_review_protocol: "v2 mixed panel (US / UK / non-native, majority) -- single-agent path"
