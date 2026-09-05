@@ -300,6 +300,41 @@ Ep 100 の見出し `## 暴走族` は "Biker Gang"、本文はその30行後に
 **これは表記ゆれではなく意図した順序**なので、後から見出しを bōsōzoku に「直さない」。
 見出しで初めて出す語は、読者がまだ説明を読んでいないことを前提に選ぶ。
 
+## 6-6. アーク23〜25（日本へ帰国／インドへ舞い戻る／ヒマラヤの温泉村、Ep 157〜198）
+
+| 日本語 | 英語（固定） | 備考 |
+|---|---|---|
+| とび職 | **tobi work**（初出のみ "putting up scaffolding on construction sites"）→ 以降 **scaffolding work** | Ep 164 初出。このアークの主要な仕事 |
+| 足場 | scaffolding | |
+| Ｉちゃん | **I-chan** | ⚠️ 素の `I` は英語の一人称と衝突するので**この人物だけ例外的に -chan を付ける**（§2 の既定）。Ep 168 で実質初登場、以降ずっと出る |
+| プリクラ | purikura | 初出のみ "one of those little photo-booth stickers" |
+| ＯＬ | office lady | 説明なしで通じる |
+| ネギトロ丼 | negitoro-don | 初出のみ "minced fatty tuna and green onion over rice" |
+| 大富豪 | daifugō | 初出のみ "the Japanese card game known elsewhere as President" |
+| 神懸り | kamigakari | 初出のみ "possession by a god" |
+| ダウン症 | Down syndrome | 婉曲化しない |
+| デビルスティック | devil sticks | Ep 37 で説明済み。以降は説明なし |
+| ケタミン | ketamine | 婉曲化しない。原文どおり "a powerful anesthetic for horses" |
+| 金縛り | sleep paralysis | |
+| 幽体離脱 | leave one's body | |
+| 岐阜 | Gifu | |
+| 実家 | **文脈で決める** | 父が不在の家なので "my parents' house" が誤りになる箇所がある。Ep 160 は "the house where my mother lived" |
+| ゴアギル | **Goa Gil** | 実在のDJ（Gilbert Levey）。Ep 140 初出、Ep 143〜150 に頻出。**綴りを変えない** |
+| パライソ | **Paraiso** | ゴアのパーティー会場。⚠️ 実在の有名クラブ "Paradiso" に引きずられて綴りを変えない |
+| ディスコ・バレー | Disco Valley | ゴアのパーティー会場。Ep 136 初出 |
+| フルムーン・パーティー | **文脈で大小文字を分ける** | ゴアは **full moon party**（小文字・一般名詞）。タイのアーク13-14 の **the Full Moon Party** は固有の催しなので大文字。混ぜない |
+| DAT | DAT, digital audio tape | 初出のみ同格で説明 |
+| 覚醒の儀式 | the Ritual of Awakening | |
+| 地球の歩き方 | Chikyu no Arukikata | 初出のみ "the guidebook Japanese travelers carried" |
+| 年越しそば | New Year's Eve soba | Ep 148 初出時のみ説明 |
+| 浦島太郎 | Urashima Taro | 初出のみ "the fisherman from the old tale, so taken with the palace under the sea that he could not make himself leave" |
+| ジャンパー | **windbreaker** | ⚠️ "jumper" は英国英語でセーターの意になる |
+| おっちゃん | middle-aged guy | "uncle" にしない |
+| ネオナチ | neo-Nazis | |
+| ヤンキー / 元ヤン | **yankee**（複数 yankees） | ⚠️ **Ep 25 で確定済み。**初出時に "an ex-*yankee* — Japanese for the delinquent type" と説明してあるので、以降は説明なしで `yankee`。<br>**3話が別々の訳語を出してきた**（`yankī` / `delinquent` / `yankee`）ので、Ep 25 の既訳に統一した。<br>米語の "Yankee"（北部人）と紛らわしいのは事実だが、**既訳がある以上そちらが正**。個々の判断で変えない |
+| 鉄骨とび | tekkotsu-tobi | 初出のみ "steel erecting" と同格で説明 |
+| パシリ / 舎弟 | errand boy / underling | |
+
 ## 7. 円→ドル換算レート（年代別）
 
 **その時代のレートを使う。** 現在のレートで換算すると金額感が壊れる。
