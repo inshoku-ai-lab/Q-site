@@ -28,7 +28,36 @@ def main():
     ap.add_argument("--eps")
     ap.add_argument("--range", nargs=2, type=int, metavar=("LO", "HI"))
     ap.add_argument("--label", required=True)
+    ap.add_argument("--backfill", action="store_true",
+                    help="逆翻訳がレポートに載っていない話だけを拾って追記する。"
+                         "組み立て時点でエージェントがまだ逆翻訳を書き終えていなかった話が出るため")
     a = ap.parse_args()
+
+    if a.backfill:
+        # 著者が意味を検証できる唯一の材料が逆翻訳なので、取りこぼしを残さない
+        rep = open(REPORT, encoding="utf-8").read()
+        idx = {r["ep"]: r for r in json.load(open(INDEX, encoding="utf-8"))}
+        rows = []
+        for p in sorted(glob.glob(os.path.join(POSTS_EN, "*.md"))):
+            ep = int(os.path.basename(p)[:3])
+            bt = os.path.join(BT, f"backtrans-{ep:03d}.md")
+            if re.search(rf"^## Ep {ep} —", rep, re.M):
+                continue
+            if os.path.exists(bt) and open(bt, encoding="utf-8").read().strip():
+                rows.append((ep, idx.get(ep, {}).get("title", ""),
+                             open(bt, encoding="utf-8").read().strip()))
+        if not rows:
+            print("補填すべき逆翻訳は無い")
+            return
+        out = [f"\n\n---\n\n# {a.label}（逆翻訳の補填）\n",
+               "組み立て時点で逆翻訳が未生成だった話を、後から追記したものです。",
+               "読み方は他の節と同じです。\n"]
+        for ep, ja, bt in rows:
+            out += [f"\n---\n\n## Ep {ep} — {ja}\n",
+                    "英訳からの逆翻訳（原文を見ずに訳し戻したもの）:\n", bt, ""]
+        open(REPORT, "a", encoding="utf-8").write("\n".join(out) + "\n")
+        print(f"{len(rows)}本の逆翻訳を補填した: {[e for e,_,_ in rows]}")
+        return
 
     if a.eps:
         eps = [int(x) for x in a.eps.split(",") if x.strip()]
