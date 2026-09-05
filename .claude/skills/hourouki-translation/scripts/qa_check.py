@@ -173,9 +173,18 @@ def check(path, source_path):
     # 画像の URL には日本語のファイル名が入っている（例 旅行記004-1.jpg）。
     # これは訳し残しではないので、URL を除いてから地の文だけを見る。
     prose = re.sub(r"\]\([^)]*\)", "]()", body)
-    if re.search(r"[぀-ヿ一-鿿]", prose):
-        stray = re.findall(r"[぀-ヿ一-鿿]+", prose)
-        problems.append(("ERROR", f"日本語が残っている: {' '.join(stray[:5])}"))
+    stray = re.findall(r"[぀-ヿ一-鿿]+", prose)
+    # 1〜2文字の連なりは「その文字自体を話題にしている」引用であることが多い。
+    # Ep 67 は包装の「糖」の字を見分ける場面で、字を消すと場面が成立しない
+    # （英語には "the character 糖 — sugar" と註が付いている）。
+    # 訳し残しの地の文は必ずもっと長くなるので、3文字以上をERRORとする。
+    long_runs = [s for s in stray if len(s) >= 3]
+    short_runs = [s for s in stray if len(s) < 3]
+    if long_runs:
+        problems.append(("ERROR", f"日本語が残っている: {' '.join(long_runs[:5])}"))
+    if short_runs:
+        problems.append(("WARN", f"日本語の文字が地の文にある（字そのものを論じているなら可）: "
+                                 f"{' '.join(short_runs[:5])}"))
 
     # 画像は英語版サイトの方針が2点ある（著者が決定済み）。
     #   1. URL はリポジトリ内の /images/wp/... を使う（WordPress停止でも壊れないため）

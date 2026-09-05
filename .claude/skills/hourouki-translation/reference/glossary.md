@@ -202,6 +202,43 @@
 > ⚠️ Ep 47・48 の **Ｇさん**（兄の元バンドメンバー）は、§2 の **Ｇくん** とは別人の可能性が高い。
 > 原文がイニシャルを使い回しているため。**同一人物として統合しない。**
 
+## 6-4. アーク14〜16（西成後半・中国・チベット）で確定した語
+
+| 日本語 | 英語（固定） | 備考 |
+|---|---|---|
+| フリーター | **freeter** | ⚠️ Ep 25 で初出時に "a young guy living on part-time work" と説明済み。<br>**以降は説明なしで freeter。**「someone living on part-time work」に置き換えない |
+| 関西 | Kansai | 説明なし |
+| 天王寺 | Tennoji | 初出のみ "in Osaka" |
+| 粗大ゴミ | bulk trash | "oversized trash" にしない |
+| 漢字 | kanji | 初出のみ軽く説明 |
+| 保証金 | security deposit | |
+| トラベラーズチェック | traveler's checks | 米国綴り |
+| 新鑑真号 | the Shin Ganjin | 神戸・大阪＝上海のフェリー |
+| 神戸港 | the Port of Kobe | |
+| 上海 / 西安 / 西寧 / 北京 | Shanghai / Xi'an / Xining / Beijing | |
+| ゴルムド市 | Golmud | |
+| タングラ峠 | Tanggula Pass | |
+| ラサ | Lhasa | |
+| チベット | Tibet | |
+| 富士山 | Mount Fuji | |
+| 硬座 / 軟座 | hard seat / soft seat | 中国鉄道の等級 |
+| 硬臥 | hard sleeper | 同上 |
+| 四畳半 | four and a half tatami mats | 併記で "about seven square meters (eighty square feet)" |
+| 牛丼 | gyudon | 初出のみ "beef over rice" |
+| 担々麺 | dan dan noodles | |
+| 烏龍茶 | oolong tea | |
+| カラムーチョ | Karamucho | 初出のみ "the chili-flavored potato snack" |
+| ユニクロ | Uniqlo | |
+| 筆談 | getting by in writing | |
+| 自主制作レーベル | indie label | |
+| 四つ打ち | four-on-the-floor | |
+| アイコラ | aikora | 初出のみ "idol collage nudes"。婉曲化しない |
+| 三日ぼうず | the sort who quits after three days | 直訳せず機能で訳す |
+| 旅は道連れ世は情け | a journey needs company and life needs kindness | 同上 |
+
+**作品名・実在の固有名詞**は英語圏の既存表記に合わせる（映画・楽曲・製品・企業名など）。
+邦題独自のものは初出で一言添える（例: La Haine の邦題『憎しみ』）。
+
 ## 7. 円→ドル換算レート（年代別）
 
 **その時代のレートを使う。** 現在のレートで換算すると金額感が壊れる。
