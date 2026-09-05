@@ -69,7 +69,7 @@ The way I saw it, this was a risk that had to be taken to live the way I truly w
 
 In fact — and I did not understand this at the time — the risk was far greater than I thought, and once caught, I would be spending several years in an Indian prison.
 
-But at the same time, I knew exactly how corrupt Indian police officers were, and even if I were caught, handing everything I owned and every bit of money I had over to the officer would be enough to make him look the other way.
+But at the same time, I knew exactly how corrupt Indian police officers were, and even if I were caught, handing over everything I owned and every last bit of my money would be enough to make the officer look the other way.
 
 In my head, I was not staking my freedom to win a greater freedom; I was staking my possessions and my money to win it.
 
