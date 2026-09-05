@@ -98,8 +98,23 @@ def is_nav_line(line):
     return False
 
 
+NAV_START = re.compile(r"^\\?\[\s*(前|次)の記事")
+
+
 def strip_nav(body):
-    return "\n".join(l for l in body.split("\n") if not is_nav_line(l))
+    """末尾ナビを落とす。
+
+    Ep 71以降のNotionはナビをURLの途中で改行して**非空行3行**で持っており、
+    1行目はリンクが閉じていないので1行ずつの判定では落とせない。
+    ナビは必ず記事末尾にあるので、行頭がナビリンクの最初の行から末尾までを
+    先に切る。「次の記事」に言及するだけの地の文は行頭がリンクではないため残る。
+    """
+    lines = body.split("\n")
+    for i, l in enumerate(lines):
+        if NAV_START.match(l.strip()):
+            lines = lines[:i]
+            break
+    return "\n".join(l for l in lines if not is_nav_line(l))
 
 
 def paragraphs(body):

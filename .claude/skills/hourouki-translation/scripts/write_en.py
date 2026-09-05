@@ -35,15 +35,30 @@ def local_url(url):
     return u if u.startswith("/images/") else url
 
 
-def is_nav_only(line):
-    """ナビ行だけを落とす。「次の記事」を含むだけの地の文は落とさない。
-    この区別を誤ると本文が消える。"""
-    texts = LINK.findall(line)
-    if not texts:
-        return False
-    if re.sub(r"[｜|\s　・\-–—]", "", LINK.sub("", line)):
-        return False
-    return all(re.match(r"^(前|次)の記事", t.strip()) for t in texts)
+NAV_START = re.compile(r"^\\?\[\s*(前|次)の記事")
+
+
+def strip_trailing_nav(lines):
+    """末尾の前後記事ナビを落とす。
+
+    Notionでの持ち方が2通りある。Ep 70以前は1行だが、**Ep 71以降は
+    角括弧がエスケープされURLの途中で改行が入り、非空行3行に分かれる**：
+
+        \\[前の記事０７０\\](https://.../070/
+        )　｜　\\[次の記事０７２\\](https://.../072/
+        )
+
+    1行前提で判定すると3行とも本文として扱われ、行数がずれるうえ
+    ナビが英訳に混入する。ナビは必ず記事の最後にあるので、
+    「行頭が前／次の記事リンク」の最初の行から末尾までを切る。
+
+    地の文が「次の記事」に言及するだけの行（Ep 4 に実在する）は
+    行頭がリンクではないので切られない。全79本で検証済み。
+    """
+    for i, l in enumerate(lines):
+        if NAV_START.match(l.strip()):
+            return lines[:i]
+    return lines
 
 
 def export_meta(slug):
@@ -104,8 +119,8 @@ def main():
         sp = os.path.join(JA_SRC, f"ep-{ep:03d}.md")
         note = ""
         if os.path.exists(sp):
-            src = [l for l in open(sp, encoding="utf-8").read().split("\n")
-                   if l.strip() and not is_nav_only(l)]
+            src = strip_trailing_nav(
+                [l for l in open(sp, encoding="utf-8").read().split("\n") if l.strip()])
             have = {IMG.match(l).group(2) for l in lines if IMG.match(l)}
             restored = 0
             for i, l in enumerate(src):
