@@ -56,7 +56,7 @@ The India I finally walked into, keyed up as I was, turned out to be not much di
 
 Darjeeling means tea, shipped out from there to the whole world, but to Indians it is a famous hill station, somewhere to get out of the heat, with plenty of sights to see.
 
-![](/images/wp/wp-content/uploads/2021/11/Blog86-1.jpg)
+![A close-up of young green tea leaves and upright new shoots filling the frame](/images/wp/wp-content/uploads/2021/11/Blog86-1.jpg)
 
 That only holds in the hot season, though; Darjeeling in the rains had no life in it at all, emptied of tourists, travelers and migrant workers alike.
 
@@ -106,7 +106,7 @@ In practice my travels ran on that guidebook, but in principle I meant to travel
 
 I wanted to be a traveler, not a tourist.
 
-![](/images/wp/wp-content/uploads/2021/11/Blog86-2.jpg)
+![A yellow and white camper van driving away along a road between towering red rock formations](/images/wp/wp-content/uploads/2021/11/Blog86-2.jpg)
 
 For the same reason, I refused to take a camera.
 

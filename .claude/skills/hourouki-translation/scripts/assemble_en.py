@@ -26,6 +26,8 @@ from write_en import (IMG, local_url, strip_trailing_nav, looks_like_failure,
 
 AGENT_OUT = "/tmp/claude-0/-home-user-Q-site/be7f11fc-3367-5f2b-82d5-fe91af67177b/scratchpad/agent-out"
 ARC_MAP = "/home/user/Q-site/.claude/skills/hourouki-translation/reference/arc-map.md"
+ALT_JSON = "/home/user/Q-site/migration/reports/image-alt.json"
+ALT = json.load(open(ALT_JSON, encoding="utf-8")) if os.path.exists(ALT_JSON) else {}
 
 
 def load_arcs():
@@ -94,6 +96,22 @@ def main():
         lines = [l for l in body.split("\n") if l.strip()]
         lines = [(lambda m: f"![{m.group(1)}]({local_url(m.group(2))})")(IMG.match(l))
                  if IMG.match(l) else l for l in lines]
+
+        # 代替テキストは翻訳エージェントには書かせない（画像を見ていないので捏造する）。
+        # 画像を実際に開く専用のエージェントが image-alt.json を埋め、ここで機械的に流し込む。
+        # 組み立てのたびに引き直すので、posts-en を手で直す必要がない。
+        def fill_alt(l):
+            m = IMG.match(l)
+            if not m or m.group(1).strip():
+                return l
+            alt = ALT.get(m.group(2).rsplit("/", 1)[-1])
+            return f"![{alt}]({m.group(2)})" if alt else l
+
+        before_alt = sum(1 for l in lines if IMG.match(l) and not IMG.match(l).group(1).strip())
+        lines = [fill_alt(l) for l in lines]
+        after_alt = sum(1 for l in lines if IMG.match(l) and not IMG.match(l).group(1).strip())
+        if before_alt - after_alt:
+            problems.append(f"Ep {ep}: 代替テキストを{before_alt - after_alt}件補った")
 
         sp = os.path.join(JA_SRC, f"ep-{ep:03d}.md")
         if os.path.exists(sp):

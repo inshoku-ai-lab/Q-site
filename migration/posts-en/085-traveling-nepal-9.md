@@ -51,7 +51,7 @@ Coming to this town was where I said goodbye to the friends I had traveled with 
 
 There must have been a moving farewell, but none of it stayed with me.
 
-![](/images/wp/wp-content/uploads/2021/11/Blog85-1.jpg)
+![A green ceramic frog figurine carrying a small suitcase, seen from behind on pale sand](/images/wp/wp-content/uploads/2021/11/Blog85-1.jpg)
 
 People are coldhearted.
 
@@ -95,7 +95,7 @@ Starting my first step into India from Darjeeling was, I think, the right call.
 
 These are mountain people, and the temperament matches — mild, settled.
 
-![](/images/wp/wp-content/uploads/2021/11/Blog85-2.jpg)
+![Tightly packed houses with blue and orange roofs covering a hillside, mist and heavy clouds above them](/images/wp/wp-content/uploads/2021/11/Blog85-2.jpg)
 
 None of the this-and-that I'd pictured as uniquely Indian before coming ever happened, and I entered India as if Nepal had simply continued.
 

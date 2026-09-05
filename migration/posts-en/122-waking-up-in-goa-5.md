@@ -126,7 +126,7 @@ That was good enough for me, so I rolled it into a fresh piece of plastic and sa
 
 It's a filthy, crude story, but to me at the time a tablet of ecstasy worth ten days of rent was valuable enough to dig out of my own shit.
 
-![](/images/wp/wp-content/uploads/2022/02/toilet.jpeg)
+![A young man in a black jacket gripping the rim of a filthy toilet in a stained stall, mouth open](/images/wp/wp-content/uploads/2022/02/toilet.jpeg)
 
 ## A Party on Ecstasy
 

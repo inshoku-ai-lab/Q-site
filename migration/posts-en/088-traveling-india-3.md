@@ -66,7 +66,7 @@ That filth was in the floodwater too.
 
 The waste of stray dogs and cats had to be in it, and so did the water from a big city's sewers.
 
-![](/images/wp/wp-content/uploads/2021/11/Blog88-1.jpg)
+![A red park bench half submerged in muddy floodwater, branches caught in the current behind it](/images/wp/wp-content/uploads/2021/11/Blog88-1.jpg)
 
 The thought of what that water might be carrying terrified us.
 
@@ -104,7 +104,7 @@ They were the sort of people who end up in Calcutta, so of course they were all 
 
 The room was full of smiles and noise.
 
-![](/images/wp/wp-content/uploads/2021/11/Blog88-2.jpg)
+![A green storefront lettered CENTRAL FEED AND SEED CO, with a motorcycle and bicycle parked outside](/images/wp/wp-content/uploads/2021/11/Blog88-2.jpg)
 
 My favorite thing on their menu was the chocolate lassi.
 

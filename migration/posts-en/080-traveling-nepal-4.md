@@ -47,7 +47,7 @@ I had half expected it, and sure enough, motion sickness got me.
 
 The road threw one curve after another, left then right without letup, and about a third of the bus sat hunched forward with a miserable look on their faces.
 
-![](/images/wp/wp-content/uploads/2021/11/Blog80-1.jpg)
+![A mountain road switchbacking down a forested valley in tight hairpin turns, seen from above](/images/wp/wp-content/uploads/2021/11/Blog80-1.jpg)
 
 Once we reached Pokhara, we found a place to stay in Damside.
 
@@ -79,7 +79,7 @@ Anil Momo was about a three-minute walk from our hotel, so we went every single 
 
 The taste of soy sauce, the first in the month and a half since leaving Japan, hit me hard, and confirmed just how Japanese I was.
 
-![](/images/wp/wp-content/uploads/2021/11/Blog80-2.jpg)
+![A jar of wooden chopsticks bound with rope on a wooden table between two red-capped sauce bottles](/images/wp/wp-content/uploads/2021/11/Blog80-2.jpg)
 
 It was not only the taste of home that drew me in; the Japanese manga sitting around the place kept me from leaving too.
 

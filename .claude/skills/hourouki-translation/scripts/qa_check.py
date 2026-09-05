@@ -102,19 +102,32 @@ NAV_START = re.compile(r"^\\?\[\s*(前|次)の記事")
 
 
 def strip_nav(body):
-    """末尾ナビを落とす。
+    """ナビ行を落とす。**位置は末尾とは限らない。**
 
-    Ep 71以降のNotionはナビをURLの途中で改行して**非空行3行**で持っており、
+    Ep 71以降のNotionはナビをURLの途中で改行して複数行で持っており、
     1行目はリンクが閉じていないので1行ずつの判定では落とせない。
-    ナビは必ず記事末尾にあるので、行頭がナビリンクの最初の行から末尾までを
-    先に切る。「次の記事」に言及するだけの地の文は行頭がリンクではないため残る。
+
+    ⚠️ 以前は「最初のナビ行から末尾まで切る」で処理していたが、
+    **Ep 155 と Ep 182 は記事の途中（callout の直後）にもナビ行を持つ。**
+    その実装だと照合元の原文が丸ごと消える。Ep 155 は35字まで削れ、
+    会員限定マーカーの位置が「原文33% / 英訳0%」とERROR判定された
+    （英訳は正しかった。壊れていたのはこの関数の方）。
+
+    そこで、ナビ行はどこにあっても、そこだけを落とす。
+    「次の記事」に言及するだけの地の文は行頭がリンクではないため残る。
     """
-    lines = body.split("\n")
-    for i, l in enumerate(lines):
-        if NAV_START.match(l.strip()):
-            lines = lines[:i]
-            break
-    return "\n".join(l for l in lines if not is_nav_line(l))
+    lines, out, i = body.split("\n"), [], 0
+    while i < len(lines):
+        if NAV_START.match(lines[i].strip()):
+            # リンクが閉じるまで（最大3行）を1組のナビとして捨てる
+            j = i
+            while j < len(lines) and j - i < 3 and not lines[j].rstrip().endswith(")"):
+                j += 1
+            i = j + 1
+            continue
+        out.append(lines[i])
+        i += 1
+    return "\n".join(l for l in out if not is_nav_line(l))
 
 
 def paragraphs(body):

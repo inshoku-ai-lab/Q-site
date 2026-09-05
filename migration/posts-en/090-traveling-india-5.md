@@ -52,7 +52,7 @@ That was the level Satoshi worked at.
 
 He turned out to be a resident of Sudder Street itself, running an incense stall down at the end of the road.
 
-![](/images/wp/wp-content/uploads/2021/11/Blog90-1.jpg)
+![Incense sticks burning beside two brass vessels on a wooden surface, smoke curling up into a dark background](/images/wp/wp-content/uploads/2021/11/Blog90-1.jpg)
 
 He had picked up the language as a boy, he said, from staying glued to a traveler from Kansai who was there for the long haul.
 
@@ -78,7 +78,7 @@ Having come this far and lived through a flood in the slums, I was in a frame of
 
 The fear I had carried about India was fear of the unknown, and now that I knew Calcutta's thickest parts, there was nothing left to be afraid of.
 
-![](/images/wp/wp-content/uploads/2021/11/Blog90-2.jpg)
+![The side of a dark railway carriage with rows of windows and the words NACHT EXPRESS painted below them](/images/wp/wp-content/uploads/2021/11/Blog90-2.jpg)
 
 Ready in my head and giddy with the excitement of moving again, I went straight from there to the railway station and booked a sleeper ticket to Varanasi.
 

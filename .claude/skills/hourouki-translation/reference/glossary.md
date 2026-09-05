@@ -82,7 +82,11 @@
 | マナリ (73) | Manali | ヒマラヤの町 |
 | ラダック | Ladakh | "Ladakh, the Tibetan highlands of northern India" |
 | デリー (51) | Delhi | |
-| カルカッタ (33) | Calcutta | 当時の呼称。Kolkata に直さない |
+| カルカッタ / **コルカタ** (33) | Calcutta | 当時の呼称。Kolkata に直さない。<br>⚠️ **原文は両方の表記を使う**（Ep 157 は「コルカタ」）。同じ都市なので英語は Calcutta で統一する。<br>この行が「カルカッタ」でしかキーされていなかったため、Ep 157 の担当者が危うく Kolkata と訳しかけた |
+| ボンベイ | Bombay | 同上。1999年の呼称。Mumbai に直さない |
+| 関空 / 関西国際空港 | Kansai International Airport（初出）→ **Kansai Airport** | Ep 18 で正式名、Ep 35 以降は短縮形。この順を崩さない |
+| カオサン / カオサンストリート | Khao San Road | 原文の「ストリート」に引かれて Khao San Street としない（Ep 35・42・45 が Road） |
+| パラゴン・ゲストハウス | the Paragon Guest House | カルカッタ。Ep 86・87 初出、Ep 158 で再訪 |
 | プーナ | Pune | 原文「プーナ」は旧称 Poona。英語は Pune |
 | 西成 | Nishinari | "Nishinari, Osaka's skid row" |
 | ドヤ街 | doya district | "a doya district — blocks of flophouses for day laborers" |

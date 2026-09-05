@@ -49,7 +49,7 @@ Even so, it had none of the poverty or filth of Varanasi, and what came through 
 
 The guidebook said you could live relatively cheaply at Calangute Beach, so that was where I headed.
 
-![](/images/wp/wp-content/uploads/2021/11/Blog98-1.jpg)
+![A group of women in saris standing at the water's edge on a beach, looking out at the breaking waves](/images/wp/wp-content/uploads/2021/11/Blog98-1.jpg)
 
 A few minutes' walk from the beach I found a cheap room, about 150 yen a night, something like a dollar twenty.
 
@@ -77,7 +77,7 @@ Compared with other Indian towns, the place looked freer in all sorts of ways.
 
 For my first meal cooked by my own hand, I decided on fish.
 
-![](/images/wp/wp-content/uploads/2021/11/Blog98-2.jpg)
+![A whole fish in a wire grilling basket with a sprig of rosemary, tomatoes and courgette slices alongside](/images/wp/wp-content/uploads/2021/11/Blog98-2.jpg)
 
 The first fish since day one of the journey, three and a half months back.
 

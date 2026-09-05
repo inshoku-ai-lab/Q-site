@@ -37,7 +37,7 @@ At this rate, the whole thing looks like it will run to about three thousand epi
 
 It could easily take longer than that.
 
-![](/images/wp/wp-content/uploads/2021/11/Blog100-1.jpg)
+![A person seen from behind walking away along a dirt path through a green forest of tall, slender trees](/images/wp/wp-content/uploads/2021/11/Blog100-1.jpg)
 
 For the next ten years or so, writing looks like it will be part of my life.
 

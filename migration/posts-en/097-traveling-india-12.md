@@ -45,7 +45,7 @@ I told him I had come from Japan and stopped in Pune on the way to Goa, but that
 
 At that, he generously offered: "There's a spare space at my clinic, so you can stay a few days if you like."
 
-![](/images/wp/wp-content/uploads/2021/11/Blog97-1.jpg)
+![Tall white apartment towers photographed from below against a pale sky, balconies stacked in rows](/images/wp/wp-content/uploads/2021/11/Blog97-1.jpg)
 
 In a city this expensive, a free place to sleep was an enormous help.
 
@@ -67,7 +67,7 @@ Patients were coming to the clinic the next afternoon, so I would have to clear 
 
 For dinner, he cooked me Chinese food from scratch.
 
-![](/images/wp/wp-content/uploads/2021/11/Blog97-2.jpg)
+![A white bowl of cooked prawns tossed with chilli and topped with fresh coriander leaves, on a bamboo mat](/images/wp/wp-content/uploads/2021/11/Blog97-2.jpg)
 
 Pune is a city, he said, so there are shops selling imported goods where you can buy some Chinese ingredients.
 

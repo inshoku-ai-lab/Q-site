@@ -39,7 +39,7 @@ Maybe it was the particular area I was staying in, but the number of laborers an
 
 Around there, living on the street was nothing unusual; adults and children slept out on it with nothing but the clothes they had on.
 
-![](/images/wp/wp-content/uploads/2021/11/Blog87-1.jpg)
+![Two children with dirt-smudged faces standing close together outdoors, scattered rubbish piled behind them](/images/wp/wp-content/uploads/2021/11/Blog87-1.jpg)
 
 There were also a lot of drivers of the hand-pulled carts called rickshaws, and they lived in them, the passenger seat for a bed.
 
@@ -77,7 +77,7 @@ The volunteers who came to Mother Teresa all stayed at the Maria Guest House.
 
 They lived day to day in cheap rooms and threw themselves into serving the world.
 
-![](/images/wp/wp-content/uploads/2021/11/Blog87-2.jpg)
+![A stone building topped by a green glass tower with a cross, a banner showing a veiled woman below](/images/wp/wp-content/uploads/2021/11/Blog87-2.jpg)
 
 Maybe because of that, guesthouses had sprung up in a dense cluster around the Maria Guest House, and this cheap-lodging district, called Sudder Street, had become the gathering place for foreign travelers entering the country through Calcutta.
 

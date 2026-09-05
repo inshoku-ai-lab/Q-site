@@ -66,7 +66,7 @@ One day, out walking along the Ganges, I came upon a place where they were burni
 
 The smell was strong enough that you would not want to be standing downwind.
 
-![](/images/wp/wp-content/uploads/2021/11/Blog95-1.jpg)
+![Several fires burning on the stone steps of a crowded riverbank below old buildings, wooden boats moored at the water](/images/wp/wp-content/uploads/2021/11/Blog95-1.jpg)
 
 On the cremation platform, the stacked firewood was sending up a tall flame.
 
@@ -110,7 +110,7 @@ Well, this is India, this is how it goes, I told myself, and settled in to wait.
 
 But I waited and waited and the train did not come.
 
-![](/images/wp/wp-content/uploads/2021/11/Blog95-2.jpg)
+![A person sitting alone on a platform bench between two trains under the arched roof of a railway station](/images/wp/wp-content/uploads/2021/11/Blog95-2.jpg)
 
 I went to the travel information office a few times to ask, and got nothing but "not yet."
 

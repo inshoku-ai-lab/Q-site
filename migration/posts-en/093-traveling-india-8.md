@@ -49,7 +49,7 @@ Five or so older guys pushing hard — where are you going, I'll make it cheap.
 
 None of them actually grabbed my arm, but at that rate I could easily have been abducted.
 
-![](/images/wp/wp-content/uploads/2021/11/Blog93-1.jpg)
+![A green and yellow auto-rickshaw parked at a kerb with a passenger's bare legs stretched out of the side](/images/wp/wp-content/uploads/2021/11/Blog93-1.jpg)
 
 Getting into one of those taxis looked likely to end badly, so I decided to go on my own feet.
 
@@ -85,7 +85,7 @@ The thinking in Indian culture is that the existence of beggars is what lets you
 
 So they never thank you for the money or the food; the arrangement is that the giver is the one who ought to be grateful.
 
-![](/images/wp/wp-content/uploads/2021/11/Blog93-2.jpg)
+![A person sitting with bandaged feet and cupped hands beside a cardboard sign reading ONCE I WAS LIKE YOU](/images/wp/wp-content/uploads/2021/11/Blog93-2.jpg)
 
 Most of them are born into the beggar caste — a rank within the hereditary status system — and as long as they stay Hindu, apparently, there is no getting out of it.
 

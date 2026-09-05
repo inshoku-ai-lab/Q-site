@@ -73,7 +73,7 @@ On top of that, the ashes from burned bodies go into the water, and the bodies o
 
 The locals wash their bodies in that water, and their clothes.
 
-![](/images/wp/wp-content/uploads/2021/11/Blog94-1.jpg)
+![People in bright clothing washing at the water's edge on wide stone river steps, with buffalo standing behind them](/images/wp/wp-content/uploads/2021/11/Blog94-1.jpg)
 
 Worries like that made me afraid to bathe.
 
@@ -91,7 +91,7 @@ Once I cleared the hygiene worries out of my head, being in the river felt purel
 
 I had been swimming an easy stroke for all of a moment when, by pure accident, a boat passing right beside me caught me on the head with its oar!
 
-![](/images/wp/wp-content/uploads/2021/11/Blog94-2.jpg)
+![Two rowing boats carrying several people silhouetted on a wide river at sunset, the sun low over the far bank](/images/wp/wp-content/uploads/2021/11/Blog94-2.jpg)
 
 The blow was not hard, but I was mid-stroke, and it threw me off balance.
 

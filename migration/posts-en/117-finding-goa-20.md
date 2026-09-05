@@ -99,7 +99,7 @@ The one we got hold of that time went by the name Guevara.
 
 The paper carried a portrait of Che Guevara, the man who led the Cuban Revolution.
 
-![](/images/wp/wp-content/uploads/2022/02/guevara.jpeg)
+![A painted portrait of Che Guevara in a black beret with a star, set against a red background](/images/wp/wp-content/uploads/2022/02/guevara.jpeg)
 
 Many years later I realized that the picture had carried a meaning that mattered, but at the time I gave it no thought at all.
 

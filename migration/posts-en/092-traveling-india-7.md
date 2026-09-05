@@ -56,7 +56,7 @@ Climbing down from the top bunk and coming back from the toilet, I was stopped b
 
 "We have snacks. Why don't you eat with us?"
 
-![](/images/wp/wp-content/uploads/2021/11/Blog92-1.jpg)
+![A heap of orange spiral-shaped fried sweets glazed with syrup piled on a dark tray](/images/wp/wp-content/uploads/2021/11/Blog92-1.jpg)
 
 They wanted a bit of contact with the odd-looking Asian, apparently.
 
@@ -96,7 +96,7 @@ Are your parents well?
 
 Aren't you lonely, so far from home?
 
-![](/images/wp/wp-content/uploads/2021/11/Blog92-2.jpg)
+![A man in a hooded jacket facing the camera as a train rushes past behind him in a blur](/images/wp/wp-content/uploads/2021/11/Blog92-2.jpg)
 
 They were basic questions in simple English, so even I could follow them, but "Why aren't you married?" and "Aren't you lonely, so far from home?" were beyond what my English could answer.
 

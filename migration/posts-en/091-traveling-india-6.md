@@ -54,7 +54,7 @@ Which meant I was a target for thieves, and I understood perfectly well that if 
 
 I carried the right amount of tension, but the fear was behind me, and the thought of throwing myself into the sea of chaos spread out in front of me had me excited.
 
-![](/images/wp/wp-content/uploads/2021/11/Blog91-1.jpg)
+![A child leaning out of the window of a green railway carriage, people standing on the platform beyond](/images/wp/wp-content/uploads/2021/11/Blog91-1.jpg)
 
 Luckily my backpack was on the small side and I carried little, so keeping it on my shoulder all day was no weight worth minding.
 
@@ -116,7 +116,7 @@ What on earth is going on — I shot upright, and a boy selling chai asked me, "
 
 India, of course: privacy, holding back, consideration for others, none of that fine-grained courtesy carried any weight here.
 
-![](/images/wp/wp-content/uploads/2021/11/Blog91-2.jpg)
+![Two cups of milky tea on a woven straw mat, the nearer one a blue and white patterned mug](/images/wp/wp-content/uploads/2021/11/Blog91-2.jpg)
 
 The boy wanted to sell chai, so he woke me up.
 

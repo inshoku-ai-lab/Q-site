@@ -52,7 +52,7 @@ Unable to win at Daifugō no matter what he tried, he grew frustrated and challe
 
 He was twenty-nine, a muscle-packed industry guy, a former banchō with all kinds of life behind him; I was a brat with no experience of the world at all, a skinny, formerly bullied movie geek — I think that gap made it sting that much more.
 
-![](/images/wp/wp-content/uploads/2021/11/Blog99-1.jpg)
+![A hand holding four aces fanned out against a black background, poker chips and a red die behind](/images/wp/wp-content/uploads/2021/11/Blog99-1.jpg)
 
 We kept playing for fun, with very small sums riding on the games, but Y hated losing and kept coming back at me, and it came out looking like I was fleecing him — in the end he covered two weeks of my rent.
 
@@ -100,7 +100,7 @@ A little rude to say, a little worrying, and just a little funny: T, the friend 
 
 You could see the love between K and her husband, but between T and her Indian man there was no deep love and no trust, and that was visible even to me, who had never been in a relationship.
 
-![](/images/wp/wp-content/uploads/2021/11/Blog99-2.jpg)
+![Several people sitting and talking in a bright room, felt-tip pens and paper on the table in front](/images/wp/wp-content/uploads/2021/11/Blog99-2.jpg)
 
 Both Y and I were thinking (oh, this one's no good), but with things already as far along as marriage, there was no butting in.
 

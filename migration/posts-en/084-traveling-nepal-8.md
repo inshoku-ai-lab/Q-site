@@ -65,7 +65,7 @@ I did not know it at the time, but what I came to understand by staying on the r
 
 Part of it is that as foreign travelers in an unfamiliar country, with no idea how anything works, you have to help each other; part of it, probably, is that your shared unease pulls you toward each other.
 
-![](/images/wp/wp-content/uploads/2021/11/Blog84-1.jpg)
+![Four children sitting side by side on a rock, seen from behind, looking across water toward cliffs](/images/wp/wp-content/uploads/2021/11/Blog84-1.jpg)
 
 And naturally enough, travelers are a breed you never meet in your own country, which makes them feel like your own kind.
 
@@ -101,7 +101,7 @@ For better or worse, I think I had stopped holding myself back about a lot of th
 
 In the roller-coaster swing of life on the road the feeling grew on its own, and I decided to ride the momentum and tell her.
 
-![](/images/wp/wp-content/uploads/2021/11/Blog84-2.jpg)
+![Two old envelopes with blue postage stamps and handwriting lying on a wooden desk beside a pen](/images/wp/wp-content/uploads/2021/11/Blog84-2.jpg)
 
 Telling a woman I was in love with her was something I had never done, and never thought myself capable of.
 

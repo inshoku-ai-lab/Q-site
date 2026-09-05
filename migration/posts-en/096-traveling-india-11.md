@@ -53,7 +53,7 @@ With no other option, I paid several times what a room in Varanasi cost and stay
 
 Thinking that unless I found a cheap room I couldn't stay long in this city, I headed for a place that taught yoga.
 
-![](/images/wp/wp-content/uploads/2021/11/Blog96-1.jpg)
+![A woman on a purple yoga mat in a sports bra and leggings, holding one foot behind her back](/images/wp/wp-content/uploads/2021/11/Blog96-1.jpg)
 
 It turned out to be an ashram — a place set up for spiritual practice — founded by a man called Osho, and apparently they taught yoga and ran all sorts of workshops there.
 
@@ -105,7 +105,7 @@ One workshop cost about as much as two weeks of living in Varanasi.
 
 Instead I joined a free workshop where you meditated while dancing to music.
 
-![](/images/wp/wp-content/uploads/2021/11/Blog96-2.jpg)
+![Close-up of several pairs of hands pressed together in prayer, the people behind them blurred and dressed in brown](/images/wp/wp-content/uploads/2021/11/Blog96-2.jpg)
 
 In a hall like a small gymnasium, about ten of us sat in a circle, and the workshop began there, eyes closed.
 

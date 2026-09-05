@@ -52,7 +52,7 @@ An Indian visa is good for six months, and when it runs out you have to leave th
 
 He had flown in from Bangkok, Thailand, and for the whole six months until the visa expired he stayed on in Calcutta, apart from one or two other Indian cities he went to see.
 
-![](/images/wp/wp-content/uploads/2021/11/Blog89-1.jpg)
+![Two dark red passports on a yellow surface with a wooden-handled rubber stamp resting across them](/images/wp/wp-content/uploads/2021/11/Blog89-1.jpg)
 
 After it expired he flew back to Bangkok, got a second Indian visa, returned to Calcutta, and had been sinking there for three months since.
 
@@ -70,7 +70,7 @@ His way of expressing that was to soak himself in the neighborhood and build fri
 
 He had several things going, apparently, and one of them was running a shaved-ice stand on the street.
 
-![](/images/wp/wp-content/uploads/2021/11/Blog89-2.jpg)
+![A clear plastic cup of bright green shaved ice with a straw, standing on a concrete kerb](/images/wp/wp-content/uploads/2021/11/Blog89-2.jpg)
 
 Not that this is a place where every household has a freezer.
 
