@@ -146,8 +146,11 @@ def check(path, source_path):
         problems.append(("WARN", "excerpt に感嘆符"))
 
     # --- 本文 -------------------------------------------------------------
-    if re.search(r"[぀-ヿ一-鿿]", body):
-        stray = re.findall(r"[぀-ヿ一-鿿]+", body)
+    # 画像の URL には日本語のファイル名が入っている（例 旅行記004-1.jpg）。
+    # これは訳し残しではないので、URL を除いてから地の文だけを見る。
+    prose = re.sub(r"\]\([^)]*\)", "]()", body)
+    if re.search(r"[぀-ヿ一-鿿]", prose):
+        stray = re.findall(r"[぀-ヿ一-鿿]+", prose)
         problems.append(("ERROR", f"日本語が残っている: {' '.join(stray[:5])}"))
 
     for pat, msg in FORBIDDEN:
@@ -192,6 +195,38 @@ def check(path, source_path):
                 "WARN",
                 f"段落数の乖離: 原文{len(src_paras)} / 英訳{len(en_paras)}",
             ))
+
+        # 画像 -- Ep 6 で画像が1枚まるごと落ちたのに、他のチェックが全て通ってしまった。
+        # 枚数と URL を突き合わせる。位置は段落数がずれるので割合で見る。
+        img_re = re.compile(r"!\[[^\]]*\]\(([^)]+)\)")
+        src_imgs = img_re.findall(src_body)
+        en_imgs = img_re.findall(body)
+        if len(src_imgs) != len(en_imgs):
+            problems.append((
+                "ERROR",
+                f"画像の枚数が違う: 原文{len(src_imgs)}枚 / 英訳{len(en_imgs)}枚。脱落を疑う",
+            ))
+        else:
+            def basename(u):
+                return u.rsplit("/", 1)[-1]
+            for s, e in zip(src_imgs, en_imgs):
+                if basename(s) != basename(e):
+                    problems.append((
+                        "ERROR",
+                        f"画像の順序かファイル名が違う: 原文 {basename(s)} / 英訳 {basename(e)}",
+                    ))
+
+        # 代替テキスト -- 原文が空なら英訳も空。訳者が勝手に説明を付けない。
+        alt_re = re.compile(r"!\[([^\]]*)\]\(")
+        src_alts = alt_re.findall(src_body)
+        en_alts = alt_re.findall(body)
+        if len(src_alts) == len(en_alts):
+            for s, e in zip(src_alts, en_alts):
+                if not s.strip() and e.strip():
+                    problems.append((
+                        "WARN",
+                        f"原文に無い画像の代替テキストが追加されている: {e!r}",
+                    ))
 
         # 会員限定マーカー -- ずれると有料記事が無料で出る
         src_i = paywall_index(src_paras, PAYWALL_JA)
