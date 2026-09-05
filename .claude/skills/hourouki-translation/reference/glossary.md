@@ -131,6 +131,7 @@
 | フェスティバル (155) | festival | |
 | バイト (188) | part-time job / work | 文脈で |
 | 山小屋 | mountain hut | "a mountain hut — the staffed lodges on Japan's high trails" |
+| 山小屋（ヒマラヤの） | **hut / the Himalayan hut** | ⚠️ **日本の営業山小屋（アーク44）とは別物。**土壁・石屋根の伝統家屋。Ep 231〜232 |
 
 ## 6. 日本文化・固有
 
@@ -336,7 +337,7 @@ Ep 100 の見出し `## 暴走族` は "Biker Gang"、本文はその30行後に
 | ヤンキー / 元ヤン | **yankee**（複数 yankees） | ⚠️ **Ep 25 で確定済み。**初出時に "an ex-*yankee* — Japanese for the delinquent type" と説明してあるので、以降は説明なしで `yankee`。<br>**3話が別々の訳語を出してきた**（`yankī` / `delinquent` / `yankee`）ので、Ep 25 の既訳に統一した。<br>米語の "Yankee"（北部人）と紛らわしいのは事実だが、**既訳がある以上そちらが正**。個々の判断で変えない |
 | 鉄骨とび | tekkotsu-tobi | 初出のみ "steel erecting" と同格で説明 |
 | 関西最大のツタヤ | **the biggest Tsutaya in western Japan** | Ep 47 で確定済み。`Kansai` に寄せない（同じ店への回想が Ep 60・185 に出る） |
-| ブラウンシュガー | **brown sugar**（動詞は **snort**） | 精製途中の阿片。Ep 181 で著者が「茶色い粉を鼻から吸い込む」と説明しているので **smoke ではなく snort**。婉曲化しない。小文字 |
+| ブラウンシュガー | **brown sugar**（小文字） | 精製途中の阿片。婉曲化しない。<br>⚠️ **摂取の動詞は原文の記述に従う。訳語として固定しない。**<br>Ep 181 は「茶色い粉を鼻から吸い込む」＝ **snort**、<br>Ep 230 は「アルミニウムに載せて炙って吸いながら」＝ **喫煙**（lay it on foil, heat it, breathe in the smoke）。<br>私は当初 snort で固定しかけたが、Ep 230 の担当が原文を読んで食い違いを指摘した。**摂取方法は話ごとに違う。** |
 | 生阿片 / オピウム / ヘロイン / 阿片窟 | raw opium / opium / heroin / opium den | |
 | ゲームボーイ / ウィザードリィ | Game Boy / *Wizardry* | 実在の製品名・作品名 |
 | 月刊ムー | the monthly *Mu* | 雑誌名はイタリック（Ep 26 の *Quick Japan* に準拠） |
@@ -386,6 +387,24 @@ Ep 100 の見出し `## 暴走族` は "Biker Gang"、本文はその30行後に
 | チャラス | charas | Ep 101・147・189 で既訳。表に未掲載だった |
 | 蛮勇 | foolhardy | Ep 224 の見出し・Ep 225 の本文 |
 | ネタ（薬物の隠語） | the goods / something or other | 婉曲化しない |
+| 運び屋 | **courier** | ⚠️ **密輸（smuggling）と訳し分ける。**原文が語を使い分けている（運び屋は Ep 223・232・235・239、密輸は Ep 214・240・241） |
+| 密輸 | smuggling | |
+| 麻薬運搬（見出し） | Drug Running | Ep 232 の見出し。上の2語とはまた別の原語 |
+| パーティー・ババ（複数形） | party babas | 総称は複数、特定の人物は the party baba、単体は the baba |
+| カーリーババ | Kali baba(s) | Ep 210 のみ |
+| ペーパーアシッド | paper acid | Ep 210 初出。`blotter acid` にしない（原文がカタカナで「ペーパーアシッド」） |
+| 検問所 | checkpoint | |
+| タンドリー（ヒマラヤの鉄ストーブ） | **tandoor** | ⚠️ Ep 231 で原文自身が「タンドリーと呼ぶ鉄のストーブ」と説明する。<br>米国の読者は**インド料理の粘土窯**を連想するので、初出の同格説明を必ず残す |
+| チャーワンプラッシュ | chyawanprash | 初出のみ "an Ayurvedic health food"。Ep 234 のみ |
+| 実験音楽 / アンビエント / 浮遊音 | experimental music / ambient / drifting sounds | Ep 229 |
+| 金縛り / 幽体離脱 | sleep paralysis / leaving one's body | Ep 158 で確定 |
+| ネギを背負った鴨 | a duck that walked in carrying the onions to cook it with | 慣用句。像を残して自己説明させる。平易な "easy mark" にしない |
+| トッシュ | Tosh | パールバティ渓谷の村。Ep 226 |
+| 梵（ボン） | **Bom**（掛け声）／`the kanji *bon*` | ⚠️ **漢字を英語に持ち込まない。**`character` 単独だと「登場人物」と誤読される |
+| ブライト・ゲストハウス | the Bright Guest House | デリー。Ep 236 初出、Ep 239 で見出し。原文は中黒の有無が揺れるが同一の宿 |
+| 歌舞く | *kabuku*（イタリック） | Ep 228 初出。原文自身が直後に意味を説明するのでグロス不要 |
+| シャンティ | Shanti | Ep 228。**原文が説明していないので英語でも説明しない** |
+| ルパン三世 / 次元大介 | Lupin the Third / Daisuke Jigen | 初出のみ "out of the anime" |
 | チベタン・レストラン | the Tibetan restaurant（小文字） | ⚠️ **2軒ある。**ゲストハウスの隣（社交場、Ep 207）と、地上階（＝チロム道場、Ep 208）。<br>後の話で「the Tibetan restaurant」が出たら**どちらか確認する** |
 
 ⚠️ **人物のイニシャル（このアーク）** — Ｂくん・Ｆくんは Ep 209〜212 の日本人2人組。
