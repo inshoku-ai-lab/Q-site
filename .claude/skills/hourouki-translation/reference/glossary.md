@@ -330,6 +330,8 @@ Ep 100 の見出し `## 暴走族` は "Biker Gang"、本文はその30行後に
 | 浦島太郎 | Urashima Taro | 初出のみ "the fisherman from the old tale, so taken with the palace under the sea that he could not make himself leave" |
 | ジャンパー | **windbreaker** | ⚠️ "jumper" は英国英語でセーターの意になる |
 | おっちゃん | middle-aged guy | "uncle" にしない |
+| 課長（Ｎさんのあだ名） | **the Section Chief**（渾名なので大文字） | ⚠️ Ep 180・182・183・184・193・194・199 に計18回出る。<br>**3話が3通りの訳を出してきた**（`Kachō` / `the Section Chief` / `the section chief`）ので統一した。<br>役職名を渾名にしている冗談（「うちの課の者が」「我が課のOL」）が毎回そのまま効くよう、**英語でも役職名のまま渾名にする**。`Kachō` だと読者が毎回意味を思い出す必要があり、笑いが1回目で止まる。<br>**Ep 180 の初出1箇所だけ**「the nickname Kachō — Section Chief, the middle-manager rank in a Japanese company —」と日本語の呼び名に触れる。<br>**役職そのものを指す文脈は小文字**（「課長という役職を連想させて」→ "the title of section chief"） |
+| 我が課のOL | the office ladies in our section | 上の会社ごっこの続き |
 | ネオナチ | neo-Nazis | |
 | ヤンキー / 元ヤン | **yankee**（複数 yankees） | ⚠️ **Ep 25 で確定済み。**初出時に "an ex-*yankee* — Japanese for the delinquent type" と説明してあるので、以降は説明なしで `yankee`。<br>**3話が別々の訳語を出してきた**（`yankī` / `delinquent` / `yankee`）ので、Ep 25 の既訳に統一した。<br>米語の "Yankee"（北部人）と紛らわしいのは事実だが、**既訳がある以上そちらが正**。個々の判断で変えない |
 | 鉄骨とび | tekkotsu-tobi | 初出のみ "steel erecting" と同格で説明 |
