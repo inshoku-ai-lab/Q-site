@@ -78,7 +78,7 @@ The party went on, and by a few hours after the sun was up plenty of people were
 
 Through all of it, the ones still dancing were the world-class ones I wrote about in the previous post.
 
-The beauty who looked like a model, the karate men, the ninja, and the African, all of them out in the sunlight, still exploding with personality.
+The beauty who looked like a model, the karate guys, the ninja, and the African, all of them out in the sunlight, still exploding with personality.
 
 A few of the ex-army Israelis mixed in with them, and I worked my way in too, with the stamina I still had from scaffolding work.
 

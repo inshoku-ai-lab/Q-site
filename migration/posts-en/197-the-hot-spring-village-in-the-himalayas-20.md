@@ -53,7 +53,7 @@ The water was running along the bottom of the ravine, about fifteen meters (fift
 
 I looked down over the edge and got a shock!
 
-The karate men I wrote about in an earlier post were down there, actually doing their training!
+The karate guys I wrote about in an earlier post were down there, actually doing their training!
 
 A small waterfall came down beside them, and they stood on the rocks throwing one kick after another.
 

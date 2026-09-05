@@ -68,6 +68,19 @@ def main():
 
     index = {r["ep"]: r for r in json.load(open(INDEX, encoding="utf-8"))}
 
+    # すでにレポートに載っている話は二度書かない。
+    # --backfill を先に走らせた話へ --range をかけて、7本ぶん逆翻訳を重複させた。
+    # 著者はこのファイルを読んで検証するので、同じ本文が2度出ると単純に邪魔になる。
+    already = set(int(m) for m in re.findall(r"^## Ep (\d+) —",
+                                            open(REPORT, encoding="utf-8").read(), re.M))
+    dup = [e for e in eps if e in already]
+    if dup:
+        print(f"すでにレポートにある話は飛ばす: {dup}")
+        eps = [e for e in eps if e not in already]
+    if not eps:
+        print("追記すべき話が無い")
+        return
+
     rows, bodies, missing = [], [], []
     for ep in eps:
         g = glob.glob(os.path.join(POSTS_EN, f"{ep:03d}-*.md"))

@@ -346,7 +346,11 @@ Ep 100 の見出し `## 暴走族` は "Biker Gang"、本文はその30行後に
 | タメ口 | plain speech | 既出の keigo の対概念として機能させる |
 | 夜の仕事 | a job in the nightlife business | ⚠️ 水商売の意。"night work" は夜勤と誤読される |
 | トゥクパ | thukpa | Ep 72 で説明済み。以降は説明なし |
-| 空手家（ドイツ人2人組） | **the karate men** | Ep 192 初出、193・197 に再出。`karate fighters` にしない（試合の含意が出る） |
+| 空手家（ドイツ人2人組） | **the karate guys**（見出しは The Karate Guys） | Ep 192 初出、193・197 に再出。<br>`karate fighters` にしない（試合の含意が出る）。<br>⚠️ 私は Ep 192 が届く前に `the karate men` で固定しかけた。**初出の話が用語を決める。**原文の「ガチの空手家」は口語なので guys の方が register が合う |
+| ワールドクラス | **world-class**（名詞は the world class） | Ep 192 で「世界に通用する個性を持つ日本人ダンサー」への半ば冗談の呼び名として定義される。初出のみ引用符 |
+| 虎の舞 / 龍神の舞 / 麒麟の舞 | the Dance of the Tiger / the Dance of the Dragon God / the Dance of the Kirin | Ｃくんの自称。「the Dance of the X」の型を崩さない。麒麟は初出のみ "named for the beast out of old legend" |
+| 組手 | sparring match | *kumite* にしない |
+| ストリートファイター / リュウとケン / グーニーズ | Street Fighter / Ryu and Ken / The Goonies | 初出のみ "the video game" / "the movie" |
 | サドゥー | sadhu / sadhus | Ep 190 で "the wandering holy men of Shiva-worshipping Hinduism" と説明済み |
 | チロム | chillum | Ep 190 で "a fired clay tube" と説明済み |
 | 修行（滝での） | training | 宗教語に寄せない |
