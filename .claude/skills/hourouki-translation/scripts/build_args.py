@@ -75,17 +75,13 @@ def done_eps():
     return out
 
 
-def context_note(ep, arc):
-    """アーク単位の短い文脈メモ。詳細な規則は voice bible が持つので、
-    ここは「どのアークのどこか」を伝えるだけでよい。"""
-    where = f'Part {arc["arcPart"]} of {arc["arcTotal"]} of the arc "{arc["arcTitleEn"]}"' \
-        if arc["arcPart"] else f'A standalone episode: "{arc["arcTitleEn"]}"'
-    note = (f'{where}. Episode {ep} of 522, so keep continuity with the episodes around it. '
-            f'Translate only what is on the page; do not foreshadow later episodes.')
-    if arc["arcPart"] and arc["arcPart"] > 1:
-        note += " It continues directly from the previous episode, so do not re-introduce people or places " \
-                "the reader has already met as though they were new."
-    return note
+# 文脈メモ（contextNote）は args に入れない。
+# アークの情報だけから決まる文なので、ワークフロー側の contextFor() が組み立てる。
+# 30話ぶんの生成文を args に載せると、それを手で貼る作業が発生する。
+# 手で貼る工程こそが Ep 103 のペイウォール脱落の原因だったので、無くしておく。
+#
+# 特定の話にだけ個別の注意書きが要るときは、その話の dict に
+# "contextNote" を足せばワークフロー側がそちらを優先する。
 
 
 def main():
@@ -145,7 +141,7 @@ def main():
             "arcPart": arc["arcPart"],
             "arcTotal": arc["arcTotal"],
             "sourcePath": os.path.join(JA_SRC, f"ep-{e:03d}.md"),
-            "contextNote": context_note(e, arc),
+
         })
 
     print(json.dumps({"episodes": episodes}, ensure_ascii=False, separators=(",", ":")))
