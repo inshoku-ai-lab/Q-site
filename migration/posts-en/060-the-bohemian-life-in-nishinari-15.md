@@ -67,7 +67,7 @@ Those words had a powerful hold on me.
 
 At seventeen I had steeled myself and walked out of both the religion I was raised in and high school, so I had no intention whatsoever of living a life of half measures.
 
-I hoped that by taking some kind of action while I was still a teenager, I'd shed a skin and get to live a life that was actually mine.
+I hoped that by taking some kind of action while I was still a teenager, I'd shed a skin and get to live a life that was truly my own.
 
 Thanks to that line, I decided to leave on a long trip to India before I turned twenty.
 
@@ -95,7 +95,7 @@ And the MiniDiscs came in at better than one a day, which is not bad.
 
 This was before YouTube existed, and getting your hands on that much good film and that much good music was close to impossible.
 
-I had taken the Tsutaya job with the goal of watching all the movies and hearing all the music I could, and I had pulled it off completely, and I was deeply satisfied.
+I had taken the Tsutaya job to watch all the movies and hear all the music I could, and I pulled it off completely, and the satisfaction ran deep.
 
 Those days were, quite purely, work and movies and music and books.
 

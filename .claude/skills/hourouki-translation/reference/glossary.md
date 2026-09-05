@@ -100,6 +100,8 @@
 | チロム (112) | chillum | "a chillum, the straight clay pipe you smoke hash out of" |
 | ジョイント (71) | joint | 説明不要 |
 | 大麻樹脂 | hash / hashish | |
+| 大麻（単体） | **cannabis** | ⚠️ **hash にしない。** 樹脂（hash）と区別が付かなくなる。<br>Ep 40・81・82 で統一済み |
+| 大麻ケーキ | **cannabis cake** | Ep 40 で確定。以降の話が Ep 40 の場面を参照するので**変えない** |
 | LSD (444) | LSD / acid | 文脈で使い分け。原文が「LSD」なら LSD |
 | エクスタシー (55) | ecstasy / MDMA | |
 | バッドトリップ (40) | bad trip | |
