@@ -82,7 +82,7 @@ The recipe for a party back then was dead simple.
 
 3 — Pay baksheesh to the neighbors who will have to put up with the noise.
 
-The baksheesh in this case wasn't a bribe so much as alms — or a fee for the use of the spot, maybe.
+The baksheesh in this case wasn't a bribe so much as alms — or turf money, maybe.
 
 For the locals, one night of putting up with the noise meant cash in hand, and they were grateful for it.
 
