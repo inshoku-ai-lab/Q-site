@@ -153,6 +153,16 @@ def check(path, source_path):
         stray = re.findall(r"[぀-ヿ一-鿿]+", prose)
         problems.append(("ERROR", f"日本語が残っている: {' '.join(stray[:5])}"))
 
+    # 画像は英語版サイトの方針が2点ある（著者が決定済み）。
+    #   1. URL はリポジトリ内の /images/wp/... を使う（WordPress停止でも壊れないため）
+    #   2. 代替テキストは英語で必ず付ける（読み上げソフトとSEOのため）
+    for alt, url in re.findall(r"!\[([^\]]*)\]\(([^)]+)\)", body):
+        name = url.rsplit("/", 1)[-1]
+        if not url.startswith("/images/wp/"):
+            problems.append(("ERROR", f"画像URLが /images/wp/... 形式でない: {url}"))
+        if not alt.strip():
+            problems.append(("WARN", f"画像の代替テキストが空: {name}"))
+
     for pat, msg in FORBIDDEN:
         if re.search(pat, body, re.M | re.I):
             problems.append(("ERROR", msg))
@@ -214,18 +224,6 @@ def check(path, source_path):
                     problems.append((
                         "ERROR",
                         f"画像の順序かファイル名が違う: 原文 {basename(s)} / 英訳 {basename(e)}",
-                    ))
-
-        # 代替テキスト -- 原文が空なら英訳も空。訳者が勝手に説明を付けない。
-        alt_re = re.compile(r"!\[([^\]]*)\]\(")
-        src_alts = alt_re.findall(src_body)
-        en_alts = alt_re.findall(body)
-        if len(src_alts) == len(en_alts):
-            for s, e in zip(src_alts, en_alts):
-                if not s.strip() and e.strip():
-                    problems.append((
-                        "WARN",
-                        f"原文に無い画像の代替テキストが追加されている: {e!r}",
                     ))
 
         # 会員限定マーカー -- ずれると有料記事が無料で出る

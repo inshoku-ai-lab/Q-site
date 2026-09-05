@@ -109,7 +109,7 @@ The reason we camped out in nature had to do with Jehovah's Witnesses as well.
 
 Rather than going to a worldly amusement park ruled by evil, Jehovah's Witnesses were encouraged to admire the great outdoors, God's creation, as recreation.
 
-![](https://qryptraveller.com/wp-content/uploads/2021/11/Blog6-2-1.jpg)
+![A campfire at night, flames and sparks streaming up into the dark](/images/wp/wp-content/uploads/2021/11/Blog6-2-1.jpg)
 
 I think it is wonderful.
 

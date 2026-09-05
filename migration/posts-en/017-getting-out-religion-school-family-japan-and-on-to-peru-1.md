@@ -74,6 +74,8 @@ Now that I had quit the Jehovah's Witnesses, my parents' pressure had lost its f
 
 Freed from stress and left in a daze, even that pressure from society no longer meant anything to me.
 
+![A dandelion seed head against a black background, one seed breaking away from it](/images/wp/wp-content/uploads/2021/11/Blog17-1.jpg)
+
 Every single person in my family said the same thing: "At least go to high school, for now."
 
 But none of their arguments did anything more than push society's common sense on me — none of it stirred up any actual desire in me to go to school.
@@ -105,6 +107,8 @@ She might have said the words, that she'd kick me out, but there aren't many mot
 I had braced myself to be thrown out and end up homeless, so the peaceful outcome caught me off guard.
 
 My plan to live as a homeless criminal had suddenly vanished, and now, still living at home, I had nothing to do.
+
+![A close-up of a young woman, her hand at her mouth, looking away, green leaves behind her](/images/wp/wp-content/uploads/2021/11/Blog17-2-1.jpg)
 
 Until then, school, homework, and Jehovah's Witness activities had eaten up nearly all my time, so now that I had suddenly quit both high school and the religion and found myself with a huge amount of time on my hands, I had no idea how to use it.
 

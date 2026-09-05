@@ -90,7 +90,7 @@ Shoplifting had spread through our school badly enough that a newly opened books
 
 Three times a week I attended Jehovah's Witness meetings in formal clothes, singing songs in praise of God, and whenever I had free time I went on shoplifting tours with my friends.
 
-![](https://qryptraveller.com/wp-content/uploads/2021/11/Blog8-1-1.jpg)
+![Three boys with their arms around one another, laughing, in black and white](/images/wp/wp-content/uploads/2021/11/Blog8-1-1.jpg)
 
 To keep the crimes from being traced back, we rode our bikes to towns far away and stole over and over.
 
@@ -130,7 +130,7 @@ Tremendous tension and excitement.
 
 We spotted a heavy cardboard box just left sitting there.
 
-![](https://qryptraveller.com/wp-content/uploads/2021/11/Blog8-2-1.jpg)
+![An original Game Boy propped against a kerb with two game cartridges beside it](/images/wp/wp-content/uploads/2021/11/Blog8-2-1.jpg)
 
 Believing we had found what we came for, we carried the box out and ran for a nearby park.
 

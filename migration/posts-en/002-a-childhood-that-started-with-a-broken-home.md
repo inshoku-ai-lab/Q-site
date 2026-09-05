@@ -74,6 +74,8 @@ A gambler husband buried in debt, a mother-in-law who doted on her son and was h
 
 That was the move I mentioned above.
 
+![A small child holding an adult's hand, both seen from behind, walking along a road](/images/wp/wp-content/uploads/2021/10/002-1-604x400.jpg)
+
 # Kindergarten
 
 After the divorce, my mother needed to work, so she sent me to kindergarten.
@@ -115,5 +117,7 @@ Of course, I wasn't doing any of it out of my own choice — I was just a small 
 This was probably around when I was five.
 
 After that, I would go on with the religious activity for twelve whole years, until I left the Jehovah's Witnesses at seventeen.
+
+![The shadows of four people cast across sunlit grass, two tall and two small](/images/wp/wp-content/uploads/2021/10/002-2-671x400.jpg)
 
 To be continued...

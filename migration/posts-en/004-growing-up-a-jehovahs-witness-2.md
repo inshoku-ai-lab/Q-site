@@ -88,7 +88,7 @@ Among the Jehovah's Witnesses, attending these meetings was treated as the highe
 
 My family was dirt poor, so there was no such thing as going on a trip, but with a meeting every Sunday, I never had any sense of enjoying a weekend in the first place.
 
-![](https://qryptraveller.com/wp-content/uploads/2021/10/旅行記004-1.jpg)
+![Morning mist lying across open fields at dawn, with a lone tree and a dark barn](/images/wp/wp-content/uploads/2021/10/旅行記004-1.jpg)
 
 # Field Service
 
@@ -120,7 +120,7 @@ People who did it seriously filled every free hour of daily life with meetings, 
 
 You could call it quite an ascetic discipline.
 
-![](https://qryptraveller.com/wp-content/uploads/2021/10/旅行記-004-2-437x400.jpg)
+![A group of people silhouetted at the end of a concrete pier at sunset, one figure walking toward them](/images/wp/wp-content/uploads/2021/10/旅行記-004-2-437x400.jpg)
 
 There are other things too, like the regional conventions and international conventions where Jehovah's Witnesses from all over the area gathered, and the matter of the hierarchy, but there is no end to it, so I will leave the Jehovah's Witnesses at about this point and get back to the main thread next time.
 

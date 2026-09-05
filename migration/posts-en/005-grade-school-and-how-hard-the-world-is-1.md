@@ -63,7 +63,7 @@ Bad at sports, smart, a suppressed personality, introverted, no ability to coope
 
 These elements, the beliefs included, piled up on one another, and in class I became a quiet oddball with little standing.
 
-![](https://qryptraveller.com/wp-content/uploads/2021/10/005_1-603x400.jpg)
+![A young boy watering potted plants with a pink watering can on a balcony in warm evening light](/images/wp/wp-content/uploads/2021/10/005_1-603x400.jpg)
 
 # The Restrictions of Being a Jehovah's Witness
 
@@ -105,6 +105,6 @@ It was a far cry from the violent incidents you see in the news, but even so the
 
 Within that class society, my life sat at the very bottom.
 
-![](https://qryptraveller.com/wp-content/uploads/2021/10/005_2-646x400.png)
+![A flock of birds against a white sky, with a single bird flying alone far apart from the rest](/images/wp/wp-content/uploads/2021/10/005_2-646x400.png)
 
 To be continued...

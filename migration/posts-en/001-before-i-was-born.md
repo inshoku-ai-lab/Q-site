@@ -34,7 +34,7 @@ Magnetism, or ki, or vibration, or frequency — some strange power, whatever yo
 
 People who carry this kind of power seem to be made to find one another naturally, and so all sorts of strange encounters happen.
 
-![](https://qryptraveller.com/wp-content/uploads/2021/09/002stand.jpg)
+![A manga panel of a face in close-up, captioned in Japanese with the idea that people who carry the same power are drawn to one another](/images/wp/wp-content/uploads/2021/09/002stand.jpg)
 
 Among them are a few people with unusual abilities — reading past lives and the Akashic records, painting pictures of souls, holding conversations with guide spirits or with individual souls, and so on.
 
@@ -46,7 +46,7 @@ Of course I don't think every last detail of it lines up with the facts, but bel
 
 # The Guide Spirit
 
-![](https://qryptraveller.com/wp-content/uploads/2021/09/002guide-500x400.jpg)
+![An illustration of a figure walking away up a glowing golden path into swirling blue light, a large hairless dog padding along it in the foreground](/images/wp/wp-content/uploads/2021/09/002guide-500x400.jpg)
 
 Put the separate accounts of my previous lives together and they go something like this.
 

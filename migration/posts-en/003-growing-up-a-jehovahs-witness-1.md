@@ -67,6 +67,8 @@ Many of the Jehovah's Witnesses around her were kind people too, and all of them
 
 Without a shred of doubt, my mother pressed on down the path of Jehovah's Witnesses and led a happy life.
 
+![A figure in a white dress standing among clouds, reaching up toward a blazing light, with a vast blue planet filling the sky behind](/images/wp/wp-content/uploads/2021/10/003-1-600x400.jpg)
+
 # Loving Discipline
 
 Many of the adults who chose on their own to become Jehovah's Witnesses were happy people, but on the other hand, the children dragged along by their parents lived through days like hell.
@@ -120,5 +122,7 @@ Everything has a good side and a bad side; it's just that the good side worked i
 I want you to understand that there were people for whom fleeing into a religion this extreme was the only way they had left to hold onto their sanity.
 
 At the very least, I myself now feel nothing but gratitude for everything that happened, and hold no resentment or anger.
+
+![A black silhouette of an adult holding a child by both arms, the child leaning back against the pull](/images/wp/wp-content/uploads/2021/10/003-2-350x400.png)
 
 To be continued...

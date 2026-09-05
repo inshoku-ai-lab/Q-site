@@ -80,7 +80,7 @@ Even so, the bullying from the stronger ones continued.
 
 It was not violent bullying that left actual injuries, or money extorted from me, but something insidious, more like an abuse of power.
 
-![](https://qryptraveller.com/wp-content/uploads/2021/11/Blog7-1-1.jpg)
+![A person sitting on the floor against a bare concrete wall, head down on their knees, barefoot](/images/wp/wp-content/uploads/2021/11/Blog7-1-1.jpg)
 
 Talking to my parents or my teachers might have been the thing to do, but with my heart closed off, the idea of confiding in anyone never so much as occurred to me.
 
@@ -94,7 +94,7 @@ This habit of illness would do enormous damage to my life later on.
 
 Whenever there was something I did not want to do but had to, the nervous stomach pain kicked in.
 
-![](https://qryptraveller.com/wp-content/uploads/2021/11/Blog7-2.jpg)
+![A boy in a flat cap and braces looking at the camera, stripped and wrecked cars behind him](/images/wp/wp-content/uploads/2021/11/Blog7-2.jpg)
 
 On top of that, a convenient low-grade fever started showing up, and illness became my means of defense.
 
