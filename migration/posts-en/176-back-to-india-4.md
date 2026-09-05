@@ -20,7 +20,7 @@ tags:
   - "日本食"
   - "大麻"
   - "私小説"
-excerpt: "A five-story guesthouse one alley off the Paharganj strip, a dorm room stained into camouflage, roaches watching from the air vent, and next door a half-garage kitchen serving okra over rice with a fried egg on top — an oasis for anyone months out of Japan."
+excerpt: "A five-story guesthouse one alley off the Paharganj strip, a dorm room stained into camouflage, cockroaches watching from the air vent, and next door a half-garage kitchen serving okra over rice with a fried egg on top — an oasis for anyone months out of Japan."
 member_paywall_after_paragraph: 23
 qa:
   blind_review_rounds: 1

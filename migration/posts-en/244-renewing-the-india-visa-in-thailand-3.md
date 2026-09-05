@@ -62,7 +62,7 @@ I handed over the traveler's checks, and at long last they let me go.
 
 Back in my room I tried to settle down, but my knees were still shaking and there was no settling down.
 
-Right after being shaken down for a bribe, I rolled a big joint of that hash and smoked myself calm, and that finally let me sleep.
+Right after being fleeced for a bribe, I rolled a big joint of that hash and smoked myself calm, and that finally let me sleep.
 
 It had been a genuinely terrible day.
 

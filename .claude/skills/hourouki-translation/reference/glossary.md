@@ -399,6 +399,10 @@ Ep 100 の見出し `## 暴走族` は "Biker Gang"、本文はその30行後に
 | カーリーババ | Kali baba(s) | Ep 210 のみ |
 | ペーパーアシッド | paper acid | Ep 210 初出。`blotter acid` にしない（原文がカタカナで「ペーパーアシッド」） |
 | 検問所 | checkpoint | |
+| ゴキブリ | **cockroaches** | ⚠️ **`roaches` にしない。**英語の "roach" は**ジョイントの吸い殻**を指す隠語でもある。<br>本シリーズは薬物描写が頻出するので確実に衝突する。Ep 243 で発覚し、Ep 176 の1件を直した |
+| 関門（比喩） | hurdle | 税関の話と衝突するので `checkpoint` にしない |
+| ブリブリに酩酊 | stoned out of my mind | `be high` / `be wrecked` に続く3段階目 |
+| 下町 | old downtown | ⚠️ 西成向けに立てた項目だが、**バンコクにも適用する**（Ep 242） |
 | タンドリー（ヒマラヤの鉄ストーブ） | **tandoor** | ⚠️ Ep 231 で原文自身が「タンドリーと呼ぶ鉄のストーブ」と説明する。<br>米国の読者は**インド料理の粘土窯**を連想するので、初出の同格説明を必ず残す |
 | チャーワンプラッシュ | chyawanprash | 初出のみ "an Ayurvedic health food"。Ep 234 のみ |
 | 実験音楽 / アンビエント / 浮遊音 | experimental music / ambient / drifting sounds | Ep 229 |
