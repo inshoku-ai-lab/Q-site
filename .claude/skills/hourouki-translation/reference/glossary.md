@@ -376,6 +376,16 @@ Ep 100 の見出し `## 暴走族` は "Biker Gang"、本文はその30行後に
 | シヴァ派 | of Shiva / Shaivite | 「シヴァ派の遊行僧」→ the wandering monks of Shiva |
 | ラスタ思想 | Rastafarian thinking | |
 | 体育会系 | **jock** | 初出のみ "one of those universities known for their athletic clubs" |
+| パーティー・ババ | **the party baba**（単体は the baba、小文字） | 語義説明は **Ep 210** にある（「インドではおじさんの事をババと言い…サドゥーをさして…」）。Ep 211〜213 で再出 |
+| カメハメ波 | **Kamehameha** | 初出 Ep 211。⚠️ 米国では**ハワイのカメハメハ大王**と衝突するので、原文が説明する位置で "palms out, a wave of energy" と最小限のグロスを置く。原文が作品名を出していないので Dragon Ball とは書かない |
+| 波動拳 | **Hadouken** | Street Fighter は Ep 192 で説明済み。再説明しない |
+| シズラー | **sizzler**（小文字） | Ep 213 初出。原文自身が「中華のインド解釈／鉄板で供する」と説明する。<br>⚠️ 米国のステーキ店チェーン **Sizzler** と紛れないよう小文字固定 |
+| パールバティ・バレー | **the Parvati Valley** | Ep 221 初出、222・223・225・228・233・235 に再出。⚠️ Ep 228 だけ原文が「パールヴァティ」 |
+| カソール | Kasol | パールバティ渓谷の町。Ep 223 |
+| クリーム（最高級の大麻樹脂） | **cream**（小文字） | Ep 225 初出、226・227・233 に継続。<br>⚠️ **原文が「何故か英語名で」と書いている**ので、訳語を変えると次話の記述が崩れる |
+| チャラス | charas | Ep 101・147・189 で既訳。表に未掲載だった |
+| 蛮勇 | foolhardy | Ep 224 の見出し・Ep 225 の本文 |
+| ネタ（薬物の隠語） | the goods / something or other | 婉曲化しない |
 | チベタン・レストラン | the Tibetan restaurant（小文字） | ⚠️ **2軒ある。**ゲストハウスの隣（社交場、Ep 207）と、地上階（＝チロム道場、Ep 208）。<br>後の話で「the Tibetan restaurant」が出たら**どちらか確認する** |
 
 ⚠️ **人物のイニシャル（このアーク）** — Ｂくん・Ｆくんは Ep 209〜212 の日本人2人組。
