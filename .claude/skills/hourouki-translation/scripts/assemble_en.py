@@ -99,11 +99,31 @@ def main():
         if os.path.exists(sp):
             src = strip_trailing_nav([l for l in open(sp, encoding="utf-8").read().split("\n")
                                       if l.strip()])
-            have = {IMG.match(l).group(2) for l in lines if IMG.match(l)}
+            # 画像はファイル名で突き合わせる。URL全体で比べると、エージェントが
+            # パスを削って書いた（Ep 92 が `/images/wp/2021/...` と wp-content/uploads を
+            # 落とした）ときに「別の画像」と誤認して、正しい方を隣に挿入し二重になる。
+            # ファイル名が一致したら、原文由来の正しいURLへ書き直す。
+            canon = {local_url(IMG.match(l).group(2)).rsplit("/", 1)[-1]: local_url(IMG.match(l).group(2))
+                     for l in src if IMG.match(l)}
+
+            def fix_path(l):
+                m = IMG.match(l)
+                if not m:
+                    return l
+                name = m.group(2).rsplit("/", 1)[-1]
+                return f"![{m.group(1)}]({canon[name]})" if name in canon else l
+
+            before_paths = [l for l in lines if IMG.match(l)]
+            lines = [fix_path(l) for l in lines]
+            fixed = sum(1 for a, b in zip(before_paths, [l for l in lines if IMG.match(l)]) if a != b)
+            if fixed:
+                problems.append(f"Ep {ep}: 画像URLのパスが壊れていた{fixed}件を原文どおりに直した")
+
+            have = {IMG.match(l).group(2).rsplit("/", 1)[-1] for l in lines if IMG.match(l)}
             n = 0
             for i, l in enumerate(src):
                 m = IMG.match(l)
-                if m and local_url(m.group(2)) not in have:
+                if m and local_url(m.group(2)).rsplit("/", 1)[-1] not in have:
                     lines.insert(i, f"![]({local_url(m.group(2))})")
                     n += 1
             if n:
