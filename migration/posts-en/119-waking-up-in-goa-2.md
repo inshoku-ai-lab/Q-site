@@ -5,7 +5,7 @@ series: "The Vagabond Chronicles"
 series_ja: "放浪記"
 arc: "Waking Up in Goa"
 arc_part: 2
-arc_total: 7
+arc_total: 39
 title: "The Vagabond Chronicles #119 — Waking Up in Goa, Part 2"
 slug: "waking-up-in-goa-2-vagabond-chronicles-119"
 source_slug: "a-story-of-awakening-to-gore-2-autobiography-119"
