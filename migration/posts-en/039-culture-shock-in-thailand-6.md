@@ -22,7 +22,7 @@ tags:
   - "ドラッグ論"
   - "私小説"
 excerpt: "We had not come to Koh Phangan only for the beach. The Full Moon Party drew us, and behind it lay a longer argument: every substance changes body and mind, and the line between legal and illegal is drawn by whoever rules at the time."
-member_paywall_after_paragraph: null
+member_paywall_after_paragraph: 5
 qa:
   blind_review_rounds: 1
   blind_review_protocol: "v2 mixed panel (US / UK / non-native, majority) -- via Workflow pipeline"

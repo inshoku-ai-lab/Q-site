@@ -15,7 +15,7 @@ status: "draft"
 tags:
   - "旅行"
 excerpt: "Settling into a cheap room in Anjuna, the narrator finds it livelier than Calangute, with a Wednesday flea market and an after-dark beach rave. Chasing that rave by bike on LSD and hash smoke, he and a friend end up disoriented, following distant music through the dark streets."
-member_paywall_after_paragraph: 18
+member_paywall_after_paragraph: 19
 qa:
   blind_review_rounds: 1
   blind_review_protocol: "v2 mixed panel (US / UK / non-native, majority) -- via Workflow pipeline"

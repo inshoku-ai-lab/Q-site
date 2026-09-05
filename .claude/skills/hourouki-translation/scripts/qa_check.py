@@ -200,6 +200,21 @@ def check(path, source_path):
         if re.search(pat, body, re.M | re.I):
             problems.append(("ERROR", msg))
 
+    # フロントマターの会員限定添字は、本文中の callout の位置と厳密に一致しなければならない。
+    # サイトはこの値で無料部分を切るので、null なら全文が無料で出る。
+    # 原文との照合は割合で見ているため、この食い違いは素通りしていた
+    # （Ep 39 が null、Ep 103 が1ずれ。本文の callout 自体は正しい位置にあった）。
+    en_blocks = [l for l in body.split("\n") if l.strip()]
+    pw_body = next((i for i, l in enumerate(en_blocks) if PAYWALL_EN in l), None)
+    pw_fm = fm_value(fm, "member_paywall_after_paragraph")
+    pw_fm = None if pw_fm in (None, "null", "") else int(pw_fm)
+    if pw_body != pw_fm:
+        problems.append((
+            "ERROR",
+            f"member_paywall_after_paragraph が本文の callout 位置と違う "
+            f"（フロントマター {pw_fm} / 本文 {pw_body}）。有料部分の露出につながる",
+        ))
+
     for pat, msg in TRANSLATIONESE:
         hits = re.findall(pat, body, re.I)
         if hits:
