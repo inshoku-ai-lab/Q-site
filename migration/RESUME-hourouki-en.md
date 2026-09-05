@@ -1,7 +1,25 @@
 # 放浪記 英訳プロジェクト — 引き継ぎメモ
 
 セッションをまたいで作業するため、**新しいセッションを開いたら最初にこれを読む**。
-最終更新: 2026-09-05
+最終更新: 2026-09-05（著者の指示によりトークン都合で一時停止した時点）
+
+---
+
+## 0. 再開する人へ — 最初の3コマンド
+
+```bash
+cd /home/user/Q-site
+python3 .claude/skills/hourouki-translation/scripts/build_args.py --status   # 進捗
+python3 .claude/skills/hourouki-translation/scripts/qa_check.py \
+    --ja-src-dir <scratchpad>/ja-src --source-dir migration/posts migration/posts-en/*.md
+```
+
+**手順の本体は `.claude/skills/hourouki-translation/reference/production-runbook.md`。**
+バッチサイズ40話、ワークフロー利用は著者から恒久許可済み、途中報告は不要。
+
+⚠️ **原文（`<scratchpad>/ja-src/ep-NNN.md`）はセッション終了で消える。**
+リポジトリではなく一時領域にあるため、再開時は取得し直しになる。
+`build_args.py` が未取得を検出して Notion ID の表を出すので、それに従って取得する。
 
 ---
 
@@ -12,14 +30,22 @@
 | 翻訳スキル | `.claude/skills/hourouki-translation/` に構築済み |
 | ボイスバイブル | **確定版**（アンカー5本すべて通過済み） |
 | 用語表・査読プロトコルv2 | 確定 |
-| 訳了 | 11本 — Ep 0, 2, 3, 17, 55, 103, 190, 285, 360, 450, 465 |
-| 進行中 | Ep 1, 4, 5, 6, 7, 8（バッチ1） |
-| 残り | 約505本 |
+| 話数インデックス | `migration/reports/episode-index.json`（全522話・Notion ID入り） |
+| 画像の説明文 | `migration/reports/image-alt.json`（ファイル名→英語alt） |
+| 訳了 | **Ep 0〜79 の86本**（バッチ3完了時点） |
+| 残り | 436本 |
 
 英訳は `migration/posts-en/` に `status: "draft"` で置いてある。
-**まだ1本もNotionへ転記していない。**
+**まだ1本もNotionへ転記していない。** 英語版サイトもまだ無い。
 
 日本語記事は**一切変更しない**。英語は別サイト（英語版）に置く。
+
+### 停止時点で分かっていること
+
+- 機械QAは全本 **ERROR 0**。
+- 会員限定マーカーのある話が多数（Ep 39以降で急増、Ep 100〜119はほぼ全話）。
+  **位置がずれると有料記事が無料で出る。** QAが割合で照合する。
+- 原文側の不具合は `migration/reports/source-issues-ja.md` に集約。著者へ要報告。
 
 ---
 
