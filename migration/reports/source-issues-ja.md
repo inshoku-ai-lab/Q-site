@@ -44,6 +44,22 @@ Notionの本文と、移行前のWordPressエクスポートを機械照合し�
 
 ---
 
+## 1-2. 画像URLのドメイン綴り間違い（Ep 80〜100）
+
+**Ep 80〜100 の画像URLが `qryptraveler.com`（l が1つ）になっている。** 正しくは
+`qryptraveller.com`（l が2つ）。34枚が該当し、ナビゲーションリンクの方は
+全話とも正しい綴りなので、画像URLだけが取り違えられている。
+
+```
+現状: https://qryptraveler.com/wp-content/uploads/2021/11/Blog90-1.jpg
+正:   https://qryptraveller.com/wp-content/uploads/2021/11/Blog90-1.jpg
+```
+
+**日本語サイト側で画像が表示されていない可能性がある。** ご確認ください。
+
+英語版は影響を受けません。リポジトリ内の `/images/wp/...` に書き換えるため、
+書き換え側で両方の綴りを受けるようにしました（画像の実体は正しく存在しています）。
+
 ## 2. その他
 
 | 話 | 内容 |

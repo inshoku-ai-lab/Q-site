@@ -30,8 +30,14 @@ LINK = re.compile(r"\[([^\]]*)\]\([^)]*\)")
 
 
 def local_url(url):
-    """英語版はリポジトリ内の画像を使う（著者決定）。"""
-    u = re.sub(r"^https?://qryptraveller\.com/", "/images/wp/", url)
+    """英語版はリポジトリ内の画像を使う（著者決定）。
+
+    ⚠️ Ep 80〜100 の画像URLは Notion 側で **qryptraveler.com（l が1つ）** に
+    なっている。綴りが違うだけで、パス以下は同じ。34枚が該当。
+    正しい綴りだけを見ていると書き換えが効かず、壊れた外部URLのまま出てしまう。
+    両方の綴りを受ける。
+    """
+    u = re.sub(r"^https?://qryptravell?er\.com/", "/images/wp/", url)
     return u if u.startswith("/images/") else url
 
 
