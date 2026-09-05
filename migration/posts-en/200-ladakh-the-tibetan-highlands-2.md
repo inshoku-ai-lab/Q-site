@@ -72,7 +72,7 @@ I traveled without a camera in those days, so there is not a single photograph l
 
 This is roughly what Ladakh looks like, so let it help you picture what I am describing.
 
-![](/images/wp/wp-content/uploads/2022/04/スクリーンショット-2022-04-20-13.42.40.png)
+![A river and a road curving through a barren brown mountain valley beneath snow-capped peaks and heavy clouds](/images/wp/wp-content/uploads/2022/04/スクリーンショット-2022-04-20-13.42.40.png)
 
 Tibet looked much the same, but Ladakh feels to me like it has higher mountains and a bigger scale.
 

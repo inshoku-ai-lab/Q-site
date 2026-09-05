@@ -355,6 +355,31 @@ Ep 100 の見出し `## 暴走族` は "Biker Gang"、本文はその30行後に
 | チロム | chillum | Ep 190 で "a fired clay tube" と説明済み |
 | 修行（滝での） | training | 宗教語に寄せない |
 | 変性意識 | an altered state of consciousness | |
+
+## 6-7. アーク26〜27（ラダック・ヒマラヤの秋、Ep 199〜236）で確定した語
+
+| 日本語 | 英語（固定） | 備考 |
+|---|---|---|
+| レー | **Leh** | ラダックの中心の町。Ep 199 初出 |
+| ラダック人 | Ladakhis | |
+| キーロン | Keylong | ラホールの町。Ep 205 |
+| パールバティ・バレー | Parvati Valley | ⚠️ Ep 228 だけ原文が「パールヴァティ」。他23箇所は「パールバティ」 |
+| 砂漠高原 | desert plateau（形容詞的には high desert） | |
+| チベット文化圏 | the Tibetan cultural world | |
+| 中国共産党 | the Chinese Communist Party | |
+| 布団（山岳地帯の） | **quilt** | ⚠️ **`futon` にしない。**米語の futon はソファベッドの骨組みを指す |
+| 水晶 | quartz | `crystal` 単独だと結晶一般と紛れる |
+| 北斗七星 / オリオン座 | the Big Dipper / Orion | 英連邦の the Plough ではなく米国式 |
+| 無期限（の旅） | **open-ended** | Ep 62 で確定済み。シリーズ全体で2回しか出ない語 |
+| チロム道場 | **the Chillum Dojo** | ゲストハウス地上階のチベタンレストランのあだ名。Ep 208 初出 |
+| サフィ | safi | チロムに当てる綿布。Ep 208 で原文自身が "clean" の意と説明 |
+| シヴァ派 | of Shiva / Shaivite | 「シヴァ派の遊行僧」→ the wandering monks of Shiva |
+| ラスタ思想 | Rastafarian thinking | |
+| 体育会系 | **jock** | 初出のみ "one of those universities known for their athletic clubs" |
+| チベタン・レストラン | the Tibetan restaurant（小文字） | ⚠️ **2軒ある。**ゲストハウスの隣（社交場、Ep 207）と、地上階（＝チロム道場、Ep 208）。<br>後の話で「the Tibetan restaurant」が出たら**どちらか確認する** |
+
+⚠️ **人物のイニシャル（このアーク）** — Ｂくん・Ｆくんは Ep 209〜212 の日本人2人組。
+**Ep 152 の「Ｂさん」（聖者キャラ）とは別人。**Ep 210 の Ｆくんも同様に使い回し。統合しない。
 | パシリ / 舎弟 | errand boy / underling | |
 
 ## 7. 円→ドル換算レート（年代別）
