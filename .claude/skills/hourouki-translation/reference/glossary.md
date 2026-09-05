@@ -335,6 +335,22 @@ Ep 100 の見出し `## 暴走族` は "Biker Gang"、本文はその30行後に
 | ネオナチ | neo-Nazis | |
 | ヤンキー / 元ヤン | **yankee**（複数 yankees） | ⚠️ **Ep 25 で確定済み。**初出時に "an ex-*yankee* — Japanese for the delinquent type" と説明してあるので、以降は説明なしで `yankee`。<br>**3話が別々の訳語を出してきた**（`yankī` / `delinquent` / `yankee`）ので、Ep 25 の既訳に統一した。<br>米語の "Yankee"（北部人）と紛らわしいのは事実だが、**既訳がある以上そちらが正**。個々の判断で変えない |
 | 鉄骨とび | tekkotsu-tobi | 初出のみ "steel erecting" と同格で説明 |
+| 関西最大のツタヤ | **the biggest Tsutaya in western Japan** | Ep 47 で確定済み。`Kansai` に寄せない（同じ店への回想が Ep 60・185 に出る） |
+| ブラウンシュガー | **brown sugar**（動詞は **snort**） | 精製途中の阿片。Ep 181 で著者が「茶色い粉を鼻から吸い込む」と説明しているので **smoke ではなく snort**。婉曲化しない。小文字 |
+| 生阿片 / オピウム / ヘロイン / 阿片窟 | raw opium / opium / heroin / opium den | |
+| ゲームボーイ / ウィザードリィ | Game Boy / *Wizardry* | 実在の製品名・作品名 |
+| 月刊ムー | the monthly *Mu* | 雑誌名はイタリック（Ep 26 の *Quick Japan* に準拠） |
+| 陰陽師 | onmyōji | 初出のみ "the sorcerer-diviners of the old imperial court" |
+| 地下足袋 / ハチマキ | jika-tabi / hachimaki | 初出のみ "split-toed workman's boots" / "headband" |
+| 鵺 / 麒麟 / 龍神 | the nue / the kirin / dragon gods | まとめて "out of the old tales" と一言 |
+| タメ口 | plain speech | 既出の keigo の対概念として機能させる |
+| 夜の仕事 | a job in the nightlife business | ⚠️ 水商売の意。"night work" は夜勤と誤読される |
+| トゥクパ | thukpa | Ep 72 で説明済み。以降は説明なし |
+| 空手家（ドイツ人2人組） | **the karate men** | Ep 192 初出、193・197 に再出。`karate fighters` にしない（試合の含意が出る） |
+| サドゥー | sadhu / sadhus | Ep 190 で "the wandering holy men of Shiva-worshipping Hinduism" と説明済み |
+| チロム | chillum | Ep 190 で "a fired clay tube" と説明済み |
+| 修行（滝での） | training | 宗教語に寄せない |
+| 変性意識 | an altered state of consciousness | |
 | パシリ / 舎弟 | errand boy / underling | |
 
 ## 7. 円→ドル換算レート（年代別）

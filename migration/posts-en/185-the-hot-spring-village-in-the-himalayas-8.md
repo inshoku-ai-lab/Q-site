@@ -57,9 +57,9 @@ This time I did the exact opposite, and set out again with a complete set of mus
 
 Back when I worked at the biggest Tsutaya in western Japan, I had gone through the tens of thousands of CDs in the store and picked out six hundred albums to copy onto MiniDisc.
 
-Out of those I picked another hundred and forty-four, recorded them onto MiniDisc in mono, and ended up with seventy-two discs holding two hours of music each — a collection I had narrowed down and narrowed down again.
+Out of those I picked another hundred and forty-four, recorded them onto MiniDisc in mono, and put together seventy-two discs holding two hours of music each — a collection I had narrowed down and narrowed down again.
 
-And I had Sony's newest battery-powered compact speakers, so I could listen to music properly anywhere, anytime.
+And I had Sony's newest battery-powered compact speakers with me, so I could listen to music properly anywhere, anytime.
 
 Back then the internet was barely developed, a music collection was not an easy thing to put together, and nobody else had compact speakers at all, so my collection and my speakers were prized by my friends.
 
