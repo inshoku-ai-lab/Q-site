@@ -27,7 +27,7 @@ qa:
 
 My talent for finding cheap lodging seemed to be quite exceptional -- even in Anjuna, I managed to find a dirt-cheap room for 150 yen -- about a dollar twenty -- a day.
 
-All told, ever since arriving in Nepal and India, I'd managed to find lodging in nearly every town for around 50 rupees (about a dollar twenty).
+All told, ever since arriving in Nepal and India, I'd managed to find lodging in nearly every town for around 50 rupees.
 
 The one exception was Pune, but I was put up there for free one night, so on balance it came out about the same.
 

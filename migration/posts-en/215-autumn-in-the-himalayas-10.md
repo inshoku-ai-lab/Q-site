@@ -37,7 +37,7 @@ qa:
 
 The stories in my travel writing from this period all end up being ones where I have no choice but to censor myself.
 
-My apologies to readers of the free posts, and to anyone with no interest in drug stories, but I want to share what I experienced as close to how it was as I can, so I'd ask you to bear with me a little longer.
+My apologies to readers of the free posts, and to anyone with no interest in drug stories, but I want to share my own experience as close to how it actually was as possible, so please bear with me a little longer.
 
 As I've written before, a psytrance party in India is in practice a dance event run on psychedelic drugs, and legally speaking it is about as illegal as it gets.
 
