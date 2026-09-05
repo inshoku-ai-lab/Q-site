@@ -93,6 +93,37 @@ def y(s):
     return json.dumps(s, ensure_ascii=False)
 
 
+# 翻訳が失敗したとき、エージェントは本文の代わりにエラー報告を返す。
+# バッチ3では39話中19話がこれになった（ハーネスのパーミッション不具合で
+# 原文ファイルが読めなかった）。**エージェントは捏造を拒んで正しく振る舞った**が、
+# 報告文には本文と同じくらいの長さがあるので、空判定だけでは素通りする。
+# これを記事として書き出すと、エラー報告が記事のふりをして公開されてしまう。
+FAILURE_MARKERS = (
+    "NO ARTICLE PRODUCED",
+    "Cannot produce episode",
+    "permission handler",
+    "updatedInput",
+    "failed schema validation",
+    "Do not publish this output",
+    "the Japanese source",
+)
+
+
+def looks_like_failure(body):
+    """本文がエラー報告なら True。記事なら False。"""
+    if not body or not body.strip():
+        return True
+    head = body[:1200]
+    if body.lstrip().upper().startswith("ERROR"):
+        return True
+    if any(m in head for m in FAILURE_MARKERS):
+        return True
+    # 記事は必ず見出しで始まるか、少なくとも見出しを持つ
+    if not any(l.startswith("#") for l in body.split("\n")):
+        return True
+    return False
+
+
 def main():
     if len(sys.argv) < 2:
         sys.exit(__doc__)
@@ -103,11 +134,11 @@ def main():
     if os.path.exists(INDEX):
         index = {r["ep"]: r for r in json.load(open(INDEX, encoding="utf-8"))}
 
-    written, problems = [], []
+    written, problems, failed = [], [], []
     for r in results:
         ep = r["ep"]["ep"]
-        if r.get("failed") or not r["final"]["bodyMarkdown"].strip():
-            problems.append(f"Ep {ep}: 本文が空。パイプラインが途中で落ちている")
+        if r.get("failed") or looks_like_failure(r["final"]["bodyMarkdown"]):
+            failed.append(ep)
             continue
 
         meta = index.get(ep, {})
@@ -165,6 +196,12 @@ def main():
             open(os.path.join(BACKTRANS, f"backtrans-{ep:03d}.md"), "w", encoding="utf-8").write(bt)
 
     print(f"\n{len(written)}本を書き出した: {written}")
+    if failed:
+        print(f"\n=== 翻訳に失敗した {len(failed)}本（ファイルは作っていない）===")
+        print(f"  {failed}")
+        print("  エージェントが本文の代わりにエラー報告を返した話。")
+        print("  **捏造を拒んだ正しい挙動**なので、内容を疑う必要はない。原文から再実行する。")
+        print("  再実行: build_args.py --eps " + ",".join(str(e) for e in failed))
     if problems:
         print("\n=== 要確認 ===")
         for p in problems:
