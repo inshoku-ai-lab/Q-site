@@ -56,7 +56,7 @@ White people's eyes don't have much tolerance for sunlight, apparently, so under
 
 He timed it for that, bought cheap sunglasses in bulk in Thailand, and unloaded the lot on a million tourists.
 
-In three days J made five hundred thousand yen — about four thousand dollars — and then took the money to India and spent a year there living for the fun of it.
+In three days J made five hundred thousand yen — about four thousand dollars — and then, he said, took the money to India and spent a year there living for the fun of it.
 
 That there was a way of traveling like that floored me, and meeting someone who had actually pulled it off was a shock of its own.
 
