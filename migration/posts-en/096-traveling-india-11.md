@@ -61,7 +61,7 @@ To get inside, you had to buy a maroon-colored garment and wear it.
 
 On top of that, they said you couldn't get in unless you took a blood test and proved you were negative for AIDS.
 
-Why any of that was necessary in order to learn yoga I had no idea, but I hadn't come this far to turn back, so I did as I was told.
+What any of that had to do with learning yoga, I couldn't say, but having come this far I didn't want to turn back, so I went along with whatever they told me.
 
 They drew blood with a needle and tested it, and I put on the brand-new maroon robe they issued me.
 
