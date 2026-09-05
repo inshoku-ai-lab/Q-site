@@ -52,7 +52,18 @@ head -3 <sourcePath>
 - `つづく。。。` → `To be continued...`
 - **画像は1枚残らず、同じ位置に置く。** URLは
   `https://qryptraveller.com/...` または `https://qryptraveler.com/...`（**l が1つの誤記が実在する**）
-  を `/images/wp/...` に書き換える。**代替テキストは空 `![](...)` のままにする。**
+  のドメイン部分だけを `/images/wp` に置き換える。**それ以降のパスは1文字も変えない。**
+
+  ```
+  原文: https://qryptraveler.com/wp-content/uploads/2021/11/Blog90-1.jpg
+  正:   /images/wp/wp-content/uploads/2021/11/Blog90-1.jpg
+  誤:   /images/wp/2021/11/Blog90-1.jpg      ← wp-content/uploads を落とすと404になる
+  ```
+
+  ⚠️ **`wp-content/uploads/` を省略する誤りが Ep 90・92 で実際に起きた。** 短く書かない。
+  画像の実体は `public/images/wp/...` にあるので、迷ったら `ls` で存在を確かめる。
+
+  **代替テキストは空 `![](...)` のままにする。**
   画像を見ていないので、書けば必ず捏造になる。実物を見る専用パスが後で埋める。
 - **会員限定マーカー**：原文に `ここから会員限定` があれば、**同じ位置**に
   `<callout icon="🔒">Members only from here</callout>` を置く。
