@@ -55,6 +55,13 @@ args の JSON が出たら③へ。
 
 そのうえで①をやり直す。
 
+**照合時の既知の差（いずれも異常ではない）:**
+
+- **会員限定記事は index の `chars` が本文より約640字多い。** 会員向けの定型文が
+  文字数に含まれているため。Ep 53・57・58 で確認。本文の脱落ではない。
+- Notion側にだけ文字化けがある話がある（移行時の破損）。`migration/reports/source-issues-ja.md` 参照。
+- 画像0枚の話は普通にある。`Image Count` プロパティと突き合わせれば脱落かどうか分かる。
+
 ### ③ Workflow を起動
 
 `scriptPath` は `~/.claude/projects/-home-user-Q-site/<session>/workflows/scripts/hourouki-episode-pipeline-*.js`。
