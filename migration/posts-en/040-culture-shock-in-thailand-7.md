@@ -25,7 +25,7 @@ member_paywall_after_paragraph: null
 qa:
   blind_review_rounds: 1
   blind_review_protocol: "v2 mixed panel (US / UK / non-native, majority) -- single-agent path"
-  mechanical_qa: "pending"
+  mechanical_qa: "pass"
 ---
 
 # The Day of the Full Moon

@@ -76,6 +76,15 @@ def main():
             failed.append(ep)
             problems.append(f"Ep {ep}: 本文ファイルが無い")
             continue
+        # エージェントは body → excerpt → backtrans の順に書く。まだ揃っていないなら
+        # 書き込み途中なので、この話は飛ばす。揃ってから組み立てる。
+        # （--all を実行中のエージェントと並行して走らせて、実際に excerpt が空のまま
+        #   2話ぶん書き出してしまった。3点セットが揃うまで「未完了」として扱う。）
+        xp = f"{AGENT_OUT}/ep-{ep:03d}.excerpt.txt"
+        if not os.path.exists(xp) or not open(xp, encoding="utf-8").read().strip():
+            failed.append(ep)
+            problems.append(f"Ep {ep}: excerpt がまだ無い（エージェントが書き込み中）。後で再実行する")
+            continue
         body = open(bp, encoding="utf-8").read().strip()
         if looks_like_failure(body):
             failed.append(ep)

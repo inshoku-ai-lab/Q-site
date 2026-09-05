@@ -140,6 +140,68 @@
 | 愛の鞭 | "loving discipline" | 教団の言い回し。**引用符付きで皮肉を保つ** |
 | スナフキン | Snufkin | "Snufkin, the wandering loner from the Moomin books" |
 
+## 6-2. 実在の人物名の語順（Ep 40〜で確定）
+
+**日本人の実名は「名 → 姓」（英語式）で書く。** 匿名イニシャルとは別扱い。
+
+| 日本語 | 英語（固定） |
+|---|---|
+| 和田勉 | Ben Wada |
+| 大島渚 | Nagisa Oshima |
+| 山田まりや | Mariya Yamada |
+
+英語圏の読者にとって自然な順序を優先する。**一度決めた以上、全話で揃える。**
+
+## 6-3. アーク13〜14（タイ・西成）で確定した語
+
+| 日本語 | 英語（固定） | 備考 |
+|---|---|---|
+| パンガン島 | Koh Phangan | |
+| バンコク | Bangkok | |
+| チェンマイ | Chiang Mai | |
+| 満月のパーティー | the Full Moon Party | 固有名詞として大文字 |
+| 山岳民族 | hill tribe | |
+| 乗合バス | shared minibus | |
+| ビーチサンダル／ビーサン | flip-flops | |
+| 卒業旅行 | graduation trip | 初出のみ「school と就職の間に行く旅」と一言添える |
+| ちびまる子ちゃん | Chibi Maruko-chan | 初出のみ "the cartoon" と添える |
+| フォーラム | the Forum | 西成のビデオ屋。アーク14で再登場 |
+| 弁当屋 | bento shop | "boxed lunches" と自己説明させる |
+| 下町 | old downtown | |
+| 泉北 | Senboku | 初出のみ "the suburb where we grew up" |
+| 泉北コミュニティ | Senboku Community | 兄弟のユニット名 |
+| 泉北呂寿司 | "Senboku Ro Zushi" | 曲名。SoundCloudの綴りに合わせる |
+| テープ・コラージュ | tape collage | |
+| クラウト・ロック | krautrock | |
+| CAN | CAN | ⚠️ **大文字のまま。** "Can" は助動詞と衝突する |
+| ダモ鈴木 | Damo Suzuki | |
+| トータス | Tortoise | バンド名。Ep 49 初出 |
+| ポスト・ロック | post-rock | |
+| シカゴ音響派 | the Chicago sound school | 「日本での呼称」と添える |
+| ライブハウス | live house | 初出のみ軽く説明 |
+| 歌謡曲 | kayōkyoku | 初出のみ軽く説明 |
+| ジャケ買い | buying on the cover alone | |
+| レコードヤクザ | record yakuza | |
+| 梅田 | Umeda | 初出のみ "in central Osaka" |
+| 映画脳 | the movie brain | 著者の造語。Ep 54 で見出しにも使用。**変えない** |
+| 安保闘争 | the Anpo struggle | 初出のみ "against the U.S.–Japan security treaty" |
+| 芸大 | art college | |
+| ホーリーマウンテン | The Holy Mountain | 映画題。既存の英題を使う |
+| 日本の夜と霧 | Night and Fog in Japan | 同上 |
+| ４分３３秒 | 4′33″ | ジョン・ケージの作品。記号のまま |
+| アユタヤ | Ayutthaya | 初出のみ "the old capital" |
+| ウェンズデイ・マーケット | the Wednesday Market | |
+| 東京ドーム | Tokyo Dome | 広さの基準として使われる。換算せず一言添える |
+| MD | MiniDisc | |
+| マジックマッシュルーム | magic mushrooms | 婉曲化しない |
+| 栽培キット | grow kit | |
+| 腐葉土 | leaf mold | |
+| ホームセンター | hardware store | ⚠️ "home center" は英語にならない |
+| 第◯次反抗期 | my third rebellious phase | 数字は原文に合わせる |
+
+> ⚠️ Ep 47・48 の **Ｇさん**（兄の元バンドメンバー）は、§2 の **Ｇくん** とは別人の可能性が高い。
+> 原文がイニシャルを使い回しているため。**同一人物として統合しない。**
+
 ## 7. 円→ドル換算レート（年代別）
 
 **その時代のレートを使う。** 現在のレートで換算すると金額感が壊れる。
