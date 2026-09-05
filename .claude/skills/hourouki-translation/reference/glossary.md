@@ -370,6 +370,11 @@ Ep 100 の見出し `## 暴走族` は "Biker Gang"、本文はその30行後に
 | 中国共産党 | the Chinese Communist Party | |
 | 布団（山岳地帯の） | **quilt** | ⚠️ **`futon` にしない。**米語の futon はソファベッドの骨組みを指す |
 | 水晶 | quartz | `crystal` 単独だと結晶一般と紛れる |
+| **クリスタル**（カタカナ） | **crystals** | ⚠️ **上の「水晶＝quartz」とは原語が違う。**ニューエイジ的な浄化の文脈で使われるカタカナ語なので、<br>`quartz` に寄せると語感が消える。**原語で使い分ける**（Ep 238） |
+| ザ・ビーチ | The Beach | 映画題。既訳の *The Holy Mountain* 等と同じくローマン体 |
+| 桃源郷 | Shangri-La | 同じ文の「楽園」が paradise を取るので語を分ける |
+| 金太郎飴 | kintaro candy | 初出のみ "cut the stick anywhere and you get the same face" |
+| ラブパレード | the Love Parade | ドイツの実在イベント。原文が規模を説明するのでグロス不要 |
 | 北斗七星 / オリオン座 | the Big Dipper / Orion | 英連邦の the Plough ではなく米国式 |
 | 無期限（の旅） | **open-ended** | Ep 62 で確定済み。シリーズ全体で2回しか出ない語 |
 | チロム道場 | **the Chillum Dojo** | ゲストハウス地上階のチベタンレストランのあだ名。Ep 208 初出 |
