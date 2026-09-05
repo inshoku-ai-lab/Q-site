@@ -103,8 +103,17 @@ def strip_nav(body):
 
 
 def paragraphs(body):
-    """空行区切りの段落。見出しと callout も1段落として数える。"""
-    return [p.strip() for p in re.split(r"\n\s*\n", body) if p.strip()]
+    """段落に割る。見出しと callout も1段落として数える。
+
+    英訳ファイルは空行区切り。一方 Notion から取った原文は1行1文で空行が無く、
+    空行だけで割ると「全体で1段落」になってしまう（実際に誤検知を出した）。
+    空行が実質的に無ければ、非空行そのものを段落として数える。
+    """
+    paras = [p.strip() for p in re.split(r"\n\s*\n", body) if p.strip()]
+    lines = [l.strip() for l in body.split("\n") if l.strip()]
+    if len(paras) <= 1 and len(lines) > 1:
+        return lines
+    return paras
 
 
 def paywall_index(paras, marker):
@@ -266,6 +275,9 @@ def main():
     ap.add_argument("files", nargs="+")
     ap.add_argument("--source", help="対応する日本語mdファイル")
     ap.add_argument("--source-dir", help="日本語mdのディレクトリ（source_slug で照合）")
+    ap.add_argument("--ja-src-dir",
+                    help="Notionから取得した原文のディレクトリ（ep-NNN.md で照合）。"
+                         "こちらが正本なので --source-dir より優先する")
     args = ap.parse_args()
 
     paths = []
@@ -275,8 +287,18 @@ def main():
     total_err = total_warn = 0
     for path in paths:
         source = args.source
-        if not source and args.source_dir:
+        fm = None
+        # Notion から取得した原文が正本。エクスポートは移行時の古いスナップショットで、
+        # Ep 103 では会員限定マーカーの有無が実際に食い違っていた。あるならこちらを使う。
+        if not source and args.ja_src_dir:
             fm, _ = split_front_matter(open(path, encoding="utf-8").read())
+            ep = fm_value(fm, "episode")
+            if ep and ep.strip().isdigit():
+                cand = os.path.join(args.ja_src_dir, f"ep-{int(ep):03d}.md")
+                source = cand if os.path.exists(cand) else None
+        if not source and args.source_dir:
+            if fm is None:
+                fm, _ = split_front_matter(open(path, encoding="utf-8").read())
             src_slug = fm_value(fm, "source_slug")
             if src_slug:
                 hits = glob.glob(os.path.join(args.source_dir, f"*{src_slug}.md"))
