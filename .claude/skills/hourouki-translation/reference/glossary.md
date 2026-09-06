@@ -513,6 +513,55 @@ Ep 132〜136 の関西のおっさんＳ、そして Ep 279 のこのＳ。**い
 | 禅問答 | a Zen koan | Ep 282。`proposition` のような抽象語にしない |
 | あの世 | **the "next world"**（引用符ごと） | Ep 241 の既訳。⚠️ 原文が「”あの世”のような世界」と括弧付きで書くので引用符を残す |
 | 固定観念 | fixed ideas | Ep 227 の既訳 |
+| バンブーフォレスト | **Bamboo Forest** | サウス・アンジュナの会場。Ep 283 初出、公開済みの Ep 285 で綴りが確定済み |
+| ナイン・バー | **Nine Bar** | アンジュナの崖上のバー／クラブ。Ep 295 初出、296〜299 の中心。実在の店名なのでグロス不要 |
+| ホフマン２０００／１９４３ | **Hofmann 2000 / Hofmann 1943** | ⚠️ **Hoffman ではない。**Ep 265・285 の既訳に一致 |
+| アルバート・ホフマン博士 | Dr. Albert Hofmann | 実在の人物。§6-2 の名→姓の規則どおり |
+| トビ | **the high** | Ep 225 の「トビの強さ＝the strength of the high」に一致。<br>⚠️ `trip` にしない（本シリーズは 旅 が頻出して衝突する）。`flying` は Ep 266 が別の意味で使っている |
+| 界王拳（◯倍） | **Kaio-ken (times ◯)** | Ep 284 初出。⚠️ Ep 211 のカメハメ波と同じく、**原文が作品名を出していないので Dragon Ball と書かない。**<br>初出の Ep 284 だけ最小限の同格グロスを置き、以降は繰り返さない |
+| 覚せい剤（LSDの混ぜ物） | speed | Ep 124・155 の既訳 |
+| 過剰摂取（見出し） | Overdose | Ep 265 本文の "the symptoms of an overdose" と整合 |
+| 祭祀の神官 | **the priest presiding over a rite** | ⚠️ **`shaman` にしない。**Ep 143・144 が ゴアギル に対して shaman を所有しており、<br>原語も シャーマン ではなく 神官 で別（Ep 296） |
+| 恍惚感 | something close to rapture | ⚠️ `ecstasy` にしない。§4 で エクスタシー＝薬物に割り当て済みで、本シリーズは薬物描写が濃い |
+| 半端ない | unreal | Ep 296 |
+| 箔がつく／夢のまた夢／業界人 | carried real weight / a dream beyond a dream / an industry man | Ep 296。業界人は Ep 117 の "film-industry man" と整合 |
+| 絶対時間／相対時間 | absolute time / a relative axis of time | **Ep 290 が所有**（この語を出すのは 290 だけ。Ep 288 には無い） |
+| 赤ちゃん回帰／赤ちゃん状態／退行 | Back to Being a Baby（見出し）／the baby state／regress | Ep 290〜294 の連続する筋。Ep 291 と 293 で既に一致している |
+| 生まれ変わりの儀式／生まれ直し | a ritual of rebirth / a second birth | Ep 294 が所有し、Ep 295 の冒頭が受ける |
+| 自意識／自我 | **sense of self** | Ep 3・14・159 の既訳と一致。⚠️ Ep 29 の `ego` には寄せない（同じ物を指す2語を分けると臨床的に読める） |
+| 浄化 | purification / purify | Ep 23・238 の既訳 |
+| トブ（主観的な飛び方） | **flying** | ⚠️ 効く＝**working** と使い分ける。「飛んでいないが効いてはいる」という対比が Ep 283・284・286 の要 |
+| トビっぱなし | the high never let up | Ep 294。原文が2回繰り返すので英語でも繰り返す |
+| 界王拳 | **Kaio-ken** | ⚠️ マクロン無し。Hadouken・Kamehameha と同じ扱いで、この作品群の英語表記に合わせる。<br>グロスは初出の Ep 284 が担い、Ep 289 は繰り返さない |
+| 問答（Ｔとの） | questions and answers | ⚠️ Ep 282 の 禅問答＝a Zen koan とは**別語**。統合しない |
+| ワンネス／未知の領域／超意識状態／シンクロ | Oneness / unknown territory / superconscious state / in sync | Ep 288。Ep 39・49・124・277 の既訳と一致 |
+| しずかちゃん | a live-action Shizuka-chan, the ideal girl from the Doraemon cartoons | 初出のみグロス。無いと「勝ち組」の一文が通じない |
+| 学級委員／勝ち組 | class president / one of the winners | Ep 288 |
+| 曲を繋ぐ／繋ぎ方 | bring in the next track / mixing | Ep 298 の中心動詞（6回）。Ep 299 に継続 |
+| 晴れ舞台 | **His Big Night** | Ep 297 の見出しが所有し、Ep 299 が参照する |
+| 音キチガイ | the sound lunatics | Ep 295 のみ。⚠️ **和らげない** |
+| 癒着 | **in bed with** | ⚠️ Ep 264 の「つながりがある＝had ties to」とは**別語**。癒着 は腐敗を指す強い語 |
+| 警察のトップ | the top of the police force | ⚠️ Ep 264 の「警察の幹部＝the senior police officers」とは別語 |
+| 熱血漢 | the hot-blooded one | Ep 62 の既訳と一致（Ｙの人物描写、Ep 291） |
+| 重鎮 | heavyweights | Ep 140 の既訳 |
+| ブースト | boost | Ep 286 の見出しと本文 |
+| 幻の楽園／砂上の楼閣 | a phantom paradise / a castle built on sand | ⚠️ §6-8 の「南国の楽園＝a tropical paradise」とは別語（Ep 295） |
+
+## 6-9. アーク34（ロンドンに住む話、Ep 305〜343）
+
+| 日本語 | 英語（固定） | 備考 |
+|---|---|---|
+| イギリス | **England** | アーク42「イギリスへ向かう話＝Heading for England」の既定訳に合わせる。Ep 300 初出 |
+
+⚠️ **このアークだけ、米語一辺倒の原則が一部ひっくり返る。**
+シリーズ全体は米語で、`translationese.md` は英国語をはじく。だが**この39話はロンドンが舞台**。
+**地名・制度・著者が観察する英国の生活は本物の英国語のままにする**（the Tube、flat、dole など、原文が書いているもの）。
+米語のままにするのは**語り手自身の語彙と言い回し**。語り手を英国風にしない、ロンドンを米国風にしない。
+
+⚠️ **Ｎちゃん／Ｔちゃん＝`N` / `T`。**Ep 122・123 で一緒に紹介されたロンドン帰りの女性2人（当時29歳・28歳）。
+ロンドンで3年ほどハウスシェアをしていた親友同士で、Ｎがロンドンへ戻ったことが渡英のきっかけ（Ep 300）。
+⚠️ **Ep 273〜275 のＮくん（サブカルのオタク）とは別人。**Ｎは本シリーズで4人、Ｓは4人いる。必ず原文で確かめる。
+Ｔは Ep 183・230・231・245・276 で Ｒ の連れ合いとして既出。Ep 288 の「実写版しずかちゃん」の描写も同一人物で矛盾しない。
 | パナジ市 | **Panaji** | ゴアの州都。Ep 278 初出。初出のみ "the capital of the state of Goa" と同格で説明 |
 | 覆面警察／観覧台 | undercover police / observation deck | Ep 278 |
 | ボンボンと（擬態語） | one after another | ⚠️ **同じ音で3つ別の語がある。**①擬態語のボンボンと（Ep 278「チロムがボンボンと回っている」＝次々と）、<br>②ボンボン＝**rich boys**（Ep 30・256）、③梵（ボン）＝**Bom** の掛け声（§6-7）。<br>Ep 278 は①。掛け声として訳して音を足さないこと |

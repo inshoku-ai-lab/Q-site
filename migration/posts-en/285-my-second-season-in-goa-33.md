@@ -44,7 +44,7 @@ Laughter and grins spreading out from them. The party was already going nicely.
 
 ## More
 
-The acid I'd taken twenty minutes earlier had started working. My vision was bending, the music was bending, and I was crossing over into some other dimension.
+The LSD I'd taken twenty minutes earlier had started working. My vision was bending, the music was bending, and I was crossing over into some other dimension.
 
 Which is what happens in twenty minutes when you take eight times the normal dose.
 
@@ -56,11 +56,11 @@ But that night my body wasn't going with it.
 
 I was wound as tight as I could get and wanted to be dancing that second, but my body wouldn't follow.
 
-So I decided to add half a tab of Hofmann acid on top.
+So I decided to add half a tab of Hofmann on top.
 
 I wasn't going to waste my last chance at a party. I meant to go all the way out.
 
-Eight times the normal dose already in me, another eight on top — sixteen times the normal dose of acid in total.
+Eight times the normal dose already in me, another eight on top — sixteen times the normal dose of LSD in total.
 
 It was absurd, and the risk I was taking was enormous, the kind where your mind goes out and doesn't come back. But at twenty-one, riding high, I couldn't see risk at all.
 

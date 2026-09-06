@@ -70,6 +70,6 @@ Measured against the cost of living in India that was an insane amount of money,
 
 I liked things with a distinctive quirk to them better than the finest grade, so I bought one by a craftsman named Fabio — shaped like the muzzle of a gun, in a subdued gray.
 
-The price was about 10,000 yen.
+The price was about 10,000 yen — roughly eighty dollars.
 
 I had been living on very little, so this was a bold purchase, but it was the magic item I needed to live my life all the way through, and to do it faster.
