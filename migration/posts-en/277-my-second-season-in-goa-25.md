@@ -46,7 +46,7 @@ And the price of that pleasure is not just your health but your life.
 
 ## A Snapped Wire
 
-Then one day V, one of the ○○ Crew, who had been messing around with speedballs, crossed the line.
+Then one day V, one of the XX Crew, who had been messing around with speedballs, crossed the line.
 
 He blacked out while he was still high.
 

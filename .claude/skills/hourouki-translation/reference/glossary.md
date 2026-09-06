@@ -475,6 +475,34 @@ Ep 100 の見出し `## 暴走族` は "Biker Gang"、本文はその30行後に
 | 悟りを開いた聖人 | enlightened saints | Ep 151 の「聖者＝B the Saint」と整合 |
 | ハードコアパンクス／極右・極左 | hardcore punks / far-right, far-left | Ep 271 |
 | マッドマックス | **Mad Max** | Ep 131 で既出（北斗の拳と並記）だが表に未掲載だった |
+| 変わり者／変わり者具合 | **eccentric / eccentricity** | ⚠️ Ｎくんの連続する3話（273〜275）で `eccentric` と `oddball` に割れたので **eccentric に統一した**。<br>理由は2つ：Ｎを導入する Ep 273 が語を所有すること、および<br>Ep 273 の「変わり者具合」に要る抽象名詞が `eccentricity` しか無いこと（`oddball` には無い）。<br>Ep 111・112 の既訳とも整合する |
+| ヒルトップ | **Hilltop** | パライソが警察に潰された後のゴアの会場。Ep 264 初出。原文が説明しないのでグロス不要 |
+| 不法侵入 | **trespass / trespassing** | Ep 264 の見出しと本文。原文が4回繰り返す（塀を越えるだけの行為に刑法用語を当てる可笑しみ）ので**減らさない** |
+| 警察の幹部 | the senior police officers | Ep 264 |
+| 世界の裏側 | the underside of the world | Ep 129 の既訳。Ep 264 がその回収 |
+| チャイ屋 | **chai stall** | Ep 110・132・140・149 で既訳。表に未掲載だった |
+| イカ飯 | **ikameshi** | 初出のみ "squid stuffed with rice"。Ep 270 がシリーズ初出 |
+| 南国のパラダイス／南国の楽園 | a tropical paradise | Ep 262・270。原文が節の頭と尾で繰り返すので**англ語でも繰り返す** |
+| ゴアの旅人文化 | Goa's traveler culture | Ep 270 の見出し。このアークで再出する見込み |
+| ビニールパッカー | **plastic-bagpacker** | 著者の造語（バックパッカーのもじり）。Ep 273 の見出し。<br>英語でも "backpacker" の音を残す |
+| パチスロ | **pachislot** | 初出のみ "the slot machines in Japan's pachinko parlors"。Ep 9・24 の `pachinko` に接続 |
+| 経験原理主義者 | an experience fundamentalist | 著者の造語。直訳を保つ |
+| 居候 | **crash（at someone's place）** | Ep 183 の既訳と一致。Ep 275 の見出しは "Crashing at Our Place" |
+| 自己責任 | everything is your own responsibility | Ep 111 の既訳と一致 |
+| 潤滑剤 | grease the wheels | Ep 275 |
+| 旅人の中心地 | the travelers' hub | Ep 42・223 の既訳と一致 |
+| 一戸建て | **a stand-alone house** | ⚠️ 英国語の `detached house` にしない |
+| 携帯音楽プレーヤー | a portable music player | Ep 276 |
+| ゴアのリスク／泥棒／ドラッグ（見出し） | The Risks of Goa / The Thief / Drugs | Ep 276 |
+
+⚠️ **伏字の扱い** — 著者が地名を 〇〇 と伏せている箇所（Ep 276 の「〇〇軍団」）は、
+英語では **`XX`**（`the XX Crew`）と書く。**英語本文に CJK の字を持ち込まない**という
+全体規則があるため（本文に残る唯一の日本語字は Ep 67 の 糖 で、これは論じている字そのもの）。
+語釈（東京の高級住宅地）は初出の Ep 276 が担い、Ep 277 は繰り返さない。
+
+⚠️ **Ｒさん＝`R`、Ｔちゃん＝`T`**（Ep 276 で再登場）。Ｒは Ep 102 のヘロイン／アヘンの友人、
+Ｔは Ep 122 のロンドンの女性。Ep 183・230・231・245 で夫婦として既出。
+`I` や `A` のような衝突が無いので裸のイニシャルでよい。
 
 ⚠️ **Ｎくん（Ep 273 初出、274・275 に継続）＝ `N`。** ⚠️ **Ep 116〜121 の男性Ｎ、Ep 122 以降のロンドンの女性Ｎとは全て別人。統合しない**（イニシャル使い回しの6組目）。
 ⚠️ **Ｖくん（Ep 277）＝ `V`。** 衝突なし。

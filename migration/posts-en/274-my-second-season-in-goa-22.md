@@ -32,7 +32,7 @@ qa:
 
 (Reproduction of the content below is prohibited. Legal action will be taken.)
 
-## An Oddball, Amplified
+## An Eccentric, Amplified
 
 N's strangeness was gaining momentum, fed by the free land that was Goa, by the Goa trance parties, and by the consciousness-amplifying effect of large amounts of LSD.
 
@@ -44,7 +44,7 @@ Some do think about how cool they look, or how beautiful, how cute, but most peo
 
 And at a Goa trance party, not caring about it is precisely what makes you cool.
 
-But N, oddball to the core, was concentrating on how bad, how lame he could make his dancing.
+But N, eccentric to the core, was concentrating on how bad, how lame he could make his dancing.
 
 And not for five or ten minutes either — he kept it up all night, eight hours straight, in single-minded pursuit of looking as uncool as possible.
 

@@ -30,7 +30,7 @@ qa:
 
 ## Crashing at Our Place
 
-N, an oddball with a free and easy sense of money, was having far too good a time in Goa to leave, and bit by bit his travel money ran out.
+N, an eccentric with a free and easy sense of money, was having far too good a time in Goa to leave, and bit by bit his travel money ran out.
 
 Then one day he finally reached the point where he had no money at all except his plane fare home, and he could not pay his rent.
 
