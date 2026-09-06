@@ -441,6 +441,44 @@ Ep 100 の見出し `## 暴走族` は "Biker Gang"、本文はその30行後に
 | ダサい | **lame** または **uncool**（固定しない） | ⚠️ **意図的に未固定。**既訳は corpus 全体で lame 8箇所・uncool 4箇所に分かれており、<br>強い切り捨ては lame、軽い気まずさは uncool と**語調で選ばれている**。原語は同じでよい。<br>片方に寄せる「統一」をしない（ブラウンシュガーの動詞・空手家と同じ轍） |
 | ディスコ（パライソ） | a club | 米語の `disco` は70年代の含意が強い。Ep 140 で場所は紹介済み |
 
+| 負のスパイラル | **downward spiral** | Ep 268 の本文と Ep 269 の見出し `## The Downward Spiral` を繋ぐ語。<br>⚠️ `vicious circle` にすると「下降」の像が「反復」に変わり、2話の連結が切れる |
+| ゴアの１月／パーティーのストップ期間 | January in Goa / the local school exam season | 1月中旬〜2月中旬にパーティーが止まる。地元の学校のテスト期間が理由（Ep 269） |
+| ケープタウン | Cape Town | Ep 247 初出 |
+| 千年紀 | a millennium / the turn of a millennium | ⚠️ Ep 148 の「ミレニアム＝the millennium」（暦年としての1999年）とは**別語** |
+| チャーン島 | **Koh Chang** | Ep 245 で確定、246 で再出。§6-3（タイ）に未掲載だった |
+| 禁断症状 | **withdrawal** | Ep 245〜246 のアヘンの筋。Ep 246 は見出し `## Withdrawal` |
+| サウスアフリカ（カタカナ） | South Africa | ⚠️ 原文は Ep 246・260 でカタカナ、Ep 255・256 で「南アフリカ」。**同じ国。訳し分けない** |
+| 増幅された変わり者（見出し） | An Oddball, Amplified | Ep 274 |
+| LSDノート | **the LSD Notebook** | Ｎくん本人の造語。繰り返し出るので固定する（Ep 274） |
+| 遊ぶ（パーティーで） | cut loose | ⚠️ `playing` は本シリーズでは**楽器の演奏**と誤読される |
+| チロムを揉む | **knead a chillum** | ⚠️ **語を定義しているのは Ep 264**（「混ぜ合わせる行為が揉んでいるように見えるから」）。<br>Ep 272 以降はこれを既知語として使う。定義話の動詞に全話が従う |
+| チロムチェロ／チェロ | chillum chelo / **chelo** | 初出のみ "the Hindi word for taking your leave"。<br>⚠️ 標準ヒンディー語の *chalo* に**直さない**（著者の表記を改変しない） |
+| チロムの輪 | the chillum circle | Ep 253 の "chillum circles" と一致 |
+| 見えない階級／階級制度 | an invisible class system / that class system | ⚠️ Ep 253 の「カースト＝the Goa caste system」と**統合しない**。<br>原文が階級とカーストを書き分けている |
+| 悪循環 | **vicious cycle** | ⚠️ Ep 268 の「負のスパイラル＝downward spiral」と**別語**。連続する2話で著者が語を変えている |
+| 餅 | **mochi** | 初出のみ "pounded rice cakes"。シリーズ全体で Ep 267 が初出 |
+| 海苔 | nori seaweed | Ep 267 初出。Ep 90 の `nori-tsukkomi` とは無関係 |
+| 〇〇軍団／軍団 | **the ○○ Crew** / 単体は **the Crew** | ⚠️ 著者自身の伏字 ○○ を**そのまま残す**（地名を創作しない）。<br>語釈（東京の高級住宅地）を担うのは初出の **Ep 276**。Ep 277 は説明を繰り返さない |
+| スピードボール | speedball | Ep 277 |
+| 粉物（薬物の隠語） | **the powders** | 食べ物の意ではない。原文自身が「コカインとヘロイン」と同格で説明する |
+| ワンネス体験 | an experience of oneness | Ep 39・49・124 の既訳 "oneness" と一致 |
+| 断線（見出し） | A Snapped Wire | ⚠️ 本文「頭の線が一本切れた＝a wire in his head had snapped」と繋がっているので、<br>米語の "a screw loose" にすると見出しが浮く |
+| 魔物 | the monster | 婉曲化しない |
+| 諸刃の剣／奈落の底 | a double-edged sword / the bottom of the abyss | Ep 277 |
+| カシミール／カシミール人 | Kashmir / a Kashmiri | Ep 251。原文自身が位置を説明するのでグロス不要 |
+| カシミール産（大麻樹脂） | Kashmiri hash / the Kashmiri stuff | ⚠️ Ep 225 の `cream` とは**別の産地銘柄**。統合しない |
+| ２等寝台車／最上段 | second-class sleeper car / the top berth | Ep 90 の既訳に等級を足した形 |
+| くれくれの段階 | **the gimme stage** | Ep 250 が初出で語を所有する |
+| 裏技 | a trick | `cheat` / `hack` にしない |
+| 事なかれ主義 | **don't-make-waves mentality** | シリーズ全体で Ep 271 の1箇所のみ |
+| 濃い／濃さ | **話ごとに選ぶ（固定しない）** | ⚠️ **意図的に未固定。**既訳は Ep 154「intensity / oddball density」、Ep 161「sheer character」、<br>Ep 194「how undiluted it was」と分かれており、原語の幅が広い。<br>ただし **1話の中では揃える**：Ep 271 は見出し（濃さの原因）と本文で5回出るので intensity に統一し、<br>濃縮＝a concentrate distilled from、血中LSD濃度＝concentration で語呂を残した。<br>Ep 272 の「濃い人生経験」は**豊かな人生の意で別**。揃えない |
+| 悟りを開いた聖人 | enlightened saints | Ep 151 の「聖者＝B the Saint」と整合 |
+| ハードコアパンクス／極右・極左 | hardcore punks / far-right, far-left | Ep 271 |
+| マッドマックス | **Mad Max** | Ep 131 で既出（北斗の拳と並記）だが表に未掲載だった |
+
+⚠️ **Ｎくん（Ep 273 初出、274・275 に継続）＝ `N`。** ⚠️ **Ep 116〜121 の男性Ｎ、Ep 122 以降のロンドンの女性Ｎとは全て別人。統合しない**（イニシャル使い回しの6組目）。
+⚠️ **Ｖくん（Ep 277）＝ `V`。** 衝突なし。
+
 ⚠️ **人物** — Ｙさん＝`Y`（映画の助監督、Ep 253 初出、このアークの中心）、
 Ａさん＝**`A-san`**（Ｙの後輩。⚠️ 裸の `A` は英語の冠詞と区別がつかないので**このイニシャルだけ敬称を残す**）、
 Ｉちゃん＝`I-chan`（著者の恋人。代名詞 I との衝突を避けるため `-chan` を残す）、

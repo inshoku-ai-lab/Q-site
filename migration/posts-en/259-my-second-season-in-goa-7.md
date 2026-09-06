@@ -46,7 +46,7 @@ The entry fee came to about 160 yen — a dollar and a quarter, a laughable amou
 
 It was my first party in Goa in a year, and over something as small as the organizers collecting an entry fee, I could never quite get into it.
 
-It was the same for everyone else there, and the old-time hippies, who could feel the beginning of the end of Goa, looked deflated somehow.
+It was the same for everyone else there, and there was something deflated about the old-time hippies, who could feel the beginning of the end of Goa.
 
 The ones who looked like they were seeing Goa for the first time, on the other hand, cared nothing about any of it and were having a great time, which in turn made them look lame, and an invisible divide opened up inside me.
 
