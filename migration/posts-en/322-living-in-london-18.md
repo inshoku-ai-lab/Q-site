@@ -46,7 +46,7 @@ Even I was taken aback by the sight.
 
 I had heard that the rules on cannabis loosened up on carnival day, but I never imagined it went this far.
 
-On a stage organized by the state broadcaster, of all places, someone who was probably on the broadcaster's own staff was reaching into a big clear bag stuffed full of cannabis and handing out fistfuls of it, right in front of an audience of several hundred, with no attempt whatsoever to hide it.
+On a stage organized by the state broadcaster, of all places, someone who was probably on the broadcaster's own staff was digging into a big clear bag stuffed full of cannabis and passing out fistfuls of it, right in front of an audience of several hundred, with no attempt whatsoever to hide it.
 
 India was fairly loose about cannabis too, but in a country like Japan, just having a single gram on you gets you six months in prison.
 

@@ -72,4 +72,4 @@ The mackerel sky lying low over us changed color in order, from one edge across,
 
 Just getting to see that morning glow made it the best moment of all, the kind that washes everything away and leaves you wrapped in love and friendship.
 
-Whether it had all been good or bad I couldn't tell, but there was something there that made you accept it: this is fine as it is.
+Whether it had all been good or bad I couldn't tell, but there was something there that made you accept it: "this is fine as it is."
