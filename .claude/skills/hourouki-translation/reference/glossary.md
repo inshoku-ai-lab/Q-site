@@ -507,6 +507,12 @@ Ep 132〜136 の関西のおっさんＳ、そして Ep 279 のこのＳ。**い
 | 霊的な修行 | **spiritual practice** | ⚠️ 既存の「修行＝training」は**滝の話に限った項目**。<br>ここは 霊的な が既に語調を担っており、`training` だと運動部の練習に読まれる（Ep 279） |
 | ジメチルトリプタミン | dimethyltryptamine | Ep 279 で1度だけ正式名が出る。DMT の初出説明は Ep 268 |
 | 出会い（見出し） | The Meeting | Ep 279 |
+| 幾何学曼荼羅 | **geometric mandala** | Ep 282 の DMT セッション。Ep 283 以降で像が呼び戻される見込み |
+| 愛の存在／異次元の存在の意思 | a being of love / a will of its own | Ep 282 |
+| 物質世界 | the material world | Ep 282 |
+| 禅問答 | a Zen koan | Ep 282。`proposition` のような抽象語にしない |
+| あの世 | **the "next world"**（引用符ごと） | Ep 241 の既訳。⚠️ 原文が「”あの世”のような世界」と括弧付きで書くので引用符を残す |
+| 固定観念 | fixed ideas | Ep 227 の既訳 |
 | パナジ市 | **Panaji** | ゴアの州都。Ep 278 初出。初出のみ "the capital of the state of Goa" と同格で説明 |
 | 覆面警察／観覧台 | undercover police / observation deck | Ep 278 |
 | ボンボンと（擬態語） | one after another | ⚠️ **同じ音で3つ別の語がある。**①擬態語のボンボンと（Ep 278「チロムがボンボンと回っている」＝次々と）、<br>②ボンボン＝**rich boys**（Ep 30・256）、③梵（ボン）＝**Bom** の掛け声（§6-7）。<br>Ep 278 は①。掛け声として訳して音を足さないこと |
