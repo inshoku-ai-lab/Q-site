@@ -42,7 +42,7 @@ Judging by their reactions, I had passed, more or less.
 
 The dishes kept coming, one after another, and I kept washing without a break.
 
-Somewhere around the point the evening rush had passed, Onee-san made me a staff meal.
+Somewhere around the point the evening rush had passed, Oneesan made me a staff meal.
 
 In her Thai-accented English she told me, "Food, eat."
 
