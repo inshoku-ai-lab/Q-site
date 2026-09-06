@@ -581,6 +581,23 @@ Ep 132〜136 の関西のおっさんＳ、そして Ep 279 のこのＳ。**い
 | しっかりとデキあがる | thoroughly gone | 強度の段階：be high → be wrecked → be gone → stoned out of my mind |
 | 目から鱗 | having the scales fall from my eyes | 像を残す。平易化しない |
 | ハーフ（人物の） | half X and half Y | ⚠️ Ep 142 の ハーフ は**ハーフパンツ**で別語 |
+| オカマ | **okama**（初出のみ "the crude Japanese word for a flamboyant gay man"） | ⚠️ **英語の蔑称に置き換えない。**原文が描いているのは日本のテレビ的な類型であり、<br>英語の俗語を当てると別の含意が入る。**和らげもしない**（変態／奇抜／危険 → perverts / freakish / dangerous）。Ep 316 |
+| トランスジェンダー | transgender | ⚠️ **著者の2000年当時の枠組みをそのまま訳す。**Ｅは "he" のまま、相手も原文どおり。<br>現代の用法に直さない。**訳者が時代を修正しない** |
+| 〜業界（トランスジェンダーの） | **scene**（`industry` にしない） | ⚠️ 直訳の "the transgender industry" は現在の米語では政治的な決まり文句に読まれ、<br>原文が持たない含意が入る（スキンヘッドと同じ罠）。Ep 316 の見出しは "Berlin's Transgender Scene" |
+| 姉御肌 | the big-sister sort who takes everyone under her wing | Ep 316 |
+| 牛若丸 | Ushiwakamaru, the boy warrior out of the old tales | 初出のみ。全522話で Ep 316 のみ |
+| イタい／イタさ | **cringeworthy** | ⚠️ 裸の `cringe` にしない（ネットスラングに読まれる）。<br>名詞形は "a cringeworthy sight" / "how cringeworthy it was"。Ep 317・318 のみ |
+| 奇抜 | outlandish | Ep 313・317 |
+| ロンドン市警 | **the Metropolitan Police** | 実在の英国機関名。§6-9 の規則どおり |
+| ロンドン市街 | **central London** | ⚠️ **`the City of London` にしない**（金融街の固有地区を指してしまう） |
+| ノッティングヒル・カーニバル | **the Notting Hill Carnival** | Ep 320 が所有。Ep 321 は裸の「カーニバル」なので英語も "the carnival" |
+| イギリス人 | the English | Ep 102 の既訳と整合 |
+| easyJet／easyNet／Hotmail | easyJet / easyNet / Hotmail | ⚠️ **easyNet は easyEverything に直さない。**原文が「〜だったと思う」と<br>**曖昧な記憶として書いている**ので、正しい店名に修正すると著者の言い方が消える（Ep 324） |
+| ファイヤーショー／ファイヤー・パフォーマー | fire show / fire performer | Ep 313 が所有。⚠️ 原文は ファイヤー／ファイアー で綴りが揺れるが同じ語 |
+| 兄貴分 | like a big brother | ⚠️ 実の兄は "older brother"。全522話で Ep 314 のみ |
+| 治験のバイト／人体実験 | clinical trial work / medical experimentation on human beings | ⚠️ **和らげない。**原文が直後に定義するので先回りして説明しない（Ep 315） |
+| Fishmans／「新しい人」／佐藤伸治 | Fishmans / "Atarashii Hito" ("A New Person") / Shinji Sato | ⚠️ **ザ・ は落とす**（英語盤の実際の表記）。全522話で Ep 329 のみ |
+| 内観（見出し） | **Looking Inward** | Ep 329 が所有し、Ep 330 が受ける |
 
 ⚠️ **このアークだけ、米語一辺倒の原則が一部ひっくり返る。**
 シリーズ全体は米語で、`translationese.md` は英国語をはじく。だが**この39話はロンドンが舞台**。
