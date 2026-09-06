@@ -552,6 +552,19 @@ Ep 132〜136 の関西のおっさんＳ、そして Ep 279 のこのＳ。**い
 | 日本語 | 英語（固定） | 備考 |
 |---|---|---|
 | イギリス | **England** | アーク42「イギリスへ向かう話＝Heading for England」の既定訳に合わせる。Ep 300 初出 |
+| キックボード | **kick scooter** | ⚠️ **二語で固定。**素の `scooter` は本シリーズでは原付（Ep 100・275）を指すので衝突する（Ep 306） |
+| 友蔵 | **Tomozo** | 初出のみ "the grandfather in Chibi Maruko-chan"。作品名は Ep 44 で説明済み |
+| 不法就労 | working illegally | Ep 306 |
+| タイレストラン／皿洗いのバイト | the Thai restaurant / a dishwashing job | Ep 305 が所有し、306 が受ける |
+| 絶景中の絶景 | **the spectacle of all spectacles** | ⚠️ 全522話でこの2箇所のみ（Ep 303・304）。両話で一致させ済み |
+| インド中毒 | a deep addiction to India | Ep 303 初出 |
+| リクシャー（マナリ→バシシト） | auto-rickshaw | Ep 178 が同じ道程で既訳 |
+| 二人旅／一人旅 | traveling as a pair / traveling alone | Ep 302 が所有（二人旅 は全522話でここだけ）。Ep 90 の "solo travel" とも両立する |
+| 痴漢 | **groping / grope** | Ep 75 の既訳を踏襲。⚠️ **和らげない**（強姦＝rape、陰湿＝furtive、横行＝rampant） |
+| トルクメニスタン | Turkmenistan | 全522話で Ep 304 のみ。イラン＝Iran、アフガニスタン＝Afghanistan、元ソビエトの国＝a former Soviet country |
+| LSDの紙片 | the squares of LSD paper | ⚠️ Ep 210 の「ペーパーアシッド＝paper acid」とは**別語**。原文が紙片と書いているので像を残す（Ep 304） |
+| フィッシュ・カレー／ラッシー／ハイシーズン | fish curry / lassi / high season | Ep 301。原文が自己説明するのでグロス不要 |
+| 遊園地 | amusement park | Ep 6 の既訳。表に未掲載だった |
 
 ⚠️ **このアークだけ、米語一辺倒の原則が一部ひっくり返る。**
 シリーズ全体は米語で、`translationese.md` は英国語をはじく。だが**この39話はロンドンが舞台**。

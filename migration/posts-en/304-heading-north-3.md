@@ -82,7 +82,7 @@ I'd been thinking about this plan for a while, so I had even lined the flight up
 
 The plane took off smoothly, and right on schedule, when I looked out the window, the setting sun was dead center.
 
-And by good luck, a sea of clouds stretched away beneath it — the finest of all fine views, spread out in front of me.
+And by good luck, a sea of clouds stretched away beneath it — the spectacle of all spectacles, spread out in front of me.
 
 I was grateful for my own luck, getting to enjoy a view like that wrecked out of my mind.
 
