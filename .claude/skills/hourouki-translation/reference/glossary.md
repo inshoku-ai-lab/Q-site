@@ -517,7 +517,7 @@ Ep 132〜136 の関西のおっさんＳ、そして Ep 279 のこのＳ。**い
 | ナイン・バー | **Nine Bar** | アンジュナの崖上のバー／クラブ。Ep 295 初出、296〜299 の中心。実在の店名なのでグロス不要 |
 | ホフマン２０００／１９４３ | **Hofmann 2000 / Hofmann 1943** | ⚠️ **Hoffman ではない。**Ep 265・285 の既訳に一致 |
 | アルバート・ホフマン博士 | Dr. Albert Hofmann | 実在の人物。§6-2 の名→姓の規則どおり |
-| トビ | **the high** | Ep 225 の「トビの強さ＝the strength of the high」に一致。<br>⚠️ `trip` にしない（本シリーズは 旅 が頻出して衝突する）。`flying` は Ep 266 が別の意味で使っている |
+| **トビ**（名詞） | **the high** | Ep 225 の「トビの強さ＝the strength of the high」に一致。<br>⚠️ **トビ を `trip` にしない**（本シリーズは 旅 が頻出して衝突する）。`flying` は Ep 266 が別の意味で使っている。<br>⚠️ **この禁止は トビ だけに掛かる。**原文が **トリップ** と書いていれば **trip** でよい<br>（既出の バッドトリップ＝bad trip と揃う。Ep 328 は見出し「トリップ」＝"The Trip" で、<br>2ブロック後の 旅路 との地口も English で残る） |
 | 界王拳（◯倍） | **Kaio-ken (times ◯)** | Ep 284 初出。⚠️ Ep 211 のカメハメ波と同じく、**原文が作品名を出していないので Dragon Ball と書かない。**<br>初出の Ep 284 だけ最小限の同格グロスを置き、以降は繰り返さない |
 | 覚せい剤（LSDの混ぜ物） | speed | Ep 124・155 の既訳 |
 | 過剰摂取（見出し） | Overdose | Ep 265 本文の "the symptoms of an overdose" と整合 |
@@ -565,6 +565,22 @@ Ep 132〜136 の関西のおっさんＳ、そして Ep 279 のこのＳ。**い
 | LSDの紙片 | the squares of LSD paper | ⚠️ Ep 210 の「ペーパーアシッド＝paper acid」とは**別語**。原文が紙片と書いているので像を残す（Ep 304） |
 | フィッシュ・カレー／ラッシー／ハイシーズン | fish curry / lassi / high season | Ep 301。原文が自己説明するのでグロス不要 |
 | 遊園地 | amusement park | Ep 6 の既訳。表に未掲載だった |
+| スクワット・ハウス | **squat house**（単体は the squat） | **Ep 309 が定義を所有。**⚠️ 原文の定義自体が矛盾している（不法占拠 と書きつつ 合法／半合法的に占拠 とも書く）。<br>**両方そのまま残す。**著者のものなので後から「直さない」 |
+| オキュペーション・ハウス | **occupation house** | 著者の造語。標準英語ではないので初出のグロス "a building taken over without legal title" は必須 |
+| ダンプスター・ダイビング／フリーガン | dumpster diving / freegan | Ep 309 初出、Ep 310 に見出しで再出。米語だが**著者自身のカタカナ語**なので残す |
+| 不法占拠 | **illegal occupation** | ⚠️ Ep 264 の「不法侵入＝trespass」とは**別語**。統合しない |
+| グラストンベリー・フェスティバル | **Glastonbury Festival** | ⚠️ 冠詞を付けない。⚠️ **原文の綴りが3通りに割れている**（グラントンベリー／グランストンベリー）。<br>いずれも校正記録にある誤字。正しい綴りで訳す |
+| ブリクストン | **Brixton** | "a neighborhood in south London"。地名は英国式、`neighborhood` は語り手の米語 |
+| DJ Tsuyoshi／リターン・トゥ・ザ・ソース | DJ Tsuyoshi / Return to the Source | 実在のDJとロンドンのイベント。原文が説明する以上のグロスを足さない |
+| ダッカ／バングラデシュ／ガンジス川 | Dhaka / Bangladesh / the Ganges | ⚠️ 原文は バングラディッシュ と バングラデシュ で揺れるが同じ国 |
+| ビーマン・バングラデシュ航空 | Biman Bangladesh Airlines / Biman Air | 原文が両形を使うので英語でも両方使う |
+| 海老の養殖場／冷凍エビ | shrimp farm / frozen shrimp | ⚠️ `prawns` にしない。ロンドンの例外規定は**英国で観察したもの**に掛かる。<br>これはバングラデシュについての語り手自身の語彙 |
+| スティービー・ワンダー家族 | the Stevie Wonder family | 語釈は Ep 307（盲目の音楽教師の大家一家）が担い、Ep 308 は繰り返さない |
+| ATM | **ATM** | ⚠️ `cash machine` にしない。**原文自身が ATM と書いている**うえ、「イギリスのATM会社」は<br>著者の素朴な思い違いなので、正しい言い方に直さずそのまま残す |
+| ２０ポンド紙幣 | a twenty-pound note | ⚠️ `bill` にしない（英国の通貨なので英国式） |
+| しっかりとデキあがる | thoroughly gone | 強度の段階：be high → be wrecked → be gone → stoned out of my mind |
+| 目から鱗 | having the scales fall from my eyes | 像を残す。平易化しない |
+| ハーフ（人物の） | half X and half Y | ⚠️ Ep 142 の ハーフ は**ハーフパンツ**で別語 |
 
 ⚠️ **このアークだけ、米語一辺倒の原則が一部ひっくり返る。**
 シリーズ全体は米語で、`translationese.md` は英国語をはじく。だが**この39話はロンドンが舞台**。
