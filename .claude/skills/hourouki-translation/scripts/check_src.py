@@ -20,6 +20,10 @@ def norm_lines(text):
         l = l.strip()
         if not l or "前の記事" in l or "次の記事" in l:
             continue
+        # 会員限定：Notion は <callout> の3行、エクスポートは「>🔒ここから会員限定」の1行
+        if l.startswith("<callout") or l == "</callout>":
+            continue
+        l = re.sub(r"^>\s*🔒\s*", "", l)
         l = re.sub(r"https?://qryptravel+er\.com", "", l).replace("/images/wp", "")
         l = re.sub(r"[\s　\\]", "", l)
         if l in ("###",):
@@ -28,10 +32,18 @@ def norm_lines(text):
     return out
 
 
+import json
+_IDX = {e["ep"]: e for e in json.load(open(f"{ROOT}/migration/reports/episode-index.json"))}
+
+
 def export_for(ep):
-    c = [p for p in glob.glob(f"{ROOT}/migration/posts/*autobiography-{ep}.md")]
-    c = [p for p in c if re.search(rf"[-_]autobiography-{ep}\.md$", p)]
-    return c[0] if c else None
+    # ファイル名の型は話によって違う（…-autobiography-382-a-story-… など）。索引の slug で引く
+    slug = _IDX.get(ep, {}).get("slug")
+    c = glob.glob(f"{ROOT}/migration/posts/*_{slug}.md") if slug else []
+    if not c:
+        c = [p for p in glob.glob(f"{ROOT}/migration/posts/*autobiography-{ep}*.md")
+             if re.search(rf"autobiography-{ep}(\D|$)", p)]
+    return c[0] if len(c) == 1 else None
 
 
 def check(ep):
