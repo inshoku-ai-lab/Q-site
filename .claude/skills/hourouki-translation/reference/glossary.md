@@ -724,6 +724,41 @@ Ep 132〜136 の関西のおっさんＳ、そして Ep 279 のこのＳ。**い
 | 打ち上げ | the wrap party | Ep 386 の既訳 |
 | 根性焼き | *konjo-yaki*（原文が定義：手の甲にタバコを押し付ける不良の儀式） | 449 |
 
+## 6-13. アーク45〜47（祖父の死／自転車で沖縄へ／石垣島でキャンプ、Ep 490〜520）
+
+| 日本語 | 英語（固定） | 備考 |
+|---|---|---|
+| 叔父 | **my uncle** | 母の兄。**血縁なので uncle でよい** |
+| オッチャン（大阪弁） | a regular downtown Osaka guy | uncle にしない |
+| 団地 | **public housing project** / the projects | 母が住む。492・495・497 |
+| 公民館 | the community center | 492 |
+| 大往生／荼毘にふす | a long life, well lived / cremate | 490・493 |
+| 失恋旅行／傷心旅行 | a trip to get over a breakup / a trip to heal a broken heart | 495・517 |
+| プチ成金 | **nouveau riche, in a small way**（著者の造語的な言い方） | 496 の見出し。本文に3回。1話の中で揃える |
+| ロードバイク | road bike | 495 |
+| 野宿 | sleeping rough | 497〜 |
+| お遍路／お遍路さん | the henro pilgrimage / henro pilgrims | 501。原文が「88か所のお寺を回る巡礼」と説明する |
+| 自然原理主義／エコロジーカルト | nature fundamentalism / an ecology cult | 502。**Ep 417 の見出し「エコロジー原理主義」は "Ecological Fundamentalism"**（417 が所有）。fundamentalism の語を揃える |
+| ランナーズハイ | a runner's high | 502 |
+| 崖崩れ | landslide | 503〜505 |
+| 軽トラ | a kei truck（初出のみ "one of those tiny Japanese pickup trucks"） | 503 |
+| ちゃんぽん | champon（初出のみ "a Nagasaki-style noodle soup"） | 506 |
+| 只食い | dine and dash | 506 |
+| 溶岩道路 | the Lava Road | 509 |
+| 龍神温泉 | Ryujin Onsen | 509。⚠️ 和歌山の同名の温泉とは別物。原文の名前のまま |
+| 白装束／混浴 | white robes / mixed bathing | 509 |
+| スネ夫 | Suneo, the rich kid in *Doraemon* | 495。Ep 288 のしずかちゃんと同じ扱い |
+| 吉野家の紅生姜 | the free pickled ginger at Yoshinoya | 499 |
+| レインボーギャザリング | the Rainbow Gathering | 511〜513。原文が運営方法を説明する |
+| フードサークル | the food circle | 512 |
+| タントラヨガ／セックスヨガ | tantric yoga / "sex yoga" | 513・514。和らげない |
+| キビ刈り | sugarcane cutting | 515〜520 |
+| 米原ビーチ／竹富島 | Yonehara Beach / Taketomi Island | 515・520 |
+| 初日の出 | the first sunrise of the year | 517・518 |
+| 梵 | **Bom**（§6-7） | 518。原文が「ヒンドゥー語での大麻を吸う儀式」と定義する（著者の思い違いのまま） |
+| 風来坊 | drifters | 520 |
+| オウム真理教 | Aum Shinrikyo | 520。「1995年のオウム真理教テロ事件」は原文どおり |
+
 ## 7. 円→ドル換算レート（年代別）
 
 **その時代のレートを使う。** 現在のレートで換算すると金額感が壊れる。
