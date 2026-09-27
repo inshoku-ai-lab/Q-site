@@ -724,6 +724,17 @@ Ep 132〜136 の関西のおっさんＳ、そして Ep 279 のこのＳ。**い
 | 打ち上げ | the wrap party | Ep 386 の既訳 |
 | 根性焼き | *konjo-yaki*（原文が定義：手の甲にタバコを押し付ける不良の儀式） | 449 |
 
+### 6-12 追記（Ep 483〜489）
+
+| 日本語 | 英語 | 備考 |
+|---|---|---|
+| 以前の小屋 | the other hut | 484。原文が「小さい方」と言わない箇所に small hut を補わない |
+| 夜叉のような目 | glared at me like a demon | 484。yaksha にしない |
+| 打ち上げ／宴会（場） | the wrap party / banquet (hall) | 485 は打ち上げ、487・489 は宴会。原文の語で分ける |
+| お酌 | Pouring Drinks（見出し） | 488 |
+| 社長 | the president | 487（§6-12 と同じ） |
+
+
 ## 6-13. アーク45〜47（祖父の死／自転車で沖縄へ／石垣島でキャンプ、Ep 490〜520）
 
 | 日本語 | 英語（固定） | 備考 |
@@ -758,6 +769,21 @@ Ep 132〜136 の関西のおっさんＳ、そして Ep 279 のこのＳ。**い
 | 梵 | **Bom**（§6-7） | 518。原文が「ヒンドゥー語での大麻を吸う儀式」と定義する（著者の思い違いのまま） |
 | 風来坊 | drifters | 520 |
 | オウム真理教 | Aum Shinrikyo | 520。「1995年のオウム真理教テロ事件」は原文どおり |
+| 不幸の連続（見出し） | One Blow After Another | 490 が所有。492 の同じ見出しも揃えた |
+| ドヤ街 | doya district（アーク内の初出 490 のみ "blocks of flophouses for day laborers"） | 490・492。シリーズ初出は Ep 2 |
+| 消費者金融／火葬場／年金 | consumer loan company / crematorium / pension | 493。loan shark にしない（合法の業者） |
+| 777（文字数） | 777 characters **in Japanese** | 494。英語の語数ではないと分かるように |
+| 姫路 | Himeji（初出のみ "west of Kobe"） | 495 |
+| 四国 | Shikoku（初出 497 のみ "the smallest of Japan's four main islands"） | 497 が初出。498 のグロスは 497 へ移した |
+| 和歌山／徳島／江戸時代 | Wakayama（港は the port of Wakayama）/ Tokushima / the Edo period | 497・498 |
+| 吉野家 | Yoshinoya（アーク内初出 499 に "the beef-bowl chain"） | シリーズ初出は Ep 30 |
+| うどん定食／みかん／おかみさん／座敷 | the udon set meal / mandarin oranges / the proprietress / the raised tatami seating | 499・500 |
+| かまぼこ／ちくわ／おでん／練製品 | kamaboko（初出 "a steamed fish cake"）/ chikuwa / oden（初出 "a simmered fish-cake-and-vegetable stew"）/ fish-paste foods | 500。502 はグロスなし |
+| 室戸岬／本州 | Cape Muroto / Honshu（初出 "Japan's main island"） | 500・502 |
+| 遊行者／修行僧的な格好 | wandering ascetics / dressed like ascetic monks | 501。遊行僧（wandering monks）とは別語 |
+| エコロジー研究家 | the ecology researcher | 502。Ep 391 の「エコロジー博士」＝ a doctor of ecology とは原文の語が違うので別 |
+| 泡盛 | awamori（初出 "the local liquor"） | 515 |
+| 非殺生 | a philosophy of not killing | 512。ahimsa にしない |
 
 ## 7. 円→ドル換算レート（年代別）
 
