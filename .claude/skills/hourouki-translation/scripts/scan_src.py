@@ -6,7 +6,9 @@
 だから「英語での添字」＝ `<callout` より前にある本文ブロック数。
 """
 import re, sys, os, glob
-SP = "/tmp/claude-0/-home-user-Q-site/be7f11fc-3367-5f2b-82d5-fe91af67177b/scratchpad/ja-src"
+import sys as _sys, os as _os; _sys.path.insert(0, _os.path.dirname(_os.path.abspath(__file__)))
+from sp import SP as _SP
+SP = os.path.join(_SP, "ja-src")
 NAV = re.compile(r"^\\?\[\s*(前|次)の記事")
 
 def scan(ep):

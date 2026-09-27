@@ -14,12 +14,14 @@ import glob
 import json
 import os
 import re
+import sys as _sys, os as _os; _sys.path.insert(0, _os.path.dirname(_os.path.abspath(__file__)))
+from sp import SP as _SP
 
 ROOT = "/home/user/Q-site"
 POSTS_EN = os.path.join(ROOT, "migration/posts-en")
 INDEX = os.path.join(ROOT, "migration/reports/episode-index.json")
 REPORT = os.path.join(ROOT, "migration/reports/VERIFICATION-REPORT-ja.md")
-BT = "/tmp/claude-0/-home-user-Q-site/be7f11fc-3367-5f2b-82d5-fe91af67177b/scratchpad"
+BT = _SP
 IMG = re.compile(r"!\[([^\]]*)\]\(")
 
 

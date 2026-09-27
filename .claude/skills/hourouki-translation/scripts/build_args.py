@@ -18,13 +18,15 @@ import json
 import os
 import re
 import sys
+import sys as _sys, os as _os; _sys.path.insert(0, _os.path.dirname(_os.path.abspath(__file__)))
+from sp import SP as _SP
 
 ROOT = "/home/user/Q-site"
 SKILL = os.path.join(ROOT, ".claude/skills/hourouki-translation")
 ARC_MAP = os.path.join(SKILL, "reference/arc-map.md")
 INDEX = os.path.join(ROOT, "migration/reports/episode-index.json")
 POSTS_EN = os.path.join(ROOT, "migration/posts-en")
-JA_SRC = "/tmp/claude-0/-home-user-Q-site/be7f11fc-3367-5f2b-82d5-fe91af67177b/scratchpad/ja-src"
+JA_SRC = os.path.join(_SP, "ja-src")
 
 TOTAL = 522  # Episode 0..521
 

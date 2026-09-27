@@ -19,12 +19,14 @@ import json
 import os
 import re
 import sys
+import sys as _sys, os as _os; _sys.path.insert(0, _os.path.dirname(_os.path.abspath(__file__)))
+from sp import SP as _SP
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from write_en import (IMG, local_url, strip_trailing_nav, looks_like_failure,
                       export_meta, y, POSTS_EN, INDEX, JA_SRC, BACKTRANS)
 
-AGENT_OUT = "/tmp/claude-0/-home-user-Q-site/be7f11fc-3367-5f2b-82d5-fe91af67177b/scratchpad/agent-out"
+AGENT_OUT = os.path.join(_SP, "agent-out")
 ARC_MAP = "/home/user/Q-site/.claude/skills/hourouki-translation/reference/arc-map.md"
 ALT_JSON = "/home/user/Q-site/migration/reports/image-alt.json"
 ALT = json.load(open(ALT_JSON, encoding="utf-8")) if os.path.exists(ALT_JSON) else {}
