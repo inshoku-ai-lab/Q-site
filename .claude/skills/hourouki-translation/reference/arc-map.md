@@ -45,8 +45,8 @@
 | 33 | 302–304 | 3 | 北へ向かう話 | Heading North |
 | 34 | 305–343 | 39 | ロンドンに住む話 | Living in London |
 | 37 | 344–388 | 45 | モロッコで２１世紀を迎える話 | Into the 21st Century in Morocco |
-| 38 | 389–390 | 2 | サハラ砂漠のオアシスで暮らす話 | Living in a Saharan Oasis |
-| 39 | 391–421 | 31 | サハラ砂漠のオアシスで共同生活する話 | Communal Life in a Saharan Oasis |
+| 38 | 389–390 | 2（話1〜2／全33） | サハラ砂漠のオアシスで暮らす話 | Living in a Saharan Oasis |
+| 39 | 391–421 | 31（話3〜33／全33） | サハラ砂漠のオアシスで共同生活する話 | Communal Life in a Saharan Oasis |
 | 40 | 422–428 | 7 | サハラ砂漠の滝でキャンプする話 | Camping at a Sahara Waterfall |
 | 41 | 429–433 | 5 | モロッコを周遊する話 | Touring Morocco |
 | 42 | 434–435 | 2 | イギリスへ向かう話 | Heading for England |
@@ -68,6 +68,9 @@
   分割したままだと **Part 番号が原文の話数とずれる**。原文は 話1〜話39 の通し番号なのに、
   分割表では Ep 126 が「Part 1 of 31」になってしまい、Ep 118 の「Part 1」と衝突する。
   **Part 番号は必ず原文の「話◯」と一致させる。** タイトルからタイポでアークを割らない。
+- ⚠️ **Ep 389〜421 は原文が通し番号**（「暮らす話１・２」→「共同生活する話３〜３３」）。題が変わるのはタイポではなく著者の改題なので
+  英題は2つのまま、**Part 番号だけ原文の「話◯」に合わせる**（Ep 391 = Communal Life in a Saharan Oasis, **Part 3**）。
+  表の「話数」欄の `（話3〜33／全33）` をスクリプトが読んで Part と総数を決める。
 - 上表は `migration/posts/` の521本（Ep 0–520）から機械抽出したもの。
   Notion 側は522本（Ep 0–521）で、**Ep 521 は Notion にのみ存在する**。着手時に確認する。
 

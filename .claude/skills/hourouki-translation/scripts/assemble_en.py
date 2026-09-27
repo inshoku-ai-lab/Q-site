@@ -42,7 +42,10 @@ def load_arcs():
         if not m or not c[5]:
             continue
         lo = int(m.group(1))
-        arcs.append({"lo": lo, "hi": int(m.group(2)) if m.group(2) else lo, "t": c[5]})
+        # 「話数」欄の（話3〜33／全33）＝原文の通し番号がアークの途中から始まる（Ep 389〜421）
+        o = re.search(r"話(\d+)〜\d+／全(\d+)", c[3])
+        arcs.append({"lo": lo, "hi": int(m.group(2)) if m.group(2) else lo, "t": c[5],
+                     "start": int(o.group(1)) if o else 1, "total": int(o.group(2)) if o else None})
     return arcs
 
 
@@ -50,6 +53,8 @@ def arc_for(ep, arcs):
     for a in arcs:
         if a["lo"] <= ep <= a["hi"]:
             n = a["hi"] - a["lo"] + 1
+            if a.get("total"):
+                return a["t"], a["start"] + ep - a["lo"], a["total"]
             return a["t"], (ep - a["lo"] + 1 if n > 1 else None), (n if n > 1 else None)
     return None, None, None
 

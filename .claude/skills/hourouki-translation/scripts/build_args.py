@@ -48,7 +48,9 @@ def load_arcs():
             continue
         lo = int(m.group(1))
         hi = int(m.group(2)) if m.group(2) else lo
-        arcs.append({"lo": lo, "hi": hi, "title_en": title_en})
+        o = re.search(r"話(\d+)〜\d+／全(\d+)", cells[3])
+        arcs.append({"lo": lo, "hi": hi, "title_en": title_en,
+                     "start": int(o.group(1)) if o else 1, "total": int(o.group(2)) if o else None})
     if not arcs:
         sys.exit("arc-map.md からアークを読めなかった。表の形式が変わっていないか確認する")
     return arcs
@@ -58,6 +60,9 @@ def arc_for(ep, arcs):
     for a in arcs:
         if a["lo"] <= ep <= a["hi"]:
             n = a["hi"] - a["lo"] + 1
+            if a.get("total"):
+                return {"arcTitleEn": a["title_en"], "arcPart": a["start"] + ep - a["lo"],
+                        "arcTotal": a["total"]}
             return {
                 "arcTitleEn": a["title_en"],
                 "arcPart": (ep - a["lo"] + 1) if n > 1 else None,
