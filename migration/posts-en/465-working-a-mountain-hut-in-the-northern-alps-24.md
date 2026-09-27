@@ -50,11 +50,11 @@ So J and I and N, our old hand, shouldered that pipe and started down the mounta
 
 N manages another mountain hut about five hundred meters (1,600 feet) away from the one I work at.
 
-His hut belongs to a different company, and the two owners can't stand each other — but none of that touches the staff, who help each other out for free whenever it's needed.
+Their hut belongs to a different company, and the two owners can't stand each other — but none of that touches the staff, who help each other out for free whenever it's needed.
 
 This job was big enough to need someone with real experience, so N came in to help.
 
-His hut gets its water from a rock face and has no need for pipe like this. He was doing it for nothing at all.
+Their hut gets its water from a rock face and has no need for pipe like this. N was helping out purely as a favor.
 
 ## The Valley
 

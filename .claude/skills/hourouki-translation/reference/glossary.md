@@ -58,7 +58,7 @@
 1. **敬称の不統一** — 他は素のイニシャル（N, J）なのに Iちゃん だけ `I-chan`。
    → **統一できない。** `I` 単独は英語の一人称と区別がつかない。不統一は許容する。
 2. **同じイニシャルが別人を指す** — Ep 360 の J君（フランス人アーティスト）と
-   Ep 465 の Jさん（山小屋の同僚）は**別人**だが、どちらも `J`。
+   Ep 459〜478 の Jさん（山小屋の支配人＝著者の上司。以前ここに「同僚」と書いていたのは誤り）は**別人**だが、どちらも `J`。
    → **原文がイニシャルを使い回している**（著者の匿名化方針）。
    日本語読者も同じ状況で読んでおり、訳者が letters を振り直すのは原文の改変。
    **アーク文脈カードの人物欄に必ず「このアークのJは誰か」を書く**ことで、
@@ -685,6 +685,44 @@ Ep 132〜136 の関西のおっさんＳ、そして Ep 279 のこのＳ。**い
 | ガスト | **Gusto**（初出のみ "the family restaurant chain"） | 438〜439。実在の企業。原価と店長の不倫は原文どおり |
 | 劇団／公演 | theater company / performance | I-chan の夢 |
 | 叔母／祖父 | my aunt / my grandfather | 血縁。uncle 禁止規則の対象外 |
+
+## 6-12. アーク44（北アルプスの山小屋で働く話、Ep 442〜489）
+
+人物は `arc-map.md` のカード。**K が2人（男女）いる。**
+
+| 日本語 | 英語（固定） | 備考 |
+|---|---|---|
+| 山小屋 | mountain hut / the hut | 初出のみ "the staffed lodges on Japan's high trails"（§5） |
+| 大きな（山）小屋／小さな（山）小屋 | **the big hut / the small hut** | 原文は名前の代わりに大小で呼び続ける |
+| 中継小屋 | **the cable-car relay hut** | Ep 450 の既訳 |
+| 支配人／支配人代理 | the manager / the acting manager | Ep 450・465 の既訳 |
+| 社長（3代目） | the president（the third-generation president） | 448 |
+| 経営の神様／市倉定 | "the god of management" / Sadamu Ichikura | 448。⚠️ 原文の「市倉定」は実在の**一倉定**の誤記と思われるが、**ローマ字は同じ Ichikura** になるので英訳には影響しない（著者に報告済み）。松下幸之助と取り違えない |
+| 経営理念の唱和／朝礼 | reciting the company creed / the morning assembly | 445 |
+| 環境整備 | "environmental upkeep"（社内用語として引用符） | 445 が定義する |
+| お山の大将 | king of the hill | 451 の見出し。山頂の会社との掛けが英語でも効く |
+| 祈祷師／お祓い | a medium / an exorcism | 452 |
+| 荷上げ（ヘリ） | the helicopter supply lift | 453〜 |
+| トンボ返り | 453 は原文が「文字通りのトンボ返り」と言葉遊びをする。**像（宙返り）を残して訳す** | |
+| 小屋開き／小屋開け／小屋明け | opening the hut（for the season） | 表記3通りだが同じ語 |
+| 小屋閉め／小屋閉めノート | closing the hut / the closing notebook | 479〜 |
+| 森林限界 | the tree line | 456 |
+| ”山小屋だから” | **"because it's a mountain hut"**（引用符ごと） | 457・458。決め台詞なので固定 |
+| 系列（の小屋）／経営系列 | the company's (other) huts / company | 465 の既訳 |
+| キャベセン | *kyabesen*（原文が「キャベツの千切り、通称」と定義） | 462 |
+| 水あげ／水揚げ | ***mizuage*** / bringing water up | **Ep 465 が語義を所有。**458・467 の「水揚げ」も同じ語。⚠️ Ep 134 の漁獲の意味とは別 |
+| 助っ人 | the old hand（465 の見出し） | |
+| シェルパ族 | Sherpas | 468 |
+| デラブッカ | darbuka | 470。原文が「陶器にラクダの皮を張った太鼓」と定義 |
+| 夏バイト／繁忙期 | the summer part-timers / the busy season | 471〜 |
+| 海の日 | Marine Day（初出のみ "a national holiday, July 20 back then"） | 472 |
+| 下界 | the world below | 472・479 |
+| 超労働 | super-labor（著者の造語） | 473 |
+| 低地病 | **"lowland sickness"** | 482。原文が「病名ではないが従業員の間でそう呼ぶ」と定義 |
+| 寮 | the dorm | 481 |
+| 山男／山女／山人 | mountain men / mountain women / mountain people | 451・489 |
+| 打ち上げ | the wrap party | Ep 386 の既訳 |
+| 根性焼き | *konjo-yaki*（原文が定義：手の甲にタバコを押し付ける不良の儀式） | 449 |
 
 ## 7. 円→ドル換算レート（年代別）
 
