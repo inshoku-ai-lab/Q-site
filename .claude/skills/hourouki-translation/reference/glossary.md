@@ -660,6 +660,32 @@ Ep 132〜136 の関西のおっさんＳ、そして Ep 279 のこのＳ。**い
 | 強女遺伝子 | 著者の造語。直訳で保つ（例：strong-woman genes） | Ep 378 |
 | ”わんぱくでもいい、たくましく育ってほしい” | 引用として訳す（出典を足さない） | Ep 378。丸大ハムのCMだが原文は「誰かの言葉」としか書かない |
 
+## 6-11. アーク38〜43（サハラのオアシス／滝／モロッコ周遊／イギリスへ／日本へ、Ep 389〜441）
+
+| 日本語 | 英語（固定） | 備考 |
+|---|---|---|
+| 共同生活 | communal life（動詞は live together） | アーク名そのもの。436 の母との「共同生活」は living with my mother |
+| 小屋（オアシスの） | the hut | 土の小屋。⚠️ 日本の山小屋（mountain hut）とは別物 |
+| 付き人／世話係 | Gandalf's assistant / looked after | A-kun の立場。Ep 381 は "helping Gandalf" / "in Gandalf's care" |
+| 水瓶 | water jar | 396 は「水瓶座の絵に描かれるような」＝the jar from the Aquarius sign |
+| 夏が来た／秋／冬が来る | summer / fall / winter | ⚠️ **Ep 380 が既に "we called the daytime summer and the night winter" と訳している。**同じ比喩なので揃える |
+| ソーラークッカー | solar cooker | 391 |
+| エコロジー博士 | a doctor of ecology | 学位かあだ名か原文が曖昧。曖昧さを保つ |
+| 文無し／文無しマスター | broke / a master of being broke | 392 |
+| 無銭旅行 | traveling with no money | 見出し（400） |
+| 武勇伝 | tales of daring | 393 の見出し |
+| キフ | kif | 413。原文は「パイプのことだと思っていたが、大麻の名前だった。20年後の新発見」。**両方の意味の流れを保つ** |
+| ハンマム | hammam | 428。原文が「アラビア式のサウナ」と説明する |
+| マハ・クンバメーラ | the Maha Kumbh Mela | 405。原文が「12年に一度の世界最大のお祭り」と説明する |
+| 皆既月蝕 | a total lunar eclipse | 403〜404。「月蝕／月食」の表記揺れは訳し分けない |
+| オーバーステイ／不法滞在 | overstay / staying illegally | 412 |
+| 仮病 | faking illness / play sick | 412 |
+| マラケシュ／オートアトラス山脈／セウタ／マラガ | Marrakesh / the High Atlas / Ceuta / Málaga | 429・432。⚠️ 原文の距離・方角の思い違い（100km、北東、1時間）は直さない |
+| イスラム国（408） | a Muslim country | ⚠️ ISIS ではない |
+| ガスト | **Gusto**（初出のみ "the family restaurant chain"） | 438〜439。実在の企業。原価と店長の不倫は原文どおり |
+| 劇団／公演 | theater company / performance | I-chan の夢 |
+| 叔母／祖父 | my aunt / my grandfather | 血縁。uncle 禁止規則の対象外 |
+
 ## 7. 円→ドル換算レート（年代別）
 
 **その時代のレートを使う。** 現在のレートで換算すると金額感が壊れる。
