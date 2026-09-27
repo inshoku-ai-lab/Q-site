@@ -38,13 +38,22 @@ python3 /home/user/Q-site/.claude/skills/hourouki-translation/scripts/correction
 **正しい意味の方で訳す。日本語原文のファイルは修正しない**（著者の領分）。
 記録に無い誤字を自分で見つけたら、直さずに報告する。
 
-## 1. 規則を読む
+## 1. 規則と文脈を読む
 
 自分の語感より、この3つが優先される。
 
 1. `reference/voice-bible.md`
 2. `reference/glossary.md`
 3. `reference/translationese.md`
+
+**あなたは1話しか担当しないが、この話は522話の長い自伝の一部である。**次の2つも読むこと。
+
+4. `reference/story-so-far.md` の **§1（語り手）・§2（この作品の立ち位置）と、担当話を含むアークのあらすじ**。
+   著者がドラッグや犯罪を「美化もしないし断罪もしない」ことと、その理由がここに書いてある。
+5. `reference/quality-judgment.md` の **§2（翻訳上の判断の蓄積）**。
+   「著者の思い違いを直さない」「原文が書き分けた語を統合しない」など、実際に下した裁定の一覧。
+
+人物のイニシャルは使い回しが多い。**担当話の人物は `reference/arc-map.md` のアーク文脈カードで同定する。**
 
 ## 2. 4パスすべてを順に行う
 

@@ -14,6 +14,15 @@ python3 .claude/skills/hourouki-translation/scripts/qa_check.py \
     --ja-src-dir <scratchpad>/ja-src --source-dir migration/posts migration/posts-en/*.md
 ```
 
+**手順より先に、翻訳の中身を理解すること。**次の2つを最初に読む：
+
+- `.claude/skills/hourouki-translation/reference/story-so-far.md` — 物語の全体像
+  （語り手は誰か、著者がこの自伝をなぜ書いたか、訳了アークのあらすじ、主要人物）
+- `.claude/skills/hourouki-translation/reference/quality-judgment.md` — 品質の判断基準
+  （実際に下した裁定、監督役が自分で検証すべきこと、バッチごとの横断チェック、目標水準の実例）
+
+この2つが無いと、手順どおりに回しても「1話ずつは正しいが、シリーズとしては割れる」訳になる。
+
 **現在の経路はワークフローではなく通常のサブエージェント。**
 手順は `reference/agent-translator-brief.md`（エージェントに読ませる指示書）と
 `reference/production-runbook.md`。**同時実行の上限は20エージェント**
@@ -79,7 +88,7 @@ The parameter `<param>` type is expected as `string` but provided as `unknown`
 
 - 機械QAは全本 **ERROR 0**。
 - 会員限定マーカーのある話が多数（Ep 39以降で急増、Ep 100〜119はほぼ全話）。
-  **位置がずれると有料記事が無料で出る。** QAが割合で照合する。
+  **位置がずれると有料記事が無料で出る。** QA が索引と本文の callout 位置の厳密一致を ERROR で見る。
 - 原文側の不具合は `migration/reports/source-issues-ja.md` に集約。著者へ要報告。
 
 ---
@@ -199,7 +208,10 @@ node scripts/strip-nav-links.mjs --apply    # 実行。全ブロックをバッ�
 14. **初出の話が用語を決める。** 空手家を後続2話から `the karate men` で固定しかけたが、
     導入回（Ep 192）が見出しごと `The Karate Guys` だった。**導入回を待つか、後から揃える。**
 
-15. **イニシャルの使い回しは6組ある**（S・N・A-kun・H・J・D）。**Ｓは4人、Ｎは3人、Ｄは2人。**
+15. **イニシャルの使い回しが非常に多い。**Ｓは4人、Ｎは4人（うち女性1人）、Ｄは3人以上、
+    Ｔは5人以上（**ロンドン編だけで男性のＴが2人**、しかも女性のＴと同じ文字）、Ａ・Ｊも別人の再使用あり。
+    **英語ではどれも裸のイニシャルになるので、訳文の綴りは変わらない。危険なのは代名詞の性別と、
+    別人の経歴を混ぜること。**Ep 314 のＤと Ep 324 のＤが同一人物かは原文から決められないので、断定していない。
     アークに入るたびに人物欄を原文で裏取りする。査読者は必ず「同一人物だ」と言ってくる。
     現時点の一覧は `reference/arc-map.md` のアーク文脈カードと `glossary.md` §6-8。
 

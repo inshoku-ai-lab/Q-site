@@ -324,7 +324,10 @@ Ep 103 について、英訳を白紙状態から日本語へ戻した文章：
 | `reference/voice-bible.md` | 英語の声の定義。Phase 0 完了後に実例で確定させる |
 | `reference/glossary.md` | 人名・地名・用語の統一表（コーパスから抽出済み） |
 | `reference/translationese.md` | 日本語話者が陥る訳文くささのパターンと対処 |
-| `reference/arc-map.md` | 全47アークの区間・英題 |
+| `reference/arc-map.md` | 全47アークの区間・英題・アーク文脈カード（人物の同定） |
+| `reference/story-so-far.md` | **物語の全体像**：語り手、作品の立ち位置、訳了アークのあらすじ、主要人物、テーマ |
+| `reference/quality-judgment.md` | **監督役の判断基準**：実際に下した裁定、検証すべきこと、横断チェック、目標水準の実例 |
+| `reference/agent-translator-brief.md` | 1話1エージェントに渡す作業指示（現行の経路） |
 | `reference/output-spec.md` | フロントマター・Notionプロパティ・タグ対応表 |
 | `reference/review-prompts.md` | 各パスに渡すプロンプト文面（特にブラインド査読の遮断条件） |
 | `scripts/qa_check.py` | 機械QA |
