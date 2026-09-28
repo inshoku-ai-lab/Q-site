@@ -1,7 +1,7 @@
 # 放浪記 英訳プロジェクト — 引き継ぎメモ
 
 セッションをまたいで作業するため、**新しいセッションを開いたら最初にこれを読む**。
-最終更新: 2026-09-06（アーク34「ロンドンに住む話」完了。訳了344本）
+最終更新: 2026-09-28（**Ep 0〜520 全話訳了。521本**。Ep 521 は Notion で本文が空のため訳せない）
 
 ---
 
@@ -44,8 +44,8 @@ python3 .claude/skills/hourouki-translation/scripts/qa_check.py \
 | 用語表・査読プロトコルv2 | 確定 |
 | 話数インデックス | `migration/reports/episode-index.json`（全522話・Notion ID入り） |
 | 画像の説明文 | `migration/reports/image-alt.json`（ファイル名→英語alt） |
-| 訳了 | **344本**（Ep 0〜343 の大半。`ls migration/posts-en | wc -l` が正） |
-| 残り | 178本（Ep 339〜521 の大半。飛びがあるので上の gap 検査で確認する） |
+| 訳了 | **521本**（Ep 0〜520 すべて。`ls migration/posts-en | wc -l` が正） |
+| 残り | **Ep 521 のみ**（Notion で Draft・本文0文字。著者が書くまで訳せない。source-issues に記載済み） |
 | 逆翻訳 | **訳了した全話にある。**著者はこれだけで意味を検証できる |
 
 英訳は `migration/posts-en/` に `status: "draft"` で置いてある。
@@ -90,6 +90,21 @@ The parameter `<param>` type is expected as `string` but provided as `unknown`
 - 会員限定マーカーのある話が多数（Ep 39以降で急増、Ep 100〜119はほぼ全話）。
   **位置がずれると有料記事が無料で出る。** QA が索引と本文の callout 位置の厳密一致を ERROR で見る。
 - 原文側の不具合は `migration/reports/source-issues-ja.md` に集約。著者へ要報告。
+
+
+### 全話訳了時点（2026-09-28）の状態
+
+- **機械QA**：`--ja-src-dir` 付きなら全話 ERROR 0。`--ja-src-dir` 無し（エクスポートとだけ照合）だと
+  **Ep 116・155・182・208 の4本が「原文に無い会員限定マーカー」で ERROR** になるが、**誤検知**。
+  4本とも Notion 原文では callout が本文の先頭（pw=0）にあり、WordPress エクスポートの方が古い。
+  2026-09-28 に Notion で直接確認済み。英訳を直さないこと。
+- **新しいスクリプト**：
+  - `scripts/sp.py` … scratchpad を自動で見つける（`HOUROUKI_SP` で上書き可）。以前はセッションIDがハードコードされていた
+  - `scripts/check_src.py` … 取得した ja-src をエクスポートと行単位で照合（callout を畳む、類似度0.9未満を「重大」）。取得エージェントの報告を信じずにこれで確かめる
+  - `assemble_en.py`／`build_args.py` は arc-map の「話数」欄の `（話N〜M／全T）` を読んで Part を原文の通し番号に合わせる（Ep 389〜421）
+- **話をまたぐリンク**：原文の「この記事」「過去記事」リンクは英語版のスラッグ `/posts/<english-slug>` に書き換える（Ep 441・486・499）。日本語サイトの URL を英語に残さない
+- **Ep 360・450・465 は agent-out が無い**（旧セッションの試作）。この3本の修正は posts-en を直接直す。組み立て直しで上書きされない
+- 著者への報告は `migration/reports/source-issues-ja.md` の §11-7〜§13 に追記済み（モロッコの矛盾、R/J、誤字表）
 
 ---
 
