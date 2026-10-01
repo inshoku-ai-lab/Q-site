@@ -50,7 +50,7 @@ And so Christmas dinner becomes a sideshow, an amusement on the way to enjoying 
 
 We gathered at Y's house and set out a lot of candles to make the place feel like Christmas.
 
-Then we deep-fried a fresh, just-butchered chicken bought in town and enjoyed a dinner that was Christmas through and through.
+Then we deep-fried a fresh, just-butchered chicken bought in town — in Japan, fried chicken is what Christmas dinner means — and enjoyed a dinner that was Christmas through and through.
 
 That day we ate deliberately early, so that we could give the party afterward our full attention.
 

@@ -59,7 +59,7 @@ Not just in Morocco but in any so-called Third World country, the laws and regul
 
 Breaking down once or twice doesn't even count as breaking down; they get fixed dozens of times and keep on running.
 
-By the later acts of this comeback story, the exhaust and the engine noise alike are screaming.
+By the later chapters of these comeback stories, the exhaust and the engine noise alike are screaming.
 
 Through Gandalf's anger, I slowly got used to thinking about the Earth's environment.
 

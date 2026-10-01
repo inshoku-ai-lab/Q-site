@@ -59,7 +59,7 @@ They lived in Okinawa, apparently, and told me how good life there was.
 
 Okinawa is Japan and yet not Japan, they said, and Japanese people who have been traveling too long to settle back into Japan wash up there.
 
-It was the part of Asia where Japanese still worked, they said.
+It was the part of Asia where you could still get by in Japanese, they said.
 
 I made up my mind to go to Okinawa the next time I was back in Japan.
 

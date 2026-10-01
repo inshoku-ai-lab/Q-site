@@ -36,7 +36,7 @@ It was there to haul the everyday things we'd been using to Tangier, where Ganda
 
 Every one of us had been in Gandalf's care from beginning to end.
 
-It was a bit like being allowed to play in the palm of the Buddha's hand.
+It was a bit like being the Monkey King of the old Chinese tale, let loose to play as he liked in the palm of the Buddha's hand.
 
 We cleaned the hut from top to bottom and got it ready to hand back to the locals.
 

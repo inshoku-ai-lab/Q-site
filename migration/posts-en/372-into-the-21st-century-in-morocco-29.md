@@ -38,7 +38,7 @@ Thanks to the magic LSD D had given us, we had a fantastic time on Christmas nig
 
 D, E, and the rest of the crowd were funny and cool, and they told us all sorts of great stories from their travels.
 
-One of the people there, a Swiss woman named M, had kept her travels going by working as a hostess in Roppongi, Tokyo's nightlife district.
+One of the people there, a Swiss woman named M, had kept her travels going by working as a nightclub hostess in Roppongi, Tokyo's nightlife district.
 
 Winters she spent having fun in Goa, and summers she made her money hostessing in Roppongi.
 

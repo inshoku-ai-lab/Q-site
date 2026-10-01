@@ -44,7 +44,7 @@ The reason for all this was that we had chosen easyJet, an ultra-cheap airline.
 
 The company apparently managed to sell tickets at that price by cutting costs on every front.
 
-Normally you picture the people working for an airline as beautiful, cultured-looking women, but the woman who checked us in at this counter was a rough-looking woman of the yankee type.
+Normally you picture the people working for an airline as beautiful, cultured-looking women, but the woman who checked us in at this counter was a rough-looking woman of the delinquent type Japanese call a yankee.
 
 You could tell at a glance this was not your ordinary airline.
 

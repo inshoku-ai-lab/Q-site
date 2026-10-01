@@ -52,7 +52,7 @@ I had no intention of buying, but I went inside for a look around, and one book 
 
 It was a book by Takashi Tachibana called *Mastering the Brain*.
 
-Until then I had not known who Tachibana was — the man people call "the giant of knowledge" — and academic books like this one had never interested me, but traveling in India and coming into contact with the inner world had left me curious about the brain, about consciousness, about the mind.
+Until then I had not known who Tachibana was — the journalist people call "the giant of knowledge" — and academic books like this one had never interested me, but traveling in India and coming into contact with the inner world had left me curious about the brain, about consciousness, about the mind.
 
 Being curious was one thing; on the road there was no getting at that kind of information right away, so the interest sat off to one side, on hold.
 

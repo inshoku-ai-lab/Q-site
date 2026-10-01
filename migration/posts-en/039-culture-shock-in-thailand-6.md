@@ -95,7 +95,7 @@ But because it is legal, culturally it is not treated as a problem.
 
 The relationship between anticancer drugs and cannabis may be just as clear an example.
 
-Anticancer drugs are used legally despite their enormous side effects, while cannabis, originally legal in Japan and possessing a curative effect against cancer, has been illegal in Japan ever since MacArthur's rule.
+Anticancer drugs are used legally despite their enormous side effects, while cannabis, originally legal in Japan and possessing a curative effect against cancer, has been illegal in Japan ever since MacArthur's postwar occupation.
 
 This ties into medical vested interests and other things that complicate the story, so I will deliberately set it aside here, but I think it is a good example for questioning the standard of legal and illegal.
 

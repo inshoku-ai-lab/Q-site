@@ -91,7 +91,7 @@ Every visit I got to see my father too, and that was a joy.
 
 # The Yearly Camping Trip
 
-Once a year, at Obon, the whole extended family went camping, and that satisfied the children's craving for an outing.
+Once a year, at Obon, the midsummer holiday, the whole extended family went camping, and that satisfied the children's craving for an outing.
 
 Stories from my childhood are mostly dark ones, but this camping trip was one of the few enjoyable memories.
 

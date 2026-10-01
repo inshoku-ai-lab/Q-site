@@ -64,7 +64,7 @@ But once I was on a ferry pulling away from land, the option of turning back van
 
 After a while, Shikoku came into view.
 
-When you travel under your own power, by bicycle, land across the sea starts to take on the air of a foreign country, the way it must have for people in Japan's Edo period.
+When you travel under your own power, by bicycle, land across the sea starts to take on the air of a foreign country, the way it must have for people in Japan's Edo period, the age of the samurai.
 
 Towns, sea, and land all felt life-size.
 

@@ -97,7 +97,7 @@ If I had come into Nepal straight from Japan, the culture shock might have been 
 
 For whatever reason, this village had an enormous number of children.
 
-Life expectancy here is around fifty, about what Japan had in the Edo period, and since people die young they apparently marry young and have a lot of children.
+Life expectancy here is around fifty, about what Japan had in the samurai days of the Edo period, and since people die young they apparently marry young and have a lot of children.
 
 The kids were all open and kind.
 

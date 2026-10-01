@@ -64,7 +64,7 @@ Put all that together, and depending on who ran the place, a hut could become a 
 
 And this big hut was a textbook case.
 
-Our daily pay was Nagano Prefecture's hourly minimum wage plus a few hundred yen.
+Our daily pay was Nagano Prefecture's minimum wage plus a few hundred yen.
 
 For me, though, the low pay wasn't that big a problem.
 

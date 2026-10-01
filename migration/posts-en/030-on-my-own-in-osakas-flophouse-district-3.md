@@ -90,7 +90,7 @@ He was one of the foremost film fanatics in Japan and yet put that ability to wo
 
 His charisma carried great influence within the late-night crew, and whatever he called good and did himself, everyone naturally followed.
 
-When he bought a Macintosh and started editing photographs, everyone bought Macs; when he became a huge fan of Ryoko Hirosue, everyone became fans of Ryoko Hirosue; when he wandered around Southeast Asia, everyone wandered around Southeast Asia.
+When he bought a Macintosh and started editing photographs, everyone bought Macs; when he became a huge fan of the teen idol Ryoko Hirosue, everyone became fans of Ryoko Hirosue; when he wandered around Southeast Asia, everyone wandered around Southeast Asia.
 
 He was a great admirer of the director Yasujiro Ozu, and he valued the wabi-sabi sensibility particular to Japan.
 

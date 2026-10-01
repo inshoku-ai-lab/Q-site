@@ -69,7 +69,7 @@ The night was over now, and as the party moved toward its end, we spent the last
 
 But then, all at once, the organizers broke into an uproar.
 
-At that point I still hadn't noticed and was dancing like a lunatic with a stupid grin on my face, but Y — a former bōsōzoku and a fighter — caught the danger right away and came running over to me.
+At that point I still hadn't noticed and was dancing like a lunatic with a stupid grin on my face, but Y — a former bōsōzoku biker and a fighter — caught the danger right away and came running over to me.
 
 Y said something strange was going on, and the police might be here.
 

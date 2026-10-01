@@ -93,7 +93,7 @@ The reason was his age: leaving him to live alone would be a serious problem if 
 
 Taking the opportunity, we moved within the same district to a public housing block with more rooms.
 
-Even so we stayed poor: my grandfather had a four-and-a-half-mat room; my sister, who was around twenty, and I, in puberty, shared a six-mat room between us; another six-mat room was the living room and my mother's room; and there was a six-mat kitchen-dining room.
+Even so we stayed poor: my grandfather had a room of four and a half tatami mats, about seven square meters (eighty square feet); my sister, who was around twenty, and I, in puberty, shared a six-mat room between us; another six-mat room was the living room and my mother's room; and there was a six-mat kitchen-dining room.
 
 Going by how it feels to me now, it seems far too cramped for a human life, but at the time it did not bother me at all.
 

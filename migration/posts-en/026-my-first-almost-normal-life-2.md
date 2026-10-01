@@ -52,7 +52,7 @@ Like coming face to face with the world I lived in.
 
 One of the people I learned about through this magazine was a poet named Sandaime Uotake Nario Hamada.
 
-He might be better known as the man who later married Nene Otsuka and then divorced her.
+He might be better known as the man who later married the actress Nene Otsuka and then divorced her.
 
 ![A woman lying on a white fur blanket with eyes closed, holding a small white puppy](/images/wp/wp-content/uploads/2021/11/Blog26-1.jpg)
 

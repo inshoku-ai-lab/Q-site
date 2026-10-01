@@ -78,7 +78,7 @@ This, it seems, was the first thing to push its way out before I released the an
 
 # The Great Hanshin Earthquake
 
-Right after winter break of my first year of high school ended, the Great Hanshin Earthquake struck.
+Right after winter break of my first year of high school ended, the Great Hanshin Earthquake, the one that devastated Kobe, struck.
 
 I slept on the top bunk, so the shaking was tremendous.
 
@@ -102,7 +102,7 @@ Realizing I truly did not want to go to high school, I kept going anyway.
 
 The fact that I could quit of my own accord underscored the pain of not quitting and continuing to go.
 
-A few months later the sarin incident happened as well, and all I did was wish for the world to be destroyed.
+A few months later the sarin gas attack on the Tokyo subway happened as well, and all I did was wish for the world to be destroyed.
 
 Unable to think about anything properly, I got through the days with the eyes of a dead fish.
 

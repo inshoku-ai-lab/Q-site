@@ -58,7 +58,7 @@ Even the bedsheets, crisp and straight out of the wash, carried stains of unknow
 
 The crowning touch was the air vent.
 
-Roaches lived in that vent, which led who knows where, and every so often one would look out to see how things were going on my side.
+Cockroaches lived in that vent, which led who knows where, and every so often one would look out to see how things were going on my side.
 
 I had picked the place thinking it might be interesting to meet other Japanese travelers, but I was already thinking that next time I came to Delhi I would stay somewhere else.
 

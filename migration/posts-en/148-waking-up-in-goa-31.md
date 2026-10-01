@@ -80,7 +80,7 @@ In place of New Year's soba — the buckwheat noodles you eat on the last night 
 
 With tempura suiton standing in for New Year's soba we saw the old year out and got ready for the one coming.
 
-Next year was 1999, the end of the century.
+Next year was 1999 — the end of the century, which in Japanese also carries a hint of the end of the world.
 
 Even without really believing it was the end of the century, the idea got into your head without your noticing.
 

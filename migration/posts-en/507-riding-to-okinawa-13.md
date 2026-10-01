@@ -32,7 +32,7 @@ qa:
 
 After eating, I rode my bike to a bank nearby.
 
-Unfortunately, it was Sunday, and the ATM wasn't running.
+Unfortunately, it was Sunday, and like a lot of Japanese bank ATMs back then, this one wasn't running.
 
 I'd been traveling by bike with no regard for the day of the week, so it never occurred to me that it might be Sunday.
 

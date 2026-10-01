@@ -132,7 +132,7 @@ Looking back, it seems pretty stupid, but at the time I took pride in being the 
 
 The first email address I ever created was "yakiudon," and I basked in how special I was.
 
-After a while, thinking there was a nutritional problem with this, I added natto rice and curry rice to the menu.
+After a while, thinking there was a nutritional problem with this, I added natto rice — sticky fermented soybeans over rice — and curry rice to the menu.
 
 Cut the food budget, whatever it takes.
 

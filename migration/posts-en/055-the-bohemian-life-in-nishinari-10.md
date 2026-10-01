@@ -47,7 +47,7 @@ That is exactly why hardcore techno worked on me as medicine, why music that rak
 
 Maybe films about rebellion and violence, films about young lives falling apart, felt like they were on my side about the whole business of being alive.
 
-There's a band called The Blue Hearts, and a song of theirs called "Punk Rock" has a line:
+There's a Japanese band called The Blue Hearts, and a song of theirs called "Punk Rock" has a line:
 
 > I love punk rock
 > Ah, I love it because it's gentle

@@ -74,7 +74,7 @@ The edgy way they cut loose was no joke, and their young, driving sensibility hi
 
 For me, born and raised in Kansai, comedy was part of daily life.
 
-Ours was an ordinary Kansai household where Saturday meant watching Yoshimoto Shin-Kigeki over lunch, but up to then I had never taken any special interest in comedy.
+Ours was an ordinary Kansai household where Saturday meant watching the Yoshimoto Shin-Kigeki slapstick troupe over lunch, but up to then I had never taken any special interest in comedy.
 
 The sharpness of the laughter on this program, though, cut straight into me, and let my thoroughly repressed heart experience a sense of release.
 

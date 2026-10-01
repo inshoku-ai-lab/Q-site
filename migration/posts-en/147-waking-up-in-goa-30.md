@@ -72,7 +72,7 @@ I had thought Goa was paradise, and hearing that another paradise just like it e
 
 Once this journey was over I had meant to stay at my parents' house and build a life around making music, but the interest in travel and trance that had just been born in me overwhelmed that plan.
 
-Having seen this world, I could not go back to pretending I hadn't — I felt like the frog in the well who had learned there was an ocean.
+Having seen this world, I could not go back to pretending I hadn't — I felt like the frog in the old Japanese saying, the one stuck at the bottom of a well, who had found out there was an ocean.
 
 Manali in the summer, then — and with that decided, the possibilities of my own life felt like they would keep opening wide from here on.
 

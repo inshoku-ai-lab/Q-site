@@ -88,7 +88,7 @@ I got out of my clothes and dried off from the rain.
 
 I was soaked through, but my bike bags were waterproof, so my gear was fine.
 
-By tomorrow I'd be on Ishigaki Island.
+By tomorrow I'd be on Ishigaki Island, far down the island chain toward Taiwan.
 
 It was bound to be even warmer there.
 
