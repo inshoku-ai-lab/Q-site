@@ -20,7 +20,7 @@ tags:
   - "山小屋"
   - "共同生活"
   - "私小説"
-excerpt: "After a week of just the narrator and J, a third crew member climbs up to the hut: K, a cheerful woman in her early thirties. She gets an attic room with a door. The narrator gets a triangular nook a meter high, and starts watching her and J."
+excerpt: "After a week of just the narrator and J, a third crew member climbs up to the hut: K-chan, a cheerful woman in her early thirties. She gets an attic room with a door. The narrator gets a triangular nook a meter high, and starts watching her and J."
 member_paywall_after_paragraph: null
 qa:
   blind_review_rounds: 1
@@ -30,11 +30,11 @@ qa:
 
 ## Number Three
 
-For about a week after we opened the hut for the season, it was just the two of us, J the manager and me, but once that week had passed, the third of us, K, was finally on her way up.
+For about a week after we opened the hut for the season, it was just the two of us, J the manager and me, but once that week had passed, the third of us, K-chan, was finally on her way up.
 
-K had apparently been working at a hot-spring inn at the foot of the mountain, run by the same company, and now she had finally gotten her wish: a chance to work at this hut.
+K-chan had apparently been working at a hot-spring inn at the foot of the mountain, run by the same company, and now she had finally gotten her wish: a chance to work at this hut.
 
-I was in my early twenties, K was in her early thirties, and J was in his early forties. A nicely balanced lineup.
+I was in my early twenties, K-chan was in her early thirties, and J was in his early forties. A nicely balanced lineup.
 
 For the remaining three months or so, the three of us would live together and see the season through.
 
@@ -42,13 +42,13 @@ Apparently a couple more people would join us at the midsummer peak, but basical
 
 ## Arrival
 
-K reached the hut after a climb of about eight hours.
+K-chan reached the hut after a climb of about eight hours.
 
 She was gasping from all that elevation gain and the thin air, but completely thrilled by the unusual surroundings and the spectacular views.
 
-K was cheerful, lively, and straightforward, and I was relieved to see that three months with her looked like it would be no problem.
+K-chan was cheerful, lively, and straightforward, and I was relieved to see that three months with her looked like it would be no problem.
 
-Since K was a woman, she got special treatment: a big space in the attic with a door that closed.
+Since K-chan was a woman, she got special treatment: a big space in the attic with a door that closed.
 
 As for me, I was given a spot in the attic behind the kitchen, a triangular space about two and a half tatami mats in size, roughly four square meters (forty-five square feet), and only about a meter (three feet) high.
 
@@ -58,15 +58,15 @@ No door, either.
 
 Up to then it had been two men working the hut, and adding one woman brightened the place up all at once.
 
-We had kept ourselves reasonably clean, so there hadn't been a problem, but once K joined, the place took on a much cleaner feel.
+We had kept ourselves reasonably clean, so there hadn't been a problem, but once K-chan joined, the place took on a much cleaner feel.
 
 Not a cleaner place. A cleaner feel.
 
-There's no fully shaking off the image of a mountain hut as a place that smells of men and sweat, but K had the power to push that sort of thing aside.
+There's no fully shaking off the image of a mountain hut as a place that smells of men and sweat, but K-chan had the power to push that sort of thing aside.
 
 That influence had jumped from zero percent to thirty-three percent, so there was no measuring the effect.
 
-I had my own idle fantasy going: J was single, K was single, and maybe the two of them would become a couple.
+I had my own idle fantasy going: J was single, K-chan was single, and maybe the two of them would become a couple.
 
 The fantasy wasn't mine alone, either. Plenty of the staff at the company's other huts seemed to be thinking the same thing.
 

@@ -20,7 +20,7 @@ tags:
   - "登山"
   - "絶景"
   - "私小説"
-excerpt: "Waking before dawn beside a mountain pond, the narrator waits for the first light to turn the peak red in the still water. Then his short break is over, and with the manager away on his own, he and K run the small hut."
+excerpt: "Waking before dawn beside a mountain pond, the narrator waits for the first light to turn the peak red in the still water. Then his short break is over, and with the manager away on his own, he and K-chan run the small hut."
 member_paywall_after_paragraph: null
 qa:
   blind_review_rounds: 1
@@ -72,11 +72,11 @@ When I got back from my time off, it was the manager's turn to take his.
 
 Chances for a break were few, so we rotated them, one person at a time.
 
-With the manager gone that day, K and I played the part of manager between the two of us.
+With the manager gone that day, K-chan and I played the part of manager between the two of us.
 
 Not that it was much different from the usual work, but with no manager there to carry all the responsibility and give us that underlying sense of security, I felt a twinge of unease.
 
-K greeted the guests and led the wine toast.
+K-chan greeted the guests and led the wine toast.
 
 I took care of everything to do with the generator and made the scheduled check-in over the radio.
 
