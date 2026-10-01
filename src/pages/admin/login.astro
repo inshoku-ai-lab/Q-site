@@ -1,0 +1,71 @@
+---
+export const prerender = true;
+import Layout from "../../layouts/Layout.astro";
+import VHead from "../../components/VHead.astro";
+---
+
+<Layout title="管理者ログイン" description="管理者ログイン" noIndex>
+  <div class="max-w-site mx-auto md:px-8 md:pb-14">
+    <div class="md:max-w-[640px] md:mx-auto">
+      <VHead
+        text="管理者ログイン"
+        mobile={{ size: 36, height: 300, padY: 18, padX: 12, tracking: 0.1 }}
+        pc={{ size: 44, height: 320, padY: 28, padX: 18, tracking: 0.1 }}
+        bodyClass="justify-end gap-3 md:!p-7"
+      >
+        <span class="vhead-label">ADMIN</span>
+        <span class="vhead-desc">管理者として登録されたGoogleアカウントでログインしてください。</span>
+        <p id="admin-login-error" class="hidden px-3 py-2.5 border-l-[6px] border-rust bg-rust/10 text-[13px] leading-[1.7]" role="alert"></p>
+        <button type="button" id="admin-login-btn" class="btn btn-sumi border-t-[3px] !border-t-moss !min-h-[52px]">
+          Googleでログインする
+        </button>
+      </VHead>
+      <div class="pb-10" />
+    </div>
+  </div>
+</Layout>
+
+<script>
+  import { createSupabaseBrowserClient } from "../../lib/supabase/browser";
+  import { safeRedirectPath } from "../../lib/http";
+
+  const supabase = createSupabaseBrowserClient();
+  const params = new URLSearchParams(window.location.search);
+  const errorEl = document.getElementById("admin-login-error") as HTMLParagraphElement;
+  const btn = document.getElementById("admin-login-btn") as HTMLButtonElement;
+
+  // Only ever return to an admin page.
+  const requested = safeRedirectPath(params.get("next"), "/admin");
+  const next = requested === "/admin" || requested.startsWith("/admin/") || requested.startsWith("/admin?") ? requested : "/admin";
+
+  function showError(message: string) {
+    errorEl.textContent = message;
+    errorEl.classList.remove("hidden");
+  }
+
+  if (params.get("error") === "not_admin") {
+    showError("ログイン中のアカウントには管理権限がありません。管理者のGoogleアカウントでログインし直してください。");
+    btn.textContent = "別のアカウントでログインする";
+  }
+
+  btn.addEventListener("click", async () => {
+    btn.disabled = true;
+    // Drop any current (non-admin) session so the account picker decides.
+    await supabase.auth.signOut().catch(() => {});
+
+    const secureFlag = window.location.protocol === "https:" ? "; Secure" : "";
+    document.cookie = `post_login_redirect=${encodeURIComponent(next)}; path=/; max-age=600; SameSite=Lax${secureFlag}`;
+
+    const { error } = await supabase.auth.signInWithOAuth({
+      provider: "google",
+      options: {
+        redirectTo: `${window.location.origin}/api/auth/callback?ref=${encodeURIComponent(next)}`,
+        queryParams: { prompt: "select_account" },
+      },
+    });
+    if (error) {
+      btn.disabled = false;
+      showError("ログインに失敗しました。時間を置いて再度お試しください。");
+    }
+  });
+</script>

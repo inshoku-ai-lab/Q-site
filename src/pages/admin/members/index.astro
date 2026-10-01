@@ -6,7 +6,8 @@ import { formatDateShort } from "../../../lib/posts";
 
 const auth = await requireAdmin(Astro.request, Astro.cookies);
 if (!auth.ok) {
-  return Astro.redirect("/");
+  const next = encodeURIComponent(Astro.url.pathname + Astro.url.search);
+  return Astro.redirect(`/admin/login?next=${next}${auth.reason === "not_admin" ? "&error=not_admin" : ""}`);
 }
 await logAdminAccess(auth.admin, auth.email, "view_members");
 

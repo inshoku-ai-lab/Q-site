@@ -3,6 +3,7 @@ export const prerender = false;
 import type { APIRoute } from "astro";
 import { createSupabaseServerClient } from "../../../lib/supabase/server";
 import { getMember } from "../../../lib/members";
+import { isAdminEmail } from "../../../lib/admin";
 import { safeRedirectPath } from "../../../lib/http";
 
 const VALID_REASONS = ["financial", "referral", "other"];
@@ -33,7 +34,31 @@ export const GET: APIRoute = async ({ request, cookies, redirect, url }) => {
 
   const existingMember = await getMember(supabase, user.id);
 
-  if (!existingMember) {
+  // The site owner signs in to /admin with the same OAuth flow but is not
+  // a 旅路の証人 member, so an allowlisted admin (Google only, whose
+  // address Google has verified) skips member registration entirely.
+  const isAdminLogin =
+    !existingMember && provider === "google" && Boolean(user.email) && (await isAdminEmail(user.email));
+
+  // Where the reader asked to go. Prefer the cookie set right before the
+  // OAuth redirect over the "ref" query param -- some providers' redirect
+  // chains don't reliably carry a query param all the way through
+  // provider -> Supabase -> here, but the cookie survives regardless.
+  // safeRedirectPath rejects absolute URLs, protocol-relative "//host"
+  // values and malformed percent-encoding, so a crafted `ref=` or a
+  // tampered cookie can only ever land the user back on this site.
+  const cookieRedirect = cookies.get("post_login_redirect")?.value;
+  cookies.delete("post_login_redirect", { path: "/" });
+  const redirectTarget = safeRedirectPath(cookieRedirect ?? referrer, "/");
+
+  if (!existingMember && !isAdminLogin) {
+    // A sign-in started from the admin login page with an account that is
+    // neither a member nor on the allowlist: don't leave it half signed
+    // in, send it back with an explanation.
+    if (redirectTarget === "/admin" || redirectTarget.startsWith("/admin/") || redirectTarget.startsWith("/admin?")) {
+      await supabase.auth.signOut();
+      return redirect("/admin/login?error=not_admin");
+    }
     if (!agreementReason || !VALID_REASONS.includes(agreementReason)) {
       console.error(`auth callback: missing/invalid agreement_reason for a ${providerName} sign-in`);
       return redirect("/join?error=missing_agreement");
@@ -59,18 +84,6 @@ export const GET: APIRoute = async ({ request, cookies, redirect, url }) => {
       return redirect("/join?error=registration_failed");
     }
   }
-
-  // Prefer the cookie set right before the OAuth redirect over the "ref"
-  // query param -- some providers' redirect chains don't reliably carry a
-  // query param all the way through provider -> Supabase -> here, but the
-  // cookie survives regardless of provider.
-  const cookieRedirect = cookies.get("post_login_redirect")?.value;
-  cookies.delete("post_login_redirect", { path: "/" });
-
-  // safeRedirectPath rejects absolute URLs, protocol-relative "//host"
-  // values and malformed percent-encoding, so a crafted `ref=` or a
-  // tampered cookie can only ever land the user back on this site.
-  const redirectTarget = safeRedirectPath(cookieRedirect ?? referrer, "/");
 
   return redirect(redirectTarget);
 };
