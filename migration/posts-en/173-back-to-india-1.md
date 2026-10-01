@@ -63,8 +63,6 @@ For me India came before anything else, no matter what.
 
 ## The Smell
 
-The flight ran from Kansai Airport to Delhi by way of Bangkok.
-
 I came off the plane, and the moment I stepped inside the Delhi airport I felt India in my body.
 
 It wasn't from seeing women in saris — the traditional dress — or men in turbans.
