@@ -111,7 +111,7 @@ For them, men from the day-laborer quarter, gambling was part of life, the most 
 
 ![A man standing with a bicycle at a night street corner outside a brightly lit Japanese storefront](/images/wp/wp-content/uploads/2021/11/Blog9-2-1.jpg)
 
-My grandfather would burn through his once-a-month pension on pachinko in a week or two, then spend the remaining days until the next pension in his room, putting together puzzles.
+My grandfather would burn through his pension, which came every two months, on pachinko in a week or two, then spend the remaining weeks until the next one in his room, putting together puzzles.
 
 When he won at pachinko now and then he would give me pocket money, and my mother would get angry, saying he was handing his grandson spending money without putting anything into the household.
 

@@ -36,7 +36,7 @@ Its light was sharp and yet warm, and it felt good in a way I couldn't put into 
 
 It even seemed a little warmer than an ordinary night.
 
-According to something I'd read in a book, a full moon is fifty times brighter than a half moon.
+According to something I'd read in a book, a full moon is ten times brighter than a half moon.
 
 The light was strong enough to make me believe it.
 

@@ -48,7 +48,7 @@ With that sudden, completely unexpected shutdown, we were facing a food shortage
 
 Still, "nothing" wasn't quite nothing. There was a little food left.
 
-When the two of us pooled our leftovers, we had some flour, a few potatoes and onions, oil, salt, and soy sauce.
+When the two of us pooled our leftovers, we had some flour, a few potatoes and onions, eggs, oil, salt, and soy sauce.
 
 If we cooked all of it into one dish and ate it a little at a time over several days, we could probably hold out until the shops reopened after New Year's.
 
