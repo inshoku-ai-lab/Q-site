@@ -16,23 +16,23 @@ const ogp = post || legacyCategoryLink ? null : getOgp(url);
 {legacyCategoryLink ? (
   <a
     href={legacyCategoryLink}
-    class="my-6 flex items-center gap-3 no-underline group bg-paper-50 border border-paper-200 rounded-lg px-4 py-3.5 card-hover"
+    class="my-6 flex items-center gap-3 no-underline group blogcard bg-field border border-rule border-l-4 border-l-sumi px-4 py-3.5"
   >
-    <span class="w-8 h-8 rounded-full border border-paper-300 flex items-center justify-center flex-shrink-0 text-ink-muted group-hover:border-moss group-hover:text-moss transition-colors">
+    <span class="w-8 h-8 border border-rule flex items-center justify-center flex-shrink-0 text-ink-muted group-hover:border-moss group-hover:text-moss transition-colors">
       <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
         <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" />
         <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z" />
       </svg>
     </span>
     <div class="min-w-0">
-      <div class="text-sm text-ink group-hover:text-moss-dark truncate">Qryptraveller's Notes</div>
+      <div class="text-sm text-ink group-hover:text-moss truncate">Qryptraveller's Notes</div>
       <div class="text-[11px] text-ink-muted truncate">{legacyCategoryLink}</div>
     </div>
   </a>
 ) : post ? (
   <a
     href={`/posts/${post.slug}/`}
-    class="my-6 flex gap-3.5 items-center no-underline group bg-paper-50 border border-paper-200 rounded-lg overflow-hidden card-hover"
+    class="my-6 flex gap-3.5 items-center no-underline group blogcard bg-field border border-rule border-l-4 border-l-sumi overflow-hidden"
   >
     {post.cover ? (
       <img
@@ -56,7 +56,7 @@ const ogp = post || legacyCategoryLink ? null : getOgp(url);
     )}
     <div class="py-3 pr-4 min-w-0">
       <div class="text-[10px] uppercase tracking-widest text-ink-muted mb-1">Qryptraveller's Notes</div>
-      <div class="font-serif text-sm md:text-base leading-snug text-ink group-hover:text-moss-dark line-clamp-2">
+      <div class="font-serif text-sm md:text-base leading-snug text-ink group-hover:text-moss line-clamp-2">
         {post.title}
       </div>
       {post.date && <div class="text-[11px] text-ink-muted font-mono mt-1">{formatDateShort(post.date)}</div>}
@@ -67,7 +67,7 @@ const ogp = post || legacyCategoryLink ? null : getOgp(url);
     href={url}
     target="_blank"
     rel="noopener"
-    class="my-6 flex gap-3.5 items-center no-underline group bg-paper-50 border border-paper-200 rounded-lg overflow-hidden card-hover"
+    class="my-6 flex gap-3.5 items-center no-underline group blogcard bg-field border border-rule border-l-4 border-l-sumi overflow-hidden"
   >
     {ogp.image ? (
       <img
@@ -90,7 +90,7 @@ const ogp = post || legacyCategoryLink ? null : getOgp(url);
     )}
     <div class="py-3 pr-4 min-w-0">
       <div class="text-[10px] uppercase tracking-widest text-ink-muted mb-1">{ogp.siteName || domainOf(url)}</div>
-      <div class="font-serif text-sm md:text-base leading-snug text-ink group-hover:text-moss-dark line-clamp-2">
+      <div class="font-serif text-sm md:text-base leading-snug text-ink group-hover:text-moss line-clamp-2">
         {ogp.title || domainOf(url)}
       </div>
       <div class="text-[11px] text-ink-muted truncate mt-1">{domainOf(url)}</div>
@@ -101,9 +101,9 @@ const ogp = post || legacyCategoryLink ? null : getOgp(url);
     href={url}
     target="_blank"
     rel="noopener"
-    class="my-6 flex items-center gap-3 no-underline group bg-paper-50 border border-paper-200 rounded-lg px-4 py-3.5 card-hover"
+    class="my-6 flex items-center gap-3 no-underline group blogcard bg-field border border-rule border-l-4 border-l-sumi px-4 py-3.5"
   >
-    <span class="w-8 h-8 rounded-full border border-paper-300 flex items-center justify-center flex-shrink-0 text-ink-muted group-hover:border-moss group-hover:text-moss transition-colors">
+    <span class="w-8 h-8 border border-rule flex items-center justify-center flex-shrink-0 text-ink-muted group-hover:border-moss group-hover:text-moss transition-colors">
       <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
         <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
         <path d="M15 3h6v6" />
@@ -111,7 +111,7 @@ const ogp = post || legacyCategoryLink ? null : getOgp(url);
       </svg>
     </span>
     <div class="min-w-0">
-      <div class="text-sm text-ink group-hover:text-moss-dark truncate">{domainOf(url)}</div>
+      <div class="text-sm text-ink group-hover:text-moss truncate">{domainOf(url)}</div>
       <div class="text-[11px] text-ink-muted truncate">{url}</div>
     </div>
   </a>

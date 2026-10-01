@@ -1,11 +1,13 @@
 ---
 export const prerender = true;
 import Layout from "../../layouts/Layout.astro";
-import ArticleCard from "../../components/ArticleCard.astro";
-import {
-  getSeriesIndex,
-  getPostsBySeries,
-} from "../../lib/posts";
+import VHead from "../../components/VHead.astro";
+import SeriesTile from "../../components/SeriesTile.astro";
+import Sidebar from "../../components/Sidebar.astro";
+import { getSeriesIndex, getPostsBySeries, formatDateShort } from "../../lib/posts";
+import type { Post } from "../../lib/posts";
+import { displayTitle, episodeLabel } from "../../lib/verticalText";
+import { getSeriesSorted, SERIES_DESCRIPTIONS } from "../../lib/seriesMeta";
 
 export async function getStaticPaths() {
   return getSeriesIndex().map((s) => ({
@@ -17,25 +19,131 @@ export async function getStaticPaths() {
 const { name, count } = Astro.props;
 const posts = getPostsBySeries(name);
 const hasEpisodes = posts.some((p) => p.episode != null);
+const first = hasEpisodes ? posts[0] : posts[posts.length - 1];
+const description = SERIES_DESCRIPTIONS[name] ?? (hasEpisodes ? "番号順に並んでいます。" : "新しい順に並んでいます。");
+
+const number = (p: Post, i: number) =>
+  p.episode != null ? String(p.episode).padStart(3, "0") : String(hasEpisodes ? i + 1 : posts.length - i).padStart(2, "0");
+
+// Group consecutive rows by the month they were published.
+const months: { name: string; rows: { post: Post; no: string }[] }[] = [];
+posts.forEach((p, i) => {
+  const d = p.date ? new Date(p.date) : null;
+  const key = d && !Number.isNaN(d.getTime()) ? `${d.getFullYear()}年${d.getMonth() + 1}月` : "日付なし";
+  const last = months[months.length - 1];
+  const row = { post: p, no: number(p, i) };
+  if (last && last.name === key) last.rows.push(row);
+  else months.push({ name: key, rows: [row] });
+});
+
+// Order + labels for the client-side "続きから" lookup.
+const resumeData = posts.map((p) => ({
+  s: p.slug,
+  t: displayTitle(p.title, p.series),
+  l: (episodeLabel(p).split("　")[1] ?? "").trim(),
+  m: [p.reading_time > 0 ? `約${p.reading_time}分` : "", formatDateShort(p.date)].filter(Boolean).join(" · "),
+}));
+const others = getSeriesSorted().filter((s) => s.name !== name);
 ---
 
-<Layout title={`${name} シリーズ`} description={`「${name}」シリーズの全${count}話の目次。`}>
-  <div class="max-w-page mx-auto px-4 md:px-8 py-16">
-    <header class="mb-12 max-w-prose">
-      <div class="text-xs uppercase tracking-[0.3em] text-earth mb-3">Series</div>
-      <h1 class="font-serif text-3xl md:text-5xl font-semibold text-ink leading-tight">{name}</h1>
-      <p class="mt-4 text-ink-muted">
-        全 <strong class="text-ink">{count}</strong> 話。
-        {hasEpisodes ? "番号順に並んでいます。" : "新しい順に並んでいます。"}
-      </p>
-    </header>
+<Layout title={`${name} シリーズ`} description={`「${name}」シリーズの全${count}話の目次。`} back={{ href: "/series/", label: "連載一覧" }}>
+  <div class="max-w-site mx-auto md:px-8 md:pb-14 md:grid md:grid-cols-[minmax(0,1fr)_300px] md:gap-10 md:items-start">
+    <div class="min-w-0">
+      <VHead
+        text={name}
+        mobile={{ size: 56, height: 280, maxWidth: 170, padY: 18, padX: 14, tracking: 0.15 }}
+        pc={{ size: 80, height: 320, maxWidth: 300, padY: 28, padX: 20, tracking: 0.15, fixed: true }}
+        bodyClass="justify-between gap-3.5 md:!p-7"
+      >
+        <span class="vhead-label md:text-[12px]">連載 · 全{count}話</span>
+        <span class="vhead-desc md:!text-[17px] md:!leading-[1.9]">{description}</span>
+        {
+          first && (
+            <a href={`/posts/${first.slug}/`} class="btn btn-outline md:self-start md:hover:!bg-[#3a2c19] md:!min-h-[52px] md:!px-7 md:!text-[15px] md:!bg-sumi md:!text-paper-100">
+              {hasEpisodes ? "第1話から読む" : "最初の記事から読む"}
+            </a>
+          )
+        }
+      </VHead>
 
-    <div class="bg-paper-50 rounded-lg border border-paper-200 divide-y divide-paper-200">
-      {posts.map((post) => (
-        <div class="px-5">
-          <ArticleCard post={post} variant="compact" showCategory={false} headingLevel="h2" />
-        </div>
-      ))}
+      <!-- 続きから: filled from localStorage by the script below -->
+      <a id="resume" href="#" class="hidden grid-cols-[auto_minmax(0,1fr)] border-b-[3px] border-sumi text-paper-100 hover:text-paper-100 group">
+        <span id="resume-title" class="[writing-mode:vertical-rl] font-serif font-extrabold text-[26px] leading-[1.2] h-[240px] px-2.5 py-3.5 bg-moss border-r-4 border-sumi"></span>
+        <span class="bg-sumi p-[18px] flex flex-col justify-between gap-3">
+          <span id="resume-label" class="font-serif font-extrabold text-[13px] text-kraft tracking-[0.2em]"></span>
+          <span id="resume-note" class="text-[12px] leading-[1.7] text-onsumi"></span>
+          <span class="self-start inline-flex items-center min-h-[44px] px-4 bg-paper-100 text-ink font-serif font-extrabold text-[14px] group-hover:bg-kraft">続けて読む →</span>
+        </span>
+      </a>
+
+      <div class="px-5 md:px-0">
+        {
+          months.map((m) => (
+            <section class="mt-[22px] md:mt-7">
+              <div class="flex justify-between items-baseline pb-1.5 md:pb-2 border-b-[3px] border-moss">
+                <h2 class="font-serif font-extrabold text-[17px] md:text-[20px]">{m.name}</h2>
+                <span class="font-mono text-[11px] text-ink-muted">{m.rows.length}話</span>
+              </div>
+              {m.rows.map(({ post, no }) => (
+                <a
+                  href={`/posts/${post.slug}/`}
+                  data-slug={post.slug}
+                  class="row grid-cols-[52px_minmax(0,1fr)_auto] md:grid-cols-[60px_minmax(0,1fr)_auto_88px] gap-2.5 !items-baseline py-3 md:py-3.5"
+                >
+                  <span class="font-serif font-extrabold text-[18px] md:text-[20px] text-moss">{no}</span>
+                  <span class="row-title text-[15px] md:text-[16px] font-normal">{displayTitle(post.title, post.series)}</span>
+                  <span class="text-[10px] text-moss font-bold" data-read-mark />
+                  <span class="hidden md:block font-mono text-[11px] text-ink-muted text-right">{formatDateShort(post.date)}</span>
+                </a>
+              ))}
+            </section>
+          ))
+        }
+      </div>
+
+      {
+        others.length > 0 && (
+          <section class="md:hidden px-5 pt-8 pb-10">
+            <h2 class="sec-h">ほかの連載</h2>
+            <div class="grid grid-cols-2 gap-2 pt-3">
+              {others.map((s) => <SeriesTile name={s.name} count={s.count} />)}
+            </div>
+          </section>
+        )
+      }
     </div>
+
+    <Sidebar latest={0} exclude={name} seriesTitle="ほかの連載" />
   </div>
 </Layout>
+
+<script define:vars={{ series: name, resumeData }}>
+  (function () {
+    var read = [];
+    var last = null;
+    try {
+      read = JSON.parse(localStorage.getItem("qn-read") || "[]");
+      last = (JSON.parse(localStorage.getItem("qn-last") || "{}") || {})[series] || null;
+    } catch (e) {}
+    var readSet = new Set(read);
+    document.querySelectorAll("[data-slug]").forEach(function (row) {
+      if (readSet.has(row.getAttribute("data-slug"))) {
+        var mark = row.querySelector("[data-read-mark]");
+        if (mark) mark.textContent = "既読";
+      }
+    });
+    if (!last) return;
+    var idx = resumeData.findIndex(function (d) { return d.s === last; });
+    if (idx === -1 || idx + 1 >= resumeData.length) return;
+    var done = resumeData[idx];
+    var next = resumeData[idx + 1];
+    var el = document.getElementById("resume");
+    if (!el) return;
+    el.setAttribute("href", "/posts/" + next.s + "/");
+    document.getElementById("resume-title").textContent = next.t;
+    document.getElementById("resume-label").textContent = "続きから" + (next.l ? "　" + next.l : "");
+    document.getElementById("resume-note").textContent = "前回は" + (done.l || "「" + done.t + "」") + "まで読みました";
+    el.classList.remove("hidden");
+    el.classList.add("grid");
+  })();
+</script>

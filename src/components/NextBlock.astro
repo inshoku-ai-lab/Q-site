@@ -1,0 +1,37 @@
+---
+// 次に読むブロック: moss vertical title on the left, sumi panel on the
+// right with a kraft label, meta line and a paper "続けて読む →" button.
+// Shared by the article's next episode, the series page's "続きから",
+// and About's "まずはここから".
+import { fitVertical } from "../lib/verticalText";
+
+interface Props {
+  href: string;
+  title: string;
+  label: string;
+  meta?: string;
+  button?: string;
+  size?: number;
+  height?: number;
+  class?: string;
+}
+const { href, title, label, meta, button = "続けて読む →", size = 30, height = 260, class: className = "" } = Astro.props;
+const fit = fitVertical(title, { size, height: height - 32, maxWidth: 150 - 24, minSize: 16, tracking: 0.06 });
+---
+
+<a href={href} class={`grid grid-cols-[auto_minmax(0,1fr)] border-y-[3px] border-sumi text-paper-100 hover:text-paper-100 group ${className}`}>
+  <span
+    class="[writing-mode:vertical-rl] font-serif font-extrabold leading-[1.2] tracking-[0.06em] bg-moss border-r-4 border-sumi px-3 py-4"
+    style={`font-size:${fit.size}px;min-height:${height}px`}
+  >
+    {fit.lines.map((l) => <span class="block">{l}</span>)}
+  </span>
+  <span class="bg-sumi p-5 flex flex-col justify-between gap-4">
+    <span class="font-serif font-extrabold text-[13px] text-kraft tracking-[0.2em]">{label}</span>
+    {meta && <span class="text-[13px] leading-[1.8] text-onsumi">{meta}</span>}
+    <slot />
+    <span class="self-start inline-flex items-center min-h-[44px] px-4 bg-paper-100 text-ink font-serif font-extrabold text-[14px] group-hover:bg-kraft">
+      {button}
+    </span>
+  </span>
+</a>

@@ -7,45 +7,31 @@
   type="button"
   id="bug-report-fab"
   aria-label="バグを報告する"
-  class="fixed bottom-5 right-5 z-40 w-14 h-14 rounded-2xl flex items-center justify-center text-2xl transition-transform duration-150 ease-out hover:-translate-y-0.5 active:translate-y-0"
+  title="バグを報告する"
+  class="fixed bottom-4 right-4 z-40 w-12 h-12 flex items-center justify-center text-xl bg-sumi border-t-[3px] border-moss hover:bg-[#3a2c19] transition-colors"
 >
   <span aria-hidden="true">🐛</span>
 </button>
 
-<style>
-  #bug-report-fab {
-    background: linear-gradient(180deg, #fbf3e4 0%, #f4dcb2 100%);
-    box-shadow:
-      inset 0 1px 0 rgba(255, 255, 255, 0.75),
-      inset 0 -2px 3px rgba(138, 61, 31, 0.14),
-      0 2px 4px rgba(42, 31, 17, 0.14),
-      0 10px 18px rgba(42, 31, 17, 0.18);
-  }
-  #bug-report-fab:hover {
-    box-shadow:
-      inset 0 1px 0 rgba(255, 255, 255, 0.75),
-      inset 0 -2px 3px rgba(138, 61, 31, 0.14),
-      0 3px 6px rgba(42, 31, 17, 0.16),
-      0 14px 22px rgba(42, 31, 17, 0.22);
-  }
-  #bug-report-fab:active {
-    box-shadow:
-      inset 0 2px 3px rgba(42, 31, 17, 0.2),
-      inset 0 -1px 2px rgba(255, 255, 255, 0.4),
-      0 1px 2px rgba(42, 31, 17, 0.14);
+<style is:global>
+  /* Article pages carry a fixed reading bar along the bottom on mobile. */
+  @media (max-width: 767px) {
+    body.has-reading-bar #bug-report-fab {
+      bottom: 84px;
+    }
   }
 </style>
 
-<div id="bug-report-overlay" class="fixed inset-0 z-50 bg-ink/40 hidden items-center justify-center p-4">
+<div id="bug-report-overlay" class="fixed inset-0 z-50 bg-sumi/60 hidden items-center justify-center p-4">
   <div
-    class="bg-paper-100 rounded-lg shadow-xl w-full max-w-md max-h-[90vh] overflow-y-auto p-6"
+    class="bg-paper-100 border-t-[6px] border-moss w-full max-w-md max-h-[90vh] overflow-y-auto p-6"
     role="dialog"
     aria-modal="true"
     aria-labelledby="bug-report-title"
   >
     <div class="flex items-center justify-between mb-4">
-      <h2 id="bug-report-title" class="font-serif text-lg font-semibold text-ink">バグを報告する</h2>
-      <button type="button" id="bug-report-close" aria-label="閉じる" class="text-ink-muted hover:text-ink text-xl leading-none">×</button>
+      <h2 id="bug-report-title" class="font-serif text-lg font-extrabold text-ink">バグを報告する</h2>
+      <button type="button" id="bug-report-close" aria-label="閉じる" class="min-w-[44px] min-h-[44px] -mr-3 text-ink-muted hover:text-ink text-xl leading-none">×</button>
     </div>
 
     <form id="bug-report-form" class="space-y-4">
@@ -58,7 +44,7 @@
           maxlength="3000"
           rows="5"
           placeholder="どのページで、何をしたときに、何が起きたかを教えてください"
-          class="w-full border border-paper-300 rounded-md px-3 py-2 text-sm text-ink bg-paper-50 focus:outline-none focus:border-moss"
+          class="field !text-[15px]"
         ></textarea>
       </div>
 
@@ -69,7 +55,7 @@
           id="bug-email"
           name="email"
           maxlength="200"
-          class="w-full border border-paper-300 rounded-md px-3 py-2 text-sm text-ink bg-paper-50 focus:outline-none focus:border-moss"
+          class="field !text-[15px]"
         />
       </div>
 
@@ -84,7 +70,7 @@
       <div class="flex items-center gap-3">
         <button
           type="submit"
-          class="px-5 py-2.5 bg-moss-light text-paper-100 rounded-full font-serif font-extrabold text-sm hover:bg-moss-dark disabled:opacity-40 disabled:cursor-not-allowed transition"
+          class="btn btn-sumi border-t-[3px] !border-t-moss"
         >
           送信する
         </button>

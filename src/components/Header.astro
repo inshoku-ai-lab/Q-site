@@ -1,161 +1,95 @@
 ---
-const pathname = Astro.url.pathname;
-const isActive = (p: string) => (p === "/" ? pathname === "/" : pathname.startsWith(p));
+// Site header (sumi band).
+//   variant "masthead": the top page's two-line title with date / 第N号
+//   variant "default":  one-line title, or a "← 親ページ" link on mobile
+// The menu itself (15a) lives in SiteMenu.astro and opens from any
+// [data-menu-open] button.
+import { getPublishedPosts } from "../lib/posts";
+import { mastheadDate } from "../lib/verticalText";
+
+interface Props {
+  variant?: "masthead" | "default";
+  back?: { href: string; label: string };
+}
+const { variant = "default", back } = Astro.props;
+
+const pathname = decodeURI(Astro.url.pathname);
+
+const issue = getPublishedPosts().length;
+const today = mastheadDate();
 
 const nav = [
-  { href: "/", label: "ホーム" },
-  { href: "/series/", label: "シリーズ" },
-  { href: "/category/", label: "カテゴリ" },
-  { href: "/archive/", label: "アーカイブ" },
-  { href: "/about/", label: "About" },
+  { path: "/series/放浪記/", label: "放浪記" },
+  { path: "/category/思想・理論/", label: "思想・理論" },
+  { path: "/category/時事・情報戦/", label: "時事・情報戦" },
+  { path: "/series/", label: "連載一覧" },
 ];
+const activePath = nav.find((n) => n.path !== "/series/" && pathname.startsWith(n.path))?.path ?? (pathname === "/series/" ? "/series/" : null);
 ---
 
-<header id="site-header" class="border-b border-paper-300 bg-paper-100/90 backdrop-blur sticky top-0 z-20">
-  <div id="header-inner" class="max-w-page mx-auto px-4 md:px-10 py-3.5 flex items-center justify-between gap-6 transition-[padding] duration-200">
-    <a href="/" class="no-underline flex flex-col leading-none">
-      <span id="header-logo" class="font-serif font-extrabold text-lg md:text-xl text-ink tracking-wide transition-[font-size] duration-200">
-        Qryptraveller's Notes
-      </span>
-      <span id="header-tagline" class="text-[10px] uppercase tracking-widest text-ink-muted mt-0.5 transition-[opacity,max-height] duration-200 overflow-hidden">
-        Records of a Roaming Mind
-      </span>
+<header id="site-header" class="bg-sumi text-paper-100">
+  <div
+    class={`max-w-site mx-auto flex items-center justify-between gap-4 pl-5 pr-2 md:px-8 ${
+      variant === "masthead" ? "py-3.5 md:py-[18px]" : "min-h-[52px] md:min-h-[60px]"
+    }`}
+  >
+    {
+      back && (
+        <a href={back.href} class="md:hidden text-[12px] text-rule hover:text-paper-100 min-h-[44px] inline-flex items-center">
+          ← {back.label}
+        </a>
+      )
+    }
+    <a
+      href="/"
+      class={`font-serif font-extrabold text-paper-100 hover:text-paper-100 leading-[1.1] ${back ? "hidden md:inline" : ""} ${
+        variant === "masthead" ? "text-[20px] md:text-[26px]" : "text-[16px] md:text-[22px]"
+      }`}
+    >
+      {
+        variant === "masthead" ? (
+          <>
+            Qryptraveller's<br class="md:hidden" /> Notes
+          </>
+        ) : (
+          "Qryptraveller's Notes"
+        )
+      }
     </a>
 
-    <div class="flex items-center gap-7">
-      <nav class="hidden md:flex items-center gap-7 text-sm">
-        {
-          nav.map((n) => (
-            <a
-              href={n.href}
-              class={`no-underline transition-colors ${
-                isActive(n.href)
-                  ? "text-ink font-medium"
-                  : "text-ink-muted hover:text-ink"
-              }`}
-            >
-              {n.label}
-            </a>
-          ))
-        }
-      </nav>
-
-      <a
-        href="/search/"
-        aria-label="サイト内検索"
-        class={`w-8 h-8 rounded-full border flex items-center justify-center text-ink-muted no-underline hover:text-moss hover:border-moss transition-colors ${
-          isActive("/search/") ? "border-moss text-moss" : "border-paper-300"
-        }`}
-      >
-        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-          <circle cx="11" cy="11" r="7"></circle>
-          <path d="M21 21l-4-4"></path>
-        </svg>
-      </a>
-
-      <a
-        id="account-link"
-        href="/account"
-        aria-label="アカウント"
-        class={`hidden w-8 h-8 rounded-full border flex items-center justify-center text-ink-muted no-underline hover:text-moss hover:border-moss transition-colors ${
-          isActive("/account") ? "border-moss text-moss" : "border-paper-300"
-        }`}
-      >
-        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-          <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
-          <circle cx="12" cy="7" r="4"></circle>
-        </svg>
-      </a>
-
-      <!-- Mobile menu toggle -->
-      <button
-        id="menu-toggle"
-        class="md:hidden p-2 text-ink-muted"
-        aria-label="メニュー"
-        aria-expanded="false"
-        aria-controls="mobile-menu"
-      >
-        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-          <line x1="3" y1="6" x2="21" y2="6"></line>
-          <line x1="3" y1="12" x2="21" y2="12"></line>
-          <line x1="3" y1="18" x2="21" y2="18"></line>
-        </svg>
-      </button>
-    </div>
-  </div>
-
-  <!-- Mobile menu -->
-  <nav id="mobile-menu" class="hidden md:hidden border-t border-paper-300 bg-paper-100">
-    <div class="max-w-page mx-auto px-4 py-2 flex flex-col">
+    <nav class="hidden md:flex items-center gap-7 text-[14px] font-bold ml-auto" aria-label="主要カテゴリ">
       {
         nav.map((n) => (
           <a
-            href={n.href}
-            class={`no-underline py-3 border-b border-paper-200 last:border-0 transition-colors ${
-              isActive(n.href) ? "text-ink font-medium" : "text-ink-muted"
-            }`}
+            href={encodeURI(n.path)}
+            aria-current={activePath === n.path ? "page" : undefined}
+            class={activePath === n.path ? "text-kraft hover:text-kraft" : "text-paper-100 hover:text-kraft"}
           >
             {n.label}
           </a>
         ))
       }
-      <a
-        href="/search/"
-        class={`no-underline py-3 transition-colors ${
-          isActive("/search/") ? "text-ink font-medium" : "text-ink-muted"
-        }`}
+    </nav>
+
+    <div class="flex items-center gap-3 md:gap-5">
+      {
+        variant === "masthead" && (
+          <div class="text-right text-[10px] md:text-[11px] leading-[1.6] text-rule">
+            {today}
+            <br />
+            第{issue}号
+          </div>
+        )
+      }
+      <button
+        type="button"
+        data-menu-open
+        class="min-h-[44px] min-w-[44px] px-3 md:px-0 text-[13px] md:text-[14px] font-bold text-paper-100 hover:text-kraft"
+        aria-expanded="false"
+        aria-controls="site-menu"
       >
-        検索
-      </a>
-      <a
-        id="account-link-mobile"
-        href="/account"
-        class={`hidden no-underline py-3 transition-colors ${
-          isActive("/account") ? "text-ink font-medium" : "text-ink-muted"
-        }`}
-      >
-        アカウント
-      </a>
+        メニュー
+      </button>
     </div>
-  </nav>
+  </div>
 </header>
-
-<style>
-  #site-header.is-scrolled #header-inner {
-    padding-top: 0.625rem;
-    padding-bottom: 0.625rem;
-  }
-  #site-header.is-scrolled #header-logo {
-    font-size: 1rem;
-  }
-  #site-header.is-scrolled #header-tagline {
-    opacity: 0;
-    max-height: 0;
-    margin-top: 0;
-  }
-</style>
-
-<script>
-  import { createSupabaseBrowserClient } from "../lib/supabase/browser";
-
-  const toggle = document.getElementById("menu-toggle");
-  const menu = document.getElementById("mobile-menu");
-  toggle?.addEventListener("click", () => {
-    const isOpen = menu?.classList.toggle("hidden") === false;
-    toggle.setAttribute("aria-expanded", String(isOpen));
-  });
-
-  const siteHeader = document.getElementById("site-header");
-  function updateHeaderScroll() {
-    siteHeader?.classList.toggle("is-scrolled", window.scrollY > 20);
-  }
-  window.addEventListener("scroll", updateHeaderScroll, { passive: true });
-  updateHeaderScroll();
-
-  const supabase = createSupabaseBrowserClient();
-  supabase.auth.getSession().then(({ data: { session } }) => {
-    if (!session) return;
-    document.getElementById("account-link")?.classList.remove("hidden");
-    document.getElementById("account-link-mobile")?.classList.remove("hidden");
-  });
-</script>

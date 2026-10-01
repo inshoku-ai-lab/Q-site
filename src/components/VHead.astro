@@ -1,0 +1,87 @@
+---
+// 縦組み見出しブロック: a moss column carrying the title set vertically,
+// with the page's label / description in the right-hand column (slot).
+// The title is laid out twice -- once sized for phones, once for PC --
+// and the matching one is shown at each breakpoint.
+import { fitVertical } from "../lib/verticalText";
+
+type Box = {
+  size: number; // base font size in px
+  height: number; // column length in px (the box's height)
+  maxWidth?: number; // widest the title column may grow
+  padY?: number;
+  padX?: number;
+  tracking?: number; // letter-spacing in em
+  minSize?: number;
+  fixed?: boolean; // height is exact (h) rather than a minimum (min-h)
+};
+
+interface Props {
+  text: string;
+  mobile: Box;
+  pc: Box;
+  as?: "h1" | "h2" | "div";
+  lineHeight?: number;
+  class?: string;
+  titleClass?: string;
+  bodyClass?: string;
+  // Pagefind should index the title once only.
+  indexTitle?: boolean;
+}
+
+const {
+  text,
+  mobile,
+  pc,
+  as: Tag = "h1",
+  lineHeight = 1.2,
+  class: className = "",
+  titleClass = "",
+  bodyClass = "",
+  indexTitle = true,
+} = Astro.props;
+
+function layout(box: Box) {
+  const padY = box.padY ?? 20;
+  const padX = box.padX ?? 14;
+  const tracking = box.tracking ?? 0.08;
+  const fit = fitVertical(text, {
+    size: box.size,
+    height: box.height - padY * 2,
+    maxWidth: (box.maxWidth ?? 170) - padX * 2,
+    lineHeight,
+    tracking,
+    minSize: box.minSize,
+  });
+  return {
+    ...fit,
+    style: `font-size:${fit.size}px;letter-spacing:${tracking}em;line-height:${lineHeight};padding:${padY}px ${padX}px;${
+      box.fixed ? "height" : "min-height"
+    }:${box.height}px;`,
+  };
+}
+
+const m = layout(mobile);
+const p = layout(pc);
+---
+
+<section class={`vhead ${className}`}>
+  <Tag class={`vhead-title ${titleClass}`}>
+    <span class="vbox md:!hidden" style={m.style} data-pagefind-ignore={indexTitle ? undefined : "all"}>
+      {m.lines.map((l) => <span class="vline">{l}</span>)}
+    </span>
+    <span class="vbox !hidden md:!block" style={p.style} data-pagefind-ignore="all">
+      {p.lines.map((l) => <span class="vline">{l}</span>)}
+    </span>
+  </Tag>
+  <div class={`vhead-body ${bodyClass}`}>
+    <slot />
+  </div>
+</section>
+
+<style>
+  .vbox {
+    display: block;
+    text-orientation: mixed;
+  }
+</style>

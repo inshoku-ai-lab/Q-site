@@ -2,7 +2,7 @@
 import type { Block } from "../lib/posts";
 import { preprocessBlocks } from "../lib/posts";
 import { isSafeHttpUrl } from "../lib/http";
-import { slugifyHeading } from "../lib/toc";
+import { slugifyHeading, headingHasOwnNumber } from "../lib/toc";
 import { getImageDimensions } from "../lib/imageDimensions";
 import BlogCard from "./BlogCard.astro";
 
@@ -81,14 +81,24 @@ const groups = groupBlocks(blocks);
           if (!b.html?.trim()) return null;
           return <p set:html={b.html} />;
         case "heading_1":
-          return <h2 id={nextHeadingId(b.html ?? "")} set:html={b.html ?? ""} />;
-        case "heading_2":
-          return <h2 id={nextHeadingId(b.html ?? "")} set:html={b.html ?? ""} />;
+        case "heading_2": {
+          // Advance the id counter even for an empty heading so ids stay in
+          // step with extractToc().
+          const hid = nextHeadingId(b.html ?? "");
+          if (!b.html?.replace(/<[^>]+>/g, "").trim()) return null;
+          return (
+            <h2
+              id={hid}
+              class={headingHasOwnNumber(b.html) ? "no-num" : undefined}
+              set:html={b.html ?? ""}
+            />
+          );
+        }
         case "heading_3":
           return <h3 id={nextHeadingId(b.html ?? "")} set:html={b.html ?? ""} />;
         case "callout":
           return (
-            <div class="my-6 p-4 rounded-md bg-earth/10 border-l-4 border-earth">
+            <div class="callout">
               <div set:html={b.html ?? ""} />
             </div>
           );
@@ -128,7 +138,7 @@ const groups = groupBlocks(blocks);
             <div class="my-6 aspect-video">
               <iframe
                 src={b.url}
-                class="w-full h-full rounded-md"
+                class="w-full h-full"
                 title="埋め込み動画"
                 loading="lazy"
                 allow="autoplay; encrypted-media"

@@ -32,6 +32,19 @@ export default {
           dark: "#3D5434",    // hover / emphasis
           light: "#59744C",   // primary buttons, dots (darkened from #6D8E5D for AA button-text contrast)
         },
+        // 号外デザイン (2026 redesign) tokens
+        sumi: "#2A1F11",       // header / band / tile background
+        kraft: {
+          DEFAULT: "#F4DCB2",  // emphasis on sumi, progress, conditions block
+          rule: "#CDBF9E",     // kraft-ish rule, disabled button bg
+        },
+        field: "#FBF6EA",      // input background
+        rule: "#D9D2C0",       // item separator
+        onsumi: "#E7DCC6",     // body text on sumi
+        dim: "#B8AD96",        // footer copyright, disabled text
+        foot: "#1E160B",       // footer background
+        done: "#EEF0E4",       // success / notice background
+        rust: "#8A3D1F",       // danger / required
         earth: {
           DEFAULT: "#8A3D1F", // accent - warm orange
           light: "#B5602E",
@@ -65,6 +78,7 @@ export default {
       fontFamily: {
         serif: ['"Shippori Mincho B1"', '"Noto Serif JP"', "Georgia", "serif"],
         sans: ['"Zen Kaku Gothic New"', '"Noto Sans JP"', "Inter", "system-ui", "sans-serif"],
+        mono: ["ui-monospace", "SFMono-Regular", "Menlo", "Consolas", "monospace"],
       },
       fontSize: {
         // Reading-friendly sizes for Japanese long-form
@@ -74,14 +88,12 @@ export default {
       maxWidth: {
         prose: "42rem", // ~672px — ideal reading width
         page: "72rem",
+        site: "1120px",
       },
       letterSpacing: {
         wider: "0.05em",
       },
-      borderRadius: {
-        lg: "1rem",    // 16px — cards (was 8px)
-        xl: "1.5rem",  // 24px — hero imagery (was 12px)
-      },
+
     },
   },
   plugins: [],

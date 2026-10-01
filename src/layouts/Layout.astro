@@ -2,6 +2,7 @@
 import "../styles/global.css";
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
+import SiteMenu from "../components/SiteMenu.astro";
 import BugReportButton from "../components/BugReportButton.astro";
 import { metaCspValue } from "../lib/csp";
 
@@ -16,6 +17,11 @@ interface Props {
   noIndex?: boolean;
   bodyClass?: string;
   structuredData?: Record<string, unknown>;
+  // "none": the page renders its own header (article pages)
+  header?: "masthead" | "default" | "none";
+  back?: { href: string; label: string };
+  // Pages with the fixed mobile reading bar need room under the footer.
+  readingBar?: boolean;
 }
 
 const {
@@ -29,6 +35,9 @@ const {
   noIndex,
   bodyClass = "",
   structuredData,
+  header = "default",
+  back,
+  readingBar = false,
 } = Astro.props;
 const siteName = "Qryptraveller's Notes";
 const fullTitle = title === siteName ? title : `${title} | ${siteName}`;
@@ -85,7 +94,14 @@ const absoluteOgImage = ogImage
     <link rel="icon" type="image/png" href="/favicon-192.png" sizes="192x192" />
     <link rel="icon" type="image/png" href="/favicon-512.png" sizes="512x512" />
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-    <meta name="theme-color" content="#3D5434" />
+    <meta name="theme-color" content="#2A1F11" />
+    <!-- Apply the remembered reading size before first paint. -->
+    <script is:inline>
+      try {
+        var fs = localStorage.getItem("qn-fs");
+        if (fs === "s" || fs === "l") document.documentElement.dataset.fs = fs;
+      } catch (e) {}
+    </script>
 
     <!-- Fonts: fetched as a non-blocking stylesheet (loaded as `preload`,
          then flipped to `stylesheet` once it arrives) so a slow response
@@ -114,18 +130,20 @@ const absoluteOgImage = ogImage
     )}
   </head>
 
-  <body class={`min-h-screen flex flex-col bg-paper-100 text-ink ${bodyClass}`}>
+  <body class={`min-h-screen flex flex-col bg-paper-100 text-ink ${readingBar ? "has-reading-bar" : ""} ${bodyClass}`}>
     <a
       href="#main-content"
-      class="sr-only focus:not-sr-only focus:absolute focus:top-3 focus:left-3 focus:z-50 focus:px-4 focus:py-2 focus:rounded-full focus:bg-moss-dark focus:text-paper-100 focus:no-underline"
+      class="sr-only focus:not-sr-only focus:absolute focus:top-3 focus:left-3 focus:z-[60] focus:px-4 focus:py-2 focus:bg-moss-dark focus:text-paper-100"
     >
       本文へスキップ
     </a>
-    <Header />
+    {header !== "none" && <Header variant={header} back={back} />}
+    <slot name="header" />
     <main id="main-content" class="flex-1">
       <slot />
     </main>
     <Footer />
+    <SiteMenu />
     <BugReportButton />
   </body>
 </html>

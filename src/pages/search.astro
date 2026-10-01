@@ -1,75 +1,182 @@
 ---
 export const prerender = true;
 import Layout from "../layouts/Layout.astro";
+import { getTagIndex } from "../lib/posts";
+
+const topTags = getTagIndex().slice(0, 8).map((t) => t.name);
+const categoryHex = {
+  "放浪記": "#846849",
+  "思想・理論": "#4A5E66",
+  "時事・情報戦": "#9C5642",
+  "エッセイ・その他": "#746B5C",
+  "スピリチュアリティ": "#6F5791",
+  "ビットコインの真実": "#8A6719",
+};
 ---
 
-<Layout title="サイト内検索" description="Qryptraveller's Notesの記事を検索します。" noIndex>
-  <div class="max-w-page mx-auto px-4 md:px-8 py-16">
-    <header class="mb-10 max-w-prose">
-      <div class="text-xs uppercase tracking-[0.3em] text-earth mb-3">Search</div>
-      <h1 class="font-serif text-3xl md:text-4xl font-semibold text-ink leading-tight">サイト内検索</h1>
-    </header>
+<Layout title="サイト内検索" description="Qryptraveller's Notesの記事を検索します。" noIndex header="none">
+  <header id="site-header" slot="header" class="bg-sumi text-paper-100">
+    <div class="max-w-site mx-auto pl-5 pr-2 md:px-8 pb-3">
+      <div class="h-[52px] flex items-center justify-between">
+        <h1 class="font-serif font-extrabold text-[16px] md:text-[20px] text-paper-100">サイト内検索</h1>
+        <a href="/" id="search-close" class="min-w-[44px] min-h-[44px] px-2.5 flex items-center text-[13px] font-bold text-paper-100 hover:text-kraft">閉じる</a>
+      </div>
+      <form id="search-form" role="search" action="/search/" method="get" class="mr-3 md:mr-0 flex items-center gap-2.5 h-[52px] px-3.5 bg-paper-100 text-ink border-b-[3px] border-moss">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#6E6048" stroke-width="2" aria-hidden="true">
+          <circle cx="11" cy="11" r="7"></circle>
+          <path d="M21 21l-4-4"></path>
+        </svg>
+        <label for="search-input" class="sr-only">検索キーワード</label>
+        <input
+          id="search-input"
+          type="search"
+          name="q"
+          placeholder="記事を検索…"
+          autocomplete="off"
+          class="flex-1 min-w-0 bg-transparent text-[16px] text-ink outline-none placeholder:text-ink-muted [&::-webkit-search-cancel-button]:hidden"
+        />
+        <button type="button" id="search-clear" class="min-h-[44px] text-[12px] text-ink-muted hover:text-ink">クリア</button>
+      </form>
+    </div>
+  </header>
 
-    <div id="search" class="max-w-page"></div>
-    <p id="search-fallback" class="hidden text-sm text-ink-muted">
+  <div class="max-w-site mx-auto md:px-8 md:pb-14 md:max-w-[800px]">
+    <div id="search-status" class="px-5 md:px-0 pt-[18px] pb-1.5 text-[13px] text-ink-light" role="status" aria-live="polite"></div>
+    <div id="search-empty" class="hidden mx-5 md:mx-0 my-3 p-5 border border-rule text-[14px] leading-[1.8] text-ink-light">
+      該当する記事が見つかりませんでした。別のキーワードでお試しください。
+    </div>
+    <div id="search-error" class="hidden mx-5 md:mx-0 my-3 p-5 border border-rule text-[14px] leading-[1.8] text-ink-light">
       検索インデックスの読み込みに失敗しました。ページを再読み込みしてお試しください。
-    </p>
+    </div>
+    <div id="search-results" class="px-5 md:px-0 pb-4" data-hex={JSON.stringify(categoryHex)}></div>
+    <div class="px-5 md:px-0">
+      <button type="button" id="search-more" class="hidden btn btn-outline w-full mb-6">もっと見る</button>
+    </div>
+
+    <section class="px-5 md:px-0 pt-2 pb-10">
+      <h2 class="sec-h !text-[16px]">よく読まれるタグ</h2>
+      <div class="flex flex-wrap gap-1.5 pt-3">
+        {
+          topTags.map((t) => (
+            <button type="button" data-pick={t} class="min-h-[40px] px-3 border border-rule text-ink font-serif font-extrabold text-[13px] hover:border-moss hover:text-moss">
+              {t}
+            </button>
+          ))
+        }
+      </div>
+    </section>
   </div>
 </Layout>
 
-<link rel="stylesheet" href="/pagefind/pagefind-ui.css" />
+<script is:inline type="module">
+  const PAGE = 20;
+  const input = document.getElementById("search-input");
+  const form = document.getElementById("search-form");
+  const statusEl = document.getElementById("search-status");
+  const emptyEl = document.getElementById("search-empty");
+  const errorEl = document.getElementById("search-error");
+  const list = document.getElementById("search-results");
+  const more = document.getElementById("search-more");
+  const hex = JSON.parse(list.dataset.hex || "{}");
 
-<style>
-  #search :global(.pagefind-ui) {
-    --pagefind-ui-primary: #3d5434;
-    --pagefind-ui-text: #2a1f11;
-    --pagefind-ui-background: #f6efdc;
-    --pagefind-ui-border: #d9d2c0;
-    --pagefind-ui-tag: #f5e5c7;
-    --pagefind-ui-border-width: 1px;
-    --pagefind-ui-border-radius: 16px;
-    --pagefind-ui-font: "Zen Kaku Gothic New", sans-serif;
+  // "閉じる" returns to wherever the reader came from on this site.
+  const close = document.getElementById("search-close");
+  if (document.referrer && new URL(document.referrer).origin === location.origin) {
+    close.setAttribute("href", document.referrer);
   }
-  #search :global(.pagefind-ui__form) {
-    max-width: 640px;
-  }
-  #search :global(.pagefind-ui__result) {
-    border-bottom: 1px solid #d9d2c0;
-    padding: 16px 0;
-  }
-  #search :global(.pagefind-ui__result-link) {
-    font-family: "Shippori Mincho B1", serif;
-    color: #2a1f11;
-  }
-  #search :global(mark) {
-    background: rgba(138, 61, 31, 0.18);
-    color: #8a3d1f;
-    padding: 0 2px;
-  }
-</style>
 
-<script is:inline src="/pagefind/pagefind-ui.js" onerror="document.getElementById('search').classList.add('hidden'); document.getElementById('search-fallback').classList.remove('hidden');"></script>
-<script is:inline>
-  if (typeof PagefindUI !== "undefined") {
-    new PagefindUI({
-      element: "#search",
-      showSubResults: false,
-      resetStyles: false,
-      showImages: false,
-      translations: {
-        placeholder: "記事を検索…",
-        clear_search: "クリア",
-        load_more: "もっと見る",
-        search_label: "サイト内検索",
-        filters_label: "絞り込み",
-        zero_results: "「[SEARCH_TERM]」に該当する記事が見つかりませんでした。別のキーワードでお試しください。",
-        many_results: "「[SEARCH_TERM]」の検索結果: [COUNT]件",
-        one_result: "「[SEARCH_TERM]」の検索結果: 1件",
-        searching: "「[SEARCH_TERM]」を検索中…",
-      },
-    });
+  let pagefind = null;
+  try {
+    pagefind = await import("/pagefind/pagefind.js");
+    await pagefind.options({ excerptLength: 30 });
+  } catch (e) {
+    errorEl.classList.remove("hidden");
+  }
+
+  let results = [];
+  let shown = 0;
+  let current = "";
+
+  function row(data) {
+    const a = document.createElement("a");
+    a.href = data.url;
+    a.className = "row grid-cols-[6px_minmax(0,1fr)] gap-3 !items-stretch py-3.5";
+    const bar = document.createElement("span");
+    bar.style.background = hex[data.meta.category] || "#2A1F11";
+    const body = document.createElement("span");
+    body.className = "flex flex-col gap-1";
+    const meta = document.createElement("span");
+    meta.className = "text-[11px] text-ink-muted";
+    meta.textContent = [data.meta.category, data.meta.date].filter(Boolean).join(" · ");
+    const title = document.createElement("span");
+    title.className = "row-title text-[16px] font-normal";
+    title.textContent = data.meta.title || data.url;
+    body.append(meta, title);
+    a.append(bar, body);
+    return a;
+  }
+
+  async function showMore() {
+    const slice = results.slice(shown, shown + PAGE);
+    shown += slice.length;
+    const datas = await Promise.all(slice.map((r) => r.data()));
+    datas.forEach((d) => list.append(row(d)));
+    more.classList.toggle("hidden", shown >= results.length);
+  }
+
+  async function run(q) {
+    q = q.trim();
+    current = q;
+    const url = new URL(location.href);
+    if (q) url.searchParams.set("q", q);
+    else url.searchParams.delete("q");
+    history.replaceState(null, "", url);
+    list.replaceChildren();
+    emptyEl.classList.add("hidden");
+    more.classList.add("hidden");
+    if (!q) {
+      statusEl.textContent = "";
+      return;
+    }
+    if (!pagefind) return;
+    statusEl.textContent = `「${q}」を検索中…`;
+    const search = await pagefind.debouncedSearch(q, {}, 250);
+    if (search === null || q !== current) return; // superseded by newer input
+    results = search.results;
+    shown = 0;
+    statusEl.textContent = `「${q}」の検索結果：${results.length}件`;
+    if (results.length === 0) {
+      emptyEl.classList.remove("hidden");
+      return;
+    }
+    await showMore();
+  }
+
+  input.addEventListener("input", () => run(input.value));
+  form.addEventListener("submit", (e) => {
+    e.preventDefault();
+    run(input.value);
+    input.blur();
+  });
+  document.getElementById("search-clear").addEventListener("click", () => {
+    input.value = "";
+    run("");
+    input.focus();
+  });
+  more.addEventListener("click", showMore);
+  document.querySelectorAll("[data-pick]").forEach((b) =>
+    b.addEventListener("click", () => {
+      input.value = b.dataset.pick;
+      run(input.value);
+      window.scrollTo({ top: 0 });
+    }),
+  );
+
+  const initial = new URLSearchParams(location.search).get("q") || "";
+  if (initial) {
+    input.value = initial;
+    run(initial);
   } else {
-    document.getElementById("search")?.classList.add("hidden");
-    document.getElementById("search-fallback")?.classList.remove("hidden");
+    input.focus();
   }
 </script>

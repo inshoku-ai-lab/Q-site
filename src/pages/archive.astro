@@ -1,33 +1,93 @@
 ---
 export const prerender = true;
 import Layout from "../layouts/Layout.astro";
-import ArticleCard from "../components/ArticleCard.astro";
-import { getArchiveIndex } from "../lib/posts";
+import VHead from "../components/VHead.astro";
+import { getArchiveIndex, categoryAccentHex } from "../lib/posts";
 
 const archive = getArchiveIndex();
 const totalCount = archive.reduce((sum, y) => sum + y.posts.length, 0);
+const md = (iso: string | null) => {
+  if (!iso) return "";
+  const d = new Date(iso);
+  if (Number.isNaN(d.getTime())) return "";
+  return `${String(d.getMonth() + 1).padStart(2, "0")}.${String(d.getDate()).padStart(2, "0")}`;
+};
 ---
 
-<Layout title="アーカイブ">
-  <div class="max-w-page mx-auto px-4 md:px-8 py-16">
-    <header class="mb-12">
-      <div class="text-xs uppercase tracking-[0.3em] text-earth mb-3">Archive</div>
-      <h1 class="font-serif text-3xl md:text-4xl font-semibold text-ink">年別アーカイブ</h1>
-      <p class="mt-3 text-ink-muted">全{totalCount.toLocaleString()}本の記事を年別に。</p>
-    </header>
+<Layout title="アーカイブ" description={`全${totalCount}本の記事を年別に。`}>
+  <div class="max-w-site mx-auto md:px-8 md:pb-14">
+    <VHead
+      text="アーカイブ"
+      mobile={{ size: 44, height: 240, padY: 18, padX: 14, tracking: 0.12 }}
+      pc={{ size: 56, height: 300, padY: 28, padX: 20, tracking: 0.12 }}
+      bodyClass="justify-end gap-2.5 md:!p-7"
+    >
+      <span class="vhead-label">ARCHIVE · {totalCount}本</span>
+      <span class="vhead-desc">全記事を年別に。</span>
+    </VHead>
 
-    <div class="space-y-16">
-      {archive.map((y) => (
-        <section>
-          <div class="flex items-baseline justify-between mb-6 pb-3 border-b border-paper-300">
-            <h2 class="font-serif text-3xl font-bold text-ink">{y.year}</h2>
-            <span class="text-sm text-ink-muted font-mono">{y.posts.length}本</span>
-          </div>
-          <div class="bg-paper-50 rounded-lg border border-paper-200 px-5">
-            {y.posts.map((post) => <ArticleCard post={post} variant="compact" />)}
-          </div>
-        </section>
-      ))}
+    <nav id="year-bar" class="sticky top-0 z-20 bg-sumi flex gap-1 overflow-x-auto px-5 md:px-3 py-2" aria-label="年へ移動">
+      {
+        archive.map((y) => (
+          <a
+            href={`#y${y.year}`}
+            data-year={y.year}
+            class="flex-none min-w-[64px] h-10 flex items-center justify-center font-mono text-[13px] text-paper-100 hover:text-paper-100 border border-paper-100/30"
+          >
+            {y.year}
+          </a>
+        ))
+      }
+    </nav>
+
+    <div class="px-5 md:px-0 pb-10 md:grid md:grid-cols-2 md:gap-x-10">
+      {
+        archive.map((y) => (
+          <section id={`y${y.year}`} class="mt-[22px] scroll-mt-14" data-year-section={y.year}>
+            <div class="flex justify-between items-baseline pb-1.5 border-b-[3px] border-moss">
+              <h2 class="font-serif font-extrabold text-[30px] leading-tight">{y.year}</h2>
+              <span class="font-mono text-[12px] text-ink-muted">{y.posts.length}本</span>
+            </div>
+            {y.posts.map((p) => (
+              <a href={`/posts/${p.slug}/`} class="row grid-cols-[44px_minmax(0,1fr)] gap-2.5 !items-start py-3">
+                <span class="row-date pt-[3px]">{md(p.date)}</span>
+                <span class="flex flex-col gap-[3px]">
+                  <span class="row-title text-[15px] font-normal">{p.title}</span>
+                  {p.category && (
+                    <span class="flex items-center gap-1.5 text-[10px] text-ink-muted">
+                      <span class="inline-block w-2.5 h-1" style={`background:${categoryAccentHex(p.category)}`} />
+                      {p.category}
+                    </span>
+                  )}
+                </span>
+              </a>
+            ))}
+          </section>
+        ))
+      }
     </div>
   </div>
 </Layout>
+
+<script>
+  // Highlight the year chip for the section currently in view.
+  const chips = document.querySelectorAll<HTMLAnchorElement>("#year-bar [data-year]");
+  function setActive(year: string) {
+    chips.forEach((c) => {
+      const on = c.dataset.year === year;
+      c.classList.toggle("bg-moss", on);
+      c.classList.toggle("border-moss", on);
+      if (on) c.scrollIntoView({ block: "nearest", inline: "nearest" });
+    });
+  }
+  const sections = document.querySelectorAll<HTMLElement>("[data-year-section]");
+  const io = new IntersectionObserver(
+    (entries) => {
+      const visible = entries.filter((e) => e.isIntersecting).sort((a, b) => a.boundingClientRect.top - b.boundingClientRect.top);
+      if (visible[0]) setActive((visible[0].target as HTMLElement).dataset.yearSection ?? "");
+    },
+    { rootMargin: "-60px 0px -70% 0px" },
+  );
+  sections.forEach((s) => io.observe(s));
+  if (sections[0]) setActive(sections[0].dataset.yearSection ?? "");
+</script>

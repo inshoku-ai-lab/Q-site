@@ -1,51 +1,47 @@
 ---
 export const prerender = true;
 import Layout from "../../layouts/Layout.astro";
-import { getCategoryIndex } from "../../lib/posts";
+import VHead from "../../components/VHead.astro";
+import Sidebar from "../../components/Sidebar.astro";
+import { getCategoryIndex, categoryAccentHex } from "../../lib/posts";
+import { CATEGORY_DESCRIPTIONS, CATEGORY_ORDER } from "../../lib/seriesMeta";
 
-const cats = getCategoryIndex().sort((a, b) => b.count - a.count);
-
-const catDesc: Record<string, string> = {
-  "放浪記": "20年以上の世界放浪を綴った自伝的連載。",
-  "思想・理論": "デボリューション理論、意識論、覚醒について。",
-  "時事・情報戦": "メディアが報じない情報戦争・選挙の真実。",
-  "エッセイ・その他": "単発の随筆・観察・雑記。",
-  "スピリチュアリティ": "意識、トラウマ、自己と魂の探求。ティール・スワンの解説を中心に。",
-  "ビットコインの真実": "真のビットコイン(BSV)、サトシ・ナカモトの正体、暗号通貨を巡る情報戦。",
-};
-
-const catAccent: Record<string, string> = {
-  "放浪記": "wandering",
-  "思想・理論": "thought",
-  "時事・情報戦": "current",
-  "エッセイ・その他": "essay",
-  "スピリチュアリティ": "spirituality",
-  "ビットコインの真実": "bitcoin",
-};
+const rank = (n: string) => (CATEGORY_ORDER.indexOf(n) === -1 ? 99 : CATEGORY_ORDER.indexOf(n));
+const cats = getCategoryIndex().sort((a, b) => rank(a.name) - rank(b.name) || b.count - a.count);
 ---
 
-<Layout title="カテゴリ一覧">
-  <div class="max-w-page mx-auto px-4 md:px-8 py-16">
-    <header class="mb-12">
-      <div class="text-xs uppercase tracking-[0.3em] text-earth mb-3">Categories</div>
-      <h1 class="font-serif text-3xl md:text-4xl font-semibold text-ink">カテゴリで読む</h1>
-    </header>
+<Layout title="カテゴリ一覧" description="テーマ別に読む。">
+  <div class="max-w-site mx-auto md:px-8 md:pb-14 md:grid md:grid-cols-[minmax(0,1fr)_300px] md:gap-10 md:items-start">
+    <div class="min-w-0">
+      <VHead
+        text="カテゴリ"
+        mobile={{ size: 48, height: 240, padY: 18, padX: 14, tracking: 0.12 }}
+        pc={{ size: 60, height: 300, padY: 28, padX: 20, tracking: 0.12 }}
+        bodyClass="justify-end gap-2.5 md:!p-7"
+      >
+        <span class="vhead-label">CATEGORIES · {cats.length}</span>
+        <span class="vhead-desc">テーマ別に読む。放浪記から入るのがおすすめです。</span>
+      </VHead>
 
-    <div class="grid sm:grid-cols-2 gap-5">
-      {cats.map((c) => {
-        const accent = catAccent[c.name] ?? "moss";
-        return (
-          <a
-            href={`/category/${encodeURIComponent(c.name)}/`}
-            class={`block p-6 rounded-lg bg-paper-50 border border-paper-200 no-underline card-hover border-l-4 border-l-${accent}`}
-          >
-            <div class={`text-[10px] uppercase tracking-widest text-${accent} mb-2`}>Category</div>
-            <h2 class="font-serif text-2xl font-semibold text-ink mb-2">{c.name}</h2>
-            <p class="text-sm text-ink-muted mb-3">{catDesc[c.name]}</p>
-            <div class="text-xs text-ink-muted font-mono">{c.count}本の記事</div>
-          </a>
-        );
-      })}
+      <div class="px-5 md:px-0 pb-10">
+        {
+          cats.map((c) => (
+            <a href={`/category/${encodeURIComponent(c.name)}/`} class="row grid-cols-[6px_minmax(0,1fr)_auto] gap-3.5 !items-stretch py-[18px]">
+              <span style={`background:${categoryAccentHex(c.name)}`} />
+              <span class="flex flex-col gap-1.5">
+                <span class="font-serif font-extrabold text-[19px]">{c.name}</span>
+                {CATEGORY_DESCRIPTIONS[c.name] && <span class="text-[13px] leading-[1.7] text-ink-light">{CATEGORY_DESCRIPTIONS[c.name]}</span>}
+              </span>
+              <span class="flex flex-col items-end gap-0.5">
+                <span class="font-serif font-extrabold text-[22px] text-moss leading-tight">{c.count}</span>
+                <span class="text-[10px] text-ink-muted">本</span>
+              </span>
+            </a>
+          ))
+        }
+      </div>
     </div>
+
+    <Sidebar latest={8} />
   </div>
 </Layout>

@@ -1,17 +1,14 @@
 ---
 export const prerender = true;
 import Layout from "../layouts/Layout.astro";
-import ArticleCard from "../components/ArticleCard.astro";
-import SeriesCard from "../components/SeriesCard.astro";
-import {
-  getPostBySlug,
-  getSeriesIndex,
-  getPublishedPosts,
-  getPostsByCategory,
-  getCategoryIndex,
-  categoryAccentHex,
-} from "../lib/posts";
+import VHead from "../components/VHead.astro";
+import SeriesTile from "../components/SeriesTile.astro";
+import PostRow from "../components/PostRow.astro";
+import Sidebar from "../components/Sidebar.astro";
+import { getPostBySlug, getLatestPosts, formatDateShort } from "../lib/posts";
 import type { Post } from "../lib/posts";
+import { getSeriesSorted, clip } from "../lib/seriesMeta";
+import { getImageDimensions } from "../lib/imageDimensions";
 
 // Curated homepage picks: one Devolution Theory intro, one Teal Swan piece,
 // one Bitcoin/BSV piece.
@@ -20,151 +17,87 @@ const featuredSlugs = [
   "satanic-ritual-survivor-turned-genius-trauma-therapist-teal-swans-story",
   "the-inventor-of-bitcoin-is-dr-craig-wright-17-mathematical-proofs-alpha",
 ];
-const featured = featuredSlugs
-  .map((slug) => getPostBySlug(slug))
-  .filter((p): p is Post => Boolean(p));
-const seriesList = getSeriesIndex();
-const totalPosts = getPublishedPosts().length;
+const featured = featuredSlugs.map((slug) => getPostBySlug(slug)).filter((p): p is Post => Boolean(p));
+const [lead, ...others] = featured;
+const ordinals = ["壱", "弐", "参", "肆", "伍"];
 
-// Curated category order for the homepage's horizontal-scroll sections
-const categoryOrder = ["放浪記", "思想・理論", "時事・情報戦", "エッセイ・その他", "スピリチュアリティ", "ビットコインの真実"];
-const categoryNames = new Set(getCategoryIndex().map((c) => c.name));
-const categorySections = categoryOrder
-  .filter((name) => categoryNames.has(name))
-  .map((name) => ({
-    name,
-    accentHex: categoryAccentHex(name),
-    posts: getPostsByCategory(name)
-      .sort((a, b) => (b.date ?? "").localeCompare(a.date ?? ""))
-      .slice(0, 8),
-  }));
+const leadTitle = lead ? lead.title.replace(/[「」]/g, "").replace(/\s+/g, "") : "";
+const leadImage = lead?.cover ?? "/images/hero-wanderer.webp";
+const leadDim = lead?.cover ? getImageDimensions(lead.cover) : null;
 
-// Curated series order for homepage
-const seriesOrder = [
-  "放浪記",
-  "デボリューション理論",
-  "ツイッターファイル",
-  "ティール・スワン",
-];
-const seriesSorted = seriesOrder
-  .map((name) => seriesList.find((s) => s.name === name))
-  .filter((s): s is NonNullable<typeof s> => Boolean(s));
-
-const seriesDescriptions: Record<string, string> = {
-  "放浪記": "宗教家庭から脱出した17歳の少年が、世界中を放浪し続ける物語。500話以上の連載。",
-  "デボリューション理論": "トランプ政権末期に発動された軍事的権限委譲作戦の全貌。徹底解説。",
-  "ツイッターファイル": "イーロン・マスクが暴露したTwitter社内の検閲構造。全シリーズ要約。",
-  "ティール・スワン": "悪魔崇拝サバイバーがトラウマセラピストへ。意識の断片化と統合の話。",
-  "真のビットコイン (BSV)": "BTCではなくBSV。サトシ・ナカモトの正体とビットコインの本質。",
-  "翻訳記事": "海外の重要な情報源から、日本人が知っておくべき記事を翻訳。",
-};
+const seriesList = getSeriesSorted();
+const latest = getLatestPosts(10);
 ---
 
-<Layout title="Qryptraveller's Notes">
-  <!-- Hero -->
-  <section class="border-b border-paper-300 bg-gradient-to-b from-paper-50 to-paper-100">
-    <div class="max-w-page mx-auto px-4 md:px-8 py-14 md:py-20 grid md:grid-cols-2 gap-8 md:gap-12 items-center">
-      <div>
-        <div class="text-xs uppercase tracking-[0.3em] text-earth mb-4">
-          Records of a Roaming Mind · since 2021
-        </div>
-        <h1 class="font-serif text-3xl md:text-4xl lg:text-5xl font-extrabold text-ink leading-[1.35] mb-6">
-          地球放浪<span class="text-moss-light">20年以上</span>の旅人/市民ジャーナリストによる思索のアーカイブ
-        </h1>
-        <p class="text-ink-muted leading-relaxed mb-8 max-w-prose">
-          スナフキンを心の師として、住所も保険証も持たずに世界中を旅し続ける。
-          放浪の記録、思想と理論、時事の考察、そして雑記。<br />
-          <span class="text-ink-muted text-sm">{totalPosts.toLocaleString()}本の記事をご用意しています。</span>
-        </p>
-        <div class="flex flex-wrap gap-3">
-          <a
-            href="/series/%E6%94%BE%E6%B5%AA%E8%A8%98/"
-            class="inline-block px-6 py-3 bg-moss-light text-paper-100 rounded-full font-serif font-extrabold text-sm no-underline hover:bg-moss-dark"
-          >
-            放浪記を読む
+<Layout title="Qryptraveller's Notes" header="masthead">
+  <h1 class="sr-only">Qryptraveller's Notes — 旅と思索の記録</h1>
+  <div class="max-w-site mx-auto md:px-8 md:pb-14 md:grid md:grid-cols-[minmax(0,1fr)_300px] md:gap-10">
+    <div>
+      {
+        lead && (
+          <a href={`/posts/${lead.slug}/`} class="block text-ink hover:text-ink group">
+            <VHead
+              as="h2"
+              text={leadTitle}
+              lineHeight={1.15}
+              mobile={{ size: 46, height: 380, maxWidth: 180, padY: 18, padX: 12, tracking: 0 }}
+              pc={{ size: 60, height: 500, maxWidth: 300, padY: 28, padX: 18, tracking: 0 }}
+              bodyClass="justify-between gap-3.5 md:justify-start md:gap-[18px] md:!p-7"
+            >
+              <span class="font-serif font-extrabold text-[13px] md:text-[15px] text-moss tracking-[0.2em]">特集　壱</span>
+              <img
+                src={leadImage}
+                width={leadDim?.width}
+                height={leadDim?.height}
+                alt=""
+                class="hidden md:block w-full aspect-[16/10] object-cover sepia-img"
+              />
+              <span class="text-[14px] md:text-[16px] leading-[1.9] text-ink-light group-hover:text-ink">
+                {clip(lead.seo_description || lead.excerpt, 70)}
+              </span>
+              <span class="text-[11px] md:text-[12px] text-ink-muted">
+                {lead.category}
+                <br class="md:hidden" />
+                <span class="hidden md:inline"> · </span>
+                {formatDateShort(lead.date)} · 約{lead.reading_time}分
+              </span>
+            </VHead>
           </a>
-          <a
-            href="/about/"
-            class="inline-block px-6 py-3 border-[1.5px] border-ink/20 text-ink rounded-full font-serif font-extrabold text-sm no-underline hover:bg-moss-dark hover:text-paper-100 hover:border-moss-dark"
-          >
-            About this site
+        )
+      }
+
+      {
+        others.map((p, i) => (
+          <a href={`/posts/${p.slug}/`} class="grid grid-cols-[48px_minmax(0,1fr)] md:grid-cols-[56px_minmax(0,1fr)] border-b border-sumi text-ink hover:text-ink hover:bg-moss/5">
+            <span class="[writing-mode:vertical-rl] flex items-center justify-center bg-sumi text-paper-100 font-serif font-extrabold text-[15px] md:text-[16px] tracking-[0.2em] py-3">
+              特集{ordinals[i + 1]}
+            </span>
+            <span class="flex flex-col gap-1.5 md:gap-2 px-5 py-4 md:px-7 md:py-[22px]">
+              <span class="font-serif font-extrabold text-[17px] md:text-[21px] leading-[1.5] md:leading-[1.45]">{p.title}</span>
+              <span class="text-[11px] md:text-[12px] text-ink-muted">
+                {p.category} · 約{p.reading_time}分
+              </span>
+            </span>
           </a>
+        ))
+      }
+
+      <!-- Mobile: 連載 tiles + 最新の記事 (PC shows these in the sidebar) -->
+      <section class="md:hidden px-5 pt-7 pb-2">
+        <h2 class="sec-h">連載</h2>
+        <div class="grid grid-cols-2 gap-2 pt-3">
+          {seriesList.map((s) => <SeriesTile name={s.name} count={s.count} />)}
         </div>
-      </div>
+      </section>
 
-      <div class="hidden md:block">
-        <div class="relative aspect-[16/11] rounded-xl overflow-hidden border border-paper-300">
-          <img
-            src="/images/hero-wanderer.webp"
-            alt="旅装の人物が海を見つめる水彩画"
-            class="absolute inset-0 w-full h-full object-cover"
-          />
-          <div class="absolute bottom-6 left-6 right-6 text-xs font-serif italic text-paper-50 drop-shadow">
-            "Travel light, observe deeply."
-          </div>
-        </div>
-      </div>
+      <section class="md:hidden px-5 pt-6 pb-10">
+        <h2 class="sec-h">最新の記事</h2>
+        {latest.map((p) => <PostRow post={p} variant="date" />)}
+        <a href="/archive/" class="flex items-center justify-end min-h-[48px] text-[13px] font-bold">すべての記事 →</a>
+      </section>
     </div>
-  </section>
 
-  {featured.length > 0 && (
-    <section class="max-w-page mx-auto px-4 md:px-8 py-16">
-      <div class="flex items-baseline justify-between mb-8">
-        <h2 class="font-serif text-2xl md:text-3xl font-semibold text-ink">特集記事</h2>
-        <span class="text-xs uppercase tracking-widest text-ink-muted">Featured</span>
-      </div>
-      <div class="grid md:grid-cols-3 gap-6">
-        {featured.map((post) => <ArticleCard post={post} variant="wide" />)}
-      </div>
-    </section>
-  )}
-
-  <section class="bg-paper-50 border-y border-paper-300">
-    <div class="max-w-page mx-auto px-4 md:px-8 py-16">
-      <div class="flex items-baseline justify-between mb-8">
-        <h2 class="font-serif text-2xl md:text-3xl font-semibold text-ink">シリーズで読む</h2>
-        <a href="/series/" class="text-sm text-moss no-underline hover:text-moss-dark">すべて見る →</a>
-      </div>
-      <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
-        {seriesSorted.map((s) => (
-          <SeriesCard
-            name={s.name}
-            count={s.count}
-            description={seriesDescriptions[s.name]}
-            cover={s.representative?.cover ?? null}
-            accent={
-              s.name === "放浪記" ? "wandering"
-              : s.name === "デボリューション理論" ? "thought"
-              : s.name === "ティール・スワン" ? "spirituality"
-              : "current"
-            }
-          />
-        ))}
-      </div>
-    </div>
-  </section>
-
-  {categorySections.map((section) => (
-    <section class="max-w-page mx-auto px-4 md:px-8 py-10">
-      <div class="flex items-baseline justify-between mb-5">
-        <h2 class="font-serif text-xl md:text-2xl font-semibold text-ink flex items-center gap-2.5">
-          <span class="w-2.5 h-2.5 rounded-full inline-block" style={`background:${section.accentHex}`} />
-          {section.name}
-        </h2>
-        <a
-          href={`/category/${encodeURIComponent(section.name)}/`}
-          class="text-sm text-moss no-underline hover:text-moss-dark whitespace-nowrap"
-        >
-          すべて見る →
-        </a>
-      </div>
-      <div class="flex gap-4 overflow-x-auto snap-x snap-mandatory pb-2 -mx-4 px-4 md:mx-0 md:px-0">
-        {section.posts.map((post) => <ArticleCard post={post} variant="scroll" headingLevel="h3" />)}
-      </div>
-    </section>
-  ))}
-
-  <section class="max-w-page mx-auto px-4 md:px-8 pb-16 text-center">
-    <a href="/archive/" class="text-sm text-moss no-underline hover:text-moss-dark">全記事のアーカイブを見る →</a>
-  </section>
+    <Sidebar latest={8}>
+    </Sidebar>
+  </div>
 </Layout>

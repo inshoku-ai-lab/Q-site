@@ -31,3 +31,11 @@ export function extractToc(blocks: Block[]): TocEntry[] {
   }
   return toc;
 }
+
+// Headings that already carry their own numbering ("１、…", "第2章", "3.")
+// skip the automatic kanji numeral the article styles prepend to h2.
+const OWN_NUMBER_RE = /^\s*(?:<[^>]+>\s*)*(?:[0-9０-９①-⑳㈠-㈩一二三四五六七八九十]+\s*[、。.．:：)）]|第\s*[0-9０-９一二三四五六七八九十百]+|[（(]\s*[0-9０-９一二三四五六七八九十]+\s*[)）])/;
+
+export function headingHasOwnNumber(html: string | undefined): boolean {
+  return OWN_NUMBER_RE.test(html ?? "");
+}

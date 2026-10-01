@@ -3,6 +3,7 @@ import { resolveInternalPost, resolveLegacyCategoryLink, domainOf, categoryAccen
 import { getOgp } from "./ogp";
 import { isSafeHttpUrl } from "./http";
 import { getImageDimensions } from "./imageDimensions";
+import { headingHasOwnNumber } from "./toc";
 
 // Server-side mirror of components/ArticleBody.astro's block rendering,
 // used to render the member-only tail of an article as an HTML string for
@@ -30,7 +31,7 @@ function renderBlogCard(url: string): string {
             ? `<span class="text-[10px] uppercase tracking-widest font-medium text-center px-1" style="color:${accentHex}">${escapeHtml(post.category)}</span>`
             : ""
         }</div>`;
-    return `<a href="/posts/${post.slug}/" class="my-6 flex gap-3.5 items-center no-underline group bg-paper-50 border border-paper-200 rounded-lg overflow-hidden card-hover">${thumb}<div class="py-3 pr-4 min-w-0"><div class="text-[10px] uppercase tracking-widest text-ink-muted mb-1">Qryptraveller's Notes</div><div class="font-serif text-sm md:text-base leading-snug text-ink group-hover:text-moss-dark line-clamp-2">${escapeHtml(post.title)}</div>${
+    return `<a href="/posts/${post.slug}/" class="my-6 flex gap-3.5 items-center no-underline group blogcard bg-field border border-rule border-l-4 border-l-sumi overflow-hidden">${thumb}<div class="py-3 pr-4 min-w-0"><div class="text-[10px] uppercase tracking-widest text-ink-muted mb-1">Qryptraveller's Notes</div><div class="font-serif text-sm md:text-base leading-snug text-ink group-hover:text-moss line-clamp-2">${escapeHtml(post.title)}</div>${
       post.date ? `<div class="text-[11px] text-ink-muted font-mono mt-1">${escapeHtml(formatDateShort(post.date))}</div>` : ""
     }</div></a>`;
   }
@@ -40,7 +41,7 @@ function renderBlogCard(url: string): string {
 
   if (legacyCategoryLink) {
     const folderIcon = `<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" /><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z" /></svg>`;
-    return `<a href="${escapeAttr(legacyCategoryLink)}" class="my-6 flex items-center gap-3 no-underline group bg-paper-50 border border-paper-200 rounded-lg px-4 py-3.5 card-hover"><span class="w-8 h-8 rounded-full border border-paper-300 flex items-center justify-center flex-shrink-0 text-ink-muted group-hover:border-moss group-hover:text-moss transition-colors">${folderIcon}</span><div class="min-w-0"><div class="text-sm text-ink group-hover:text-moss-dark truncate">Qryptraveller's Notes</div><div class="text-[11px] text-ink-muted truncate">${escapeHtml(legacyCategoryLink)}</div></div></a>`;
+    return `<a href="${escapeAttr(legacyCategoryLink)}" class="my-6 flex items-center gap-3 no-underline group blogcard bg-field border border-rule border-l-4 border-l-sumi px-4 py-3.5"><span class="w-8 h-8 border border-rule flex items-center justify-center flex-shrink-0 text-ink-muted group-hover:border-moss group-hover:text-moss transition-colors">${folderIcon}</span><div class="min-w-0"><div class="text-sm text-ink group-hover:text-moss truncate">Qryptraveller's Notes</div><div class="text-[11px] text-ink-muted truncate">${escapeHtml(legacyCategoryLink)}</div></div></a>`;
   }
 
   const ogp = getOgp(url);
@@ -49,10 +50,10 @@ function renderBlogCard(url: string): string {
     const thumb = ogp.image
       ? `<img src="${escapeAttr(ogp.image)}" alt="" loading="lazy" referrerpolicy="no-referrer" class="w-28 md:w-36 aspect-[4/3] object-cover flex-shrink-0" onerror="this.style.display='none'" />`
       : `<div class="w-28 md:w-36 aspect-[4/3] flex-shrink-0 flex items-center justify-center bg-paper-200 text-ink-muted">${externalIcon}</div>`;
-    return `<a href="${escapeAttr(url)}" target="_blank" rel="noopener" class="my-6 flex gap-3.5 items-center no-underline group bg-paper-50 border border-paper-200 rounded-lg overflow-hidden card-hover">${thumb}<div class="py-3 pr-4 min-w-0"><div class="text-[10px] uppercase tracking-widest text-ink-muted mb-1">${escapeHtml(ogp.siteName || domainOf(url))}</div><div class="font-serif text-sm md:text-base leading-snug text-ink group-hover:text-moss-dark line-clamp-2">${escapeHtml(ogp.title || domainOf(url))}</div><div class="text-[11px] text-ink-muted truncate mt-1">${escapeHtml(domainOf(url))}</div></div></a>`;
+    return `<a href="${escapeAttr(url)}" target="_blank" rel="noopener" class="my-6 flex gap-3.5 items-center no-underline group blogcard bg-field border border-rule border-l-4 border-l-sumi overflow-hidden">${thumb}<div class="py-3 pr-4 min-w-0"><div class="text-[10px] uppercase tracking-widest text-ink-muted mb-1">${escapeHtml(ogp.siteName || domainOf(url))}</div><div class="font-serif text-sm md:text-base leading-snug text-ink group-hover:text-moss line-clamp-2">${escapeHtml(ogp.title || domainOf(url))}</div><div class="text-[11px] text-ink-muted truncate mt-1">${escapeHtml(domainOf(url))}</div></div></a>`;
   }
 
-  return `<a href="${escapeAttr(url)}" target="_blank" rel="noopener" class="my-6 flex items-center gap-3 no-underline group bg-paper-50 border border-paper-200 rounded-lg px-4 py-3.5 card-hover"><span class="w-8 h-8 rounded-full border border-paper-300 flex items-center justify-center flex-shrink-0 text-ink-muted group-hover:border-moss group-hover:text-moss transition-colors">${externalIcon}</span><div class="min-w-0"><div class="text-sm text-ink group-hover:text-moss-dark truncate">${escapeHtml(domainOf(url))}</div><div class="text-[11px] text-ink-muted truncate">${escapeAttr(url)}</div></div></a>`;
+  return `<a href="${escapeAttr(url)}" target="_blank" rel="noopener" class="my-6 flex items-center gap-3 no-underline group blogcard bg-field border border-rule border-l-4 border-l-sumi px-4 py-3.5"><span class="w-8 h-8 border border-rule flex items-center justify-center flex-shrink-0 text-ink-muted group-hover:border-moss group-hover:text-moss transition-colors">${externalIcon}</span><div class="min-w-0"><div class="text-sm text-ink group-hover:text-moss truncate">${escapeHtml(domainOf(url))}</div><div class="text-[11px] text-ink-muted truncate">${escapeAttr(url)}</div></div></a>`;
 }
 
 // Mirrors ArticleBody.astro's groupBlocks: consecutive quote blocks (the
@@ -106,14 +107,15 @@ export function renderBlocksToHtml(blocks: Block[]): string {
         break;
       case "heading_1":
       case "heading_2":
-        parts.push(`<h2>${b.html ?? ""}</h2>`);
+        if (!b.html?.replace(/<[^>]+>/g, "").trim()) break;
+        parts.push(headingHasOwnNumber(b.html) ? `<h2 class="no-num">${b.html}</h2>` : `<h2>${b.html}</h2>`);
         break;
       case "heading_3":
         parts.push(`<h3>${b.html ?? ""}</h3>`);
         break;
       case "callout":
         parts.push(
-          `<div class="my-6 p-4 rounded-md bg-earth/10 border-l-4 border-earth"><div>${b.html ?? ""}</div></div>`
+          `<div class="callout"><div>${b.html ?? ""}</div></div>`
         );
         break;
       case "code":
@@ -147,7 +149,7 @@ export function renderBlocksToHtml(blocks: Block[]): string {
       case "video":
         if (b.url && isSafeHttpUrl(b.url)) {
           parts.push(
-            `<div class="my-6 aspect-video"><iframe src="${escapeAttr(b.url)}" class="w-full h-full rounded-md" loading="lazy" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>`
+            `<div class="my-6 aspect-video"><iframe src="${escapeAttr(b.url)}" class="w-full h-full" loading="lazy" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>`
           );
         }
         break;

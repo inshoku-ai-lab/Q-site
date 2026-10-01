@@ -1,17 +1,10 @@
 ---
 export const prerender = true;
-import Layout from "../layouts/Layout.astro";
+import LegalLayout from "../layouts/LegalLayout.astro";
 ---
 
-<Layout title="プライバシーポリシー" description="Qryptraveller's Notesのプライバシーポリシー。">
-  <article class="max-w-prose mx-auto px-4 md:px-0 py-16">
-    <header class="mb-10">
-      <div class="text-xs uppercase tracking-[0.3em] text-earth mb-3">Privacy Policy</div>
-      <h1 class="font-serif text-3xl md:text-4xl font-semibold text-ink leading-tight">プライバシーポリシー</h1>
-      <p class="text-sm text-ink-muted mt-3">制定日: 2026年8月6日</p>
-    </header>
+<LegalLayout kind="privacy" title="プライバシーポリシー" description="Qryptraveller's Notesのプライバシーポリシー。" established="2026.08.06">
 
-    <div class="prose-article">
       <p>
         Qryptraveller's Notes(qryptraveller.com、以下「当サイト」)は、訪問者および会員(以下「ユーザー」)の個人情報を、
         以下の方針に基づいて取り扱います。
@@ -52,6 +45,10 @@ import Layout from "../layouts/Layout.astro";
         <li>ログイン前に読んでいた記事に戻るための一時的なCookie(有効期限10分)</li>
       </ul>
       <p>広告目的のCookieは使用していません。</p>
+      <p>
+        また、記事ページの文字サイズの設定と、読み終えた記事の記録(シリーズ目次の「既読」「続きから」表示に使用)は、
+        お使いのブラウザ内(localStorage)にのみ保存され、当サイトへは送信されません。
+      </p>
 
       <h2>4. データの保存先(委託先)</h2>
       <p>取得した情報は、以下の外部サービスを通じて保存・処理されます。</p>
@@ -90,6 +87,4 @@ import Layout from "../layouts/Layout.astro";
 
       <h2>9. お問い合わせ</h2>
       <p>本ポリシーに関するお問い合わせは、<a href="/contact/">お問い合わせフォーム</a>よりお願いします。</p>
-    </div>
-  </article>
-</Layout>
+</LegalLayout>

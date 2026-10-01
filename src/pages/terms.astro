@@ -1,17 +1,10 @@
 ---
 export const prerender = true;
-import Layout from "../layouts/Layout.astro";
+import LegalLayout from "../layouts/LegalLayout.astro";
 ---
 
-<Layout title="利用規約" description="Qryptraveller's Notesの利用規約。">
-  <article class="max-w-prose mx-auto px-4 md:px-0 py-16">
-    <header class="mb-10">
-      <div class="text-xs uppercase tracking-[0.3em] text-earth mb-3">Terms of Service</div>
-      <h1 class="font-serif text-3xl md:text-4xl font-semibold text-ink leading-tight">利用規約</h1>
-      <p class="text-sm text-ink-muted mt-3">制定日: 2026年8月6日</p>
-    </header>
+<LegalLayout kind="terms" title="利用規約" description="Qryptraveller's Notesの利用規約。" established="2026.08.06">
 
-    <div class="prose-article">
       <p>
         この利用規約(以下「本規約」)は、Qryptraveller's Notes(qryptraveller.com、以下「当サイト」)の
         利用条件を定めるものです。当サイトをご利用いただく方(以下「ユーザー」)は、本規約に同意したものとみなします。
@@ -89,6 +82,4 @@ import Layout from "../layouts/Layout.astro";
 
       <h2>9. お問い合わせ</h2>
       <p>本規約に関するお問い合わせは、<a href="/contact/">お問い合わせフォーム</a>よりお願いします。</p>
-    </div>
-  </article>
-</Layout>
+</LegalLayout>

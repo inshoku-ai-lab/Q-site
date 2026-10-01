@@ -1,6 +1,6 @@
 ---
 export const prerender = false;
-import Layout from "../../layouts/Layout.astro";
+import AdminLayout from "../../layouts/AdminLayout.astro";
 import { requireAdmin, logAdminAccess } from "../../lib/admin";
 import { buildDashboardStats, type MemberRow, type ArchiveRow } from "../../lib/adminStats";
 
@@ -31,190 +31,155 @@ function referrerHref(slug: string): string {
 }
 
 const DOW_LABELS = ["日", "月", "火", "水", "木", "金", "土"];
+const statCells = [
+  { k: "現在の会員", v: stats.currentCount, c: "text-ink" },
+  { k: "累計入会", v: stats.cumulativeJoins, c: "text-moss" },
+  { k: "退会", v: stats.churnCount, c: "text-rust" },
+];
 const maxHeatmapValue = Math.max(1, ...stats.heatmap.flat());
 const maxTimeSeriesValue = Math.max(1, ...stats.timeSeries.map((t) => Math.max(t.joins, t.leaves)));
 ---
 
-<Layout title="管理ダッシュボード" description="旅路の証人 管理ダッシュボード" noIndex>
-  <div class="max-w-5xl mx-auto px-4 md:px-0 py-12">
-    <div class="flex items-center justify-between mb-8">
-      <h1 class="font-serif text-2xl font-semibold text-ink">管理ダッシュボード</h1>
-      <nav class="text-sm flex gap-4">
-        <a href="/admin/members" class="text-earth hover:text-ink underline">会員一覧へ</a>
-        <a href="/admin/inquiries" class="text-earth hover:text-ink underline">お問い合わせ一覧へ</a>
-        <a href="https://airtable.com/appV3kF3rErRTXyrw" target="_blank" rel="noopener" class="text-earth hover:text-ink underline">バグ報告(Airtable)へ</a>
-      </nav>
-    </div>
+<AdminLayout title="管理ダッシュボード" active="overview">
+  <h1 class="sr-only">管理ダッシュボード</h1>
 
-    {stats.recentlyPassedMilestone && (
-      <div class="mb-8 p-4 rounded-md bg-moss/10 border border-moss text-ink text-sm">
-        🎉 「旅路の証人」が {stats.recentlyPassedMilestone}人 に到達しました！
+  {
+    stats.recentlyPassedMilestone && (
+      <div class="mx-5 md:mx-0 mt-4 px-3.5 py-3 border-l-[6px] border-moss bg-done text-[13px]">
+        「旅路の証人」が {stats.recentlyPassedMilestone}人 に到達しました。
       </div>
-    )}
+    )
+  }
 
-    <!-- Top stats -->
-    <div class="grid grid-cols-2 md:grid-cols-3 gap-4 mb-12">
-      <div class="border border-paper-300 rounded-md p-4">
-        <div class="text-xs text-ink-muted mb-1">現在の会員数</div>
-        <div class="text-2xl font-semibold text-ink">{stats.currentCount}</div>
-      </div>
-      <div class="border border-paper-300 rounded-md p-4">
-        <div class="text-xs text-ink-muted mb-1">累計入会者数</div>
-        <div class="text-2xl font-semibold text-ink">{stats.cumulativeJoins}</div>
-      </div>
-      <div class="border border-paper-300 rounded-md p-4">
-        <div class="text-xs text-ink-muted mb-1">退会者数</div>
-        <div class="text-2xl font-semibold text-ink">{stats.churnCount}</div>
-      </div>
-      {stats.nextMilestone && (
-        <div class="border border-paper-300 rounded-md p-4 col-span-2 md:col-span-3">
-          <div class="text-xs text-ink-muted">次の節目まであと {stats.nextMilestone - stats.currentCount}人 ({stats.nextMilestone}人)</div>
+  <div class="mt-4 grid grid-cols-3 border-y-[3px] border-sumi">
+    {
+      statCells.map((s) => (
+        <div class="px-2.5 md:px-5 py-4 border-r border-rule last:border-r-0 flex flex-col gap-1">
+          <span class="text-[10px] md:text-[12px] text-ink-muted">{s.k}</span>
+          <span class={`font-serif font-extrabold text-[28px] md:text-[36px] leading-tight ${s.c}`}>{s.v}</span>
         </div>
-      )}
-    </div>
+      ))
+    }
+  </div>
+  {
+    stats.nextMilestone && (
+      <div class="px-5 md:px-0 py-2.5 text-[12px] text-ink-light border-b border-rule">
+        次の節目まであと {stats.nextMilestone - stats.currentCount}人（{stats.nextMilestone}人）
+      </div>
+    )
+  }
 
-    <!-- Time series -->
-    <section class="mb-12">
-      <h2 class="font-serif text-lg font-semibold text-ink mb-4">入会・退会の推移(月別)</h2>
+  <div class="md:grid md:grid-cols-2 md:gap-10">
+    <section class="px-5 md:px-0 pt-6">
+      <h2 class="sec-h !text-[17px]">
+        入会・退会の推移
+        <span class="font-sans font-normal text-[11px] flex gap-2.5">
+          <span class="flex items-center gap-1"><span class="w-2.5 h-2.5 bg-moss" />入会</span>
+          <span class="flex items-center gap-1"><span class="w-2.5 h-2.5 bg-rust" />退会</span>
+        </span>
+      </h2>
       {stats.timeSeries.length === 0 ? (
-        <p class="text-sm text-ink-muted">データがありません。</p>
+        <p class="py-3 text-[13px] text-ink-muted">データがありません。</p>
       ) : (
-        <div class="overflow-x-auto">
-          <table class="text-sm w-full border-collapse">
-            <thead>
-              <tr class="border-b border-paper-300 text-left text-ink-muted">
-                <th class="py-2 pr-4">月</th>
-                <th class="py-2 pr-4">入会</th>
-                <th class="py-2 pr-4">退会</th>
-                <th class="py-2">推移</th>
-              </tr>
-            </thead>
-            <tbody>
-              {stats.timeSeries.map((t) => (
-                <tr class="border-b border-paper-200">
-                  <td class="py-2 pr-4 font-mono text-xs">{t.month}</td>
-                  <td class="py-2 pr-4">{t.joins}</td>
-                  <td class="py-2 pr-4">{t.leaves}</td>
-                  <td class="py-2">
-                    <div class="flex gap-1 items-center h-4">
-                      <div class="bg-moss h-full" style={`width: ${(t.joins / maxTimeSeriesValue) * 100}px`} />
-                      <div class="bg-rust h-full" style={`width: ${(t.leaves / maxTimeSeriesValue) * 100}px`} />
-                    </div>
-                  </td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
+        stats.timeSeries.map((t) => (
+          <div class="grid grid-cols-[64px_minmax(0,1fr)_64px] gap-2.5 items-center min-h-[40px] border-b border-rule">
+            <span class="font-mono text-[11px] text-ink-muted">{t.month}</span>
+            <span class="flex flex-col gap-[3px]">
+              <span class="h-2 bg-moss" style={`width:${(t.joins / maxTimeSeriesValue) * 100}%`} />
+              <span class="h-2 bg-rust" style={`width:${(t.leaves / maxTimeSeriesValue) * 100}%`} />
+            </span>
+            <span class="font-mono text-[11px] text-right">+{t.joins} / −{t.leaves}</span>
+          </div>
+        ))
       )}
     </section>
 
-    <!-- Provider / reason breakdown -->
-    <div class="grid md:grid-cols-2 gap-8 mb-12">
-      <section>
-        <h2 class="font-serif text-lg font-semibold text-ink mb-4">プロバイダー別内訳</h2>
-        <ul class="space-y-2 text-sm">
-          {stats.providerBreakdown.map((p) => (
-            <li class="flex justify-between border-b border-paper-200 py-1.5">
-              <span>{p.label}</span>
-              <span class="text-ink-muted">{p.count}人</span>
-            </li>
-          ))}
-        </ul>
-      </section>
-
-      <section>
-        <h2 class="font-serif text-lg font-semibold text-ink mb-4">理由別内訳・継続率</h2>
-        <ul class="space-y-2 text-sm">
-          {stats.reasonBreakdown.map((r) => (
-            <li class="flex justify-between border-b border-paper-200 py-1.5">
-              <span>{r.label}</span>
-              <span class="text-ink-muted">{r.total}人(継続率 {r.retentionRate}%)</span>
-            </li>
-          ))}
-        </ul>
-      </section>
-    </div>
-
-    <!-- Cohort retention -->
-    <section class="mb-12">
-      <h2 class="font-serif text-lg font-semibold text-ink mb-4">コホート分析(入会月別 継続率)</h2>
-      {stats.cohorts.length === 0 ? (
-        <p class="text-sm text-ink-muted">データがありません。</p>
-      ) : (
-        <div class="overflow-x-auto">
-          <table class="text-sm w-full border-collapse">
-            <thead>
-              <tr class="border-b border-paper-300 text-left text-ink-muted">
-                <th class="py-2 pr-4">入会月</th>
-                <th class="py-2 pr-4">人数</th>
-                <th class="py-2 pr-4">1ヶ月後</th>
-                <th class="py-2 pr-4">3ヶ月後</th>
-                <th class="py-2 pr-4">半年後</th>
-              </tr>
-            </thead>
-            <tbody>
-              {stats.cohorts.map((c) => (
-                <tr class="border-b border-paper-200">
-                  <td class="py-2 pr-4 font-mono text-xs">{c.month}</td>
-                  <td class="py-2 pr-4">{c.total}</td>
-                  <td class="py-2 pr-4">{c.retention1mo === null ? "―" : `${c.retention1mo}%`}</td>
-                  <td class="py-2 pr-4">{c.retention3mo === null ? "―" : `${c.retention3mo}%`}</td>
-                  <td class="py-2 pr-4">{c.retention6mo === null ? "―" : `${c.retention6mo}%`}</td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
+    <section class="px-5 md:px-0 pt-6">
+      <h2 class="sec-h !text-[17px]">ログイン方法・理由別</h2>
+      {stats.providerBreakdown.map((p) => (
+        <div class="flex justify-between min-h-[40px] items-center border-b border-rule text-[13px]">
+          <span>{p.label}</span>
+          <span class="text-ink-muted">{p.count}人</span>
         </div>
-      )}
+      ))}
+      {stats.reasonBreakdown.map((r) => (
+        <div class="flex justify-between gap-3 min-h-[40px] items-center border-b border-rule text-[13px]">
+          <span>{r.label}</span>
+          <span class="text-ink-muted text-right">{r.total}人（継続率 {r.retentionRate}%）</span>
+        </div>
+      ))}
     </section>
+  </div>
 
-    <!-- Heatmap -->
-    <section class="mb-12">
-      <h2 class="font-serif text-lg font-semibold text-ink mb-4">入会の曜日・時間帯ヒートマップ</h2>
+  <section class="px-5 md:px-0 pt-8">
+    <h2 class="sec-h !text-[17px]">コホート分析（入会月別 継続率）</h2>
+    {stats.cohorts.length === 0 ? (
+      <p class="py-3 text-[13px] text-ink-muted">データがありません。</p>
+    ) : (
       <div class="overflow-x-auto">
-        <table class="text-xs border-collapse">
+        <table class="text-[13px] w-full border-collapse">
           <thead>
-            <tr>
-              <th></th>
-              {Array.from({ length: 24 }, (_, h) => <th class="px-1 py-1 font-normal text-ink-muted">{h}</th>)}
+            <tr class="border-b border-sumi text-left text-ink-muted text-[11px]">
+              <th class="py-2 pr-4 font-normal">入会月</th>
+              <th class="py-2 pr-4 font-normal">人数</th>
+              <th class="py-2 pr-4 font-normal">1ヶ月後</th>
+              <th class="py-2 pr-4 font-normal">3ヶ月後</th>
+              <th class="py-2 pr-4 font-normal">半年後</th>
             </tr>
           </thead>
           <tbody>
-            {stats.heatmap.map((row, dow) => (
-              <tr>
-                <th class="pr-2 text-ink-muted font-normal text-left">{DOW_LABELS[dow]}</th>
-                {row.map((v) => (
-                  <td class="p-0.5">
-                    <div
-                      class="w-4 h-4 rounded-sm"
-                      style={`background-color: rgba(109, 142, 93, ${v === 0 ? 0.05 : v / maxHeatmapValue})`}
-                      title={`${v}件`}
-                    />
-                  </td>
-                ))}
+            {stats.cohorts.map((c) => (
+              <tr class="border-b border-rule">
+                <td class="py-2.5 pr-4 font-mono text-[11px]">{c.month}</td>
+                <td class="py-2.5 pr-4">{c.total}</td>
+                <td class="py-2.5 pr-4">{c.retention1mo === null ? "―" : `${c.retention1mo}%`}</td>
+                <td class="py-2.5 pr-4">{c.retention3mo === null ? "―" : `${c.retention3mo}%`}</td>
+                <td class="py-2.5 pr-4">{c.retention6mo === null ? "―" : `${c.retention6mo}%`}</td>
               </tr>
             ))}
           </tbody>
         </table>
       </div>
-    </section>
+    )}
+  </section>
 
-    <!-- Referral tracking -->
-    <section class="mb-12">
-      <h2 class="font-serif text-lg font-semibold text-ink mb-4">流入経路(現会員のみ)</h2>
-      {stats.topReferrers.length === 0 ? (
-        <p class="text-sm text-ink-muted">データがありません。</p>
-      ) : (
-        <ul class="space-y-2 text-sm">
-          {stats.topReferrers.map((r) => (
-            <li class="flex justify-between border-b border-paper-200 py-1.5">
-              <a href={referrerHref(r.slug)} class="text-earth hover:text-ink underline break-all">{r.slug}</a>
-              <span class="text-ink-muted whitespace-nowrap ml-4">{r.count}人</span>
-            </li>
+  <section class="px-5 md:px-0 pt-8">
+    <h2 class="sec-h !text-[17px]">入会の曜日・時間帯</h2>
+    <div class="overflow-x-auto pt-2">
+      <table class="text-[10px] border-collapse">
+        <thead>
+          <tr>
+            <th></th>
+            {Array.from({ length: 24 }, (_, h) => <th class="px-0.5 py-1 font-normal text-ink-muted font-mono">{h}</th>)}
+          </tr>
+        </thead>
+        <tbody>
+          {stats.heatmap.map((row, dow) => (
+            <tr>
+              <th class="pr-2 text-ink-muted font-normal text-left">{DOW_LABELS[dow]}</th>
+              {row.map((v) => (
+                <td class="p-0.5">
+                  <div class="w-4 h-4" style={`background-color: rgba(79, 107, 67, ${v === 0 ? 0.06 : 0.15 + 0.85 * (v / maxHeatmapValue)})`} title={`${v}件`} />
+                </td>
+              ))}
+            </tr>
           ))}
-        </ul>
-      )}
-    </section>
-  </div>
-</Layout>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="px-5 md:px-0 pt-8">
+    <h2 class="sec-h !text-[17px]">流入経路（現会員のみ）</h2>
+    {stats.topReferrers.length === 0 ? (
+      <p class="py-3 text-[13px] text-ink-muted">データがありません。</p>
+    ) : (
+      stats.topReferrers.map((r) => (
+        <div class="flex justify-between gap-3 min-h-[40px] items-center border-b border-rule text-[13px]">
+          <a href={referrerHref(r.slug)} class="break-all">{r.slug}</a>
+          <span class="text-ink-muted whitespace-nowrap">{r.count}人</span>
+        </div>
+      ))
+    )}
+  </section>
+</AdminLayout>

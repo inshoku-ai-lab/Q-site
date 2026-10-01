@@ -2,40 +2,48 @@
 @tailwind components;
 @tailwind utilities;
 
+/* 号外 / 新聞紙面 design (2026 redesign).
+   No rounded corners, no drop shadows: hierarchy comes from rules (thick
+   sumi 3px, item rules 1px #D9D2C0), sumi bands and vertical headings. */
+
 @layer base {
   html {
     @apply bg-paper-100 text-ink antialiased;
     font-feature-settings: "palt" 1;
+    /* Reading size for article body text -- switched by the あ buttons
+       (html[data-fs]) and remembered in localStorage. */
+    --fs: 17px;
+  }
+  html[data-fs="s"] { --fs: 15px; }
+  html[data-fs="l"] { --fs: 20px; }
+  @media (min-width: 768px) {
+    html { --fs: 18px; }
+    html[data-fs="s"] { --fs: 16px; }
+    html[data-fs="l"] { --fs: 21px; }
   }
 
   body {
-    @apply font-sans text-body;
+    @apply font-sans text-ink bg-paper-100;
+    font-size: 15px;
+    line-height: 1.8;
   }
 
-  /* Selection color */
   ::selection {
-    @apply bg-moss/20 text-ink;
+    @apply bg-kraft text-ink;
   }
 
-  /* Headings */
   h1, h2, h3, h4, h5, h6 {
     @apply font-serif text-ink;
     font-feature-settings: "palt" 1;
   }
 
-  /* Links in prose default */
   a {
-    @apply text-moss underline decoration-moss/30 underline-offset-4 transition-colors hover:text-moss-dark hover:decoration-moss-dark;
+    @apply text-moss no-underline transition-colors;
+  }
+  a:hover {
+    @apply text-moss-dark;
   }
 
-  /* Visited (already-read) article links get an earth tone -- "walked this
-     path before" per the design system's link-state spec. Scoped to
-     internal article links only, not nav/UI chrome. */
-  a[href^="/posts/"]:visited {
-    @apply text-earth decoration-earth/40;
-  }
-
-  /* Keyboard-only focus ring (mouse clicks don't trigger :focus-visible) */
   a:focus-visible,
   button:focus-visible,
   input:focus-visible,
@@ -47,68 +55,307 @@
 }
 
 @layer components {
-  /* Article prose styling */
+  /* Vertical text: "palt" is a horizontal-only feature and squeezes
+     glyphs together when applied to vertical-rl runs. */
+  .vhead-title,
+  [class*="vertical-rl"] {
+    font-feature-settings: normal;
+  }
+
+  /* ---- Vertical heading block (縦組み見出し) ---------------------------- */
+  .vhead {
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr);
+    border-bottom: 3px solid theme("colors.sumi");
+  }
+  .vhead-title {
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    font-family: theme("fontFamily.serif");
+    font-weight: 800;
+    background: theme("colors.moss.DEFAULT");
+    color: #f6efdc;
+    border-right: 4px solid theme("colors.sumi");
+    letter-spacing: 0.08em;
+    line-height: 1.2;
+    margin: 0;
+  }
+  .vhead-title .vline {
+    display: block;
+  }
+  .vhead-body {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+  }
+  .vhead-label {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    color: theme("colors.moss.DEFAULT");
+  }
+  .vhead-desc {
+    font-size: 14px;
+    line-height: 1.85;
+    color: theme("colors.ink.light");
+  }
+
+  /* ---- Section heading with moss underline (連載 / 最新の記事 …) ------- */
+  .sec-h {
+    font-family: theme("fontFamily.serif");
+    font-weight: 800;
+    font-size: 18px;
+    padding-bottom: 8px;
+    border-bottom: 3px solid theme("colors.moss.DEFAULT");
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 12px;
+  }
+
+  /* ---- Rows ------------------------------------------------------------ */
+  .row {
+    display: grid;
+    align-items: center;
+    min-height: 48px;
+    border-bottom: 1px solid theme("colors.rule");
+    color: theme("colors.ink.DEFAULT");
+  }
+  a.row:hover {
+    background: rgba(79, 107, 67, 0.06);
+    color: theme("colors.ink.DEFAULT");
+  }
+  .row-title {
+    font-family: theme("fontFamily.serif");
+    font-weight: 700;
+    line-height: 1.5;
+  }
+  .row-date {
+    font-family: theme("fontFamily.mono");
+    font-size: 11px;
+    color: theme("colors.ink.muted");
+  }
+
+  /* ---- Buttons --------------------------------------------------------- */
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    min-height: 48px;
+    padding: 0 18px;
+    font-family: theme("fontFamily.serif");
+    font-weight: 800;
+    font-size: 14px;
+    border: 1px solid theme("colors.sumi");
+    text-align: center;
+    line-height: 1.4;
+    cursor: pointer;
+    transition: background-color 0.15s, color 0.15s;
+  }
+  .btn-sumi {
+    background: theme("colors.sumi");
+    color: #f6efdc;
+  }
+  .btn-sumi:hover {
+    background: #3a2c19;
+    color: #f6efdc;
+  }
+  .btn-outline {
+    background: transparent;
+    color: theme("colors.ink.DEFAULT");
+  }
+  .btn-outline:hover {
+    background: rgba(42, 31, 17, 0.06);
+    color: theme("colors.ink.DEFAULT");
+  }
+  .btn-moss {
+    background: theme("colors.moss.DEFAULT");
+    border-color: theme("colors.moss.DEFAULT");
+    color: #f6efdc;
+  }
+  .btn-moss:hover {
+    background: theme("colors.moss.dark");
+    color: #f6efdc;
+  }
+  .btn:disabled {
+    background: theme("colors.kraft.rule");
+    border-color: theme("colors.kraft.rule");
+    color: #8c7f66;
+    cursor: not-allowed;
+  }
+
+  /* ---- Chips ------------------------------------------------------------ */
+  .chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 11px;
+    font-weight: 700;
+    padding: 3px 8px;
+    line-height: 1.4;
+  }
+  .chip-sumi {
+    background: theme("colors.sumi");
+    color: #f6efdc;
+  }
+  .chip-line {
+    border: 1px solid theme("colors.sumi");
+    color: theme("colors.ink.DEFAULT");
+  }
+
+  /* ---- Form fields ------------------------------------------------------ */
+  .field {
+    display: block;
+    width: 100%;
+    min-height: 52px;
+    padding: 12px 14px;
+    font-size: 16px;
+    background: theme("colors.field");
+    color: theme("colors.ink.DEFAULT");
+    border: 1px solid theme("colors.sumi");
+    border-bottom: 3px solid theme("colors.moss.DEFAULT");
+    border-radius: 0;
+  }
+  .field:focus {
+    outline: none;
+    border-color: theme("colors.moss.DEFAULT");
+  }
+
+  /* ---- Article body ------------------------------------------------------ */
   .prose-article {
     @apply text-ink;
   }
-  .prose-article h1 {
-    @apply text-3xl md:text-4xl font-serif font-semibold text-ink mt-12 mb-6 leading-tight;
+  /* One running count across the free part and the member-only tail. */
+  #article-main {
+    counter-reset: h2num;
   }
   .prose-article h2 {
-    @apply text-2xl md:text-[1.6rem] font-serif font-semibold text-ink mt-12 mb-5 leading-snug border-b border-paper-300 pb-2;
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 1.45;
+    margin: 36px 0 12px;
+    padding-bottom: 6px;
+    border-bottom: 3px solid theme("colors.moss.DEFAULT");
+    counter-increment: h2num;
+    scroll-margin-top: 64px;
+  }
+  .prose-article h2:not(.no-num)::before {
+    content: counter(h2num, japanese-informal);
+    display: inline-block;
+    margin-right: 10px;
+    color: theme("colors.moss.DEFAULT");
   }
   .prose-article h3 {
-    @apply text-xl md:text-[1.35rem] font-serif font-semibold text-ink mt-10 mb-4;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.5;
+    margin: 28px 0 10px;
+    padding-left: 10px;
+    border-left: 4px solid theme("colors.sumi");
+    scroll-margin-top: 64px;
   }
   .prose-article h4 {
-    @apply text-lg font-serif font-semibold text-ink mt-8 mb-3;
+    @apply text-lg font-serif font-extrabold text-ink mt-8 mb-3;
   }
   .prose-article p {
-    @apply text-body md:text-body-lg my-5 leading-[1.95];
+    font-size: var(--fs);
+    line-height: 1.95;
+    margin: 14px 0;
+    text-indent: 1em;
   }
-  .prose-article ul {
-    @apply my-5 pl-6 list-disc marker:text-earth;
-  }
+  .prose-article ul,
   .prose-article ol {
-    @apply my-5 pl-6 list-decimal marker:text-earth;
+    font-size: var(--fs);
+    margin: 14px 0;
+    padding-left: 1.5em;
   }
+  .prose-article ul { list-style: disc; }
+  .prose-article ol { list-style: decimal; }
   .prose-article li {
-    @apply my-2 leading-[1.85];
+    margin: 6px 0;
+    line-height: 1.85;
+  }
+  .prose-article li::marker {
+    color: theme("colors.moss.DEFAULT");
   }
   .prose-article blockquote {
-    @apply my-6 px-5 py-2 border-l-4 border-earth/60 bg-paper-50 text-ink-light italic;
+    font-size: calc(var(--fs) - 1px);
+    line-height: 1.9;
+    margin: 20px 0;
+    padding: 12px 16px;
+    border-left: 3px solid theme("colors.sumi");
+    background: theme("colors.field");
+    color: theme("colors.ink.light");
   }
   .prose-article a {
-    @apply text-moss underline decoration-moss/40 underline-offset-4 hover:text-moss-dark hover:decoration-moss-dark break-words;
+    @apply text-moss underline decoration-moss/40 underline-offset-4 break-words;
+  }
+  .prose-article a:hover {
+    @apply text-moss-dark decoration-moss-dark;
+  }
+  .prose-article a.blogcard,
+  .prose-article a.blogcard:hover {
+    text-decoration: none;
   }
   .prose-article strong {
-    @apply font-semibold text-ink;
+    @apply font-bold text-ink;
   }
   .prose-article code {
-    @apply px-1.5 py-0.5 bg-paper-200 rounded text-[0.95em] font-mono;
+    @apply px-1.5 py-0.5 bg-paper-200 text-[0.95em] font-mono;
   }
   .prose-article pre {
-    @apply my-6 p-4 bg-ink text-paper-100 rounded-md overflow-x-auto;
+    @apply my-6 p-4 bg-sumi text-paper-100 overflow-x-auto;
   }
   .prose-article pre code {
     @apply p-0 bg-transparent text-paper-100;
   }
+  .prose-article figure {
+    margin: 24px 0;
+  }
   .prose-article img {
-    @apply my-8 rounded-md mx-auto shadow-sm;
+    @apply mx-auto;
+  }
+  .prose-article figcaption {
+    text-indent: 0;
   }
   .prose-article hr {
-    @apply my-12 border-t border-paper-300;
+    margin: 36px 0;
+    border: 0;
+    border-top: 1px solid theme("colors.rule");
+  }
+  .prose-article .callout {
+    margin: 24px 0;
+    padding: 14px 16px;
+    background: rgba(244, 220, 178, 0.45);
+    border-left: 4px solid theme("colors.sumi");
+  }
+  .prose-article .callout p,
+  .prose-article .callout {
+    text-indent: 0;
+  }
+  @media (min-width: 768px) {
+    .prose-article h2 {
+      font-size: 26px;
+      margin: 44px 0 14px;
+    }
+    .prose-article h2:not(.no-num)::before {
+      margin-right: 12px;
+    }
+    .prose-article h3 {
+      font-size: 20px;
+    }
+    .prose-article p {
+      line-height: 2;
+      margin: 16px 0;
+    }
   }
 
-  /* Card hover */
-  .card-hover {
-    @apply transition-all duration-200 hover:translate-y-[-2px] hover:shadow-md;
-  }
-
-  /* Tag pill: rounded-md badge with a decorative "#" prefix, used in the
-     tag cloud and end-of-article tag rows */
+  /* Tag chip used at the end of articles */
   .tag-pill {
-    @apply inline-flex items-baseline gap-1 text-xs px-3 py-1.5 rounded-md bg-paper-50 border border-paper-300 text-ink-muted no-underline transition-colors;
+    @apply inline-flex items-center gap-1 text-[13px] px-3 font-serif font-bold border border-rule text-ink no-underline transition-colors;
+    min-height: 36px;
   }
   .tag-pill:hover {
     @apply border-moss text-moss;
@@ -128,6 +375,10 @@
     animation: none;
     background: none;
   }
+
+  .sepia-img {
+    filter: sepia(0.3);
+  }
 }
 
 @keyframes img-shimmer {
@@ -138,14 +389,15 @@
 /* Print: strip chrome, optimize for monochrome paper output */
 @media print {
   #site-header,
-  #mobile-menu,
-  footer,
+  #site-menu,
+  #article-header,
+  #reading-bar,
   #article-side,
+  footer,
   .toc,
   nav,
   #member-gate,
-  .card-hover,
-  a[href="/search/"],
+  .no-print,
   #bug-report-fab,
   #bug-report-overlay {
     display: none !important;
@@ -154,6 +406,7 @@
   body {
     background: #fff;
     color: #111;
+    padding-bottom: 0 !important;
   }
 
   a {
@@ -161,9 +414,13 @@
     text-decoration: underline;
   }
 
+  .vhead-title {
+    background: #fff !important;
+    color: #111 !important;
+  }
+
   .prose-article img {
     max-width: 100%;
-    box-shadow: none;
   }
 
   .print-footer {

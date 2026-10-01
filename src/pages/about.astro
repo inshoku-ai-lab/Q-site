@@ -1,15 +1,42 @@
 ---
 export const prerender = true;
 import Layout from "../layouts/Layout.astro";
-import { getPublishedPosts, getSeriesIndex, getCategoryIndex, categoryAccentHex } from "../lib/posts";
+import VHead from "../components/VHead.astro";
+import NextBlock from "../components/NextBlock.astro";
+import PostRow from "../components/PostRow.astro";
+import { getPublishedPosts, getCategoryIndex, getPostsBySeries } from "../lib/posts";
+import { displayTitle } from "../lib/verticalText";
 
 const total = getPublishedPosts().length;
-const series = getSeriesIndex();
 const yearStart = 2021;
 const yearNow = new Date().getFullYear();
 const wanderingCount = getCategoryIndex().find((c) => c.name === "放浪記")?.count ?? 0;
 const categoryCount = getCategoryIndex().length;
 const recent = getPublishedPosts().slice(0, 3);
+const firstEpisode = getPostsBySeries("放浪記")[0];
+
+const life = [
+  "ストイックなエホバの証人の貧しい母子家庭に育つ",
+  "17歳ですべてを捨て、ペルーへ",
+  "20歳でインドのゴアでヒッピーノマドに目覚める",
+  "日本の最果ての無人島で裸で暮らす",
+  "25歳で全所有物を処分し、旅に身を捧げる",
+  "結核で死にかけてイスラエルで4ヶ月の隔離入院",
+  "エルサレムで宇宙との合一体験",
+  "2011年からビットコインを受け入れる",
+  "世界中を自転車で2年半旅する",
+  "ヒッピー26人で自転車キャラバンを組み、サーカスをしながら中米を旅する",
+  "コスタリカのジャングルに仲間とコミュニティを創設して裸で暮らす",
+  "ハンドパンの路上ミュージシャンとして世界を回る",
+  "Twitterで世界の闇を暴くアカウントを運営し、フォロワー2万人到達後アカウント停止",
+  "銀購入代行の仕事を始め、執筆活動の資金とする",
+];
+const stats = [
+  { v: String(wanderingCount), k: "放浪記" },
+  { v: `${yearStart}〜`, k: "執筆開始" },
+  { v: String(categoryCount), k: "カテゴリ" },
+  { v: total.toLocaleString(), k: "総記事数" },
+];
 
 const structuredData = {
   "@context": "https://schema.org",
@@ -23,146 +50,127 @@ const structuredData = {
 ---
 
 <Layout title="About" description="このサイトについて - クリプトラベラーの自己紹介。" structuredData={structuredData}>
-  <article class="max-w-prose mx-auto px-4 md:px-0 py-16">
-    <header class="flex gap-5 items-start mb-8 pb-8 border-b border-paper-300">
-      <div class="w-[76px] h-[76px] rounded-full bg-gradient-to-br from-wandering/30 to-earth/15 flex-shrink-0"></div>
-      <div>
-        <h1 class="font-serif text-2xl font-semibold text-ink leading-tight">Qryptraveller</h1>
-        <div class="text-sm text-wandering mt-1 mb-3">放浪記の記録者 / 運営者</div>
-        <p class="text-sm text-ink-muted leading-relaxed">
-          スナフキンを心の師として生きている、ノマド20年以上の吟遊詩人。
-          17歳で宗教家庭と日本社会を離れ、以来ノンストップで世界中を放浪しています。
+  <div class="max-w-site mx-auto md:px-8 md:pb-14">
+    <article class="md:max-w-[760px] md:mx-auto">
+      <VHead
+        text="クリプトラベラー"
+        mobile={{ size: 36, height: 400, padY: 18, padX: 12, tracking: 0.06, fixed: true }}
+        pc={{ size: 48, height: 440, padY: 28, padX: 18, tracking: 0.06, fixed: true }}
+        bodyClass="justify-between gap-3.5 md:!p-7"
+      >
+        <span class="vhead-label">ABOUT · 放浪記の記録者</span>
+        <img src="/images/hero-wanderer.webp" alt="旅装の人物が海を見つめる水彩画" class="w-full aspect-[4/5] md:aspect-[16/10] object-cover sepia-img min-h-0" />
+        <div class="flex gap-1.5">
+          <a href="https://x.com/qryptraveller" rel="noopener" target="_blank" class="flex-1 min-h-[40px] flex items-center justify-center border border-sumi text-ink text-[12px] hover:bg-sumi hover:text-paper-100">X</a>
+          <a href="https://note.com/qryp" rel="noopener" target="_blank" class="flex-1 min-h-[40px] flex items-center justify-center border border-sumi text-ink text-[12px] hover:bg-sumi hover:text-paper-100">note</a>
+        </div>
+      </VHead>
+
+      <div class="grid grid-cols-4 border-b-[3px] border-sumi">
+        {
+          stats.map((s) => (
+            <div class="py-3.5 px-2 border-r border-rule last:border-r-0 flex flex-col gap-0.5 items-center">
+              <span class="font-serif font-extrabold text-[20px] text-moss leading-tight">{s.v}</span>
+              <span class="text-[10px] text-ink-muted">{s.k}</span>
+            </div>
+          ))
+        }
+      </div>
+
+      {
+        firstEpisode && (
+          <NextBlock
+            class="!border-t-0"
+            href={`/posts/${firstEpisode.slug}/`}
+            title={displayTitle(firstEpisode.title, firstEpisode.series)}
+            label="まずはここから　放浪記 000"
+            meta="順に読むと、私という人間の輪郭が見えてきます。"
+            button="読みはじめる →"
+            size={22}
+            height={200}
+          />
+        )
+      }
+
+      <div class="prose-article px-5 md:px-0 pt-1 pb-10" style="counter-reset: h2num">
+        <p>
+          こんにちは、<strong>クリプトラベラー</strong>と申します。
         </p>
-        <div class="flex flex-wrap gap-3 mt-4">
-          <a href="https://x.com/qryptraveller" rel="noopener" target="_blank" class="text-xs px-3 py-1.5 rounded-full border border-paper-300 text-ink-muted no-underline hover:border-moss hover:text-moss">
-            X (Twitter)
-          </a>
-          <a href="https://note.com/qryp" rel="noopener" target="_blank" class="text-xs px-3 py-1.5 rounded-full border border-paper-300 text-ink-muted no-underline hover:border-moss hover:text-moss">
-            note
-          </a>
-        </div>
+        <p>
+          スナフキンを心の師として生きている、ノマド20年以上の吟遊詩人です。
+          17歳の時に、エホバの証人として育てられた窮屈な家庭環境と日本社会の閉塞感に嫌気が差し、
+          宗教・高校・国境のすべてを飛び越えてペルーへ旅立ちました。
+          以来、ノンストップで世界中を放浪しています。
+        </p>
+
+        <h2>これまでに体験したこと</h2>
+        <p>
+          箇条書きにすると荒唐無稽に見えますが、すべて本当の話です。
+        </p>
+        <ol class="!list-none !pl-0">
+          {
+            life.map((t, i) => (
+              <li class="grid grid-cols-[28px_minmax(0,1fr)] !my-0 py-2.5 border-b border-rule text-[14px] leading-[1.7]">
+                <span class="font-mono text-[11px] text-moss pt-[3px]">{String(i + 1).padStart(2, "0")}</span>
+                {t}
+              </li>
+            ))
+          }
+        </ol>
+
+        <h2>このサイトについて</h2>
+        <p>
+          ここは、20年以上に及ぶ旅と思索の記録を集めたアーカイブです。
+          現在 <strong>{total.toLocaleString()}本</strong> の記事を公開しています
+          ({yearStart}年〜{yearNow}年)。
+        </p>
+        <p>
+          コンテンツは大きく4つのカテゴリに分かれています:
+        </p>
+        <ul>
+          <li><strong>放浪記</strong> — 旅の自伝。エホバの証人として育った幼少期から、世界各地を渡り歩く現在までの記録。</li>
+          <li><strong>思想・理論</strong> — デボリューション理論やティール・スワンの言葉など、深く考察したテーマ。</li>
+          <li><strong>時事・情報戦</strong> — ツイッターファイル、不正選挙、ビットコインの真実など、主要メディアが語らない話。</li>
+          <li><strong>エッセイ・その他</strong> — 単発の随筆、観察、雑記。</li>
+        </ul>
+
+        <h2>サイトの読み方</h2>
+        <p>
+          <strong>放浪記から読み始める</strong>のがおすすめです。
+          放浪記000「世界中を20年以上放浪し続けている話」から順に読むと、
+          私という人間の輪郭が見えてきます。
+        </p>
+        <p>
+          時事や思想の記事から入ると、私の世界観・前提が共有されないまま読むことになるので、
+          少し違和感があるかもしれません。
+        </p>
+
+        <h2>このサイトの裏側</h2>
+        <p>
+          旧サイト(<a href="https://qryptraveller.com" rel="noopener" target="_blank">qryptraveller.com</a>)
+          の WordPress 投稿を移行して、Astro + Notion で再構築したものです。
+        </p>
+        <p>
+          執筆は Notion で行い、ビルド時にこのサイトへ自動で同期されます。
+          画像とすべてのコンテンツはこのサイト自身でホストしており、外部依存はありません。
+        </p>
+
+        <h2>連絡先</h2>
+        <ul>
+          <li>Website: <a href="https://qryptraveller.com" rel="noopener" target="_blank">qryptraveller.com</a></li>
+          <li>X: <a href="https://x.com/qryptraveller" rel="noopener" target="_blank">@qryptraveller</a></li>
+          <li>Note: <a href="https://note.com/qryp" rel="noopener" target="_blank">note.com/qryp</a></li>
+        </ul>
+
+        {recent.length > 0 && (
+          <section class="mt-10">
+            <div class="sec-h">最近の記事</div>
+            {recent.map((p) => <PostRow post={p} variant="cat" />)}
+          </section>
+        )}
+
+        <a href="/contact/" class="btn btn-outline w-full mt-6 !no-underline">お問い合わせ →</a>
       </div>
-    </header>
-
-    <div class="flex flex-wrap gap-8 mb-10 pb-6 border-b border-paper-300">
-      <div>
-        <div class="font-serif text-xl text-ink">{wanderingCount}</div>
-        <div class="text-[11px] text-ink-muted">放浪記 記事数</div>
-      </div>
-      <div>
-        <div class="font-serif text-xl text-ink">{yearStart}〜</div>
-        <div class="text-[11px] text-ink-muted">執筆開始</div>
-      </div>
-      <div>
-        <div class="font-serif text-xl text-ink">{categoryCount}</div>
-        <div class="text-[11px] text-ink-muted">カテゴリ</div>
-      </div>
-      <div>
-        <div class="font-serif text-xl text-ink">{total.toLocaleString()}</div>
-        <div class="text-[11px] text-ink-muted">総記事数</div>
-      </div>
-    </div>
-
-    {recent.length > 0 && (
-      <div class="mb-12 pb-4 border-b border-paper-300">
-        <h2 class="font-serif text-base text-ink mb-3">最近の記事</h2>
-        <div class="flex flex-col">
-          {recent.map((p) => {
-            const hex = categoryAccentHex(p.category);
-            return (
-              <a href={`/posts/${p.slug}/`} class="flex gap-3.5 items-center py-3 border-b border-paper-300 last:border-0 no-underline text-inherit group">
-                {p.cover ? (
-                  <img src={p.cover} alt="" loading="lazy" class="w-20 aspect-video rounded object-cover flex-shrink-0" />
-                ) : (
-                  <div class="w-20 aspect-video rounded flex-shrink-0" style={`background:linear-gradient(135deg, ${hex}38, ${hex}0d)`} />
-                )}
-                <div>
-                  <div class="text-[10.5px]" style={`color:${hex}`}>{p.category}</div>
-                  <div class="font-serif text-sm text-ink group-hover:text-moss-dark">{p.title}</div>
-                </div>
-              </a>
-            );
-          })}
-        </div>
-      </div>
-    )}
-
-    <div class="prose-article">
-      <p>
-        こんにちは、<strong>クリプトラベラー</strong>と申します。
-      </p>
-      <p>
-        スナフキンを心の師として生きている、ノマド20年以上の吟遊詩人です。
-        17歳の時に、エホバの証人として育てられた窮屈な家庭環境と日本社会の閉塞感に嫌気が差し、
-        宗教・高校・国境のすべてを飛び越えてペルーへ旅立ちました。
-        以来、ノンストップで世界中を放浪しています。
-      </p>
-
-      <h2>このサイトについて</h2>
-      <p>
-        ここは、20年以上に及ぶ旅と思索の記録を集めたアーカイブです。
-        現在 <strong>{total.toLocaleString()}本</strong> の記事を公開しています
-        ({yearStart}年〜{yearNow}年)。
-      </p>
-      <p>
-        コンテンツは大きく4つのカテゴリに分かれています:
-      </p>
-      <ul>
-        <li><strong>放浪記</strong> — 旅の自伝。エホバの証人として育った幼少期から、世界各地を渡り歩く現在までの記録。</li>
-        <li><strong>思想・理論</strong> — デボリューション理論やティール・スワンの言葉など、深く考察したテーマ。</li>
-        <li><strong>時事・情報戦</strong> — ツイッターファイル、不正選挙、ビットコインの真実など、主要メディアが語らない話。</li>
-        <li><strong>エッセイ・その他</strong> — 単発の随筆、観察、雑記。</li>
-      </ul>
-
-      <h2>これまでに体験したこと</h2>
-      <p>
-        箇条書きにすると荒唐無稽に見えますが、すべて本当の話です。
-      </p>
-      <ul>
-        <li>ストイックなエホバの証人の貧しい母子家庭に育つ</li>
-        <li>17歳ですべてを捨て、ペルーへ</li>
-        <li>20歳でインドのゴアでヒッピーノマドに目覚める</li>
-        <li>日本の最果ての無人島で裸で暮らす</li>
-        <li>25歳で全所有物を処分し、旅に身を捧げる</li>
-        <li>結核で死にかけてイスラエルで4ヶ月の隔離入院</li>
-        <li>エルサレムで宇宙との合一体験</li>
-        <li>2011年からビットコインを受け入れる</li>
-        <li>世界中を自転車で2年半旅する</li>
-        <li>ヒッピー26人で自転車キャラバンを組み、サーカスをしながら中米を旅する</li>
-        <li>コスタリカのジャングルに仲間とコミュニティを創設して裸で暮らす</li>
-        <li>ハンドパンの路上ミュージシャンとして世界を回る</li>
-        <li>Twitterで世界の闇を暴くアカウントを運営し、フォロワー2万人到達後アカウント停止</li>
-        <li>銀購入代行の仕事を始め、執筆活動の資金とする</li>
-      </ul>
-
-      <h2>サイトの読み方</h2>
-      <p>
-        <strong>放浪記から読み始める</strong>のがおすすめです。
-        放浪記000「世界中を20年以上放浪し続けている話」から順に読むと、
-        私という人間の輪郭が見えてきます。
-      </p>
-      <p>
-        時事や思想の記事から入ると、私の世界観・前提が共有されないまま読むことになるので、
-        少し違和感があるかもしれません。
-      </p>
-
-      <h2>このサイトの裏側</h2>
-      <p>
-        旧サイト(<a href="https://qryptraveller.com" rel="noopener" target="_blank">qryptraveller.com</a>)
-        の WordPress 投稿を移行して、Astro + Notion で再構築したものです。
-      </p>
-      <p>
-        執筆は Notion で行い、ビルド時にこのサイトへ自動で同期されます。
-        画像とすべてのコンテンツはこのサイト自身でホストしており、外部依存はありません。
-      </p>
-
-      <h2>連絡先</h2>
-      <ul>
-        <li>お問い合わせフォーム: <a href="/contact/">こちら</a></li>
-        <li>Website: <a href="https://qryptraveller.com" rel="noopener" target="_blank">qryptraveller.com</a></li>
-        <li>X: <a href="https://x.com/qryptraveller" rel="noopener" target="_blank">@qryptraveller</a></li>
-        <li>Note: <a href="https://note.com/qryp" rel="noopener" target="_blank">note.com/qryp</a></li>
-      </ul>
-    </div>
-  </article>
+    </article>
+  </div>
 </Layout>

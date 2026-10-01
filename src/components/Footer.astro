@@ -1,45 +1,40 @@
 ---
 const year = new Date().getFullYear();
+
+const links = [
+  { href: "/series/", label: "連載一覧" },
+  { href: "/category/", label: "カテゴリ" },
+  { href: "/tag/", label: "タグ" },
+  { href: "/archive/", label: "アーカイブ" },
+  { href: "/about/", label: "About" },
+  { href: "/contact/", label: "お問い合わせ" },
+  { href: "/privacy/", label: "プライバシー" },
+  { href: "/terms/", label: "利用規約" },
+  { href: "/rss.xml", label: "RSS" },
+];
 ---
 
-<footer class="mt-24 border-t border-paper-300 bg-paper-50">
-  <div class="max-w-page mx-auto px-4 md:px-8 py-12 grid md:grid-cols-3 gap-8 text-sm">
+<footer class="bg-foot border-t-[6px] border-moss text-paper-100">
+  <div class="max-w-site mx-auto px-5 md:px-8 pt-6 pb-10 md:py-10 md:grid md:grid-cols-[minmax(0,1fr)_minmax(0,1.4fr)] md:gap-10">
     <div>
-      <h3 class="font-serif text-ink text-base mb-3">Qryptraveller's Notes</h3>
-      <p class="text-ink-muted leading-relaxed">
-        地球放浪２０年以上の旅人による、旅と思索の記録。
+      <div class="font-serif font-extrabold text-[18px]">Qryptraveller's Notes</div>
+      <p class="mt-2 text-[13px] leading-[1.8] text-onsumi">地球放浪20年以上の旅人による、旅と思索の記録。</p>
+    </div>
+    <div>
+      <ul class="mt-5 md:mt-0 flex flex-wrap gap-x-4 gap-y-1 text-[12px]">
+        {
+          links.map((l) => (
+            <li>
+              <a href={l.href} class="text-rule hover:text-kraft inline-flex items-center min-h-[32px]">
+                {l.label}
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+      <p class="mt-5 text-[11px] text-dim">
+        © {year} Qryptraveller · <span class="font-serif italic">"Travel light, observe deeply."</span>
       </p>
-    </div>
-
-    <div>
-      <h3 class="font-serif text-ink text-base mb-3">読み物</h3>
-      <ul class="space-y-1.5 text-ink-muted">
-        <li><a href="/series/" class="no-underline hover:text-ink">シリーズ一覧</a></li>
-        <li><a href="/category/" class="no-underline hover:text-ink">カテゴリ一覧</a></li>
-        <li><a href="/tag/" class="no-underline hover:text-ink">タグ一覧</a></li>
-        <li><a href="/archive/" class="no-underline hover:text-ink">アーカイブ</a></li>
-      </ul>
-    </div>
-
-    <div>
-      <h3 class="font-serif text-ink text-base mb-3">サイトについて</h3>
-      <ul class="space-y-1.5 text-ink-muted">
-        <li><a href="/about/" class="no-underline hover:text-ink">About</a></li>
-        <li><a href="/contact/" class="no-underline hover:text-ink">お問い合わせ</a></li>
-        <li><a href="/privacy/" class="no-underline hover:text-ink">プライバシーポリシー</a></li>
-        <li><a href="/terms/" class="no-underline hover:text-ink">利用規約</a></li>
-        <li><a href="/rss.xml" class="no-underline hover:text-ink">RSSフィード</a></li>
-        <li><a href="/sitemap-index.xml" class="no-underline hover:text-ink">サイトマップ</a></li>
-      </ul>
-    </div>
-  </div>
-
-  <!-- pb-24 on small screens keeps the last row clear of the floating
-       bug-report button, which sits at bottom-5 right-5 over the page. -->
-  <div class="border-t border-paper-300">
-    <div class="max-w-page mx-auto px-4 md:px-8 py-5 pb-24 md:pb-5 flex flex-col md:flex-row justify-between items-center gap-3 text-xs text-ink-muted">
-      <span>© {year} Qryptraveller</span>
-      <span class="italic font-serif">"Travel light, observe deeply."</span>
     </div>
   </div>
 </footer>

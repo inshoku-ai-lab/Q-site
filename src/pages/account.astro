@@ -1,8 +1,10 @@
 ---
 export const prerender = false;
 import Layout from "../layouts/Layout.astro";
+import VHead from "../components/VHead.astro";
+import PostRow from "../components/PostRow.astro";
 import { createSupabaseServerClient } from "../lib/supabase/server";
-import { formatDate, formatDateShort, getMemberOnlyPosts, categoryAccentHex } from "../lib/posts";
+import { formatDate, getMemberOnlyPosts } from "../lib/posts";
 
 const supabase = createSupabaseServerClient(Astro.request, Astro.cookies);
 
@@ -30,99 +32,109 @@ const PROVIDER_LABELS: Record<string, string> = {
 ---
 
 <Layout title="アカウント設定" description="旅路の証人アカウントの設定ページです。" noIndex>
-  <div class="max-w-prose mx-auto px-4 md:px-0 py-16">
-    {!user && (
-      <div class="text-center py-12">
-        <h1 class="font-serif text-2xl font-semibold text-ink mb-4">アカウント設定</h1>
-        <p class="text-ink-muted mb-4">ログインしていません。</p>
-        <a href="/join" class="text-earth hover:text-ink underline">「旅路の証人」になる</a>
-      </div>
-    )}
+  <div class="max-w-site mx-auto md:px-8 md:pb-14">
+    <div class="md:max-w-[760px] md:mx-auto">
+      {
+        !user && (
+          <>
+            <VHead
+              text="アカウント"
+              mobile={{ size: 40, height: 260, padY: 18, padX: 12, tracking: 0.1 }}
+              pc={{ size: 48, height: 300, padY: 28, padX: 18, tracking: 0.1 }}
+              bodyClass="justify-end gap-3 md:!p-7"
+            >
+              <span class="vhead-label">ACCOUNT</span>
+              <span class="vhead-desc">ログインしていません。</span>
+              <a href="/join" class="btn btn-sumi">「旅路の証人」になる</a>
+              <a href="/join#login" class="btn btn-outline">すでに証人の方はログイン</a>
+            </VHead>
+            <div class="pb-10" />
+          </>
+        )
+      }
 
-    {user && !member && (
-      <p class="text-ink-muted">会員情報が見つかりませんでした。</p>
-    )}
+      {
+        user && !member && (
+          <>
+            <VHead
+              text="アカウント"
+              mobile={{ size: 40, height: 260, padY: 18, padX: 12, tracking: 0.1 }}
+              pc={{ size: 48, height: 300, padY: 28, padX: 18, tracking: 0.1 }}
+              bodyClass="justify-end gap-3 md:!p-7"
+            >
+              <span class="vhead-label">ACCOUNT</span>
+              <span class="vhead-desc">会員情報が見つかりませんでした。</span>
+              <a href="/join" class="btn btn-outline">「旅路の証人」になる</a>
+            </VHead>
+            <div class="pb-10" />
+          </>
+        )
+      }
 
-    {user && member && (
-      <>
-        <header class="flex items-center gap-5 mb-10 pb-7 border-b border-paper-300">
-          <div class="w-[60px] h-[60px] rounded-full bg-gradient-to-br from-wandering/30 to-earth/15 flex-shrink-0"></div>
-          <div>
-            <h1 class="font-serif text-xl font-semibold text-ink mb-2">おかえりなさい、旅人さん</h1>
-            <span class="inline-flex items-center gap-1.5 text-xs px-3 py-1 rounded-full bg-earth/10 text-earth font-medium">
-              🧭 旅路の証人
-            </span>
-          </div>
-        </header>
+      {
+        user && member && (
+          <>
+            <VHead
+              text="おかえりなさい"
+              mobile={{ size: 40, height: 260, padY: 18, padX: 12, tracking: 0.1 }}
+              pc={{ size: 48, height: 300, padY: 28, padX: 18, tracking: 0.1 }}
+              bodyClass="justify-end gap-3 md:!p-7"
+            >
+              <span class="font-serif font-extrabold text-[17px]">旅人さん</span>
+              <span class="chip chip-sumi self-start !px-2.5 !py-1">旅路の証人</span>
+              <span class="text-[12px] text-ink-muted">{formatDate(member.joined_at)}から</span>
+            </VHead>
 
-        {memberPosts.length > 0 && (
-          <div class="mb-9">
-            <h2 class="font-serif text-base text-ink mb-4">会員限定記事</h2>
-            <div class="flex flex-col">
-              {memberPosts.map((p) => {
-                const hex = categoryAccentHex(p.category);
-                return (
-                  <a href={`/posts/${p.slug}/`} class="flex gap-3.5 items-center py-3.5 border-b border-paper-300 last:border-0 no-underline text-inherit group">
-                    {p.cover ? (
-                      <img src={p.cover} alt="" loading="lazy" class="w-20 aspect-video rounded object-cover flex-shrink-0" />
-                    ) : (
-                      <div class="w-20 aspect-video rounded flex-shrink-0" style={`background:linear-gradient(135deg, ${hex}38, ${hex}0d)`} />
-                    )}
-                    <div>
-                      <div class="text-[10.5px] mb-0.5" style={`color:${hex}`}>{p.category}</div>
-                      <div class="font-serif text-sm text-ink group-hover:text-moss-dark leading-snug">{p.title}</div>
-                      <div class="text-[11px] text-ink-muted font-mono mt-0.5">{formatDateShort(p.date)}</div>
-                    </div>
-                  </a>
-                );
-              })}
-            </div>
-          </div>
-        )}
+            {memberPosts.length > 0 && (
+              <section class="px-5 md:px-0 pt-6">
+                <h2 class="sec-h">会員限定記事</h2>
+                {memberPosts.map((p) => <PostRow post={p} variant="cat" />)}
+              </section>
+            )}
 
-        <div class="mb-9">
-          <h2 class="font-serif text-base text-ink mb-4">アカウント</h2>
-          <div class="flex flex-col">
-            <div class="flex justify-between py-3.5 border-b border-paper-300 text-sm">
-              <span class="text-ink">メールアドレス</span>
-              <span class="text-ink-muted">{user.email}</span>
-            </div>
-            <div class="flex justify-between py-3.5 border-b border-paper-300 text-sm">
-              <span class="text-ink">ログイン方法</span>
-              <span class="text-ink-muted">{PROVIDER_LABELS[member.provider] ?? member.provider}</span>
-            </div>
-            <div class="flex justify-between py-3.5 border-b border-paper-300 text-sm">
-              <span class="text-ink">「旅路の証人」になった日</span>
-              <span class="text-ink-muted">{formatDate(member.joined_at)}</span>
-            </div>
-            <form method="post" action="/api/auth/logout" class="contents">
+            <section class="px-5 md:px-0 pt-7">
+              <h2 class="sec-h">アカウント</h2>
+              <div class="flex justify-between gap-3 min-h-[52px] items-center border-b border-rule text-[14px]">
+                <span>メールアドレス</span>
+                <span class="text-ink-muted text-right break-all">{user.email}</span>
+              </div>
+              <div class="flex justify-between gap-3 min-h-[52px] items-center border-b border-rule text-[14px]">
+                <span>ログイン方法</span>
+                <span class="text-ink-muted text-right">{PROVIDER_LABELS[member.provider] ?? member.provider}</span>
+              </div>
+              <div class="flex justify-between gap-3 min-h-[52px] items-center border-b border-rule text-[14px]">
+                <span>「旅路の証人」になった日</span>
+                <span class="text-ink-muted text-right">{formatDate(member.joined_at)}</span>
+              </div>
+              <form method="post" action="/api/auth/logout" class="contents">
+                <button
+                  type="submit"
+                  class="flex w-full justify-between items-center min-h-[52px] border-b border-rule text-[14px] text-ink hover:text-moss text-left"
+                >
+                  <span>ログアウト</span>
+                  <span class="text-ink-muted">→</span>
+                </button>
+              </form>
+            </section>
+
+            <section class="mx-5 md:mx-0 mt-8 mb-10 p-[18px] border border-rust">
+              <h2 class="font-serif font-extrabold text-[16px] text-rust">退会する</h2>
+              <p class="mt-2 text-[13px] leading-[1.8] text-ink-light">
+                退会すると、アカウントと会員情報は即座に完全に削除されます。この操作は元に戻せません。
+              </p>
               <button
-                type="submit"
-                class="flex w-full justify-between items-center py-3.5 border-b border-paper-300 text-sm text-ink hover:text-moss-dark text-left"
+                id="delete-account-btn"
+                type="button"
+                class="mt-3 min-h-[44px] px-[18px] border border-rust text-rust text-[13px] font-bold hover:bg-rust hover:text-paper-100 disabled:opacity-50"
               >
-                <span>ログアウト</span>
-                <span class="text-ink-muted">→</span>
+                退会する
               </button>
-            </form>
-          </div>
-        </div>
-
-        <div class="border-t border-paper-300 pt-8">
-          <h2 class="font-serif text-base font-semibold text-ink mb-3">退会する</h2>
-          <p class="text-sm text-ink-muted mb-4">
-            退会すると、アカウントと会員情報は即座に完全に削除されます。この操作は元に戻せません。
-          </p>
-          <button
-            id="delete-account-btn"
-            type="button"
-            class="px-5 py-2.5 border border-rust text-rust rounded-md text-sm hover:bg-rust hover:text-paper-100"
-          >
-            退会する
-          </button>
-          <p id="delete-error" class="text-sm text-rust mt-4 hidden"></p>
-        </div>
-      </>
-    )}
+              <p id="delete-error" class="text-[13px] text-rust mt-4 hidden" role="alert" />
+            </section>
+          </>
+        )
+      }
+    </div>
   </div>
 </Layout>
 

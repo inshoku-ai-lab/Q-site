@@ -1,0 +1,48 @@
+---
+// 墨タイル: a series as a sumi tile with its name set vertically and the
+// episode count in kraft.
+import { seriesHref } from "../lib/seriesMeta";
+import { fitVertical } from "../lib/verticalText";
+
+interface Props {
+  name: string;
+  count: number;
+  description?: string;
+  size?: "sm" | "lg";
+}
+const { name, count, description, size = "sm" } = Astro.props;
+const lg = size === "lg";
+// Long names ("デボリューション理論") step down in size / break into two
+// columns so they stay inside the tile.
+const fit = fitVertical(name, {
+  size: lg ? 19 : 15,
+  height: (lg ? 160 : 120) - 24,
+  maxWidth: lg ? 44 : 34,
+  minSize: 11,
+  tracking: 0.08,
+});
+---
+
+<a
+  href={seriesHref(name)}
+  class={`grid bg-sumi text-paper-100 hover:text-paper-100 hover:bg-[#3a2c19] border-t-[6px] border-moss ${
+    lg ? "grid-cols-[56px_minmax(0,1fr)] min-h-[160px]" : "grid-cols-[44px_minmax(0,1fr)] min-h-[120px]"
+  }`}
+>
+  <span
+    class="[writing-mode:vertical-rl] flex flex-col items-center justify-center font-serif font-extrabold tracking-[0.08em] leading-[1.2] border-r border-paper-100/25 py-3"
+    style={`font-size:${fit.size}px`}
+  >
+    {fit.lines.map((l) => <span class="block">{l}</span>)}
+  </span>
+  <span class={`flex flex-col justify-end ${lg ? "p-4 gap-2" : "px-2.5 py-3"}`}>
+    {lg && description && <span class="text-[13px] leading-[1.7] text-onsumi">{description}</span>}
+    <span class="flex items-end justify-between gap-2">
+      <span>
+        <span class={`font-serif font-extrabold text-kraft leading-none ${lg ? "text-[28px]" : "text-[26px]"}`}>{count}</span>
+        <span class="block text-[11px] text-rule mt-1">話</span>
+      </span>
+      {lg && <span class="text-[12px] text-kraft font-bold">目次 →</span>}
+    </span>
+  </span>
+</a>

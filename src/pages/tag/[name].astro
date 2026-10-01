@@ -1,7 +1,9 @@
 ---
 export const prerender = true;
 import Layout from "../../layouts/Layout.astro";
-import ArticleCard from "../../components/ArticleCard.astro";
+import VHead from "../../components/VHead.astro";
+import PostRow from "../../components/PostRow.astro";
+import Sidebar from "../../components/Sidebar.astro";
 import { getTagIndex, getPostsByTag } from "../../lib/posts";
 
 export async function getStaticPaths() {
@@ -13,28 +15,42 @@ export async function getStaticPaths() {
 
 const { name, count } = Astro.props;
 const posts = getPostsByTag(name).sort((a, b) => (b.date ?? "").localeCompare(a.date ?? ""));
+
+// Tags that most often appear alongside this one.
+const co = new Map<string, number>();
+for (const p of posts) for (const t of p.tags) if (t !== name) co.set(t, (co.get(t) ?? 0) + 1);
+const related = [...co.entries()].sort((a, b) => b[1] - a[1]).slice(0, 6).map(([t]) => t);
 ---
 
-<Layout title={`#${name} - タグ`}>
-  <div class="max-w-page mx-auto px-4 md:px-8 py-16">
-    <nav class="mb-6 flex items-center gap-2 text-xs text-ink-muted">
-      <a href="/" class="no-underline hover:text-ink">ホーム</a>
-      <span class="text-wandering/60">〜</span>
-      <a href="/tag/" class="no-underline hover:text-ink">タグ</a>
-      <span class="text-wandering/60">〜</span>
-      <span>#{name}</span>
-    </nav>
+<Layout title={`#${name} - タグ`} description={`「${name}」タグの記事 ${count}本。`} back={{ href: "/tag/", label: "タグ" }}>
+  <div class="max-w-site mx-auto md:px-8 md:pb-14 md:grid md:grid-cols-[minmax(0,1fr)_300px] md:gap-10 md:items-start">
+    <div class="min-w-0">
+      <VHead
+        text={`＃${name}`}
+        mobile={{ size: 44, height: 220, padY: 18, padX: 14, tracking: 0.1 }}
+        pc={{ size: 56, height: 280, maxWidth: 260, padY: 28, padX: 20, tracking: 0.1 }}
+        bodyClass="justify-end gap-3 md:!p-7"
+      >
+        <span class="vhead-label">TAG · {count}本</span>
+        {
+          related.length > 0 && (
+            <div class="flex flex-wrap gap-1">
+              <span class="text-[11px] text-ink-muted w-full">関連タグ</span>
+              {related.map((t) => (
+                <a href={`/tag/${encodeURIComponent(t)}/`} class="min-h-[36px] flex items-center px-2.5 border border-rule text-ink text-[12px] hover:border-moss hover:text-moss">
+                  {t}
+                </a>
+              ))}
+            </div>
+          )
+        }
+      </VHead>
 
-    <header class="mb-12 max-w-prose">
-      <div class="text-xs uppercase tracking-[0.3em] text-earth mb-3">Tag</div>
-      <h1 class="font-serif text-3xl md:text-5xl font-semibold text-ink leading-tight">
-        #{name}
-      </h1>
-      <p class="mt-4 text-ink-muted">{count}本の記事</p>
-    </header>
-
-    <div class="space-y-1 bg-paper-50 rounded-lg border border-paper-200 px-5">
-      {posts.map((post) => <ArticleCard post={post} variant="compact" headingLevel="h2" />)}
+      <div class="px-5 md:px-0 pb-10">
+        {posts.map((post) => <PostRow post={post} variant="cat" />)}
+      </div>
     </div>
+
+    <Sidebar latest={6} />
   </div>
 </Layout>

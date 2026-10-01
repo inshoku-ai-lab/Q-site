@@ -1,0 +1,128 @@
+---
+// Full-screen site menu (15a). Opened by any element with
+// [data-menu-open]; included once from Layout.astro.
+import Footer from "./Footer.astro";
+import { getSeriesIndex, getCategoryIndex, getTagIndex, getArchiveIndex } from "../lib/posts";
+
+const years = getArchiveIndex().map((y) => y.year).filter((y) => /^\d{4}$/.test(y));
+const yearRange = years.length ? `${years[years.length - 1]}–${years[0]}` : "";
+
+const readMenu = [
+  { href: "/", label: "トップ", meta: "" },
+  { href: "/series/", label: "連載一覧", meta: `${getSeriesIndex().length}連載` },
+  { href: "/category/", label: "カテゴリ", meta: `${getCategoryIndex().length}分類` },
+  { href: "/tag/", label: "タグ", meta: `${getTagIndex().length}語` },
+  { href: "/archive/", label: "年別アーカイブ", meta: yearRange },
+  { href: "/about/", label: "About", meta: "" },
+];
+
+const siteMenu = [
+  { href: "/contact/", label: "お問い合わせ" },
+  { href: "/account", label: "アカウント" },
+  { href: "/privacy/", label: "プライバシー" },
+  { href: "/terms/", label: "利用規約" },
+];
+---
+
+<!-- Full-screen menu (15a) -->
+<div id="site-menu" class="hidden fixed inset-0 z-50 bg-sumi text-paper-100 overflow-y-auto flex-col" role="dialog" aria-modal="true" aria-label="メニュー">
+  <div class="max-w-site mx-auto w-full flex-1">
+    <div class="h-[52px] flex items-center justify-between pl-5 pr-2 md:px-8 border-b border-paper-100/15">
+      <a href="/" class="font-serif font-extrabold text-[16px] text-paper-100 hover:text-paper-100">Qryptraveller's Notes</a>
+      <button type="button" id="menu-close" class="min-h-[44px] px-3 text-[13px] font-bold text-kraft">閉じる ×</button>
+    </div>
+
+    <div class="px-5 md:px-8 pt-4 pb-6 md:grid md:grid-cols-2 md:gap-10">
+      <div>
+        <form action="/search/" method="get" role="search" class="mb-4">
+          <label class="flex items-center gap-3 bg-paper-100 text-ink h-12 px-4">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <circle cx="11" cy="11" r="7"></circle>
+              <path d="M21 21l-4-4"></path>
+            </svg>
+            <span class="sr-only">記事を検索</span>
+            <input type="search" name="q" placeholder="記事を検索…" class="flex-1 bg-transparent text-[16px] outline-none placeholder:text-ink-muted" />
+          </label>
+        </form>
+
+        <div class="grid grid-cols-[auto_minmax(0,1fr)] -ml-5 md:ml-0">
+          <div class="vhead-title !border-r-0 text-[28px] px-2 py-3 !tracking-[0.2em]" aria-hidden="true">読む</div>
+          <ul class="pl-6">
+            {
+              readMenu.map((m) => (
+                <li>
+                  <a
+                    href={m.href}
+                    class="flex items-center justify-between gap-3 min-h-[52px] border-b border-paper-100/15 text-paper-100 hover:text-kraft"
+                  >
+                    <span class="font-serif font-extrabold text-[17px]">{m.label}</span>
+                    {m.meta && <span class="font-mono text-[11px] text-kraft">{m.meta}</span>}
+                  </a>
+                </li>
+              ))
+            }
+          </ul>
+        </div>
+      </div>
+
+      <div class="mt-6 md:mt-0">
+        <div class="grid grid-cols-2 gap-2">
+          {
+            siteMenu.map((m) => (
+              <a
+                href={m.href}
+                class="flex items-center justify-center min-h-[48px] border border-paper-100/30 text-[13px] font-bold text-paper-100 hover:text-kraft hover:border-kraft"
+              >
+                {m.label}
+              </a>
+            ))
+          }
+        </div>
+        <a id="menu-join" href="/join" class="btn btn-moss w-full mt-4 !min-h-[52px] text-[15px]">旅路の証人になる</a>
+        <a href="/rss.xml" class="block mt-4 text-[12px] text-rule hover:text-kraft">RSSフィード</a>
+      </div>
+    </div>
+  </div>
+  <Footer />
+</div>
+
+<script>
+  import { createSupabaseBrowserClient } from "../lib/supabase/browser";
+
+  const menu = document.getElementById("site-menu");
+  const toggles = [...document.querySelectorAll<HTMLElement>("[data-menu-open]")];
+  const closeBtn = document.getElementById("menu-close");
+  let lastFocused: HTMLElement | null = null;
+
+  function openMenu() {
+    lastFocused = document.activeElement as HTMLElement | null;
+    menu?.classList.remove("hidden");
+    menu?.classList.add("flex");
+    document.documentElement.style.overflow = "hidden";
+    toggles.forEach((t) => t?.setAttribute("aria-expanded", "true"));
+    closeBtn?.focus();
+  }
+  function closeMenu() {
+    menu?.classList.add("hidden");
+    menu?.classList.remove("flex");
+    document.documentElement.style.overflow = "";
+    toggles.forEach((t) => t?.setAttribute("aria-expanded", "false"));
+    lastFocused?.focus();
+  }
+  toggles.forEach((t) => t?.addEventListener("click", openMenu));
+  closeBtn?.addEventListener("click", closeMenu);
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape" && !menu?.classList.contains("hidden")) closeMenu();
+  });
+
+  // Signed-in readers don't need the join call-to-action.
+  const supabase = createSupabaseBrowserClient();
+  supabase.auth.getSession().then(({ data: { session } }) => {
+    if (!session) return;
+    const join = document.getElementById("menu-join");
+    if (join) {
+      join.textContent = "アカウント";
+      join.setAttribute("href", "/account");
+    }
+  });
+</script>

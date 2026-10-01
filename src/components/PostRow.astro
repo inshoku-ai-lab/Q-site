@@ -1,0 +1,52 @@
+---
+// 一覧行. Variants:
+//   "date": [date 64px | title]                       (top page, category pages)
+//   "stack": date above title                         (PC sidebar)
+//   "cat":  [6px category color | "cat · date" / title] (tag, search)
+import type { Post } from "../lib/posts";
+import { categoryAccentHex, formatDateShort } from "../lib/posts";
+
+interface Props {
+  post: Post;
+  variant?: "date" | "stack" | "cat";
+  minutes?: boolean;
+}
+const { post, variant = "date", minutes = false } = Astro.props;
+const href = `/posts/${post.slug}/`;
+const date = formatDateShort(post.date);
+---
+
+{
+  variant === "date" && (
+    <a href={href} class={`row grid-cols-[64px_minmax(0,1fr)] gap-2.5 !items-start ${minutes ? "py-3.5 min-h-[56px]" : "py-3"}`}>
+      <span class="row-date pt-[3px]">{date}</span>
+      <span>
+        <span class="row-title block text-[15px] font-normal">{post.title}</span>
+        {minutes && post.reading_time > 0 && <span class="block text-[11px] text-ink-muted mt-0.5">約{post.reading_time}分</span>}
+      </span>
+    </a>
+  )
+}
+{
+  variant === "stack" && (
+    <a href={href} class="row !flex flex-col !items-start gap-1 py-3">
+      <span class="row-date">{date}</span>
+      <span class="row-title text-[15px] font-normal">{post.title}</span>
+    </a>
+  )
+}
+{
+  variant === "cat" && (
+    <a href={href} class="row grid-cols-[6px_minmax(0,1fr)] gap-3 !items-stretch py-3">
+      <span style={`background:${categoryAccentHex(post.category)}`} />
+      <span class="flex flex-col gap-1">
+        <span class="text-[11px] text-ink-muted">
+          {post.category}
+          {post.category && date ? " · " : ""}
+          <span class="font-mono">{date}</span>
+        </span>
+        <span class="row-title text-[16px] font-normal">{post.title}</span>
+      </span>
+    </a>
+  )
+}

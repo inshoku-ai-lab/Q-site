@@ -1,0 +1,53 @@
+---
+// Admin screens (15q-15t): sumi header "管理 / ADMIN" with four tabs.
+// Access control stays in each page (requireAdmin); this is chrome only.
+import Layout from "./Layout.astro";
+
+interface Props {
+  title: string;
+  active: "overview" | "members" | "inquiries";
+}
+const { title, active } = Astro.props;
+
+const tabs = [
+  { key: "overview", label: "概要", href: "/admin" },
+  { key: "members", label: "会員", href: "/admin/members" },
+  { key: "inquiries", label: "問合せ", href: "/admin/inquiries" },
+  { key: "bugs", label: "バグ ↗", href: "https://airtable.com/appV3kF3rErRTXyrw", external: true },
+];
+---
+
+<Layout title={title} description="旅路の証人 管理画面" noIndex header="none">
+  <header id="site-header" slot="header" class="bg-sumi text-paper-100">
+    <div class="max-w-site mx-auto">
+      <div class="h-[52px] px-5 md:px-8 flex items-center justify-between">
+        <a href="/admin" class="font-serif font-extrabold text-[16px] md:text-[20px] text-paper-100 hover:text-paper-100">管理</a>
+        <div class="flex items-center gap-4">
+          <a href="/" class="text-[12px] text-rule hover:text-kraft">サイトへ</a>
+          <span class="text-[11px] text-kraft">ADMIN</span>
+        </div>
+      </div>
+      <nav class="grid grid-cols-4 border-t border-paper-100/20 md:max-w-[560px] md:px-8 md:border-t-0" aria-label="管理メニュー">
+        {
+          tabs.map((t) => (
+            <a
+              href={t.href}
+              target={t.external ? "_blank" : undefined}
+              rel={t.external ? "noopener" : undefined}
+              aria-current={t.key === active ? "page" : undefined}
+              class={`min-h-[44px] flex items-center justify-center text-[12px] font-bold text-paper-100 hover:text-kraft ${
+                t.key === active ? "bg-moss hover:text-paper-100" : ""
+              }`}
+            >
+              {t.label}
+            </a>
+          ))
+        }
+      </nav>
+    </div>
+  </header>
+
+  <div class="max-w-site mx-auto md:px-8 pb-10">
+    <slot />
+  </div>
+</Layout>

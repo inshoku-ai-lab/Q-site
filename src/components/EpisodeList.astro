@@ -1,0 +1,46 @@
+---
+// Episodes around the current one ("近くの話"), with the current row
+// highlighted. Used under the article on mobile and in the PC sidebar.
+import type { Post } from "../lib/posts";
+import { getPostsBySeries } from "../lib/posts";
+import { displayTitle } from "../lib/verticalText";
+import { seriesHref } from "../lib/seriesMeta";
+
+interface Props {
+  post: Post;
+  radius?: number;
+  class?: string;
+}
+const { post, radius = 3, class: className = "" } = Astro.props;
+const list = post.series ? getPostsBySeries(post.series) : [];
+const idx = list.findIndex((p) => p.id === post.id);
+const start = Math.max(0, Math.min(idx - radius, list.length - (radius * 2 + 1)));
+const near = idx === -1 ? [] : list.slice(start, start + radius * 2 + 1);
+const num = (p: Post) => (p.episode != null ? String(p.episode).padStart(3, "0") : "・");
+---
+
+{
+  post.series && near.length > 1 && (
+    <div class={className}>
+      <div class="flex items-baseline justify-between pb-2 border-b-[3px] border-moss">
+        <span class="font-serif font-extrabold text-[17px]">{post.series}</span>
+        <a href={seriesHref(post.series)} class="text-[12px] min-h-[32px] inline-flex items-center">目次 →</a>
+      </div>
+      {near.map((p) => {
+        const current = p.id === post.id;
+        return (
+          <a
+            href={`/posts/${p.slug}/`}
+            aria-current={current ? "page" : undefined}
+            class={`grid grid-cols-[44px_minmax(0,1fr)] gap-2 items-baseline min-h-[44px] px-2 py-2.5 border-b border-rule ${
+              current ? "bg-moss text-paper-100 hover:text-paper-100" : "text-ink hover:text-ink hover:bg-moss/5"
+            }`}
+          >
+            <span class={`font-serif font-extrabold text-[15px] ${current ? "text-paper-100" : "text-moss"}`}>{num(p)}</span>
+            <span class="text-[13px] leading-[1.5]">{displayTitle(p.title, p.series)}</span>
+          </a>
+        );
+      })}
+    </div>
+  )
+}

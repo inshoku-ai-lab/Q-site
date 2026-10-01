@@ -1,6 +1,7 @@
 ---
 export const prerender = false;
-import Layout from "../../../layouts/Layout.astro";
+import AdminLayout from "../../../layouts/AdminLayout.astro";
+import VHead from "../../../components/VHead.astro";
 import { requireAdmin, logAdminAccess } from "../../../lib/admin";
 import { formatDate } from "../../../lib/posts";
 
@@ -23,6 +24,9 @@ if (!member) {
 await logAdminAccess(auth.admin, auth.email, `view_member:${member.id}`);
 
 const PROVIDER_LABELS: Record<string, string> = { google: "Google", facebook: "Facebook", line: "LINE" };
+function articleHref(slug: string): string {
+  return slug.startsWith("/") ? slug : `/posts/${slug}/`;
+}
 const REASON_LABELS: Record<string, string> = {
   financial: "金銭的利益をもたらした",
   referral: "誰かに薦めたことがある",
@@ -30,41 +34,54 @@ const REASON_LABELS: Record<string, string> = {
 };
 ---
 
-<Layout title={`会員詳細: ${member.display_name || member.email}`} description="旅路の証人 会員詳細" noIndex>
-  <div class="max-w-2xl mx-auto px-4 md:px-0 py-12">
-    <nav class="text-sm mb-6">
-      <a href="/admin/members" class="text-earth hover:text-ink underline">← 会員一覧へ</a>
-    </nav>
+<AdminLayout title={`会員詳細: ${member.display_name || member.email}`} active="members">
+  <div class="md:max-w-[760px]">
+    <a href="/admin/members" class="inline-flex items-center min-h-[44px] px-5 md:px-0 text-[12px]">← 会員一覧</a>
+    <VHead
+      text={member.display_name || "名前なし"}
+      mobile={{ size: 36, height: 200, padY: 16, padX: 12, tracking: 0.1 }}
+      pc={{ size: 40, height: 220, padY: 20, padX: 14, tracking: 0.1 }}
+      class="border-t-[3px] border-sumi"
+      bodyClass="justify-end gap-2"
+    >
+      <span class="vhead-label">MEMBER</span>
+      <span class="text-[13px] text-ink-light break-all">{member.email}</span>
+      <span class="text-[12px] text-ink-muted">{formatDate(member.joined_at)} 入会</span>
+    </VHead>
 
-    <h1 class="font-serif text-2xl font-semibold text-ink mb-8">
-      {member.display_name || "(名前なし)"}
-    </h1>
+    <section class="px-5 md:px-0 pt-5">
+      <div class="grid grid-cols-[110px_minmax(0,1fr)] gap-2.5 min-h-[48px] items-center border-b border-rule text-[13px]">
+        <span class="text-ink-muted">ログイン方法</span><span>{PROVIDER_LABELS[member.provider] ?? member.provider}</span>
+      </div>
+      <div class="grid grid-cols-[110px_minmax(0,1fr)] gap-2.5 min-h-[48px] items-center border-b border-rule text-[13px]">
+        <span class="text-ink-muted">同意理由</span><span>{REASON_LABELS[member.agreement_reason] ?? member.agreement_reason}</span>
+      </div>
+      <div class="grid grid-cols-[110px_minmax(0,1fr)] gap-2.5 min-h-[48px] items-center border-b border-rule text-[13px]">
+        <span class="text-ink-muted">入会日</span><span>{formatDate(member.joined_at)}</span>
+      </div>
+      <div class="grid grid-cols-[110px_minmax(0,1fr)] gap-2.5 min-h-[48px] items-center border-b border-rule text-[13px]">
+        <span class="text-ink-muted">流入元記事</span>
+        <span class="break-all py-2">{member.referrer_article_slug ? <a href={articleHref(member.referrer_article_slug)}>{member.referrer_article_slug}</a> : "―"}</span>
+      </div>
+      <div class="grid grid-cols-[110px_minmax(0,1fr)] gap-2.5 min-h-[48px] items-center border-b border-rule text-[13px]">
+        <span class="text-ink-muted">最初に読んだ記事</span>
+        <span class="break-all py-2">{member.first_read_article_slug ? <a href={articleHref(member.first_read_article_slug)}>{member.first_read_article_slug}</a> : "―"}</span>
+      </div>
+    </section>
 
-    <dl class="space-y-4 mb-10 border border-paper-300 rounded-md p-6 text-sm">
-      <div class="flex justify-between gap-4"><dt class="text-ink-muted">メールアドレス</dt><dd>{member.email}</dd></div>
-      <div class="flex justify-between gap-4"><dt class="text-ink-muted">プロバイダー</dt><dd>{PROVIDER_LABELS[member.provider] ?? member.provider}</dd></div>
-      <div class="flex justify-between gap-4"><dt class="text-ink-muted">同意理由</dt><dd>{REASON_LABELS[member.agreement_reason] ?? member.agreement_reason}</dd></div>
-      <div class="flex justify-between gap-4"><dt class="text-ink-muted">入会日</dt><dd>{formatDate(member.joined_at)}</dd></div>
-      <div class="flex justify-between gap-4"><dt class="text-ink-muted">流入元記事</dt><dd class="text-right break-all">{member.referrer_article_slug ?? "―"}</dd></div>
-      <div class="flex justify-between gap-4"><dt class="text-ink-muted">入会後最初に読んだ記事</dt><dd class="text-right break-all">{member.first_read_article_slug ?? "―"}</dd></div>
-    </dl>
-
-    <div class="border-t border-paper-300 pt-8">
-      <h2 class="font-serif text-lg font-semibold text-ink mb-3">管理者メモ</h2>
+    <section class="px-5 md:px-0 pt-6">
+      <h2 class="sec-h !text-[17px]"><label for="admin-note">管理メモ</label></h2>
       <textarea
         id="admin-note"
-        class="w-full border border-paper-300 rounded-md p-3 text-sm h-32"
+        rows="5"
+        class="field mt-3 !text-[15px] !leading-[1.8]"
         placeholder="このメンバーについてのメモ(例: ◯◯さんの紹介で入会)"
       >{member.admin_note ?? ""}</textarea>
-      <div class="mt-3 flex items-center gap-3">
-        <button id="save-note-btn" type="button" class="px-4 py-2 bg-moss-light text-paper-100 rounded-full text-sm">
-          メモを保存
-        </button>
-        <span id="save-note-status" class="text-xs text-ink-muted"></span>
-      </div>
-    </div>
+      <button id="save-note-btn" type="button" class="btn btn-sumi w-full mt-2.5">メモを保存</button>
+      <p id="save-note-status" class="text-[12px] text-ink-muted mt-2" role="status"></p>
+    </section>
   </div>
-</Layout>
+</AdminLayout>
 
 <script define:vars={{ memberId: member.id }}>
   const btn = document.getElementById("save-note-btn");

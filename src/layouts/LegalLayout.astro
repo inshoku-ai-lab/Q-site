@@ -1,0 +1,89 @@
+---
+// Shared layout for プライバシーポリシー / 利用規約 (15o): vertical title,
+// a table of contents built from the document's own h2s, and tabs to
+// switch between the two documents.
+import Layout from "./Layout.astro";
+import VHead from "../components/VHead.astro";
+import { toKanjiNumber } from "../lib/verticalText";
+
+interface Props {
+  kind: "privacy" | "terms";
+  title: string;
+  description: string;
+  established: string; // "2026.08.06"
+}
+const { kind, title, description, established } = Astro.props;
+
+// The documents number their own headings ("1. 取得する情報"); the design
+// shows the number as a kanji numeral instead, so strip it and collect
+// the headings for the table of contents.
+const raw = await Astro.slots.render("default");
+const toc: { id: string; text: string; kn: string }[] = [];
+const html = raw.replace(/<h2[^>]*>\s*(?:\d+\.\s*)?([\s\S]*?)<\/h2>/g, (_m, text: string) => {
+  const n = toc.length + 1;
+  const id = `sec-${n}`;
+  toc.push({ id, text: text.replace(/<[^>]+>/g, "").trim(), kn: toKanjiNumber(n) });
+  return `<h2 id="${id}">${text}</h2>`;
+});
+---
+
+<Layout title={title} description={description}>
+  <div class="max-w-site mx-auto md:px-8 md:pb-14">
+    <article class="md:max-w-[760px] md:mx-auto">
+      <VHead
+        text={title}
+        mobile={{ size: 32, height: 300, maxWidth: 130, padY: 18, padX: 12, tracking: 0.08 }}
+        pc={{ size: 40, height: 360, maxWidth: 160, padY: 28, padX: 18, tracking: 0.08 }}
+        bodyClass="justify-between gap-3.5 md:!p-7"
+      >
+        <span class="vhead-label">{kind === "privacy" ? "PRIVACY" : "TERMS"} · 制定 {established}</span>
+        <nav class="flex flex-col" aria-label="この文書の項目">
+          <span class="text-[11px] text-ink-muted pb-1.5">この文書の項目</span>
+          {
+            toc.map((t) => (
+              <a href={`#${t.id}`} class="grid grid-cols-[24px_minmax(0,1fr)] min-h-[36px] items-center border-t border-rule text-ink hover:text-moss text-[12px] leading-[1.5] py-1">
+                <span class="font-serif font-extrabold text-moss">{t.kn}</span>
+                {t.text}
+              </a>
+            ))
+          }
+        </nav>
+      </VHead>
+
+      <div class="grid grid-cols-2 border-b border-sumi">
+        {
+          kind === "privacy" ? (
+            <span class="min-h-[44px] flex items-center justify-center bg-sumi text-paper-100 text-[13px] font-bold" aria-current="page">プライバシー</span>
+          ) : (
+            <a href="/privacy/" class="min-h-[44px] flex items-center justify-center text-ink text-[13px] hover:bg-moss/10 hover:text-ink">プライバシー</a>
+          )
+        }
+        {
+          kind === "terms" ? (
+            <span class="min-h-[44px] flex items-center justify-center bg-sumi text-paper-100 text-[13px] font-bold" aria-current="page">利用規約</span>
+          ) : (
+            <a href="/terms/" class="min-h-[44px] flex items-center justify-center text-ink text-[13px] hover:bg-moss/10 hover:text-ink">利用規約</a>
+          )
+        }
+      </div>
+
+      <div class="prose-article legal px-5 md:px-0 pt-1 pb-10" style="counter-reset: h2num" set:html={html} />
+    </article>
+  </div>
+</Layout>
+
+<style>
+  .legal :global(h2) {
+    font-size: 19px;
+    margin: 28px 0 10px;
+    scroll-margin-top: 12px;
+  }
+  .legal :global(p),
+  .legal :global(ul),
+  .legal :global(ol) {
+    font-size: 15px;
+  }
+  .legal :global(p) {
+    text-indent: 0;
+  }
+</style>
