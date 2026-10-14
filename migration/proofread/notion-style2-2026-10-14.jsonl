@@ -1,0 +1,521 @@
+{"ep": 78, "changes": [], "skipped": [{"text": "濃い旅人が多く集まると言われている", "why": "「と言われている」は表の対象外"}], "status": "done"}
+{"ep": 79, "changes": [{"old": "ポカラへ移動する予定だと言う。", "new": "ポカラへ移動する予定だという。", "rule": "A"}], "skipped": [{"text": "最古の仏教寺院と言われていて", "why": "「と言われて」は表の対象外"}], "status": "done"}
+{"ep": 80, "changes": [], "skipped": [], "status": "done"}
+{"ep": 81, "changes": [], "skipped": [], "status": "done"}
+{"ep": 82, "changes": [{"old": "湖で遊んでいたと言う。", "new": "湖で遊んでいたという。", "rule": "A"}], "skipped": [{"text": "マジック・マッシュルームがあると言う。", "why": "直前に「シヴァが話しかけてきた」とあり、話者が書かれた実際の発話"}, {"text": "チンピラのシヴァは…セッションをしてやると言う。", "why": "話者（シヴァ）が文中に明記された発話"}], "status": "done"}
+{"ep": 83, "changes": [{"old": "山国と言えども", "new": "山国といえども", "rule": "A"}], "skipped": [{"text": "昨日の話を聞くと、…彼らが介抱してくれたと言う。", "why": "「話を聞くと」で話者（友人たち）が明示された伝聞"}], "status": "done"}
+{"ep": 84, "changes": [], "skipped": [], "status": "done"}
+{"ep": 85, "changes": [], "skipped": [], "status": "done"}
+{"ep": 86, "changes": [{"old": "ダージリンと言えば紅茶で", "new": "ダージリンといえば紅茶で", "rule": "A"}, {"old": "人達が多く滞在していると言う。", "new": "人達が多く滞在しているという。", "rule": "A"}, {"old": "とは言うものの、あのとき", "new": "とはいうものの、あのとき", "rule": "A"}], "skipped": [{"text": "日本人が多く滞在していると言われる格安の宿", "why": "「と言われる」は表の対象外"}], "status": "done"}
+{"ep": 87, "changes": [{"old": "インドで言う都会とは", "new": "インドでいう都会とは", "rule": "A"}], "skipped": [], "status": "done"}
+{"ep": 88, "changes": [], "skipped": [], "status": "done"}
+{"ep": 89, "changes": [{"old": "長期滞在することを言う。", "new": "長期滞在することをいう。", "rule": "A"}], "skipped": [{"text": "旅人という枠組みを大幅に超えた", "why": "枠組み（比喩的な限度）で表の「線を超える」には当たらないため現状維持"}], "status": "done"}
+{"ep": 90, "changes": [{"old": "マブダチやねん\"とは言うものの、", "new": "マブダチやねん\"とはいうものの、", "rule": "A"}], "skipped": [{"text": "関西弁を話す彼は、…松ちゃんとマブダチだと言う。", "why": "話者（彼＝サトシ）が文中に明記された発話"}], "status": "done"}
+{"ep": 91, "changes": [], "skipped": [], "status": "done"}
+{"ep": 92, "changes": [{"old": "日本で言うところの”おかき”", "new": "日本でいうところの”おかき”", "rule": "A"}, {"old": "日本で言うところの、", "new": "日本でいうところの、", "rule": "A"}], "skipped": [{"text": "旅人たちの話では、…味覚の細胞が麻痺していると言う。", "why": "「旅人たちの話では」で話者が明示された伝聞"}], "status": "done"}
+{"ep": 93, "changes": [{"old": "曲がりくねっているからだと言う。", "new": "曲がりくねっているからだという。", "rule": "A"}], "skipped": [], "status": "done"}
+{"ep": 94, "changes": [], "skipped": [], "status": "done"}
+{"ep": 95, "changes": [], "skipped": [{"text": "彼が言うには、…すでに出発した後だと言う。", "why": "「彼が言うには」で話者が明示された伝聞"}], "status": "done"}
+{"ep": 96, "changes": [{"old": "入ることができないと言う。", "new": "入ることができないという。", "rule": "A"}], "skipped": [], "status": "done"}
+{"ep": 97, "changes": [], "skipped": [{"text": "夜だけならまた戻って来てもいいと言うが", "why": "文脈上の話者（彼＝中国人鍼灸師）による実際の発話で、文末の伝聞ではない"}], "status": "done"}
+{"ep": 98, "changes": [{"old": "かと言って、バラナシ", "new": "かといって、バラナシ", "rule": "A"}, {"old": "Yさんと言い、", "new": "Yさんといい、", "rule": "A"}, {"old": "Mさんと言い、", "new": "Mさんといい、", "rule": "A"}], "skipped": [{"text": "ガイドブックによると…比較的安く暮らせると言うので", "why": "「ガイドブックによると」で出典が明示された伝聞"}], "status": "done"}
+{"ep": 99, "changes": [], "skipped": [{"text": "自分で言うのもなんだが", "why": "語り手自身の発話としての「言う」で表の対象外"}], "status": "done"}
+{"ep": 100, "changes": [], "skipped": [{"text": "Yさんは…来なくなったんじゃ無いかと言う。", "why": "話者（Yさん）が明記された発話"}, {"text": "警官はポケットの中を見せろと言う。", "why": "話者（警官）が明記された発話"}], "status": "done"}
+{"ep": 101, "changes": [], "skipped": [{"text": "彼は本物のジプシーの血筋で、…定住してしまったのだと言う。", "why": "話者（彼＝Mさん）が文中に明記された伝聞"}, {"text": "彼に…と聞いたら、…ハイシーズンが始まると言う。", "why": "話者（彼）が明記された発話"}], "status": "done"}
+{"ep": 102, "changes": [{"old": "一番盛り上がっていると言う。", "new": "一番盛り上がっているという。", "rule": "A"}], "skipped": [{"text": "彼は、そんなものを捨てて、今すぐやってくる価値があると言い", "why": "話者（彼＝Yさん）が明記された実際の発話"}, {"text": "Rさんが言うには、", "why": "話者が明示された伝聞"}, {"text": "グダグダ言うと", "why": "実際の発話"}], "status": "done"}
+{"ep": 103, "changes": [], "skipped": [], "status": "done"}
+{"ep": 494, "changes": [], "skipped": [], "status": "done"}
+{"ep": 495, "changes": [], "skipped": [], "status": "done"}
+{"ep": 496, "changes": [], "skipped": [], "status": "done"}
+{"ep": 497, "changes": [], "skipped": [], "status": "done"}
+{"ep": 498, "changes": [], "skipped": [], "status": "done"}
+{"ep": 499, "changes": [], "skipped": [{"text": "１２月の道程ははっきり言って結構寒いのだが", "why": "「はっきり言って」は漢字のまま残す対象"}], "status": "done"}
+{"ep": 500, "changes": [], "skipped": [], "status": "done"}
+{"ep": 501, "changes": [], "skipped": [], "status": "done"}
+{"ep": 502, "changes": [], "skipped": [{"text": "エコロジーカルトとも言えるような考えを持っていた", "why": "「とも言える」は漢字のまま残す対象"}], "status": "done"}
+{"ep": 503, "changes": [], "skipped": [], "status": "done"}
+{"ep": 504, "changes": [], "skipped": [], "status": "done"}
+{"ep": 505, "changes": [], "skipped": [], "status": "done"}
+{"ep": 506, "changes": [], "skipped": [{"text": "すでに瓶の蓋を開けているからもう遅いと言う。", "why": "店長に尋ねた直後の店長の実際の発話（伝聞ではない）"}, {"text": "文句の言いようもない", "why": "表の対象外の言い回し"}], "status": "done"}
+{"ep": 507, "changes": [], "skipped": [], "status": "done"}
+{"ep": 508, "changes": [{"old": "明日は峠をこえるので", "new": "明日は峠を越えるので", "rule": "B"}], "skipped": [], "status": "done"}
+{"ep": 509, "changes": [], "skipped": [], "status": "done"}
+{"ep": 510, "changes": [], "skipped": [], "status": "done"}
+{"ep": 511, "changes": [], "skipped": [{"text": "彼、H君はインドから帰ってきたばかりだと言う。", "why": "言った主体（H君）が本文に明記されている文末の「と言う」"}, {"text": "あえて言えば、戦友のようなものだろうか。", "why": "「〜と言えば」ではなく言い方としての「言う」（簡単に言うと等と同類）"}, {"text": "H君が言うには", "why": "発話主体が明記された実際の発話"}], "status": "done"}
+{"ep": 512, "changes": [], "skipped": [{"text": "特定のやり方に沿ったイベントのスタイルと言った方が正確だという", "why": "「と言った方が」は言い方としての「言う」で表の対象外"}], "status": "done"}
+{"ep": 513, "changes": [{"old": "なんでも共有して暮らしていると言う。", "new": "なんでも共有して暮らしているという。", "rule": "A"}], "skipped": [{"text": "H君にとっては、それらの極度な近さと親しさ、そして全てを共有する一心同体感がしんどくなったと言う。", "why": "言った主体（H君）が文中に明記された文末の「と言う」"}], "status": "done"}
+{"ep": 514, "changes": [], "skipped": [], "status": "done"}
+{"ep": 515, "changes": [], "skipped": [{"text": "彼が言うにはキビ刈りは２月頃がピークだから…働くのが一般的だと言う。", "why": "発話主体（彼＝H君）が明記された文末の「と言う」と「彼が言うには」"}], "status": "done"}
+{"ep": 516, "changes": [], "skipped": [], "status": "done"}
+{"ep": 517, "changes": [], "skipped": [], "status": "done"}
+{"ep": 518, "changes": [], "skipped": [], "status": "done"}
+{"ep": 519, "changes": [{"old": "キャンプ料理の定番と言えばカレー。", "new": "キャンプ料理の定番といえばカレー。", "rule": "A"}], "skipped": [], "status": "done"}
+{"ep": 520, "changes": [], "skipped": [{"text": "それでもこの時期に封鎖すると言う。", "why": "直前文「キャンプ場の管理人が言うには」で発話主体が明記された文末の「と言う」"}, {"text": "キャンプ場の管理人が言うには", "why": "発話主体が明記された実際の発話"}], "status": "done"}
+{"ep": 416, "changes": [], "skipped": [], "status": "done"}
+{"ep": 417, "changes": [], "skipped": [], "status": "done"}
+{"ep": 418, "changes": [], "skipped": [], "status": "done"}
+{"ep": 419, "changes": [{"old": "わかるありがたさがあると言うが", "new": "わかるありがたさがあるというが", "rule": "A"}], "skipped": [], "status": "done"}
+{"ep": 420, "changes": [], "skipped": [{"text": "もっと言うと、Rさんを追い払う方法として", "why": "「もっと言うと」は漢字のまま残す対象"}, {"text": "ガンドルフさんは言う。", "why": "実際の発話"}], "status": "done"}
+{"ep": 421, "changes": [], "skipped": [], "status": "done"}
+{"ep": 422, "changes": [], "skipped": [], "status": "done"}
+{"ep": 423, "changes": [], "skipped": [], "status": "done"}
+{"ep": 424, "changes": [], "skipped": [], "status": "done"}
+{"ep": 425, "changes": [], "skipped": [], "status": "done"}
+{"ep": 426, "changes": [], "skipped": [], "status": "done"}
+{"ep": 427, "changes": [], "skipped": [], "status": "done"}
+{"ep": 428, "changes": [], "skipped": [], "status": "done"}
+{"ep": 429, "changes": [], "skipped": [], "status": "done"}
+{"ep": 430, "changes": [], "skipped": [{"text": "あれは地球に対する犯罪だと言って、怒りを表していた", "why": "実際の発話（ガンドルフさん）"}], "status": "done"}
+{"ep": 431, "changes": [], "skipped": [{"text": "調和の取れた雰囲気とは言い難かった", "why": "「言い難い」は表の対象外"}], "status": "done"}
+{"ep": 432, "changes": [], "skipped": [{"text": "病気して動けなかったと言うと", "why": "実際の発話"}], "status": "done"}
+{"ep": 433, "changes": [], "skipped": [], "status": "done"}
+{"ep": 434, "changes": [], "skipped": [], "status": "done"}
+{"ep": 435, "changes": [], "skipped": [], "status": "done"}
+{"ep": 436, "changes": [], "skipped": [{"text": "僕に文句を言う権利などなかった", "why": "実際の発話（文句を言う）"}, {"text": "もうすぐ良くなるよ、などと言うが", "why": "実際の発話"}], "status": "done"}
+{"ep": 437, "changes": [], "skipped": [], "status": "done"}
+{"ep": 438, "changes": [], "skipped": [{"text": "さすが大阪と言うことができるだろう", "why": "「と言える」と同義で漢字のまま残す対象"}], "status": "done"}
+{"ep": 439, "changes": [], "skipped": [], "status": "done"}
+{"ep": 440, "changes": [], "skipped": [], "status": "done"}
+{"ep": 441, "changes": [], "skipped": [], "status": "done"}
+{"ep": 338, "changes": [], "skipped": [], "status": "done"}
+{"ep": 339, "changes": [], "skipped": [], "status": "done"}
+{"ep": 340, "changes": [], "skipped": [], "status": "done"}
+{"ep": 341, "changes": [], "skipped": [{"text": "奥さんが言うには", "why": "話者明記の実際の発話のため漢字維持"}], "status": "done"}
+{"ep": 342, "changes": [], "skipped": [], "status": "done"}
+{"ep": 343, "changes": [], "skipped": [], "status": "done"}
+{"ep": 344, "changes": [], "skipped": [{"text": "最低賃金とも言えるような", "why": "とも言える系は漢字維持"}], "status": "done"}
+{"ep": 345, "changes": [], "skipped": [{"text": "タジンを食うべしと言われていた", "why": "実際の発話（助言）のため漢字維持"}], "status": "done"}
+{"ep": 346, "changes": [], "skipped": [], "status": "done"}
+{"ep": 347, "changes": [], "skipped": [], "status": "done"}
+{"ep": 348, "changes": [], "skipped": [{"text": "言わずもがな", "why": "言うまでもなく系として漢字維持"}, {"text": "日本人の甘さの感覚で言うと", "why": "「例えで言うと」型の〜で言うと（文頭の言い方）として漢字維持"}], "status": "done"}
+{"ep": 349, "changes": [], "skipped": [{"text": "明日また来ると良いと言ってくれた", "why": "ウエイターの実際の発話のため漢字維持"}], "status": "done"}
+{"ep": 350, "changes": [], "skipped": [{"text": "英語でウェルカムと言って迎えてくれた", "why": "実際の発話のため漢字維持"}, {"text": "なんとも言えない芳しい", "why": "なんとも言えないは漢字維持"}], "status": "done"}
+{"ep": 351, "changes": [], "skipped": [{"text": "言われるままにぼったくられる", "why": "相手の言い値＝実際の発話のため漢字維持"}, {"text": "他の場所を検討していると言ったことと", "why": "実際の発話のため漢字維持"}, {"text": "お金を持ってくると言って一旦", "why": "実際の発話のため漢字維持"}], "status": "done"}
+{"ep": 352, "changes": [], "skipped": [], "status": "done"}
+{"ep": 353, "changes": [], "skipped": [], "status": "done"}
+{"ep": 354, "changes": [], "skipped": [{"text": "キャンプをしたいと言ったことに対して", "why": "実際の発話のため漢字維持"}], "status": "done"}
+{"ep": 355, "changes": [], "skipped": [], "status": "done"}
+{"ep": 356, "changes": [], "skipped": [], "status": "done"}
+{"ep": 357, "changes": [], "skipped": [], "status": "done"}
+{"ep": 358, "changes": [], "skipped": [{"text": "言い出しっぺ", "why": "名詞（発話由来）で対象外"}], "status": "done"}
+{"ep": 359, "changes": [], "skipped": [], "status": "done"}
+{"ep": 360, "changes": [], "skipped": [], "status": "done"}
+{"ep": 361, "changes": [{"old": "今夜パーティーがあるからと言うので", "new": "今夜パーティーがあるからというので", "rule": "A"}], "skipped": [], "status": "done"}
+{"ep": 362, "changes": [], "skipped": [], "status": "done"}
+{"ep": 363, "changes": [{"old": "旅をしているというのだと言う。", "new": "旅をしているというのだという。", "rule": "A"}], "skipped": [], "status": "done"}
+{"ep": 390, "changes": [], "skipped": [], "status": "done"}
+{"ep": 391, "changes": [], "skipped": [], "status": "done"}
+{"ep": 392, "changes": [], "skipped": [{"text": "この後も文無しで旅を続けるつもりだと言う、根っからの文無しマスターだった。", "why": "言った主体（彼女＝Oちゃん）が本文に明記されている発話"}, {"text": "実際に何も言わないのである。", "why": "実際の発話"}], "status": "done"}
+{"ep": 393, "changes": [], "skipped": [], "status": "done"}
+{"ep": 394, "changes": [], "skipped": [], "status": "done"}
+{"ep": 395, "changes": [], "skipped": [{"text": "カップルだから乗り越えられたとも言えるだろう。", "why": "「とも言える」は漢字のまま残す対象"}], "status": "done"}
+{"ep": 396, "changes": [], "skipped": [], "status": "done"}
+{"ep": 397, "changes": [], "skipped": [{"text": "はっきり言ってかなり重い。", "why": "「はっきり言って」は漢字のまま残す対象"}], "status": "done"}
+{"ep": 398, "changes": [], "skipped": [{"text": "まあ、はっきり言ってそんな場所に畑を作ることなど無理なのである。", "why": "「はっきり言って」は漢字のまま残す対象"}], "status": "done"}
+{"ep": 399, "changes": [], "skipped": [], "status": "done"}
+{"ep": 400, "changes": [], "skipped": [{"text": "言ってみればOちゃんの初心者バージョンのようなものだ。", "why": "「言ってみれば」は漢字のまま残す対象"}, {"text": "彼を花開かせたとも言えるだろう。", "why": "「とも言える」は漢字のまま残す対象"}], "status": "done"}
+{"ep": 401, "changes": [], "skipped": [], "status": "done"}
+{"ep": 402, "changes": [], "skipped": [], "status": "done"}
+{"ep": 403, "changes": [], "skipped": [{"text": "鋭くも暖かい月の光が何とも言えず心地よい。", "why": "「なんとも言えない」類は漢字のまま残す対象"}], "status": "done"}
+{"ep": 404, "changes": [], "skipped": [{"text": "神秘的としか言いようがない光景だ。", "why": "「〜としか言いようがない」は表の対象外（言い表すの意）"}], "status": "done"}
+{"ep": 405, "changes": [], "skipped": [{"text": "１００年に一度の世紀越えを祝うフェスティバル", "why": "「世紀越え」は年越しと同じく時の境をこえる意で「越」が正しい"}], "status": "done"}
+{"ep": 406, "changes": [], "skipped": [{"text": "誰もが何も言えなかった。", "why": "実際の発話（言葉を発せなかった）"}], "status": "done"}
+{"ep": 407, "changes": [], "skipped": [], "status": "done"}
+{"ep": 408, "changes": [], "skipped": [], "status": "done"}
+{"ep": 409, "changes": [], "skipped": [], "status": "done"}
+{"ep": 410, "changes": [], "skipped": [], "status": "done"}
+{"ep": 411, "changes": [{"old": "働いてお金を貯めて、旅をしたいと言う。", "new": "働いてお金を貯めて、旅をしたいという。", "rule": "A"}], "skipped": [], "status": "done"}
+{"ep": 412, "changes": [], "skipped": [], "status": "done"}
+{"ep": 413, "changes": [{"old": "パイプのことをキフと言うのだと考えていた", "new": "パイプのことをキフというのだと考えていた", "rule": "A"}], "skipped": [], "status": "done"}
+{"ep": 414, "changes": [], "skipped": [], "status": "done"}
+{"ep": 415, "changes": [], "skipped": [], "status": "done"}
+{"ep": 26, "changes": [], "skipped": [], "status": "done"}
+{"ep": 27, "changes": [], "skipped": [], "status": "done"}
+{"ep": 28, "changes": [], "skipped": [], "status": "done"}
+{"ep": 29, "changes": [], "skipped": [], "status": "done"}
+{"ep": 30, "changes": [], "skipped": [{"text": "彼が良いと言ってやっていることは", "why": "Nさんの実際の発言（主語明記）"}, {"text": "悪口を言ったり", "why": "実際の発話"}], "status": "done"}
+{"ep": 31, "changes": [], "skipped": [{"text": "作りたい音楽を作り始めることができると言う。", "why": "前文から続く主語＝兄の実際の発言（話者が本文で明らか）"}], "status": "done"}
+{"ep": 32, "changes": [], "skipped": [], "status": "done"}
+{"ep": 33, "changes": [], "skipped": [{"text": "言葉で言っても", "why": "実際に言葉で表現する意の動詞"}], "status": "done"}
+{"ep": 34, "changes": [], "skipped": [{"text": "彼の言うことは皆がフォローしていた", "why": "実際の発言"}], "status": "done"}
+{"ep": 35, "changes": [{"old": "必ずと言っていいほど", "new": "必ずといっていいほど", "rule": "A"}], "skipped": [{"text": "玄関口と言われる", "why": "「と言われる」は対象表に含まれない"}], "status": "done"}
+{"ep": 36, "changes": [{"old": "日本で言うところの", "new": "日本でいうところの", "rule": "A"}], "skipped": [{"text": "Iさん曰く…と言っていた", "why": "話者明記の発言"}], "status": "done"}
+{"ep": 37, "changes": [], "skipped": [{"text": "何を言っているのか", "why": "実際の発話"}, {"text": "なんとも言えない", "why": "漢字のまま残す指定"}], "status": "done"}
+{"ep": 38, "changes": [], "skipped": [], "status": "done"}
+{"ep": 39, "changes": [{"old": "神秘体験みたいなこともあると言う。", "new": "神秘体験みたいなこともあるという。", "rule": "A"}, {"old": "あるラインを超える事で死に至る", "new": "あるラインを越える事で死に至る", "rule": "B"}], "skipped": [{"text": "もちろん言うまでもなく", "why": "漢字のまま残す指定"}, {"text": "ここで言いたいのは", "why": "筆者自身の発言・主張の動詞で対象表外"}, {"text": "善悪の価値観を超えて（2箇所）", "why": "境界線ではなく超越の意で対象表外"}, {"text": "Excerptプロパティ内「開催されると言う」", "why": "本文外のプロパティのため未変更（本文側は既に「という」）"}], "status": "done"}
+{"ep": 40, "changes": [], "skipped": [], "status": "done"}
+{"ep": 41, "changes": [], "skipped": [{"text": "とか言われる／さっさと言えよ／言い出した", "why": "実際の発話"}], "status": "done"}
+{"ep": 42, "changes": [], "skipped": [], "status": "done"}
+{"ep": 43, "changes": [], "skipped": [], "status": "done"}
+{"ep": 44, "changes": [{"old": "当然と言えば当然だが。", "new": "当然といえば当然だが。", "rule": "A"}], "skipped": [], "status": "done"}
+{"ep": 45, "changes": [], "skipped": [], "status": "done"}
+{"ep": 46, "changes": [], "skipped": [{"text": "ネタバレになるので言わないが", "why": "筆者自身が言う行為の動詞で対象表外"}], "status": "done"}
+{"ep": 47, "changes": [{"old": "バイトを募集していると言う。", "new": "バイトを募集しているという。", "rule": "A"}, {"old": "食わせるためだと言う。", "new": "食わせるためだという。", "rule": "A"}, {"old": "名前はフォーラムと言い、", "new": "名前はフォーラムといい、", "rule": "A"}], "skipped": [{"text": "何かを言うわけでもなく", "why": "実際の発話"}], "status": "done"}
+{"ep": 48, "changes": [], "skipped": [{"text": "誰も文句を言わない", "why": "実際の発話"}], "status": "done"}
+{"ep": 49, "changes": [], "skipped": [{"text": "音楽うんぬんという次元を超えて／臨界点を超えた", "why": "超越・限度の意で対象表外（超えるのままが正）"}], "status": "done"}
+{"ep": 50, "changes": [], "skipped": [], "status": "done"}
+{"ep": 51, "changes": [], "skipped": [{"text": "人間社会のしがらみを超えたところ", "why": "超越の意で境界線の例に当たらず対象表外"}], "status": "done"}
+{"ep": 130, "changes": [], "skipped": [], "status": "done"}
+{"ep": 131, "changes": [], "skipped": [], "status": "done"}
+{"ep": 132, "changes": [], "skipped": [], "status": "done"}
+{"ep": 133, "changes": [{"old": "エクスタシーを摂取すると言う。", "new": "エクスタシーを摂取するという。", "rule": "A"}, {"old": "外側を向き高く昇ると言う。", "new": "外側を向き高く昇るという。", "rule": "A"}, {"old": "全身が緑色に染まっていたと言う。", "new": "全身が緑色に染まっていたという。", "rule": "A"}, {"old": "ナチュラルとケミカルの戦いに巻き込まれていたと言う。", "new": "ナチュラルとケミカルの戦いに巻き込まれていたという。", "rule": "A"}], "skipped": [], "status": "done"}
+{"ep": 134, "changes": [], "skipped": [{"text": "シェフの父ちゃんが出てきて、\"大丈夫だ…\"と言う。", "why": "実際の発話（話者明記）"}], "status": "done"}
+{"ep": 135, "changes": [], "skipped": [], "status": "done"}
+{"ep": 136, "changes": [], "skipped": [{"text": "他の友人たちは…安心しろと言う。", "why": "話者明記の発話"}], "status": "done"}
+{"ep": 137, "changes": [], "skipped": [], "status": "done"}
+{"ep": 138, "changes": [], "skipped": [], "status": "done"}
+{"ep": 139, "changes": [], "skipped": [{"text": "２３歳で旅に出たとか２７歳で旅に出たとか言っていて", "why": "実際の発話"}], "status": "done"}
+{"ep": 140, "changes": [{"old": "DJをすると言う。", "new": "DJをするという。", "rule": "A"}], "skipped": [], "status": "done"}
+{"ep": 141, "changes": [], "skipped": [{"text": "意識の速度が処理できる範囲を超えて", "why": "限度の意で「超える」が正"}], "status": "done"}
+{"ep": 142, "changes": [], "skipped": [], "status": "done"}
+{"ep": 143, "changes": [], "skipped": [], "status": "done"}
+{"ep": 144, "changes": [], "skipped": [{"text": "トランス体験とも言えるような", "why": "「とも言える」は漢字のまま残す規定"}, {"text": "体力の限界を超えて", "why": "限度の意で「超える」が正"}], "status": "done"}
+{"ep": 145, "changes": [], "skipped": [{"text": "一人目は、今回が８年目だと言う。", "why": "話者明記の発話"}, {"text": "彼らは…ゴアトランスに出会い目覚めたと言う。", "why": "話者（彼ら）明記"}, {"text": "その凄さに驚いていると言うと", "why": "実際の発話"}, {"text": "彼にとってのトランスパーティーは、人生をかける価値のあるものだと言う。", "why": "話者（彼）明記"}], "status": "done"}
+{"ep": 146, "changes": [{"old": "いづれお金が尽きて", "new": "いずれお金が尽きて", "rule": "C"}], "skipped": [{"text": "一線を越えて", "why": "境界の意で既に「越える」"}], "status": "done"}
+{"ep": 147, "changes": [{"old": "何年も往復して暮らしていると言う。", "new": "何年も往復して暮らしているという。", "rule": "A"}, {"old": "大麻樹脂が手に入ると言う。", "new": "大麻樹脂が手に入るという。", "rule": "A"}, {"old": "日々が過ごせると言う。", "new": "日々が過ごせるという。", "rule": "A"}], "skipped": [], "status": "done"}
+{"ep": 148, "changes": [], "skipped": [], "status": "done"}
+{"ep": 149, "changes": [{"old": "４８時間ぶっ続けでDJをすると言う。", "new": "４８時間ぶっ続けでDJをするという。", "rule": "A"}], "skipped": [{"text": "人間業をとうに超えている。", "why": "限度の意で「超える」が正"}], "status": "done"}
+{"ep": 150, "changes": [], "skipped": [{"text": "彼は…超意識的体験をしたと言う。", "why": "話者（彼）明記"}, {"text": "俺の生き方で証明してやるから、まあ見とけと言う。", "why": "実際の発話"}], "status": "done"}
+{"ep": 151, "changes": [], "skipped": [{"text": "これは違うなと言いながら", "why": "実際の発話"}], "status": "done"}
+{"ep": 152, "changes": [{"old": "どちらかと言えば", "new": "どちらかといえば", "rule": "A"}], "skipped": [{"text": "我慢の限界を超えた若者", "why": "限度の意で「超える」が正"}], "status": "done"}
+{"ep": 153, "changes": [], "skipped": [], "status": "done"}
+{"ep": 154, "changes": [{"old": "この時期を体験しないとダメだと言う。", "new": "この時期を体験しないとダメだという。", "rule": "A"}], "skipped": [{"text": "はっきり言って半端なく面白い。", "why": "「はっきり言って」は漢字のまま残す規定"}], "status": "done"}
+{"ep": 155, "changes": [], "skipped": [{"text": "限界を超えていた／限界を遥かに超えた（2箇所）", "why": "限度の意で「超える」が正"}, {"text": "かく言う僕も", "why": "表に該当なし（慣用句、対象外）"}], "status": "done"}
+{"ep": 364, "changes": [], "skipped": [], "status": "done"}
+{"ep": 365, "changes": [{"old": "訳がわからんと言えば訳がわからんが", "new": "訳がわからんといえば訳がわからんが", "rule": "A"}], "skipped": [], "status": "done"}
+{"ep": 366, "changes": [], "skipped": [{"text": "”自分は英語を話せないから”と言ってIちゃんの後ろに隠れていた", "why": "実際の発話"}], "status": "done"}
+{"ep": 367, "changes": [], "skipped": [], "status": "done"}
+{"ep": 368, "changes": [], "skipped": [{"text": "自分はここを出ていくと言っている。", "why": "実際の発話"}, {"text": "新世紀を迎えるよ、と言って颯爽と出て行った", "why": "実際の発話"}], "status": "done"}
+{"ep": 369, "changes": [], "skipped": [], "status": "done"}
+{"ep": 370, "changes": [], "skipped": [{"text": "現物はその想像を遥かに超えていた", "why": "程度・限度の「超える」で正しい"}], "status": "done"}
+{"ep": 371, "changes": [], "skipped": [], "status": "done"}
+{"ep": 372, "changes": [], "skipped": [{"text": "楽器の音に対して苦情を言ってくるのだが", "why": "実際の発話"}, {"text": "自分たちもパーティーを楽しみたいと言って", "why": "実際の発話"}], "status": "done"}
+{"ep": 373, "changes": [], "skipped": [{"text": "つい先日にクリスマスを越えたところだが", "why": "時の経過（年を越す）の「越える」で正しい"}], "status": "done"}
+{"ep": 374, "changes": [], "skipped": [], "status": "done"}
+{"ep": 375, "changes": [], "skipped": [{"text": "世紀越えフェスティバル", "why": "時の境（世紀をまたぐ）の「越え」で正しい"}], "status": "done"}
+{"ep": 376, "changes": [], "skipped": [{"text": "文句を言わずに待つだけだ／文句を言いたかったが", "why": "実際の発話行為（文句を言う）"}], "status": "done"}
+{"ep": 377, "changes": [], "skipped": [{"text": "砂漠での生活は自分に似合っていると言っている", "why": "実際の発話"}, {"text": "簡単に言うと北斗の拳に", "why": "「簡単に言うと」は漢字のまま残す対象"}, {"text": "ジャニス・ジョプリンを超えているように思えた", "why": "程度の「超える」で正しい"}], "status": "done"}
+{"ep": 378, "changes": [], "skipped": [{"text": "僕がジャニス・ジョプリンを超えると評するその女性", "why": "程度の「超える」で正しい"}], "status": "done"}
+{"ep": 379, "changes": [], "skipped": [{"text": "サハラ砂漠での世紀越えパーティー", "why": "時の境の「越え」で正しい"}], "status": "done"}
+{"ep": 380, "changes": [], "skipped": [], "status": "done"}
+{"ep": 381, "changes": [{"old": "何が違うかと言えば、今回は", "new": "何が違うかといえば、今回は", "rule": "A"}], "skipped": [{"text": "別の言い方をすると", "why": "名詞「言い方」で対象外"}], "status": "done"}
+{"ep": 382, "changes": [], "skipped": [{"text": "バッドトリップと言われることもあるが", "why": "受け身「と言われる」は表の対象外"}, {"text": "単純な善悪を超えた経験／意識の処理能力を超えた情報量", "why": "程度・限度の「超える」で正しい"}], "status": "done"}
+{"ep": 383, "changes": [], "skipped": [{"text": "”ああしろ、こうしろ”と言われたことが", "why": "実際の発話"}], "status": "done"}
+{"ep": 384, "changes": [], "skipped": [{"text": "何も言ってこないガンドルフさん", "why": "実際の発話"}], "status": "done"}
+{"ep": 385, "changes": [], "skipped": [{"text": "最高の笑顔で踊りながら越えたいと願い", "why": "時の境（世紀をまたぐ）の「越える」で正しい"}], "status": "done"}
+{"ep": 386, "changes": [], "skipped": [], "status": "done"}
+{"ep": 387, "changes": [], "skipped": [], "status": "done"}
+{"ep": 388, "changes": [], "skipped": [{"text": "そのまま暮らすかもみたいなことを言っている", "why": "実際の発話（ガンドルフさん）"}], "status": "done"}
+{"ep": 389, "changes": [], "skipped": [], "status": "done"}
+{"ep": 52, "changes": [{"old": "今で言うレアガチャ", "new": "今でいうレアガチャ", "rule": "A"}], "skipped": [{"text": "なんとも言えぬ嬉しさ", "why": "なんとも言えない系は漢字維持"}], "status": "done"}
+{"ep": 53, "changes": [], "skipped": [], "status": "done"}
+{"ep": 54, "changes": [], "skipped": [{"text": "臨界点を超えた", "why": "限度の意で超えるが正"}], "status": "done"}
+{"ep": 55, "changes": [], "skipped": [{"text": "芸術的と言われる映画", "why": "受身「言われる」は対象外"}], "status": "done"}
+{"ep": 56, "changes": [], "skipped": [], "status": "done"}
+{"ep": 57, "changes": [], "skipped": [{"text": "現代社会への影響もすごいと言う。／当時の文化の影響だと言う。", "why": "直前に「Mさんが言うには」と話者明記の連続文"}, {"text": "はっきり言って君はまだ覚醒していないよ", "why": "漢字維持リスト・発話"}], "status": "done"}
+{"ep": 58, "changes": [], "skipped": [], "status": "done"}
+{"ep": 59, "changes": [], "skipped": [], "status": "done"}
+{"ep": 60, "changes": [], "skipped": [{"text": "総数が２０００本を超え", "why": "数量の意で超えるが正"}], "status": "done"}
+{"ep": 61, "changes": [], "skipped": [], "status": "done"}
+{"ep": 62, "changes": [], "skipped": [{"text": "言われてみて、確かにその通りだと納得した", "why": "実際の発話を受けた表現"}], "status": "done"}
+{"ep": 63, "changes": [], "skipped": [{"text": "Excerptプロパティ内「会えないかも知れないと言うことで」", "why": "本文は既に「ということで」。プロパティは本文外のため未変更"}], "status": "done"}
+{"ep": 64, "changes": [], "skipped": [{"text": "彼が言うには…チベットを越えていかなければならないと言う。", "why": "話者明記の伝聞"}, {"text": "観光船とは言えなかった", "why": "「と言える」系は漢字維持"}], "status": "done"}
+{"ep": 65, "changes": [], "skipped": [], "status": "done"}
+{"ep": 66, "changes": [], "skipped": [{"text": "日本人の客が言うままに／文句を言う方法", "why": "実際の発話"}], "status": "done"}
+{"ep": 67, "changes": [], "skipped": [{"text": "彼は地図を指差しながら西安という街へ行けと言う。", "why": "話者明記の発話"}], "status": "done"}
+{"ep": 68, "changes": [], "skipped": [{"text": "チベットへ向かう予定だと言う。", "why": "直前文の「彼ら」（留学生）が会話で言った内容。話者が文脈で明示"}, {"text": "彼らは中国語がペラペラなので…旅ができると言う。", "why": "話者明記"}, {"text": "旅は道連れ世は情けとでも言うように", "why": "表の対象外の慣用"}, {"text": "硬臥と言われる席", "why": "受身「言われる」は対象外"}], "status": "done"}
+{"ep": 69, "changes": [], "skipped": [], "status": "done"}
+{"ep": 70, "changes": [], "skipped": [], "status": "done"}
+{"ep": 71, "changes": [], "skipped": [{"text": "ナビ行がエスケープされた壊れたリンク表記（\\[前の記事０７０\\](...)）", "why": "ナビ行は触らない指示のため未変更。要別途確認"}], "status": "done"}
+{"ep": 72, "changes": [], "skipped": [{"text": "マニ車と言われる", "why": "受身「言われる」は対象外"}, {"text": "６メートルを超える", "why": "数量の意で超えるが正"}], "status": "done"}
+{"ep": 73, "changes": [], "skipped": [{"text": "強いて言えば", "why": "「簡単に言うと」系の様態＋言う。表の「〜と言えば」には当たらない"}, {"text": "胡散臭いとは言えなくなっていた", "why": "「と言える」系は漢字維持"}], "status": "done"}
+{"ep": 74, "changes": [], "skipped": [{"text": "なんとも言いようのない", "why": "「なんとも言えない」系は漢字維持"}], "status": "done"}
+{"ep": 75, "changes": [{"old": "超巨大な布を掛けると言う。", "new": "超巨大な布を掛けるという。", "rule": "A"}], "skipped": [{"text": "ここで降りると言い出した", "why": "実際の発話"}], "status": "done"}
+{"ep": 76, "changes": [], "skipped": [{"text": "５０００メートルを超える峠を越えて", "why": "数量＝超える、場所＝越える で既に正"}], "status": "done"}
+{"ep": 77, "changes": [], "skipped": [], "status": "done"}
+{"ep": 286, "changes": [], "skipped": [], "status": "done"}
+{"ep": 287, "changes": [], "skipped": [], "status": "done"}
+{"ep": 288, "changes": [], "skipped": [{"text": "言ってる意味が伝わっているだろうか？", "why": "発話（読者への語りかけ）"}, {"text": "とも言えるし…とも言える", "why": "とも言える は漢字のまま"}], "status": "done"}
+{"ep": 289, "changes": [{"old": "特殊体験と言っても良いかもしれない", "new": "特殊体験といってもよいかもしれない", "rule": "A"}], "skipped": [{"text": "限界を超えて", "why": "限度＝超えるで正"}, {"text": "とも言える", "why": "漢字のまま"}], "status": "done"}
+{"ep": 290, "changes": [], "skipped": [{"text": "限界を超えていき", "why": "限度＝超えるで正"}], "status": "done"}
+{"ep": 291, "changes": [], "skipped": [{"text": "”俺がなんとかしてみせる”と言って", "why": "実際の発話"}], "status": "done"}
+{"ep": 292, "changes": [], "skipped": [{"text": "逆に言うと", "why": "もっと言うと等と同類の言い換え表現、表に無いので漢字のまま"}], "status": "done"}
+{"ep": 293, "changes": [], "skipped": [{"text": "限界を超えた", "why": "限度＝超えるで正"}, {"text": "言われるがままに", "why": "実際の発話"}], "status": "done"}
+{"ep": 294, "changes": [], "skipped": [], "status": "done"}
+{"ep": 295, "changes": [], "skipped": [], "status": "done"}
+{"ep": 296, "changes": [], "skipped": [{"text": "ナイン・バーでDJしたことがあると言えば、箔がついて", "why": "人に言う（実際の発話）の条件形であり話題提示の「といえば」ではない"}], "status": "done"}
+{"ep": 297, "changes": [], "skipped": [], "status": "done"}
+{"ep": 298, "changes": [], "skipped": [{"text": "ブツブツと言いながら…と言っている／と言い続けている", "why": "実際の発話"}], "status": "done"}
+{"ep": 299, "changes": [], "skipped": [], "status": "done"}
+{"ep": 300, "changes": [], "skipped": [{"text": "Nちゃんがまたロンドンに舞い戻り、暮らし始めたと言う。", "why": "話者Nちゃんが本文に書かれている（直後に本人から招待）"}, {"text": "一緒にいる時間を大事にしたいと言う。", "why": "話者Iちゃんが明記された発話"}, {"text": "声を揃えて言う事だ", "why": "実際の発話"}], "status": "done"}
+{"ep": 301, "changes": [], "skipped": [], "status": "done"}
+{"ep": 302, "changes": [], "skipped": [{"text": "Iちゃんは、…安心だと言う。", "why": "話者Iちゃんが明記された発話"}], "status": "done"}
+{"ep": 303, "changes": [{"old": "そうは言っても小さな村で", "new": "そうはいっても小さな村で", "rule": "A"}], "skipped": [], "status": "done"}
+{"ep": 304, "changes": [], "skipped": [], "status": "done"}
+{"ep": 305, "changes": [], "skipped": [{"text": "大家さんにも既に話をつけてくれていると言う。／ウエイターの仕事をしていると言う。", "why": "話者Nちゃんが明記された発話"}], "status": "done"}
+{"ep": 306, "changes": [], "skipped": [{"text": "なんと、３日後から働きに来いと言う。", "why": "話者オーナーが直前に書かれた発話"}], "status": "done"}
+{"ep": 307, "changes": [], "skipped": [{"text": "”フード、イート”と言ってくれる", "why": "実際の発話"}], "status": "done"}
+{"ep": 308, "changes": [], "skipped": [{"text": "何かを言っている／言われるままに", "why": "実際の発話"}], "status": "done"}
+{"ep": 309, "changes": [{"old": "無料で滞在するスタイルのことを言う。", "new": "無料で滞在するスタイルのことをいう。", "rule": "A"}], "skipped": [{"text": "彼曰く、…と言っていた", "why": "話者明記の発話"}], "status": "done"}
+{"ep": 310, "changes": [{"old": "だからと言って争うわけではなく", "new": "だからといって争うわけではなく", "rule": "A"}], "skipped": [], "status": "done"}
+{"ep": 311, "changes": [], "skipped": [], "status": "done"}
+{"ep": 156, "changes": [], "skipped": [{"text": "運命的とも言えるほど", "why": "とも言える は漢字のまま残す"}, {"text": "損得勘定を超えて", "why": "抽象的な限度・枠＝超える、Bの対象外"}], "status": "done"}
+{"ep": 157, "changes": [], "skipped": [{"text": "テクノミュージックの始祖と言われる", "why": "と言われる は対象表にない"}], "status": "done"}
+{"ep": 158, "changes": [], "skipped": [], "status": "done"}
+{"ep": 159, "changes": [{"old": "大災難だったといっても良い。", "new": "大災難だったといってもよい。", "rule": "A"}], "skipped": [], "status": "done"}
+{"ep": 160, "changes": [], "skipped": [], "status": "done"}
+{"ep": 161, "changes": [], "skipped": [{"text": "何人かのゴアの友人も集まってくるという。", "why": "本文は既にひらがな（前回D処理済み）。再確認のうえ変更なし"}, {"text": "彼らが言うには…ゴアの感覚を持って来てはダメだと言う。", "why": "話者（彼ら）が文中に明記されている"}], "status": "done", "recheck": true}
+{"ep": 162, "changes": [{"old": "当然と言えば当然である。", "new": "当然といえば当然である。", "rule": "A"}], "skipped": [{"text": "入手するコネもあるという。", "why": "本文は既にひらがな（前回D処理済み）。再確認のうえ変更なし"}, {"text": "文句を言っても仕方がない", "why": "実際の発話行為"}, {"text": "なんだかんだ言っても", "why": "漢字のまま残す指定"}], "status": "done", "recheck": true}
+{"ep": 163, "changes": [], "skipped": [], "status": "done"}
+{"ep": 164, "changes": [], "skipped": [{"text": "高所恐怖症でも良いと言う。", "why": "話者（面接のお兄さん）が直前の文に書かれている発話のため残す"}, {"text": "未経験でも良いし", "why": "と言っても良い 系ではない（発話内容の良い）"}], "status": "done"}
+{"ep": 165, "changes": [], "skipped": [{"text": "とびの世界に入ったと言う。／一切の保険をかけていないと言う。", "why": "話者（社長＝彼）が本文に書かれている発話のため残す"}, {"text": "それだけではダメだと言う。／自分で行動してみろと言う。", "why": "社長の実際の発話（注意された場面）"}, {"text": "言わばロボットのような", "why": "言わば は対象表にない"}], "status": "done"}
+{"ep": 166, "changes": [], "skipped": [], "status": "done"}
+{"ep": 167, "changes": [{"old": "だからと言って日本社会に合わせようという", "new": "だからといって日本社会に合わせようという", "rule": "A"}], "skipped": [], "status": "done"}
+{"ep": 168, "changes": [], "skipped": [], "status": "done"}
+{"ep": 169, "changes": [], "skipped": [], "status": "done"}
+{"ep": 170, "changes": [], "skipped": [{"text": "とびの先輩が言うには「…」", "why": "実際の発話"}], "status": "done"}
+{"ep": 171, "changes": [], "skipped": [{"text": "僕の言うことをよく聞いて", "why": "実際の発話"}], "status": "done"}
+{"ep": 172, "changes": [], "skipped": [{"text": "面倒を見ろと言ってきた／と言っていたらしい／と言って颯爽と", "why": "実際の発話"}], "status": "done"}
+{"ep": 173, "changes": [{"old": "出汁醤油の匂いだと言うが", "new": "出汁醤油の匂いだというが", "rule": "A"}], "skipped": [], "status": "done"}
+{"ep": 174, "changes": [], "skipped": [{"text": "バカ言っちゃいけないよ", "why": "実際の発話"}], "status": "done"}
+{"ep": 175, "changes": [], "skipped": [{"text": "お釣りは無いと言う。", "why": "話者（オートリクシャーの運転手）が文脈上明確な実際の発話"}, {"text": "さすがインドだとしか言いようが無い", "why": "なんとも言えない系、漢字のまま"}], "status": "done"}
+{"ep": 176, "changes": [{"old": "中心に位置していると言っていい。", "new": "中心に位置しているといっていい。", "rule": "A"}], "skipped": [{"text": "大麻利権とも言えるような", "why": "とも言える は漢字のまま"}], "status": "done"}
+{"ep": 177, "changes": [], "skipped": [{"text": "乗り心地が良いとは言えず", "why": "「言える」の否定（と言える系）であり逆接の「とは言え」ではない"}], "status": "done"}
+{"ep": 178, "changes": [], "skipped": [], "status": "done"}
+{"ep": 179, "changes": [], "skipped": [], "status": "done"}
+{"ep": 180, "changes": [], "skipped": [{"text": "ボロい作りとも言えるが／自然と密着した家とも言える", "why": "とも言える は漢字のまま"}], "status": "done"}
+{"ep": 181, "changes": [], "skipped": [{"text": "何を言っているか分からない", "why": "Rさんの発話内容を指す"}], "status": "done"}
+{"ep": 442, "changes": [], "skipped": [], "status": "done"}
+{"ep": 443, "changes": [], "skipped": [], "status": "done"}
+{"ep": 444, "changes": [], "skipped": [{"text": "体は完全に疲労の限界を超えていた。", "why": "限度の意なので「超える」が正しい"}], "status": "done"}
+{"ep": 445, "changes": [], "skipped": [{"text": "言っていることは良いことだし", "why": "実際の発話（唱和の内容）"}], "status": "done"}
+{"ep": 446, "changes": [], "skipped": [], "status": "done"}
+{"ep": 447, "changes": [{"old": "あまりにも度を超えているように", "new": "あまりにも度を越えているように", "rule": "B"}], "skipped": [], "status": "done"}
+{"ep": 448, "changes": [], "skipped": [{"text": "誰も文句を言わない環境", "why": "実際の発話（文句を言う）"}], "status": "done"}
+{"ep": 449, "changes": [], "skipped": [{"text": "それを言うと身バレするので", "why": "実際の発話（あだ名を言う）"}, {"text": "彼曰く、栃木ほど柄の悪い土地はなかなかないという。", "why": "既にひらがな。主体明記だが漢字化は指示対象外のため不変"}], "status": "done"}
+{"ep": 450, "changes": [], "skipped": [], "status": "done"}
+{"ep": 451, "changes": [], "skipped": [{"text": "代表格とも言えるのが", "why": "「とも言える」は漢字のまま残す対象"}], "status": "done"}
+{"ep": 452, "changes": [{"old": "笑いをこらえるのに必死だったと言う。", "new": "笑いをこらえるのに必死だったという。", "rule": "A"}], "skipped": [], "status": "done"}
+{"ep": 453, "changes": [], "skipped": [{"text": "文字通りのトンボ返り（トンボ帰りではない）と言ったが", "why": "筆者自身の実際の発言（直前の記述を指す）"}], "status": "done"}
+{"ep": 454, "changes": [], "skipped": [], "status": "done"}
+{"ep": 455, "changes": [], "skipped": [{"text": "はっきり言って半端なく怖い。", "why": "「はっきり言って」は漢字のまま残す対象"}], "status": "done"}
+{"ep": 456, "changes": [{"old": "とうに森林限界を超えていて", "new": "とうに森林限界を越えていて", "rule": "B"}], "skipped": [], "status": "done"}
+{"ep": 457, "changes": [], "skipped": [], "status": "done"}
+{"ep": 458, "changes": [], "skipped": [], "status": "done"}
+{"ep": 459, "changes": [], "skipped": [], "status": "done"}
+{"ep": 460, "changes": [], "skipped": [{"text": "お世辞にも素早いとは言い難い。", "why": "「言い難い」は表の対象外"}], "status": "done"}
+{"ep": 461, "changes": [], "skipped": [], "status": "done"}
+{"ep": 462, "changes": [], "skipped": [], "status": "done"}
+{"ep": 463, "changes": [], "skipped": [{"text": "最高のものを作ってこそ最高の料理人と言える", "why": "「と言える」は漢字のまま残す対象（Jさんの信条の引用）"}], "status": "done"}
+{"ep": 464, "changes": [], "skipped": [], "status": "done"}
+{"ep": 465, "changes": [], "skipped": [], "status": "done"}
+{"ep": 466, "changes": [], "skipped": [{"text": "はっきり言って相当危ないが", "why": "「はっきり言って」は漢字のまま残す対象"}], "status": "done"}
+{"ep": 467, "changes": [], "skipped": [], "status": "done"}
+{"ep": 182, "changes": [], "skipped": [], "status": "done"}
+{"ep": 183, "changes": [], "skipped": [{"text": "課長に言わせると／Yさんに言わせると", "why": "発話者明示の「言わせる」、対象外"}], "status": "done"}
+{"ep": 184, "changes": [], "skipped": [], "status": "done"}
+{"ep": 185, "changes": [], "skipped": [{"text": "あまり生産的とは言えないかも知れないが", "why": "「と言える」の否定形（可能）で、譲歩の「とは言え」ではないため漢字のまま"}], "status": "done"}
+{"ep": 186, "changes": [], "skipped": [], "status": "done"}
+{"ep": 187, "changes": [], "skipped": [], "status": "done"}
+{"ep": 188, "changes": [], "skipped": [], "status": "done"}
+{"ep": 189, "changes": [], "skipped": [], "status": "done"}
+{"ep": 190, "changes": [], "skipped": [{"text": "より美味しくなると言われている", "why": "受身「言われる」、指示書の対象外"}], "status": "done"}
+{"ep": 191, "changes": [], "skipped": [{"text": "美しいとも格好いいとも言えないような", "why": "「とも言える」系は漢字のまま"}], "status": "done"}
+{"ep": 192, "changes": [], "skipped": [], "status": "done"}
+{"ep": 193, "changes": [], "skipped": [{"text": "時空を超えた運命の出会い", "why": "「時空を超える」は超越の意の慣用で、指示書の場所・境の例に当たらないため据え置き"}], "status": "done"}
+{"ep": 194, "changes": [], "skipped": [{"text": "自然との繋がりや、神秘的な気分で言うと", "why": "「〜で言うと」（観点を示す言い方）は「例えで言うと」「簡単に言うと」型で漢字のまま。連体の「今で言う」型ではない"}, {"text": "なんとも言えず楽しい／チベタン餃子とも言える／よく言えば・悪く言えば／文句を言っても", "why": "残す表現・実際の発話"}], "status": "done"}
+{"ep": 195, "changes": [], "skipped": [], "status": "done"}
+{"ep": 196, "changes": [], "skipped": [], "status": "done"}
+{"ep": 197, "changes": [], "skipped": [], "status": "done"}
+{"ep": 198, "changes": [], "skipped": [], "status": "done"}
+{"ep": 199, "changes": [], "skipped": [{"text": "標高５０００メートルを超える峠道", "why": "数量（標高）なので「超える」で正しい"}], "status": "done"}
+{"ep": 200, "changes": [], "skipped": [], "status": "done"}
+{"ep": 201, "changes": [{"old": "いくら誕生日とは言え", "new": "いくら誕生日とはいえ", "rule": "A"}], "skipped": [{"text": "文句の言いようもない", "why": "対象外の表現"}], "status": "done"}
+{"ep": 202, "changes": [], "skipped": [], "status": "done"}
+{"ep": 203, "changes": [], "skipped": [{"text": "インドの中のスイスと言えるかも知れない", "why": "「と言える」は漢字のまま"}], "status": "done"}
+{"ep": 204, "changes": [], "skipped": [{"text": "他の友人たちは、もう少し長居したいと言うので", "why": "話者（友人たち）が明示された実際の発話なので漢字のまま"}, {"text": "良いことづくめ", "why": "「づくめ」は現代仮名遣いでも正しい表記（Cの対象外）"}], "status": "done"}
+{"ep": 205, "changes": [], "skipped": [{"text": "日本語が通じるアジアだと言っていた", "why": "カップルの実際の発話なので漢字のまま"}], "status": "done"}
+{"ep": 206, "changes": [], "skipped": [{"text": "安く暮らすためにまた新たなルームメイトを探していると言う。", "why": "直前の文で話者（K君）が明示された実際の発話なので漢字のまま"}], "status": "done"}
+{"ep": 207, "changes": [], "skipped": [], "status": "done"}
+{"ep": 208, "changes": [], "skipped": [{"text": "外国人サドゥー文化とも言えるような", "why": "「とも言える」は漢字のまま残す規定"}], "status": "done"}
+{"ep": 209, "changes": [], "skipped": [{"text": "文句の言いようもない", "why": "表の対象外"}], "status": "done"}
+{"ep": 210, "changes": [{"old": "おじさんの事をババと言い、", "new": "おじさんの事をババといい、", "rule": "A"}], "skipped": [{"text": "限界ギリギリだが超えないライン", "why": "限度の意なので「超える」で正しい"}], "status": "done"}
+{"ep": 211, "changes": [], "skipped": [{"text": "何言ってんの？／波動拳と言った方が分かりやすい", "why": "発話・言い換え表現で対象外"}], "status": "done"}
+{"ep": 212, "changes": [], "skipped": [], "status": "done"}
+{"ep": 213, "changes": [], "skipped": [], "status": "done"}
+{"ep": 214, "changes": [], "skipped": [], "status": "done"}
+{"ep": 215, "changes": [], "skipped": [], "status": "done"}
+{"ep": 216, "changes": [], "skipped": [{"text": "Yさん曰く、どうもおかしなことになっている、警察が来ているかも、と言う。", "why": "話者（Yさん）が明記された文末の「と言う。」は漢字のまま"}], "status": "done"}
+{"ep": 217, "changes": [], "skipped": [], "status": "done"}
+{"ep": 218, "changes": [], "skipped": [{"text": "なんだかんだ言ってバシシトの温泉は最高で", "why": "「なんだかんだ言って」は漢字のまま残す規定"}], "status": "done"}
+{"ep": 219, "changes": [], "skipped": [], "status": "done"}
+{"ep": 220, "changes": [], "skipped": [{"text": "そんな事を言うなら…帰さないと言い張り出した", "why": "警官の実際の発話で対象外"}, {"text": "末尾ナビの［次の記事］リンクがエスケープされ改行で壊れている", "why": "ナビ行は触らない規定。別途要修正"}], "status": "done"}
+{"ep": 221, "changes": [], "skipped": [], "status": "done"}
+{"ep": 222, "changes": [], "skipped": [{"text": "どんな苦労でも乗り越える気概", "why": "「乗り越える」は複合動詞で正しい表記"}], "status": "done"}
+{"ep": 223, "changes": [], "skipped": [], "status": "done"}
+{"ep": 224, "changes": [], "skipped": [], "status": "done"}
+{"ep": 225, "changes": [{"old": "吸わせてくれると言う。", "new": "吸わせてくれるという。", "rule": "A"}, {"old": "ひと塊りに纏めた物を言う。", "new": "ひと塊りに纏めた物をいう。", "rule": "A"}], "skipped": [], "status": "done"}
+{"ep": 226, "changes": [], "skipped": [{"text": "「ボン」と言ってジョイントを渡したりしていた", "why": "実際の発話で対象外"}], "status": "done"}
+{"ep": 227, "changes": [], "skipped": [{"text": "末尾ナビの［次の記事］リンクがエスケープされ改行で壊れている", "why": "ナビ行は触らない規定。別途要修正"}], "status": "done"}
+{"ep": 228, "changes": [], "skipped": [], "status": "done"}
+{"ep": 229, "changes": [], "skipped": [], "status": "done"}
+{"ep": 230, "changes": [], "skipped": [{"text": "Rさんは…一緒について来てほしいと言うので", "why": "話者（Rさん）が明記された実際の発話"}, {"text": "古びてギシギシ言う椅子", "why": "「ギシギシ言う」は漢字のまま残す規定"}], "status": "done"}
+{"ep": 231, "changes": [], "skipped": [], "status": "done"}
+{"ep": 232, "changes": [{"old": "かと言って旅しながら", "new": "かといって旅しながら", "rule": "A"}], "skipped": [], "status": "done"}
+{"ep": 233, "changes": [], "skipped": [{"text": "もちろん言うまでも無く", "why": "「言うまでもなく」は漢字のまま残す規定"}], "status": "done"}
+{"ep": 260, "changes": [], "skipped": [], "status": "done"}
+{"ep": 261, "changes": [], "skipped": [], "status": "done"}
+{"ep": 262, "changes": [{"old": "頭上に放り投げられると言う。", "new": "頭上に放り投げられるという。", "rule": "A"}], "skipped": [{"text": "イタリアン・チロムと言われていた", "why": "受身の『言われる』"}], "status": "done"}
+{"ep": 263, "changes": [], "skipped": [{"text": "許容量を超えてLSDを摂取", "why": "限度＝超えるで正しい"}, {"text": "カルトと言われても", "why": "受身の『言われる』"}], "status": "done"}
+{"ep": 264, "changes": [], "skipped": [{"text": "チロムを揉むと言っていた", "why": "日本人たちの実際の発話"}], "status": "done"}
+{"ep": 265, "changes": [], "skipped": [{"text": "ギリギリにオーバードーズを超えない線を維持", "why": "目的語はオーバードーズ（限度）なので超えるのまま"}], "status": "done"}
+{"ep": 266, "changes": [], "skipped": [], "status": "done"}
+{"ep": 267, "changes": [], "skipped": [], "status": "done"}
+{"ep": 268, "changes": [], "skipped": [{"text": "…バカにしている」と言って", "why": "Yさんの実際の発話"}], "status": "done"}
+{"ep": 269, "changes": [], "skipped": [], "status": "done"}
+{"ep": 270, "changes": [{"old": "ここで言うゴアの旅人文化", "new": "ここでいうゴアの旅人文化", "rule": "A"}], "skipped": [{"text": "楽園と言われていて", "why": "受身の『言われる』"}], "status": "done"}
+{"ep": 271, "changes": [], "skipped": [], "status": "done"}
+{"ep": 272, "changes": [{"old": "日本の社会で言うところの", "new": "日本の社会でいうところの", "rule": "A"}], "skipped": [], "status": "done"}
+{"ep": 273, "changes": [{"old": "バックパッカーと言う事が多い。", "new": "バックパッカーという事が多い。", "rule": "A"}], "skipped": [{"text": "彼が言うには、ギャンブルでは無く仕事だと言う。", "why": "話者（彼＝Nくん）が明記された伝聞"}, {"text": "正確にあたりを出す事ができるようになると言う。", "why": "直前文で話者Nくんが明記されている伝聞の続き"}, {"text": "経験原理主義者とも言える", "why": "『とも言える』は漢字のまま"}], "status": "done"}
+{"ep": 274, "changes": [], "skipped": [], "status": "done"}
+{"ep": 275, "changes": [], "skipped": [{"text": "事情通によると、毎年１０人ほどの日本人がゴアで死亡していると言う。", "why": "情報源（事情通）が明記された伝聞"}, {"text": "[前の記事] のリンク先が273（274ではない）", "why": "ナビ行は対象外のため未修正（参考）"}], "status": "done"}
+{"ep": 276, "changes": [], "skipped": [], "status": "done"}
+{"ep": 277, "changes": [], "skipped": [{"text": "なんとも言えないが", "why": "漢字のまま残す表現"}], "status": "done"}
+{"ep": 278, "changes": [], "skipped": [{"text": "パーティーなんかじゃないと言って", "why": "Yさんの実際の発話"}, {"text": "おっとっとと言うように", "why": "擬似的な発話（掛け声）で表の対象外"}], "status": "done"}
+{"ep": 279, "changes": [], "skipped": [{"text": "５０回くらいは経験していると言うと納得し", "why": "僕の実際の発話"}], "status": "done"}
+{"ep": 280, "changes": [], "skipped": [{"text": "Sさんが言うには、…倒れると言う。", "why": "発言者（Sさん）が明記された伝聞"}, {"text": "あらかじめ倒れる準備をしてから吸うことが大事だと言う。", "why": "直前文から続くSさんの発言で発言者が明確"}], "status": "done"}
+{"ep": 281, "changes": [], "skipped": [{"text": "彼らが言うには", "why": "発言者が明記された伝聞"}], "status": "done"}
+{"ep": 282, "changes": [], "skipped": [], "status": "done"}
+{"ep": 283, "changes": [], "skipped": [], "status": "done"}
+{"ep": 284, "changes": [], "skipped": [], "status": "done"}
+{"ep": 285, "changes": [], "skipped": [], "status": "done"}
+{"ep": 0, "changes": [], "skipped": [{"text": "もっと言うと今でも住民票", "why": "「もっと言うと」は漢字のまま残す対象"}], "status": "done"}
+{"ep": 1, "changes": [], "skipped": [{"text": "彼らも各々が頭に鳴り響く啓示を受け取って、色々な地域からやってきたと言う。", "why": "言った主体（彼ら）が本文に明記されている文末の「と言う」"}, {"text": "命からがらたどり着いたと言う人もいた", "why": "実際の発話"}], "status": "done"}
+{"ep": 2, "changes": [], "skipped": [], "status": "done"}
+{"ep": 3, "changes": [{"old": "懲らしめを受けるべきだと言う。", "new": "懲らしめを受けるべきだという。", "rule": "A"}], "skipped": [{"text": "よく言えば熱心、悪く言えば妄信的", "why": "表の対象外の言い回し（言い方としての「言う」）"}, {"text": "宗教の言うことを無条件に信じきっていた", "why": "発話主体（宗教）が明記"}], "status": "done"}
+{"ep": 4, "changes": [], "skipped": [{"text": "結構な修行と言える。", "why": "「と言える」は漢字のまま残す対象"}], "status": "done"}
+{"ep": 5, "changes": [], "skipped": [], "status": "done"}
+{"ep": 6, "changes": [], "skipped": [], "status": "done"}
+{"ep": 7, "changes": [], "skipped": [], "status": "done"}
+{"ep": 8, "changes": [], "skipped": [], "status": "done"}
+{"ep": 9, "changes": [], "skipped": [], "status": "done"}
+{"ep": 10, "changes": [], "skipped": [], "status": "done"}
+{"ep": 11, "changes": [], "skipped": [], "status": "done"}
+{"ep": 12, "changes": [], "skipped": [{"text": "柔道を休みたいと言えば何の問題も無く休ませてくれて", "why": "実際に申し出る発話（話題提示の「といえば」ではない）"}], "status": "done"}
+{"ep": 13, "changes": [], "skipped": [{"text": "共学と言いながらも９９％が男子だった", "why": "表の対象外（「と言いながら」は名目上の主張の意で、指示書の列挙にない）"}], "status": "done"}
+{"ep": 14, "changes": [], "skipped": [], "status": "done"}
+{"ep": 15, "changes": [], "skipped": [], "status": "done"}
+{"ep": 16, "changes": [], "skipped": [], "status": "done"}
+{"ep": 17, "changes": [], "skipped": [{"text": "家族の誰もが、”とりあえず高校だけは行っておけ”と言う。", "why": "発話主体（家族）が明記された実際の発話"}], "status": "done"}
+{"ep": 18, "changes": [], "skipped": [{"text": "姉や母は…置いていけと言うので", "why": "発話主体（姉や母）が明記された実際の発話"}, {"text": "よく言えば、今を生きている。", "why": "表の対象外の言い回し"}], "status": "done"}
+{"ep": 19, "changes": [], "skipped": [{"text": "高校生が一人で出歩いても絶対に大丈夫と言えるのだが", "why": "「と言える」は漢字のまま残す対象"}], "status": "done"}
+{"ep": 20, "changes": [], "skipped": [], "status": "done"}
+{"ep": 21, "changes": [{"old": "日本で言うところの披露宴を", "new": "日本でいうところの披露宴を", "rule": "A"}], "skipped": [], "status": "done"}
+{"ep": 22, "changes": [], "skipped": [], "status": "done"}
+{"ep": 23, "changes": [], "skipped": [{"text": "そうとも言えないと思うし", "why": "「とも言える」は漢字のまま残す対象"}, {"text": "うーん、、、としか言いようがない", "why": "表の対象外の慣用（言いようがない）"}], "status": "done"}
+{"ep": 24, "changes": [], "skipped": [{"text": "うるさいことを言う母もいない", "why": "実際の発話（母の小言）"}], "status": "done"}
+{"ep": 25, "changes": [], "skipped": [], "status": "done"}
+{"ep": 234, "changes": [], "skipped": [], "status": "done"}
+{"ep": 235, "changes": [], "skipped": [], "status": "done"}
+{"ep": 236, "changes": [], "skipped": [], "status": "done"}
+{"ep": 237, "changes": [], "skipped": [{"text": "Jさん曰く、こだわりを捨ててその場その時に出来ることを、要領よくやって行くのが秘訣だと言う。", "why": "発話者（Jさん曰く）が明記された文末の「と言う」なので漢字のまま"}], "status": "done"}
+{"ep": 238, "changes": [], "skipped": [{"text": "毎回インドへ来るたびに同窓会の様な感じがすると言う。", "why": "直前の「Jさん曰く」から続くJさんの話として発話者が本文に明記されているため漢字のまま"}, {"text": "Jさんは、その話を共有してくれたのだが、…招待された人しか行く事の出来ない幻の桃源郷だと言う。", "why": "同一文中に発話者（Jさん）が明記されているため漢字のまま"}, {"text": "清浄な雰囲気に包まれていると言う。／平和な日々を過ごしていると言う。", "why": "Jさんが共有した話の続きで発話者が本文から明らか。漢字のまま"}, {"text": "最高に素晴らしい場所だと言っていた。", "why": "ドイツ人女性の実際の発話"}], "status": "done"}
+{"ep": 239, "changes": [], "skipped": [{"text": "Jさん情報によると、…警察の取り締まりを免れているのだと言う。", "why": "情報源（Jさん情報によると）が明記された文末の「と言う」"}, {"text": "Uくんもゴアで少しだけ会ったことがあると言う。", "why": "発話者（Uくん）が文中に明記されているため漢字のまま"}], "status": "done"}
+{"ep": 240, "changes": [], "skipped": [], "status": "done"}
+{"ep": 241, "changes": [], "skipped": [], "status": "done"}
+{"ep": 242, "changes": [], "skipped": [], "status": "done"}
+{"ep": 243, "changes": [], "skipped": [{"text": "警官は拙い英語で、荷物を調べさせろと言う。", "why": "警官の実際の発話"}], "status": "done"}
+{"ep": 244, "changes": [], "skipped": [{"text": "だが、警官たちはそれでも構わないと言う。", "why": "警官の実際の発話"}], "status": "done"}
+{"ep": 245, "changes": [], "skipped": [], "status": "done"}
+{"ep": 246, "changes": [], "skipped": [{"text": "はっきり言って、人間存在の最も最悪な部分を見たような気分になった。", "why": "「はっきり言って」は漢字のまま残す指定"}], "status": "done"}
+{"ep": 247, "changes": [], "skipped": [{"text": "かく言う僕も似たように考えていたし", "why": "「かく言う」は表の対象外のため変更せず"}], "status": "done"}
+{"ep": 248, "changes": [], "skipped": [], "status": "done"}
+{"ep": 249, "changes": [], "skipped": [], "status": "done"}
+{"ep": 250, "changes": [], "skipped": [], "status": "done"}
+{"ep": 251, "changes": [], "skipped": [{"text": "少し変わった匂いがすると言うと、カシミール産のモノはこういう匂いがするものだと言う。", "why": "僕と売り手の実際の発話"}], "status": "done"}
+{"ep": 252, "changes": [], "skipped": [], "status": "done"}
+{"ep": 253, "changes": [], "skipped": [{"text": "去年のゴアで覚醒とも言えるような衝撃的な体験をして", "why": "「とも言える」は漢字のまま残す指定"}], "status": "done"}
+{"ep": 254, "changes": [], "skipped": [{"text": "数日かけた探索の末に完璧とも言える家を見つけた。", "why": "「とも言える」は漢字のまま残す指定"}], "status": "done"}
+{"ep": 255, "changes": [], "skipped": [{"text": "俺が求めているのはこんなものではないと言う。", "why": "Yさんの実際の発話"}], "status": "done"}
+{"ep": 256, "changes": [], "skipped": [{"text": "全体的に言って、去年の奇跡的な盛り上がりは", "why": "「簡単に言うと」等と同類の言い方の前置きで、表のひらがな化対象に該当しないため漢字のまま"}], "status": "done"}
+{"ep": 257, "changes": [], "skipped": [], "status": "done"}
+{"ep": 258, "changes": [], "skipped": [], "status": "done"}
+{"ep": 259, "changes": [], "skipped": [], "status": "done"}
+{"ep": 104, "changes": [], "skipped": [], "status": "done"}
+{"ep": 105, "changes": [], "skipped": [], "status": "done"}
+{"ep": 106, "changes": [], "skipped": [{"text": "ごく簡単に言うと", "why": "「簡単に言うと」は漢字のまま残す"}, {"text": "想像できる範囲を大幅に超えている", "why": "数量・限度の意で「超える」が正しい"}], "status": "done"}
+{"ep": 107, "changes": [], "skipped": [{"text": "脳の処理能力を超えてパンクしてしまう", "why": "限度の意で「超える」が正しい"}], "status": "done"}
+{"ep": 108, "changes": [], "skipped": [{"text": "ついでに言うと／もっと言うと", "why": "漢字のまま残す指定の表現"}], "status": "done"}
+{"ep": 109, "changes": [], "skipped": [{"text": "ありとあらゆる善悪を超えた体験", "why": "「超越」の意で「超える」のまま（境界線ではない）"}, {"text": "良いことづくめ", "why": "「尽くめ」で歴史的仮名遣いではない"}], "status": "done"}
+{"ep": 110, "changes": [], "skipped": [{"text": "ゴアトランスだと言える", "why": "「と言える」は漢字のまま残す"}], "status": "done"}
+{"ep": 111, "changes": [], "skipped": [], "status": "done"}
+{"ep": 112, "changes": [], "skipped": [{"text": "約束した額以外は払わないと言って跳ね除けた", "why": "実際の発話"}, {"text": "専門的な例えで言うと", "why": "「例えで言うと」は漢字のまま残す"}, {"text": "ダサいと言われており", "why": "受け身の「言われる」は対象外"}], "status": "done"}
+{"ep": 113, "changes": [], "skipped": [], "status": "done"}
+{"ep": 114, "changes": [], "skipped": [{"text": "今ではSくんが鍼灸師の資格を取り、癒しの技に携わって日本で暮らしていると言う。", "why": "直前の文に「友人によると」と話者が書かれているため漢字のまま"}, {"text": "何を言っているのか／などと言い出した／Eちゃんの仲間だと言って", "why": "実際の発話"}], "status": "done"}
+{"ep": 115, "changes": [], "skipped": [{"text": "奥さんに言ったとか言わないとか", "why": "実際の発話"}, {"text": "チベットを越えてきた", "why": "場所なので「越える」で正しい"}], "status": "done"}
+{"ep": 116, "changes": [], "skipped": [{"text": "誰にも文句の言い様が無い", "why": "表の対象外（「言い様」）"}], "status": "done"}
+{"ep": 117, "changes": [], "skipped": [{"text": "お世辞にもモテるような見た目とは言えない", "why": "「と言える」系で漢字のまま残す"}], "status": "done"}
+{"ep": 118, "changes": [{"old": "過剰摂取の線を大きく超えていた", "new": "過剰摂取の線を大きく越えていた", "rule": "B"}], "skipped": [], "status": "done"}
+{"ep": 119, "changes": [{"old": "深い悩みに陥ることを言う。", "new": "深い悩みに陥ることをいう。", "rule": "A"}], "skipped": [{"text": "勧善懲悪って何を言ってるの？", "why": "実際の発話"}], "status": "done"}
+{"ep": 120, "changes": [], "skipped": [{"text": "Nさんを見つけ出し…尋ねると、すっかりと包んでいたと言う。", "why": "話者（Nさん）が本文に書かれた発話"}, {"text": "と言いながら満面の笑顔で", "why": "実際の発話"}], "status": "done"}
+{"ep": 121, "changes": [], "skipped": [{"text": "皆はこれからレストランに行ってスムージーを飲むと言う。", "why": "話者（皆）が書かれた文末の「と言う」"}, {"text": "みんなは誰もバッドトリップなんてしていないと言う。", "why": "話者（みんな）が書かれた文末の「と言う」"}, {"text": "散髪屋へ行き、髪を剃ってくれと言う。", "why": "僕自身の実際の発話"}], "status": "done"}
+{"ep": 122, "changes": [], "skipped": [{"text": "彼女達はロンドンに数年住んだ後に、三人でアジアを旅しながら日本へ向かっていると言う。", "why": "話者（彼女達）が主語として書かれた文末の「と言う」"}], "status": "done"}
+{"ep": 123, "changes": [], "skipped": [], "status": "done"}
+{"ep": 124, "changes": [], "skipped": [], "status": "done"}
+{"ep": 125, "changes": [], "skipped": [{"text": "負けじと言い返す", "why": "実際の発話（「言い返す」）"}], "status": "done"}
+{"ep": 126, "changes": [], "skipped": [], "status": "done"}
+{"ep": 127, "changes": [], "skipped": [], "status": "done"}
+{"ep": 128, "changes": [], "skipped": [], "status": "done"}
+{"ep": 129, "changes": [], "skipped": [{"text": "考えすぎだなどと言っていた／２枚食べようかななどと言っている", "why": "実際の発話"}, {"text": "まんざら嘘だとも言い切れなくなった", "why": "「言い切れない」は表の対象外"}], "status": "done"}
+{"ep": 312, "changes": [], "skipped": [], "status": "done"}
+{"ep": 313, "changes": [], "skipped": [{"text": "あまり贅沢も言っていられない", "why": "対象表外の慣用（「言っていられない」）で指示表に該当しない"}], "status": "done"}
+{"ep": 314, "changes": [], "skipped": [], "status": "done"}
+{"ep": 315, "changes": [], "skipped": [{"text": "治験のバイトをすると言っていた。", "why": "J君の実際の発話"}], "status": "done"}
+{"ep": 316, "changes": [], "skipped": [], "status": "done"}
+{"ep": 317, "changes": [], "skipped": [], "status": "done"}
+{"ep": 318, "changes": [], "skipped": [], "status": "done"}
+{"ep": 319, "changes": [], "skipped": [{"text": "あまり健康とは言えない食生活だった", "why": "「とは言えない」は「と言える」系で漢字のまま残す対象"}], "status": "done"}
+{"ep": 320, "changes": [], "skipped": [{"text": "Nちゃんが言うには", "why": "Nちゃんの実際の発話"}], "status": "done"}
+{"ep": 321, "changes": [], "skipped": [], "status": "done"}
+{"ep": 322, "changes": [], "skipped": [], "status": "done"}
+{"ep": 323, "changes": [], "skipped": [{"text": "”うーん普通に良かったよ”などと言っている。", "why": "Nちゃんの実際の発話"}], "status": "done"}
+{"ep": 324, "changes": [], "skipped": [{"text": "当時唯一とも言えるWEBメール", "why": "「とも言える」は漢字のまま残す対象"}], "status": "done"}
+{"ep": 325, "changes": [], "skipped": [{"text": "詳細は追って連絡すると言って、そのメールは途切れていた。", "why": "D君のメールでの実際の発言"}], "status": "done"}
+{"ep": 326, "changes": [], "skipped": [], "status": "done"}
+{"ep": 327, "changes": [], "skipped": [], "status": "done"}
+{"ep": 328, "changes": [], "skipped": [], "status": "done"}
+{"ep": 329, "changes": [], "skipped": [{"text": "一般的に言われるような音楽的な成功", "why": "受身の「言われる」で指示表の対象外"}], "status": "done"}
+{"ep": 330, "changes": [], "skipped": [], "status": "done"}
+{"ep": 331, "changes": [], "skipped": [{"text": "大人の旅人の本領を発揮したといっても良いだろう", "why": "「言」は既にひらがな。良い→よいは対象の「言」ではないため変更せず"}], "status": "done"}
+{"ep": 332, "changes": [], "skipped": [], "status": "done"}
+{"ep": 333, "changes": [], "skipped": [{"text": "はっきり言ってかなり狭い。", "why": "「はっきり言って」は漢字のまま残す対象"}, {"text": "”良いよ良いよ、気にする事ないよ”と言ってはいる", "why": "Dくんの実際の発話"}], "status": "done"}
+{"ep": 334, "changes": [], "skipped": [], "status": "done"}
+{"ep": 335, "changes": [], "skipped": [], "status": "done"}
+{"ep": 336, "changes": [{"old": "必ずと言っていいほど", "new": "必ずといっていいほど", "rule": "A"}, {"old": "ゴマ・ダ・ディジェリドゥと言うという。", "new": "ゴマ・ダ・ディジェリドゥというという。", "rule": "A"}], "skipped": [{"text": "CDも持っていると言う。", "why": "Iちゃんの発言であることが本文に書かれている文末伝聞"}], "status": "done"}
+{"ep": 337, "changes": [], "skipped": [], "status": "done"}
+{"ep": 468, "changes": [], "skipped": [], "status": "done"}
+{"ep": 469, "changes": [], "skipped": [], "status": "done"}
+{"ep": 470, "changes": [], "skipped": [], "status": "done"}
+{"ep": 471, "changes": [], "skipped": [{"text": "山の新人という枠組みを大きく超えてきた", "why": "枠組み＝範囲・限度の意で「超える」が適切（境界線の意ではない）"}], "status": "done"}
+{"ep": 472, "changes": [], "skipped": [], "status": "done"}
+{"ep": 473, "changes": [], "skipped": [{"text": "このかなり厳しい労働環境は、ある意味修行とも言えた。", "why": "「とも言える」は漢字のまま残す対象"}, {"text": "支配人は常々、海の日がくるぞと言っていた。", "why": "実際の発話"}], "status": "done"}
+{"ep": 474, "changes": [], "skipped": [], "status": "done"}
+{"ep": 475, "changes": [], "skipped": [], "status": "done"}
+{"ep": 476, "changes": [], "skipped": [{"text": "あまり快適な寝床とは言い難い。", "why": "表の対象外の言い回し（「言い難い」）"}, {"text": "絶対に行くべきだと山の先輩方に言われていた。", "why": "実際の発話（主体明記）"}], "status": "done"}
+{"ep": 477, "changes": [], "skipped": [{"text": "”これでいいのだ”と言うことにした。", "why": "引用句を口にする発話的用法で、表の対象外"}], "status": "done"}
+{"ep": 478, "changes": [{"old": "絶景をこえる絶景", "new": "絶景を超える絶景", "rule": "B"}, {"old": "そうは言っても", "new": "そうはいっても", "rule": "A"}], "skipped": [], "status": "done"}
+{"ep": 479, "changes": [{"old": "さしづめ", "new": "さしずめ", "rule": "C"}], "skipped": [], "status": "done"}
+{"ep": 480, "changes": [], "skipped": [], "status": "done"}
+{"ep": 481, "changes": [], "skipped": [], "status": "done"}
+{"ep": 482, "changes": [], "skipped": [], "status": "done"}
+{"ep": 483, "changes": [], "skipped": [], "status": "done"}
+{"ep": 484, "changes": [], "skipped": [{"text": "待てと言われれば待たざるを得ない。", "why": "実際の発話"}], "status": "done"}
+{"ep": 485, "changes": [], "skipped": [], "status": "done"}
+{"ep": 486, "changes": [], "skipped": [], "status": "done"}
+{"ep": 487, "changes": [], "skipped": [], "status": "done"}
+{"ep": 488, "changes": [], "skipped": [{"text": "今後のK君とIちゃんの関係を考慮して言ったものだが", "why": "実際の発話"}], "status": "done"}
+{"ep": 489, "changes": [], "skipped": [], "status": "done"}
+{"ep": 490, "changes": [], "skipped": [{"text": "実質的には老衰と言った方が正しいだろう。", "why": "表の対象外の言い回し（「と言った方が」）"}, {"text": "この地獄への片道切符とも言える", "why": "「とも言える」は漢字のまま残す対象"}], "status": "done"}
+{"ep": 491, "changes": [], "skipped": [], "status": "done"}
+{"ep": 492, "changes": [], "skipped": [], "status": "done"}
+{"ep": 493, "changes": [], "skipped": [{"text": "自分もインドへ行ってみたいと言っていた。", "why": "実際の発話"}], "status": "done"}
