@@ -1,0 +1,62 @@
+---
+// "おすすめの記事": the owner's picks from /admin/recommended, fetched at
+// view time from /api/recommended.json so a change needs no rebuild.
+// The newest posts are rendered as a fallback (no picks yet, or the
+// request fails); the list stays invisible until the fetch settles so
+// readers don't see it swap.
+import { getLatestPosts } from "../lib/posts";
+import PostRow from "./PostRow.astro";
+
+interface Props {
+  limit?: number;
+  variant?: "stack" | "date";
+}
+const { limit = 6, variant = "stack" } = Astro.props;
+const fallback = getLatestPosts(limit);
+---
+
+<div data-recommended data-limit={limit} data-variant={variant} class="invisible">
+  {fallback.map((p) => <PostRow post={p} variant={variant} />)}
+</div>
+
+<script>
+  type Item = { slug: string; title: string; date: string };
+
+  function row(item: Item, variant: string): HTMLAnchorElement {
+    const a = document.createElement("a");
+    a.href = `/posts/${item.slug}/`;
+    const date = document.createElement("span");
+    date.textContent = item.date;
+    const title = document.createElement("span");
+    title.textContent = item.title;
+    if (variant === "date") {
+      a.className = "row grid-cols-[64px_minmax(0,1fr)] gap-2.5 !items-start py-3";
+      date.className = "row-date pt-[3px]";
+      const wrap = document.createElement("span");
+      title.className = "row-title block text-[15px] font-normal";
+      wrap.append(title);
+      a.append(date, wrap);
+    } else {
+      a.className = "row !flex flex-col !items-start gap-1 py-3";
+      date.className = "row-date";
+      title.className = "row-title text-[15px] font-normal";
+      a.append(date, title);
+    }
+    return a;
+  }
+
+  const lists = document.querySelectorAll<HTMLElement>("[data-recommended]");
+  if (lists.length > 0) {
+    fetch("/api/recommended.json")
+      .then((res) => (res.ok ? res.json() : { items: [] }))
+      .then(({ items }: { items: Item[] }) => {
+        if (!items?.length) return;
+        lists.forEach((list) => {
+          const limit = Number(list.dataset.limit) || 6;
+          list.replaceChildren(...items.slice(0, limit).map((i) => row(i, list.dataset.variant ?? "stack")));
+        });
+      })
+      .catch(() => {})
+      .finally(() => lists.forEach((list) => list.classList.remove("invisible")));
+  }
+</script>

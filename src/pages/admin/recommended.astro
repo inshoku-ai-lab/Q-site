@@ -1,0 +1,218 @@
+---
+export const prerender = false;
+import AdminLayout from "../../layouts/AdminLayout.astro";
+import { requireAdmin, logAdminAccess } from "../../lib/admin";
+import { getPublishedPosts, formatDateShort } from "../../lib/posts";
+import { getRecommendedSlugs, toRecommendedItems, MAX_RECOMMENDED } from "../../lib/recommended";
+
+const auth = await requireAdmin(Astro.request, Astro.cookies);
+if (!auth.ok) {
+  const next = encodeURIComponent(Astro.url.pathname + Astro.url.search);
+  return Astro.redirect(`/admin/login?next=${next}${auth.reason === "not_admin" ? "&error=not_admin" : ""}`);
+}
+await logAdminAccess(auth.admin, auth.email, "view_recommended");
+
+let current: ReturnType<typeof toRecommendedItems> = [];
+let loadError = false;
+try {
+  current = toRecommendedItems(await getRecommendedSlugs(auth.admin));
+} catch {
+  loadError = true;
+}
+
+// Everything that can be picked, for the client-side search.
+const catalog = getPublishedPosts().map((p) => ({
+  slug: p.slug,
+  title: p.title,
+  date: formatDateShort(p.date),
+  category: p.category,
+}));
+// "<" escaped so a title can never close the <script> element early.
+const dataJson = JSON.stringify({ current: current.map((c) => c.slug), catalog, max: MAX_RECOMMENDED }).replace(/</g, "\\u003c");
+---
+
+<AdminLayout title="おすすめの記事" active="recommended">
+  <section class="px-5 md:px-0 pt-5 md:max-w-[760px]">
+    <h1 class="sec-h !text-[17px]">
+      おすすめの記事
+      <span class="font-sans font-normal text-[11px] text-ink-muted"><span id="rec-count">{current.length}</span> / {MAX_RECOMMENDED}件</span>
+    </h1>
+    <p class="text-[12px] leading-[1.7] text-ink-light mt-2">
+      サイドバー（スマホではトップページ下部）の「おすすめの記事」に、上から順に表示されます。PCのサイドバーは先頭の6〜8件です。
+      保存すると1分ほどでサイトに反映されます。1件も選ばないと、最新の記事が表示されます。
+    </p>
+    {loadError && <p class="mt-3 px-3 py-2.5 border-l-[6px] border-rust bg-rust/10 text-[13px]">現在のおすすめを読み込めませんでした。</p>}
+
+    <ol id="rec-list" class="mt-3"></ol>
+    <p id="rec-empty" class="hidden py-4 text-[13px] text-ink-muted">まだ選ばれていません。下の検索から追加してください。</p>
+
+    <button type="button" id="rec-save" class="btn btn-sumi w-full mt-4 border-t-[3px] !border-t-moss" disabled>保存する</button>
+    <p id="rec-status" class="text-[12px] text-ink-muted mt-2 min-h-[18px]" role="status"></p>
+  </section>
+
+  <section class="px-5 md:px-0 pt-6 md:max-w-[760px]">
+    <h2 class="sec-h !text-[17px]">記事を追加</h2>
+    <label class="sr-only" for="rec-search">記事のタイトルで検索</label>
+    <input
+      id="rec-search"
+      type="search"
+      placeholder="タイトルで検索（例：ペルー、デボリューション）"
+      autocomplete="off"
+      class="mt-3 w-full h-11 px-3 border border-sumi bg-field text-[16px] md:text-[14px] rounded-none"
+    />
+    <ul id="rec-results" class="mt-1"></ul>
+  </section>
+
+  <script id="rec-data" type="application/json" set:html={dataJson} />
+</AdminLayout>
+
+<script>
+  type Entry = { slug: string; title: string; date: string; category: string | null };
+  const data = JSON.parse(document.getElementById("rec-data")!.textContent || "{}") as {
+    current: string[];
+    catalog: Entry[];
+    max: number;
+  };
+  const bySlug = new Map(data.catalog.map((e) => [e.slug, e]));
+  let picks = data.current.filter((s) => bySlug.has(s));
+  let saved = JSON.stringify(picks);
+
+  const listEl = document.getElementById("rec-list")!;
+  const emptyEl = document.getElementById("rec-empty")!;
+  const countEl = document.getElementById("rec-count")!;
+  const saveBtn = document.getElementById("rec-save") as HTMLButtonElement;
+  const statusEl = document.getElementById("rec-status")!;
+  const searchEl = document.getElementById("rec-search") as HTMLInputElement;
+  const resultsEl = document.getElementById("rec-results")!;
+
+  function smallButton(label: string, onClick: () => void, disabled = false): HTMLButtonElement {
+    const b = document.createElement("button");
+    b.type = "button";
+    b.textContent = label;
+    b.disabled = disabled;
+    b.className = "min-w-[36px] min-h-[36px] px-2 border border-rule text-[12px] hover:border-sumi disabled:opacity-30";
+    b.addEventListener("click", onClick);
+    return b;
+  }
+
+  function render() {
+    listEl.replaceChildren(
+      ...picks.map((slug, i) => {
+        const e = bySlug.get(slug)!;
+        const li = document.createElement("li");
+        li.className = "grid grid-cols-[28px_minmax(0,1fr)_auto] gap-2 items-center py-2.5 border-b border-rule";
+        const no = document.createElement("span");
+        no.className = "font-serif font-extrabold text-moss text-[15px]";
+        no.textContent = String(i + 1);
+        const body = document.createElement("span");
+        body.className = "flex flex-col gap-0.5 min-w-0";
+        const meta = document.createElement("span");
+        meta.className = "text-[11px] text-ink-muted";
+        meta.textContent = [e.category, e.date].filter(Boolean).join(" · ");
+        const title = document.createElement("span");
+        title.className = "text-[14px] leading-[1.5]";
+        title.textContent = e.title;
+        body.append(meta, title);
+        const ops = document.createElement("span");
+        ops.className = "flex gap-1";
+        ops.append(
+          smallButton("↑", () => move(i, -1), i === 0),
+          smallButton("↓", () => move(i, 1), i === picks.length - 1),
+          smallButton("外す", () => remove(i)),
+        );
+        li.append(no, body, ops);
+        return li;
+      }),
+    );
+    emptyEl.classList.toggle("hidden", picks.length > 0);
+    countEl.textContent = String(picks.length);
+    const dirty = JSON.stringify(picks) !== saved;
+    saveBtn.disabled = !dirty;
+    if (dirty) statusEl.textContent = "未保存の変更があります。";
+    renderResults();
+  }
+
+  function move(i: number, d: number) {
+    const j = i + d;
+    if (j < 0 || j >= picks.length) return;
+    [picks[i], picks[j]] = [picks[j], picks[i]];
+    render();
+  }
+  function remove(i: number) {
+    picks.splice(i, 1);
+    render();
+  }
+  function add(slug: string) {
+    if (picks.includes(slug) || picks.length >= data.max) return;
+    picks.push(slug);
+    render();
+  }
+
+  function renderResults() {
+    const q = searchEl.value.trim().toLowerCase();
+    if (!q) {
+      resultsEl.replaceChildren();
+      return;
+    }
+    const hits = data.catalog.filter((e) => e.title.toLowerCase().includes(q)).slice(0, 30);
+    if (hits.length === 0) {
+      const li = document.createElement("li");
+      li.className = "py-3 text-[13px] text-ink-muted";
+      li.textContent = "該当する記事がありません。";
+      resultsEl.replaceChildren(li);
+      return;
+    }
+    resultsEl.replaceChildren(
+      ...hits.map((e) => {
+        const li = document.createElement("li");
+        li.className = "grid grid-cols-[minmax(0,1fr)_auto] gap-2 items-center py-2.5 border-b border-rule";
+        const body = document.createElement("span");
+        body.className = "flex flex-col gap-0.5 min-w-0";
+        const meta = document.createElement("span");
+        meta.className = "text-[11px] text-ink-muted";
+        meta.textContent = [e.category, e.date].filter(Boolean).join(" · ");
+        const title = document.createElement("span");
+        title.className = "text-[14px] leading-[1.5]";
+        title.textContent = e.title;
+        body.append(meta, title);
+        const chosen = picks.includes(e.slug);
+        const full = picks.length >= data.max;
+        const btn = smallButton(chosen ? "追加済み" : "追加", () => add(e.slug), chosen || full);
+        if (!chosen) btn.className += " !border-sumi font-bold";
+        li.append(body, btn);
+        return li;
+      }),
+    );
+  }
+
+  searchEl.addEventListener("input", renderResults);
+
+  saveBtn.addEventListener("click", async () => {
+    saveBtn.disabled = true;
+    statusEl.textContent = "保存中…";
+    try {
+      const res = await fetch("/api/admin/recommended", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ slugs: picks }),
+      });
+      if (res.ok) {
+        saved = JSON.stringify(picks);
+        statusEl.textContent = "保存しました。1分ほどでサイトに反映されます。";
+      } else {
+        statusEl.textContent = "保存に失敗しました。時間を置いて再度お試しください。";
+        saveBtn.disabled = false;
+      }
+    } catch {
+      statusEl.textContent = "保存に失敗しました。時間を置いて再度お試しください。";
+      saveBtn.disabled = false;
+    }
+  });
+
+  window.addEventListener("beforeunload", (e) => {
+    if (JSON.stringify(picks) !== saved) e.preventDefault();
+  });
+
+  render();
+  statusEl.textContent = "";
+</script>

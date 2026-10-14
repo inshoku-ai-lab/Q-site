@@ -1,8 +1,7 @@
 ---
-// PC sidebar (12b): 連載 rows + 最新の記事.
-import { getLatestPosts } from "../lib/posts";
+// PC sidebar (12b): 連載 rows + おすすめの記事.
 import { getSeriesSorted, SERIES_DESCRIPTIONS, seriesHref } from "../lib/seriesMeta";
-import PostRow from "./PostRow.astro";
+import RecommendedList from "./RecommendedList.astro";
 
 interface Props {
   latest?: number;
@@ -12,7 +11,6 @@ interface Props {
 }
 const { latest = 6, series = true, exclude, seriesTitle = "連載" } = Astro.props;
 const seriesList = getSeriesSorted().filter((s) => s.name !== exclude).slice(0, 6);
-const latestPosts = getLatestPosts(latest);
 ---
 
 <aside class="hidden md:flex flex-col gap-8 pt-7">
@@ -37,8 +35,8 @@ const latestPosts = getLatestPosts(latest);
   {
     latest > 0 && (
       <div>
-        <h2 class="sec-h">最新の記事</h2>
-        {latestPosts.map((p) => <PostRow post={p} variant="stack" />)}
+        <h2 class="sec-h">おすすめの記事</h2>
+        <RecommendedList limit={latest} variant="stack" />
         <a href="/archive/" class="flex items-center justify-end min-h-[44px] text-[12px] font-bold">すべての記事 →</a>
       </div>
     )

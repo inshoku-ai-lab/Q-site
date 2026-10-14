@@ -3,9 +3,9 @@ export const prerender = true;
 import Layout from "../layouts/Layout.astro";
 import VHead from "../components/VHead.astro";
 import SeriesTile from "../components/SeriesTile.astro";
-import PostRow from "../components/PostRow.astro";
+import RecommendedList from "../components/RecommendedList.astro";
 import Sidebar from "../components/Sidebar.astro";
-import { getPostBySlug, getLatestPosts, formatDateShort } from "../lib/posts";
+import { getPostBySlug, formatDateShort } from "../lib/posts";
 import type { Post } from "../lib/posts";
 import { getSeriesSorted, clip } from "../lib/seriesMeta";
 import { getImageDimensions } from "../lib/imageDimensions";
@@ -26,7 +26,6 @@ const leadImage = lead?.cover ?? "/images/hero-wanderer.webp";
 const leadDim = lead?.cover ? getImageDimensions(lead.cover) : null;
 
 const seriesList = getSeriesSorted();
-const latest = getLatestPosts(10);
 ---
 
 <Layout title="Qryptraveller's Notes" header="masthead">
@@ -82,7 +81,7 @@ const latest = getLatestPosts(10);
         ))
       }
 
-      <!-- Mobile: 連載 tiles + 最新の記事 (PC shows these in the sidebar) -->
+      <!-- Mobile: 連載 tiles + おすすめの記事 (PC shows these in the sidebar) -->
       <section class="md:hidden px-5 pt-7 pb-2">
         <h2 class="sec-h">連載</h2>
         <div class="grid grid-cols-2 gap-2 pt-3">
@@ -91,8 +90,8 @@ const latest = getLatestPosts(10);
       </section>
 
       <section class="md:hidden px-5 pt-6 pb-10">
-        <h2 class="sec-h">最新の記事</h2>
-        {latest.map((p) => <PostRow post={p} variant="date" />)}
+        <h2 class="sec-h">おすすめの記事</h2>
+        <RecommendedList limit={8} variant="date" />
         <a href="/archive/" class="flex items-center justify-end min-h-[48px] text-[13px] font-bold">すべての記事 →</a>
       </section>
     </div>

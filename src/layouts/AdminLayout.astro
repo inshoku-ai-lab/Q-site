@@ -5,7 +5,7 @@ import Layout from "./Layout.astro";
 
 interface Props {
   title: string;
-  active: "overview" | "members" | "inquiries";
+  active: "overview" | "members" | "inquiries" | "recommended";
 }
 const { title, active } = Astro.props;
 
@@ -13,6 +13,7 @@ const tabs = [
   { key: "overview", label: "概要", href: "/admin" },
   { key: "members", label: "会員", href: "/admin/members" },
   { key: "inquiries", label: "問合せ", href: "/admin/inquiries" },
+  { key: "recommended", label: "おすすめ", href: "/admin/recommended" },
   { key: "bugs", label: "バグ ↗", href: "https://airtable.com/appV3kF3rErRTXyrw", external: true },
 ];
 ---
@@ -27,7 +28,7 @@ const tabs = [
           <span class="text-[11px] text-kraft">ADMIN</span>
         </div>
       </div>
-      <nav class="grid grid-cols-4 border-t border-paper-100/20 md:max-w-[560px] md:px-8 md:border-t-0" aria-label="管理メニュー">
+      <nav class="grid grid-cols-5 border-t border-paper-100/20 md:max-w-[680px] md:px-8 md:border-t-0" aria-label="管理メニュー">
         {
           tabs.map((t) => (
             <a
