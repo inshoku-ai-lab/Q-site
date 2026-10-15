@@ -39,6 +39,8 @@ const {
   back,
   readingBar = false,
 } = Astro.props;
+// Measurement ID of the GA4 property -- public by design (visible in page source).
+const GA_ID = "G-YC45WTP98P";
 const siteName = "Qryptraveller's Notes";
 const fullTitle = title === siteName ? title : `${title} | ${siteName}`;
 const defaultDesc =
@@ -124,6 +126,19 @@ const absoluteOgImage = ogImage
 
     <!-- RSS -->
     <link rel="alternate" type="application/rss+xml" title={siteName} href="/rss.xml" />
+
+    {/* Google Analytics 4. Production only, and never on admin pages. */}
+    {import.meta.env.PROD && !Astro.url.pathname.startsWith("/admin") && (
+      <>
+        <script is:inline async src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`} />
+        <script is:inline define:vars={{ GA_ID }}>
+          window.dataLayer = window.dataLayer || [];
+          function gtag() { dataLayer.push(arguments); }
+          gtag("js", new Date());
+          gtag("config", GA_ID);
+        </script>
+      </>
+    )}
 
     {structuredData && (
       <script type="application/ld+json" set:html={JSON.stringify(structuredData)} />

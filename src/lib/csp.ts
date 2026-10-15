@@ -32,10 +32,14 @@ function supabaseOrigin(): string | null {
 }
 
 const TURNSTILE = "https://challenges.cloudflare.com";
+// Google Analytics 4 (gtag.js loads from googletagmanager.com and reports
+// to the google-analytics.com / analytics.google.com collectors).
+const GA_SCRIPT = "https://www.googletagmanager.com";
+const GA_CONNECT = ["https://*.google-analytics.com", "https://*.analytics.google.com", "https://*.googletagmanager.com"];
 
 function buildDirectives(): string[] {
   const supabase = supabaseOrigin();
-  const connect = ["'self'", TURNSTILE];
+  const connect = ["'self'", TURNSTILE, ...GA_CONNECT];
   if (supabase) {
     connect.push(supabase, supabase.replace(/^https:/, "wss:"));
   } else {
@@ -50,7 +54,7 @@ function buildDirectives(): string[] {
     // 'wasm-unsafe-eval' is required by Pagefind, which runs the search
     // index as WebAssembly -- Chrome blocks WASM instantiation outright
     // under a script-src that doesn't allow it, which would break /search.
-    `script-src 'self' 'unsafe-inline' 'wasm-unsafe-eval' ${TURNSTILE}`,
+    `script-src 'self' 'unsafe-inline' 'wasm-unsafe-eval' ${TURNSTILE} ${GA_SCRIPT}`,
     "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
     "font-src 'self' data: https://fonts.gstatic.com",
     // Article bodies embed cover art and OGP thumbnails from arbitrary
