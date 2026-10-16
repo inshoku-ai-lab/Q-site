@@ -1,23 +1,20 @@
 ---
-export const prerender = true;
+export const prerender = false;
 import Layout from "../layouts/Layout.astro";
 import VHead from "../components/VHead.astro";
 import SeriesTile from "../components/SeriesTile.astro";
 import RecommendedList from "../components/RecommendedList.astro";
 import Sidebar from "../components/Sidebar.astro";
-import { getPostBySlug, formatDateShort } from "../lib/posts";
-import type { Post } from "../lib/posts";
+import { formatDateShort } from "../lib/posts";
+import { resolveFeaturedPosts } from "../lib/featured";
 import { getSeriesSorted, clip } from "../lib/seriesMeta";
 import { getImageDimensions } from "../lib/imageDimensions";
 
-// Curated homepage picks: one Devolution Theory intro, one Teal Swan piece,
-// one Bitcoin/BSV piece.
-const featuredSlugs = [
-  "devolution-theory-an-introduction",
-  "satanic-ritual-survivor-turned-genius-trauma-therapist-teal-swans-story",
-  "the-inventor-of-bitcoin-is-dr-craig-wright-17-mathematical-proofs-alpha",
-];
-const featured = featuredSlugs.map((slug) => getPostBySlug(slug)).filter((p): p is Post => Boolean(p));
+// 特集 壱・弐・参: chosen in /admin/featured (defaults in lib/featured.ts).
+// This page is rendered on demand, but cached at the edge for a minute so
+// a busy day costs one Supabase read a minute, and a change shows up fast.
+Astro.response.headers.set("Cache-Control", "public, max-age=0, s-maxage=60, stale-while-revalidate=600");
+const featured = await resolveFeaturedPosts();
 const [lead, ...others] = featured;
 const ordinals = ["壱", "弐", "参", "肆", "伍"];
 
