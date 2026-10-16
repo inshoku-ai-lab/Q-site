@@ -35,7 +35,14 @@ const TURNSTILE = "https://challenges.cloudflare.com";
 // Google Analytics 4 (gtag.js loads from googletagmanager.com and reports
 // to the google-analytics.com / analytics.google.com collectors).
 const GA_SCRIPT = "https://www.googletagmanager.com";
-const GA_CONNECT = ["https://*.google-analytics.com", "https://*.analytics.google.com", "https://*.googletagmanager.com"];
+const GA_CONNECT = [
+  "https://*.google-analytics.com",
+  "https://*.analytics.google.com",
+  "https://*.googletagmanager.com",
+  // GA4 also reports to www.google.com/g/collect and DoubleClick stats.
+  "https://www.google.com",
+  "https://*.g.doubleclick.net",
+];
 
 function buildDirectives(): string[] {
   const supabase = supabaseOrigin();

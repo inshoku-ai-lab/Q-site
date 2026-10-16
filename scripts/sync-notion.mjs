@@ -39,6 +39,8 @@ if (!token) {
 }
 
 const notion = new Client({ auth: token });
+const BODY_ATTEMPTS = 6;
+const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
 await fs.mkdir(DATA_DIR, { recursive: true });
 
@@ -256,6 +258,7 @@ async function main() {
   });
 
   const posts = [];
+  const failedBodies = [];
   let i = 0;
   for (const page of publishable) {
     i++;
@@ -264,13 +267,30 @@ async function main() {
     const title = get.title(props, "Title") || `(無題-${wpId})`;
     process.stdout.write(`\r  本文取得 [${i}/${publishable.length}] WP${wpId}     `);
 
+    // Notion rate-limits bursts (and other jobs share the same token), so
+    // a body fetch is retried with a growing pause before giving up. A
+    // page whose body still can't be fetched is NOT published empty: the
+    // whole sync fails below, so the build stops and the previous
+    // deployment -- with every article intact -- stays live.
     let blocks = [];
-    try {
-      const raw = await fetchChildren(page.id);
-      for (const b of raw) blocks.push(await blockToNode(b));
-      rewriteBlocks(blocks);
-    } catch (e) {
-      console.error(`\nWP${wpId} の本文取得に失敗:`, e.message);
+    let lastError = null;
+    for (let attempt = 1; attempt <= BODY_ATTEMPTS; attempt++) {
+      try {
+        const raw = await fetchChildren(page.id);
+        const nodes = [];
+        for (const b of raw) nodes.push(await blockToNode(b));
+        rewriteBlocks(nodes);
+        blocks = nodes;
+        lastError = null;
+        break;
+      } catch (e) {
+        lastError = e;
+        if (attempt < BODY_ATTEMPTS) await sleep(Math.min(60_000, 3_000 * 2 ** (attempt - 1)));
+      }
+    }
+    if (lastError) {
+      failedBodies.push(`WP${wpId}`);
+      console.error(`\nWP${wpId} の本文取得に失敗 (${BODY_ATTEMPTS}回試行):`, lastError.message);
     }
 
     const slug = get.text(props, "Slug") || slugify(title);
@@ -298,6 +318,12 @@ async function main() {
     });
   }
   console.log("");
+
+  if (failedBodies.length > 0) {
+    throw new Error(
+      `${failedBodies.length} 件の本文取得に失敗したため中断します (空の記事を公開しないため): ${failedBodies.slice(0, 20).join(", ")}`,
+    );
+  }
 
   // Sort final output newest-first
   posts.sort((a, b) => (b.date ?? "").localeCompare(a.date ?? ""));
