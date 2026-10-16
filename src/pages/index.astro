@@ -70,6 +70,9 @@ const seriesList = getSeriesSorted();
             </span>
             <span class="flex flex-col gap-1.5 md:gap-2 px-5 py-4 md:px-7 md:py-[22px]">
               <span class="font-serif font-extrabold text-[17px] md:text-[21px] leading-[1.5] md:leading-[1.45]">{p.title}</span>
+              {clip(p.seo_description || p.excerpt, 90) && (
+                <span class="text-[13px] md:text-[14px] leading-[1.8] text-ink-light">{clip(p.seo_description || p.excerpt, 90)}</span>
+              )}
               <span class="text-[11px] md:text-[12px] text-ink-muted">
                 {p.category} · 約{p.reading_time}分
               </span>
