@@ -4,6 +4,7 @@ import AdminLayout from "../../../layouts/AdminLayout.astro";
 import VHead from "../../../components/VHead.astro";
 import { requireAdmin, logAdminAccess } from "../../../lib/admin";
 import { formatDate } from "../../../lib/posts";
+import { lookupLabel, articleHref } from "../../../lib/labels";
 
 const auth = await requireAdmin(Astro.request, Astro.cookies);
 if (!auth.ok) {
@@ -25,9 +26,6 @@ if (!member) {
 await logAdminAccess(auth.admin, auth.email, `view_member:${member.id}`);
 
 const PROVIDER_LABELS: Record<string, string> = { google: "Google", facebook: "Facebook", line: "LINE" };
-function articleHref(slug: string): string {
-  return slug.startsWith("/") ? slug : `/posts/${slug}/`;
-}
 const REASON_LABELS: Record<string, string> = {
   financial: "金銭的利益をもたらした",
   referral: "誰かに薦めたことがある",
@@ -52,21 +50,21 @@ const REASON_LABELS: Record<string, string> = {
 
     <section class="px-5 md:px-0 pt-5">
       <div class="grid grid-cols-[110px_minmax(0,1fr)] gap-2.5 min-h-[48px] items-center border-b border-rule text-[13px]">
-        <span class="text-ink-muted">ログイン方法</span><span>{PROVIDER_LABELS[member.provider] ?? member.provider}</span>
+        <span class="text-ink-muted">ログイン方法</span><span>{lookupLabel(PROVIDER_LABELS, member.provider)}</span>
       </div>
       <div class="grid grid-cols-[110px_minmax(0,1fr)] gap-2.5 min-h-[48px] items-center border-b border-rule text-[13px]">
-        <span class="text-ink-muted">同意理由</span><span>{REASON_LABELS[member.agreement_reason] ?? member.agreement_reason}</span>
+        <span class="text-ink-muted">同意理由</span><span>{lookupLabel(REASON_LABELS, member.agreement_reason)}</span>
       </div>
       <div class="grid grid-cols-[110px_minmax(0,1fr)] gap-2.5 min-h-[48px] items-center border-b border-rule text-[13px]">
         <span class="text-ink-muted">入会日</span><span>{formatDate(member.joined_at)}</span>
       </div>
       <div class="grid grid-cols-[110px_minmax(0,1fr)] gap-2.5 min-h-[48px] items-center border-b border-rule text-[13px]">
         <span class="text-ink-muted">流入元記事</span>
-        <span class="break-all py-2">{member.referrer_article_slug ? <a href={articleHref(member.referrer_article_slug)}>{member.referrer_article_slug}</a> : "―"}</span>
+        <span class="break-all py-2">{member.referrer_article_slug ? (articleHref(member.referrer_article_slug) ? <a href={articleHref(member.referrer_article_slug)!}>{member.referrer_article_slug}</a> : member.referrer_article_slug) : "―"}</span>
       </div>
       <div class="grid grid-cols-[110px_minmax(0,1fr)] gap-2.5 min-h-[48px] items-center border-b border-rule text-[13px]">
         <span class="text-ink-muted">最初に読んだ記事</span>
-        <span class="break-all py-2">{member.first_read_article_slug ? <a href={articleHref(member.first_read_article_slug)}>{member.first_read_article_slug}</a> : "―"}</span>
+        <span class="break-all py-2">{member.first_read_article_slug ? (articleHref(member.first_read_article_slug) ? <a href={articleHref(member.first_read_article_slug)!}>{member.first_read_article_slug}</a> : member.first_read_article_slug) : "―"}</span>
       </div>
     </section>
 

@@ -6,6 +6,9 @@ import { getClientIp, isJsonRequest, isSameOrigin, jsonResponse } from "../../li
 
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 const MAX_LEN = { name: 100, email: 200, message: 5000 };
+// A legitimate submission is a few KB at most; anything bigger is refused
+// before the body is read (the field limits above are only applied after).
+const MAX_BODY_BYTES = 20_000;
 const MIN_FILL_TIME_MS = 2000;
 const RATE_LIMIT_WINDOW_MIN = 15;
 const RATE_LIMIT_MAX = 3;
@@ -91,9 +94,19 @@ export const POST: APIRoute = async ({ request }) => {
     return jsonResponse({ error: "forbidden" }, 403);
   }
 
+  const declaredLength = Number(request.headers.get("content-length") ?? "0");
+  if (Number.isFinite(declaredLength) && declaredLength > MAX_BODY_BYTES) {
+    return jsonResponse({ error: "too_long" }, 413);
+  }
+
   let body: Record<string, unknown>;
   try {
-    body = await request.json();
+    const raw = await request.text();
+    // Content-Length can be absent (chunked) or wrong, so check the real size too.
+    if (raw.length > MAX_BODY_BYTES) {
+      return jsonResponse({ error: "too_long" }, 413);
+    }
+    body = JSON.parse(raw);
   } catch {
     return jsonResponse({ error: "invalid_body" }, 400);
   }
@@ -118,11 +131,13 @@ export const POST: APIRoute = async ({ request }) => {
   if (!name || !email || !message) {
     return jsonResponse({ error: "missing_fields" }, 400);
   }
-  if (!EMAIL_RE.test(email)) {
-    return jsonResponse({ error: "invalid_email" }, 400);
-  }
+  // Length limits come BEFORE the regex: EMAIL_RE backtracks quadratically
+  // on input like "a@" + "."*N + "@", so it must never see a long string.
   if (name.length > MAX_LEN.name || email.length > MAX_LEN.email || message.length > MAX_LEN.message) {
     return jsonResponse({ error: "too_long" }, 400);
+  }
+  if (!EMAIL_RE.test(email)) {
+    return jsonResponse({ error: "invalid_email" }, 400);
   }
 
   const ip = getClientIp(request);

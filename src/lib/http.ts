@@ -122,8 +122,21 @@ export function safeRedirectPath(raw: string | null | undefined, fallback = "/")
   if (candidate.startsWith("//")) return fallback;
   if (candidate.includes("\\")) return fallback;
   if (/^\/[a-z][a-z0-9+.-]*:/i.test(candidate)) return fallback;
+  // Browsers strip tab / CR / LF (and ignore other control characters)
+  // inside a URL, so "/\t/evil.com" would become "//evil.com".
+  if (/[\u0000-\u001f\u007f]/.test(candidate)) return fallback;
 
-  return candidate;
+  // Belt and braces: let the URL parser have the final say. Anything that
+  // does not resolve to the same origin is refused, and only the path,
+  // query and hash are returned.
+  try {
+    const base = "https://placeholder.invalid";
+    const url = new URL(candidate, base);
+    if (url.origin !== base) return fallback;
+    return url.pathname + url.search + url.hash;
+  } catch {
+    return fallback;
+  }
 }
 
 // Only ever emit http(s) links/embeds from migrated content. Article HTML

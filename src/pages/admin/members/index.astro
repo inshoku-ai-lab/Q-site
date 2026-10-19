@@ -3,6 +3,7 @@ export const prerender = false;
 import AdminLayout from "../../../layouts/AdminLayout.astro";
 import { requireAdmin, logAdminAccess } from "../../../lib/admin";
 import { formatDateShort } from "../../../lib/posts";
+import { lookupLabel } from "../../../lib/labels";
 
 const auth = await requireAdmin(Astro.request, Astro.cookies);
 if (!auth.ok) {
@@ -96,8 +97,8 @@ const filtersActive = Boolean(providerFilter || reasonFilter || fromFilter || to
             <span class="text-[14px] font-bold">{m.display_name || "（名前なし）"}</span>
             <span class="text-[12px] text-ink-muted break-all">{m.email}</span>
             <span class="flex gap-1">
-              <span class="px-1.5 py-0.5 border border-rule text-[10px]">{PROVIDER_LABELS[m.provider] ?? m.provider}</span>
-              <span class="px-1.5 py-0.5 border border-rule text-[10px]">{REASON_LABELS[m.agreement_reason] ?? m.agreement_reason}</span>
+              <span class="px-1.5 py-0.5 border border-rule text-[10px]">{lookupLabel(PROVIDER_LABELS, m.provider)}</span>
+              <span class="px-1.5 py-0.5 border border-rule text-[10px]">{lookupLabel(REASON_LABELS, m.agreement_reason)}</span>
             </span>
           </span>
           <span class="flex flex-col items-end gap-1">

@@ -5,6 +5,7 @@ import VHead from "../components/VHead.astro";
 import PostRow from "../components/PostRow.astro";
 import { createSupabaseServerClient } from "../lib/supabase/server";
 import { formatDate, getMemberOnlyPosts } from "../lib/posts";
+import { lookupLabel } from "../lib/labels";
 
 const supabase = createSupabaseServerClient(Astro.request, Astro.cookies);
 
@@ -100,7 +101,7 @@ const PROVIDER_LABELS: Record<string, string> = {
               </div>
               <div class="flex justify-between gap-3 min-h-[52px] items-center border-b border-rule text-[14px]">
                 <span>ログイン方法</span>
-                <span class="text-ink-muted text-right">{PROVIDER_LABELS[member.provider] ?? member.provider}</span>
+                <span class="text-ink-muted text-right">{lookupLabel(PROVIDER_LABELS, member.provider)}</span>
               </div>
               <div class="flex justify-between gap-3 min-h-[52px] items-center border-b border-rule text-[14px]">
                 <span>「旅路の証人」になった日</span>

@@ -1,3 +1,5 @@
+import { lookupLabel } from "./labels";
+
 export type MemberRow = {
   id: string;
   email: string;
@@ -47,28 +49,31 @@ export function buildDashboardStats(members: MemberRow[], archive: ArchiveRow[])
   const cumulativeJoins = currentCount + churnCount;
 
   // provider breakdown (all-time)
-  const providerCounts: Record<string, number> = {};
-  for (const m of members) providerCounts[m.provider] = (providerCounts[m.provider] ?? 0) + 1;
-  for (const a of archive) providerCounts[a.provider] = (providerCounts[a.provider] ?? 0) + 1;
-  const providerBreakdown = Object.entries(providerCounts)
-    .map(([provider, count]) => ({ provider, label: PROVIDER_LABELS[provider] ?? provider, count }))
+  // Maps, not plain objects: these keys are user-writable column values.
+  const providerCounts = new Map<string, number>();
+  for (const m of members) providerCounts.set(m.provider, (providerCounts.get(m.provider) ?? 0) + 1);
+  for (const a of archive) providerCounts.set(a.provider, (providerCounts.get(a.provider) ?? 0) + 1);
+  const providerBreakdown = [...providerCounts.entries()]
+    .map(([provider, count]) => ({ provider, label: lookupLabel(PROVIDER_LABELS, provider), count }))
     .sort((a, b) => b.count - a.count);
 
   // reason breakdown + retention cross-tab
-  const reasonTotals: Record<string, { total: number; active: number }> = {};
+  const reasonTotals = new Map<string, { total: number; active: number }>();
+  const reasonEntry = (reason: string) => {
+    let entry = reasonTotals.get(reason);
+    if (!entry) reasonTotals.set(reason, (entry = { total: 0, active: 0 }));
+    return entry;
+  };
   for (const m of members) {
-    reasonTotals[m.agreement_reason] ??= { total: 0, active: 0 };
-    reasonTotals[m.agreement_reason].total++;
-    reasonTotals[m.agreement_reason].active++;
+    const entry = reasonEntry(m.agreement_reason);
+    entry.total++;
+    entry.active++;
   }
-  for (const a of archive) {
-    reasonTotals[a.agreement_reason] ??= { total: 0, active: 0 };
-    reasonTotals[a.agreement_reason].total++;
-  }
-  const reasonBreakdown = Object.entries(reasonTotals)
+  for (const a of archive) reasonEntry(a.agreement_reason).total++;
+  const reasonBreakdown = [...reasonTotals.entries()]
     .map(([reason, v]) => ({
       reason,
-      label: REASON_LABELS[reason] ?? reason,
+      label: lookupLabel(REASON_LABELS, reason),
       total: v.total,
       active: v.active,
       retentionRate: v.total > 0 ? Math.round((v.active / v.total) * 100) : 0,
@@ -125,12 +130,12 @@ export function buildDashboardStats(members: MemberRow[], archive: ArchiveRow[])
   });
 
   // referral tracking (current members only -- archive doesn't retain article-level referral data)
-  const referrerCounts: Record<string, number> = {};
+  const referrerCounts = new Map<string, number>();
   for (const m of members) {
     if (!m.referrer_article_slug) continue;
-    referrerCounts[m.referrer_article_slug] = (referrerCounts[m.referrer_article_slug] ?? 0) + 1;
+    referrerCounts.set(m.referrer_article_slug, (referrerCounts.get(m.referrer_article_slug) ?? 0) + 1);
   }
-  const topReferrers = Object.entries(referrerCounts)
+  const topReferrers = [...referrerCounts.entries()]
     .map(([slug, count]) => ({ slug, count }))
     .sort((a, b) => b.count - a.count)
     .slice(0, 10);
