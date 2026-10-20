@@ -27,12 +27,22 @@
   <span
     class="pointer-events-none absolute right-full mr-2 top-1/2 -translate-y-1/2 translate-x-1 whitespace-nowrap bg-sumi text-paper-100 text-[12px] font-bold px-3 py-2 opacity-0 transition-all duration-150 group-hover:opacity-100 group-hover:translate-x-0 group-focus-visible:opacity-100 group-focus-visible:translate-x-0"
     aria-hidden="true"
+    id="bug-report-fab-label"
   >
     不具合を報告
   </span>
 </button>
 
 <style is:global>
+  .bug-cat:has(:checked) {
+    background: #2a1f11;
+    border-color: #2a1f11;
+    color: #f6efdc;
+  }
+  .bug-cat:has(:focus-visible) {
+    outline: 2px solid #4f6b43;
+    outline-offset: 2px;
+  }
   /* Article pages carry a fixed reading bar along the bottom on mobile. */
   @media (max-width: 767px) {
     body.has-reading-bar #bug-report-fab {
@@ -54,6 +64,22 @@
     </div>
 
     <form id="bug-report-form" class="space-y-4">
+      <p id="bug-report-context" class="hidden px-3 py-2 border-l-4 border-moss bg-done text-[12px] leading-[1.7] text-ink"></p>
+
+      <fieldset>
+        <legend class="block text-sm text-ink mb-1.5">どんな問題ですか？</legend>
+        <div class="flex flex-wrap gap-1.5" id="bug-report-categories">
+          {
+            ["表示が崩れた", "記事が読めない", "ログインできない", "誤字・内容の間違い", "その他"].map((c) => (
+              <label class="bug-cat flex items-center min-h-[40px] px-3 border border-rule bg-field text-[13px] text-ink cursor-pointer">
+                <input type="radio" name="category" value={c} class="sr-only" />
+                {c}
+              </label>
+            ))
+          }
+        </div>
+      </fieldset>
+
       <div>
         <label for="bug-description" class="block text-sm text-ink mb-1.5">何が起きましたか？</label>
         <textarea
@@ -96,6 +122,18 @@
         <p id="bug-report-status" class="text-sm hidden" role="status"></p>
       </div>
     </form>
+
+    <!-- Shown instead of the form after a successful send -->
+    <div id="bug-report-done" class="hidden" role="status">
+      <p class="font-serif font-extrabold text-[17px] text-ink">報告を受け付けました。ありがとうございます。</p>
+      <p class="mt-3 text-[13px] leading-[1.8] text-ink-light">
+        受付番号 <span id="bug-report-ref" class="font-mono font-bold text-ink text-[15px]"></span>
+      </p>
+      <p class="mt-2 text-[12px] leading-[1.8] text-ink-muted">
+        お問い合わせの際に、この番号をお伝えいただくと確認が早くなります。
+      </p>
+      <button type="button" id="bug-report-done-close" class="btn btn-sumi border-t-[3px] !border-t-moss mt-5">閉じる</button>
+    </div>
   </div>
 </div>
 
@@ -111,6 +149,20 @@
   const statusEl = document.getElementById("bug-report-status") as HTMLParagraphElement;
   const envSummaryEl = document.getElementById("bug-report-env-summary") as HTMLParagraphElement;
   const submitBtn = form.querySelector('button[type="submit"]') as HTMLButtonElement;
+  const contextEl = document.getElementById("bug-report-context") as HTMLParagraphElement;
+  const doneEl = document.getElementById("bug-report-done") as HTMLDivElement;
+  const refEl = document.getElementById("bug-report-ref") as HTMLSpanElement;
+  const fabLabel = document.getElementById("bug-report-fab-label") as HTMLSpanElement | null;
+
+  // On an article page the report is about that article: name it in the
+  // dialog and send its title along; the usual case there is a typo.
+  const articleTitle = window.location.pathname.startsWith("/posts/")
+    ? document.title.replace(/\s*\|\s*Qryptraveller.*$/, "").trim()
+    : "";
+  if (articleTitle) {
+    if (fabLabel) fabLabel.textContent = "誤字・不具合を報告";
+    fab.setAttribute("aria-label", "誤字・不具合を報告する");
+  }
 
   const ua = parseUserAgent(navigator.userAgent);
   const deviceLabel = { mobile: "スマートフォン", tablet: "タブレット", desktop: "パソコン" }[ua.deviceType];
@@ -122,6 +174,16 @@
 
   function openModal() {
     lastFocused = document.activeElement as HTMLElement | null;
+    form.classList.remove("hidden");
+    doneEl.classList.add("hidden");
+    if (articleTitle) {
+      contextEl.textContent = `この記事についての報告になります：${articleTitle}`;
+      contextEl.classList.remove("hidden");
+      const typo = form.querySelector<HTMLInputElement>('input[name="category"][value="誤字・内容の間違い"]');
+      if (typo && !form.querySelector('input[name="category"]:checked')) typo.checked = true;
+    } else {
+      contextEl.classList.add("hidden");
+    }
     overlay.classList.remove("hidden");
     overlay.classList.add("flex");
     document.getElementById("bug-description")?.focus();
@@ -134,6 +196,7 @@
 
   fab.addEventListener("click", openModal);
   closeBtn.addEventListener("click", closeModal);
+  document.getElementById("bug-report-done-close")?.addEventListener("click", closeModal);
   overlay.addEventListener("click", (e) => {
     if (e.target === overlay) closeModal();
   });
@@ -160,6 +223,8 @@
     const formData = new FormData(form);
     const payload = {
       description: String(formData.get("description") ?? "").trim(),
+      category: String(formData.get("category") ?? ""),
+      articleTitle,
       email: String(formData.get("email") ?? "").trim(),
       website: String(formData.get("website") ?? ""),
       elapsedMs: Date.now() - pageLoadedAt,
@@ -180,9 +245,15 @@
       });
 
       if (res.ok) {
-        showStatus("報告ありがとうございます。", false);
+        const data = await res.json().catch(() => ({}));
         form.reset();
-        setTimeout(closeModal, 1500);
+        statusEl.classList.add("hidden");
+        submitBtn.disabled = false;
+        refEl.textContent = typeof data.ref === "string" ? data.ref : "";
+        refEl.parentElement?.classList.toggle("hidden", !data.ref);
+        form.classList.add("hidden");
+        doneEl.classList.remove("hidden");
+        document.getElementById("bug-report-done-close")?.focus();
       } else {
         const data = await res.json().catch(() => ({}));
         showStatus(ERROR_MESSAGES[data.error] ?? "送信に失敗しました。時間を置いて再度お試しください。", true);

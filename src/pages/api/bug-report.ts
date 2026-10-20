@@ -15,6 +15,11 @@ const AIRTABLE_BASE_ID = "appV3kF3rErRTXyrw";
 const AIRTABLE_TABLE_ID = "tblIXgykIKXu2t0Xc";
 const AIRTABLE_URL = `https://api.airtable.com/v0/${AIRTABLE_BASE_ID}/${AIRTABLE_TABLE_ID}`;
 
+// Report types offered in the dialog. Stored as a prefix of the Description
+// (the Airtable table has no "type" column, and adding a field the table
+// doesn't have would make Airtable reject the whole record).
+const CATEGORIES = new Set(["表示が崩れた", "記事が読めない", "ログインできない", "誤字・内容の間違い", "その他"]);
+
 function str(v: unknown, maxLen: number): string {
   return typeof v === "string" ? v.trim().slice(0, maxLen) : "";
 }
@@ -53,7 +58,8 @@ async function isRateLimited(ip: string, apiKey: string): Promise<boolean> {
   }
 }
 
-async function saveToAirtable(fields: Record<string, unknown>, apiKey: string): Promise<boolean> {
+// Returns the new record's id, or null when the save failed.
+async function saveToAirtable(fields: Record<string, unknown>, apiKey: string): Promise<string | null> {
   try {
     const res = await fetch(AIRTABLE_URL, {
       method: "POST",
@@ -65,19 +71,27 @@ async function saveToAirtable(fields: Record<string, unknown>, apiKey: string): 
     });
     if (!res.ok) {
       console.error(`bug-report: Airtable API returned ${res.status}: ${await res.text()}`);
-      return false;
+      return null;
     }
-    return true;
+    const data = (await res.json().catch(() => ({}))) as { id?: unknown };
+    return typeof data.id === "string" ? data.id : "saved";
   } catch (err) {
     console.error("bug-report: failed to reach Airtable API", err);
-    return false;
+    return null;
   }
 }
 
 // Best-effort notification via Resend -- failures are logged (visible in
 // Vercel's function logs), not surfaced to the reporter, since the report
 // is already saved in Airtable regardless of whether this succeeds.
-async function notifyByEmail(description: string, pageUrl: string, env: string) {
+// The reporter sees "BUG-" + the last 6 characters of the Airtable record id
+// (uppercased); the same number goes in the notification mail, so a reader
+// quoting it can be matched to the record.
+function referenceNumber(recordId: string): string {
+  return `BUG-${recordId.replace(/^rec/, "").slice(-6).toUpperCase()}`;
+}
+
+async function notifyByEmail(description: string, pageUrl: string, env: string, ref: string) {
   const apiKey = import.meta.env.RESEND_API_KEY;
   const notifyEmail = import.meta.env.CONTACT_NOTIFY_EMAIL;
   if (!apiKey || !notifyEmail) {
@@ -95,8 +109,8 @@ async function notifyByEmail(description: string, pageUrl: string, env: string) 
       body: JSON.stringify({
         from: "Qryptraveller's Notes <contact@qryptraveller.com>",
         to: notifyEmail,
-        subject: "【バグ報告】新しい報告が届きました",
-        text: `${description}\n\nページ: ${pageUrl}\n環境: ${env}`,
+        subject: `【バグ報告】新しい報告が届きました (${ref})`,
+        text: `${description}\n\n受付番号: ${ref}\nページ: ${pageUrl}\n環境: ${env}`,
       }),
     });
     if (!res.ok) {
@@ -138,7 +152,17 @@ export const POST: APIRoute = async ({ request }) => {
     return jsonResponse({ ok: true }, 200);
   }
 
-  const description = str(body.description, MAX_LEN.description);
+  const userText = str(body.description, MAX_LEN.description);
+  const category = str(body.category, MAX_LEN.str);
+  const articleTitle = str(body.articleTitle, 150);
+  // Context goes in front of what the reader wrote.
+  const prefix = [
+    CATEGORIES.has(category) ? `【種類: ${category}】` : "",
+    articleTitle ? `【記事: ${articleTitle}】` : "",
+  ]
+    .filter(Boolean)
+    .join("");
+  const description = userText ? (prefix ? `${prefix}\n${userText}` : userText) : "";
   const email = str(body.email, MAX_LEN.email);
   if (!description) {
     return jsonResponse({ error: "missing_fields" }, 400);
@@ -175,12 +199,13 @@ export const POST: APIRoute = async ({ request }) => {
   if (viewportHeight !== null) fields["Viewport Height"] = viewportHeight;
   if (ip) fields["IP Address"] = ip;
 
-  const saved = await saveToAirtable(fields, apiKey);
-  if (!saved) {
+  const recordId = await saveToAirtable(fields, apiKey);
+  if (!recordId) {
     return jsonResponse({ error: "insert_failed" }, 500);
   }
+  const ref = referenceNumber(recordId);
 
-  await notifyByEmail(description, pageUrl || "(不明)", `${deviceType} / ${browser} / ${os}`);
+  await notifyByEmail(description, pageUrl || "(不明)", `${deviceType} / ${browser} / ${os}`, ref);
 
-  return jsonResponse({ ok: true }, 200);
+  return jsonResponse({ ok: true, ref }, 200);
 };
