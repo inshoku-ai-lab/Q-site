@@ -97,6 +97,20 @@ export function getPublishedPosts(): Post[] {
   return allPosts.filter((p) => p.status === "Published" || p.status === "Review");
 }
 
+// The slug as a getStaticPaths param. Astro 6+ decodes the request path
+// before matching it against params, so a slug stored percent-encoded (the
+// posts migrated from WordPress, e.g. "%e5%a4%a7...") must be handed to Astro
+// decoded or the build fails with NoMatchingStaticPathFound. Links keep using
+// the stored slug -- both spellings are the same URL. A no-op for plain
+// ASCII slugs, and for a stored "%" that isn't valid encoding.
+export function routeSlug(slug: string): string {
+  try {
+    return decodeURIComponent(slug);
+  } catch {
+    return slug;
+  }
+}
+
 export function getPostBySlug(slug: string): Post | undefined {
   return allPosts.find((p) => p.slug === slug);
 }

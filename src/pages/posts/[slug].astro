@@ -13,6 +13,7 @@ import {
   formatDate,
   formatDateShort,
   splitMemberContent,
+  routeSlug,
 } from "../../lib/posts";
 import { extractToc } from "../../lib/toc";
 import { getImageDimensions } from "../../lib/imageDimensions";
@@ -21,7 +22,7 @@ import { seriesHref } from "../../lib/seriesMeta";
 
 export async function getStaticPaths() {
   return getPublishedPosts().map((post) => ({
-    params: { slug: post.slug },
+    params: { slug: routeSlug(post.slug) },
     props: { post },
   }));
 }
@@ -198,12 +199,12 @@ const fontSizes = [
       }
 
       {
+        // Empty at build time -- member-content-body is filled by client-side
+        // JS only for a logged-in member, after Pagefind has already indexed
+        // this static HTML, so there is nothing here for it to pick up. The
+        // ignore attribute is defense-in-depth: it also keeps the gate copy
+        // above out of every locked article's search snippet.
         hasMemberContent && (
-          <!-- Empty at build time -- member-content-body is filled by client-side
-               JS only for a logged-in member, after Pagefind has already indexed
-               this static HTML, so there is nothing here for it to pick up. The
-               ignore attribute is defense-in-depth: it also keeps the gate copy
-               above out of every locked article's search snippet. -->
           <div id="member-content" class="hidden px-5 md:px-0 md:max-w-[680px]" data-pagefind-ignore>
             <div id="member-content-skeleton" class="space-y-3 mt-6 animate-pulse" aria-hidden="true">
               <div class="h-4 bg-rule w-full" />

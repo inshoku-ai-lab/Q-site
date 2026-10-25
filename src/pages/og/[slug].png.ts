@@ -2,7 +2,7 @@ export const prerender = true;
 
 import type { APIRoute } from "astro";
 import { ImageResponse } from "@vercel/og";
-import { getPublishedPosts, categoryAccent } from "../../lib/posts";
+import { getPublishedPosts, categoryAccent, routeSlug } from "../../lib/posts";
 
 // Only generate a card for posts without their own cover photo -- posts.astro
 // falls back to a real photo when one exists, which reads better than a
@@ -10,7 +10,7 @@ import { getPublishedPosts, categoryAccent } from "../../lib/posts";
 export async function getStaticPaths() {
   return getPublishedPosts()
     .filter((post) => !post.cover)
-    .map((post) => ({ params: { slug: post.slug } }));
+    .map((post) => ({ params: { slug: routeSlug(post.slug) } }));
 }
 
 const ACCENT_HEX: Record<string, string> = {
@@ -46,7 +46,7 @@ async function loadFont(): Promise<ArrayBuffer> {
 }
 
 export const GET: APIRoute = async ({ params }) => {
-  const post = getPublishedPosts().find((p) => p.slug === params.slug);
+  const post = getPublishedPosts().find((p) => routeSlug(p.slug) === params.slug);
   if (!post) return new Response("Not found", { status: 404 });
 
   const accent = ACCENT_HEX[categoryAccent(post.category)] ?? ACCENT_HEX.ink;

@@ -3,7 +3,6 @@ import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { defineConfig } from "astro/config";
-import tailwind from "@astrojs/tailwind";
 import sitemap from "@astrojs/sitemap";
 import vercel from "@astrojs/vercel";
 
@@ -45,7 +44,6 @@ export default defineConfig({
   output: "server",
   adapter: vercel(),
   integrations: [
-    tailwind({ applyBaseStyles: false }),
     sitemap({
       // Pages that carry <meta name="robots" content="noindex"> must not
       // be advertised in the sitemap -- submitting a URL for indexing and
@@ -60,5 +58,17 @@ export default defineConfig({
   redirects: legacyPostRedirects(),
   build: {
     format: "directory",
+  },
+  vite: {
+    // Vite 8 (Astro 7) defaults to "baseline-widely-available", which emits
+    // media-query range syntax like `@media (width<=767px)` that iOS Safari
+    // before 16.4 ignores -- the mobile/desktop layout switch would silently
+    // stop working there. These are the targets Astro 5 / Vite 6 used, so
+    // the site keeps supporting the same browsers it did. Raise them only
+    // when dropping those older iPhones is a deliberate choice.
+    build: {
+      target: ["edge88", "firefox78", "chrome87", "safari14"],
+      cssTarget: ["edge88", "firefox78", "chrome87", "safari14"],
+    },
   },
 });
