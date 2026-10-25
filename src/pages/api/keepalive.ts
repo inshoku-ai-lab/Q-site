@@ -10,11 +10,13 @@ import { jsonResponse } from "../../lib/http";
 // scripts/add-vercel-crons.mjs) and it runs one trivial query, which is
 // enough to count as activity.
 //
-// Vercel sends `Authorization: Bearer $CRON_SECRET` with cron requests
-// when CRON_SECRET is set; with it set, nobody else can trigger this.
+// Vercel sends `Authorization: Bearer $CRON_SECRET` with cron requests.
+// Without CRON_SECRET set the endpoint refuses everyone (fail closed) --
+// so if the keep-alive cron starts returning 403, set CRON_SECRET in the
+// Vercel project rather than loosening this check.
 export const GET: APIRoute = async ({ request }) => {
   const secret = import.meta.env.CRON_SECRET ?? process.env.CRON_SECRET;
-  if (secret && request.headers.get("authorization") !== `Bearer ${secret}`) {
+  if (!secret || request.headers.get("authorization") !== `Bearer ${secret}`) {
     return jsonResponse({ error: "forbidden" }, 403);
   }
 

@@ -179,7 +179,10 @@ cp -r ~/Desktop/qryp-images/images/wp/* public/images/wp/
 の各テーブルで **RLS が有効で、かつ適切なポリシーが設定されていること**が、
 会員のメールアドレスが外部から読まれないための最後の砦です。
 
-- `members`: 本人の行のみ `select` 可 (`auth.uid() = auth_user_id`)。`insert` は本人分のみ。
+- `members`: 本人の行のみ `select` 可 (`auth.uid() = auth_user_id`)。`insert` のポリシーは**置かない**。
+  会員登録は `/api/auth/callback` が同意の確認のあとに service role で書き込む
+  (ブラウザから直接 insert できると、同意を飛ばしたりメール欄・管理メモ欄を自由に書けてしまう)。
+  旧ポリシーが残っていれば `drop policy if exists "members can insert own row" on public.members;` で外す。
 - `contact_messages` / `admin_access_log` / `member_stats_archive` / `admin_allowlist`:
   anon・authenticated からのポリシーを一切与えない (service role 専用)。
 

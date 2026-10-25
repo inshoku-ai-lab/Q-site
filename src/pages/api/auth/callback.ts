@@ -3,7 +3,8 @@ export const prerender = false;
 import type { APIRoute } from "astro";
 import { createSupabaseServerClient } from "../../../lib/supabase/server";
 import { getMember } from "../../../lib/members";
-import { isAdminEmail } from "../../../lib/admin";
+import { hasVerifiedGoogleEmail, isAdminEmail } from "../../../lib/admin";
+import { createSupabaseAdminClient } from "../../../lib/supabase/admin";
 import { safeRedirectPath } from "../../../lib/http";
 
 const VALID_REASONS = ["financial", "referral", "other"];
@@ -38,7 +39,7 @@ export const GET: APIRoute = async ({ request, cookies, redirect, url }) => {
   // a 旅路の証人 member, so an allowlisted admin (Google only, whose
   // address Google has verified) skips member registration entirely.
   const isAdminLogin =
-    !existingMember && provider === "google" && Boolean(user.email) && (await isAdminEmail(user.email));
+    !existingMember && hasVerifiedGoogleEmail(user) && (await isAdminEmail(user.email));
 
   // Where the reader asked to go. Prefer the cookie set right before the
   // OAuth redirect over the "ref" query param -- some providers' redirect
@@ -69,7 +70,12 @@ export const GET: APIRoute = async ({ request, cookies, redirect, url }) => {
     // link to somewhere else.
     const referrerPath = referrer ? safeRedirectPath(referrer, "") : "";
 
-    const { error: insertError } = await supabase.from("members").insert({
+    // Written with the service role, after the agreement check above, so
+    // the members table needs no insert policy for signed-in users (README
+    // "Supabase の RLS"). Without that policy nobody can register
+    // themselves -- or pick their own email / admin_note -- by calling
+    // Supabase directly and skipping this check.
+    const { error: insertError } = await createSupabaseAdminClient().from("members").insert({
       auth_user_id: user.id,
       email: user.email ?? "",
       display_name: user.user_metadata?.full_name ?? user.user_metadata?.name ?? null,
